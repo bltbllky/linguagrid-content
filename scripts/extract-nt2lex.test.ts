@@ -86,6 +86,25 @@ describe('selectWords', () => {
     assert.equal(words[0].id, top[1].id);
   });
 
+  it('uses a curated id list in its own order instead of frequency', () => {
+    const candidates = extractCandidates(TSV);
+    const words = selectWords(candidates, { A1: 2 }, new Set(), {
+      A1: ['noun-ziekenhuis', 'noun-afspraak', 'noun-huis'],
+    });
+
+    assert.deepEqual(
+      words.map((w) => w.id),
+      ['noun-ziekenhuis', 'noun-afspraak'],
+    );
+  });
+
+  it('rejects curated ids that are not candidates of that level', () => {
+    assert.throws(
+      () => selectWords(extractCandidates(TSV), { A1: 1 }, new Set(), { A1: ['noun-walvis'] }),
+      /Not A1 candidates: noun-walvis/,
+    );
+  });
+
   it('produces the same ids on every run', () => {
     const first = selectWords(extractCandidates(TSV), { A1: 7, A2: 0 });
     const second = selectWords(extractCandidates(TSV), { A1: 7, A2: 0 });

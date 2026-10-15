@@ -51,12 +51,28 @@ export function selectWords(
   candidates: Candidate[],
   counts: Partial<Record<Level, number>>,
   excluded: ReadonlySet<string> = new Set(),
+  curated: Partial<Record<Level, string[]>> = {},
 ): Word[] {
-  return LEVELS.flatMap((level) =>
-    candidates
-      .filter((c) => c.cefr === level && !excluded.has(c.id))
-      .sort((a, b) => b.frequency - a.frequency || a.lemma_nl.localeCompare(b.lemma_nl))
+  return LEVELS.flatMap((level) => {
+    const pool = candidates.filter((c) => c.cefr === level && !excluded.has(c.id));
+    const chosen = curated[level] ? pickCurated(pool, curated[level], level) : byFrequency(pool);
+    return chosen
       .slice(0, counts[level] ?? 0)
-      .map(({ id, lemma_nl, pos, cefr, source }) => ({ id, lemma_nl, pos, cefr, source })),
-  );
+      .map(({ id, lemma_nl, pos, cefr, source }) => ({ id, lemma_nl, pos, cefr, source }));
+  });
+}
+
+function byFrequency(pool: Candidate[]): Candidate[] {
+  return [...pool].sort((a, b) => b.frequency - a.frequency || a.lemma_nl.localeCompare(b.lemma_nl));
+}
+
+/**
+ * Uses a hand-curated id list (chosen for everyday relevance) in its own order. Every id must be a
+ * candidate of that level, so the level itself still comes from NT2Lex (ADR-007).
+ */
+function pickCurated(pool: Candidate[], ids: string[], level: Level): Candidate[] {
+  const byId = new Map(pool.map((c) => [c.id, c]));
+  const unknown = ids.filter((id) => !byId.has(id));
+  if (unknown.length) throw new Error(`Not ${level} candidates: ${unknown.join(', ')}`);
+  return ids.map((id) => byId.get(id)!);
 }
