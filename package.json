@@ -8,7 +8,9 @@
     "typecheck": "tsc --noEmit",
     "build-site": "tsx scripts/cli/build-site.ts",
     "extract": "tsx scripts/cli/extract.ts",
-    "export-review": "tsx scripts/cli/export-review.ts"
+    "export-review": "tsx scripts/cli/export-review.ts",
+    "import-review": "tsx scripts/cli/import-review.ts",
+    "release": "tsx scripts/cli/build-release.ts"
   },
   "repository": {
     "type": "git",
