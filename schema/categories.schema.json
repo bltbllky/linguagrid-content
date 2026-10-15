@@ -1,0 +1,15 @@
+{
+  "$id": "categories",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["id", "title_tr", "cefr", "order"],
+    "properties": {
+      "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+      "title_tr": { "type": "string", "minLength": 1 },
+      "cefr": { "enum": ["A1", "A2", "B1", "B2", "C1"] },
+      "order": { "type": "integer", "minimum": 0 }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "$id": "annotations",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["word_id", "text_tr", "article", "category_id", "reviewed"],
+    "properties": {
+      "word_id": { "type": "string" },
+      "text_tr": { "type": "string" },
+      "article": { "enum": ["de", "het", null] },
+      "category_id": { "type": "string" },
+      "reviewed": { "type": "boolean" }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "$id": "words",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["id", "lemma_nl", "pos", "cefr", "source"],
+    "properties": {
+      "id": { "type": "string", "pattern": "^(noun|verb|adj)-[a-zà-ÿ]+$" },
+      "lemma_nl": { "type": "string", "minLength": 1 },
+      "pos": { "enum": ["noun", "verb", "adj"] },
+      "cefr": { "enum": ["A1", "A2", "B1", "B2", "C1"] },
+      "source": { "enum": ["nt2lex", "own"] }
+    }
+  }
+}
