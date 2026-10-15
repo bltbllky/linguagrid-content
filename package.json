@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "LinguaGrid word data, pipeline and validation",
   "scripts": {
-    "validate": "tsx scripts/validate.ts",
-    "test": "node --import tsx --test --experimental-test-coverage --test-coverage-lines=90 --test-coverage-include='scripts/**/*.ts' --test-coverage-exclude='scripts/**/*.test.ts' --test-coverage-exclude='scripts/fixtures/**' 'scripts/**/*.test.ts'",
+    "validate": "tsx scripts/cli/validate.ts",
+    "test": "node --import tsx --test --experimental-test-coverage --test-coverage-lines=90 --test-coverage-include='scripts/**/*.ts' --test-coverage-exclude='scripts/**/*.test.ts' --test-coverage-exclude='scripts/fixtures/**' --test-coverage-exclude='scripts/cli/**' 'scripts/**/*.test.ts'",
     "typecheck": "tsc --noEmit",
-    "build-site": "tsx scripts/build-site.ts"
+    "build-site": "tsx scripts/cli/build-site.ts",
+    "extract": "tsx scripts/cli/extract.ts"
   },
   "repository": {
     "type": "git",

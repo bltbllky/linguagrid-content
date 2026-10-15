@@ -12,9 +12,3 @@ export function buildSite(root = ROOT, outDir = join(root, 'public')): string[] 
   for (const entry of copied) cpSync(join(root, entry), join(outDir, entry), { recursive: true });
   return copied;
 }
-
-/* node:coverage disable */
-if (process.argv[1] === import.meta.filename) {
-  console.log(`Published: ${buildSite().join(', ')}`);
-}
-/* node:coverage enable */
