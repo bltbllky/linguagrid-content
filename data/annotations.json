@@ -1,1 +1,2802 @@
-[]
+[
+  {
+    "word_id": "verb-zijn",
+    "text_tr": "olmak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-hebben",
+    "text_tr": "sahip olmak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-gaan",
+    "text_tr": "gitmek",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-zeggen",
+    "text_tr": "söylemek",
+    "article": null,
+    "category_id": "a1-communication",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-vinden",
+    "text_tr": "bulmak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-huis",
+    "text_tr": "ev",
+    "article": "het",
+    "category_id": "a1-home",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-goed",
+    "text_tr": "iyi",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-moeder",
+    "text_tr": "anne",
+    "article": "de",
+    "category_id": "a1-people",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-willen",
+    "text_tr": "istemek",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-heel",
+    "text_tr": "bütün",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-kunnen",
+    "text_tr": "-ebilmek",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-moeten",
+    "text_tr": "zorunda olmak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-praten",
+    "text_tr": "sohbet etmek",
+    "article": null,
+    "category_id": "a1-communication",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-wonen",
+    "text_tr": "bir yerde yaşamak",
+    "article": null,
+    "category_id": "a1-home",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-familie",
+    "text_tr": "aile",
+    "article": "de",
+    "category_id": "a1-people",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-mens",
+    "text_tr": "insan",
+    "article": "de",
+    "category_id": "a1-people",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-heten",
+    "text_tr": "adı … olmak",
+    "article": null,
+    "category_id": "a1-communication",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-leuk",
+    "text_tr": "eğlenceli",
+    "article": null,
+    "category_id": "a1-feelings",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-denken",
+    "text_tr": "düşünmek",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-lopen",
+    "text_tr": "yürümek",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-zien",
+    "text_tr": "görmek",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-kijken",
+    "text_tr": "bakmak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-doen",
+    "text_tr": "yapmak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-blij",
+    "text_tr": "sevinçli",
+    "article": null,
+    "category_id": "a1-feelings",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-school",
+    "text_tr": "okul",
+    "article": "de",
+    "category_id": "a1-school-work",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-jaar",
+    "text_tr": "yıl",
+    "article": "het",
+    "category_id": "a1-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-eten",
+    "text_tr": "yemek yemek",
+    "article": null,
+    "category_id": "a1-food",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-komen",
+    "text_tr": "gelmek",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-ander",
+    "text_tr": "başka",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-vragen",
+    "text_tr": "sormak",
+    "article": null,
+    "category_id": "a1-communication",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-erg",
+    "text_tr": "berbat",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-vrouw",
+    "text_tr": "kadın",
+    "article": "de",
+    "category_id": "a1-people",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-snel",
+    "text_tr": "hızlı",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-kleed",
+    "text_tr": "örtü, halı",
+    "article": "het",
+    "category_id": "a1-home",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-geven",
+    "text_tr": "vermek",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-dag",
+    "text_tr": "gün",
+    "article": "de",
+    "category_id": "a1-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-werken",
+    "text_tr": "çalışmak",
+    "article": null,
+    "category_id": "a1-school-work",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-strand",
+    "text_tr": "plaj",
+    "article": "het",
+    "category_id": "a1-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-zitten",
+    "text_tr": "oturmak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-vriendin",
+    "text_tr": "kız arkadaş",
+    "article": "de",
+    "category_id": "a1-people",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-lang",
+    "text_tr": "uzun",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-vriend",
+    "text_tr": "arkadaş",
+    "article": "de",
+    "category_id": "a1-people",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-zoeken",
+    "text_tr": "aramak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-brief",
+    "text_tr": "mektup",
+    "article": "de",
+    "category_id": "a1-communication",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-haar",
+    "text_tr": "saç",
+    "article": "het",
+    "category_id": "a1-body-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-staan",
+    "text_tr": "ayakta durmak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-boot",
+    "text_tr": "tekne",
+    "article": "de",
+    "category_id": "a1-city-travel",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-werk",
+    "text_tr": "iş",
+    "article": "het",
+    "category_id": "a1-school-work",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-groot",
+    "text_tr": "büyük",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-kopen",
+    "text_tr": "satın almak",
+    "article": null,
+    "category_id": "a1-shopping",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-auto",
+    "text_tr": "araba",
+    "article": "de",
+    "category_id": "a1-city-travel",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-bang",
+    "text_tr": "korkmuş",
+    "article": null,
+    "category_id": "a1-feelings",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-hond",
+    "text_tr": "köpek",
+    "article": "de",
+    "category_id": "a1-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-maken",
+    "text_tr": "yapmak (üretmek)",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-lachen",
+    "text_tr": "gülmek",
+    "article": null,
+    "category_id": "a1-feelings",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-oud",
+    "text_tr": "yaşlı, eski",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-klein",
+    "text_tr": "küçük",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-kind",
+    "text_tr": "çocuk",
+    "article": "het",
+    "category_id": "a1-people",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-worden",
+    "text_tr": "haline gelmek",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-probleem",
+    "text_tr": "sorun",
+    "article": "het",
+    "category_id": "a1-communication",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-schreeuwen",
+    "text_tr": "bağırmak",
+    "article": null,
+    "category_id": "a1-communication",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-liggen",
+    "text_tr": "uzanmak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-drinken",
+    "text_tr": "içmek",
+    "article": null,
+    "category_id": "a1-food",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-geld",
+    "text_tr": "para",
+    "article": "het",
+    "category_id": "a1-shopping",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-man",
+    "text_tr": "adam",
+    "article": "de",
+    "category_id": "a1-people",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-krijgen",
+    "text_tr": "elde etmek",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-vader",
+    "text_tr": "baba",
+    "article": "de",
+    "category_id": "a1-people",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-nieuw",
+    "text_tr": "yeni",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-kamer",
+    "text_tr": "oda",
+    "article": "de",
+    "category_id": "a1-home",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-pakken",
+    "text_tr": "kapmak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bus",
+    "text_tr": "otobüs",
+    "article": "de",
+    "category_id": "a1-city-travel",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-blaffen",
+    "text_tr": "havlamak",
+    "article": null,
+    "category_id": "a1-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-rennen",
+    "text_tr": "koşmak",
+    "article": null,
+    "category_id": "a1-free-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-eten",
+    "text_tr": "yemek",
+    "article": "het",
+    "category_id": "a1-food",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-mooi",
+    "text_tr": "güzel",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-meisje",
+    "text_tr": "kız",
+    "article": "het",
+    "category_id": "a1-people",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-koffie",
+    "text_tr": "kahve",
+    "article": "de",
+    "category_id": "a1-food",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-keer",
+    "text_tr": "kez",
+    "article": "de",
+    "category_id": "a1-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-zomer",
+    "text_tr": "yaz",
+    "article": "de",
+    "category_id": "a1-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-slaapkamer",
+    "text_tr": "yatak odası",
+    "article": "de",
+    "category_id": "a1-home",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-vertellen",
+    "text_tr": "anlatmak",
+    "article": null,
+    "category_id": "a1-communication",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-rood",
+    "text_tr": "kırmızı",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-vroeg",
+    "text_tr": "erken",
+    "article": null,
+    "category_id": "a1-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-verdrietig",
+    "text_tr": "üzgün",
+    "article": null,
+    "category_id": "a1-feelings",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-kennen",
+    "text_tr": "tanımak",
+    "article": null,
+    "category_id": "a1-people",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-volgen",
+    "text_tr": "takip etmek",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-begrijpen",
+    "text_tr": "anlamak",
+    "article": null,
+    "category_id": "a1-communication",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-fijn",
+    "text_tr": "hoş",
+    "article": null,
+    "category_id": "a1-feelings",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-mogen",
+    "text_tr": "izni olmak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-ouder",
+    "text_tr": "ebeveyn",
+    "article": "de",
+    "category_id": "a1-people",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-lekker",
+    "text_tr": "lezzetli",
+    "article": null,
+    "category_id": "a1-food",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-trein",
+    "text_tr": "tren",
+    "article": "de",
+    "category_id": "a1-city-travel",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-horen",
+    "text_tr": "duymak",
+    "article": null,
+    "category_id": "a1-body-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-lezen",
+    "text_tr": "okumak",
+    "article": null,
+    "category_id": "a1-school-work",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-normaal",
+    "text_tr": "normal",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-les",
+    "text_tr": "ders",
+    "article": "de",
+    "category_id": "a1-school-work",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-boek",
+    "text_tr": "kitap",
+    "article": "het",
+    "category_id": "a1-school-work",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-slapen",
+    "text_tr": "uyumak",
+    "article": null,
+    "category_id": "a1-home",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-houden",
+    "text_tr": "tutmak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-keuken",
+    "text_tr": "mutfak",
+    "article": "de",
+    "category_id": "a1-home",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-zus",
+    "text_tr": "kız kardeş",
+    "article": "de",
+    "category_id": "a1-people",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-schrijven",
+    "text_tr": "yazmak",
+    "article": null,
+    "category_id": "a1-school-work",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-winkel",
+    "text_tr": "dükkân",
+    "article": "de",
+    "category_id": "a1-shopping",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-vaak",
+    "text_tr": "sık",
+    "article": null,
+    "category_id": "a1-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-laat",
+    "text_tr": "geç",
+    "article": null,
+    "category_id": "a1-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-week",
+    "text_tr": "hafta",
+    "article": "de",
+    "category_id": "a1-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-spreken",
+    "text_tr": "konuşmak",
+    "article": null,
+    "category_id": "a1-communication",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-ding",
+    "text_tr": "şey",
+    "article": "het",
+    "category_id": "a1-home",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-nodig",
+    "text_tr": "gerekli",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-kop",
+    "text_tr": "fincan",
+    "article": "de",
+    "category_id": "a1-food",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-broer",
+    "text_tr": "erkek kardeş",
+    "article": "de",
+    "category_id": "a1-people",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-rijden",
+    "text_tr": "taşıtla gitmek",
+    "article": null,
+    "category_id": "a1-city-travel",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-nemen",
+    "text_tr": "almak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-helpen",
+    "text_tr": "yardım etmek",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-weten",
+    "text_tr": "bilmek",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-oog",
+    "text_tr": "göz",
+    "article": "het",
+    "category_id": "a1-body-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-hoofdstuk",
+    "text_tr": "bölüm (kitap)",
+    "article": "het",
+    "category_id": "a1-school-work",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-leerling",
+    "text_tr": "öğrenci",
+    "article": "de",
+    "category_id": "a1-school-work",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-tuin",
+    "text_tr": "bahçe",
+    "article": "de",
+    "category_id": "a1-home",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-mevrouw",
+    "text_tr": "hanımefendi",
+    "article": "de",
+    "category_id": "a1-people",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-betalen",
+    "text_tr": "ödemek",
+    "article": null,
+    "category_id": "a1-shopping",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-buschauffeur",
+    "text_tr": "otobüs şoförü",
+    "article": "de",
+    "category_id": "a1-city-travel",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-leggen",
+    "text_tr": "yatırmak, koymak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bank",
+    "text_tr": "banka",
+    "article": "de",
+    "category_id": "a1-shopping",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-zacht",
+    "text_tr": "yumuşak",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-eiland",
+    "text_tr": "ada",
+    "article": "het",
+    "category_id": "a1-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-uur",
+    "text_tr": "saat (süre)",
+    "article": "het",
+    "category_id": "a1-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-vertrekken",
+    "text_tr": "yola çıkmak",
+    "article": null,
+    "category_id": "a1-city-travel",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-naam",
+    "text_tr": "isim",
+    "article": "de",
+    "category_id": "a1-communication",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-vakantie",
+    "text_tr": "tatil",
+    "article": "de",
+    "category_id": "a1-free-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-maand",
+    "text_tr": "ay",
+    "article": "de",
+    "category_id": "a1-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-bellen",
+    "text_tr": "telefon etmek",
+    "article": null,
+    "category_id": "a1-communication",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-arm",
+    "text_tr": "fakir",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-plan",
+    "text_tr": "plan",
+    "article": "het",
+    "category_id": "a1-free-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-tafel",
+    "text_tr": "masa",
+    "article": "de",
+    "category_id": "a1-home",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-fles",
+    "text_tr": "şişe",
+    "article": "de",
+    "category_id": "a1-food",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-minuut",
+    "text_tr": "dakika",
+    "article": "de",
+    "category_id": "a1-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-station",
+    "text_tr": "istasyon",
+    "article": "het",
+    "category_id": "a1-city-travel",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-muziek",
+    "text_tr": "müzik",
+    "article": "de",
+    "category_id": "a1-free-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-stok",
+    "text_tr": "sopa",
+    "article": "de",
+    "category_id": "a1-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-aardig",
+    "text_tr": "nazik",
+    "article": null,
+    "category_id": "a1-feelings",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-dansfeest",
+    "text_tr": "dans partisi",
+    "article": "het",
+    "category_id": "a1-free-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-fiets",
+    "text_tr": "bisiklet",
+    "article": "de",
+    "category_id": "a1-city-travel",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-baas",
+    "text_tr": "patron",
+    "article": "de",
+    "category_id": "a1-school-work",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-spelen",
+    "text_tr": "oynamak",
+    "article": null,
+    "category_id": "a1-free-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-paar",
+    "text_tr": "çift",
+    "article": "het",
+    "category_id": "a1-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bed",
+    "text_tr": "yatak",
+    "article": "het",
+    "category_id": "a1-home",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-dochter",
+    "text_tr": "kız evlat",
+    "article": "de",
+    "category_id": "a1-people",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-hard",
+    "text_tr": "sert",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-open",
+    "text_tr": "açık",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-badkamer",
+    "text_tr": "banyo",
+    "article": "de",
+    "category_id": "a1-home",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-woonkamer",
+    "text_tr": "oturma odası",
+    "article": "de",
+    "category_id": "a1-home",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-lief",
+    "text_tr": "sevimli",
+    "article": null,
+    "category_id": "a1-feelings",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-eenzaam",
+    "text_tr": "yalnız",
+    "article": null,
+    "category_id": "a1-feelings",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-thee",
+    "text_tr": "çay",
+    "article": "de",
+    "category_id": "a1-food",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-belangrijk",
+    "text_tr": "önemli",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-dorp",
+    "text_tr": "köy",
+    "article": "het",
+    "category_id": "a1-city-travel",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-ziek",
+    "text_tr": "hasta",
+    "article": null,
+    "category_id": "a1-body-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-beginnen",
+    "text_tr": "başlamak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-stem",
+    "text_tr": "ses (insan sesi)",
+    "article": "de",
+    "category_id": "a1-body-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-fietsen",
+    "text_tr": "bisiklete binmek",
+    "article": null,
+    "category_id": "a1-free-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-deur",
+    "text_tr": "kapı",
+    "article": "de",
+    "category_id": "a1-home",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-blauw",
+    "text_tr": "mavi",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-dansen",
+    "text_tr": "dans etmek",
+    "article": null,
+    "category_id": "a1-free-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-vliegveld",
+    "text_tr": "havalimanı",
+    "article": "het",
+    "category_id": "a1-city-travel",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-wit",
+    "text_tr": "beyaz",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-appartement",
+    "text_tr": "daire",
+    "article": "het",
+    "category_id": "a1-home",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-vreemd",
+    "text_tr": "tuhaf",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-café",
+    "text_tr": "kafe",
+    "article": "het",
+    "category_id": "a1-city-travel",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-wassen",
+    "text_tr": "yıkamak",
+    "article": null,
+    "category_id": "a1-home",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-weekend",
+    "text_tr": "hafta sonu",
+    "article": "het",
+    "category_id": "a1-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-ochtend",
+    "text_tr": "sabah",
+    "article": "de",
+    "category_id": "a1-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-gelukkig",
+    "text_tr": "mutlu",
+    "article": null,
+    "category_id": "a1-feelings",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-fruit",
+    "text_tr": "meyve",
+    "article": "het",
+    "category_id": "a1-food",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-engels",
+    "text_tr": "İngilizce",
+    "article": null,
+    "category_id": "a1-communication",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-water",
+    "text_tr": "su",
+    "article": "het",
+    "category_id": "a1-food",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-kort",
+    "text_tr": "kısa",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-ver",
+    "text_tr": "uzak",
+    "article": null,
+    "category_id": "a1-city-travel",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-blond",
+    "text_tr": "sarışın",
+    "article": null,
+    "category_id": "a1-body-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-inwonen",
+    "text_tr": "birinin yanında kalmak",
+    "article": null,
+    "category_id": "a1-home",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-kus",
+    "text_tr": "öpücük",
+    "article": "de",
+    "category_id": "a1-people",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-sportschool",
+    "text_tr": "spor salonu",
+    "article": "de",
+    "category_id": "a1-free-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-brengen",
+    "text_tr": "getirmek",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-website",
+    "text_tr": "web sitesi",
+    "article": "de",
+    "category_id": "a1-communication",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-luisteren",
+    "text_tr": "dinlemek",
+    "article": null,
+    "category_id": "a1-communication",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-stad",
+    "text_tr": "şehir",
+    "article": "de",
+    "category_id": "a1-city-travel",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-gebruiken",
+    "text_tr": "kullanmak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-nederlands",
+    "text_tr": "Hollandaca",
+    "article": null,
+    "category_id": "a1-communication",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-vliegtuig",
+    "text_tr": "uçak",
+    "article": "het",
+    "category_id": "a1-city-travel",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-reis",
+    "text_tr": "yolculuk",
+    "article": "de",
+    "category_id": "a1-free-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-verkopen",
+    "text_tr": "satmak",
+    "article": null,
+    "category_id": "a1-shopping",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-voet",
+    "text_tr": "ayak",
+    "article": "de",
+    "category_id": "a1-body-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-stappen",
+    "text_tr": "adım atmak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-kaart",
+    "text_tr": "kart, harita",
+    "article": "de",
+    "category_id": "a1-city-travel",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-leren",
+    "text_tr": "öğrenmek",
+    "article": null,
+    "category_id": "a1-school-work",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-bruin",
+    "text_tr": "kahverengi",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-mager",
+    "text_tr": "zayıf",
+    "article": null,
+    "category_id": "a1-body-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-koek",
+    "text_tr": "kurabiye",
+    "article": "de",
+    "category_id": "a1-food",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-zoon",
+    "text_tr": "oğul",
+    "article": "de",
+    "category_id": "a1-people",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-boterham",
+    "text_tr": "ekmek dilimi",
+    "article": "de",
+    "category_id": "a1-food",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-verbaasd",
+    "text_tr": "şaşkın",
+    "article": null,
+    "category_id": "a1-feelings",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-passen",
+    "text_tr": "uymak (beden)",
+    "article": null,
+    "category_id": "a1-clothes",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-telefoon",
+    "text_tr": "telefon",
+    "article": "de",
+    "category_id": "a1-communication",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-toilet",
+    "text_tr": "tuvalet",
+    "article": "het",
+    "category_id": "a1-home",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-schoon",
+    "text_tr": "temiz",
+    "article": null,
+    "category_id": "a1-home",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-lerares",
+    "text_tr": "kadın öğretmen",
+    "article": "de",
+    "category_id": "a1-school-work",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bushalte",
+    "text_tr": "otobüs durağı",
+    "article": "de",
+    "category_id": "a1-city-travel",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-klas",
+    "text_tr": "sınıf",
+    "article": "de",
+    "category_id": "a1-school-work",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-groet",
+    "text_tr": "selam",
+    "article": "de",
+    "category_id": "a1-communication",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-trouwen",
+    "text_tr": "evlenmek",
+    "article": null,
+    "category_id": "a1-people",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-studeren",
+    "text_tr": "öğrenim görmek",
+    "article": null,
+    "category_id": "a1-school-work",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-horloge",
+    "text_tr": "kol saati",
+    "article": "het",
+    "category_id": "a1-clothes",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-trekken",
+    "text_tr": "çekmek",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-televisie",
+    "text_tr": "televizyon",
+    "article": "de",
+    "category_id": "a1-free-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-antwoord",
+    "text_tr": "cevap",
+    "article": "het",
+    "category_id": "a1-communication",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-jas",
+    "text_tr": "mont",
+    "article": "de",
+    "category_id": "a1-clothes",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-jong",
+    "text_tr": "genç",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-laten",
+    "text_tr": "bırakmak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-ongelukkig",
+    "text_tr": "mutsuz",
+    "article": null,
+    "category_id": "a1-feelings",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-winter",
+    "text_tr": "kış",
+    "article": "de",
+    "category_id": "a1-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-grijs",
+    "text_tr": "gri",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-meneer",
+    "text_tr": "beyefendi",
+    "article": "de",
+    "category_id": "a1-people",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-glimlachen",
+    "text_tr": "gülümsemek",
+    "article": null,
+    "category_id": "a1-feelings",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-organisatie",
+    "text_tr": "organizasyon",
+    "article": "de",
+    "category_id": "a1-school-work",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-internet",
+    "text_tr": "internet",
+    "article": "het",
+    "category_id": "a1-communication",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-antwoorden",
+    "text_tr": "cevap vermek",
+    "article": null,
+    "category_id": "a1-communication",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-hulp",
+    "text_tr": "yardım",
+    "article": "de",
+    "category_id": "a1-communication",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-land",
+    "text_tr": "ülke",
+    "article": "het",
+    "category_id": "a1-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-bijzonder",
+    "text_tr": "olağanüstü",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-moeilijk",
+    "text_tr": "zor",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-riem",
+    "text_tr": "kemer",
+    "article": "de",
+    "category_id": "a1-clothes",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-bedanken",
+    "text_tr": "teşekkür etmek",
+    "article": null,
+    "category_id": "a1-communication",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-zee",
+    "text_tr": "deniz",
+    "article": "de",
+    "category_id": "a1-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-zwemmen",
+    "text_tr": "yüzmek",
+    "article": null,
+    "category_id": "a1-free-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-kat",
+    "text_tr": "kedi",
+    "article": "de",
+    "category_id": "a1-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-cadeau",
+    "text_tr": "hediye",
+    "article": "het",
+    "category_id": "a1-shopping",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-hamburger",
+    "text_tr": "hamburger",
+    "article": "de",
+    "category_id": "a1-food",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-kilometer",
+    "text_tr": "kilometre",
+    "article": "de",
+    "category_id": "a1-city-travel",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-rechts",
+    "text_tr": "sağ",
+    "article": null,
+    "category_id": "a1-city-travel",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-woning",
+    "text_tr": "konut",
+    "article": "de",
+    "category_id": "a1-home",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-besturen",
+    "text_tr": "yönetmek",
+    "article": null,
+    "category_id": "a1-school-work",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-wiskunde",
+    "text_tr": "matematik",
+    "article": "de",
+    "category_id": "a1-school-work",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-welkom",
+    "text_tr": "hoş geldin",
+    "article": null,
+    "category_id": "a1-communication",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-klaar",
+    "text_tr": "hazır",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-avond",
+    "text_tr": "akşam",
+    "article": "de",
+    "category_id": "a1-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-weggaan",
+    "text_tr": "ayrılmak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-leraar",
+    "text_tr": "öğretmen",
+    "article": "de",
+    "category_id": "a1-school-work",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-eigen",
+    "text_tr": "kendi",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-appel",
+    "text_tr": "elma",
+    "article": "de",
+    "category_id": "a1-food",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-speciaal",
+    "text_tr": "özel",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-kantoor",
+    "text_tr": "ofis",
+    "article": "het",
+    "category_id": "a1-school-work",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-huilen",
+    "text_tr": "ağlamak",
+    "article": null,
+    "category_id": "a1-feelings",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-groente",
+    "text_tr": "sebze",
+    "article": "de",
+    "category_id": "a1-food",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-sturen",
+    "text_tr": "göndermek",
+    "article": null,
+    "category_id": "a1-communication",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-leven",
+    "text_tr": "hayat",
+    "article": "het",
+    "category_id": "a1-people",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-moe",
+    "text_tr": "yorgun",
+    "article": null,
+    "category_id": "a1-body-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-product",
+    "text_tr": "ürün",
+    "article": "het",
+    "category_id": "a1-shopping",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-sportief",
+    "text_tr": "sportif",
+    "article": null,
+    "category_id": "a1-free-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-boodschap",
+    "text_tr": "alışveriş (ihtiyaç)",
+    "article": "de",
+    "category_id": "a1-shopping",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-collega",
+    "text_tr": "meslektaş",
+    "article": "de",
+    "category_id": "a1-school-work",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-park",
+    "text_tr": "park",
+    "article": "het",
+    "category_id": "a1-city-travel",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-hobby",
+    "text_tr": "hobi",
+    "article": "de",
+    "category_id": "a1-free-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-dik",
+    "text_tr": "şişman",
+    "article": null,
+    "category_id": "a1-body-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-stil",
+    "text_tr": "sessiz",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-fabriek",
+    "text_tr": "fabrika",
+    "article": "de",
+    "category_id": "a1-school-work",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-kosten",
+    "text_tr": "(fiyatı) tutmak",
+    "article": null,
+    "category_id": "a1-shopping",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-stoppen",
+    "text_tr": "durmak",
+    "article": null,
+    "category_id": "a1-city-travel",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-lokaal",
+    "text_tr": "derslik",
+    "article": "het",
+    "category_id": "a1-school-work",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-soort",
+    "text_tr": "tür",
+    "article": "de",
+    "category_id": "a1-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-huishouden",
+    "text_tr": "ev işleri",
+    "article": "het",
+    "category_id": "a1-home",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-vak",
+    "text_tr": "okul dersi (branş)",
+    "article": "het",
+    "category_id": "a1-school-work",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-taxi",
+    "text_tr": "taksi",
+    "article": "de",
+    "category_id": "a1-city-travel",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-gezond",
+    "text_tr": "sağlıklı",
+    "article": null,
+    "category_id": "a1-body-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-dragen",
+    "text_tr": "taşımak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-oma",
+    "text_tr": "büyükanne",
+    "article": "de",
+    "category_id": "a1-people",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-aardappel",
+    "text_tr": "patates",
+    "article": "de",
+    "category_id": "a1-food",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-adres",
+    "text_tr": "adres",
+    "article": "het",
+    "category_id": "a1-communication",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-tram",
+    "text_tr": "tramvay",
+    "article": "de",
+    "category_id": "a1-city-travel",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-sport",
+    "text_tr": "spor",
+    "article": "de",
+    "category_id": "a1-free-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-file",
+    "text_tr": "trafik sıkışıklığı",
+    "article": "de",
+    "category_id": "a1-city-travel",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-zon",
+    "text_tr": "güneş",
+    "article": "de",
+    "category_id": "a1-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-extra",
+    "text_tr": "ekstra",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-kwart",
+    "text_tr": "çeyrek",
+    "article": "het",
+    "category_id": "a1-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-weg",
+    "text_tr": "yol",
+    "article": "de",
+    "category_id": "a1-city-travel",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-haven",
+    "text_tr": "liman",
+    "article": "de",
+    "category_id": "a1-city-travel",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-lawaai",
+    "text_tr": "gürültü",
+    "article": "het",
+    "category_id": "a1-city-travel",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-perfect",
+    "text_tr": "mükemmel",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-euro",
+    "text_tr": "avro",
+    "article": "de",
+    "category_id": "a1-shopping",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-gooien",
+    "text_tr": "atmak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-zetten",
+    "text_tr": "koymak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-feest",
+    "text_tr": "parti",
+    "article": "het",
+    "category_id": "a1-free-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-informatie",
+    "text_tr": "bilgi",
+    "article": "de",
+    "category_id": "a1-communication",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-ziekenhuis",
+    "text_tr": "hastane",
+    "article": "het",
+    "category_id": "a1-body-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-balkon",
+    "text_tr": "balkon",
+    "article": "het",
+    "category_id": "a1-home",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-melk",
+    "text_tr": "süt",
+    "article": "de",
+    "category_id": "a1-food",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-links",
+    "text_tr": "sol",
+    "article": null,
+    "category_id": "a1-city-travel",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-voetbal",
+    "text_tr": "futbol",
+    "article": "het",
+    "category_id": "a1-free-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bier",
+    "text_tr": "bira",
+    "article": "het",
+    "category_id": "a1-food",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-cola",
+    "text_tr": "kola",
+    "article": "de",
+    "category_id": "a1-food",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-afspraak",
+    "text_tr": "randevu",
+    "article": "de",
+    "category_id": "a1-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-geschiedenis",
+    "text_tr": "tarih (ders)",
+    "article": "de",
+    "category_id": "a1-school-work",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-natuurkunde",
+    "text_tr": "fizik",
+    "article": "de",
+    "category_id": "a1-school-work",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-tennis",
+    "text_tr": "tenis",
+    "article": "het",
+    "category_id": "a1-free-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-wachten",
+    "text_tr": "beklemek",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-verbazen",
+    "text_tr": "şaşırtmak",
+    "article": null,
+    "category_id": "a1-feelings",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-waar",
+    "text_tr": "doğru",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-echt",
+    "text_tr": "gerçek",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-restaurant",
+    "text_tr": "restoran",
+    "article": "het",
+    "category_id": "a1-food",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-autorijden",
+    "text_tr": "araba sürmek",
+    "article": null,
+    "category_id": "a1-city-travel",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-favoriet",
+    "text_tr": "favori",
+    "article": null,
+    "category_id": "a1-feelings",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-schoonmaken",
+    "text_tr": "temizlemek",
+    "article": null,
+    "category_id": "a1-home",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-vallen",
+    "text_tr": "düşmek",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-vlees",
+    "text_tr": "et",
+    "article": "het",
+    "category_id": "a1-food",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-vraag",
+    "text_tr": "soru",
+    "article": "de",
+    "category_id": "a1-communication",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-taal",
+    "text_tr": "dil (lisan)",
+    "article": "de",
+    "category_id": "a1-communication",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-vies",
+    "text_tr": "kirli",
+    "article": null,
+    "category_id": "a1-home",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-blijven",
+    "text_tr": "kalmak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-lijken",
+    "text_tr": "benzemek",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-sinaasappel",
+    "text_tr": "portakal",
+    "article": "de",
+    "category_id": "a1-food",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-ruimte",
+    "text_tr": "alan",
+    "article": "de",
+    "category_id": "a1-home",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-overstappen",
+    "text_tr": "aktarma yapmak",
+    "article": null,
+    "category_id": "a1-city-travel",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-prijs",
+    "text_tr": "fiyat",
+    "article": "de",
+    "category_id": "a1-shopping",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-duur",
+    "text_tr": "pahalı",
+    "article": null,
+    "category_id": "a1-shopping",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-dicht",
+    "text_tr": "kapalı",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-rijtjeshuis",
+    "text_tr": "sıra ev",
+    "article": "het",
+    "category_id": "a1-home",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-koud",
+    "text_tr": "soğuk",
+    "article": null,
+    "category_id": "a1-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-ruim",
+    "text_tr": "geniş",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-centrum",
+    "text_tr": "merkez",
+    "article": "het",
+    "category_id": "a1-city-travel",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-duren",
+    "text_tr": "(zaman) sürmek",
+    "article": null,
+    "category_id": "a1-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-relatie",
+    "text_tr": "ilişki",
+    "article": "de",
+    "category_id": "a1-people",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-slank",
+    "text_tr": "ince (vücut)",
+    "article": null,
+    "category_id": "a1-body-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-leeg",
+    "text_tr": "boş",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-ei",
+    "text_tr": "yumurta",
+    "article": "het",
+    "category_id": "a1-food",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-raam",
+    "text_tr": "pencere",
+    "article": "het",
+    "category_id": "a1-home",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-straat",
+    "text_tr": "sokak",
+    "article": "de",
+    "category_id": "a1-city-travel",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-taart",
+    "text_tr": "pasta",
+    "article": "de",
+    "category_id": "a1-food",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-schijnen",
+    "text_tr": "parlamak",
+    "article": null,
+    "category_id": "a1-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-leven",
+    "text_tr": "yaşamak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-regenen",
+    "text_tr": "yağmur yağmak",
+    "article": null,
+    "category_id": "a1-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bloes",
+    "text_tr": "bluz",
+    "article": "de",
+    "category_id": "a1-clothes",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-nerveus",
+    "text_tr": "gergin",
+    "article": null,
+    "category_id": "a1-feelings",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-papier",
+    "text_tr": "kâğıt",
+    "article": "het",
+    "category_id": "a1-school-work",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-benzine",
+    "text_tr": "benzin",
+    "article": "de",
+    "category_id": "a1-city-travel",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-chauffeur",
+    "text_tr": "şoför",
+    "article": "de",
+    "category_id": "a1-city-travel",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-gewoon",
+    "text_tr": "sıradan",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-plezier",
+    "text_tr": "keyif",
+    "article": "het",
+    "category_id": "a1-free-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-boos",
+    "text_tr": "kızgın",
+    "article": null,
+    "category_id": "a1-feelings",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-geel",
+    "text_tr": "sarı",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-chocola",
+    "text_tr": "çikolata",
+    "article": "de",
+    "category_id": "a1-food",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-pizza",
+    "text_tr": "pizza",
+    "article": "de",
+    "category_id": "a1-food",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-uniform",
+    "text_tr": "üniforma",
+    "article": "het",
+    "category_id": "a1-clothes",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-dollar",
+    "text_tr": "dolar",
+    "article": "de",
+    "category_id": "a1-shopping",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-radio",
+    "text_tr": "radyo",
+    "article": "de",
+    "category_id": "a1-free-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-afscheid",
+    "text_tr": "veda",
+    "article": "het",
+    "category_id": "a1-communication",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-zwembad",
+    "text_tr": "yüzme havuzu",
+    "article": "het",
+    "category_id": "a1-free-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-kleur",
+    "text_tr": "renk",
+    "article": "de",
+    "category_id": "a1-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-vloer",
+    "text_tr": "zemin",
+    "article": "de",
+    "category_id": "a1-home",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-interessant",
+    "text_tr": "ilginç",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-calorie",
+    "text_tr": "kalori",
+    "article": "de",
+    "category_id": "a1-body-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-verbranden",
+    "text_tr": "yakmak",
+    "article": null,
+    "category_id": "a1-body-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-ontmoeten",
+    "text_tr": "tanışmak",
+    "article": null,
+    "category_id": "a1-people",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-project",
+    "text_tr": "proje",
+    "article": "het",
+    "category_id": "a1-school-work",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-frisdrank",
+    "text_tr": "meşrubat",
+    "article": "de",
+    "category_id": "a1-food",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-metro",
+    "text_tr": "metro",
+    "article": "de",
+    "category_id": "a1-city-travel",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-noorden",
+    "text_tr": "kuzey",
+    "article": "het",
+    "category_id": "a1-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-webwinkel",
+    "text_tr": "internet mağazası",
+    "article": "de",
+    "category_id": "a1-shopping",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-idee",
+    "text_tr": "fikir",
+    "article": "het",
+    "category_id": "a1-communication",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-kerk",
+    "text_tr": "kilise",
+    "article": "de",
+    "category_id": "a1-city-travel",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-computer",
+    "text_tr": "bilgisayar",
+    "article": "de",
+    "category_id": "a1-school-work",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-klant",
+    "text_tr": "müşteri",
+    "article": "de",
+    "category_id": "a1-shopping",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-flat",
+    "text_tr": "apartman",
+    "article": "de",
+    "category_id": "a1-home",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-verdieping",
+    "text_tr": "kat (bina)",
+    "article": "de",
+    "category_id": "a1-home",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-honger",
+    "text_tr": "açlık",
+    "article": "de",
+    "category_id": "a1-food",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-poetsen",
+    "text_tr": "fırçalamak",
+    "article": null,
+    "category_id": "a1-home",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bord",
+    "text_tr": "tabak",
+    "article": "het",
+    "category_id": "a1-food",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-garage",
+    "text_tr": "garaj",
+    "article": "de",
+    "category_id": "a1-home",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-makelaar",
+    "text_tr": "emlakçı",
+    "article": "de",
+    "category_id": "a1-home",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-verhuizen",
+    "text_tr": "taşınmak",
+    "article": null,
+    "category_id": "a1-home",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-stroopwafel",
+    "text_tr": "şuruplu waffle",
+    "article": "de",
+    "category_id": "a1-food",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-plannen",
+    "text_tr": "planlamak",
+    "article": null,
+    "category_id": "a1-free-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-activiteit",
+    "text_tr": "etkinlik",
+    "article": "de",
+    "category_id": "a1-free-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-afvallen",
+    "text_tr": "kilo vermek",
+    "article": null,
+    "category_id": "a1-body-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-strijken",
+    "text_tr": "ütülemek",
+    "article": null,
+    "category_id": "a1-clothes",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-foto",
+    "text_tr": "fotoğraf",
+    "article": "de",
+    "category_id": "a1-free-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-docent",
+    "text_tr": "eğitmen",
+    "article": "de",
+    "category_id": "a1-school-work",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-route",
+    "text_tr": "güzergâh",
+    "article": "de",
+    "category_id": "a1-city-travel",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-dokter",
+    "text_tr": "doktor",
+    "article": "de",
+    "category_id": "a1-body-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-kalender",
+    "text_tr": "takvim",
+    "article": "de",
+    "category_id": "a1-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-supermarkt",
+    "text_tr": "süpermarket",
+    "article": "de",
+    "category_id": "a1-shopping",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-kast",
+    "text_tr": "dolap",
+    "article": "de",
+    "category_id": "a1-home",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-druk",
+    "text_tr": "yoğun",
+    "article": null,
+    "category_id": "a1-city-travel",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-patat",
+    "text_tr": "patates kızartması",
+    "article": "de",
+    "category_id": "a1-food",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-feliciteren",
+    "text_tr": "tebrik etmek",
+    "article": null,
+    "category_id": "a1-people",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-jarig",
+    "text_tr": "doğum günü olan",
+    "article": null,
+    "category_id": "a1-people",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-verjaardag",
+    "text_tr": "doğum günü",
+    "article": "de",
+    "category_id": "a1-people",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-berging",
+    "text_tr": "depo",
+    "article": "de",
+    "category_id": "a1-home",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-controleren",
+    "text_tr": "kontrol etmek",
+    "article": null,
+    "category_id": "a1-school-work",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-kam",
+    "text_tr": "tarak",
+    "article": "de",
+    "category_id": "a1-clothes",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-kammen",
+    "text_tr": "taramak",
+    "article": null,
+    "category_id": "a1-clothes",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-luis",
+    "text_tr": "bit",
+    "article": "de",
+    "category_id": "a1-body-health",
+    "reviewed": false
+  }
+]
