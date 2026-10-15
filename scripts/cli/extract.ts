@@ -23,10 +23,15 @@ async function main() {
   const excluded: { id: string; reason: string }[] = existsSync(excludedFile)
     ? JSON.parse(readFileSync(excludedFile, 'utf8'))
     : [];
+  // A2 words in NT2Lex are dominated by graded readers (kings, whales, swords), so the A2 set is
+  // curated for everyday life in the Netherlands instead of taken by frequency.
+  const a2File = join(root, 'data', 'a2-selection.json');
+  const curated = existsSync(a2File) ? { A2: JSON.parse(readFileSync(a2File, 'utf8')) as string[] } : {};
   const words = selectWords(
     extractCandidates(tsv.toString('utf8')),
     levels,
     new Set(excluded.map((e) => e.id)),
+    curated,
   );
   writeFileSync(join(root, 'data', 'words.json'), JSON.stringify(words, null, 2) + '\n');
   console.log(`Wrote ${words.length} words to data/words.json`);
