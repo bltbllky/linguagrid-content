@@ -1,0 +1,30 @@
+{
+  "$id": "manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["content_version", "min_app_version", "files"],
+  "properties": {
+    "content_version": { "type": "integer", "minimum": 0 },
+    "min_app_version": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["ios", "android"],
+      "properties": {
+        "ios": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$" },
+        "android": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$" }
+      }
+    },
+    "files": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["path", "sha256"],
+        "properties": {
+          "path": { "type": "string" },
+          "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" }
+        }
+      }
+    }
+  }
+}

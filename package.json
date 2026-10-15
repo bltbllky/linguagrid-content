@@ -1,0 +1,27 @@
+{
+  "name": "linguagrid-content",
+  "version": "1.0.0",
+  "description": "LinguaGrid word data, pipeline and validation",
+  "scripts": {
+    "validate": "tsx scripts/validate.ts",
+    "test": "node --import tsx --test --experimental-test-coverage --test-coverage-lines=90 --test-coverage-include='scripts/**/*.ts' --test-coverage-exclude='scripts/**/*.test.ts' --test-coverage-exclude='scripts/fixtures/**' 'scripts/**/*.test.ts'",
+    "typecheck": "tsc --noEmit",
+    "build-site": "tsx scripts/build-site.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bltbllky/linguagrid-content.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bltbllky/linguagrid-content/issues"
+  },
+  "homepage": "https://github.com/bltbllky/linguagrid-content#readme",
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "ajv": "^8.20.0",
+    "tsx": "^4.23.15",
+    "typescript": "~6.0.3"
+  },
+  "private": true,
+  "type": "module"
+}
