@@ -2,7 +2,7 @@ import { cpSync, existsSync, mkdirSync, rmSync } from 'node:fs';
 import { join } from 'node:path';
 
 const ROOT = join(import.meta.dirname, '..');
-const PUBLISHED = ['manifest.json', 'data', 'privacy', 'LICENSE-DATA.md'];
+const PUBLISHED = ['manifest.json', 'release', 'data', 'privacy', 'LICENSE-DATA.md'];
 
 /** Copies everything served on GitHub Pages into `outDir`. */
 export function buildSite(root = ROOT, outDir = join(root, 'public')): string[] {
