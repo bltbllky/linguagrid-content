@@ -1,0 +1,54 @@
+[
+  {
+    "id": "noun-faust",
+    "reason": "character name from a textbook"
+  },
+  {
+    "id": "adj-wakke",
+    "reason": "lemmatisation error (wakker)"
+  },
+  {
+    "id": "verb-alsjeblieft",
+    "reason": "interjection tagged as a verb"
+  },
+  {
+    "id": "noun-hè",
+    "reason": "interjection tagged as a noun"
+  },
+  {
+    "id": "verb-spel",
+    "reason": "lemmatisation error (spellen / spelen)"
+  },
+  {
+    "id": "verb-nodigen",
+    "reason": "lemmatisation error (uitnodigen)"
+  },
+  {
+    "id": "adj-dezelfde",
+    "reason": "determiner, not an adjective"
+  },
+  {
+    "id": "adj-amerikaanse",
+    "reason": "inflected form (amerikaans)"
+  },
+  {
+    "id": "noun-beet",
+    "reason": "likely split from 'beetje'"
+  },
+  {
+    "id": "noun-pap",
+    "reason": "ambiguous (porridge / short for papa)"
+  },
+  {
+    "id": "noun-jong",
+    "reason": "duplicate of the adjective jong; rare noun sense"
+  },
+  {
+    "id": "verb-zullen",
+    "reason": "auxiliary for the future tense; no meaningful Turkish prompt"
+  },
+  {
+    "id": "verb-danken",
+    "reason": "near-duplicate of bedanken"
+  }
+]

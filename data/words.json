@@ -1,1 +1,2802 @@
-[]
+[
+  {
+    "id": "verb-zijn",
+    "lemma_nl": "zijn",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-hebben",
+    "lemma_nl": "hebben",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-gaan",
+    "lemma_nl": "gaan",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-zeggen",
+    "lemma_nl": "zeggen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-vinden",
+    "lemma_nl": "vinden",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-huis",
+    "lemma_nl": "huis",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-goed",
+    "lemma_nl": "goed",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-moeder",
+    "lemma_nl": "moeder",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-willen",
+    "lemma_nl": "willen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-heel",
+    "lemma_nl": "heel",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-kunnen",
+    "lemma_nl": "kunnen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-moeten",
+    "lemma_nl": "moeten",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-praten",
+    "lemma_nl": "praten",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-wonen",
+    "lemma_nl": "wonen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-familie",
+    "lemma_nl": "familie",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-mens",
+    "lemma_nl": "mens",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-heten",
+    "lemma_nl": "heten",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-leuk",
+    "lemma_nl": "leuk",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-denken",
+    "lemma_nl": "denken",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-lopen",
+    "lemma_nl": "lopen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-zien",
+    "lemma_nl": "zien",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-kijken",
+    "lemma_nl": "kijken",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-doen",
+    "lemma_nl": "doen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-blij",
+    "lemma_nl": "blij",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-school",
+    "lemma_nl": "school",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-jaar",
+    "lemma_nl": "jaar",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-eten",
+    "lemma_nl": "eten",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-komen",
+    "lemma_nl": "komen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-ander",
+    "lemma_nl": "ander",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-vragen",
+    "lemma_nl": "vragen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-erg",
+    "lemma_nl": "erg",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-vrouw",
+    "lemma_nl": "vrouw",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-snel",
+    "lemma_nl": "snel",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-kleed",
+    "lemma_nl": "kleed",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-geven",
+    "lemma_nl": "geven",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-dag",
+    "lemma_nl": "dag",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-werken",
+    "lemma_nl": "werken",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-strand",
+    "lemma_nl": "strand",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-zitten",
+    "lemma_nl": "zitten",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-vriendin",
+    "lemma_nl": "vriendin",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-lang",
+    "lemma_nl": "lang",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-vriend",
+    "lemma_nl": "vriend",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-zoeken",
+    "lemma_nl": "zoeken",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-brief",
+    "lemma_nl": "brief",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-haar",
+    "lemma_nl": "haar",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-staan",
+    "lemma_nl": "staan",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-boot",
+    "lemma_nl": "boot",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-werk",
+    "lemma_nl": "werk",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-groot",
+    "lemma_nl": "groot",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-kopen",
+    "lemma_nl": "kopen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-auto",
+    "lemma_nl": "auto",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-bang",
+    "lemma_nl": "bang",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-hond",
+    "lemma_nl": "hond",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-maken",
+    "lemma_nl": "maken",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-lachen",
+    "lemma_nl": "lachen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-oud",
+    "lemma_nl": "oud",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-klein",
+    "lemma_nl": "klein",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-kind",
+    "lemma_nl": "kind",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-worden",
+    "lemma_nl": "worden",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-probleem",
+    "lemma_nl": "probleem",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-schreeuwen",
+    "lemma_nl": "schreeuwen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-liggen",
+    "lemma_nl": "liggen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-drinken",
+    "lemma_nl": "drinken",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-geld",
+    "lemma_nl": "geld",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-man",
+    "lemma_nl": "man",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-krijgen",
+    "lemma_nl": "krijgen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-vader",
+    "lemma_nl": "vader",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-nieuw",
+    "lemma_nl": "nieuw",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-kamer",
+    "lemma_nl": "kamer",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-pakken",
+    "lemma_nl": "pakken",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-bus",
+    "lemma_nl": "bus",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-blaffen",
+    "lemma_nl": "blaffen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-rennen",
+    "lemma_nl": "rennen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-eten",
+    "lemma_nl": "eten",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-mooi",
+    "lemma_nl": "mooi",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-meisje",
+    "lemma_nl": "meisje",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-koffie",
+    "lemma_nl": "koffie",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-keer",
+    "lemma_nl": "keer",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-zomer",
+    "lemma_nl": "zomer",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-slaapkamer",
+    "lemma_nl": "slaapkamer",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-vertellen",
+    "lemma_nl": "vertellen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-rood",
+    "lemma_nl": "rood",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-vroeg",
+    "lemma_nl": "vroeg",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-verdrietig",
+    "lemma_nl": "verdrietig",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-kennen",
+    "lemma_nl": "kennen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-volgen",
+    "lemma_nl": "volgen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-begrijpen",
+    "lemma_nl": "begrijpen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-fijn",
+    "lemma_nl": "fijn",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-mogen",
+    "lemma_nl": "mogen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-ouder",
+    "lemma_nl": "ouder",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-lekker",
+    "lemma_nl": "lekker",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-trein",
+    "lemma_nl": "trein",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-horen",
+    "lemma_nl": "horen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-lezen",
+    "lemma_nl": "lezen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-normaal",
+    "lemma_nl": "normaal",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-les",
+    "lemma_nl": "les",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-boek",
+    "lemma_nl": "boek",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-slapen",
+    "lemma_nl": "slapen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-houden",
+    "lemma_nl": "houden",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-keuken",
+    "lemma_nl": "keuken",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-zus",
+    "lemma_nl": "zus",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-schrijven",
+    "lemma_nl": "schrijven",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-winkel",
+    "lemma_nl": "winkel",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-vaak",
+    "lemma_nl": "vaak",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-laat",
+    "lemma_nl": "laat",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-week",
+    "lemma_nl": "week",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-spreken",
+    "lemma_nl": "spreken",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-ding",
+    "lemma_nl": "ding",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-nodig",
+    "lemma_nl": "nodig",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-kop",
+    "lemma_nl": "kop",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-broer",
+    "lemma_nl": "broer",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-rijden",
+    "lemma_nl": "rijden",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-nemen",
+    "lemma_nl": "nemen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-helpen",
+    "lemma_nl": "helpen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-weten",
+    "lemma_nl": "weten",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-oog",
+    "lemma_nl": "oog",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-hoofdstuk",
+    "lemma_nl": "hoofdstuk",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-leerling",
+    "lemma_nl": "leerling",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-tuin",
+    "lemma_nl": "tuin",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-mevrouw",
+    "lemma_nl": "mevrouw",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-betalen",
+    "lemma_nl": "betalen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-buschauffeur",
+    "lemma_nl": "buschauffeur",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-leggen",
+    "lemma_nl": "leggen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-bank",
+    "lemma_nl": "bank",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-zacht",
+    "lemma_nl": "zacht",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-eiland",
+    "lemma_nl": "eiland",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-uur",
+    "lemma_nl": "uur",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-vertrekken",
+    "lemma_nl": "vertrekken",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-naam",
+    "lemma_nl": "naam",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-vakantie",
+    "lemma_nl": "vakantie",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-maand",
+    "lemma_nl": "maand",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-bellen",
+    "lemma_nl": "bellen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-arm",
+    "lemma_nl": "arm",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-plan",
+    "lemma_nl": "plan",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-tafel",
+    "lemma_nl": "tafel",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-fles",
+    "lemma_nl": "fles",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-minuut",
+    "lemma_nl": "minuut",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-station",
+    "lemma_nl": "station",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-muziek",
+    "lemma_nl": "muziek",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-stok",
+    "lemma_nl": "stok",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-aardig",
+    "lemma_nl": "aardig",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-dansfeest",
+    "lemma_nl": "dansfeest",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-fiets",
+    "lemma_nl": "fiets",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-baas",
+    "lemma_nl": "baas",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-spelen",
+    "lemma_nl": "spelen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-paar",
+    "lemma_nl": "paar",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-bed",
+    "lemma_nl": "bed",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-dochter",
+    "lemma_nl": "dochter",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-hard",
+    "lemma_nl": "hard",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-open",
+    "lemma_nl": "open",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-badkamer",
+    "lemma_nl": "badkamer",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-woonkamer",
+    "lemma_nl": "woonkamer",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-lief",
+    "lemma_nl": "lief",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-eenzaam",
+    "lemma_nl": "eenzaam",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-thee",
+    "lemma_nl": "thee",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-belangrijk",
+    "lemma_nl": "belangrijk",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-dorp",
+    "lemma_nl": "dorp",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-ziek",
+    "lemma_nl": "ziek",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-beginnen",
+    "lemma_nl": "beginnen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-stem",
+    "lemma_nl": "stem",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-fietsen",
+    "lemma_nl": "fietsen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-deur",
+    "lemma_nl": "deur",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-blauw",
+    "lemma_nl": "blauw",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-dansen",
+    "lemma_nl": "dansen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-vliegveld",
+    "lemma_nl": "vliegveld",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-wit",
+    "lemma_nl": "wit",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-appartement",
+    "lemma_nl": "appartement",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-vreemd",
+    "lemma_nl": "vreemd",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-café",
+    "lemma_nl": "café",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-wassen",
+    "lemma_nl": "wassen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-weekend",
+    "lemma_nl": "weekend",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-ochtend",
+    "lemma_nl": "ochtend",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-gelukkig",
+    "lemma_nl": "gelukkig",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-fruit",
+    "lemma_nl": "fruit",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-engels",
+    "lemma_nl": "engels",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-water",
+    "lemma_nl": "water",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-kort",
+    "lemma_nl": "kort",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-ver",
+    "lemma_nl": "ver",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-blond",
+    "lemma_nl": "blond",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-inwonen",
+    "lemma_nl": "inwonen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-kus",
+    "lemma_nl": "kus",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-sportschool",
+    "lemma_nl": "sportschool",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-brengen",
+    "lemma_nl": "brengen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-website",
+    "lemma_nl": "website",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-luisteren",
+    "lemma_nl": "luisteren",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-stad",
+    "lemma_nl": "stad",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-gebruiken",
+    "lemma_nl": "gebruiken",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-nederlands",
+    "lemma_nl": "nederlands",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-vliegtuig",
+    "lemma_nl": "vliegtuig",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-reis",
+    "lemma_nl": "reis",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-verkopen",
+    "lemma_nl": "verkopen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-voet",
+    "lemma_nl": "voet",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-stappen",
+    "lemma_nl": "stappen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-kaart",
+    "lemma_nl": "kaart",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-leren",
+    "lemma_nl": "leren",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-bruin",
+    "lemma_nl": "bruin",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-mager",
+    "lemma_nl": "mager",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-koek",
+    "lemma_nl": "koek",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-zoon",
+    "lemma_nl": "zoon",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-boterham",
+    "lemma_nl": "boterham",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-verbaasd",
+    "lemma_nl": "verbaasd",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-passen",
+    "lemma_nl": "passen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-telefoon",
+    "lemma_nl": "telefoon",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-toilet",
+    "lemma_nl": "toilet",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-schoon",
+    "lemma_nl": "schoon",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-lerares",
+    "lemma_nl": "lerares",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-bushalte",
+    "lemma_nl": "bushalte",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-klas",
+    "lemma_nl": "klas",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-groet",
+    "lemma_nl": "groet",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-trouwen",
+    "lemma_nl": "trouwen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-studeren",
+    "lemma_nl": "studeren",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-horloge",
+    "lemma_nl": "horloge",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-trekken",
+    "lemma_nl": "trekken",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-televisie",
+    "lemma_nl": "televisie",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-antwoord",
+    "lemma_nl": "antwoord",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-jas",
+    "lemma_nl": "jas",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-jong",
+    "lemma_nl": "jong",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-laten",
+    "lemma_nl": "laten",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-ongelukkig",
+    "lemma_nl": "ongelukkig",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-winter",
+    "lemma_nl": "winter",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-grijs",
+    "lemma_nl": "grijs",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-meneer",
+    "lemma_nl": "meneer",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-glimlachen",
+    "lemma_nl": "glimlachen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-organisatie",
+    "lemma_nl": "organisatie",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-internet",
+    "lemma_nl": "internet",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-antwoorden",
+    "lemma_nl": "antwoorden",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-hulp",
+    "lemma_nl": "hulp",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-land",
+    "lemma_nl": "land",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-bijzonder",
+    "lemma_nl": "bijzonder",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-moeilijk",
+    "lemma_nl": "moeilijk",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-riem",
+    "lemma_nl": "riem",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-bedanken",
+    "lemma_nl": "bedanken",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-zee",
+    "lemma_nl": "zee",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-zwemmen",
+    "lemma_nl": "zwemmen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-kat",
+    "lemma_nl": "kat",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-cadeau",
+    "lemma_nl": "cadeau",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-hamburger",
+    "lemma_nl": "hamburger",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-kilometer",
+    "lemma_nl": "kilometer",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-rechts",
+    "lemma_nl": "rechts",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-woning",
+    "lemma_nl": "woning",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-besturen",
+    "lemma_nl": "besturen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-wiskunde",
+    "lemma_nl": "wiskunde",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-welkom",
+    "lemma_nl": "welkom",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-klaar",
+    "lemma_nl": "klaar",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-avond",
+    "lemma_nl": "avond",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-weggaan",
+    "lemma_nl": "weggaan",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-leraar",
+    "lemma_nl": "leraar",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-eigen",
+    "lemma_nl": "eigen",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-appel",
+    "lemma_nl": "appel",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-speciaal",
+    "lemma_nl": "speciaal",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-kantoor",
+    "lemma_nl": "kantoor",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-huilen",
+    "lemma_nl": "huilen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-groente",
+    "lemma_nl": "groente",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-sturen",
+    "lemma_nl": "sturen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-leven",
+    "lemma_nl": "leven",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-moe",
+    "lemma_nl": "moe",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-product",
+    "lemma_nl": "product",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-sportief",
+    "lemma_nl": "sportief",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-boodschap",
+    "lemma_nl": "boodschap",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-collega",
+    "lemma_nl": "collega",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-park",
+    "lemma_nl": "park",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-hobby",
+    "lemma_nl": "hobby",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-dik",
+    "lemma_nl": "dik",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-stil",
+    "lemma_nl": "stil",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-fabriek",
+    "lemma_nl": "fabriek",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-kosten",
+    "lemma_nl": "kosten",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-stoppen",
+    "lemma_nl": "stoppen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-lokaal",
+    "lemma_nl": "lokaal",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-soort",
+    "lemma_nl": "soort",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-huishouden",
+    "lemma_nl": "huishouden",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-vak",
+    "lemma_nl": "vak",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-taxi",
+    "lemma_nl": "taxi",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-gezond",
+    "lemma_nl": "gezond",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-dragen",
+    "lemma_nl": "dragen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-oma",
+    "lemma_nl": "oma",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-aardappel",
+    "lemma_nl": "aardappel",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-adres",
+    "lemma_nl": "adres",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-tram",
+    "lemma_nl": "tram",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-sport",
+    "lemma_nl": "sport",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-file",
+    "lemma_nl": "file",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-zon",
+    "lemma_nl": "zon",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-extra",
+    "lemma_nl": "extra",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-kwart",
+    "lemma_nl": "kwart",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-weg",
+    "lemma_nl": "weg",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-haven",
+    "lemma_nl": "haven",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-lawaai",
+    "lemma_nl": "lawaai",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-perfect",
+    "lemma_nl": "perfect",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-euro",
+    "lemma_nl": "euro",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-gooien",
+    "lemma_nl": "gooien",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-zetten",
+    "lemma_nl": "zetten",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-feest",
+    "lemma_nl": "feest",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-informatie",
+    "lemma_nl": "informatie",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-ziekenhuis",
+    "lemma_nl": "ziekenhuis",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-balkon",
+    "lemma_nl": "balkon",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-melk",
+    "lemma_nl": "melk",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-links",
+    "lemma_nl": "links",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-voetbal",
+    "lemma_nl": "voetbal",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-bier",
+    "lemma_nl": "bier",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-cola",
+    "lemma_nl": "cola",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-afspraak",
+    "lemma_nl": "afspraak",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-geschiedenis",
+    "lemma_nl": "geschiedenis",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-natuurkunde",
+    "lemma_nl": "natuurkunde",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-tennis",
+    "lemma_nl": "tennis",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-wachten",
+    "lemma_nl": "wachten",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-verbazen",
+    "lemma_nl": "verbazen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-waar",
+    "lemma_nl": "waar",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-echt",
+    "lemma_nl": "echt",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-restaurant",
+    "lemma_nl": "restaurant",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-autorijden",
+    "lemma_nl": "autorijden",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-favoriet",
+    "lemma_nl": "favoriet",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-schoonmaken",
+    "lemma_nl": "schoonmaken",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-vallen",
+    "lemma_nl": "vallen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-vlees",
+    "lemma_nl": "vlees",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-vraag",
+    "lemma_nl": "vraag",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-taal",
+    "lemma_nl": "taal",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-vies",
+    "lemma_nl": "vies",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-blijven",
+    "lemma_nl": "blijven",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-lijken",
+    "lemma_nl": "lijken",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-sinaasappel",
+    "lemma_nl": "sinaasappel",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-ruimte",
+    "lemma_nl": "ruimte",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-overstappen",
+    "lemma_nl": "overstappen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-prijs",
+    "lemma_nl": "prijs",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-duur",
+    "lemma_nl": "duur",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-dicht",
+    "lemma_nl": "dicht",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-rijtjeshuis",
+    "lemma_nl": "rijtjeshuis",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-koud",
+    "lemma_nl": "koud",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-ruim",
+    "lemma_nl": "ruim",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-centrum",
+    "lemma_nl": "centrum",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-duren",
+    "lemma_nl": "duren",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-relatie",
+    "lemma_nl": "relatie",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-slank",
+    "lemma_nl": "slank",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-leeg",
+    "lemma_nl": "leeg",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-ei",
+    "lemma_nl": "ei",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-raam",
+    "lemma_nl": "raam",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-straat",
+    "lemma_nl": "straat",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-taart",
+    "lemma_nl": "taart",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-schijnen",
+    "lemma_nl": "schijnen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-leven",
+    "lemma_nl": "leven",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-regenen",
+    "lemma_nl": "regenen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-bloes",
+    "lemma_nl": "bloes",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-nerveus",
+    "lemma_nl": "nerveus",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-papier",
+    "lemma_nl": "papier",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-benzine",
+    "lemma_nl": "benzine",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-chauffeur",
+    "lemma_nl": "chauffeur",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-gewoon",
+    "lemma_nl": "gewoon",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-plezier",
+    "lemma_nl": "plezier",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-boos",
+    "lemma_nl": "boos",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-geel",
+    "lemma_nl": "geel",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-chocola",
+    "lemma_nl": "chocola",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-pizza",
+    "lemma_nl": "pizza",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-uniform",
+    "lemma_nl": "uniform",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-dollar",
+    "lemma_nl": "dollar",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-radio",
+    "lemma_nl": "radio",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-afscheid",
+    "lemma_nl": "afscheid",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-zwembad",
+    "lemma_nl": "zwembad",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-kleur",
+    "lemma_nl": "kleur",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-vloer",
+    "lemma_nl": "vloer",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-interessant",
+    "lemma_nl": "interessant",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-calorie",
+    "lemma_nl": "calorie",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-verbranden",
+    "lemma_nl": "verbranden",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-ontmoeten",
+    "lemma_nl": "ontmoeten",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-project",
+    "lemma_nl": "project",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-frisdrank",
+    "lemma_nl": "frisdrank",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-metro",
+    "lemma_nl": "metro",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-noorden",
+    "lemma_nl": "noorden",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-webwinkel",
+    "lemma_nl": "webwinkel",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-idee",
+    "lemma_nl": "idee",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-kerk",
+    "lemma_nl": "kerk",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-computer",
+    "lemma_nl": "computer",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-klant",
+    "lemma_nl": "klant",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-flat",
+    "lemma_nl": "flat",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-verdieping",
+    "lemma_nl": "verdieping",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-honger",
+    "lemma_nl": "honger",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-poetsen",
+    "lemma_nl": "poetsen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-bord",
+    "lemma_nl": "bord",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-garage",
+    "lemma_nl": "garage",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-makelaar",
+    "lemma_nl": "makelaar",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-verhuizen",
+    "lemma_nl": "verhuizen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-stroopwafel",
+    "lemma_nl": "stroopwafel",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-plannen",
+    "lemma_nl": "plannen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-activiteit",
+    "lemma_nl": "activiteit",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-afvallen",
+    "lemma_nl": "afvallen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-strijken",
+    "lemma_nl": "strijken",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-foto",
+    "lemma_nl": "foto",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-docent",
+    "lemma_nl": "docent",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-route",
+    "lemma_nl": "route",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-dokter",
+    "lemma_nl": "dokter",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-kalender",
+    "lemma_nl": "kalender",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-supermarkt",
+    "lemma_nl": "supermarkt",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-kast",
+    "lemma_nl": "kast",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-druk",
+    "lemma_nl": "druk",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-patat",
+    "lemma_nl": "patat",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-feliciteren",
+    "lemma_nl": "feliciteren",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "adj-jarig",
+    "lemma_nl": "jarig",
+    "pos": "adj",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-verjaardag",
+    "lemma_nl": "verjaardag",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-berging",
+    "lemma_nl": "berging",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-controleren",
+    "lemma_nl": "controleren",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-kam",
+    "lemma_nl": "kam",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "verb-kammen",
+    "lemma_nl": "kammen",
+    "pos": "verb",
+    "cefr": "A1",
+    "source": "nt2lex"
+  },
+  {
+    "id": "noun-luis",
+    "lemma_nl": "luis",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "nt2lex"
+  }
+]
