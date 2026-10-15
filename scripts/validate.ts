@@ -98,12 +98,3 @@ export function loadContent(root = ROOT): Content {
     manifest: read('manifest.json'),
   };
 }
-
-/* node:coverage disable */
-if (process.argv[1] === import.meta.filename) {
-  const errors = validateContent(loadContent());
-  for (const e of errors) console.error(`✖ ${e}`);
-  console.log(errors.length ? `${errors.length} problem(s)` : '✔ content is valid');
-  process.exit(errors.length ? 1 : 0);
-}
-/* node:coverage enable */
