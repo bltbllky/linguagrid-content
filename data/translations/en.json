@@ -2915,6 +2915,811 @@
       "word_id": "noun-zuster",
       "text": "nurse",
       "reviewed": false
+    },
+    {
+      "word_id": "noun-advertentie",
+      "text": "advert",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-afdeling",
+      "text": "department",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-agenda",
+      "text": "diary",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-assistent",
+      "text": "assistant",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-basisschool",
+      "text": "primary school",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bedrijf",
+      "text": "company",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-beroep",
+      "text": "profession",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bureau",
+      "text": "desk",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-cijfer",
+      "text": "mark",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-cursus",
+      "text": "course",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-directeur",
+      "text": "director",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ervaring",
+      "text": "experience",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-fulltime",
+      "text": "full-time",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-parttime",
+      "text": "part-time",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-huiswerk",
+      "text": "homework",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kennis",
+      "text": "knowledge",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-loon",
+      "text": "wages",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-manager",
+      "text": "manager",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-medewerker",
+      "text": "staff member",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-niveau",
+      "text": "level",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-oefenen",
+      "text": "to practise",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-ontslaan",
+      "text": "to dismiss",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-opdracht",
+      "text": "task",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-opleiding",
+      "text": "training",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-pauze",
+      "text": "break",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-personeel",
+      "text": "staff",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-potlood",
+      "text": "pencil",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-pen",
+      "text": "pen",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-salaris",
+      "text": "salary",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-schrift",
+      "text": "exercise book",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-solliciteren",
+      "text": "to apply for a job",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-stage",
+      "text": "work placement",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-student",
+      "text": "student",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-studie",
+      "text": "studies",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-toets",
+      "text": "test",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-universiteit",
+      "text": "university",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vergadering",
+      "text": "meeting",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vertalen",
+      "text": "to translate",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vertaling",
+      "text": "translation",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-werkdag",
+      "text": "working day",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-werkgever",
+      "text": "employer",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-werkloos",
+      "text": "unemployed",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-werknemer",
+      "text": "employee",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-werkplek",
+      "text": "workplace",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-werktijd",
+      "text": "working hours",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-woordenboek",
+      "text": "dictionary",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uitleggen",
+      "text": "to explain",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-uitleg",
+      "text": "explanation",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tekst",
+      "text": "text",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zin",
+      "text": "sentence",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-betekenis",
+      "text": "meaning",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-betekenen",
+      "text": "to mean",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-inschrijven",
+      "text": "to enrol",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-inschrijving",
+      "text": "enrolment",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-succes",
+      "text": "success",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-resultaat",
+      "text": "result",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-moedertaal",
+      "text": "mother tongue",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-slagen",
+      "text": "to pass (an exam)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-belasting",
+      "text": "tax",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-douane",
+      "text": "customs",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-formulier",
+      "text": "form",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gemeente",
+      "text": "municipality",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gemeentehuis",
+      "text": "town hall",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-handtekening",
+      "text": "signature",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-invullen",
+      "text": "to fill in",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-loket",
+      "text": "counter",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-paspoort",
+      "text": "passport",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-politie",
+      "text": "police",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-politieagent",
+      "text": "police officer",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-post",
+      "text": "post",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-postbode",
+      "text": "postman",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-pakket",
+      "text": "parcel",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-envelop",
+      "text": "envelope",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-rekening",
+      "text": "bill",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-rijbewijs",
+      "text": "driving licence",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wet",
+      "text": "law",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-boete",
+      "text": "fine",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bibliotheek",
+      "text": "library",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-aanmelden",
+      "text": "to sign up",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-reserveren",
+      "text": "to reserve",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-openingstijd",
+      "text": "opening hours",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ingang",
+      "text": "entrance",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-uitgang",
+      "text": "exit",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-datum",
+      "text": "date",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-nummer",
+      "text": "number",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bericht",
+      "text": "message",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-mail",
+      "text": "email",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-mailen",
+      "text": "to email",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-online",
+      "text": "online",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-regel",
+      "text": "rule",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-automobilist",
+      "text": "motorist",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bagage",
+      "text": "luggage",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-brug",
+      "text": "bridge",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-fietser",
+      "text": "cyclist",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gebouw",
+      "text": "building",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gracht",
+      "text": "canal",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-halte",
+      "text": "stop",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hoofdstad",
+      "text": "capital",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hotel",
+      "text": "hotel",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hotelkamer",
+      "text": "hotel room",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-markt",
+      "text": "market",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-parkeren",
+      "text": "to park",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-passagier",
+      "text": "passenger",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-plein",
+      "text": "square",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-provincie",
+      "text": "province",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-reisbureau",
+      "text": "travel agency",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-richting",
+      "text": "direction",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-spoor",
+      "text": "track",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-stoep",
+      "text": "pavement",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uitstappen",
+      "text": "to get off",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vertrek",
+      "text": "departure",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-aankomst",
+      "text": "arrival",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-aankomen",
+      "text": "to arrive",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vervoer",
+      "text": "transport",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verkeer",
+      "text": "traffic",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wijk",
+      "text": "district",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-buurt",
+      "text": "neighbourhood",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-camping",
+      "text": "campsite",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-terras",
+      "text": "terrace",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-toerist",
+      "text": "tourist",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-koffer",
+      "text": "suitcase",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-buitenland",
+      "text": "abroad",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-buitenlands",
+      "text": "foreign",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-grens",
+      "text": "border",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ongeluk",
+      "text": "accident",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-pech",
+      "text": "bad luck",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-boekwinkel",
+      "text": "bookshop",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-cent",
+      "text": "cent",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-gratis",
+      "text": "free",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-goedkoop",
+      "text": "cheap",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kassa",
+      "text": "checkout",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-maat",
+      "text": "size",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-portemonnee",
+      "text": "wallet",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-besparen",
+      "text": "to economise",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-sparen",
+      "text": "to save",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verkoop",
+      "text": "sale",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verkoper",
+      "text": "seller",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-winkelen",
+      "text": "to go shopping",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-lenen",
+      "text": "to borrow",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-terugbetalen",
+      "text": "to pay back",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uitgeven",
+      "text": "to spend",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-waarde",
+      "text": "value",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zak",
+      "text": "carrier bag",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tas",
+      "text": "bag",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-badpak",
+      "text": "swimsuit",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-broek",
+      "text": "trousers",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-handschoen",
+      "text": "glove",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-jurk",
+      "text": "dress",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kleding",
+      "text": "clothing",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kous",
+      "text": "stocking",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-muts",
+      "text": "woolly hat",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ondergoed",
+      "text": "underwear",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-overhemd",
+      "text": "shirt",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-pantoffel",
+      "text": "slipper",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-paraplu",
+      "text": "umbrella",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-rok",
+      "text": "skirt",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-sjaal",
+      "text": "scarf",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vest",
+      "text": "cardigan",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bril",
+      "text": "glasses",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ring",
+      "text": "ring",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gymschoen",
+      "text": "gym shoe",
+      "reviewed": false
     }
   ],
   "categories": [
