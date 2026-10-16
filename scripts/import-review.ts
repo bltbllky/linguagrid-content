@@ -1,4 +1,5 @@
-import type { Content } from './validate.ts';
+import { reviewColumns } from './export-review.ts';
+import { type Content, withLegacyTurkish } from './validate.ts';
 
 export interface ReviewResult {
   content: Content;
@@ -33,10 +34,15 @@ export function parseCsv(text: string): string[][] {
  * Applies the owner's review sheet. Decision values: `OK`, `REMOVE`, or corrections separated by
  * ";" — `de` / `het` fixes the article, any other text replaces the Turkish translation. OK and
  * corrections mark both the annotation and the Turkish translation as reviewed; other languages are
- * only touched to drop removed words.
+ * only touched to drop removed words. A sheet of another language (`lang`) goes to `applyLanguageReview`.
  */
-export function applyReview(content: Content, csv: string): ReviewResult {
-  const [header, ...rows] = parseCsv(csv);
+export function applyReview(content: Content, csv: string, lang = 'tr'): ReviewResult {
+  // Spreadsheet apps may save a UTF-8 byte order mark in front of the header.
+  const [header, ...rows] = parseCsv(csv.replace(/^\uFEFF/, ''));
+  if (header.join() !== reviewColumns(lang).join()) {
+    throw new Error(`Not a ${lang} review sheet; expected columns ${reviewColumns(lang).join(',')}`);
+  }
+  if (lang !== 'tr') return applyLanguageReview(content, rows, lang);
   const idCol = header.indexOf('id');
   const decisionCol = header.indexOf('decision');
   const notes = new Map(content.annotations.map((a) => [a.word_id, { ...a }]));
@@ -77,4 +83,47 @@ export function applyReview(content: Content, csv: string): ReviewResult {
     excluded: [...removed].map((id) => ({ id, reason: 'removed in review' })),
     summary,
   };
+}
+
+/**
+ * Applies a review sheet of a language other than Turkish (ADR-011). `OK` marks the existing text as
+ * reviewed; any other decision is the corrected text, taken as written. Only
+ * `data/translations/<lang>.json` changes: articles, categories and Turkish texts are never touched,
+ * and REMOVE belongs in the Turkish sheet.
+ */
+function applyLanguageReview(content: Content, rows: string[][], lang: string): ReviewResult {
+  const known = new Set(content.words.map((w) => w.id));
+  const file = content.translations[lang] ?? { lang, words: [], categories: [] };
+  const texts = new Map(file.words.map((t) => [t.word_id, { ...t }]));
+  const summary = { ok: 0, corrected: 0, removed: 0, pending: 0 };
+  const decisionCol = reviewColumns(lang).indexOf('decision');
+  for (const row of rows) {
+    const [id, decision = ''] = [row[0], row[decisionCol]?.trim()];
+    if (!known.has(id)) throw new Error(`Unknown word id in review: ${id}`);
+    const text = texts.get(id);
+    if (!decision) summary.pending++;
+    else if (decision.toUpperCase() === 'REMOVE') throw new Error(`${id}: REMOVE words in the Turkish sheet`);
+    else if (decision.toUpperCase() === 'OK') {
+      if (!text) throw new Error(`${id}: no ${lang} text to approve`);
+      text.reviewed = true;
+      summary.ok++;
+    } else {
+      texts.set(id, { word_id: id, text: decision, reviewed: true });
+      summary.corrected++;
+    }
+  }
+  const translations = { ...content.translations, [lang]: { ...file, words: [...texts.values()] } };
+  return { content: { ...content, translations }, excluded: [], summary };
+}
+
+/** The data files to write after a review of `lang`, keyed by path relative to the repository root. */
+export function changedFiles(content: Content, lang: string): Record<string, unknown> {
+  if (lang !== 'tr') return { [`data/translations/${lang}.json`]: content.translations[lang] };
+  const files: Record<string, unknown> = {
+    'data/words.json': content.words,
+    // The deprecated text_tr / title_tr copies stay until the app reads data/translations (T-034).
+    'data/annotations.json': withLegacyTurkish(content).annotations,
+  };
+  for (const [code, file] of Object.entries(content.translations)) files[`data/translations/${code}.json`] = file;
+  return files;
 }
