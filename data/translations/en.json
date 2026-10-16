@@ -2,8 +2,38 @@
   "lang": "en",
   "words": [
     {
+      "word_id": "verb-zijn",
+      "text": "to be",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-hebben",
+      "text": "to have",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-gaan",
+      "text": "to go",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-zeggen",
+      "text": "to say",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vinden",
+      "text": "to find",
+      "reviewed": false
+    },
+    {
       "word_id": "noun-huis",
       "text": "house",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-goed",
+      "text": "good",
       "reviewed": false
     },
     {
@@ -12,8 +42,33 @@
       "reviewed": false
     },
     {
+      "word_id": "verb-willen",
+      "text": "to want",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-heel",
+      "text": "whole",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-kunnen",
+      "text": "to be able to",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-moeten",
+      "text": "to have to",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-praten",
+      "text": "to talk",
+      "reviewed": false
+    },
+    {
       "word_id": "verb-wonen",
-      "text": "to live",
+      "text": "to live (somewhere)",
       "reviewed": false
     },
     {
@@ -24,6 +79,46 @@
     {
       "word_id": "noun-mens",
       "text": "human being",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-heten",
+      "text": "to be called",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-leuk",
+      "text": "nice",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-denken",
+      "text": "to think",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-lopen",
+      "text": "to walk",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-zien",
+      "text": "to see",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-kijken",
+      "text": "to look",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-doen",
+      "text": "to do",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-blij",
+      "text": "glad",
       "reviewed": false
     },
     {
@@ -42,13 +137,43 @@
       "reviewed": false
     },
     {
+      "word_id": "verb-komen",
+      "text": "to come",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-ander",
+      "text": "other",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vragen",
+      "text": "to ask",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-erg",
+      "text": "awful",
+      "reviewed": false
+    },
+    {
       "word_id": "noun-vrouw",
       "text": "woman",
       "reviewed": false
     },
     {
+      "word_id": "adj-snel",
+      "text": "fast",
+      "reviewed": false
+    },
+    {
       "word_id": "noun-kleed",
       "text": "rug",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-geven",
+      "text": "to give",
       "reviewed": false
     },
     {
@@ -67,8 +192,18 @@
       "reviewed": false
     },
     {
+      "word_id": "verb-zitten",
+      "text": "to sit",
+      "reviewed": false
+    },
+    {
       "word_id": "noun-vriendin",
       "text": "girlfriend",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-lang",
+      "text": "long",
       "reviewed": false
     },
     {
@@ -77,8 +212,23 @@
       "reviewed": false
     },
     {
+      "word_id": "verb-zoeken",
+      "text": "to look for",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-brief",
+      "text": "letter",
+      "reviewed": false
+    },
+    {
       "word_id": "noun-haar",
       "text": "hair",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-staan",
+      "text": "to stand",
       "reviewed": false
     },
     {
@@ -92,8 +242,23 @@
       "reviewed": false
     },
     {
+      "word_id": "adj-groot",
+      "text": "big",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-kopen",
+      "text": "to buy",
+      "reviewed": false
+    },
+    {
       "word_id": "noun-auto",
       "text": "car",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-bang",
+      "text": "afraid",
       "reviewed": false
     },
     {
@@ -102,8 +267,48 @@
       "reviewed": false
     },
     {
+      "word_id": "verb-maken",
+      "text": "to make",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-lachen",
+      "text": "to laugh",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-oud",
+      "text": "old",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-klein",
+      "text": "small",
+      "reviewed": false
+    },
+    {
       "word_id": "noun-kind",
       "text": "child",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-worden",
+      "text": "to become",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-probleem",
+      "text": "problem",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-schreeuwen",
+      "text": "to shout",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-liggen",
+      "text": "to lie (down)",
       "reviewed": false
     },
     {
@@ -112,8 +317,18 @@
       "reviewed": false
     },
     {
+      "word_id": "noun-geld",
+      "text": "money",
+      "reviewed": false
+    },
+    {
       "word_id": "noun-man",
       "text": "man",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-krijgen",
+      "text": "to get",
       "reviewed": false
     },
     {
@@ -122,8 +337,18 @@
       "reviewed": false
     },
     {
+      "word_id": "adj-nieuw",
+      "text": "new",
+      "reviewed": false
+    },
+    {
       "word_id": "noun-kamer",
       "text": "room",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-pakken",
+      "text": "to grab",
       "reviewed": false
     },
     {
@@ -144,6 +369,11 @@
     {
       "word_id": "noun-eten",
       "text": "food",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-mooi",
+      "text": "beautiful",
       "reviewed": false
     },
     {
@@ -172,13 +402,48 @@
       "reviewed": false
     },
     {
+      "word_id": "verb-vertellen",
+      "text": "to tell",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-rood",
+      "text": "red",
+      "reviewed": false
+    },
+    {
       "word_id": "adj-vroeg",
       "text": "early",
       "reviewed": false
     },
     {
+      "word_id": "adj-verdrietig",
+      "text": "sad",
+      "reviewed": false
+    },
+    {
       "word_id": "verb-kennen",
       "text": "to know (someone)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-volgen",
+      "text": "to follow",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-begrijpen",
+      "text": "to understand",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-fijn",
+      "text": "pleasant",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-mogen",
+      "text": "to be allowed to",
       "reviewed": false
     },
     {
@@ -207,6 +472,11 @@
       "reviewed": false
     },
     {
+      "word_id": "adj-normaal",
+      "text": "normal",
+      "reviewed": false
+    },
+    {
       "word_id": "noun-les",
       "text": "lesson",
       "reviewed": false
@@ -219,6 +489,11 @@
     {
       "word_id": "verb-slapen",
       "text": "to sleep",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-houden",
+      "text": "to hold",
       "reviewed": false
     },
     {
@@ -237,6 +512,11 @@
       "reviewed": false
     },
     {
+      "word_id": "noun-winkel",
+      "text": "shop",
+      "reviewed": false
+    },
+    {
       "word_id": "adj-vaak",
       "text": "often",
       "reviewed": false
@@ -252,8 +532,18 @@
       "reviewed": false
     },
     {
+      "word_id": "verb-spreken",
+      "text": "to speak",
+      "reviewed": false
+    },
+    {
       "word_id": "noun-ding",
       "text": "thing",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-nodig",
+      "text": "necessary",
       "reviewed": false
     },
     {
@@ -269,6 +559,21 @@
     {
       "word_id": "verb-rijden",
       "text": "to drive",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-nemen",
+      "text": "to take",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-helpen",
+      "text": "to help",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-weten",
+      "text": "to know",
       "reviewed": false
     },
     {
@@ -297,8 +602,28 @@
       "reviewed": false
     },
     {
+      "word_id": "verb-betalen",
+      "text": "to pay",
+      "reviewed": false
+    },
+    {
       "word_id": "noun-buschauffeur",
       "text": "bus driver",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-leggen",
+      "text": "to lay",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bank",
+      "text": "bank",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-zacht",
+      "text": "soft",
       "reviewed": false
     },
     {
@@ -317,6 +642,11 @@
       "reviewed": false
     },
     {
+      "word_id": "noun-naam",
+      "text": "name",
+      "reviewed": false
+    },
+    {
       "word_id": "noun-vakantie",
       "text": "holiday",
       "reviewed": false
@@ -324,6 +654,16 @@
     {
       "word_id": "noun-maand",
       "text": "month",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-bellen",
+      "text": "to phone",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-arm",
+      "text": "poor",
       "reviewed": false
     },
     {
@@ -362,6 +702,11 @@
       "reviewed": false
     },
     {
+      "word_id": "adj-aardig",
+      "text": "kind",
+      "reviewed": false
+    },
+    {
       "word_id": "noun-dansfeest",
       "text": "dance party",
       "reviewed": false
@@ -382,6 +727,11 @@
       "reviewed": false
     },
     {
+      "word_id": "noun-paar",
+      "text": "pair",
+      "reviewed": false
+    },
+    {
       "word_id": "noun-bed",
       "text": "bed",
       "reviewed": false
@@ -389,6 +739,16 @@
     {
       "word_id": "noun-dochter",
       "text": "daughter",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-hard",
+      "text": "hard",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-open",
+      "text": "open",
       "reviewed": false
     },
     {
@@ -402,8 +762,23 @@
       "reviewed": false
     },
     {
+      "word_id": "adj-lief",
+      "text": "sweet",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-eenzaam",
+      "text": "lonely",
+      "reviewed": false
+    },
+    {
       "word_id": "noun-thee",
       "text": "tea",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-belangrijk",
+      "text": "important",
       "reviewed": false
     },
     {
@@ -414,6 +789,11 @@
     {
       "word_id": "adj-ziek",
       "text": "ill",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-beginnen",
+      "text": "to begin",
       "reviewed": false
     },
     {
@@ -432,6 +812,11 @@
       "reviewed": false
     },
     {
+      "word_id": "adj-blauw",
+      "text": "blue",
+      "reviewed": false
+    },
+    {
       "word_id": "verb-dansen",
       "text": "to dance",
       "reviewed": false
@@ -442,8 +827,18 @@
       "reviewed": false
     },
     {
+      "word_id": "adj-wit",
+      "text": "white",
+      "reviewed": false
+    },
+    {
       "word_id": "noun-appartement",
       "text": "apartment",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-vreemd",
+      "text": "strange",
       "reviewed": false
     },
     {
@@ -467,13 +862,28 @@
       "reviewed": false
     },
     {
+      "word_id": "adj-gelukkig",
+      "text": "happy",
+      "reviewed": false
+    },
+    {
       "word_id": "noun-fruit",
       "text": "fruit",
       "reviewed": false
     },
     {
+      "word_id": "adj-engels",
+      "text": "English",
+      "reviewed": false
+    },
+    {
       "word_id": "noun-water",
       "text": "water",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-kort",
+      "text": "short",
       "reviewed": false
     },
     {
@@ -502,8 +912,33 @@
       "reviewed": false
     },
     {
+      "word_id": "verb-brengen",
+      "text": "to bring",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-website",
+      "text": "website",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-luisteren",
+      "text": "to listen",
+      "reviewed": false
+    },
+    {
       "word_id": "noun-stad",
       "text": "city",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-gebruiken",
+      "text": "to use",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-nederlands",
+      "text": "Dutch",
       "reviewed": false
     },
     {
@@ -517,8 +952,18 @@
       "reviewed": false
     },
     {
+      "word_id": "verb-verkopen",
+      "text": "to sell",
+      "reviewed": false
+    },
+    {
       "word_id": "noun-voet",
       "text": "foot",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-stappen",
+      "text": "to step",
       "reviewed": false
     },
     {
@@ -529,6 +974,11 @@
     {
       "word_id": "verb-leren",
       "text": "to learn",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-bruin",
+      "text": "brown",
       "reviewed": false
     },
     {
@@ -549,6 +999,21 @@
     {
       "word_id": "noun-boterham",
       "text": "slice of bread",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-verbaasd",
+      "text": "surprised",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-passen",
+      "text": "to fit",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-telefoon",
+      "text": "telephone",
       "reviewed": false
     },
     {
@@ -577,6 +1042,11 @@
       "reviewed": false
     },
     {
+      "word_id": "noun-groet",
+      "text": "greeting",
+      "reviewed": false
+    },
+    {
       "word_id": "verb-trouwen",
       "text": "to marry",
       "reviewed": false
@@ -587,8 +1057,43 @@
       "reviewed": false
     },
     {
+      "word_id": "noun-horloge",
+      "text": "watch",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-trekken",
+      "text": "to pull",
+      "reviewed": false
+    },
+    {
       "word_id": "noun-televisie",
       "text": "television",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-antwoord",
+      "text": "answer",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-jas",
+      "text": "coat",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-jong",
+      "text": "young",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-laten",
+      "text": "to let",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-ongelukkig",
+      "text": "unhappy",
       "reviewed": false
     },
     {
@@ -597,8 +1102,18 @@
       "reviewed": false
     },
     {
+      "word_id": "adj-grijs",
+      "text": "grey",
+      "reviewed": false
+    },
+    {
       "word_id": "noun-meneer",
       "text": "sir",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-glimlachen",
+      "text": "to smile",
       "reviewed": false
     },
     {
@@ -607,8 +1122,43 @@
       "reviewed": false
     },
     {
+      "word_id": "noun-internet",
+      "text": "internet",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-antwoorden",
+      "text": "to answer",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hulp",
+      "text": "help",
+      "reviewed": false
+    },
+    {
       "word_id": "noun-land",
       "text": "country",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-bijzonder",
+      "text": "remarkable",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-moeilijk",
+      "text": "difficult",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-riem",
+      "text": "belt",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-bedanken",
+      "text": "to thank",
       "reviewed": false
     },
     {
@@ -624,6 +1174,11 @@
     {
       "word_id": "noun-kat",
       "text": "cat",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-cadeau",
+      "text": "present",
       "reviewed": false
     },
     {
@@ -657,8 +1212,23 @@
       "reviewed": false
     },
     {
+      "word_id": "adj-welkom",
+      "text": "welcome",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-klaar",
+      "text": "ready",
+      "reviewed": false
+    },
+    {
       "word_id": "noun-avond",
       "text": "evening",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-weggaan",
+      "text": "to go away",
       "reviewed": false
     },
     {
@@ -667,8 +1237,18 @@
       "reviewed": false
     },
     {
+      "word_id": "adj-eigen",
+      "text": "own",
+      "reviewed": false
+    },
+    {
       "word_id": "noun-appel",
       "text": "apple",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-speciaal",
+      "text": "special",
       "reviewed": false
     },
     {
@@ -677,8 +1257,18 @@
       "reviewed": false
     },
     {
+      "word_id": "verb-huilen",
+      "text": "to cry",
+      "reviewed": false
+    },
+    {
       "word_id": "noun-groente",
       "text": "vegetable",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-sturen",
+      "text": "to send",
       "reviewed": false
     },
     {
@@ -692,8 +1282,18 @@
       "reviewed": false
     },
     {
+      "word_id": "noun-product",
+      "text": "product",
+      "reviewed": false
+    },
+    {
       "word_id": "adj-sportief",
       "text": "sporty",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-boodschap",
+      "text": "groceries",
       "reviewed": false
     },
     {
@@ -717,8 +1317,18 @@
       "reviewed": false
     },
     {
+      "word_id": "adj-stil",
+      "text": "quiet",
+      "reviewed": false
+    },
+    {
       "word_id": "noun-fabriek",
       "text": "factory",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-kosten",
+      "text": "to cost",
       "reviewed": false
     },
     {
@@ -729,6 +1339,11 @@
     {
       "word_id": "noun-lokaal",
       "text": "classroom",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-soort",
+      "text": "sort",
       "reviewed": false
     },
     {
@@ -752,6 +1367,11 @@
       "reviewed": false
     },
     {
+      "word_id": "verb-dragen",
+      "text": "to carry",
+      "reviewed": false
+    },
+    {
       "word_id": "noun-oma",
       "text": "grandma",
       "reviewed": false
@@ -759,6 +1379,11 @@
     {
       "word_id": "noun-aardappel",
       "text": "potato",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-adres",
+      "text": "address",
       "reviewed": false
     },
     {
@@ -782,6 +1407,11 @@
       "reviewed": false
     },
     {
+      "word_id": "adj-extra",
+      "text": "extra",
+      "reviewed": false
+    },
+    {
       "word_id": "noun-kwart",
       "text": "quarter",
       "reviewed": false
@@ -802,8 +1432,33 @@
       "reviewed": false
     },
     {
+      "word_id": "adj-perfect",
+      "text": "perfect",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-euro",
+      "text": "euro",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-gooien",
+      "text": "to throw",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-zetten",
+      "text": "to put",
+      "reviewed": false
+    },
+    {
       "word_id": "noun-feest",
       "text": "party",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-informatie",
+      "text": "information",
       "reviewed": false
     },
     {
@@ -862,6 +1517,26 @@
       "reviewed": false
     },
     {
+      "word_id": "verb-wachten",
+      "text": "to wait",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verbazen",
+      "text": "to surprise",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-waar",
+      "text": "true",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-echt",
+      "text": "real",
+      "reviewed": false
+    },
+    {
       "word_id": "noun-restaurant",
       "text": "restaurant",
       "reviewed": false
@@ -872,8 +1547,18 @@
       "reviewed": false
     },
     {
+      "word_id": "adj-favoriet",
+      "text": "favourite",
+      "reviewed": false
+    },
+    {
       "word_id": "verb-schoonmaken",
       "text": "to clean",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vallen",
+      "text": "to fall",
       "reviewed": false
     },
     {
@@ -882,8 +1567,28 @@
       "reviewed": false
     },
     {
+      "word_id": "noun-vraag",
+      "text": "question",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-taal",
+      "text": "language",
+      "reviewed": false
+    },
+    {
       "word_id": "adj-vies",
       "text": "dirty",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-blijven",
+      "text": "to stay",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-lijken",
+      "text": "to look like",
       "reviewed": false
     },
     {
@@ -902,6 +1607,21 @@
       "reviewed": false
     },
     {
+      "word_id": "noun-prijs",
+      "text": "price",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-duur",
+      "text": "expensive",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-dicht",
+      "text": "closed",
+      "reviewed": false
+    },
+    {
       "word_id": "noun-rijtjeshuis",
       "text": "terraced house",
       "reviewed": false
@@ -909,6 +1629,11 @@
     {
       "word_id": "adj-koud",
       "text": "cold",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-ruim",
+      "text": "spacious",
       "reviewed": false
     },
     {
@@ -929,6 +1654,11 @@
     {
       "word_id": "adj-slank",
       "text": "slim",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-leeg",
+      "text": "empty",
       "reviewed": false
     },
     {
@@ -957,8 +1687,23 @@
       "reviewed": false
     },
     {
+      "word_id": "verb-leven",
+      "text": "to live",
+      "reviewed": false
+    },
+    {
       "word_id": "verb-regenen",
       "text": "to rain",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bloes",
+      "text": "blouse",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-nerveus",
+      "text": "nervous",
       "reviewed": false
     },
     {
@@ -977,8 +1722,23 @@
       "reviewed": false
     },
     {
+      "word_id": "adj-gewoon",
+      "text": "ordinary",
+      "reviewed": false
+    },
+    {
       "word_id": "noun-plezier",
       "text": "fun",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-boos",
+      "text": "angry",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-geel",
+      "text": "yellow",
       "reviewed": false
     },
     {
@@ -992,8 +1752,23 @@
       "reviewed": false
     },
     {
+      "word_id": "noun-uniform",
+      "text": "uniform",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-dollar",
+      "text": "dollar",
+      "reviewed": false
+    },
+    {
       "word_id": "noun-radio",
       "text": "radio",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-afscheid",
+      "text": "farewell",
       "reviewed": false
     },
     {
@@ -1002,8 +1777,18 @@
       "reviewed": false
     },
     {
+      "word_id": "noun-kleur",
+      "text": "colour",
+      "reviewed": false
+    },
+    {
       "word_id": "noun-vloer",
       "text": "floor",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-interessant",
+      "text": "interesting",
       "reviewed": false
     },
     {
@@ -1042,6 +1827,16 @@
       "reviewed": false
     },
     {
+      "word_id": "noun-webwinkel",
+      "text": "online shop",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-idee",
+      "text": "idea",
+      "reviewed": false
+    },
+    {
       "word_id": "noun-kerk",
       "text": "church",
       "reviewed": false
@@ -1049,6 +1844,11 @@
     {
       "word_id": "noun-computer",
       "text": "computer",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-klant",
+      "text": "customer",
       "reviewed": false
     },
     {
@@ -1112,6 +1912,11 @@
       "reviewed": false
     },
     {
+      "word_id": "verb-strijken",
+      "text": "to iron",
+      "reviewed": false
+    },
+    {
       "word_id": "noun-foto",
       "text": "photo",
       "reviewed": false
@@ -1134,6 +1939,11 @@
     {
       "word_id": "noun-kalender",
       "text": "calendar",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-supermarkt",
+      "text": "supermarket",
       "reviewed": false
     },
     {
@@ -1174,6 +1984,16 @@
     {
       "word_id": "verb-controleren",
       "text": "to check",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kam",
+      "text": "comb",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-kammen",
+      "text": "to comb",
       "reviewed": false
     },
     {
