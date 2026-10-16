@@ -4,10 +4,10 @@
   "items": {
     "type": "object",
     "additionalProperties": false,
-    "required": ["word_id", "text_tr", "article", "category_id", "reviewed"],
+    "required": ["word_id", "article", "category_id", "reviewed"],
     "properties": {
       "word_id": { "type": "string" },
-      "text_tr": { "type": "string" },
+      "text_tr": { "type": "string", "deprecated": true, "description": "Copy of translations/tr.json until T-034" },
       "article": { "enum": ["de", "het", null] },
       "category_id": { "type": "string" },
       "reviewed": { "type": "boolean" }

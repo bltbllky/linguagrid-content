@@ -3,6 +3,7 @@ import { describe, it } from 'node:test';
 
 import { validContent } from './fixtures/valid.ts';
 import { buildRelease } from './build-release.ts';
+import { withLegacyTurkish } from './validate.ts';
 
 describe('buildRelease', () => {
   it('includes only reviewed words and bumps the content version', () => {
@@ -22,6 +23,15 @@ describe('buildRelease', () => {
       ['release/2/words.json', 'release/2/annotations.json', 'release/2/categories.json'],
     );
     assert.ok(release.manifest.files.every((f) => /^[0-9a-f]{64}$/.test(f.sha256)));
+  });
+
+  it('ships the pre-T-029 shape with Turkish texts and needs a reviewed Turkish translation', () => {
+    const content = validContent();
+    const release = buildRelease(content, { minimums: {}, allowPartial: false });
+    assert.equal(release.files['annotations.json'], JSON.stringify([withLegacyTurkish(content).annotations[0]], null, 2) + '\n');
+    assert.deepEqual(JSON.parse(release.files['categories.json']), [{ id: 'health', title_tr: 'Sağlık', cefr: 'A1', order: 1 }]);
+    content.translations.tr.words[0].reviewed = false;
+    assert.equal(buildRelease(content, { minimums: {}, allowPartial: false }).files['words.json'], '[]\n');
   });
 
   it('keeps min_app_version untouched', () => {
