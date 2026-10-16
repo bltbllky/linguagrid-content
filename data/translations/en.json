@@ -2000,6 +2000,921 @@
       "word_id": "noun-luis",
       "text": "louse",
       "reviewed": false
+    },
+    {
+      "word_id": "verb-aankleden",
+      "text": "to get dressed",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-achtertuin",
+      "text": "back garden",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-afwas",
+      "text": "washing-up",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-afwassen",
+      "text": "to do the washing-up",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-afzuigkap",
+      "text": "cooker hood",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-apparaat",
+      "text": "appliance",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bad",
+      "text": "bath",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bewoner",
+      "text": "resident",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-dak",
+      "text": "roof",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-deken",
+      "text": "blanket",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-douchen",
+      "text": "to shower",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-eetkamer",
+      "text": "dining room",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-eettafel",
+      "text": "dining table",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-fornuis",
+      "text": "cooker",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gordijn",
+      "text": "curtain",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-handdoek",
+      "text": "towel",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-huur",
+      "text": "rent",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-huren",
+      "text": "to rent",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kelder",
+      "text": "cellar",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-keukenkast",
+      "text": "kitchen cupboard",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kussen",
+      "text": "pillow",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-laken",
+      "text": "bed sheet",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-lamp",
+      "text": "lamp",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-lift",
+      "text": "lift",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-magnetron",
+      "text": "microwave",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-meubel",
+      "text": "piece of furniture",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-opruimen",
+      "text": "to tidy up",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-oven",
+      "text": "oven",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-plafond",
+      "text": "ceiling",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-plank",
+      "text": "shelf",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-repareren",
+      "text": "to repair",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-rommel",
+      "text": "mess",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-salontafel",
+      "text": "coffee table",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-sleutel",
+      "text": "key",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-stoel",
+      "text": "chair",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-stof",
+      "text": "dust",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-trap",
+      "text": "stairs",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verhuizing",
+      "text": "house move",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verwarming",
+      "text": "heating",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verwarmen",
+      "text": "to heat",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-voordeur",
+      "text": "front door",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-was",
+      "text": "laundry",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wasdroger",
+      "text": "tumble dryer",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-waterkoker",
+      "text": "kettle",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wc",
+      "text": "WC",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-woonplaats",
+      "text": "place of residence",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zolder",
+      "text": "attic",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-spiegel",
+      "text": "mirror",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-afval",
+      "text": "rubbish",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-muur",
+      "text": "wall",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-pan",
+      "text": "pan",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vork",
+      "text": "fork",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-lepel",
+      "text": "spoon",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-mes",
+      "text": "knife",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-glas",
+      "text": "glass",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kom",
+      "text": "bowl",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-theelepel",
+      "text": "teaspoon",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-eetlepel",
+      "text": "tablespoon",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-doos",
+      "text": "box",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-aardbei",
+      "text": "strawberry",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-appelmoes",
+      "text": "apple sauce",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-appeltaart",
+      "text": "apple pie",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-avondeten",
+      "text": "dinner",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-bakken",
+      "text": "to bake",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bakker",
+      "text": "baker",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-boerenkool",
+      "text": "kale",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-boon",
+      "text": "bean",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-boter",
+      "text": "butter",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-brood",
+      "text": "bread",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-croissant",
+      "text": "croissant",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-drank",
+      "text": "drink",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-druif",
+      "text": "grape",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-erwtensoep",
+      "text": "pea soup",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gehakt",
+      "text": "minced meat",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gerecht",
+      "text": "dish",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hagelslag",
+      "text": "chocolate sprinkles",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ham",
+      "text": "ham",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-haring",
+      "text": "herring",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-honing",
+      "text": "honey",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ingrediënt",
+      "text": "ingredient",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-jam",
+      "text": "jam",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kaas",
+      "text": "cheese",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kip",
+      "text": "chicken",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-klaarmaken",
+      "text": "to prepare",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-knoflook",
+      "text": "garlic",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-koken",
+      "text": "to cook",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kok",
+      "text": "cook",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kool",
+      "text": "cabbage",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-lunch",
+      "text": "lunch",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-lunchen",
+      "text": "to have lunch",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-maaltijd",
+      "text": "meal",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-olie",
+      "text": "oil",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ontbijt",
+      "text": "breakfast",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-ontbijten",
+      "text": "to have breakfast",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-pasta",
+      "text": "pasta",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-peper",
+      "text": "pepper",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-pudding",
+      "text": "pudding",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-rijst",
+      "text": "rice",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-rookworst",
+      "text": "smoked sausage",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-salade",
+      "text": "salad",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-sla",
+      "text": "lettuce",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-slagroom",
+      "text": "whipped cream",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-smaak",
+      "text": "taste",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-smaken",
+      "text": "to taste",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-smakelijk",
+      "text": "appetising",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-soep",
+      "text": "soup",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-stamppot",
+      "text": "potato and vegetable mash",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-suiker",
+      "text": "sugar",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ui",
+      "text": "onion",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vis",
+      "text": "fish",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-voedsel",
+      "text": "nourishment",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wijn",
+      "text": "wine",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-worst",
+      "text": "sausage",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wortel",
+      "text": "carrot",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zout",
+      "text": "salt",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-zuur",
+      "text": "sour",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-dorst",
+      "text": "thirst",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ober",
+      "text": "waiter",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-fooi",
+      "text": "tip",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-serveren",
+      "text": "to serve",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-bestellen",
+      "text": "to order",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bestelling",
+      "text": "order",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-vers",
+      "text": "fresh",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-heet",
+      "text": "hot",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-snijden",
+      "text": "to cut",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-apotheek",
+      "text": "pharmacy",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-apotheker",
+      "text": "pharmacist",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-arts",
+      "text": "physician",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bijsluiter",
+      "text": "patient leaflet",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bijwerking",
+      "text": "side effect",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bloed",
+      "text": "blood",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-bloeden",
+      "text": "to bleed",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-buik",
+      "text": "belly",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-consult",
+      "text": "consultation",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-dosering",
+      "text": "dosage",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-duizeligheid",
+      "text": "dizziness",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-genezen",
+      "text": "to heal",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gezondheid",
+      "text": "health",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-griep",
+      "text": "flu",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-hoesten",
+      "text": "to cough",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hoofdpijn",
+      "text": "headache",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-huid",
+      "text": "skin",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-keel",
+      "text": "throat",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-koorts",
+      "text": "fever",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-lichaam",
+      "text": "body",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-maag",
+      "text": "stomach",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-maagpijn",
+      "text": "stomach ache",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-medicijn",
+      "text": "medicine",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-medisch",
+      "text": "medical",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-neus",
+      "text": "nose",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-nek",
+      "text": "neck",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-oor",
+      "text": "ear",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-oorpijn",
+      "text": "earache",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-paracetamol",
+      "text": "paracetamol",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-patiënt",
+      "text": "patient",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-pijn",
+      "text": "pain",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-recept",
+      "text": "prescription",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-rug",
+      "text": "back",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-schouder",
+      "text": "shoulder",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-slikken",
+      "text": "to swallow",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-specialist",
+      "text": "specialist",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-spreekuur",
+      "text": "consulting hours",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tand",
+      "text": "tooth",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-teen",
+      "text": "toe",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vinger",
+      "text": "finger",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-gewond",
+      "text": "injured",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wond",
+      "text": "wound",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ziekte",
+      "text": "illness",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zalf",
+      "text": "ointment",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-zwanger",
+      "text": "pregnant",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-neusspray",
+      "text": "nasal spray",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-arm",
+      "text": "arm",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-been",
+      "text": "leg",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hand",
+      "text": "hand",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hoofd",
+      "text": "head",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-mond",
+      "text": "mouth",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gezicht",
+      "text": "face",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tong",
+      "text": "tongue",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-ongezond",
+      "text": "unhealthy",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-fit",
+      "text": "fit",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-overgeven",
+      "text": "to vomit",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-slaperig",
+      "text": "sleepy",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zuster",
+      "text": "nurse",
+      "reviewed": false
     }
   ],
   "categories": [
