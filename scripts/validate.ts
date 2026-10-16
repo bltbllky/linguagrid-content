@@ -40,6 +40,8 @@ export interface TranslationFile {
 export interface Manifest {
   content_version: number;
   min_app_version: { ios: string; android: string };
+  /** Prompt languages in this release, Turkish first; absent in manifests from before T-031 (Turkish only). */
+  languages?: string[];
   files: { path: string; sha256: string }[];
 }
 export interface Content {
