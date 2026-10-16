@@ -1,0 +1,18 @@
+id,dutch,field,current,suggestion,reason,severity
+verb-kunnen,kunnen,turkish,-ebilmek,yapabilmek,A suffix is not a dictionary-form verb; the prompt must be an infinitive (-mek/-mak).,wrong
+adj-engels,engels,lemma,engels,Engels,"Dutch spells language adjectives with a capital (Woordenlijst: Engels). Shown in the recap as ""engels"". Lowercase is an extraction artifact (extract-nt2lex.ts lowercases every lemma), not a rule; validate.ts lowercases when it checks ids, so adj-engels stays valid. Developer to confirm the app handles a capital.",unsure
+adj-nederlands,nederlands,lemma,nederlands,Nederlands,Dutch spells language adjectives with a capital (Woordenlijst: Nederlands). Same app check as Engels.,unsure
+adj-nederlands,nederlands,turkish,Hollandaca,Felemenkçe,"""Hollandaca"" is colloquial; ""Felemenkçe"" is the standard (TDK) name. Owner picks the register.",style
+verb-pakken,pakken,turkish,kapmak,eline almak,"""kapmak"" means to snatch; everyday ""pakken"" is to take/grab calmly (pak een stoel, de bus pakken).",unsure
+verb-krijgen,krijgen,turkish,elde etmek,(birinden) almak,"""elde etmek"" is formal (to obtain); A1 ""krijgen"" is to get/receive (een cadeau krijgen).",unsure
+adj-erg,erg,turkish,berbat,"çok kötü, berbat","At A1 ""erg"" is met almost only as ""very"" (erg leuk); as an adjective ""berbat"" is fine. Owner decides whether to keep the adjective sense.",style
+adj-heel,heel,turkish,bütün,"bütün, tam","At A1 ""heel"" is met mostly as ""very"" (heel goed); the adjective sense ""whole"" is correct. Optional: keep.",style
+verb-zetten,zetten,turkish,koymak,koymak (dik),"""koymak"" also appears in ""leggen = yatırmak, koymak""; both are in a1-daily-verbs and can meet in one level. ""zetten"" = put upright, ""leggen"" = lay down.",unsure
+verb-eten,eten,turkish,yemek yemek,yemek yemek,"Same Dutch lemma as noun-eten (""yemek""), both A1 a1-food. US-002 forbids two prompts with the same Dutch word in a level; developer to confirm the level builder compares lemmas, not ids.",unsure
+verb-leven,leven,turkish,yaşamak,yaşamak,"Same Dutch lemma as noun-leven (""hayat""), both A1. Same level-builder check as eten.",unsure
+adj-arm,arm,turkish,fakir,fakir,"Same Dutch lemma as noun-arm (A2, ""kol""). Same level-builder check when A1 review words appear in A2 levels.",unsure
+adj-vaak,vaak,pos,adj,adverb,"""vaak"" is an adverb, not an adjective. Harmless (no article either way); no adverb pos exists in the schema.",style
+adj-rechts,rechts,pos,adj,adverb,"""rechts"" is an adverb. Harmless; no adverb pos exists in the schema.",style
+adj-links,links,pos,adj,adverb,"""links"" is an adverb. Harmless; no adverb pos exists in the schema.",style
+noun-kam,kam,category,a1-clothes,a1-body-health,A comb is not clothing; body care fits better.,style
+verb-kammen,kammen,category,a1-clothes,a1-body-health,"Combing is body care, not clothing.",style

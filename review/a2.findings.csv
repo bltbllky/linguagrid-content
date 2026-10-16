@@ -1,0 +1,16 @@
+id,dutch,field,current,suggestion,reason,severity
+noun-dijk,dijk,turkish,set (bent),"set, bent","The parenthesis holds a synonym, not a sense hint; elsewhere two senses are separated by a comma.",style
+adj-zenuwachtig,zenuwachtig,turkish,telaşlı,"heyecanlı, gergin","""telaşlı"" means flustered/in a hurry; ""zenuwachtig"" is nervous (before an exam). ""gergin"" is taken by A1 ""nerveus"", so add a second word.",unsure
+noun-provincie,provincie,turkish,il,eyalet,"Turkish texts about the Netherlands call its 12 provinces ""eyalet""; ""il"" is the Turkish administrative unit.",unsure
+noun-neef,neef,turkish,erkek kuzen,"kuzen, yeğen (erkek)","""neef"" means both male cousin and nephew; both are everyday at A2.",unsure
+noun-nicht,nicht,turkish,kız kuzen,"kuzen, yeğen (kız)","""nicht"" means both female cousin and niece.",unsure
+adj-vorig,vorig,turkish,önceki,geçen,"Everyday use is ""vorige week = geçen hafta""; ""önceki"" is correct but less natural.",style
+adj-vrij,vrij,turkish,serbest,"serbest, boş","At A2 ""vrij"" is mostly ""free/off"" (een vrije dag = boş gün, izin günü).",style
+verb-afspreken,afspreken,turkish,sözleşmek,buluşmak için sözleşmek,"""sözleşmek"" alone sounds old-fashioned; the A2 sense is to arrange to meet.",style
+noun-feestdag,feestdag,turkish,bayram günü,resmî tatil günü,"""bayram günü"" suggests religious holidays; ""feestdag"" is a public holiday (Koningsdag, Kerst). ""tatil günü"" is taken by vakantiedag.",style
+noun-fout,fout,category,a2-describing,a2-communication,"A noun in ""Tanımlama"" (describing words); fits with mistakes in language/communication or stays. Optional.",style
+noun-beslissing,beslissing,category,a2-daily-verbs,a2-daily-verbs (keep) or a2-communication,"A noun in ""Günlük fiiller"" (daily verbs), paired with its verb ""beslissen"". The title says verbs.",style
+noun-keus,keus,category,a2-daily-verbs,a2-daily-verbs (keep) or a2-describing,"A noun in ""Günlük fiiller"", paired with ""kiezen"".",style
+noun-oplossing,oplossing,category,a2-daily-verbs,a2-daily-verbs (keep) or a2-communication,"A noun in ""Günlük fiiller"", paired with ""oplossen"".",style
+noun-ontmoeting,ontmoeting,category,a2-daily-verbs,a2-people,"A noun in ""Günlük fiiller""; a meeting with someone fits ""İnsanlar ve ilişkiler"".",style
+noun-bezoek,bezoek,category,a2-daily-verbs,a2-people,"A noun in ""Günlük fiiller"", paired with ""bezoeken""; fits ""İnsanlar ve ilişkiler"".",style
