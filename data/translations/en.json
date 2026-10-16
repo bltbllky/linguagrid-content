@@ -438,7 +438,7 @@
     },
     {
       "word_id": "adj-fijn",
-      "text": "pleasant",
+      "text": "lovely",
       "reviewed": false
     },
     {
@@ -1703,7 +1703,7 @@
     },
     {
       "word_id": "adj-nerveus",
-      "text": "nervous",
+      "text": "tense",
       "reviewed": false
     },
     {
@@ -3719,6 +3719,651 @@
     {
       "word_id": "noun-gymschoen",
       "text": "gym shoe",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-baby",
+      "text": "baby",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bruid",
+      "text": "bride",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bruiloft",
+      "text": "wedding",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-buurman",
+      "text": "neighbour (male)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-buurvrouw",
+      "text": "neighbour (female)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-familielid",
+      "text": "relative",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gast",
+      "text": "guest",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gezin",
+      "text": "nuclear family",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-geboorte",
+      "text": "birth",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-opa",
+      "text": "grandpa",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-huwelijk",
+      "text": "marriage",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-jongen",
+      "text": "boy",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kinderopvang",
+      "text": "childcare",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-leeftijd",
+      "text": "age",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-neef",
+      "text": "cousin (male)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-nicht",
+      "text": "cousin (female)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-oom",
+      "text": "uncle",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tante",
+      "text": "aunt",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-oppas",
+      "text": "babysitter",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-opvoeden",
+      "text": "to bring up",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-persoon",
+      "text": "person",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-scheiden",
+      "text": "to divorce",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-scheiding",
+      "text": "divorce",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-volwassene",
+      "text": "adult",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vriendschap",
+      "text": "friendship",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-zoenen",
+      "text": "to kiss",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-overlijden",
+      "text": "to pass away",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-begrafenis",
+      "text": "funeral",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-heer",
+      "text": "gentleman",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-lid",
+      "text": "member",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-club",
+      "text": "club",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-dans",
+      "text": "dance",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-feestdag",
+      "text": "public holiday",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-film",
+      "text": "film",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-hardlopen",
+      "text": "to jog",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kermis",
+      "text": "funfair",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kerst",
+      "text": "Christmas",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-museum",
+      "text": "museum",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-nieuwjaar",
+      "text": "New Year",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-schaatsen",
+      "text": "to ice-skate",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-sporten",
+      "text": "to do sport",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-toneelstuk",
+      "text": "stage play",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-voorstelling",
+      "text": "performance",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-voetbalclub",
+      "text": "football club",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-wandelen",
+      "text": "to go for a walk",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wandeling",
+      "text": "walk",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wedstrijd",
+      "text": "match",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uitgaan",
+      "text": "to go out",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vakantiedag",
+      "text": "day off",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kunst",
+      "text": "art",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-tekenen",
+      "text": "to draw",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-speelgoed",
+      "text": "toys",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-spel",
+      "text": "game",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-journaal",
+      "text": "news bulletin",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-krant",
+      "text": "newspaper",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-trainen",
+      "text": "to train",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-winnen",
+      "text": "to win",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verliezen",
+      "text": "to lose",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-ontspannen",
+      "text": "to relax",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-berg",
+      "text": "mountain",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bloem",
+      "text": "flower",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-boom",
+      "text": "tree",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bos",
+      "text": "forest",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-dier",
+      "text": "animal",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-duin",
+      "text": "dune",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gras",
+      "text": "grass",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-herfst",
+      "text": "autumn",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-huisdier",
+      "text": "pet",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-koe",
+      "text": "cow",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-konijn",
+      "text": "rabbit",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kou",
+      "text": "cold weather",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-lente",
+      "text": "spring",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-lucht",
+      "text": "sky",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-maan",
+      "text": "moon",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-mist",
+      "text": "fog",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-natuur",
+      "text": "nature",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-onweer",
+      "text": "thunderstorm",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-storm",
+      "text": "storm",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-paard",
+      "text": "horse",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-plant",
+      "text": "plant",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-regen",
+      "text": "rain",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-rivier",
+      "text": "river",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-seizoen",
+      "text": "season",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-sneeuw",
+      "text": "snow",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-sneeuwen",
+      "text": "to snow",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vogel",
+      "text": "bird",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vriezen",
+      "text": "to freeze",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-waaien",
+      "text": "to blow",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-weer",
+      "text": "weather",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wind",
+      "text": "wind",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wolk",
+      "text": "cloud",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zand",
+      "text": "sand",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-zonnig",
+      "text": "sunny",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-nat",
+      "text": "wet",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-droog",
+      "text": "dry",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-muis",
+      "text": "mouse",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-dijk",
+      "text": "dyke",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ijs",
+      "text": "ice",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-angst",
+      "text": "fear",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-bezorgd",
+      "text": "worried",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-dankbaar",
+      "text": "grateful",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-eerlijk",
+      "text": "honest",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-enthousiast",
+      "text": "enthusiastic",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-gezellig",
+      "text": "cosy",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-grappig",
+      "text": "funny",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-heimwee",
+      "text": "homesickness",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-jaloers",
+      "text": "jealous",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-kalm",
+      "text": "calm",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-nieuwsgierig",
+      "text": "curious",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-ongerust",
+      "text": "anxious",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-prettig",
+      "text": "pleasant",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-saai",
+      "text": "boring",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-schamen",
+      "text": "to be ashamed",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-spannend",
+      "text": "exciting",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-stress",
+      "text": "stress",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-tevreden",
+      "text": "satisfied",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-trots",
+      "text": "proud",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-verliefd",
+      "text": "in love",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verrassing",
+      "text": "surprise",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-vrolijk",
+      "text": "cheerful",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-woedend",
+      "text": "furious",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-zenuwachtig",
+      "text": "nervous",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vervelen",
+      "text": "to be bored",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verdriet",
+      "text": "sorrow",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-geluk",
+      "text": "luck",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-hopen",
+      "text": "to hope",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-droom",
+      "text": "dream",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-liefde",
+      "text": "love",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vertrouwen",
+      "text": "to trust",
       "reviewed": false
     }
   ],
