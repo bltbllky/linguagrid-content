@@ -14,6 +14,12 @@
         "android": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$" }
       }
     },
+    "languages": {
+      "description": "Prompt languages in this release, Turkish first; each has a release/<version>/translations-<lang>.json in files (ADR-011)",
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^[a-z]{2}$" }
+    },
     "files": {
       "type": "array",
       "items": {
