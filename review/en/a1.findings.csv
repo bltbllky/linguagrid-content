@@ -1,0 +1,16 @@
+id,dutch,field,current,suggestion,reason,severity
+adj-heel,heel,english,whole,"unsure: keep, or ""very""","At A1 ""heel"" is met mostly as the adverb ""very"" (heel goed); ""whole"" is the adjective sense. Owner picks the sense the game should teach.",unsure
+adj-erg,erg,english,awful,"unsure: keep, or ""very""","Same pattern as heel: at A1 ""erg"" is mostly the adverb ""very"" (erg leuk); ""awful"" is the adjective sense.",unsure
+noun-vriendin,vriendin,english,girlfriend,friend (female),"""vriendin"" is first a female friend; ""girlfriend"" is only one reading. Matches the ""(female)"" pattern of lerares, buurvrouw, nicht.",unsure
+verb-leven,leven,english,to live,to live (be alive),"wonen is ""to live (somewhere)""; a bare ""to live"" also fits wonen, so the player cannot tell which word is meant.",unsure
+verb-weten,weten,english,to know,to know (a fact),"kennen is ""to know (someone)""; a bare ""to know"" also fits kennen. Both are A1 ""Everyday verbs""/""People"" and may share a level.",unsure
+noun-leraar,leraar,english,teacher,teacher (male),"lerares is ""teacher (female)""; a bare ""teacher"" also fits lerares (same A1 category). buurman/neef already use ""(male)"".",unsure
+verb-rijden,rijden,english,to drive,to ride,"autorijden is ""to drive a car"" (same A1 category), so ""to drive"" is a confusable pair. ""rijden"" also covers bike/train (""to ride"").",unsure
+noun-kaart,kaart,english,map,card,"Turkish gives ""kart, harita""; English gives only the map sense. At A1 ""kaart"" is very often card/ticket (bankkaart, OV-kaart). Pick one sense for both languages.",unsure
+verb-poetsen,poetsen,english,to polish,to brush (teeth),"The A1 sense is ""tanden poetsen""; Turkish already says ""fırçalamak"" (to brush). ""to polish"" is a less common sense here.",unsure
+noun-woning,woning,english,dwelling,home,"""dwelling"" is rare, formal English, not A1. ""home"" is the everyday gloss (huis is already ""house"").",unsure
+adj-nerveus,nerveus,english,tense,nervous,"""nervous"" is the direct everyday sense. ""tense"" was likely chosen to keep it apart from zenuwachtig (A2, ""nervous""); they are in different levels, so the level builder keeps them apart.",unsure
+adj-engels,engels,dutch,engels,Engels,Dutch writes language and nationality words with a capital (Engels). Applies to the lemma in words.json; check whether the lowercase is a pipeline rule before changing.,unsure
+adj-nederlands,nederlands,dutch,nederlands,Nederlands,"Same as engels: Dutch spells ""Nederlands"" with a capital.",unsure
+verb-trouwen,trouwen,english,to marry,to get married,"""to get married"" is the more natural everyday English for ""trouwen"" (intransitive use: wij trouwen).",style
+adj-rechts,rechts,english,right,right (direction),"""right"" can also be read as ""correct""; links (""left"") is unambiguous.",style
