@@ -1,5 +1,6 @@
 import { createHash } from 'node:crypto';
 
+import { withLegacyTurkish } from './validate.ts';
 import type { Content, Manifest } from './validate.ts';
 
 export interface ReleaseOptions {
@@ -13,11 +14,13 @@ export interface Release {
 }
 
 /**
- * Builds the next content release: only reviewed words, versioned file paths and checksums.
+ * Builds the next content release: only words whose annotation and Turkish translation are both
+ * reviewed, versioned file paths and checksums.
  * The app downloads these files when the manifest's content_version is newer than its own.
  */
 export function buildRelease(content: Content, { minimums, allowPartial }: ReleaseOptions): Release {
-  const reviewed = new Set(content.annotations.filter((a) => a.reviewed).map((a) => a.word_id));
+  const turkish = new Set(content.translations.tr.words.filter((t) => t.reviewed).map((t) => t.word_id));
+  const reviewed = new Set(content.annotations.filter((a) => a.reviewed && turkish.has(a.word_id)).map((a) => a.word_id));
   const words = content.words.filter((w) => reviewed.has(w.id));
 
   const shortfalls = Object.entries(minimums)
@@ -30,10 +33,12 @@ export function buildRelease(content: Content, { minimums, allowPartial }: Relea
 
   const version = content.manifest.content_version + 1;
   const json = (value: unknown) => JSON.stringify(value, null, 2) + '\n';
+  // Same files and shape as before T-029; per-language files come with T-031.
+  const legacy = withLegacyTurkish(content);
   const files: Record<string, string> = {
     'words.json': json(words),
-    'annotations.json': json(content.annotations.filter((a) => reviewed.has(a.word_id))),
-    'categories.json': json(content.categories),
+    'annotations.json': json(legacy.annotations.filter((a) => reviewed.has(a.word_id))),
+    'categories.json': json(legacy.categories),
   };
   const manifest: Manifest = {
     ...content.manifest,

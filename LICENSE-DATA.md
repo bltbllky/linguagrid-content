@@ -11,9 +11,11 @@ The selection of words, their parts of speech and CEFR levels are derived from *
 NT2Lex is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Our adaptation in
 `data/words.json` is shared under the same licence: attribution required, non-commercial use only, share alike.
 
-## LinguaGrid annotations — `data/annotations.json`, `data/categories.json`
+## LinguaGrid annotations and translations — `data/annotations.json`, `data/categories.json`, `data/translations/*.json`
 
-Turkish translations, de/het articles and categories are written by the LinguaGrid project (ADR-009) and are also published
-under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+De/het articles and categories (`data/annotations.json`, `data/categories.json`, ADR-009) and the translations of the prompts and
+category titles, one file per learner language (`data/translations/<lang>.json`, for example `data/translations/tr.json` for
+Turkish, ADR-011), are our own data: written by the LinguaGrid project and reviewed by a human. They are also published under
+[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 This repository is the unrestricted copy of all licensed content distributed in the LinguaGrid app.

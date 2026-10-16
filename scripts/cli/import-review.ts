@@ -2,7 +2,7 @@ import { readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 import { applyReview } from '../import-review.ts';
-import { loadContent } from '../validate.ts';
+import { loadContent, withLegacyTurkish } from '../validate.ts';
 
 const root = join(import.meta.dirname, '..', '..');
 const file = process.argv[2];
@@ -12,7 +12,9 @@ const { content, excluded, summary } = applyReview(loadContent(), readFileSync(f
 const write = (path: string, value: unknown) =>
   writeFileSync(join(root, path), JSON.stringify(value, null, 2) + '\n');
 write('data/words.json', content.words);
-write('data/annotations.json', content.annotations);
+// The deprecated text_tr / title_tr copies stay until the app reads data/translations (T-034).
+write('data/annotations.json', withLegacyTurkish(content).annotations);
+for (const [lang, file] of Object.entries(content.translations)) write(`data/translations/${lang}.json`, file);
 if (excluded.length) {
   const list = JSON.parse(readFileSync(join(root, 'data/excluded.json'), 'utf8'));
   write('data/excluded.json', [...list, ...excluded]);

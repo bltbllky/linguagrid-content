@@ -20,7 +20,7 @@ describe('exportReview', () => {
 
   it('quotes values containing commas or quotes and skips other levels', () => {
     const content = validContent();
-    content.annotations[0].text_tr = 'kart, "harita"';
+    content.translations.tr.words[0].text = 'kart, "harita"';
     content.words[1].cefr = 'A2';
     const lines = exportReview(content, 'A1').trim().split('\n');
     assert.equal(lines.length, 2);
@@ -30,6 +30,7 @@ describe('exportReview', () => {
   it('leaves fields empty for words without annotations', () => {
     const content = validContent();
     content.annotations = [];
+    content.translations.tr.words = [];
     assert.equal(exportReview(content, 'A1').split('\n')[1], 'noun-tandarts,tandarts,,,,');
   });
 });

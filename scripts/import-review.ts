@@ -31,13 +31,16 @@ export function parseCsv(text: string): string[][] {
 
 /**
  * Applies the owner's review sheet. Decision values: `OK`, `REMOVE`, or corrections separated by
- * ";" — `de` / `het` fixes the article, any other text replaces the Turkish translation.
+ * ";" — `de` / `het` fixes the article, any other text replaces the Turkish translation. OK and
+ * corrections mark both the annotation and the Turkish translation as reviewed; other languages are
+ * only touched to drop removed words.
  */
 export function applyReview(content: Content, csv: string): ReviewResult {
   const [header, ...rows] = parseCsv(csv);
   const idCol = header.indexOf('id');
   const decisionCol = header.indexOf('decision');
   const notes = new Map(content.annotations.map((a) => [a.word_id, { ...a }]));
+  const texts = new Map(content.translations.tr.words.map((t) => [t.word_id, { ...t }]));
   const removed = new Set<string>();
   const summary = { ok: 0, corrected: 0, removed: 0, pending: 0 };
 
@@ -45,24 +48,31 @@ export function applyReview(content: Content, csv: string): ReviewResult {
     const id = row[idCol];
     const decision = (row[decisionCol] ?? '').trim();
     const note = notes.get(id);
-    if (!note) throw new Error(`Unknown word id in review: ${id}`);
+    const text = texts.get(id);
+    if (!note || !text) throw new Error(`Unknown word id in review: ${id}`);
     if (!decision) summary.pending++;
-    else if (decision.toUpperCase() === 'OK') (note.reviewed = true), summary.ok++;
+    else if (decision.toUpperCase() === 'OK') (note.reviewed = text.reviewed = true), summary.ok++;
     else if (decision.toUpperCase() === 'REMOVE') removed.add(id), summary.removed++;
     else {
       for (const part of decision.split(';').map((p) => p.trim())) {
         if (part === 'de' || part === 'het') note.article = part;
-        else if (part) note.text_tr = part;
+        else if (part) text.text = part;
       }
-      note.reviewed = true;
+      note.reviewed = text.reviewed = true;
       summary.corrected++;
     }
   }
+  const keep = <T extends { word_id: string }>(list: T[]) => list.filter((t) => !removed.has(t.word_id));
+  const translations = Object.fromEntries(
+    Object.entries({ ...content.translations, tr: { ...content.translations.tr, words: [...texts.values()] } })
+      .map(([lang, file]) => [lang, file && { ...file, words: keep(file.words) }]),
+  ) as Content['translations'];
   return {
     content: {
       ...content,
       words: content.words.filter((w) => !removed.has(w.id)),
-      annotations: [...notes.values()].filter((a) => !removed.has(a.word_id)),
+      annotations: keep([...notes.values()]),
+      translations,
     },
     excluded: [...removed].map((id) => ({ id, reason: 'removed in review' })),
     summary,

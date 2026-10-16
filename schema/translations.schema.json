@@ -1,0 +1,26 @@
+{
+  "$id": "translations",
+  "description": "Prompt texts and category titles in one learner language: data/translations/<lang>.json (ADR-011)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["lang", "words", "categories"],
+  "properties": {
+    "lang": { "type": "string", "pattern": "^[a-z]{2}$" },
+    "words": { "type": "array", "items": { "$ref": "#/$defs/word" } },
+    "categories": { "type": "array", "items": { "$ref": "#/$defs/category" } }
+  },
+  "$defs": {
+    "word": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["word_id", "text", "reviewed"],
+      "properties": { "word_id": { "type": "string" }, "text": { "type": "string" }, "reviewed": { "type": "boolean" } }
+    },
+    "category": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["category_id", "title"],
+      "properties": { "category_id": { "type": "string" }, "title": { "type": "string" } }
+    }
+  }
+}
