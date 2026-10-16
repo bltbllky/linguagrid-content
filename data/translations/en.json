@@ -983,7 +983,7 @@
     },
     {
       "word_id": "adj-mager",
-      "text": "thin",
+      "text": "skinny",
       "reviewed": false
     },
     {
@@ -1593,7 +1593,7 @@
     },
     {
       "word_id": "noun-sinaasappel",
-      "text": "orange",
+      "text": "orange (fruit)",
       "reviewed": false
     },
     {
@@ -3558,7 +3558,7 @@
     },
     {
       "word_id": "adj-gratis",
-      "text": "free",
+      "text": "free of charge",
       "reviewed": false
     },
     {
@@ -4364,6 +4364,641 @@
     {
       "word_id": "verb-vertrouwen",
       "text": "to trust",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-dun",
+      "text": "thin",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-duidelijk",
+      "text": "clear",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-eenvoudig",
+      "text": "simple",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-geschikt",
+      "text": "suitable",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-gevaarlijk",
+      "text": "dangerous",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-gemakkelijk",
+      "text": "easy",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-handig",
+      "text": "handy",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-hoog",
+      "text": "high",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-laag",
+      "text": "low",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-ingewikkeld",
+      "text": "complicated",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-lelijk",
+      "text": "ugly",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-donker",
+      "text": "dark",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-modern",
+      "text": "modern",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-mogelijk",
+      "text": "possible",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-onmogelijk",
+      "text": "impossible",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-oranje",
+      "text": "orange (colour)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-groen",
+      "text": "green",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-zwart",
+      "text": "black",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-precies",
+      "text": "exact",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-prachtig",
+      "text": "gorgeous",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-slecht",
+      "text": "bad",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-sterk",
+      "text": "strong",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-verkeerd",
+      "text": "wrong",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-fout",
+      "text": "mistake",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-vol",
+      "text": "full",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-zwaar",
+      "text": "heavy",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-zeker",
+      "text": "sure",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-vrij",
+      "text": "free",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-veilig",
+      "text": "safe",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-warm",
+      "text": "warm",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-langzaam",
+      "text": "slow",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-verschillend",
+      "text": "different",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-populair",
+      "text": "popular",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-bekend",
+      "text": "well-known",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-dagelijks",
+      "text": "daily",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-geweldig",
+      "text": "great",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-heerlijk",
+      "text": "delicious",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-kapot",
+      "text": "broken",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-advies",
+      "text": "advice",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-afspreken",
+      "text": "to arrange to meet",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-beantwoorden",
+      "text": "to reply to",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-beleefd",
+      "text": "polite",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-beschrijven",
+      "text": "to describe",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-bespreken",
+      "text": "to discuss",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-bedoelen",
+      "text": "to mean (intend)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-begroeten",
+      "text": "to greet",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-beloven",
+      "text": "to promise",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gesprek",
+      "text": "conversation",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-groeten",
+      "text": "to say hello",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-herhalen",
+      "text": "to repeat",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-informeren",
+      "text": "to inform",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-klacht",
+      "text": "complaint",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-klagen",
+      "text": "to complain",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-leugen",
+      "text": "lie",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-liegen",
+      "text": "to tell a lie",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-melden",
+      "text": "to report",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-reageren",
+      "text": "to react",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ruzie",
+      "text": "quarrel",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-tellen",
+      "text": "to count",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uitnodigen",
+      "text": "to invite",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-uitnodiging",
+      "text": "invitation",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uitspreken",
+      "text": "to pronounce",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verstaan",
+      "text": "to understand (hear)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-voorstellen",
+      "text": "to introduce",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vergeten",
+      "text": "to forget",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-onthouden",
+      "text": "to keep in mind",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-woord",
+      "text": "word",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-mobiel",
+      "text": "mobile phone",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verhaal",
+      "text": "story",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-voorbeeld",
+      "text": "example",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-onderwerp",
+      "text": "topic",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-reden",
+      "text": "reason",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-aandoen",
+      "text": "to switch on",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uitdoen",
+      "text": "to switch off",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-opendoen",
+      "text": "to open the door",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-openen",
+      "text": "to open",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-sluiten",
+      "text": "to close",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-beslissen",
+      "text": "to decide",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-beslissing",
+      "text": "decision",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verstoppen",
+      "text": "to hide",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-bewegen",
+      "text": "to move",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-gebeuren",
+      "text": "to happen",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-halen",
+      "text": "to fetch",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-herinneren",
+      "text": "to remember",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-kiezen",
+      "text": "to choose",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-keus",
+      "text": "choice",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-lukken",
+      "text": "to succeed",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-meenemen",
+      "text": "to take along",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-missen",
+      "text": "to miss",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-oplossen",
+      "text": "to solve",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-oplossing",
+      "text": "solution",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-opstaan",
+      "text": "to get up",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-proberen",
+      "text": "to try",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-regelen",
+      "text": "to arrange",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-roken",
+      "text": "to smoke",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-terugkomen",
+      "text": "to come back",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-thuiskomen",
+      "text": "to come home",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-veranderen",
+      "text": "to change",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verdienen",
+      "text": "to earn",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-wennen",
+      "text": "to get used to",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-wisselen",
+      "text": "to exchange",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-zorgen",
+      "text": "to take care of",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-zingen",
+      "text": "to sing",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-voelen",
+      "text": "to feel",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-delen",
+      "text": "to share",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-storen",
+      "text": "to disturb",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ontmoeting",
+      "text": "encounter",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-ontvangen",
+      "text": "to receive",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-versturen",
+      "text": "to post",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-bezorgen",
+      "text": "to deliver",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-bezoeken",
+      "text": "to visit",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bezoek",
+      "text": "visit",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-logeren",
+      "text": "to stay the night",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-reizen",
+      "text": "to travel",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-begin",
+      "text": "beginning",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-einde",
+      "text": "end",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-halfuur",
+      "text": "half an hour",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kwartier",
+      "text": "quarter of an hour",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-middag",
+      "text": "afternoon",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-moment",
+      "text": "moment",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-nacht",
+      "text": "night",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tijd",
+      "text": "time",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-toekomst",
+      "text": "future",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-lunchpauze",
+      "text": "lunch break",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-eerder",
+      "text": "earlier",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-tegenwoordig",
+      "text": "present-day",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-vorig",
+      "text": "previous",
       "reviewed": false
     }
   ],
