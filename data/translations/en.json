@@ -105,7 +105,8 @@
     {
       "word_id": "adj-leuk",
       "text": "nice",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-denken",
@@ -1540,7 +1541,8 @@
     {
       "word_id": "noun-boodschap",
       "text": "groceries",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-collega",
@@ -2418,7 +2420,8 @@
     {
       "word_id": "noun-apparaat",
       "text": "appliance",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-bad",
@@ -4490,7 +4493,8 @@
     {
       "word_id": "noun-gezin",
       "text": "nuclear family",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-geboorte",
@@ -5455,7 +5459,8 @@
     {
       "word_id": "verb-afspreken",
       "text": "to arrange to meet",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-beantwoorden",
