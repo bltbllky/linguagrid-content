@@ -1,0 +1,12 @@
+id,dutch,field,current,suggestion,reason,severity
+noun-voedsel,voedsel,english,nourishment,food (in general),"""nourishment"" is not A2 English. eten is already ""food"" (A1); a bracket keeps them apart.",unsure
+noun-arts,arts,english,physician,doctor (physician),"""physician"" is rare, formal English; learners know ""doctor"". dokter (A1) is ""doctor"", so a bracket is needed.",unsure
+adj-tegenwoordig,tegenwoordig,english,present-day,nowadays,"At A2 ""tegenwoordig"" is used almost only as the adverb ""nowadays"". Word class in words.json is adj, so the owner decides.",unsure
+verb-betekenen,betekenen,english,to mean,to mean (signify),"bedoelen is ""to mean (intend)""; a bare ""to mean"" also fits bedoelen. Same asymmetry as weten/kennen.",unsure
+noun-boete,boete,english,fine,fine (penalty),"""fine"" is read first as the adjective (I am fine).",style
+noun-hoofdstad,hoofdstad,english,capital,capital (city),"""capital"" can also be money; the bracket makes it unambiguous.",style
+adj-vorig,vorig,english,previous,last,"The A2 use is ""vorige week"" = ""last week""; ""previous"" is correct but less common.",style
+noun-verdriet,verdriet,english,sorrow,sadness,"""sorrow"" is literary; ""sadness"" or ""grief"" is the everyday word.",style
+noun-loon,loon,english,wages,wage,"Singular Dutch noun; ""wage"" matches the singular form of the other nouns.",style
+noun-ruzie,ruzie,english,quarrel,argument,"""argument"" (ruzie hebben = to have an argument) is more common than ""quarrel"" at A2.",style
+noun-ontmoeting,ontmoeting,english,encounter,meeting (with someone),"""encounter"" is above A2. vergadering is ""meeting""; a bracket keeps them apart.",style
