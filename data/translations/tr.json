@@ -4,47 +4,56 @@
     {
       "word_id": "verb-zijn",
       "text": "olmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-hebben",
       "text": "sahip olmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-gaan",
       "text": "gitmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-zeggen",
       "text": "söylemek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-vinden",
       "text": "bulmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-huis",
       "text": "ev",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-goed",
       "text": "iyi",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-moeder",
       "text": "anne",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-willen",
       "text": "istemek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-heel",
@@ -59,32 +68,38 @@
     {
       "word_id": "verb-moeten",
       "text": "zorunda olmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-praten",
       "text": "sohbet etmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-wonen",
       "text": "bir yerde yaşamak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-familie",
       "text": "aile",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-mens",
       "text": "insan",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-heten",
       "text": "adı … olmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-leuk",
@@ -94,62 +109,74 @@
     {
       "word_id": "verb-denken",
       "text": "düşünmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-lopen",
       "text": "yürümek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-zien",
       "text": "görmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-kijken",
       "text": "bakmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-doen",
       "text": "yapmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-blij",
       "text": "sevinçli",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-school",
       "text": "okul",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-jaar",
       "text": "yıl",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-eten",
       "text": "yemek yemek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-komen",
       "text": "gelmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-ander",
       "text": "başka",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-vragen",
       "text": "sormak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-erg",
@@ -159,172 +186,206 @@
     {
       "word_id": "noun-vrouw",
       "text": "kadın",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-snel",
       "text": "hızlı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kleed",
       "text": "örtü, halı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-geven",
       "text": "vermek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-dag",
       "text": "gün",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-werken",
       "text": "çalışmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-strand",
       "text": "plaj",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-zitten",
       "text": "oturmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-vriendin",
       "text": "kız arkadaş",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-lang",
       "text": "uzun",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-vriend",
       "text": "arkadaş",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-zoeken",
       "text": "aramak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-brief",
       "text": "mektup",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-haar",
       "text": "saç",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-staan",
       "text": "ayakta durmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-boot",
       "text": "tekne",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-werk",
       "text": "iş",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-groot",
       "text": "büyük",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-kopen",
       "text": "satın almak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-auto",
       "text": "araba",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-bang",
       "text": "korkmuş",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-hond",
       "text": "köpek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-maken",
       "text": "yapmak (üretmek)",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-lachen",
       "text": "gülmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-oud",
       "text": "yaşlı, eski",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-klein",
       "text": "küçük",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kind",
       "text": "çocuk",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-worden",
       "text": "haline gelmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-probleem",
       "text": "sorun",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-schreeuwen",
       "text": "bağırmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-liggen",
       "text": "uzanmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-drinken",
       "text": "içmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-geld",
       "text": "para",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-man",
       "text": "adam",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-krijgen",
@@ -334,17 +395,20 @@
     {
       "word_id": "noun-vader",
       "text": "baba",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-nieuw",
       "text": "yeni",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kamer",
       "text": "oda",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-pakken",
@@ -354,207 +418,248 @@
     {
       "word_id": "noun-bus",
       "text": "otobüs",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-blaffen",
       "text": "havlamak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-rennen",
       "text": "koşmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-eten",
       "text": "yemek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-mooi",
       "text": "güzel",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-meisje",
       "text": "kız",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-koffie",
       "text": "kahve",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-keer",
       "text": "kez",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-zomer",
       "text": "yaz",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-slaapkamer",
       "text": "yatak odası",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-vertellen",
       "text": "anlatmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-rood",
       "text": "kırmızı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-vroeg",
       "text": "erken",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-verdrietig",
       "text": "üzgün",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-kennen",
       "text": "tanımak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-volgen",
       "text": "takip etmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-begrijpen",
       "text": "anlamak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-fijn",
       "text": "hoş",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-mogen",
       "text": "izni olmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-ouder",
       "text": "ebeveyn",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-lekker",
       "text": "lezzetli",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-trein",
       "text": "tren",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-horen",
       "text": "duymak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-lezen",
       "text": "okumak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-normaal",
       "text": "normal",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-les",
       "text": "ders",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-boek",
       "text": "kitap",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-slapen",
       "text": "uyumak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-houden",
       "text": "tutmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-keuken",
       "text": "mutfak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-zus",
       "text": "kız kardeş",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-schrijven",
       "text": "yazmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-winkel",
       "text": "dükkân",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-vaak",
       "text": "sık",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-laat",
       "text": "geç",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-week",
       "text": "hafta",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-spreken",
       "text": "konuşmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-ding",
       "text": "şey",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-nodig",
       "text": "gerekli",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kop",
       "text": "fincan",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-broer",
       "text": "erkek kardeş",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-rijden",
@@ -564,377 +669,452 @@
     {
       "word_id": "verb-nemen",
       "text": "almak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-helpen",
       "text": "yardım etmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-weten",
       "text": "bilmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-oog",
       "text": "göz",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-hoofdstuk",
       "text": "bölüm (kitap)",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-leerling",
       "text": "öğrenci",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-tuin",
       "text": "bahçe",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-mevrouw",
       "text": "hanımefendi",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-betalen",
       "text": "ödemek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-buschauffeur",
       "text": "otobüs şoförü",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-leggen",
       "text": "yatırmak, koymak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-bank",
       "text": "banka",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-zacht",
       "text": "yumuşak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-eiland",
       "text": "ada",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-uur",
       "text": "saat (süre)",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-vertrekken",
       "text": "yola çıkmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-naam",
       "text": "isim",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-vakantie",
       "text": "tatil",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-maand",
       "text": "ay",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-bellen",
       "text": "telefon etmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-arm",
       "text": "fakir",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-plan",
       "text": "plan",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-tafel",
       "text": "masa",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-fles",
       "text": "şişe",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-minuut",
       "text": "dakika",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-station",
       "text": "istasyon",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-muziek",
       "text": "müzik",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-stok",
       "text": "sopa",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-aardig",
       "text": "nazik",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-dansfeest",
       "text": "dans partisi",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-fiets",
       "text": "bisiklet",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-baas",
       "text": "patron",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-spelen",
       "text": "oynamak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-paar",
       "text": "çift",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-bed",
       "text": "yatak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-dochter",
       "text": "kız evlat",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-hard",
       "text": "sert",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-open",
       "text": "açık",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-badkamer",
       "text": "banyo",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-woonkamer",
       "text": "oturma odası",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-lief",
       "text": "sevimli",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-eenzaam",
       "text": "yalnız",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-thee",
       "text": "çay",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-belangrijk",
       "text": "önemli",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-dorp",
       "text": "köy",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-ziek",
       "text": "hasta",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-beginnen",
       "text": "başlamak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-stem",
       "text": "ses (insan sesi)",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-fietsen",
       "text": "bisiklete binmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-deur",
       "text": "kapı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-blauw",
       "text": "mavi",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-dansen",
       "text": "dans etmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-vliegveld",
       "text": "havalimanı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-wit",
       "text": "beyaz",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-appartement",
       "text": "daire",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-vreemd",
       "text": "tuhaf",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-café",
       "text": "kafe",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-wassen",
       "text": "yıkamak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-weekend",
       "text": "hafta sonu",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-ochtend",
       "text": "sabah",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-gelukkig",
       "text": "mutlu",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-fruit",
       "text": "meyve",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-engels",
       "text": "İngilizce",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-water",
       "text": "su",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-kort",
       "text": "kısa",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-ver",
       "text": "uzak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-blond",
       "text": "sarışın",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-inwonen",
       "text": "birinin yanında kalmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kus",
       "text": "öpücük",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-sportschool",
       "text": "spor salonu",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-brengen",
       "text": "getirmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-website",
       "text": "web sitesi",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-luisteren",
       "text": "dinlemek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-stad",
       "text": "şehir",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-gebruiken",
       "text": "kullanmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-nederlands",
@@ -944,202 +1124,242 @@
     {
       "word_id": "noun-vliegtuig",
       "text": "uçak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-reis",
       "text": "yolculuk",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-verkopen",
       "text": "satmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-voet",
       "text": "ayak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-stappen",
       "text": "adım atmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kaart",
       "text": "kart, harita",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-leren",
       "text": "öğrenmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-bruin",
       "text": "kahverengi",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-mager",
       "text": "zayıf",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-koek",
       "text": "kurabiye",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-zoon",
       "text": "oğul",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-boterham",
       "text": "ekmek dilimi",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-verbaasd",
       "text": "şaşkın",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-passen",
       "text": "uymak (beden)",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-telefoon",
       "text": "telefon",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-toilet",
       "text": "tuvalet",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-schoon",
       "text": "temiz",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-lerares",
       "text": "kadın öğretmen",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-bushalte",
       "text": "otobüs durağı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-klas",
       "text": "sınıf",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-groet",
       "text": "selam",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-trouwen",
       "text": "evlenmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-studeren",
       "text": "öğrenim görmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-horloge",
       "text": "kol saati",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-trekken",
       "text": "çekmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-televisie",
       "text": "televizyon",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-antwoord",
       "text": "cevap",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-jas",
       "text": "mont",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-jong",
       "text": "genç",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-laten",
       "text": "bırakmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-ongelukkig",
       "text": "mutsuz",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-winter",
       "text": "kış",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-grijs",
       "text": "gri",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-meneer",
       "text": "beyefendi",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-glimlachen",
       "text": "gülümsemek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-organisatie",
       "text": "organizasyon",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-internet",
       "text": "internet",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-antwoorden",
       "text": "cevap vermek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-hulp",
       "text": "yardım",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-land",
       "text": "ülke",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-bijzonder",
@@ -1149,302 +1369,362 @@
     {
       "word_id": "adj-moeilijk",
       "text": "zor",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-riem",
       "text": "kemer",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-bedanken",
       "text": "teşekkür etmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-zee",
       "text": "deniz",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-zwemmen",
       "text": "yüzmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kat",
       "text": "kedi",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-cadeau",
       "text": "hediye",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-hamburger",
       "text": "hamburger",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kilometer",
       "text": "kilometre",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-rechts",
       "text": "sağ",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-woning",
       "text": "konut",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-besturen",
       "text": "yönetmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-wiskunde",
       "text": "matematik",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-welkom",
       "text": "hoş geldin",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-klaar",
       "text": "hazır",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-avond",
       "text": "akşam",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-weggaan",
       "text": "ayrılmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-leraar",
       "text": "öğretmen",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-eigen",
       "text": "kendi",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-appel",
       "text": "elma",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-speciaal",
       "text": "özel",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kantoor",
       "text": "ofis",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-huilen",
       "text": "ağlamak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-groente",
       "text": "sebze",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-sturen",
       "text": "göndermek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-leven",
       "text": "hayat",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-moe",
       "text": "yorgun",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-product",
       "text": "ürün",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-sportief",
       "text": "sportif",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-boodschap",
       "text": "alışveriş (ihtiyaç)",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-collega",
       "text": "meslektaş",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-park",
       "text": "park",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-hobby",
       "text": "hobi",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-dik",
       "text": "şişman",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-stil",
       "text": "sessiz",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-fabriek",
       "text": "fabrika",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-kosten",
       "text": "(fiyatı) tutmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-stoppen",
       "text": "durmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-lokaal",
       "text": "derslik",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-soort",
       "text": "tür",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-huishouden",
       "text": "ev işleri",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-vak",
       "text": "okul dersi (branş)",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-taxi",
       "text": "taksi",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-gezond",
       "text": "sağlıklı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-dragen",
       "text": "taşımak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-oma",
       "text": "büyükanne",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-aardappel",
       "text": "patates",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-adres",
       "text": "adres",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-tram",
       "text": "tramvay",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-sport",
       "text": "spor",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-file",
       "text": "trafik sıkışıklığı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-zon",
       "text": "güneş",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-extra",
       "text": "ekstra",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kwart",
       "text": "çeyrek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-weg",
       "text": "yol",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-haven",
       "text": "liman",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-lawaai",
       "text": "gürültü",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-perfect",
       "text": "mükemmel",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-euro",
       "text": "avro",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-gooien",
       "text": "atmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-zetten",
@@ -1454,417 +1734,500 @@
     {
       "word_id": "noun-feest",
       "text": "parti",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-informatie",
       "text": "bilgi",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-ziekenhuis",
       "text": "hastane",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-balkon",
       "text": "balkon",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-melk",
       "text": "süt",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-links",
       "text": "sol",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-voetbal",
       "text": "futbol",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-bier",
       "text": "bira",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-cola",
       "text": "kola",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-afspraak",
       "text": "randevu",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-geschiedenis",
       "text": "tarih (ders)",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-natuurkunde",
       "text": "fizik",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-tennis",
       "text": "tenis",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-wachten",
       "text": "beklemek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-verbazen",
       "text": "şaşırtmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-waar",
       "text": "doğru",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-echt",
       "text": "gerçek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-restaurant",
       "text": "restoran",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-autorijden",
       "text": "araba sürmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-favoriet",
       "text": "favori",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-schoonmaken",
       "text": "temizlemek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-vallen",
       "text": "düşmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-vlees",
       "text": "et",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-vraag",
       "text": "soru",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-taal",
       "text": "dil (lisan)",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-vies",
       "text": "kirli",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-blijven",
       "text": "kalmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-lijken",
       "text": "benzemek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-sinaasappel",
       "text": "portakal",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-ruimte",
       "text": "alan",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-overstappen",
       "text": "aktarma yapmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-prijs",
       "text": "fiyat",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-duur",
       "text": "pahalı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-dicht",
       "text": "kapalı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-rijtjeshuis",
       "text": "sıra ev",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-koud",
       "text": "soğuk",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-ruim",
       "text": "geniş",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-centrum",
       "text": "merkez",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-duren",
       "text": "(zaman) sürmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-relatie",
       "text": "ilişki",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-slank",
       "text": "ince (vücut)",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-leeg",
       "text": "boş",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-ei",
       "text": "yumurta",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-raam",
       "text": "pencere",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-straat",
       "text": "sokak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-taart",
       "text": "pasta",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-schijnen",
       "text": "parlamak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-leven",
       "text": "yaşamak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-regenen",
       "text": "yağmur yağmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-bloes",
       "text": "bluz",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-nerveus",
       "text": "gergin",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-papier",
       "text": "kâğıt",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-benzine",
       "text": "benzin",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-chauffeur",
       "text": "şoför",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-gewoon",
       "text": "sıradan",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-plezier",
       "text": "keyif",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-boos",
       "text": "kızgın",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-geel",
       "text": "sarı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-chocola",
       "text": "çikolata",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-pizza",
       "text": "pizza",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-uniform",
       "text": "üniforma",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-dollar",
       "text": "dolar",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-radio",
       "text": "radyo",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-afscheid",
       "text": "veda",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-zwembad",
       "text": "yüzme havuzu",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kleur",
       "text": "renk",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-vloer",
       "text": "zemin",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-interessant",
       "text": "ilginç",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-calorie",
       "text": "kalori",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-verbranden",
       "text": "yakmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-ontmoeten",
       "text": "tanışmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-project",
       "text": "proje",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-frisdrank",
       "text": "meşrubat",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-metro",
       "text": "metro",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-noorden",
       "text": "kuzey",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-webwinkel",
       "text": "internet mağazası",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-idee",
       "text": "fikir",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kerk",
       "text": "kilise",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-computer",
       "text": "bilgisayar",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-klant",
       "text": "müşteri",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-flat",
       "text": "apartman",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-verdieping",
       "text": "kat (bina)",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-honger",
       "text": "açlık",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-poetsen",
@@ -1874,482 +2237,578 @@
     {
       "word_id": "noun-bord",
       "text": "tabak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-garage",
       "text": "garaj",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-makelaar",
       "text": "emlakçı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-verhuizen",
       "text": "taşınmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-stroopwafel",
       "text": "şuruplu waffle",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-plannen",
       "text": "planlamak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-activiteit",
       "text": "etkinlik",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-afvallen",
       "text": "kilo vermek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-strijken",
       "text": "ütülemek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-foto",
       "text": "fotoğraf",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-docent",
       "text": "eğitmen",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-route",
       "text": "güzergâh",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-dokter",
       "text": "doktor",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kalender",
       "text": "takvim",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-supermarkt",
       "text": "süpermarket",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kast",
       "text": "dolap",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-druk",
       "text": "yoğun",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-patat",
       "text": "patates kızartması",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-feliciteren",
       "text": "tebrik etmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-jarig",
       "text": "doğum günü olan",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-verjaardag",
       "text": "doğum günü",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-berging",
       "text": "depo",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-controleren",
       "text": "kontrol etmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kam",
       "text": "tarak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-kammen",
       "text": "taramak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-luis",
       "text": "bit",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-aankleden",
       "text": "giyinmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-achtertuin",
       "text": "arka bahçe",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-afwas",
       "text": "bulaşık",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-afwassen",
       "text": "bulaşık yıkamak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-afzuigkap",
       "text": "davlumbaz",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-apparaat",
       "text": "cihaz",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-bad",
       "text": "küvet",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-bewoner",
       "text": "ev sakini",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-dak",
       "text": "çatı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-deken",
       "text": "battaniye",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-douchen",
       "text": "duş almak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-eetkamer",
       "text": "yemek odası",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-eettafel",
       "text": "yemek masası",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-fornuis",
       "text": "ocak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-gordijn",
       "text": "perde",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-handdoek",
       "text": "havlu",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-huur",
       "text": "kira",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-huren",
       "text": "kiralamak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kelder",
       "text": "bodrum",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-keukenkast",
       "text": "mutfak dolabı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kussen",
       "text": "yastık",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-laken",
       "text": "çarşaf",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-lamp",
       "text": "lamba",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-lift",
       "text": "asansör",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-magnetron",
       "text": "mikrodalga fırın",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-meubel",
       "text": "mobilya",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-opruimen",
       "text": "toparlamak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-oven",
       "text": "fırın",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-plafond",
       "text": "tavan",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-plank",
       "text": "raf",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-repareren",
       "text": "tamir etmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-rommel",
       "text": "dağınıklık",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-salontafel",
       "text": "sehpa",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-sleutel",
       "text": "anahtar",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-stoel",
       "text": "sandalye",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-stof",
       "text": "toz",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-trap",
       "text": "merdiven",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-verhuizing",
       "text": "taşınma",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-verwarming",
       "text": "kalorifer",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-verwarmen",
       "text": "ısıtmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-voordeur",
       "text": "ön kapı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-was",
       "text": "çamaşır",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-wasdroger",
       "text": "kurutma makinesi",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-waterkoker",
       "text": "su ısıtıcısı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-wc",
       "text": "WC",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-woonplaats",
       "text": "ikamet yeri",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-zolder",
       "text": "çatı katı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-spiegel",
       "text": "ayna",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-afval",
       "text": "çöp",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-muur",
       "text": "duvar",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-pan",
       "text": "tencere",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-vork",
       "text": "çatal",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-lepel",
       "text": "kaşık",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-mes",
       "text": "bıçak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-glas",
       "text": "bardak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kom",
       "text": "kâse",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-theelepel",
       "text": "çay kaşığı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-eetlepel",
       "text": "yemek kaşığı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-doos",
       "text": "kutu",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-aardbei",
       "text": "çilek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-appelmoes",
       "text": "elma püresi",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-appeltaart",
       "text": "elmalı turta",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-avondeten",
       "text": "akşam yemeği",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-bakken",
       "text": "fırında pişirmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-bakker",
       "text": "fırıncı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-boerenkool",
       "text": "kara lahana",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-boon",
       "text": "fasulye",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-boter",
       "text": "tereyağı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-brood",
       "text": "ekmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-croissant",
       "text": "kruvasan",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-drank",
@@ -2359,397 +2818,476 @@
     {
       "word_id": "noun-druif",
       "text": "üzüm",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-erwtensoep",
       "text": "bezelye çorbası",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-gehakt",
       "text": "kıyma",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-gerecht",
       "text": "yemek çeşidi",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-hagelslag",
       "text": "çikolata serpintisi",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-ham",
       "text": "jambon",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-haring",
       "text": "ringa balığı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-honing",
       "text": "bal",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-ingrediënt",
       "text": "malzeme (yemek)",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-jam",
       "text": "reçel",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kaas",
       "text": "peynir",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kip",
       "text": "tavuk",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-klaarmaken",
       "text": "hazırlamak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-knoflook",
       "text": "sarımsak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-koken",
       "text": "yemek pişirmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kok",
       "text": "aşçı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kool",
       "text": "lahana",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-lunch",
       "text": "öğle yemeği",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-lunchen",
       "text": "öğle yemeği yemek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-maaltijd",
       "text": "öğün",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-olie",
       "text": "yağ",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-ontbijt",
       "text": "kahvaltı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-ontbijten",
       "text": "kahvaltı etmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-pasta",
       "text": "makarna",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-peper",
       "text": "karabiber",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-pudding",
       "text": "puding",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-rijst",
       "text": "pirinç",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-rookworst",
       "text": "füme sosis",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-salade",
       "text": "salata",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-sla",
       "text": "marul",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-slagroom",
       "text": "krem şanti",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-smaak",
       "text": "tat",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-smaken",
       "text": "tadı … olmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-smakelijk",
       "text": "iştah açıcı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-soep",
       "text": "çorba",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-stamppot",
       "text": "sebzeli patates ezmesi",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-suiker",
       "text": "şeker",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-ui",
       "text": "soğan",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-vis",
       "text": "balık",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-voedsel",
       "text": "gıda",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-wijn",
       "text": "şarap",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-worst",
       "text": "sosis",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-wortel",
       "text": "havuç",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-zout",
       "text": "tuz",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-zuur",
       "text": "ekşi",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-dorst",
       "text": "susuzluk",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-ober",
       "text": "garson",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-fooi",
       "text": "bahşiş",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-serveren",
       "text": "servis yapmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-bestellen",
       "text": "sipariş vermek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-bestelling",
       "text": "sipariş",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-vers",
       "text": "taze",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-heet",
       "text": "çok sıcak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-snijden",
       "text": "kesmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-apotheek",
       "text": "eczane",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-apotheker",
       "text": "eczacı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-arts",
       "text": "hekim",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-bijsluiter",
       "text": "prospektüs (ilaç)",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-bijwerking",
       "text": "yan etki",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-bloed",
       "text": "kan",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-bloeden",
       "text": "kanamak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-buik",
       "text": "karın",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-consult",
       "text": "muayene",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-dosering",
       "text": "dozaj",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-duizeligheid",
       "text": "baş dönmesi",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-genezen",
       "text": "iyileşmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-gezondheid",
       "text": "sağlık",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-griep",
       "text": "grip",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-hoesten",
       "text": "öksürmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-hoofdpijn",
       "text": "baş ağrısı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-huid",
       "text": "cilt",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-keel",
       "text": "boğaz",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-koorts",
       "text": "ateş (hastalık)",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-lichaam",
       "text": "vücut",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-maag",
       "text": "mide",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-maagpijn",
       "text": "mide ağrısı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-medicijn",
       "text": "ilaç",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-medisch",
       "text": "tıbbi",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-neus",
       "text": "burun",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-nek",
@@ -2759,277 +3297,332 @@
     {
       "word_id": "noun-oor",
       "text": "kulak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-oorpijn",
       "text": "kulak ağrısı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-paracetamol",
       "text": "parasetamol",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-patiënt",
       "text": "hasta (kişi)",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-pijn",
       "text": "ağrı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-recept",
       "text": "reçete",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-rug",
       "text": "sırt",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-schouder",
       "text": "omuz",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-slikken",
       "text": "yutmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-specialist",
       "text": "uzman",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-spreekuur",
       "text": "muayene saati",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-tand",
       "text": "diş",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-teen",
       "text": "ayak parmağı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-vinger",
       "text": "parmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-gewond",
       "text": "yaralı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-wond",
       "text": "yara",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-ziekte",
       "text": "hastalık",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-zalf",
       "text": "merhem",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-zwanger",
       "text": "hamile",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-neusspray",
       "text": "burun spreyi",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-arm",
       "text": "kol",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-been",
       "text": "bacak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-hand",
       "text": "el",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-hoofd",
       "text": "kafa",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-mond",
       "text": "ağız",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-gezicht",
       "text": "yüz",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-tong",
       "text": "dil (organ)",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-ongezond",
       "text": "sağlıksız",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-fit",
       "text": "zinde",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-overgeven",
       "text": "kusmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-slaperig",
       "text": "uykulu",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-zuster",
       "text": "hemşire",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-advertentie",
       "text": "ilan",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-afdeling",
       "text": "departman",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-agenda",
       "text": "ajanda",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-assistent",
       "text": "asistan",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-basisschool",
       "text": "ilkokul",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-bedrijf",
       "text": "şirket",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-beroep",
       "text": "meslek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-bureau",
       "text": "çalışma masası",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-cijfer",
       "text": "not (puan)",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-cursus",
       "text": "kurs",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-directeur",
       "text": "müdür",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-ervaring",
       "text": "deneyim",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-fulltime",
       "text": "tam zamanlı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-parttime",
       "text": "yarı zamanlı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-huiswerk",
       "text": "ev ödevi",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kennis",
       "text": "bilgi birikimi",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-loon",
       "text": "ücret",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-manager",
       "text": "yönetici",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-medewerker",
       "text": "çalışan",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-niveau",
       "text": "seviye",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-oefenen",
       "text": "alıştırma yapmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-ontslaan",
       "text": "işten çıkarmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-opdracht",
       "text": "görev",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-opleiding",
@@ -3039,347 +3632,416 @@
     {
       "word_id": "noun-pauze",
       "text": "mola",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-personeel",
       "text": "personel",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-potlood",
       "text": "kurşun kalem",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-pen",
       "text": "tükenmez kalem",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-salaris",
       "text": "maaş",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-schrift",
       "text": "defter",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-solliciteren",
       "text": "iş başvurusu yapmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-stage",
       "text": "staj",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-student",
       "text": "üniversite öğrencisi",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-studie",
       "text": "öğrenim",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-toets",
       "text": "sınav",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-universiteit",
       "text": "üniversite",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-vergadering",
       "text": "toplantı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-vertalen",
       "text": "çevirmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-vertaling",
       "text": "çeviri",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-werkdag",
       "text": "iş günü",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-werkgever",
       "text": "işveren",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-werkloos",
       "text": "işsiz",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-werknemer",
       "text": "işçi",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-werkplek",
       "text": "çalışma yeri",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-werktijd",
       "text": "çalışma saati",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-woordenboek",
       "text": "sözlük",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-uitleggen",
       "text": "açıklamak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-uitleg",
       "text": "açıklama",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-tekst",
       "text": "metin",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-zin",
       "text": "cümle",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-betekenis",
       "text": "anlam",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-betekenen",
       "text": "anlamına gelmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-inschrijven",
       "text": "kaydolmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-inschrijving",
       "text": "kayıt",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-succes",
       "text": "başarı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-resultaat",
       "text": "sonuç",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-moedertaal",
       "text": "ana dil",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-slagen",
       "text": "(sınavı) geçmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-belasting",
       "text": "vergi",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-douane",
       "text": "gümrük",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-formulier",
       "text": "form",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-gemeente",
       "text": "belediye",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-gemeentehuis",
       "text": "belediye binası",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-handtekening",
       "text": "imza",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-invullen",
       "text": "form doldurmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-loket",
       "text": "gişe",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-paspoort",
       "text": "pasaport",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-politie",
       "text": "polis",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-politieagent",
       "text": "polis memuru",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-post",
       "text": "posta",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-postbode",
       "text": "postacı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-pakket",
       "text": "paket",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-envelop",
       "text": "zarf",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-rekening",
       "text": "fatura",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-rijbewijs",
       "text": "ehliyet",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-wet",
       "text": "yasa",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-boete",
       "text": "para cezası",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-bibliotheek",
       "text": "kütüphane",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-aanmelden",
       "text": "kayıt yaptırmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-reserveren",
       "text": "rezervasyon yapmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-openingstijd",
       "text": "açılış saati",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-ingang",
       "text": "giriş",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-uitgang",
       "text": "çıkış",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-datum",
       "text": "tarih (gün)",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-nummer",
       "text": "numara",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-bericht",
       "text": "mesaj",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-mail",
       "text": "e-posta",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-mailen",
       "text": "e-posta göndermek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-online",
       "text": "çevrimiçi",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-regel",
       "text": "kural",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-automobilist",
       "text": "sürücü",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-bagage",
       "text": "bagaj",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-brug",
       "text": "köprü",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-fietser",
@@ -3389,52 +4051,62 @@
     {
       "word_id": "noun-gebouw",
       "text": "bina",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-gracht",
       "text": "kanal",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-halte",
       "text": "durak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-hoofdstad",
       "text": "başkent",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-hotel",
       "text": "otel",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-hotelkamer",
       "text": "otel odası",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-markt",
       "text": "pazar",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-parkeren",
       "text": "park etmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-passagier",
       "text": "yolcu",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-plein",
       "text": "meydan",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-provincie",
@@ -3444,12 +4116,14 @@
     {
       "word_id": "noun-reisbureau",
       "text": "seyahat acentesi",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-richting",
       "text": "yön",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-spoor",
@@ -3459,337 +4133,404 @@
     {
       "word_id": "noun-stoep",
       "text": "kaldırım",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-uitstappen",
       "text": "(araçtan) inmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-vertrek",
       "text": "kalkış",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-aankomst",
       "text": "varış",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-aankomen",
       "text": "varmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-vervoer",
       "text": "ulaşım",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-verkeer",
       "text": "trafik",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-wijk",
       "text": "semt",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-buurt",
       "text": "mahalle",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-camping",
       "text": "kamp alanı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-terras",
       "text": "teras",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-toerist",
       "text": "turist",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-koffer",
       "text": "bavul",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-buitenland",
       "text": "yurt dışı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-buitenlands",
       "text": "yabancı (ülke)",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-grens",
       "text": "sınır",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-ongeluk",
       "text": "kaza",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-pech",
       "text": "aksilik",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-boekwinkel",
       "text": "kitapçı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-cent",
       "text": "sent",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-gratis",
       "text": "ücretsiz",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-goedkoop",
       "text": "ucuz",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kassa",
       "text": "kasa",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-maat",
       "text": "beden",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-portemonnee",
       "text": "cüzdan",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-besparen",
       "text": "tasarruf etmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-sparen",
       "text": "biriktirmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-verkoop",
       "text": "satış",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-verkoper",
       "text": "satıcı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-winkelen",
       "text": "alışverişe çıkmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-lenen",
       "text": "ödünç almak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-terugbetalen",
       "text": "geri ödemek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-uitgeven",
       "text": "harcamak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-waarde",
       "text": "değer",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-zak",
       "text": "poşet",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-tas",
       "text": "çanta",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-badpak",
       "text": "mayo",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-broek",
       "text": "pantolon",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-handschoen",
       "text": "eldiven",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-jurk",
       "text": "elbise",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kleding",
       "text": "giysi",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kous",
       "text": "çorap",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-muts",
       "text": "bere",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-ondergoed",
       "text": "iç çamaşırı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-overhemd",
       "text": "gömlek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-pantoffel",
       "text": "terlik",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-paraplu",
       "text": "şemsiye",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-rok",
       "text": "etek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-sjaal",
       "text": "atkı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-vest",
       "text": "hırka",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-bril",
       "text": "gözlük",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-ring",
       "text": "yüzük",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-gymschoen",
       "text": "spor ayakkabısı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-baby",
       "text": "bebek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-bruid",
       "text": "gelin",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-bruiloft",
       "text": "düğün",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-buurman",
       "text": "komşu (erkek)",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-buurvrouw",
       "text": "komşu (kadın)",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-familielid",
       "text": "akraba",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-gast",
       "text": "misafir",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-gezin",
       "text": "çekirdek aile",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-geboorte",
       "text": "doğum",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-opa",
       "text": "dede",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-huwelijk",
       "text": "evlilik",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-jongen",
       "text": "erkek çocuk",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kinderopvang",
       "text": "kreş",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-leeftijd",
       "text": "yaş",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-neef",
@@ -3804,82 +4545,98 @@
     {
       "word_id": "noun-oom",
       "text": "amca, dayı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-tante",
       "text": "teyze, hala",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-oppas",
       "text": "bakıcı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-opvoeden",
       "text": "(çocuk) yetiştirmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-persoon",
       "text": "kişi",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-scheiden",
       "text": "boşanmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-scheiding",
       "text": "boşanma",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-volwassene",
       "text": "yetişkin",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-vriendschap",
       "text": "arkadaşlık",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-zoenen",
       "text": "öpmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-overlijden",
       "text": "vefat etmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-begrafenis",
       "text": "cenaze",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-heer",
       "text": "bey",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-lid",
       "text": "üye",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-club",
       "text": "kulüp",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-dans",
       "text": "dans",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-feestdag",
@@ -3889,157 +4646,188 @@
     {
       "word_id": "noun-film",
       "text": "film",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-hardlopen",
       "text": "koşu yapmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kermis",
       "text": "lunapark",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kerst",
       "text": "Noel",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-museum",
       "text": "müze",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-nieuwjaar",
       "text": "yılbaşı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-schaatsen",
       "text": "paten kaymak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-sporten",
       "text": "spor yapmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-toneelstuk",
       "text": "tiyatro oyunu",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-voorstelling",
       "text": "gösteri",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-voetbalclub",
       "text": "futbol kulübü",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-wandelen",
       "text": "yürüyüş yapmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-wandeling",
       "text": "yürüyüş",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-wedstrijd",
       "text": "maç",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-uitgaan",
       "text": "dışarı çıkmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-vakantiedag",
       "text": "tatil günü",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kunst",
       "text": "sanat",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-tekenen",
       "text": "çizmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-speelgoed",
       "text": "oyuncak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-spel",
       "text": "oyun",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-journaal",
       "text": "haber bülteni",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-krant",
       "text": "gazete",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-trainen",
       "text": "antrenman yapmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-winnen",
       "text": "kazanmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-verliezen",
       "text": "kaybetmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-ontspannen",
       "text": "gevşemek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-berg",
       "text": "dağ",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-bloem",
       "text": "çiçek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-boom",
       "text": "ağaç",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-bos",
       "text": "orman",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-dier",
       "text": "hayvan",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-duin",
@@ -4049,157 +4837,188 @@
     {
       "word_id": "noun-gras",
       "text": "çimen",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-herfst",
       "text": "sonbahar",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-huisdier",
       "text": "evcil hayvan",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-koe",
       "text": "inek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-konijn",
       "text": "tavşan",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kou",
       "text": "soğuk hava",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-lente",
       "text": "ilkbahar",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-lucht",
       "text": "gökyüzü, hava",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-maan",
       "text": "ay (gökyüzü)",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-mist",
       "text": "sis",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-natuur",
       "text": "doğa",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-onweer",
       "text": "gök gürültülü fırtına",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-storm",
       "text": "fırtına",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-paard",
       "text": "at",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-plant",
       "text": "bitki",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-regen",
       "text": "yağmur",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-rivier",
       "text": "nehir",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-seizoen",
       "text": "mevsim",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-sneeuw",
       "text": "kar",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-sneeuwen",
       "text": "kar yağmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-vogel",
       "text": "kuş",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-vriezen",
       "text": "donmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-waaien",
       "text": "(rüzgâr) esmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-weer",
       "text": "hava durumu",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-wind",
       "text": "rüzgâr",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-wolk",
       "text": "bulut",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-zand",
       "text": "kum",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-zonnig",
       "text": "güneşli",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-nat",
       "text": "ıslak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-droog",
       "text": "kuru",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-muis",
       "text": "fare",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-dijk",
@@ -4209,122 +5028,146 @@
     {
       "word_id": "noun-ijs",
       "text": "buz, dondurma",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-angst",
       "text": "korku",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-bezorgd",
       "text": "kaygılı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-dankbaar",
       "text": "minnettar",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-eerlijk",
       "text": "dürüst",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-enthousiast",
       "text": "hevesli",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-gezellig",
       "text": "samimi ve keyifli",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-grappig",
       "text": "komik",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-heimwee",
       "text": "sıla hasreti",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-jaloers",
       "text": "kıskanç",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-kalm",
       "text": "sakin",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-nieuwsgierig",
       "text": "meraklı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-ongerust",
       "text": "tedirgin",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-prettig",
       "text": "keyifli",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-saai",
       "text": "sıkıcı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-schamen",
       "text": "utanmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-spannend",
       "text": "heyecan verici",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-stress",
       "text": "stres",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-tevreden",
       "text": "memnun",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-trots",
       "text": "gururlu",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-verliefd",
       "text": "âşık",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-verrassing",
       "text": "sürpriz",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-vrolijk",
       "text": "neşeli",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-woedend",
       "text": "öfkeli",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-zenuwachtig",
@@ -4334,172 +5177,206 @@
     {
       "word_id": "verb-vervelen",
       "text": "sıkılmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-verdriet",
       "text": "keder",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-geluk",
       "text": "şans, mutluluk",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-hopen",
       "text": "ummak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-droom",
       "text": "rüya",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-liefde",
       "text": "aşk",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-vertrouwen",
       "text": "güvenmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-dun",
       "text": "ince",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-duidelijk",
       "text": "net, anlaşılır",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-eenvoudig",
       "text": "basit",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-geschikt",
       "text": "uygun",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-gevaarlijk",
       "text": "tehlikeli",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-gemakkelijk",
       "text": "kolay",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-handig",
       "text": "kullanışlı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-hoog",
       "text": "yüksek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-laag",
       "text": "alçak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-ingewikkeld",
       "text": "karmaşık",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-lelijk",
       "text": "çirkin",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-donker",
       "text": "karanlık",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-modern",
       "text": "modern",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-mogelijk",
       "text": "mümkün",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-onmogelijk",
       "text": "imkânsız",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-oranje",
       "text": "turuncu",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-groen",
       "text": "yeşil",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-zwart",
       "text": "siyah",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-precies",
       "text": "tam",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-prachtig",
       "text": "muhteşem",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-slecht",
       "text": "kötü",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-sterk",
       "text": "güçlü",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-verkeerd",
       "text": "yanlış",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-fout",
       "text": "hata",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-vol",
       "text": "dolu",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-zwaar",
       "text": "ağır",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-zeker",
       "text": "emin",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-vrij",
@@ -4509,57 +5386,68 @@
     {
       "word_id": "adj-veilig",
       "text": "güvenli",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-warm",
       "text": "sıcak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-langzaam",
       "text": "yavaş",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-verschillend",
       "text": "farklı",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-populair",
       "text": "popüler",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-bekend",
       "text": "tanınmış",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-dagelijks",
       "text": "günlük",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-geweldig",
       "text": "harika",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-heerlijk",
       "text": "nefis",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-kapot",
       "text": "bozuk",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-advies",
       "text": "tavsiye",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-afspreken",
@@ -4569,342 +5457,410 @@
     {
       "word_id": "verb-beantwoorden",
       "text": "yanıtlamak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-beleefd",
       "text": "kibar",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-beschrijven",
       "text": "tarif etmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-bespreken",
       "text": "görüşmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-bedoelen",
       "text": "kastetmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-begroeten",
       "text": "selamlamak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-beloven",
       "text": "söz vermek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-gesprek",
       "text": "konuşma",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-groeten",
       "text": "selam vermek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-herhalen",
       "text": "tekrarlamak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-informeren",
       "text": "bilgi vermek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-klacht",
       "text": "şikâyet",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-klagen",
       "text": "şikâyet etmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-leugen",
       "text": "yalan",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-liegen",
       "text": "yalan söylemek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-melden",
       "text": "bildirmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-reageren",
       "text": "tepki vermek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-ruzie",
       "text": "kavga",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-tellen",
       "text": "saymak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-uitnodigen",
       "text": "davet etmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-uitnodiging",
       "text": "davet",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-uitspreken",
       "text": "telaffuz etmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-verstaan",
       "text": "duyup anlamak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-voorstellen",
       "text": "tanıştırmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-vergeten",
       "text": "unutmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-onthouden",
       "text": "aklında tutmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-woord",
       "text": "kelime",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-mobiel",
       "text": "cep telefonu",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-verhaal",
       "text": "hikâye",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-voorbeeld",
       "text": "örnek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-onderwerp",
       "text": "konu",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-reden",
       "text": "neden",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-aandoen",
       "text": "açmak (cihaz)",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-uitdoen",
       "text": "kapatmak (cihaz)",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-opendoen",
       "text": "kapıyı açmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-openen",
       "text": "açmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-sluiten",
       "text": "kapatmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-beslissen",
       "text": "karar vermek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-beslissing",
       "text": "karar",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-verstoppen",
       "text": "saklamak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-bewegen",
       "text": "hareket etmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-gebeuren",
       "text": "meydana gelmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-halen",
       "text": "gidip almak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-herinneren",
       "text": "hatırlamak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-kiezen",
       "text": "seçmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-keus",
       "text": "seçim",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-lukken",
       "text": "(bir işi) başarmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-meenemen",
       "text": "yanında götürmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-missen",
       "text": "özlemek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-oplossen",
       "text": "çözmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-oplossing",
       "text": "çözüm",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-opstaan",
       "text": "(yataktan) kalkmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-proberen",
       "text": "denemek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-regelen",
       "text": "halletmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-roken",
       "text": "sigara içmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-terugkomen",
       "text": "geri gelmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-thuiskomen",
       "text": "eve gelmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-veranderen",
       "text": "değişmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-verdienen",
       "text": "para kazanmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-wennen",
       "text": "alışmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-wisselen",
       "text": "bozdurmak, değiştirmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-zorgen",
       "text": "ilgilenmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-zingen",
       "text": "şarkı söylemek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-voelen",
       "text": "hissetmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-delen",
       "text": "paylaşmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-storen",
       "text": "rahatsız etmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-ontmoeting",
       "text": "buluşma",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-ontvangen",
       "text": "teslim almak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-versturen",
@@ -4914,87 +5870,104 @@
     {
       "word_id": "verb-bezorgen",
       "text": "teslim etmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-bezoeken",
       "text": "ziyaret etmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-bezoek",
       "text": "ziyaret",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-logeren",
       "text": "misafir kalmak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-reizen",
       "text": "seyahat etmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-begin",
       "text": "başlangıç",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-einde",
       "text": "son",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-halfuur",
       "text": "yarım saat",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kwartier",
       "text": "on beş dakika",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-middag",
       "text": "öğleden sonra",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-moment",
       "text": "an",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-nacht",
       "text": "gece",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-tijd",
       "text": "zaman",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-toekomst",
       "text": "gelecek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-lunchpauze",
       "text": "öğle arası",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-eerder",
       "text": "daha önce",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-tegenwoordig",
       "text": "günümüzdeki",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-vorig",
