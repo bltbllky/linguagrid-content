@@ -58,7 +58,8 @@
     {
       "word_id": "adj-heel",
       "text": "whole",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "owner"
     },
     {
       "word_id": "verb-kunnen",
@@ -183,7 +184,8 @@
     {
       "word_id": "adj-erg",
       "text": "awful",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "owner"
     },
     {
       "word_id": "noun-vrouw",
@@ -235,8 +237,9 @@
     },
     {
       "word_id": "noun-vriendin",
-      "text": "girlfriend",
-      "reviewed": false
+      "text": "friend (female)",
+      "reviewed": true,
+      "review_source": "owner"
     },
     {
       "word_id": "adj-lang",
@@ -667,7 +670,8 @@
     {
       "word_id": "verb-rijden",
       "text": "to drive",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "owner"
     },
     {
       "word_id": "verb-nemen",
@@ -684,7 +688,8 @@
     {
       "word_id": "verb-weten",
       "text": "to know",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "owner"
     },
     {
       "word_id": "noun-oog",
@@ -736,8 +741,9 @@
     },
     {
       "word_id": "noun-bank",
-      "text": "bank",
-      "reviewed": false
+      "text": "couch",
+      "reviewed": true,
+      "review_source": "owner"
     },
     {
       "word_id": "adj-zacht",
@@ -1042,7 +1048,8 @@
     {
       "word_id": "adj-engels",
       "text": "English",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "owner"
     },
     {
       "word_id": "noun-water",
@@ -1119,7 +1126,8 @@
     {
       "word_id": "adj-nederlands",
       "text": "Dutch",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "owner"
     },
     {
       "word_id": "noun-vliegtuig",
@@ -1154,7 +1162,8 @@
     {
       "word_id": "noun-kaart",
       "text": "map",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "owner"
     },
     {
       "word_id": "verb-leren",
@@ -1428,8 +1437,9 @@
     },
     {
       "word_id": "noun-woning",
-      "text": "dwelling",
-      "reviewed": false
+      "text": "house",
+      "reviewed": true,
+      "review_source": "owner"
     },
     {
       "word_id": "verb-besturen",
@@ -1469,8 +1479,9 @@
     },
     {
       "word_id": "noun-leraar",
-      "text": "teacher",
-      "reviewed": false
+      "text": "teacher (male)",
+      "reviewed": true,
+      "review_source": "owner"
     },
     {
       "word_id": "adj-eigen",
@@ -2014,7 +2025,7 @@
     },
     {
       "word_id": "verb-leven",
-      "text": "to live",
+      "text": "to live (be alive)",
       "reviewed": true,
       "review_source": "owner"
     },
@@ -2032,8 +2043,9 @@
     },
     {
       "word_id": "adj-nerveus",
-      "text": "tense",
-      "reviewed": false
+      "text": "nervous",
+      "reviewed": true,
+      "review_source": "owner"
     },
     {
       "word_id": "noun-papier",
@@ -2229,7 +2241,7 @@
     },
     {
       "word_id": "verb-poetsen",
-      "text": "to brush",
+      "text": "to brush (teeth)",
       "reviewed": true,
       "review_source": "owner"
     },
@@ -3051,8 +3063,9 @@
     },
     {
       "word_id": "noun-voedsel",
-      "text": "nourishment",
-      "reviewed": false
+      "text": "food (in general)",
+      "reviewed": true,
+      "review_source": "owner"
     },
     {
       "word_id": "noun-wijn",
@@ -3152,8 +3165,9 @@
     },
     {
       "word_id": "noun-arts",
-      "text": "physician",
-      "reviewed": false
+      "text": "doctor (physician)",
+      "reviewed": true,
+      "review_source": "owner"
     },
     {
       "word_id": "noun-bijsluiter",
@@ -3793,8 +3807,9 @@
     },
     {
       "word_id": "verb-betekenen",
-      "text": "to mean",
-      "reviewed": false
+      "text": "to mean (signify)",
+      "reviewed": true,
+      "review_source": "owner"
     },
     {
       "word_id": "verb-inschrijven",
@@ -5862,8 +5877,9 @@
     },
     {
       "word_id": "noun-ontmoeting",
-      "text": "encounter",
-      "reviewed": false
+      "text": "meeting (with someone)",
+      "reviewed": true,
+      "review_source": "owner"
     },
     {
       "word_id": "verb-ontvangen",

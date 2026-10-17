@@ -889,7 +889,7 @@
   },
   {
     "word_id": "verb-rijden",
-    "text_tr": "taşıtla gitmek",
+    "text_tr": "araç sürmek",
     "article": null,
     "category_id": "a1-city-travel",
     "reviewed": true,
@@ -985,11 +985,11 @@
   },
   {
     "word_id": "noun-bank",
-    "text_tr": "banka",
+    "text_tr": "koltuk",
     "article": "de",
     "category_id": "a1-shopping",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "adj-zacht",
@@ -1545,11 +1545,11 @@
   },
   {
     "word_id": "noun-kaart",
-    "text_tr": "kart, harita",
+    "text_tr": "harita",
     "article": "de",
     "category_id": "a1-city-travel",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "verb-leren",
