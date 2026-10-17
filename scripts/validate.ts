@@ -8,6 +8,20 @@ export const MAX_WORD_LENGTH = 12;
 type Cefr = 'A1' | 'A2' | 'B1' | 'B2' | 'C1';
 export type Pos = 'noun' | 'verb' | 'adj';
 
+/**
+ * Checks if text is normalised to NFC, has no leading or trailing whitespace,
+ * no double spaces, and only U+0020 as whitespace. Returns the first issue found,
+ * or null if the text is normalised.
+ */
+export function normalisationIssue(text: string): string | null {
+  if (text !== text.normalize('NFC')) return 'not NFC';
+  if (/^\s/.test(text)) return 'leading space';
+  if (/\s$/.test(text)) return 'trailing space';
+  if (/\s\s/.test(text)) return 'double space';
+  if (/[^\S ]/.test(text)) return 'whitespace other than U+0020';
+  return null;
+}
+
 export interface Word {
   id: string;
   lemma_nl: string;
@@ -90,6 +104,8 @@ export function validateContent(content: Content): string[] {
     if (word.id !== expected) {
       errors.push(`${word.id}: id does not match lemma "${word.lemma_nl}" (expected ${expected})`);
     }
+    const issue = normalisationIssue(word.lemma_nl);
+    if (issue) errors.push(`${word.id}: lemma_nl is not normalised (${issue})`);
     if (Array.from(word.lemma_nl).length > MAX_WORD_LENGTH) {
       errors.push(`${word.id}: longer than ${MAX_WORD_LENGTH} letters`);
     }
@@ -143,9 +159,33 @@ function validateTranslationFile(
     const key = `${kind}:${id}`;
     if (!known.has(id)) errors.push(`${at}: ${id}: unknown ${kind}`);
     else if (seen.has(key)) errors.push(`${at}: ${id}: duplicate ${kind}`);
-    if (!text.trim()) errors.push(`${at}: ${id}: empty ${field}`);
+    if (!text.trim()) {
+      errors.push(`${at}: ${id}: empty ${field}`);
+    } else {
+      const issue = normalisationIssue(text);
+      if (issue) errors.push(`${at}: ${id}: ${field} is not normalised (${issue})`);
+    }
     seen.add(key);
   }
+
+  // Check for case-only pairs in word texts
+  const byLowerCase = new Map<string, { id: string; text: string }[]>();
+  for (const word of file.words) {
+    if (word.text.trim()) {
+      const key = word.text.trim().toLocaleLowerCase(lang);
+      if (!byLowerCase.has(key)) byLowerCase.set(key, []);
+      byLowerCase.get(key)!.push({ id: word.word_id, text: word.text.trim() });
+    }
+  }
+  for (const group of byLowerCase.values()) {
+    const distinctTexts = new Set(group.map((t) => t.text));
+    if (distinctTexts.size > 1) {
+      const ids = group.map((t) => t.id);
+      const texts = group.map((t) => JSON.stringify(t.text));
+      errors.push(`${at}: ${ids.join(', ')}: texts differ only in case (${texts.join(', ')})`);
+    }
+  }
+
   return errors;
 }
 

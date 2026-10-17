@@ -9,6 +9,97 @@ describe('validateContent', () => {
     assert.deepEqual(validateContent(validContent()), []);
   });
 
+  it('reports a lemma in NFD form', () => {
+    const content = validContent();
+    content.words[0] = {
+      id: 'noun-café',
+      lemma_nl: 'café', // e + combining acute accent (NFD)
+      pos: 'noun',
+      cefr: 'A1',
+      source: 'nt2lex',
+    };
+    content.annotations[0].word_id = 'noun-café';
+    content.translations.tr.words[0].word_id = 'noun-café';
+    assert.ok(validateContent(content).includes('noun-café: lemma_nl is not normalised (not NFC)'));
+  });
+
+  it('reports text with trailing space', () => {
+    const content = validContent();
+    content.translations.tr.words[0].text = 'diş hekimi ';
+    assert.ok(validateContent(content).includes('translations/tr: noun-tandarts: text is not normalised (trailing space)'));
+  });
+
+  it('reports text with leading space', () => {
+    const content = validContent();
+    content.translations.en = partialEnglish();
+    content.translations.en.words[0].text = ' dentist';
+    assert.ok(validateContent(content).includes('translations/en: noun-tandarts: text is not normalised (leading space)'));
+  });
+
+  it('reports text with double space', () => {
+    const content = validContent();
+    content.translations.tr.words[0].text = 'diş  hekimi';
+    assert.ok(validateContent(content).includes('translations/tr: noun-tandarts: text is not normalised (double space)'));
+  });
+
+  it('reports text with tab', () => {
+    const content = validContent();
+    content.translations.tr.words[0].text = 'diş\thekimi';
+    assert.ok(validateContent(content).includes('translations/tr: noun-tandarts: text is not normalised (whitespace other than U+0020)'));
+  });
+
+  it('reports text with no-break space', () => {
+    const content = validContent();
+    content.translations.tr.words[0].text = 'diş hekimi';
+    assert.ok(validateContent(content).includes('translations/tr: noun-tandarts: text is not normalised (whitespace other than U+0020)'));
+  });
+
+  it('reports category title with trailing space', () => {
+    const content = validContent();
+    content.translations.tr.categories[0].title = 'Sağlık ';
+    assert.ok(validateContent(content).includes('translations/tr: health: title is not normalised (trailing space)'));
+  });
+
+  it('reports case-only text pairs as an error', () => {
+    const content = validContent();
+    content.translations.en = {
+      lang: 'en',
+      words: [
+        { word_id: 'noun-tandarts', text: 'dentist', reviewed: true },
+        { word_id: 'verb-lopen', text: 'Dentist', reviewed: false },
+      ],
+      categories: [],
+    };
+    const errors = validateContent(content);
+    assert.ok(errors.some((e) => e.includes('translations/en: noun-tandarts, verb-lopen: texts differ only in case')));
+  });
+
+  it('allows identical text in case-only pairs (no error)', () => {
+    const content = validContent();
+    content.translations.en = {
+      lang: 'en',
+      words: [
+        { word_id: 'noun-tandarts', text: 'dentist', reviewed: true },
+        { word_id: 'verb-lopen', text: 'dentist', reviewed: false },
+      ],
+      categories: [],
+    };
+    assert.ok(validateContent(content).every((e) => !e.includes('texts differ only in case')));
+  });
+
+  it('still reports empty text only once (no normalisation error)', () => {
+    const content = validContent();
+    content.translations.en = {
+      lang: 'en',
+      words: [{ word_id: 'noun-tandarts', text: '  ', reviewed: true }],
+      categories: [],
+    };
+    assert.deepEqual(
+      validateContent(content).filter((e) => e.includes('noun-tandarts')),
+      ['translations/en: noun-tandarts: empty text']
+    );
+  });
+
   it('reports a word without a Turkish translation or without an annotation', () => {
     const content = validContent();
     content.translations.tr.words[1].text = ' ';
