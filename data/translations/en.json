@@ -1048,7 +1048,8 @@
     {
       "word_id": "adj-engels",
       "text": "English",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "owner"
     },
     {
       "word_id": "noun-water",
@@ -1125,7 +1126,8 @@
     {
       "word_id": "adj-nederlands",
       "text": "Dutch",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "owner"
     },
     {
       "word_id": "noun-vliegtuig",

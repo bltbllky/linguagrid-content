@@ -10,6 +10,8 @@ const out = (rows: string[][]) => rows.map((r) => r.map(quote).join(',')).join('
 /** id, English decision (OK = keep the current text), Turkish decision when the owner changed it. */
 const decisions: [string, string, string?][] = [
   ['adj-heel', 'OK'],
+  ['adj-engels', 'OK'],
+  ['adj-nederlands', 'OK'],
   ['adj-erg', 'OK'],
   ['noun-bank', 'couch', 'koltuk'],
   ['noun-vriendin', 'friend (female)'],
