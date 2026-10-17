@@ -5,7 +5,7 @@
     "article": null,
     "category_id": "a1-daily-verbs",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "verb-hebben",
@@ -69,21 +69,23 @@
     "article": null,
     "category_id": "a1-daily-verbs",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "adj-heel",
-    "text_tr": "bütün",
+    "text_tr": "bütün, tam",
     "article": null,
     "category_id": "a1-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "verb-kunnen",
-    "text_tr": "-ebilmek",
+    "text_tr": "yapabilmek",
     "article": null,
     "category_id": "a1-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "verb-moeten",
@@ -135,10 +137,11 @@
   },
   {
     "word_id": "adj-leuk",
-    "text_tr": "eğlenceli",
+    "text_tr": "eğlenceli, hoş",
     "article": null,
     "category_id": "a1-feelings",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "verb-denken",
@@ -154,7 +157,7 @@
     "article": null,
     "category_id": "a1-daily-verbs",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "verb-zien",
@@ -238,10 +241,11 @@
   },
   {
     "word_id": "adj-erg",
-    "text_tr": "berbat",
+    "text_tr": "çok kötü, berbat",
     "article": null,
     "category_id": "a1-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-vrouw",
@@ -517,10 +521,11 @@
   },
   {
     "word_id": "verb-krijgen",
-    "text_tr": "elde etmek",
+    "text_tr": "(birinden) almak",
     "article": null,
     "category_id": "a1-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-vader",
@@ -548,10 +553,11 @@
   },
   {
     "word_id": "verb-pakken",
-    "text_tr": "kapmak",
+    "text_tr": "eline almak",
     "article": null,
     "category_id": "a1-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-bus",
@@ -886,7 +892,8 @@
     "text_tr": "taşıtla gitmek",
     "article": null,
     "category_id": "a1-city-travel",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "verb-nemen",
@@ -934,7 +941,7 @@
     "article": "de",
     "category_id": "a1-school-work",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "noun-tuin",
@@ -1110,7 +1117,7 @@
     "article": "de",
     "category_id": "a1-nature",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "adj-aardig",
@@ -1493,7 +1500,8 @@
     "text_tr": "Hollandaca",
     "article": null,
     "category_id": "a1-communication",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-vliegtuig",
@@ -1605,7 +1613,7 @@
     "article": null,
     "category_id": "a1-clothes",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "noun-telefoon",
@@ -1765,7 +1773,7 @@
     "article": "de",
     "category_id": "a1-people",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "verb-glimlachen",
@@ -1817,10 +1825,11 @@
   },
   {
     "word_id": "adj-bijzonder",
-    "text_tr": "olağanüstü",
+    "text_tr": "özel",
     "article": null,
     "category_id": "a1-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "adj-moeilijk",
@@ -1932,7 +1941,7 @@
     "article": null,
     "category_id": "a1-communication",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "adj-klaar",
@@ -1996,7 +2005,7 @@
     "article": "het",
     "category_id": "a1-school-work",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "verb-huilen",
@@ -2056,11 +2065,11 @@
   },
   {
     "word_id": "noun-boodschap",
-    "text_tr": "alışveriş (ihtiyaç)",
+    "text_tr": "mesaj",
     "article": "de",
     "category_id": "a1-shopping",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "noun-collega",
@@ -2068,7 +2077,7 @@
     "article": "de",
     "category_id": "a1-school-work",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "noun-park",
@@ -2304,10 +2313,11 @@
   },
   {
     "word_id": "verb-zetten",
-    "text_tr": "koymak",
+    "text_tr": "koymak (dik)",
     "article": null,
     "category_id": "a1-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-feest",
@@ -2323,7 +2333,7 @@
     "article": "de",
     "category_id": "a1-communication",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "noun-ziekenhuis",
@@ -2547,7 +2557,7 @@
     "article": "de",
     "category_id": "a1-home",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "verb-overstappen",
@@ -2611,7 +2621,7 @@
     "article": "het",
     "category_id": "a1-city-travel",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "verb-duren",
@@ -2875,7 +2885,7 @@
     "article": null,
     "category_id": "a1-people",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "noun-project",
@@ -2978,7 +2988,8 @@
     "text_tr": "fırçalamak",
     "article": null,
     "category_id": "a1-home",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-bord",
@@ -3130,7 +3141,7 @@
     "article": null,
     "category_id": "a1-people",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "adj-jarig",
@@ -3298,7 +3309,7 @@
     "article": "het",
     "category_id": "a2-home",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "noun-gordijn",
@@ -3386,7 +3397,7 @@
     "article": "de",
     "category_id": "a2-home",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "noun-meubel",
@@ -3482,7 +3493,7 @@
     "article": "de",
     "category_id": "a2-home",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "noun-verhuizing",
@@ -3682,7 +3693,7 @@
     "article": "de",
     "category_id": "a2-food",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "noun-avondeten",
@@ -3750,10 +3761,11 @@
   },
   {
     "word_id": "noun-drank",
-    "text_tr": "içki",
+    "text_tr": "içecek",
     "article": "de",
     "category_id": "a2-food",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-druif",
@@ -3857,7 +3869,7 @@
     "article": null,
     "category_id": "a2-food",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "noun-knoflook",
@@ -3897,7 +3909,7 @@
     "article": "de",
     "category_id": "a2-food",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "verb-lunchen",
@@ -4273,7 +4285,7 @@
     "article": "de",
     "category_id": "a2-health",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "verb-genezen",
@@ -4389,10 +4401,11 @@
   },
   {
     "word_id": "noun-nek",
-    "text_tr": "boyun",
+    "text_tr": "ense",
     "article": "de",
     "category_id": "a2-health",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-oor",
@@ -4584,7 +4597,7 @@
     "article": "het",
     "category_id": "a2-health",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "noun-mond",
@@ -4640,7 +4653,7 @@
     "article": null,
     "category_id": "a2-health",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "noun-zuster",
@@ -4656,7 +4669,7 @@
     "article": "de",
     "category_id": "a2-work-study",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "noun-afdeling",
@@ -4744,7 +4757,7 @@
     "article": "de",
     "category_id": "a2-work-study",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "adj-fulltime",
@@ -4836,10 +4849,11 @@
   },
   {
     "word_id": "noun-opleiding",
-    "text_tr": "meslek eğitimi",
+    "text_tr": "eğitim",
     "article": "de",
     "category_id": "a2-work-study",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-pauze",
@@ -4911,7 +4925,7 @@
     "article": "de",
     "category_id": "a2-work-study",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "noun-studie",
@@ -4959,7 +4973,7 @@
     "article": "de",
     "category_id": "a2-work-study",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "noun-werkdag",
@@ -5055,7 +5069,7 @@
     "article": "de",
     "category_id": "a2-work-study",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "verb-betekenen",
@@ -5207,7 +5221,7 @@
     "article": "de",
     "category_id": "a2-services",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "noun-postbode",
@@ -5239,7 +5253,7 @@
     "article": "de",
     "category_id": "a2-services",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "noun-rijbewijs",
@@ -5398,7 +5412,8 @@
     "text_tr": "bisikletli",
     "article": "de",
     "category_id": "a2-city-transport",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-gebouw",
@@ -5430,7 +5445,7 @@
     "article": "de",
     "category_id": "a2-city-transport",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "noun-hotel",
@@ -5462,7 +5477,7 @@
     "article": null,
     "category_id": "a2-city-transport",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "noun-passagier",
@@ -5482,10 +5497,11 @@
   },
   {
     "word_id": "noun-provincie",
-    "text_tr": "il",
+    "text_tr": "eyalet",
     "article": "de",
     "category_id": "a2-city-transport",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-reisbureau",
@@ -5505,10 +5521,11 @@
   },
   {
     "word_id": "noun-spoor",
-    "text_tr": "ray",
+    "text_tr": "peron",
     "article": "het",
     "category_id": "a2-city-transport",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-stoep",
@@ -5516,7 +5533,7 @@
     "article": "de",
     "category_id": "a2-city-transport",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "verb-uitstappen",
@@ -5548,7 +5565,7 @@
     "article": null,
     "category_id": "a2-city-transport",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "noun-vervoer",
@@ -5620,7 +5637,7 @@
     "article": "het",
     "category_id": "a2-city-transport",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "adj-buitenlands",
@@ -5788,7 +5805,7 @@
     "article": "de",
     "category_id": "a2-shopping",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "noun-tas",
@@ -5852,7 +5869,7 @@
     "article": "de",
     "category_id": "a2-clothes",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "noun-ondergoed",
@@ -5996,7 +6013,7 @@
     "article": "het",
     "category_id": "a2-people",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "noun-geboorte",
@@ -6048,17 +6065,19 @@
   },
   {
     "word_id": "noun-neef",
-    "text_tr": "erkek kuzen",
+    "text_tr": "kuzen, yeğen (erkek)",
     "article": "de",
     "category_id": "a2-people",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-nicht",
-    "text_tr": "kız kuzen",
+    "text_tr": "kuzen, yeğen (kız)",
     "article": "de",
     "category_id": "a2-people",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-oom",
@@ -6190,10 +6209,11 @@
   },
   {
     "word_id": "noun-feestdag",
-    "text_tr": "bayram günü",
+    "text_tr": "resmî tatil günü",
     "article": "de",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-film",
@@ -6305,7 +6325,7 @@
     "article": "de",
     "category_id": "a2-free-time",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "verb-uitgaan",
@@ -6448,7 +6468,8 @@
     "text_tr": "kum tepesi",
     "article": "het",
     "category_id": "a2-nature-weather",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-gras",
@@ -6472,7 +6493,7 @@
     "article": "het",
     "category_id": "a2-nature-weather",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "noun-koe",
@@ -6700,10 +6721,11 @@
   },
   {
     "word_id": "noun-dijk",
-    "text_tr": "set (bent)",
+    "text_tr": "set, bent",
     "article": "de",
     "category_id": "a2-nature-weather",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-ijs",
@@ -6899,10 +6921,11 @@
   },
   {
     "word_id": "adj-zenuwachtig",
-    "text_tr": "telaşlı",
+    "text_tr": "gergin",
     "article": null,
     "category_id": "a2-feelings",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "verb-vervelen",
@@ -6974,7 +6997,7 @@
     "article": null,
     "category_id": "a2-describing",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "adj-eenvoudig",
@@ -7038,7 +7061,7 @@
     "article": null,
     "category_id": "a2-describing",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "adj-lelijk",
@@ -7178,10 +7201,11 @@
   },
   {
     "word_id": "adj-vrij",
-    "text_tr": "serbest",
+    "text_tr": "serbest, izinli",
     "article": null,
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "adj-veilig",
@@ -7273,10 +7297,11 @@
   },
   {
     "word_id": "verb-afspreken",
-    "text_tr": "sözleşmek",
+    "text_tr": "buluşmak için sözleşmek",
     "article": null,
     "category_id": "a2-communication",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "verb-beantwoorden",
@@ -7284,7 +7309,7 @@
     "article": null,
     "category_id": "a2-communication",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "adj-beleefd",
@@ -7644,7 +7669,7 @@
     "article": "de",
     "category_id": "a2-daily-verbs",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "verb-lukken",
@@ -7740,7 +7765,7 @@
     "article": null,
     "category_id": "a2-daily-verbs",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "verb-verdienen",
@@ -7827,7 +7852,8 @@
     "text_tr": "postalamak",
     "article": null,
     "category_id": "a2-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "verb-bezorgen",
@@ -7835,7 +7861,7 @@
     "article": null,
     "category_id": "a2-daily-verbs",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "verb-bezoeken",
@@ -7859,7 +7885,7 @@
     "article": null,
     "category_id": "a2-daily-verbs",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "verb-reizen",
@@ -7907,7 +7933,7 @@
     "article": "de",
     "category_id": "a2-time",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "noun-moment",
@@ -7967,9 +7993,10 @@
   },
   {
     "word_id": "adj-vorig",
-    "text_tr": "önceki",
+    "text_tr": "geçen",
     "article": null,
     "category_id": "a2-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   }
 ]
