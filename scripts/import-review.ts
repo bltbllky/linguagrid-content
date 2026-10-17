@@ -33,16 +33,21 @@ export function parseCsv(text: string): string[][] {
 /**
  * Applies the owner's review sheet. Decision values: `OK`, `REMOVE`, or corrections separated by
  * ";" — `de` / `het` fixes the article, any other text replaces the Turkish translation. OK and
- * corrections mark both the annotation and the Turkish translation as reviewed; other languages are
- * only touched to drop removed words. A sheet of another language (`lang`) goes to `applyLanguageReview`.
+ * corrections mark both the annotation and the Turkish translation as reviewed and record who decided
+ * (`review_source`, ADR-012); other languages are only touched to drop removed words. A sheet of another language (`lang`) goes to `applyLanguageReview`.
  */
-export function applyReview(content: Content, csv: string, lang = 'tr'): ReviewResult {
+export function applyReview(
+  content: Content,
+  csv: string,
+  lang = 'tr',
+  source: 'owner' | 'reviewer' = 'owner',
+): ReviewResult {
   // Spreadsheet apps may save a UTF-8 byte order mark in front of the header.
   const [header, ...rows] = parseCsv(csv.replace(/^\uFEFF/, ''));
   if (header.join() !== reviewColumns(lang).join()) {
     throw new Error(`Not a ${lang} review sheet; expected columns ${reviewColumns(lang).join(',')}`);
   }
-  if (lang !== 'tr') return applyLanguageReview(content, rows, lang);
+  if (lang !== 'tr') return applyLanguageReview(content, rows, lang, source);
   const idCol = header.indexOf('id');
   const decisionCol = header.indexOf('decision');
   const notes = new Map(content.annotations.map((a) => [a.word_id, { ...a }]));
@@ -57,7 +62,7 @@ export function applyReview(content: Content, csv: string, lang = 'tr'): ReviewR
     const text = texts.get(id);
     if (!note || !text) throw new Error(`Unknown word id in review: ${id}`);
     if (!decision) summary.pending++;
-    else if (decision.toUpperCase() === 'OK') (note.reviewed = text.reviewed = true), summary.ok++;
+    else if (decision.toUpperCase() === 'OK') (note.reviewed = text.reviewed = true), (note.review_source = text.review_source = source), summary.ok++;
     else if (decision.toUpperCase() === 'REMOVE') removed.add(id), summary.removed++;
     else {
       for (const part of decision.split(';').map((p) => p.trim())) {
@@ -65,6 +70,7 @@ export function applyReview(content: Content, csv: string, lang = 'tr'): ReviewR
         else if (part) text.text = part;
       }
       note.reviewed = text.reviewed = true;
+      note.review_source = text.review_source = source;
       summary.corrected++;
     }
   }
@@ -91,7 +97,12 @@ export function applyReview(content: Content, csv: string, lang = 'tr'): ReviewR
  * `data/translations/<lang>.json` changes: articles, categories and Turkish texts are never touched,
  * and REMOVE belongs in the Turkish sheet.
  */
-function applyLanguageReview(content: Content, rows: string[][], lang: string): ReviewResult {
+function applyLanguageReview(
+  content: Content,
+  rows: string[][],
+  lang: string,
+  source: 'owner' | 'reviewer',
+): ReviewResult {
   const known = new Set(content.words.map((w) => w.id));
   const file = content.translations[lang] ?? { lang, words: [], categories: [] };
   const texts = new Map(file.words.map((t) => [t.word_id, { ...t }]));
@@ -106,9 +117,10 @@ function applyLanguageReview(content: Content, rows: string[][], lang: string): 
     else if (decision.toUpperCase() === 'OK') {
       if (!text) throw new Error(`${id}: no ${lang} text to approve`);
       text.reviewed = true;
+      text.review_source = source;
       summary.ok++;
     } else {
-      texts.set(id, { word_id: id, text: decision, reviewed: true });
+      texts.set(id, { word_id: id, text: decision, reviewed: true, review_source: source });
       summary.corrected++;
     }
   }

@@ -91,7 +91,7 @@ describe('validateContent', () => {
     const content = validContent();
     content.translations.en = {
       lang: 'en',
-      words: [{ word_id: 'noun-tandarts', text: '  ', reviewed: true }],
+      words: [{ word_id: 'noun-tandarts', text: '  ', reviewed: true, review_source: 'owner' }],
       categories: [],
     };
     assert.deepEqual(
@@ -195,7 +195,7 @@ describe('validateContent — translation files', () => {
   it('accepts deprecated text_tr and title_tr only when they equal tr.json', () => {
     const content = withLegacyTurkish(validContent());
     assert.deepEqual(validateContent(content), []);
-    assert.deepEqual(Object.keys(content.annotations[0]), ['word_id', 'text_tr', 'article', 'category_id', 'reviewed']);
+    assert.deepEqual(Object.keys(content.annotations[0]), ['word_id', 'text_tr', 'article', 'category_id', 'reviewed', 'review_source']);
     assert.deepEqual(content.categories[0], { id: 'health', title_tr: 'Sağlık', cefr: 'A1', order: 1 });
     content.annotations[0].text_tr = 'doktor';
     content.categories[0].title_tr = 'Saglik';
@@ -206,14 +206,48 @@ describe('validateContent — translation files', () => {
   });
 });
 
+describe('review_source', () => {
+  it('is required exactly when an entry is reviewed', () => {
+    assert.deepEqual(validateContent(validContent()), []);
+    const noSource = validContent();
+    delete noSource.annotations[0].review_source;
+    assert.deepEqual(validateContent(noSource), ['noun-tandarts: reviewed without review_source']);
+    const noReview = validContent();
+    noReview.annotations[1].review_source = 'roundtrip';
+    assert.deepEqual(validateContent(noReview), ['verb-lopen: review_source without reviewed']);
+    const noTurkish = validContent();
+    delete noTurkish.translations.tr.words[0].review_source;
+    assert.deepEqual(validateContent(noTurkish), ['translations/tr: noun-tandarts: reviewed without review_source']);
+  });
+
+  it('rejects an unknown source', () => {
+    const content = validContent();
+    content.translations.en = partialEnglish();
+    (content.translations.en.words[0] as { review_source: string }).review_source = 'robot';
+    assert.deepEqual(validateContent(content), [
+      'translations/en: /words/0/review_source must be equal to one of the allowed values',
+    ]);
+  });
+
+  it('is kept on legacy annotations only when present', () => {
+    const { annotations } = withLegacyTurkish(validContent());
+    assert.equal(Object.keys(annotations[0]).at(-1), 'review_source');
+    assert.equal(annotations[0].review_source, 'owner');
+    assert.equal('review_source' in annotations[1], false);
+  });
+});
+
 describe('translationReport', () => {
   it('reports coverage per language and level and warns about shared prompt texts', () => {
     const content = validContent();
     content.translations.en = partialEnglish();
     assert.deepEqual(translationReport(content), [
-      'tr A1: 2 translated, 1 reviewed / 2 words',
-      'en A1: 1 translated, 1 reviewed / 2 words',
+      'tr A1: 2 translated, 1 reviewed (0 by round trip) / 2 words',
+      'en A1: 1 translated, 1 reviewed (0 by round trip) / 2 words',
     ]);
+    content.translations.tr.words[0].review_source = 'roundtrip';
+    assert.equal(translationReport(content)[0], 'tr A1: 2 translated, 1 reviewed (1 by round trip) / 2 words');
+    content.translations.tr.words[0].review_source = 'owner';
     content.translations.en.words.push({ word_id: 'verb-lopen', text: 'Dentist ', reviewed: false });
     assert.equal(translationReport(content).at(-1), '⚠ en: "dentist" is shared by noun-tandarts, verb-lopen');
   });

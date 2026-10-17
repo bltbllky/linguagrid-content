@@ -47,10 +47,20 @@ describe('buildRelease', () => {
   it('ships the pre-T-029 shape with Turkish texts and needs a reviewed Turkish translation', () => {
     const content = validContent();
     const release = buildRelease(content, { minimums: {}, allowPartial: false });
-    assert.equal(release.files['annotations.json'], JSON.stringify([withLegacyTurkish(content).annotations[0]], null, 2) + '\n');
+    assert.equal(release.files['annotations.json'], JSON.stringify([{ ...withLegacyTurkish(content).annotations[0], review_source: undefined }], null, 2) + '\n');
     assert.deepEqual(JSON.parse(release.files['categories.json']), [{ id: 'health', title_tr: 'Sağlık', cefr: 'A1', order: 1 }]);
     content.translations.tr.words[0].reviewed = false;
     assert.equal(buildRelease(content, { minimums: {}, allowPartial: false }).files['words.json'], '[]\n');
+  });
+
+  it('never ships review_source', () => {
+    const content = bilingual(both);
+    content.annotations[1].reviewed = true;
+    content.annotations[1].review_source = 'roundtrip';
+    content.translations.tr.words[1].review_source = 'roundtrip';
+    const release = buildRelease(content, { minimums: {}, allowPartial: false });
+    assert.equal(Object.keys(release.files).length, 5);
+    assert.ok(!Object.values(release.files).some((body) => body.includes('review_source')));
   });
 
   it('keeps min_app_version untouched', () => {

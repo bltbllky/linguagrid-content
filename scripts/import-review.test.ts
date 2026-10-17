@@ -24,6 +24,8 @@ describe('applyReview', () => {
     assert.equal(result.content.annotations[0].reviewed, true);
     assert.equal(result.content.annotations[1].reviewed, false);
     assert.deepEqual(result.content.translations.tr.words.map((t) => t.reviewed), [true, false]);
+    assert.equal(result.content.annotations[0].review_source, 'owner');
+    assert.equal(result.content.translations.tr.words[0].review_source, 'owner');
     assert.deepEqual(result.summary, { ok: 1, corrected: 0, removed: 0, pending: 1 });
   });
 
@@ -37,6 +39,16 @@ describe('applyReview', () => {
     assert.deepEqual([noun.article, nounTr.text, noun.reviewed, nounTr.reviewed], ['het', 'diş doktoru', true, true]);
     assert.deepEqual([verbTr.text, verb.reviewed, verbTr.reviewed], ['yürümek (yaya)', true, true]);
     assert.equal(result.summary.corrected, 2);
+    assert.deepEqual([noun.review_source, nounTr.review_source, verb.review_source, verbTr.review_source], ['owner', 'owner', 'owner', 'owner']);
+  });
+
+  it('records a named reviewer when asked', () => {
+    const content = validContent();
+    content.annotations[0].reviewed = false;
+    delete content.annotations[0].review_source;
+    const result = applyReview(content, `${header}\nnoun-tandarts,,,,,OK\n`, 'tr', 'reviewer');
+    assert.equal(result.content.annotations[0].review_source, 'reviewer');
+    assert.equal(result.content.translations.tr.words[0].review_source, 'reviewer');
   });
 
   it('removes REMOVE rows from words and annotations and records them as excluded', () => {
@@ -96,8 +108,8 @@ describe('applyReview for another language', () => {
     const csv = enSheet(['noun-tandarts,tandarts,de,diş hekimi,dentist,Health,OK', 'verb-lopen,lopen,,yürümek,to run,Health,to walk']);
     const { content, excluded, summary } = applyReview(english(), csv, 'en');
     assert.deepEqual(content.translations.en?.words, [
-      { word_id: 'noun-tandarts', text: 'dentist', reviewed: true },
-      { word_id: 'verb-lopen', text: 'to walk', reviewed: true },
+      { word_id: 'noun-tandarts', text: 'dentist', reviewed: true, review_source: 'owner' },
+      { word_id: 'verb-lopen', text: 'to walk', reviewed: true, review_source: 'owner' },
     ]);
     const { en: _en, ...others } = content.translations;
     const { en: _before, ...othersBefore } = before.translations;
@@ -124,7 +136,7 @@ describe('applyReview for another language', () => {
     const { content } = applyReview(validContent(), enSheet(['verb-lopen,,,,,,to walk']), 'en');
     assert.deepEqual(content.translations.en, {
       lang: 'en',
-      words: [{ word_id: 'verb-lopen', text: 'to walk', reviewed: true }],
+      words: [{ word_id: 'verb-lopen', text: 'to walk', reviewed: true, review_source: 'owner' }],
       categories: [],
     });
   });
