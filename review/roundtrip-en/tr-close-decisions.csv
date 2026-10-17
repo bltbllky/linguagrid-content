@@ -1,0 +1,9 @@
+id,dutch,en,tr_existing,tr_blind,tr_blind_nl,decision,suggestion,reason,owner_sheet
+adj-leuk,leuk,nice,eğlenceli,hoş,hoş,change,"eğlenceli, hoş","leuk covers both fun and nice (een leuke man); ""eğlenceli"" alone misses the second; ""hoş"" alone is fijn's text",A1
+verb-krijgen,krijgen,to get,elde etmek,almak,almak,change,(birinden) almak,"""elde etmek"" is formal (obtain); A1 krijgen is get/receive; the bracket keeps it apart from nemen (almak)",A2
+verb-rijden,rijden,to drive,taşıtla gitmek,araba sürmek,sürmek,keep,,"rijden covers car, bike, bus and train; ""taşıtla gitmek"" covers all of them; ""sürmek"" alone clashes with duren",A3
+adj-bijzonder,bijzonder,remarkable,olağanüstü,özel,özel,keep,,"""özel"" is speciaal's text; ""olağanüstü"" is a valid sense of bijzonder and keeps the two apart",A4
+noun-drank,drank,drink,içki,içecek,içecek,change,içecek,"Sense 1 of drank is any drink; ""içki"" means alcohol only; frisdrank is a separate word, so ""içecek"" is free",A12
+noun-nek,nek,neck,boyun,ense,ense,keep,,"nek = neck = boyun; both blind readings ""ense"" (nape) are narrower; the current text is right",A13
+noun-opleiding,opleiding,training,meslek eğitimi,eğitim,eğitim,change,eğitim,"opleiding covers any course of education (also university); ""meslek eğitimi"" is the vocational sense only",A14
+verb-versturen,versturen,to post,postalamak,göndermek,göndermek,keep,,"""göndermek"" is sturen's text; ""postalamak"" keeps them apart and fits the A2 sense (send by post)",A19
