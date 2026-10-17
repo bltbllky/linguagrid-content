@@ -10,6 +10,7 @@
     "extract": "tsx scripts/cli/extract.ts",
     "export-review": "tsx scripts/cli/export-review.ts",
     "import-review": "tsx scripts/cli/import-review.ts",
+    "import-roundtrip": "tsx scripts/cli/import-roundtrip.ts",
     "release": "tsx scripts/cli/build-release.ts"
   },
   "repository": {

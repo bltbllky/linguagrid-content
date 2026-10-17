@@ -12,14 +12,25 @@ See `LICENSE-DATA.md` for licences and attribution.
 
 ## Review flow per language
 
-Every learner language is reviewed as a list, one CSV per level:
+Every learner language is accepted by the round-trip check of ADR-012, and a human decides only the rows it flags:
 
 1. `npm run export-review a1` writes `review/a1.csv` for Turkish; `npm run export-review -- --lang en a1` writes
    `review/en/a1.csv` with the Turkish text as context (T-030).
-2. The owner marks each row as OK or writes a correction in the last column.
-3. `npm run import-review review/a1.csv` applies the Turkish texts and the article and sets `reviewed: true`; importing
-   `review/en/a1.csv` only changes `data/translations/en.json`.
+2. The content editor pre-checks every word (`review/<level>.findings.csv`, `review/<lang>/<level>.findings.csv`). Two blind
+   agents, which have not seen the existing text, write it again: one from the pivot (English for Turkish, Turkish for
+   English; for other languages, an English back-translation) and one from the Dutch lemma alone, with a de/het guess for
+   nouns. A comparer marks each as match, close or mismatch in a result sheet under `review/roundtrip/`, with a `verdict`
+   column: `OK` for match/match or match/close without a finding, and `owner` for a mismatch, an article disagreement or a
+   content-editor finding. Close/close rows go to the content editor, who sets `OK` or files a finding.
+3. `npm run import-roundtrip -- [--lang en] <sheet>` sets `reviewed: true` with `review_source: "roundtrip"` on the `OK`
+   rows (for Turkish also on the annotation when the article check matched). The owner decides the remaining rows in the
+   review sheet: `npm run import-review review/a1.csv` applies them with `review_source: "owner"` (`--reviewer` for a
+   named reviewer). A round trip never overwrites a human decision. Only the owner merges a PR that marks content reviewed.
 4. `npm run validate` checks the files and prints the coverage per language and level (reviewed / total).
+
+Before each release, 50 round-trip-accepted words per language are drawn at random (seed recorded) and checked by a
+person who reads the language. More than one error leaves that language out of the release and resets its round-trip
+acceptances for the affected level (`docs/release/content-check.md` in the app repository).
 
 ## Release
 

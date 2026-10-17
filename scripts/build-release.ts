@@ -48,7 +48,7 @@ export function buildRelease(content: Content, { minimums, allowPartial }: Relea
   const legacy = withLegacyTurkish(content);
   const files: Record<string, string> = {
     'words.json': json(words),
-    'annotations.json': json(legacy.annotations.filter((a) => reviewed.has(a.word_id))),
+    'annotations.json': json(legacy.annotations.filter((a) => reviewed.has(a.word_id)).map(({ review_source: _, ...a }) => a)),
     'categories.json': json(legacy.categories),
   };
   const languages: string[] = [];

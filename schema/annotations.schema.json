@@ -10,7 +10,8 @@
       "text_tr": { "type": "string", "deprecated": true, "description": "Copy of translations/tr.json until T-034" },
       "article": { "enum": ["de", "het", null] },
       "category_id": { "type": "string" },
-      "reviewed": { "type": "boolean" }
+      "reviewed": { "type": "boolean" },
+      "review_source": { "enum": ["roundtrip", "owner", "reviewer"] }
     }
   }
 }

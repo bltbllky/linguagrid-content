@@ -7,6 +7,15 @@ export const MAX_WORD_LENGTH = 12;
 
 type Cefr = 'A1' | 'A2' | 'B1' | 'B2' | 'C1';
 export type Pos = 'noun' | 'verb' | 'adj';
+/** Who accepted `reviewed` (ADR-012). */
+export type ReviewSource = 'roundtrip' | 'owner' | 'reviewer';
+
+/** A `reviewed` entry needs a `review_source`, and a source needs `reviewed`. */
+function sourceIssue(e: { reviewed: boolean; review_source?: ReviewSource }): string | null {
+  if (e.reviewed && !e.review_source) return 'reviewed without review_source';
+  if (!e.reviewed && e.review_source) return 'review_source without reviewed';
+  return null;
+}
 
 /**
  * Checks if text is normalised to NFC, has no leading or trailing whitespace,
@@ -37,6 +46,8 @@ export interface Annotation {
   article: 'de' | 'het' | null;
   category_id: string;
   reviewed: boolean;
+  /** Who accepted `reviewed` (ADR-012). */
+  review_source?: ReviewSource;
 }
 export interface Category {
   id: string;
@@ -48,7 +59,7 @@ export interface Category {
 /** One learner language: `data/translations/<lang>.json` (ADR-011, shape (a)). */
 export interface TranslationFile {
   lang: string;
-  words: { word_id: string; text: string; reviewed: boolean }[];
+  words: { word_id: string; text: string; reviewed: boolean; review_source?: ReviewSource }[];
   categories: { category_id: string; title: string }[];
 }
 export interface Manifest {
@@ -123,6 +134,8 @@ export function validateContent(content: Content): string[] {
   }
   for (const note of content.annotations) {
     if (!seen.has(note.word_id)) errors.push(`${note.word_id}: annotation for an unknown word`);
+    const issue = sourceIssue(note);
+    if (issue) errors.push(`${note.word_id}: ${issue}`);
     if (note.text_tr !== undefined && note.text_tr !== turkish.get(note.word_id)?.text) {
       errors.push(`${note.word_id}: deprecated text_tr differs from data/translations/tr.json`);
     }
@@ -168,6 +181,11 @@ function validateTranslationFile(
     seen.add(key);
   }
 
+  for (const t of file.words) {
+    const issue = sourceIssue(t);
+    if (issue) errors.push(`${at}: ${t.word_id}: ${issue}`);
+  }
+
   // Check for case-only pairs in word texts
   const byLowerCase = new Map<string, { id: string; text: string }[]>();
   for (const word of file.words) {
@@ -203,7 +221,8 @@ export function translationReport(content: Content): string[] {
       const words = content.words.filter((w) => w.cefr === level);
       const translated = words.filter((w) => byId.has(w.id));
       const reviewed = translated.filter((w) => byId.get(w.id)?.reviewed).length;
-      lines.push(`${lang} ${level}: ${translated.length} translated, ${reviewed} reviewed / ${words.length} words`);
+      const roundtrip = translated.filter((w) => byId.get(w.id)?.review_source === 'roundtrip').length;
+      lines.push(`${lang} ${level}: ${translated.length} translated, ${reviewed} reviewed (${roundtrip} by round trip) / ${words.length} words`);
     }
     const byText = new Map<string, string[]>();
     for (const t of byId.values()) {
@@ -224,8 +243,8 @@ export function withLegacyTurkish(content: Content): Content {
   const titles = new Map(content.translations.tr.categories.map((c) => [c.category_id, c.title]));
   return {
     ...content,
-    annotations: content.annotations.map(({ word_id, article, category_id, reviewed }) =>
-      ({ word_id, text_tr: texts.get(word_id) ?? '', article, category_id, reviewed })),
+    annotations: content.annotations.map(({ word_id, article, category_id, reviewed, review_source }) =>
+      ({ word_id, text_tr: texts.get(word_id) ?? '', article, category_id, reviewed, ...(review_source && { review_source }) })),
     categories: content.categories.map(({ id, cefr, order }) => ({ id, title_tr: titles.get(id) ?? '', cefr, order })),
   };
 }
