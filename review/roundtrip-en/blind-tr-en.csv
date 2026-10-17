@@ -599,3 +599,203 @@ adj-parttime,parttime,adj,A2,part-time
 noun-huiswerk,huiswerk,noun,A2,homework
 noun-kennis,kennis,noun,A2,knowledge
 noun-loon,loon,noun,A2,wage
+noun-manager,manager,noun,A2,manager
+noun-medewerker,medewerker,noun,A2,employee
+noun-niveau,niveau,noun,A2,level
+verb-oefenen,oefenen,verb,A2,to practise
+verb-ontslaan,ontslaan,verb,A2,to dismiss
+noun-opdracht,opdracht,noun,A2,task
+noun-opleiding,opleiding,noun,A2,vocational training
+noun-pauze,pauze,noun,A2,break
+noun-personeel,personeel,noun,A2,personnel
+noun-potlood,potlood,noun,A2,pencil
+noun-pen,pen,noun,A2,ballpoint pen
+noun-salaris,salaris,noun,A2,salary
+noun-schrift,schrift,noun,A2,notebook
+verb-solliciteren,solliciteren,verb,A2,to apply for a job
+noun-stage,stage,noun,A2,internship
+noun-student,student,noun,A2,university student
+noun-studie,studie,noun,A2,education
+noun-toets,toets,noun,A2,exam
+noun-universiteit,universiteit,noun,A2,university
+noun-vergadering,vergadering,noun,A2,meeting
+verb-vertalen,vertalen,verb,A2,to translate
+noun-vertaling,vertaling,noun,A2,translation
+noun-werkdag,werkdag,noun,A2,working day
+noun-werkgever,werkgever,noun,A2,employer
+adj-werkloos,werkloos,adj,A2,unemployed
+noun-werknemer,werknemer,noun,A2,worker
+noun-werkplek,werkplek,noun,A2,workplace
+noun-werktijd,werktijd,noun,A2,working hours
+noun-woordenboek,woordenboek,noun,A2,dictionary
+verb-uitleggen,uitleggen,verb,A2,to explain
+noun-uitleg,uitleg,noun,A2,explanation
+noun-tekst,tekst,noun,A2,text
+noun-zin,zin,noun,A2,sentence
+noun-betekenis,betekenis,noun,A2,meaning
+verb-betekenen,betekenen,verb,A2,to mean
+verb-inschrijven,inschrijven,verb,A2,to enrol
+noun-inschrijving,inschrijving,noun,A2,registration
+noun-succes,succes,noun,A2,success
+noun-resultaat,resultaat,noun,A2,result
+noun-moedertaal,moedertaal,noun,A2,native language
+verb-slagen,slagen,verb,A2,to pass
+noun-belasting,belasting,noun,A2,tax
+noun-douane,douane,noun,A2,customs
+noun-formulier,formulier,noun,A2,form
+noun-gemeente,gemeente,noun,A2,municipality
+noun-gemeentehuis,gemeentehuis,noun,A2,town hall
+noun-handtekening,handtekening,noun,A2,signature
+verb-invullen,invullen,verb,A2,to fill in a form
+noun-loket,loket,noun,A2,ticket window
+noun-paspoort,paspoort,noun,A2,passport
+noun-politie,politie,noun,A2,police
+noun-politieagent,politieagent,noun,A2,police officer
+noun-post,post,noun,A2,mail
+noun-postbode,postbode,noun,A2,postman
+noun-pakket,pakket,noun,A2,package
+noun-envelop,envelop,noun,A2,envelope
+noun-rekening,rekening,noun,A2,bill
+noun-rijbewijs,rijbewijs,noun,A2,driving licence
+noun-wet,wet,noun,A2,law
+noun-boete,boete,noun,A2,fine
+noun-bibliotheek,bibliotheek,noun,A2,library
+verb-aanmelden,aanmelden,verb,A2,to register
+verb-reserveren,reserveren,verb,A2,to make a reservation
+noun-openingstijd,openingstijd,noun,A2,opening time
+noun-ingang,ingang,noun,A2,entrance
+noun-uitgang,uitgang,noun,A2,exit
+noun-datum,datum,noun,A2,date
+noun-nummer,nummer,noun,A2,number
+noun-bericht,bericht,noun,A2,message
+noun-mail,mail,noun,A2,email
+verb-mailen,mailen,verb,A2,to send an email
+adj-online,online,adj,A2,online
+noun-regel,regel,noun,A2,rule
+noun-automobilist,automobilist,noun,A2,driver
+noun-bagage,bagage,noun,A2,luggage
+noun-brug,brug,noun,A2,bridge
+noun-fietser,fietser,noun,A2,cyclist
+noun-gebouw,gebouw,noun,A2,building
+noun-gracht,gracht,noun,A2,canal
+noun-halte,halte,noun,A2,stop
+noun-hoofdstad,hoofdstad,noun,A2,capital
+noun-hotel,hotel,noun,A2,hotel
+noun-hotelkamer,hotelkamer,noun,A2,hotel room
+noun-markt,markt,noun,A2,market
+verb-parkeren,parkeren,verb,A2,to park
+noun-passagier,passagier,noun,A2,passenger
+noun-plein,plein,noun,A2,square
+noun-provincie,provincie,noun,A2,province
+noun-reisbureau,reisbureau,noun,A2,travel agency
+noun-richting,richting,noun,A2,direction
+noun-spoor,spoor,noun,A2,rail
+noun-stoep,stoep,noun,A2,pavement
+verb-uitstappen,uitstappen,verb,A2,to get off
+noun-vertrek,vertrek,noun,A2,departure
+noun-aankomst,aankomst,noun,A2,arrival
+verb-aankomen,aankomen,verb,A2,to arrive
+noun-vervoer,vervoer,noun,A2,transport
+noun-verkeer,verkeer,noun,A2,traffic
+noun-wijk,wijk,noun,A2,district
+noun-buurt,buurt,noun,A2,neighbourhood
+noun-camping,camping,noun,A2,campsite
+noun-terras,terras,noun,A2,terrace
+noun-toerist,toerist,noun,A2,tourist
+noun-koffer,koffer,noun,A2,suitcase
+noun-buitenland,buitenland,noun,A2,abroad
+adj-buitenlands,buitenlands,adj,A2,foreign
+noun-grens,grens,noun,A2,border
+noun-ongeluk,ongeluk,noun,A2,accident
+noun-pech,pech,noun,A2,mishap
+noun-boekwinkel,boekwinkel,noun,A2,bookshop
+noun-cent,cent,noun,A2,cent
+adj-gratis,gratis,adj,A2,free of charge
+adj-goedkoop,goedkoop,adj,A2,cheap
+noun-kassa,kassa,noun,A2,till
+noun-maat,maat,noun,A2,size
+noun-portemonnee,portemonnee,noun,A2,wallet
+verb-besparen,besparen,verb,A2,to save
+verb-sparen,sparen,verb,A2,to save up
+noun-verkoop,verkoop,noun,A2,sale
+noun-verkoper,verkoper,noun,A2,seller
+verb-winkelen,winkelen,verb,A2,to go shopping
+verb-lenen,lenen,verb,A2,to borrow
+verb-terugbetalen,terugbetalen,verb,A2,to pay back
+verb-uitgeven,uitgeven,verb,A2,to spend
+noun-waarde,waarde,noun,A2,value
+noun-zak,zak,noun,A2,plastic bag
+noun-tas,tas,noun,A2,bag
+noun-badpak,badpak,noun,A2,swimsuit
+noun-broek,broek,noun,A2,trousers
+noun-handschoen,handschoen,noun,A2,glove
+noun-jurk,jurk,noun,A2,dress
+noun-kleding,kleding,noun,A2,clothes
+noun-kous,kous,noun,A2,sock
+noun-muts,muts,noun,A2,beanie
+noun-ondergoed,ondergoed,noun,A2,underwear
+noun-overhemd,overhemd,noun,A2,shirt
+noun-pantoffel,pantoffel,noun,A2,slipper
+noun-paraplu,paraplu,noun,A2,umbrella
+noun-rok,rok,noun,A2,skirt
+noun-sjaal,sjaal,noun,A2,scarf
+noun-vest,vest,noun,A2,cardigan
+noun-bril,bril,noun,A2,glasses
+noun-ring,ring,noun,A2,ring
+noun-gymschoen,gymschoen,noun,A2,sports shoe
+noun-baby,baby,noun,A2,baby
+noun-bruid,bruid,noun,A2,bride
+noun-bruiloft,bruiloft,noun,A2,wedding
+noun-buurman,buurman,noun,A2,neighbour
+noun-buurvrouw,buurvrouw,noun,A2,neighbour
+noun-familielid,familielid,noun,A2,relative
+noun-gast,gast,noun,A2,guest
+noun-gezin,gezin,noun,A2,family
+noun-geboorte,geboorte,noun,A2,birth
+noun-opa,opa,noun,A2,grandfather
+noun-huwelijk,huwelijk,noun,A2,marriage
+noun-jongen,jongen,noun,A2,boy
+noun-kinderopvang,kinderopvang,noun,A2,nursery
+noun-leeftijd,leeftijd,noun,A2,age
+noun-neef,neef,noun,A2,cousin
+noun-nicht,nicht,noun,A2,cousin
+noun-oom,oom,noun,A2,uncle
+noun-tante,tante,noun,A2,aunt
+noun-oppas,oppas,noun,A2,babysitter
+verb-opvoeden,opvoeden,verb,A2,to bring up
+noun-persoon,persoon,noun,A2,person
+verb-scheiden,scheiden,verb,A2,to divorce
+noun-scheiding,scheiding,noun,A2,divorce
+noun-volwassene,volwassene,noun,A2,adult
+noun-vriendschap,vriendschap,noun,A2,friendship
+verb-zoenen,zoenen,verb,A2,to kiss
+verb-overlijden,overlijden,verb,A2,to pass away
+noun-begrafenis,begrafenis,noun,A2,funeral
+noun-heer,heer,noun,A2,gentleman
+noun-lid,lid,noun,A2,member
+noun-club,club,noun,A2,club
+noun-dans,dans,noun,A2,dance
+noun-feestdag,feestdag,noun,A2,public holiday
+noun-film,film,noun,A2,film
+verb-hardlopen,hardlopen,verb,A2,to go running
+noun-kermis,kermis,noun,A2,funfair
+noun-kerst,kerst,noun,A2,Christmas
+noun-museum,museum,noun,A2,museum
+noun-nieuwjaar,nieuwjaar,noun,A2,New Year
+verb-schaatsen,schaatsen,verb,A2,to skate
+verb-sporten,sporten,verb,A2,to do sport
+noun-toneelstuk,toneelstuk,noun,A2,play
+noun-voorstelling,voorstelling,noun,A2,show
+noun-voetbalclub,voetbalclub,noun,A2,football club
+verb-wandelen,wandelen,verb,A2,to go for a walk
+noun-wandeling,wandeling,noun,A2,walk
+noun-wedstrijd,wedstrijd,noun,A2,match
+verb-uitgaan,uitgaan,verb,A2,to go out
+noun-vakantiedag,vakantiedag,noun,A2,day off
+noun-kunst,kunst,noun,A2,art
+verb-tekenen,tekenen,verb,A2,to draw
+noun-speelgoed,speelgoed,noun,A2,toy
+noun-spel,spel,noun,A2,game
+noun-journaal,journaal,noun,A2,news bulletin
+noun-krant,krant,noun,A2,newspaper
+verb-trainen,trainen,verb,A2,to train
