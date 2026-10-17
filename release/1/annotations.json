@@ -1,0 +1,7002 @@
+[
+  {
+    "word_id": "verb-zijn",
+    "text_tr": "olmak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-hebben",
+    "text_tr": "sahip olmak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-gaan",
+    "text_tr": "gitmek",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-zeggen",
+    "text_tr": "söylemek",
+    "article": null,
+    "category_id": "a1-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-vinden",
+    "text_tr": "bulmak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-huis",
+    "text_tr": "ev",
+    "article": "het",
+    "category_id": "a1-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-goed",
+    "text_tr": "iyi",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-moeder",
+    "text_tr": "anne",
+    "article": "de",
+    "category_id": "a1-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-willen",
+    "text_tr": "istemek",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-heel",
+    "text_tr": "bütün, tam",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-kunnen",
+    "text_tr": "yapabilmek",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-moeten",
+    "text_tr": "zorunda olmak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-praten",
+    "text_tr": "sohbet etmek",
+    "article": null,
+    "category_id": "a1-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-wonen",
+    "text_tr": "bir yerde yaşamak",
+    "article": null,
+    "category_id": "a1-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-familie",
+    "text_tr": "aile",
+    "article": "de",
+    "category_id": "a1-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-mens",
+    "text_tr": "insan",
+    "article": "de",
+    "category_id": "a1-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-heten",
+    "text_tr": "adı … olmak",
+    "article": null,
+    "category_id": "a1-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-leuk",
+    "text_tr": "eğlenceli, hoş",
+    "article": null,
+    "category_id": "a1-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-denken",
+    "text_tr": "düşünmek",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-lopen",
+    "text_tr": "yürümek",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-zien",
+    "text_tr": "görmek",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-kijken",
+    "text_tr": "bakmak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-doen",
+    "text_tr": "yapmak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-blij",
+    "text_tr": "sevinçli",
+    "article": null,
+    "category_id": "a1-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-school",
+    "text_tr": "okul",
+    "article": "de",
+    "category_id": "a1-school-work",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-jaar",
+    "text_tr": "yıl",
+    "article": "het",
+    "category_id": "a1-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-eten",
+    "text_tr": "yemek yemek",
+    "article": null,
+    "category_id": "a1-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-komen",
+    "text_tr": "gelmek",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-ander",
+    "text_tr": "başka",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-vragen",
+    "text_tr": "sormak",
+    "article": null,
+    "category_id": "a1-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-erg",
+    "text_tr": "çok kötü, berbat",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-vrouw",
+    "text_tr": "kadın",
+    "article": "de",
+    "category_id": "a1-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-snel",
+    "text_tr": "hızlı",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-kleed",
+    "text_tr": "örtü, halı",
+    "article": "het",
+    "category_id": "a1-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-geven",
+    "text_tr": "vermek",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-dag",
+    "text_tr": "gün",
+    "article": "de",
+    "category_id": "a1-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-werken",
+    "text_tr": "çalışmak",
+    "article": null,
+    "category_id": "a1-school-work",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-strand",
+    "text_tr": "plaj",
+    "article": "het",
+    "category_id": "a1-nature",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-zitten",
+    "text_tr": "oturmak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-vriendin",
+    "text_tr": "kız arkadaş",
+    "article": "de",
+    "category_id": "a1-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-lang",
+    "text_tr": "uzun",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-vriend",
+    "text_tr": "arkadaş",
+    "article": "de",
+    "category_id": "a1-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-zoeken",
+    "text_tr": "aramak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-brief",
+    "text_tr": "mektup",
+    "article": "de",
+    "category_id": "a1-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-haar",
+    "text_tr": "saç",
+    "article": "het",
+    "category_id": "a1-body-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-staan",
+    "text_tr": "ayakta durmak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-boot",
+    "text_tr": "tekne",
+    "article": "de",
+    "category_id": "a1-city-travel",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-werk",
+    "text_tr": "iş",
+    "article": "het",
+    "category_id": "a1-school-work",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-groot",
+    "text_tr": "büyük",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-kopen",
+    "text_tr": "satın almak",
+    "article": null,
+    "category_id": "a1-shopping",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-auto",
+    "text_tr": "araba",
+    "article": "de",
+    "category_id": "a1-city-travel",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-bang",
+    "text_tr": "korkmuş",
+    "article": null,
+    "category_id": "a1-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-hond",
+    "text_tr": "köpek",
+    "article": "de",
+    "category_id": "a1-nature",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-maken",
+    "text_tr": "yapmak (üretmek)",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-lachen",
+    "text_tr": "gülmek",
+    "article": null,
+    "category_id": "a1-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-oud",
+    "text_tr": "yaşlı, eski",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-klein",
+    "text_tr": "küçük",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-kind",
+    "text_tr": "çocuk",
+    "article": "het",
+    "category_id": "a1-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-worden",
+    "text_tr": "haline gelmek",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-probleem",
+    "text_tr": "sorun",
+    "article": "het",
+    "category_id": "a1-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-schreeuwen",
+    "text_tr": "bağırmak",
+    "article": null,
+    "category_id": "a1-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-liggen",
+    "text_tr": "uzanmak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-drinken",
+    "text_tr": "içmek",
+    "article": null,
+    "category_id": "a1-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-geld",
+    "text_tr": "para",
+    "article": "het",
+    "category_id": "a1-shopping",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-man",
+    "text_tr": "adam",
+    "article": "de",
+    "category_id": "a1-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-krijgen",
+    "text_tr": "(birinden) almak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-vader",
+    "text_tr": "baba",
+    "article": "de",
+    "category_id": "a1-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-nieuw",
+    "text_tr": "yeni",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-kamer",
+    "text_tr": "oda",
+    "article": "de",
+    "category_id": "a1-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-pakken",
+    "text_tr": "eline almak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-bus",
+    "text_tr": "otobüs",
+    "article": "de",
+    "category_id": "a1-city-travel",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-blaffen",
+    "text_tr": "havlamak",
+    "article": null,
+    "category_id": "a1-nature",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-rennen",
+    "text_tr": "koşmak",
+    "article": null,
+    "category_id": "a1-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-eten",
+    "text_tr": "yemek",
+    "article": "het",
+    "category_id": "a1-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-mooi",
+    "text_tr": "güzel",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-meisje",
+    "text_tr": "kız",
+    "article": "het",
+    "category_id": "a1-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-koffie",
+    "text_tr": "kahve",
+    "article": "de",
+    "category_id": "a1-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-keer",
+    "text_tr": "kez",
+    "article": "de",
+    "category_id": "a1-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-zomer",
+    "text_tr": "yaz",
+    "article": "de",
+    "category_id": "a1-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-slaapkamer",
+    "text_tr": "yatak odası",
+    "article": "de",
+    "category_id": "a1-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-vertellen",
+    "text_tr": "anlatmak",
+    "article": null,
+    "category_id": "a1-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-rood",
+    "text_tr": "kırmızı",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-vroeg",
+    "text_tr": "erken",
+    "article": null,
+    "category_id": "a1-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-verdrietig",
+    "text_tr": "üzgün",
+    "article": null,
+    "category_id": "a1-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-kennen",
+    "text_tr": "tanımak",
+    "article": null,
+    "category_id": "a1-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-volgen",
+    "text_tr": "takip etmek",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-begrijpen",
+    "text_tr": "anlamak",
+    "article": null,
+    "category_id": "a1-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-fijn",
+    "text_tr": "hoş",
+    "article": null,
+    "category_id": "a1-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-mogen",
+    "text_tr": "izni olmak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-ouder",
+    "text_tr": "ebeveyn",
+    "article": "de",
+    "category_id": "a1-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-lekker",
+    "text_tr": "lezzetli",
+    "article": null,
+    "category_id": "a1-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-trein",
+    "text_tr": "tren",
+    "article": "de",
+    "category_id": "a1-city-travel",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-horen",
+    "text_tr": "duymak",
+    "article": null,
+    "category_id": "a1-body-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-lezen",
+    "text_tr": "okumak",
+    "article": null,
+    "category_id": "a1-school-work",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-normaal",
+    "text_tr": "normal",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-les",
+    "text_tr": "ders",
+    "article": "de",
+    "category_id": "a1-school-work",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-boek",
+    "text_tr": "kitap",
+    "article": "het",
+    "category_id": "a1-school-work",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-slapen",
+    "text_tr": "uyumak",
+    "article": null,
+    "category_id": "a1-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-houden",
+    "text_tr": "tutmak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-keuken",
+    "text_tr": "mutfak",
+    "article": "de",
+    "category_id": "a1-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-zus",
+    "text_tr": "kız kardeş",
+    "article": "de",
+    "category_id": "a1-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-schrijven",
+    "text_tr": "yazmak",
+    "article": null,
+    "category_id": "a1-school-work",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-winkel",
+    "text_tr": "dükkân",
+    "article": "de",
+    "category_id": "a1-shopping",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-vaak",
+    "text_tr": "sık",
+    "article": null,
+    "category_id": "a1-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-laat",
+    "text_tr": "geç",
+    "article": null,
+    "category_id": "a1-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-week",
+    "text_tr": "hafta",
+    "article": "de",
+    "category_id": "a1-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-spreken",
+    "text_tr": "konuşmak",
+    "article": null,
+    "category_id": "a1-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-ding",
+    "text_tr": "şey",
+    "article": "het",
+    "category_id": "a1-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-nodig",
+    "text_tr": "gerekli",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-kop",
+    "text_tr": "fincan",
+    "article": "de",
+    "category_id": "a1-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-broer",
+    "text_tr": "erkek kardeş",
+    "article": "de",
+    "category_id": "a1-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-rijden",
+    "text_tr": "araç sürmek",
+    "article": null,
+    "category_id": "a1-city-travel",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-nemen",
+    "text_tr": "almak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-helpen",
+    "text_tr": "yardım etmek",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-weten",
+    "text_tr": "bilmek",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-oog",
+    "text_tr": "göz",
+    "article": "het",
+    "category_id": "a1-body-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-hoofdstuk",
+    "text_tr": "bölüm (kitap)",
+    "article": "het",
+    "category_id": "a1-school-work",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-leerling",
+    "text_tr": "öğrenci",
+    "article": "de",
+    "category_id": "a1-school-work",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-tuin",
+    "text_tr": "bahçe",
+    "article": "de",
+    "category_id": "a1-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-mevrouw",
+    "text_tr": "hanımefendi",
+    "article": "de",
+    "category_id": "a1-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-betalen",
+    "text_tr": "ödemek",
+    "article": null,
+    "category_id": "a1-shopping",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-buschauffeur",
+    "text_tr": "otobüs şoförü",
+    "article": "de",
+    "category_id": "a1-city-travel",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-leggen",
+    "text_tr": "yatırmak, koymak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-bank",
+    "text_tr": "koltuk",
+    "article": "de",
+    "category_id": "a1-shopping",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-zacht",
+    "text_tr": "yumuşak",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-eiland",
+    "text_tr": "ada",
+    "article": "het",
+    "category_id": "a1-nature",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-uur",
+    "text_tr": "saat (süre)",
+    "article": "het",
+    "category_id": "a1-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-vertrekken",
+    "text_tr": "yola çıkmak",
+    "article": null,
+    "category_id": "a1-city-travel",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-naam",
+    "text_tr": "isim",
+    "article": "de",
+    "category_id": "a1-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-vakantie",
+    "text_tr": "tatil",
+    "article": "de",
+    "category_id": "a1-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-maand",
+    "text_tr": "ay",
+    "article": "de",
+    "category_id": "a1-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-bellen",
+    "text_tr": "telefon etmek",
+    "article": null,
+    "category_id": "a1-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-arm",
+    "text_tr": "fakir",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-plan",
+    "text_tr": "plan",
+    "article": "het",
+    "category_id": "a1-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-tafel",
+    "text_tr": "masa",
+    "article": "de",
+    "category_id": "a1-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-fles",
+    "text_tr": "şişe",
+    "article": "de",
+    "category_id": "a1-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-minuut",
+    "text_tr": "dakika",
+    "article": "de",
+    "category_id": "a1-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-station",
+    "text_tr": "istasyon",
+    "article": "het",
+    "category_id": "a1-city-travel",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-muziek",
+    "text_tr": "müzik",
+    "article": "de",
+    "category_id": "a1-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-stok",
+    "text_tr": "sopa",
+    "article": "de",
+    "category_id": "a1-nature",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-aardig",
+    "text_tr": "nazik",
+    "article": null,
+    "category_id": "a1-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-dansfeest",
+    "text_tr": "dans partisi",
+    "article": "het",
+    "category_id": "a1-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-fiets",
+    "text_tr": "bisiklet",
+    "article": "de",
+    "category_id": "a1-city-travel",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-baas",
+    "text_tr": "patron",
+    "article": "de",
+    "category_id": "a1-school-work",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-spelen",
+    "text_tr": "oynamak",
+    "article": null,
+    "category_id": "a1-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-paar",
+    "text_tr": "çift",
+    "article": "het",
+    "category_id": "a1-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-bed",
+    "text_tr": "yatak",
+    "article": "het",
+    "category_id": "a1-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-dochter",
+    "text_tr": "kız evlat",
+    "article": "de",
+    "category_id": "a1-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-hard",
+    "text_tr": "sert",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-open",
+    "text_tr": "açık",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-badkamer",
+    "text_tr": "banyo",
+    "article": "de",
+    "category_id": "a1-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-woonkamer",
+    "text_tr": "oturma odası",
+    "article": "de",
+    "category_id": "a1-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-lief",
+    "text_tr": "sevimli",
+    "article": null,
+    "category_id": "a1-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-eenzaam",
+    "text_tr": "yalnız",
+    "article": null,
+    "category_id": "a1-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-thee",
+    "text_tr": "çay",
+    "article": "de",
+    "category_id": "a1-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-belangrijk",
+    "text_tr": "önemli",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-dorp",
+    "text_tr": "köy",
+    "article": "het",
+    "category_id": "a1-city-travel",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-ziek",
+    "text_tr": "hasta",
+    "article": null,
+    "category_id": "a1-body-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-beginnen",
+    "text_tr": "başlamak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-stem",
+    "text_tr": "ses (insan sesi)",
+    "article": "de",
+    "category_id": "a1-body-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-fietsen",
+    "text_tr": "bisiklete binmek",
+    "article": null,
+    "category_id": "a1-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-deur",
+    "text_tr": "kapı",
+    "article": "de",
+    "category_id": "a1-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-blauw",
+    "text_tr": "mavi",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-dansen",
+    "text_tr": "dans etmek",
+    "article": null,
+    "category_id": "a1-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-vliegveld",
+    "text_tr": "havalimanı",
+    "article": "het",
+    "category_id": "a1-city-travel",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-wit",
+    "text_tr": "beyaz",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-appartement",
+    "text_tr": "daire",
+    "article": "het",
+    "category_id": "a1-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-vreemd",
+    "text_tr": "tuhaf",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-café",
+    "text_tr": "kafe",
+    "article": "het",
+    "category_id": "a1-city-travel",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-wassen",
+    "text_tr": "yıkamak",
+    "article": null,
+    "category_id": "a1-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-weekend",
+    "text_tr": "hafta sonu",
+    "article": "het",
+    "category_id": "a1-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-ochtend",
+    "text_tr": "sabah",
+    "article": "de",
+    "category_id": "a1-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-gelukkig",
+    "text_tr": "mutlu",
+    "article": null,
+    "category_id": "a1-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-fruit",
+    "text_tr": "meyve",
+    "article": "het",
+    "category_id": "a1-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-engels",
+    "text_tr": "İngilizce",
+    "article": null,
+    "category_id": "a1-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-water",
+    "text_tr": "su",
+    "article": "het",
+    "category_id": "a1-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-kort",
+    "text_tr": "kısa",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-ver",
+    "text_tr": "uzak",
+    "article": null,
+    "category_id": "a1-city-travel",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-blond",
+    "text_tr": "sarışın",
+    "article": null,
+    "category_id": "a1-body-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-inwonen",
+    "text_tr": "birinin yanında kalmak",
+    "article": null,
+    "category_id": "a1-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-kus",
+    "text_tr": "öpücük",
+    "article": "de",
+    "category_id": "a1-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-sportschool",
+    "text_tr": "spor salonu",
+    "article": "de",
+    "category_id": "a1-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-brengen",
+    "text_tr": "getirmek",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-website",
+    "text_tr": "web sitesi",
+    "article": "de",
+    "category_id": "a1-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-luisteren",
+    "text_tr": "dinlemek",
+    "article": null,
+    "category_id": "a1-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-stad",
+    "text_tr": "şehir",
+    "article": "de",
+    "category_id": "a1-city-travel",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-gebruiken",
+    "text_tr": "kullanmak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-nederlands",
+    "text_tr": "Hollandaca",
+    "article": null,
+    "category_id": "a1-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-vliegtuig",
+    "text_tr": "uçak",
+    "article": "het",
+    "category_id": "a1-city-travel",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-reis",
+    "text_tr": "yolculuk",
+    "article": "de",
+    "category_id": "a1-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-verkopen",
+    "text_tr": "satmak",
+    "article": null,
+    "category_id": "a1-shopping",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-voet",
+    "text_tr": "ayak",
+    "article": "de",
+    "category_id": "a1-body-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-stappen",
+    "text_tr": "adım atmak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-kaart",
+    "text_tr": "harita",
+    "article": "de",
+    "category_id": "a1-city-travel",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-leren",
+    "text_tr": "öğrenmek",
+    "article": null,
+    "category_id": "a1-school-work",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-bruin",
+    "text_tr": "kahverengi",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-mager",
+    "text_tr": "zayıf",
+    "article": null,
+    "category_id": "a1-body-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-koek",
+    "text_tr": "kurabiye",
+    "article": "de",
+    "category_id": "a1-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-zoon",
+    "text_tr": "oğul",
+    "article": "de",
+    "category_id": "a1-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-boterham",
+    "text_tr": "ekmek dilimi",
+    "article": "de",
+    "category_id": "a1-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-verbaasd",
+    "text_tr": "şaşkın",
+    "article": null,
+    "category_id": "a1-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-passen",
+    "text_tr": "uymak (beden)",
+    "article": null,
+    "category_id": "a1-clothes",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-telefoon",
+    "text_tr": "telefon",
+    "article": "de",
+    "category_id": "a1-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-toilet",
+    "text_tr": "tuvalet",
+    "article": "het",
+    "category_id": "a1-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-schoon",
+    "text_tr": "temiz",
+    "article": null,
+    "category_id": "a1-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-lerares",
+    "text_tr": "kadın öğretmen",
+    "article": "de",
+    "category_id": "a1-school-work",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-bushalte",
+    "text_tr": "otobüs durağı",
+    "article": "de",
+    "category_id": "a1-city-travel",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-klas",
+    "text_tr": "sınıf",
+    "article": "de",
+    "category_id": "a1-school-work",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-groet",
+    "text_tr": "selam",
+    "article": "de",
+    "category_id": "a1-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-trouwen",
+    "text_tr": "evlenmek",
+    "article": null,
+    "category_id": "a1-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-studeren",
+    "text_tr": "öğrenim görmek",
+    "article": null,
+    "category_id": "a1-school-work",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-horloge",
+    "text_tr": "kol saati",
+    "article": "het",
+    "category_id": "a1-clothes",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-trekken",
+    "text_tr": "çekmek",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-televisie",
+    "text_tr": "televizyon",
+    "article": "de",
+    "category_id": "a1-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-antwoord",
+    "text_tr": "cevap",
+    "article": "het",
+    "category_id": "a1-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-jas",
+    "text_tr": "mont",
+    "article": "de",
+    "category_id": "a1-clothes",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-jong",
+    "text_tr": "genç",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-laten",
+    "text_tr": "bırakmak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-ongelukkig",
+    "text_tr": "mutsuz",
+    "article": null,
+    "category_id": "a1-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-winter",
+    "text_tr": "kış",
+    "article": "de",
+    "category_id": "a1-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-grijs",
+    "text_tr": "gri",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-meneer",
+    "text_tr": "beyefendi",
+    "article": "de",
+    "category_id": "a1-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-glimlachen",
+    "text_tr": "gülümsemek",
+    "article": null,
+    "category_id": "a1-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-organisatie",
+    "text_tr": "organizasyon",
+    "article": "de",
+    "category_id": "a1-school-work",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-internet",
+    "text_tr": "internet",
+    "article": "het",
+    "category_id": "a1-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-antwoorden",
+    "text_tr": "cevap vermek",
+    "article": null,
+    "category_id": "a1-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-hulp",
+    "text_tr": "yardım",
+    "article": "de",
+    "category_id": "a1-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-land",
+    "text_tr": "ülke",
+    "article": "het",
+    "category_id": "a1-nature",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-bijzonder",
+    "text_tr": "özel",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-moeilijk",
+    "text_tr": "zor",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-riem",
+    "text_tr": "kemer",
+    "article": "de",
+    "category_id": "a1-clothes",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-bedanken",
+    "text_tr": "teşekkür etmek",
+    "article": null,
+    "category_id": "a1-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-zee",
+    "text_tr": "deniz",
+    "article": "de",
+    "category_id": "a1-nature",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-zwemmen",
+    "text_tr": "yüzmek",
+    "article": null,
+    "category_id": "a1-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-kat",
+    "text_tr": "kedi",
+    "article": "de",
+    "category_id": "a1-nature",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-cadeau",
+    "text_tr": "hediye",
+    "article": "het",
+    "category_id": "a1-shopping",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-hamburger",
+    "text_tr": "hamburger",
+    "article": "de",
+    "category_id": "a1-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-kilometer",
+    "text_tr": "kilometre",
+    "article": "de",
+    "category_id": "a1-city-travel",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-rechts",
+    "text_tr": "sağ",
+    "article": null,
+    "category_id": "a1-city-travel",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-woning",
+    "text_tr": "konut",
+    "article": "de",
+    "category_id": "a1-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-besturen",
+    "text_tr": "yönetmek",
+    "article": null,
+    "category_id": "a1-school-work",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-wiskunde",
+    "text_tr": "matematik",
+    "article": "de",
+    "category_id": "a1-school-work",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-welkom",
+    "text_tr": "hoş geldin",
+    "article": null,
+    "category_id": "a1-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-klaar",
+    "text_tr": "hazır",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-avond",
+    "text_tr": "akşam",
+    "article": "de",
+    "category_id": "a1-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-weggaan",
+    "text_tr": "ayrılmak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-leraar",
+    "text_tr": "öğretmen",
+    "article": "de",
+    "category_id": "a1-school-work",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-eigen",
+    "text_tr": "kendi",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-appel",
+    "text_tr": "elma",
+    "article": "de",
+    "category_id": "a1-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-speciaal",
+    "text_tr": "özel",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-kantoor",
+    "text_tr": "ofis",
+    "article": "het",
+    "category_id": "a1-school-work",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-huilen",
+    "text_tr": "ağlamak",
+    "article": null,
+    "category_id": "a1-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-groente",
+    "text_tr": "sebze",
+    "article": "de",
+    "category_id": "a1-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-sturen",
+    "text_tr": "göndermek",
+    "article": null,
+    "category_id": "a1-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-leven",
+    "text_tr": "hayat",
+    "article": "het",
+    "category_id": "a1-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-moe",
+    "text_tr": "yorgun",
+    "article": null,
+    "category_id": "a1-body-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-product",
+    "text_tr": "ürün",
+    "article": "het",
+    "category_id": "a1-shopping",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-sportief",
+    "text_tr": "sportif",
+    "article": null,
+    "category_id": "a1-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-boodschap",
+    "text_tr": "mesaj",
+    "article": "de",
+    "category_id": "a1-shopping",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-collega",
+    "text_tr": "meslektaş",
+    "article": "de",
+    "category_id": "a1-school-work",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-park",
+    "text_tr": "park",
+    "article": "het",
+    "category_id": "a1-city-travel",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-hobby",
+    "text_tr": "hobi",
+    "article": "de",
+    "category_id": "a1-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-dik",
+    "text_tr": "şişman",
+    "article": null,
+    "category_id": "a1-body-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-stil",
+    "text_tr": "sessiz",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-fabriek",
+    "text_tr": "fabrika",
+    "article": "de",
+    "category_id": "a1-school-work",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-kosten",
+    "text_tr": "(fiyatı) tutmak",
+    "article": null,
+    "category_id": "a1-shopping",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-stoppen",
+    "text_tr": "durmak",
+    "article": null,
+    "category_id": "a1-city-travel",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-lokaal",
+    "text_tr": "derslik",
+    "article": "het",
+    "category_id": "a1-school-work",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-soort",
+    "text_tr": "tür",
+    "article": "de",
+    "category_id": "a1-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-huishouden",
+    "text_tr": "ev işleri",
+    "article": "het",
+    "category_id": "a1-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-vak",
+    "text_tr": "okul dersi (branş)",
+    "article": "het",
+    "category_id": "a1-school-work",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-taxi",
+    "text_tr": "taksi",
+    "article": "de",
+    "category_id": "a1-city-travel",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-gezond",
+    "text_tr": "sağlıklı",
+    "article": null,
+    "category_id": "a1-body-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-dragen",
+    "text_tr": "taşımak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-oma",
+    "text_tr": "büyükanne",
+    "article": "de",
+    "category_id": "a1-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-aardappel",
+    "text_tr": "patates",
+    "article": "de",
+    "category_id": "a1-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-adres",
+    "text_tr": "adres",
+    "article": "het",
+    "category_id": "a1-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-tram",
+    "text_tr": "tramvay",
+    "article": "de",
+    "category_id": "a1-city-travel",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-sport",
+    "text_tr": "spor",
+    "article": "de",
+    "category_id": "a1-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-file",
+    "text_tr": "trafik sıkışıklığı",
+    "article": "de",
+    "category_id": "a1-city-travel",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-zon",
+    "text_tr": "güneş",
+    "article": "de",
+    "category_id": "a1-nature",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-extra",
+    "text_tr": "ekstra",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-kwart",
+    "text_tr": "çeyrek",
+    "article": "het",
+    "category_id": "a1-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-weg",
+    "text_tr": "yol",
+    "article": "de",
+    "category_id": "a1-city-travel",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-haven",
+    "text_tr": "liman",
+    "article": "de",
+    "category_id": "a1-city-travel",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-lawaai",
+    "text_tr": "gürültü",
+    "article": "het",
+    "category_id": "a1-city-travel",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-perfect",
+    "text_tr": "mükemmel",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-euro",
+    "text_tr": "avro",
+    "article": "de",
+    "category_id": "a1-shopping",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-gooien",
+    "text_tr": "atmak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-zetten",
+    "text_tr": "koymak (dik)",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-feest",
+    "text_tr": "parti",
+    "article": "het",
+    "category_id": "a1-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-informatie",
+    "text_tr": "bilgi",
+    "article": "de",
+    "category_id": "a1-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-ziekenhuis",
+    "text_tr": "hastane",
+    "article": "het",
+    "category_id": "a1-body-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-balkon",
+    "text_tr": "balkon",
+    "article": "het",
+    "category_id": "a1-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-melk",
+    "text_tr": "süt",
+    "article": "de",
+    "category_id": "a1-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-links",
+    "text_tr": "sol",
+    "article": null,
+    "category_id": "a1-city-travel",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-voetbal",
+    "text_tr": "futbol",
+    "article": "het",
+    "category_id": "a1-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-bier",
+    "text_tr": "bira",
+    "article": "het",
+    "category_id": "a1-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-cola",
+    "text_tr": "kola",
+    "article": "de",
+    "category_id": "a1-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-afspraak",
+    "text_tr": "randevu",
+    "article": "de",
+    "category_id": "a1-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-geschiedenis",
+    "text_tr": "tarih (ders)",
+    "article": "de",
+    "category_id": "a1-school-work",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-natuurkunde",
+    "text_tr": "fizik",
+    "article": "de",
+    "category_id": "a1-school-work",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-tennis",
+    "text_tr": "tenis",
+    "article": "het",
+    "category_id": "a1-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-wachten",
+    "text_tr": "beklemek",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-verbazen",
+    "text_tr": "şaşırtmak",
+    "article": null,
+    "category_id": "a1-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-waar",
+    "text_tr": "doğru",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-echt",
+    "text_tr": "gerçek",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-restaurant",
+    "text_tr": "restoran",
+    "article": "het",
+    "category_id": "a1-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-autorijden",
+    "text_tr": "araba sürmek",
+    "article": null,
+    "category_id": "a1-city-travel",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-favoriet",
+    "text_tr": "favori",
+    "article": null,
+    "category_id": "a1-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-schoonmaken",
+    "text_tr": "temizlemek",
+    "article": null,
+    "category_id": "a1-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-vallen",
+    "text_tr": "düşmek",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-vlees",
+    "text_tr": "et",
+    "article": "het",
+    "category_id": "a1-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-vraag",
+    "text_tr": "soru",
+    "article": "de",
+    "category_id": "a1-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-taal",
+    "text_tr": "dil (lisan)",
+    "article": "de",
+    "category_id": "a1-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-vies",
+    "text_tr": "kirli",
+    "article": null,
+    "category_id": "a1-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-blijven",
+    "text_tr": "kalmak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-lijken",
+    "text_tr": "benzemek",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-sinaasappel",
+    "text_tr": "portakal",
+    "article": "de",
+    "category_id": "a1-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-ruimte",
+    "text_tr": "alan",
+    "article": "de",
+    "category_id": "a1-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-overstappen",
+    "text_tr": "aktarma yapmak",
+    "article": null,
+    "category_id": "a1-city-travel",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-prijs",
+    "text_tr": "fiyat",
+    "article": "de",
+    "category_id": "a1-shopping",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-duur",
+    "text_tr": "pahalı",
+    "article": null,
+    "category_id": "a1-shopping",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-dicht",
+    "text_tr": "kapalı",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-rijtjeshuis",
+    "text_tr": "sıra ev",
+    "article": "het",
+    "category_id": "a1-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-koud",
+    "text_tr": "soğuk",
+    "article": null,
+    "category_id": "a1-nature",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-ruim",
+    "text_tr": "geniş",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-centrum",
+    "text_tr": "merkez",
+    "article": "het",
+    "category_id": "a1-city-travel",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-duren",
+    "text_tr": "(zaman) sürmek",
+    "article": null,
+    "category_id": "a1-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-relatie",
+    "text_tr": "ilişki",
+    "article": "de",
+    "category_id": "a1-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-slank",
+    "text_tr": "ince (vücut)",
+    "article": null,
+    "category_id": "a1-body-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-leeg",
+    "text_tr": "boş",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-ei",
+    "text_tr": "yumurta",
+    "article": "het",
+    "category_id": "a1-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-raam",
+    "text_tr": "pencere",
+    "article": "het",
+    "category_id": "a1-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-straat",
+    "text_tr": "sokak",
+    "article": "de",
+    "category_id": "a1-city-travel",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-taart",
+    "text_tr": "pasta",
+    "article": "de",
+    "category_id": "a1-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-schijnen",
+    "text_tr": "parlamak",
+    "article": null,
+    "category_id": "a1-nature",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-leven",
+    "text_tr": "yaşamak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-regenen",
+    "text_tr": "yağmur yağmak",
+    "article": null,
+    "category_id": "a1-nature",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-bloes",
+    "text_tr": "bluz",
+    "article": "de",
+    "category_id": "a1-clothes",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-nerveus",
+    "text_tr": "gergin",
+    "article": null,
+    "category_id": "a1-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-papier",
+    "text_tr": "kâğıt",
+    "article": "het",
+    "category_id": "a1-school-work",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-benzine",
+    "text_tr": "benzin",
+    "article": "de",
+    "category_id": "a1-city-travel",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-chauffeur",
+    "text_tr": "şoför",
+    "article": "de",
+    "category_id": "a1-city-travel",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-gewoon",
+    "text_tr": "sıradan",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-plezier",
+    "text_tr": "keyif",
+    "article": "het",
+    "category_id": "a1-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-boos",
+    "text_tr": "kızgın",
+    "article": null,
+    "category_id": "a1-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-geel",
+    "text_tr": "sarı",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-chocola",
+    "text_tr": "çikolata",
+    "article": "de",
+    "category_id": "a1-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-pizza",
+    "text_tr": "pizza",
+    "article": "de",
+    "category_id": "a1-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-uniform",
+    "text_tr": "üniforma",
+    "article": "het",
+    "category_id": "a1-clothes",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-dollar",
+    "text_tr": "dolar",
+    "article": "de",
+    "category_id": "a1-shopping",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-radio",
+    "text_tr": "radyo",
+    "article": "de",
+    "category_id": "a1-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-afscheid",
+    "text_tr": "veda",
+    "article": "het",
+    "category_id": "a1-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-zwembad",
+    "text_tr": "yüzme havuzu",
+    "article": "het",
+    "category_id": "a1-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-kleur",
+    "text_tr": "renk",
+    "article": "de",
+    "category_id": "a1-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-vloer",
+    "text_tr": "zemin",
+    "article": "de",
+    "category_id": "a1-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-interessant",
+    "text_tr": "ilginç",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-calorie",
+    "text_tr": "kalori",
+    "article": "de",
+    "category_id": "a1-body-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-verbranden",
+    "text_tr": "yakmak",
+    "article": null,
+    "category_id": "a1-body-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-ontmoeten",
+    "text_tr": "tanışmak",
+    "article": null,
+    "category_id": "a1-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-project",
+    "text_tr": "proje",
+    "article": "het",
+    "category_id": "a1-school-work",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-frisdrank",
+    "text_tr": "meşrubat",
+    "article": "de",
+    "category_id": "a1-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-metro",
+    "text_tr": "metro",
+    "article": "de",
+    "category_id": "a1-city-travel",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-noorden",
+    "text_tr": "kuzey",
+    "article": "het",
+    "category_id": "a1-nature",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-webwinkel",
+    "text_tr": "internet mağazası",
+    "article": "de",
+    "category_id": "a1-shopping",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-idee",
+    "text_tr": "fikir",
+    "article": "het",
+    "category_id": "a1-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-kerk",
+    "text_tr": "kilise",
+    "article": "de",
+    "category_id": "a1-city-travel",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-computer",
+    "text_tr": "bilgisayar",
+    "article": "de",
+    "category_id": "a1-school-work",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-klant",
+    "text_tr": "müşteri",
+    "article": "de",
+    "category_id": "a1-shopping",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-flat",
+    "text_tr": "apartman",
+    "article": "de",
+    "category_id": "a1-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-verdieping",
+    "text_tr": "kat (bina)",
+    "article": "de",
+    "category_id": "a1-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-honger",
+    "text_tr": "açlık",
+    "article": "de",
+    "category_id": "a1-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-poetsen",
+    "text_tr": "fırçalamak",
+    "article": null,
+    "category_id": "a1-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-bord",
+    "text_tr": "tabak",
+    "article": "het",
+    "category_id": "a1-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-garage",
+    "text_tr": "garaj",
+    "article": "de",
+    "category_id": "a1-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-makelaar",
+    "text_tr": "emlakçı",
+    "article": "de",
+    "category_id": "a1-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-verhuizen",
+    "text_tr": "taşınmak",
+    "article": null,
+    "category_id": "a1-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-stroopwafel",
+    "text_tr": "şuruplu waffle",
+    "article": "de",
+    "category_id": "a1-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-plannen",
+    "text_tr": "planlamak",
+    "article": null,
+    "category_id": "a1-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-activiteit",
+    "text_tr": "etkinlik",
+    "article": "de",
+    "category_id": "a1-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-afvallen",
+    "text_tr": "kilo vermek",
+    "article": null,
+    "category_id": "a1-body-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-strijken",
+    "text_tr": "ütülemek",
+    "article": null,
+    "category_id": "a1-clothes",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-foto",
+    "text_tr": "fotoğraf",
+    "article": "de",
+    "category_id": "a1-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-docent",
+    "text_tr": "eğitmen",
+    "article": "de",
+    "category_id": "a1-school-work",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-route",
+    "text_tr": "güzergâh",
+    "article": "de",
+    "category_id": "a1-city-travel",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-dokter",
+    "text_tr": "doktor",
+    "article": "de",
+    "category_id": "a1-body-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-kalender",
+    "text_tr": "takvim",
+    "article": "de",
+    "category_id": "a1-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-supermarkt",
+    "text_tr": "süpermarket",
+    "article": "de",
+    "category_id": "a1-shopping",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-kast",
+    "text_tr": "dolap",
+    "article": "de",
+    "category_id": "a1-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-druk",
+    "text_tr": "yoğun",
+    "article": null,
+    "category_id": "a1-city-travel",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-patat",
+    "text_tr": "patates kızartması",
+    "article": "de",
+    "category_id": "a1-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-feliciteren",
+    "text_tr": "tebrik etmek",
+    "article": null,
+    "category_id": "a1-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-jarig",
+    "text_tr": "doğum günü olan",
+    "article": null,
+    "category_id": "a1-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-verjaardag",
+    "text_tr": "doğum günü",
+    "article": "de",
+    "category_id": "a1-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-berging",
+    "text_tr": "depo",
+    "article": "de",
+    "category_id": "a1-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-controleren",
+    "text_tr": "kontrol etmek",
+    "article": null,
+    "category_id": "a1-school-work",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-kam",
+    "text_tr": "tarak",
+    "article": "de",
+    "category_id": "a1-clothes",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-kammen",
+    "text_tr": "taramak",
+    "article": null,
+    "category_id": "a1-clothes",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-luis",
+    "text_tr": "bit",
+    "article": "de",
+    "category_id": "a1-body-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-aankleden",
+    "text_tr": "giyinmek",
+    "article": null,
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-achtertuin",
+    "text_tr": "arka bahçe",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-afwas",
+    "text_tr": "bulaşık",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-afwassen",
+    "text_tr": "bulaşık yıkamak",
+    "article": null,
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-afzuigkap",
+    "text_tr": "davlumbaz",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-apparaat",
+    "text_tr": "cihaz",
+    "article": "het",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-bad",
+    "text_tr": "küvet",
+    "article": "het",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-bewoner",
+    "text_tr": "ev sakini",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-dak",
+    "text_tr": "çatı",
+    "article": "het",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-deken",
+    "text_tr": "battaniye",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-douchen",
+    "text_tr": "duş almak",
+    "article": null,
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-eetkamer",
+    "text_tr": "yemek odası",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-eettafel",
+    "text_tr": "yemek masası",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-fornuis",
+    "text_tr": "ocak",
+    "article": "het",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-gordijn",
+    "text_tr": "perde",
+    "article": "het",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-handdoek",
+    "text_tr": "havlu",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-huur",
+    "text_tr": "kira",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-huren",
+    "text_tr": "kiralamak",
+    "article": null,
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-kelder",
+    "text_tr": "bodrum",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-keukenkast",
+    "text_tr": "mutfak dolabı",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-kussen",
+    "text_tr": "yastık",
+    "article": "het",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-laken",
+    "text_tr": "çarşaf",
+    "article": "het",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-lamp",
+    "text_tr": "lamba",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-lift",
+    "text_tr": "asansör",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-magnetron",
+    "text_tr": "mikrodalga fırın",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-meubel",
+    "text_tr": "mobilya",
+    "article": "het",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-opruimen",
+    "text_tr": "toparlamak",
+    "article": null,
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-oven",
+    "text_tr": "fırın",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-plafond",
+    "text_tr": "tavan",
+    "article": "het",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-plank",
+    "text_tr": "raf",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-repareren",
+    "text_tr": "tamir etmek",
+    "article": null,
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-rommel",
+    "text_tr": "dağınıklık",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-salontafel",
+    "text_tr": "sehpa",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-sleutel",
+    "text_tr": "anahtar",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-stoel",
+    "text_tr": "sandalye",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-stof",
+    "text_tr": "toz",
+    "article": "het",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-trap",
+    "text_tr": "merdiven",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-verhuizing",
+    "text_tr": "taşınma",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-verwarming",
+    "text_tr": "kalorifer",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-verwarmen",
+    "text_tr": "ısıtmak",
+    "article": null,
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-voordeur",
+    "text_tr": "ön kapı",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-was",
+    "text_tr": "çamaşır",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-wasdroger",
+    "text_tr": "kurutma makinesi",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-waterkoker",
+    "text_tr": "su ısıtıcısı",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-wc",
+    "text_tr": "WC",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-woonplaats",
+    "text_tr": "ikamet yeri",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-zolder",
+    "text_tr": "çatı katı",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-spiegel",
+    "text_tr": "ayna",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-afval",
+    "text_tr": "çöp",
+    "article": "het",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-muur",
+    "text_tr": "duvar",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-pan",
+    "text_tr": "tencere",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-vork",
+    "text_tr": "çatal",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-lepel",
+    "text_tr": "kaşık",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-mes",
+    "text_tr": "bıçak",
+    "article": "het",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-glas",
+    "text_tr": "bardak",
+    "article": "het",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-kom",
+    "text_tr": "kâse",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-theelepel",
+    "text_tr": "çay kaşığı",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-eetlepel",
+    "text_tr": "yemek kaşığı",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-doos",
+    "text_tr": "kutu",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-aardbei",
+    "text_tr": "çilek",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-appelmoes",
+    "text_tr": "elma püresi",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-appeltaart",
+    "text_tr": "elmalı turta",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-avondeten",
+    "text_tr": "akşam yemeği",
+    "article": "het",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-bakken",
+    "text_tr": "fırında pişirmek",
+    "article": null,
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-bakker",
+    "text_tr": "fırıncı",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-boerenkool",
+    "text_tr": "kara lahana",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-boon",
+    "text_tr": "fasulye",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-boter",
+    "text_tr": "tereyağı",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-brood",
+    "text_tr": "ekmek",
+    "article": "het",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-croissant",
+    "text_tr": "kruvasan",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-drank",
+    "text_tr": "içecek",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-druif",
+    "text_tr": "üzüm",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-erwtensoep",
+    "text_tr": "bezelye çorbası",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-gehakt",
+    "text_tr": "kıyma",
+    "article": "het",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-gerecht",
+    "text_tr": "yemek çeşidi",
+    "article": "het",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-hagelslag",
+    "text_tr": "çikolata serpintisi",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-ham",
+    "text_tr": "jambon",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-haring",
+    "text_tr": "ringa balığı",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-honing",
+    "text_tr": "bal",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-ingrediënt",
+    "text_tr": "malzeme (yemek)",
+    "article": "het",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-jam",
+    "text_tr": "reçel",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-kaas",
+    "text_tr": "peynir",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-kip",
+    "text_tr": "tavuk",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-klaarmaken",
+    "text_tr": "hazırlamak",
+    "article": null,
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-knoflook",
+    "text_tr": "sarımsak",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-koken",
+    "text_tr": "yemek pişirmek",
+    "article": null,
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-kok",
+    "text_tr": "aşçı",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-kool",
+    "text_tr": "lahana",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-lunch",
+    "text_tr": "öğle yemeği",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-lunchen",
+    "text_tr": "öğle yemeği yemek",
+    "article": null,
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-maaltijd",
+    "text_tr": "öğün",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-olie",
+    "text_tr": "yağ",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-ontbijt",
+    "text_tr": "kahvaltı",
+    "article": "het",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-ontbijten",
+    "text_tr": "kahvaltı etmek",
+    "article": null,
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-pasta",
+    "text_tr": "makarna",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-peper",
+    "text_tr": "karabiber",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-pudding",
+    "text_tr": "puding",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-rijst",
+    "text_tr": "pirinç",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-rookworst",
+    "text_tr": "füme sosis",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-salade",
+    "text_tr": "salata",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-sla",
+    "text_tr": "marul",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-slagroom",
+    "text_tr": "krem şanti",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-smaak",
+    "text_tr": "tat",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-smaken",
+    "text_tr": "tadı … olmak",
+    "article": null,
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-smakelijk",
+    "text_tr": "iştah açıcı",
+    "article": null,
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-soep",
+    "text_tr": "çorba",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-stamppot",
+    "text_tr": "sebzeli patates ezmesi",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-suiker",
+    "text_tr": "şeker",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-ui",
+    "text_tr": "soğan",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-vis",
+    "text_tr": "balık",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-voedsel",
+    "text_tr": "gıda",
+    "article": "het",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-wijn",
+    "text_tr": "şarap",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-worst",
+    "text_tr": "sosis",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-wortel",
+    "text_tr": "havuç",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-zout",
+    "text_tr": "tuz",
+    "article": "het",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-zuur",
+    "text_tr": "ekşi",
+    "article": null,
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-dorst",
+    "text_tr": "susuzluk",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-ober",
+    "text_tr": "garson",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-fooi",
+    "text_tr": "bahşiş",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-serveren",
+    "text_tr": "servis yapmak",
+    "article": null,
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-bestellen",
+    "text_tr": "sipariş vermek",
+    "article": null,
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-bestelling",
+    "text_tr": "sipariş",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-vers",
+    "text_tr": "taze",
+    "article": null,
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-heet",
+    "text_tr": "çok sıcak",
+    "article": null,
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-snijden",
+    "text_tr": "kesmek",
+    "article": null,
+    "category_id": "a2-food",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-apotheek",
+    "text_tr": "eczane",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-apotheker",
+    "text_tr": "eczacı",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-arts",
+    "text_tr": "hekim",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-bijsluiter",
+    "text_tr": "prospektüs (ilaç)",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-bijwerking",
+    "text_tr": "yan etki",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-bloed",
+    "text_tr": "kan",
+    "article": "het",
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-bloeden",
+    "text_tr": "kanamak",
+    "article": null,
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-buik",
+    "text_tr": "karın",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-consult",
+    "text_tr": "muayene",
+    "article": "het",
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-dosering",
+    "text_tr": "dozaj",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-duizeligheid",
+    "text_tr": "baş dönmesi",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-genezen",
+    "text_tr": "iyileşmek",
+    "article": null,
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-gezondheid",
+    "text_tr": "sağlık",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-griep",
+    "text_tr": "grip",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-hoesten",
+    "text_tr": "öksürmek",
+    "article": null,
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-hoofdpijn",
+    "text_tr": "baş ağrısı",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-huid",
+    "text_tr": "cilt",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-keel",
+    "text_tr": "boğaz",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-koorts",
+    "text_tr": "ateş (hastalık)",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-lichaam",
+    "text_tr": "vücut",
+    "article": "het",
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-maag",
+    "text_tr": "mide",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-maagpijn",
+    "text_tr": "mide ağrısı",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-medicijn",
+    "text_tr": "ilaç",
+    "article": "het",
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-medisch",
+    "text_tr": "tıbbi",
+    "article": null,
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-neus",
+    "text_tr": "burun",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-nek",
+    "text_tr": "ense",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-oor",
+    "text_tr": "kulak",
+    "article": "het",
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-oorpijn",
+    "text_tr": "kulak ağrısı",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-paracetamol",
+    "text_tr": "parasetamol",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-patiënt",
+    "text_tr": "hasta (kişi)",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-pijn",
+    "text_tr": "ağrı",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-recept",
+    "text_tr": "reçete",
+    "article": "het",
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-rug",
+    "text_tr": "sırt",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-schouder",
+    "text_tr": "omuz",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-slikken",
+    "text_tr": "yutmak",
+    "article": null,
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-specialist",
+    "text_tr": "uzman",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-spreekuur",
+    "text_tr": "muayene saati",
+    "article": "het",
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-tand",
+    "text_tr": "diş",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-teen",
+    "text_tr": "ayak parmağı",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-vinger",
+    "text_tr": "parmak",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-gewond",
+    "text_tr": "yaralı",
+    "article": null,
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-wond",
+    "text_tr": "yara",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-ziekte",
+    "text_tr": "hastalık",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-zalf",
+    "text_tr": "merhem",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-zwanger",
+    "text_tr": "hamile",
+    "article": null,
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-neusspray",
+    "text_tr": "burun spreyi",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-arm",
+    "text_tr": "kol",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-been",
+    "text_tr": "bacak",
+    "article": "het",
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-hand",
+    "text_tr": "el",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-hoofd",
+    "text_tr": "kafa",
+    "article": "het",
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-mond",
+    "text_tr": "ağız",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-gezicht",
+    "text_tr": "yüz",
+    "article": "het",
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-tong",
+    "text_tr": "dil (organ)",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-ongezond",
+    "text_tr": "sağlıksız",
+    "article": null,
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-fit",
+    "text_tr": "zinde",
+    "article": null,
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-overgeven",
+    "text_tr": "kusmak",
+    "article": null,
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-slaperig",
+    "text_tr": "uykulu",
+    "article": null,
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-zuster",
+    "text_tr": "hemşire",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-advertentie",
+    "text_tr": "ilan",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-afdeling",
+    "text_tr": "departman",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-agenda",
+    "text_tr": "ajanda",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-assistent",
+    "text_tr": "asistan",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-basisschool",
+    "text_tr": "ilkokul",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-bedrijf",
+    "text_tr": "şirket",
+    "article": "het",
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-beroep",
+    "text_tr": "meslek",
+    "article": "het",
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-bureau",
+    "text_tr": "çalışma masası",
+    "article": "het",
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-cijfer",
+    "text_tr": "not (puan)",
+    "article": "het",
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-cursus",
+    "text_tr": "kurs",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-directeur",
+    "text_tr": "müdür",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-ervaring",
+    "text_tr": "deneyim",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-fulltime",
+    "text_tr": "tam zamanlı",
+    "article": null,
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-parttime",
+    "text_tr": "yarı zamanlı",
+    "article": null,
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-huiswerk",
+    "text_tr": "ev ödevi",
+    "article": "het",
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-kennis",
+    "text_tr": "bilgi birikimi",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-loon",
+    "text_tr": "ücret",
+    "article": "het",
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-manager",
+    "text_tr": "yönetici",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-medewerker",
+    "text_tr": "çalışan",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-niveau",
+    "text_tr": "seviye",
+    "article": "het",
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-oefenen",
+    "text_tr": "alıştırma yapmak",
+    "article": null,
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-ontslaan",
+    "text_tr": "işten çıkarmak",
+    "article": null,
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-opdracht",
+    "text_tr": "görev",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-opleiding",
+    "text_tr": "eğitim",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-pauze",
+    "text_tr": "mola",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-personeel",
+    "text_tr": "personel",
+    "article": "het",
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-potlood",
+    "text_tr": "kurşun kalem",
+    "article": "het",
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-pen",
+    "text_tr": "tükenmez kalem",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-salaris",
+    "text_tr": "maaş",
+    "article": "het",
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-schrift",
+    "text_tr": "defter",
+    "article": "het",
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-solliciteren",
+    "text_tr": "iş başvurusu yapmak",
+    "article": null,
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-stage",
+    "text_tr": "staj",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-student",
+    "text_tr": "üniversite öğrencisi",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-studie",
+    "text_tr": "öğrenim",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-toets",
+    "text_tr": "sınav",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-universiteit",
+    "text_tr": "üniversite",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-vergadering",
+    "text_tr": "toplantı",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-vertalen",
+    "text_tr": "çevirmek",
+    "article": null,
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-vertaling",
+    "text_tr": "çeviri",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-werkdag",
+    "text_tr": "iş günü",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-werkgever",
+    "text_tr": "işveren",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-werkloos",
+    "text_tr": "işsiz",
+    "article": null,
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-werknemer",
+    "text_tr": "işçi",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-werkplek",
+    "text_tr": "çalışma yeri",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-werktijd",
+    "text_tr": "çalışma saati",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-woordenboek",
+    "text_tr": "sözlük",
+    "article": "het",
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-uitleggen",
+    "text_tr": "açıklamak",
+    "article": null,
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-uitleg",
+    "text_tr": "açıklama",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-tekst",
+    "text_tr": "metin",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-zin",
+    "text_tr": "cümle",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-betekenis",
+    "text_tr": "anlam",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-betekenen",
+    "text_tr": "anlamına gelmek",
+    "article": null,
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-inschrijven",
+    "text_tr": "kaydolmak",
+    "article": null,
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-inschrijving",
+    "text_tr": "kayıt",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-succes",
+    "text_tr": "başarı",
+    "article": "het",
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-resultaat",
+    "text_tr": "sonuç",
+    "article": "het",
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-moedertaal",
+    "text_tr": "ana dil",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-slagen",
+    "text_tr": "(sınavı) geçmek",
+    "article": null,
+    "category_id": "a2-work-study",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-belasting",
+    "text_tr": "vergi",
+    "article": "de",
+    "category_id": "a2-services",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-douane",
+    "text_tr": "gümrük",
+    "article": "de",
+    "category_id": "a2-services",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-formulier",
+    "text_tr": "form",
+    "article": "het",
+    "category_id": "a2-services",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-gemeente",
+    "text_tr": "belediye",
+    "article": "de",
+    "category_id": "a2-services",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-gemeentehuis",
+    "text_tr": "belediye binası",
+    "article": "het",
+    "category_id": "a2-services",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-handtekening",
+    "text_tr": "imza",
+    "article": "de",
+    "category_id": "a2-services",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-invullen",
+    "text_tr": "form doldurmak",
+    "article": null,
+    "category_id": "a2-services",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-loket",
+    "text_tr": "gişe",
+    "article": "het",
+    "category_id": "a2-services",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-paspoort",
+    "text_tr": "pasaport",
+    "article": "het",
+    "category_id": "a2-services",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-politie",
+    "text_tr": "polis",
+    "article": "de",
+    "category_id": "a2-services",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-politieagent",
+    "text_tr": "polis memuru",
+    "article": "de",
+    "category_id": "a2-services",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-post",
+    "text_tr": "posta",
+    "article": "de",
+    "category_id": "a2-services",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-postbode",
+    "text_tr": "postacı",
+    "article": "de",
+    "category_id": "a2-services",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-pakket",
+    "text_tr": "paket",
+    "article": "het",
+    "category_id": "a2-services",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-envelop",
+    "text_tr": "zarf",
+    "article": "de",
+    "category_id": "a2-services",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-rekening",
+    "text_tr": "fatura",
+    "article": "de",
+    "category_id": "a2-services",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-rijbewijs",
+    "text_tr": "ehliyet",
+    "article": "het",
+    "category_id": "a2-services",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-wet",
+    "text_tr": "yasa",
+    "article": "de",
+    "category_id": "a2-services",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-boete",
+    "text_tr": "para cezası",
+    "article": "de",
+    "category_id": "a2-services",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-bibliotheek",
+    "text_tr": "kütüphane",
+    "article": "de",
+    "category_id": "a2-services",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-aanmelden",
+    "text_tr": "kayıt yaptırmak",
+    "article": null,
+    "category_id": "a2-services",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-reserveren",
+    "text_tr": "rezervasyon yapmak",
+    "article": null,
+    "category_id": "a2-services",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-openingstijd",
+    "text_tr": "açılış saati",
+    "article": "de",
+    "category_id": "a2-services",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-ingang",
+    "text_tr": "giriş",
+    "article": "de",
+    "category_id": "a2-services",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-uitgang",
+    "text_tr": "çıkış",
+    "article": "de",
+    "category_id": "a2-services",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-datum",
+    "text_tr": "tarih (gün)",
+    "article": "de",
+    "category_id": "a2-services",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-nummer",
+    "text_tr": "numara",
+    "article": "het",
+    "category_id": "a2-services",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-bericht",
+    "text_tr": "mesaj",
+    "article": "het",
+    "category_id": "a2-services",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-mail",
+    "text_tr": "e-posta",
+    "article": "de",
+    "category_id": "a2-services",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-mailen",
+    "text_tr": "e-posta göndermek",
+    "article": null,
+    "category_id": "a2-services",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-online",
+    "text_tr": "çevrimiçi",
+    "article": null,
+    "category_id": "a2-services",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-regel",
+    "text_tr": "kural",
+    "article": "de",
+    "category_id": "a2-services",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-automobilist",
+    "text_tr": "sürücü",
+    "article": "de",
+    "category_id": "a2-city-transport",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-bagage",
+    "text_tr": "bagaj",
+    "article": "de",
+    "category_id": "a2-city-transport",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-brug",
+    "text_tr": "köprü",
+    "article": "de",
+    "category_id": "a2-city-transport",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-fietser",
+    "text_tr": "bisikletli",
+    "article": "de",
+    "category_id": "a2-city-transport",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-gebouw",
+    "text_tr": "bina",
+    "article": "het",
+    "category_id": "a2-city-transport",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-gracht",
+    "text_tr": "kanal",
+    "article": "de",
+    "category_id": "a2-city-transport",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-halte",
+    "text_tr": "durak",
+    "article": "de",
+    "category_id": "a2-city-transport",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-hoofdstad",
+    "text_tr": "başkent",
+    "article": "de",
+    "category_id": "a2-city-transport",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-hotel",
+    "text_tr": "otel",
+    "article": "het",
+    "category_id": "a2-city-transport",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-hotelkamer",
+    "text_tr": "otel odası",
+    "article": "de",
+    "category_id": "a2-city-transport",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-markt",
+    "text_tr": "pazar",
+    "article": "de",
+    "category_id": "a2-city-transport",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-parkeren",
+    "text_tr": "park etmek",
+    "article": null,
+    "category_id": "a2-city-transport",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-passagier",
+    "text_tr": "yolcu",
+    "article": "de",
+    "category_id": "a2-city-transport",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-plein",
+    "text_tr": "meydan",
+    "article": "het",
+    "category_id": "a2-city-transport",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-provincie",
+    "text_tr": "eyalet",
+    "article": "de",
+    "category_id": "a2-city-transport",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-reisbureau",
+    "text_tr": "seyahat acentesi",
+    "article": "het",
+    "category_id": "a2-city-transport",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-richting",
+    "text_tr": "yön",
+    "article": "de",
+    "category_id": "a2-city-transport",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-spoor",
+    "text_tr": "peron",
+    "article": "het",
+    "category_id": "a2-city-transport",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-stoep",
+    "text_tr": "kaldırım",
+    "article": "de",
+    "category_id": "a2-city-transport",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-uitstappen",
+    "text_tr": "(araçtan) inmek",
+    "article": null,
+    "category_id": "a2-city-transport",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-vertrek",
+    "text_tr": "kalkış",
+    "article": "het",
+    "category_id": "a2-city-transport",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-aankomst",
+    "text_tr": "varış",
+    "article": "de",
+    "category_id": "a2-city-transport",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-aankomen",
+    "text_tr": "varmak",
+    "article": null,
+    "category_id": "a2-city-transport",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-vervoer",
+    "text_tr": "ulaşım",
+    "article": "het",
+    "category_id": "a2-city-transport",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-verkeer",
+    "text_tr": "trafik",
+    "article": "het",
+    "category_id": "a2-city-transport",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-wijk",
+    "text_tr": "semt",
+    "article": "de",
+    "category_id": "a2-city-transport",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-buurt",
+    "text_tr": "mahalle",
+    "article": "de",
+    "category_id": "a2-city-transport",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-camping",
+    "text_tr": "kamp alanı",
+    "article": "de",
+    "category_id": "a2-city-transport",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-terras",
+    "text_tr": "teras",
+    "article": "het",
+    "category_id": "a2-city-transport",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-toerist",
+    "text_tr": "turist",
+    "article": "de",
+    "category_id": "a2-city-transport",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-koffer",
+    "text_tr": "bavul",
+    "article": "de",
+    "category_id": "a2-city-transport",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-buitenland",
+    "text_tr": "yurt dışı",
+    "article": "het",
+    "category_id": "a2-city-transport",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-buitenlands",
+    "text_tr": "yabancı (ülke)",
+    "article": null,
+    "category_id": "a2-city-transport",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-grens",
+    "text_tr": "sınır",
+    "article": "de",
+    "category_id": "a2-city-transport",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-ongeluk",
+    "text_tr": "kaza",
+    "article": "het",
+    "category_id": "a2-city-transport",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-pech",
+    "text_tr": "aksilik",
+    "article": "de",
+    "category_id": "a2-city-transport",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-boekwinkel",
+    "text_tr": "kitapçı",
+    "article": "de",
+    "category_id": "a2-shopping",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-cent",
+    "text_tr": "sent",
+    "article": "de",
+    "category_id": "a2-shopping",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-gratis",
+    "text_tr": "ücretsiz",
+    "article": null,
+    "category_id": "a2-shopping",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-goedkoop",
+    "text_tr": "ucuz",
+    "article": null,
+    "category_id": "a2-shopping",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-kassa",
+    "text_tr": "kasa",
+    "article": "de",
+    "category_id": "a2-shopping",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-maat",
+    "text_tr": "beden",
+    "article": "de",
+    "category_id": "a2-shopping",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-portemonnee",
+    "text_tr": "cüzdan",
+    "article": "de",
+    "category_id": "a2-shopping",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-besparen",
+    "text_tr": "tasarruf etmek",
+    "article": null,
+    "category_id": "a2-shopping",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-sparen",
+    "text_tr": "biriktirmek",
+    "article": null,
+    "category_id": "a2-shopping",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-verkoop",
+    "text_tr": "satış",
+    "article": "de",
+    "category_id": "a2-shopping",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-verkoper",
+    "text_tr": "satıcı",
+    "article": "de",
+    "category_id": "a2-shopping",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-winkelen",
+    "text_tr": "alışverişe çıkmak",
+    "article": null,
+    "category_id": "a2-shopping",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-lenen",
+    "text_tr": "ödünç almak",
+    "article": null,
+    "category_id": "a2-shopping",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-terugbetalen",
+    "text_tr": "geri ödemek",
+    "article": null,
+    "category_id": "a2-shopping",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-uitgeven",
+    "text_tr": "harcamak",
+    "article": null,
+    "category_id": "a2-shopping",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-waarde",
+    "text_tr": "değer",
+    "article": "de",
+    "category_id": "a2-shopping",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-zak",
+    "text_tr": "poşet",
+    "article": "de",
+    "category_id": "a2-shopping",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-tas",
+    "text_tr": "çanta",
+    "article": "de",
+    "category_id": "a2-shopping",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-badpak",
+    "text_tr": "mayo",
+    "article": "het",
+    "category_id": "a2-clothes",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-broek",
+    "text_tr": "pantolon",
+    "article": "de",
+    "category_id": "a2-clothes",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-handschoen",
+    "text_tr": "eldiven",
+    "article": "de",
+    "category_id": "a2-clothes",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-jurk",
+    "text_tr": "elbise",
+    "article": "de",
+    "category_id": "a2-clothes",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-kleding",
+    "text_tr": "giysi",
+    "article": "de",
+    "category_id": "a2-clothes",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-kous",
+    "text_tr": "çorap",
+    "article": "de",
+    "category_id": "a2-clothes",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-muts",
+    "text_tr": "bere",
+    "article": "de",
+    "category_id": "a2-clothes",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-ondergoed",
+    "text_tr": "iç çamaşırı",
+    "article": "het",
+    "category_id": "a2-clothes",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-overhemd",
+    "text_tr": "gömlek",
+    "article": "het",
+    "category_id": "a2-clothes",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-pantoffel",
+    "text_tr": "terlik",
+    "article": "de",
+    "category_id": "a2-clothes",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-paraplu",
+    "text_tr": "şemsiye",
+    "article": "de",
+    "category_id": "a2-clothes",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-rok",
+    "text_tr": "etek",
+    "article": "de",
+    "category_id": "a2-clothes",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-sjaal",
+    "text_tr": "atkı",
+    "article": "de",
+    "category_id": "a2-clothes",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-vest",
+    "text_tr": "hırka",
+    "article": "het",
+    "category_id": "a2-clothes",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-bril",
+    "text_tr": "gözlük",
+    "article": "de",
+    "category_id": "a2-clothes",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-ring",
+    "text_tr": "yüzük",
+    "article": "de",
+    "category_id": "a2-clothes",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-gymschoen",
+    "text_tr": "spor ayakkabısı",
+    "article": "de",
+    "category_id": "a2-clothes",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-baby",
+    "text_tr": "bebek",
+    "article": "de",
+    "category_id": "a2-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-bruid",
+    "text_tr": "gelin",
+    "article": "de",
+    "category_id": "a2-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-bruiloft",
+    "text_tr": "düğün",
+    "article": "de",
+    "category_id": "a2-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-buurman",
+    "text_tr": "komşu (erkek)",
+    "article": "de",
+    "category_id": "a2-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-buurvrouw",
+    "text_tr": "komşu (kadın)",
+    "article": "de",
+    "category_id": "a2-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-familielid",
+    "text_tr": "akraba",
+    "article": "het",
+    "category_id": "a2-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-gast",
+    "text_tr": "misafir",
+    "article": "de",
+    "category_id": "a2-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-gezin",
+    "text_tr": "çekirdek aile",
+    "article": "het",
+    "category_id": "a2-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-geboorte",
+    "text_tr": "doğum",
+    "article": "de",
+    "category_id": "a2-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-opa",
+    "text_tr": "dede",
+    "article": "de",
+    "category_id": "a2-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-huwelijk",
+    "text_tr": "evlilik",
+    "article": "het",
+    "category_id": "a2-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-jongen",
+    "text_tr": "erkek çocuk",
+    "article": "de",
+    "category_id": "a2-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-kinderopvang",
+    "text_tr": "kreş",
+    "article": "de",
+    "category_id": "a2-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-leeftijd",
+    "text_tr": "yaş",
+    "article": "de",
+    "category_id": "a2-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-neef",
+    "text_tr": "kuzen, yeğen (erkek)",
+    "article": "de",
+    "category_id": "a2-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-nicht",
+    "text_tr": "kuzen, yeğen (kız)",
+    "article": "de",
+    "category_id": "a2-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-oom",
+    "text_tr": "amca, dayı",
+    "article": "de",
+    "category_id": "a2-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-tante",
+    "text_tr": "teyze, hala",
+    "article": "de",
+    "category_id": "a2-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-oppas",
+    "text_tr": "bakıcı",
+    "article": "de",
+    "category_id": "a2-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-opvoeden",
+    "text_tr": "(çocuk) yetiştirmek",
+    "article": null,
+    "category_id": "a2-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-persoon",
+    "text_tr": "kişi",
+    "article": "de",
+    "category_id": "a2-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-scheiden",
+    "text_tr": "boşanmak",
+    "article": null,
+    "category_id": "a2-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-scheiding",
+    "text_tr": "boşanma",
+    "article": "de",
+    "category_id": "a2-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-volwassene",
+    "text_tr": "yetişkin",
+    "article": "de",
+    "category_id": "a2-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-vriendschap",
+    "text_tr": "arkadaşlık",
+    "article": "de",
+    "category_id": "a2-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-zoenen",
+    "text_tr": "öpmek",
+    "article": null,
+    "category_id": "a2-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-overlijden",
+    "text_tr": "vefat etmek",
+    "article": null,
+    "category_id": "a2-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-begrafenis",
+    "text_tr": "cenaze",
+    "article": "de",
+    "category_id": "a2-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-heer",
+    "text_tr": "bey",
+    "article": "de",
+    "category_id": "a2-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-lid",
+    "text_tr": "üye",
+    "article": "het",
+    "category_id": "a2-people",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-club",
+    "text_tr": "kulüp",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-dans",
+    "text_tr": "dans",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-feestdag",
+    "text_tr": "resmî tatil günü",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-film",
+    "text_tr": "film",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-hardlopen",
+    "text_tr": "koşu yapmak",
+    "article": null,
+    "category_id": "a2-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-kermis",
+    "text_tr": "lunapark",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-kerst",
+    "text_tr": "Noel",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-museum",
+    "text_tr": "müze",
+    "article": "het",
+    "category_id": "a2-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-nieuwjaar",
+    "text_tr": "yılbaşı",
+    "article": "het",
+    "category_id": "a2-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-schaatsen",
+    "text_tr": "paten kaymak",
+    "article": null,
+    "category_id": "a2-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-sporten",
+    "text_tr": "spor yapmak",
+    "article": null,
+    "category_id": "a2-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-toneelstuk",
+    "text_tr": "tiyatro oyunu",
+    "article": "het",
+    "category_id": "a2-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-voorstelling",
+    "text_tr": "gösteri",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-voetbalclub",
+    "text_tr": "futbol kulübü",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-wandelen",
+    "text_tr": "yürüyüş yapmak",
+    "article": null,
+    "category_id": "a2-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-wandeling",
+    "text_tr": "yürüyüş",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-wedstrijd",
+    "text_tr": "maç",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-uitgaan",
+    "text_tr": "dışarı çıkmak",
+    "article": null,
+    "category_id": "a2-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-vakantiedag",
+    "text_tr": "tatil günü",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-kunst",
+    "text_tr": "sanat",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-tekenen",
+    "text_tr": "çizmek",
+    "article": null,
+    "category_id": "a2-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-speelgoed",
+    "text_tr": "oyuncak",
+    "article": "het",
+    "category_id": "a2-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-spel",
+    "text_tr": "oyun",
+    "article": "het",
+    "category_id": "a2-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-journaal",
+    "text_tr": "haber bülteni",
+    "article": "het",
+    "category_id": "a2-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-krant",
+    "text_tr": "gazete",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-trainen",
+    "text_tr": "antrenman yapmak",
+    "article": null,
+    "category_id": "a2-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-winnen",
+    "text_tr": "kazanmak",
+    "article": null,
+    "category_id": "a2-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-verliezen",
+    "text_tr": "kaybetmek",
+    "article": null,
+    "category_id": "a2-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-ontspannen",
+    "text_tr": "gevşemek",
+    "article": null,
+    "category_id": "a2-free-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-berg",
+    "text_tr": "dağ",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-bloem",
+    "text_tr": "çiçek",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-boom",
+    "text_tr": "ağaç",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-bos",
+    "text_tr": "orman",
+    "article": "het",
+    "category_id": "a2-nature-weather",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-dier",
+    "text_tr": "hayvan",
+    "article": "het",
+    "category_id": "a2-nature-weather",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-duin",
+    "text_tr": "kum tepesi",
+    "article": "het",
+    "category_id": "a2-nature-weather",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-gras",
+    "text_tr": "çimen",
+    "article": "het",
+    "category_id": "a2-nature-weather",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-herfst",
+    "text_tr": "sonbahar",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-huisdier",
+    "text_tr": "evcil hayvan",
+    "article": "het",
+    "category_id": "a2-nature-weather",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-koe",
+    "text_tr": "inek",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-konijn",
+    "text_tr": "tavşan",
+    "article": "het",
+    "category_id": "a2-nature-weather",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-kou",
+    "text_tr": "soğuk hava",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-lente",
+    "text_tr": "ilkbahar",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-lucht",
+    "text_tr": "gökyüzü, hava",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-maan",
+    "text_tr": "ay (gökyüzü)",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-mist",
+    "text_tr": "sis",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-natuur",
+    "text_tr": "doğa",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-onweer",
+    "text_tr": "gök gürültülü fırtına",
+    "article": "het",
+    "category_id": "a2-nature-weather",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-storm",
+    "text_tr": "fırtına",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-paard",
+    "text_tr": "at",
+    "article": "het",
+    "category_id": "a2-nature-weather",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-plant",
+    "text_tr": "bitki",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-regen",
+    "text_tr": "yağmur",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-rivier",
+    "text_tr": "nehir",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-seizoen",
+    "text_tr": "mevsim",
+    "article": "het",
+    "category_id": "a2-nature-weather",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-sneeuw",
+    "text_tr": "kar",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-sneeuwen",
+    "text_tr": "kar yağmak",
+    "article": null,
+    "category_id": "a2-nature-weather",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-vogel",
+    "text_tr": "kuş",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-vriezen",
+    "text_tr": "donmak",
+    "article": null,
+    "category_id": "a2-nature-weather",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-waaien",
+    "text_tr": "(rüzgâr) esmek",
+    "article": null,
+    "category_id": "a2-nature-weather",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-weer",
+    "text_tr": "hava durumu",
+    "article": "het",
+    "category_id": "a2-nature-weather",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-wind",
+    "text_tr": "rüzgâr",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-wolk",
+    "text_tr": "bulut",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-zand",
+    "text_tr": "kum",
+    "article": "het",
+    "category_id": "a2-nature-weather",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-zonnig",
+    "text_tr": "güneşli",
+    "article": null,
+    "category_id": "a2-nature-weather",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-nat",
+    "text_tr": "ıslak",
+    "article": null,
+    "category_id": "a2-nature-weather",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-droog",
+    "text_tr": "kuru",
+    "article": null,
+    "category_id": "a2-nature-weather",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-muis",
+    "text_tr": "fare",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-dijk",
+    "text_tr": "set, bent",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-ijs",
+    "text_tr": "buz, dondurma",
+    "article": "het",
+    "category_id": "a2-nature-weather",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-angst",
+    "text_tr": "korku",
+    "article": "de",
+    "category_id": "a2-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-bezorgd",
+    "text_tr": "kaygılı",
+    "article": null,
+    "category_id": "a2-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-dankbaar",
+    "text_tr": "minnettar",
+    "article": null,
+    "category_id": "a2-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-eerlijk",
+    "text_tr": "dürüst",
+    "article": null,
+    "category_id": "a2-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-enthousiast",
+    "text_tr": "hevesli",
+    "article": null,
+    "category_id": "a2-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-gezellig",
+    "text_tr": "samimi ve keyifli",
+    "article": null,
+    "category_id": "a2-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-grappig",
+    "text_tr": "komik",
+    "article": null,
+    "category_id": "a2-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-heimwee",
+    "text_tr": "sıla hasreti",
+    "article": "het",
+    "category_id": "a2-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-jaloers",
+    "text_tr": "kıskanç",
+    "article": null,
+    "category_id": "a2-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-kalm",
+    "text_tr": "sakin",
+    "article": null,
+    "category_id": "a2-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-nieuwsgierig",
+    "text_tr": "meraklı",
+    "article": null,
+    "category_id": "a2-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-ongerust",
+    "text_tr": "tedirgin",
+    "article": null,
+    "category_id": "a2-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-prettig",
+    "text_tr": "keyifli",
+    "article": null,
+    "category_id": "a2-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-saai",
+    "text_tr": "sıkıcı",
+    "article": null,
+    "category_id": "a2-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-schamen",
+    "text_tr": "utanmak",
+    "article": null,
+    "category_id": "a2-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-spannend",
+    "text_tr": "heyecan verici",
+    "article": null,
+    "category_id": "a2-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-stress",
+    "text_tr": "stres",
+    "article": "de",
+    "category_id": "a2-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-tevreden",
+    "text_tr": "memnun",
+    "article": null,
+    "category_id": "a2-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-trots",
+    "text_tr": "gururlu",
+    "article": null,
+    "category_id": "a2-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-verliefd",
+    "text_tr": "âşık",
+    "article": null,
+    "category_id": "a2-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-verrassing",
+    "text_tr": "sürpriz",
+    "article": "de",
+    "category_id": "a2-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-vrolijk",
+    "text_tr": "neşeli",
+    "article": null,
+    "category_id": "a2-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-woedend",
+    "text_tr": "öfkeli",
+    "article": null,
+    "category_id": "a2-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-zenuwachtig",
+    "text_tr": "gergin",
+    "article": null,
+    "category_id": "a2-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-vervelen",
+    "text_tr": "sıkılmak",
+    "article": null,
+    "category_id": "a2-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-verdriet",
+    "text_tr": "keder",
+    "article": "het",
+    "category_id": "a2-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-geluk",
+    "text_tr": "şans, mutluluk",
+    "article": "het",
+    "category_id": "a2-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-hopen",
+    "text_tr": "ummak",
+    "article": null,
+    "category_id": "a2-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-droom",
+    "text_tr": "rüya",
+    "article": "de",
+    "category_id": "a2-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-liefde",
+    "text_tr": "aşk",
+    "article": "de",
+    "category_id": "a2-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-vertrouwen",
+    "text_tr": "güvenmek",
+    "article": null,
+    "category_id": "a2-feelings",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-dun",
+    "text_tr": "ince",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-duidelijk",
+    "text_tr": "net, anlaşılır",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-eenvoudig",
+    "text_tr": "basit",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-geschikt",
+    "text_tr": "uygun",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-gevaarlijk",
+    "text_tr": "tehlikeli",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-gemakkelijk",
+    "text_tr": "kolay",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-handig",
+    "text_tr": "kullanışlı",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-hoog",
+    "text_tr": "yüksek",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-laag",
+    "text_tr": "alçak",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-ingewikkeld",
+    "text_tr": "karmaşık",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-lelijk",
+    "text_tr": "çirkin",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-donker",
+    "text_tr": "karanlık",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-modern",
+    "text_tr": "modern",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-mogelijk",
+    "text_tr": "mümkün",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-onmogelijk",
+    "text_tr": "imkânsız",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-oranje",
+    "text_tr": "turuncu",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-groen",
+    "text_tr": "yeşil",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-zwart",
+    "text_tr": "siyah",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-precies",
+    "text_tr": "tam",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-prachtig",
+    "text_tr": "muhteşem",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-slecht",
+    "text_tr": "kötü",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-sterk",
+    "text_tr": "güçlü",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-verkeerd",
+    "text_tr": "yanlış",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-fout",
+    "text_tr": "hata",
+    "article": "de",
+    "category_id": "a2-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-vol",
+    "text_tr": "dolu",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-zwaar",
+    "text_tr": "ağır",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-zeker",
+    "text_tr": "emin",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-vrij",
+    "text_tr": "serbest, izinli",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-veilig",
+    "text_tr": "güvenli",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-warm",
+    "text_tr": "sıcak",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-langzaam",
+    "text_tr": "yavaş",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-verschillend",
+    "text_tr": "farklı",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-populair",
+    "text_tr": "popüler",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-bekend",
+    "text_tr": "tanınmış",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-dagelijks",
+    "text_tr": "günlük",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-geweldig",
+    "text_tr": "harika",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-heerlijk",
+    "text_tr": "nefis",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-kapot",
+    "text_tr": "bozuk",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-advies",
+    "text_tr": "tavsiye",
+    "article": "het",
+    "category_id": "a2-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-afspreken",
+    "text_tr": "buluşmak için sözleşmek",
+    "article": null,
+    "category_id": "a2-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-beantwoorden",
+    "text_tr": "yanıtlamak",
+    "article": null,
+    "category_id": "a2-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-beleefd",
+    "text_tr": "kibar",
+    "article": null,
+    "category_id": "a2-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-beschrijven",
+    "text_tr": "tarif etmek",
+    "article": null,
+    "category_id": "a2-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-bespreken",
+    "text_tr": "görüşmek",
+    "article": null,
+    "category_id": "a2-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-bedoelen",
+    "text_tr": "kastetmek",
+    "article": null,
+    "category_id": "a2-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-begroeten",
+    "text_tr": "selamlamak",
+    "article": null,
+    "category_id": "a2-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-beloven",
+    "text_tr": "söz vermek",
+    "article": null,
+    "category_id": "a2-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-gesprek",
+    "text_tr": "konuşma",
+    "article": "het",
+    "category_id": "a2-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-groeten",
+    "text_tr": "selam vermek",
+    "article": null,
+    "category_id": "a2-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-herhalen",
+    "text_tr": "tekrarlamak",
+    "article": null,
+    "category_id": "a2-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-informeren",
+    "text_tr": "bilgi vermek",
+    "article": null,
+    "category_id": "a2-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-klacht",
+    "text_tr": "şikâyet",
+    "article": "de",
+    "category_id": "a2-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-klagen",
+    "text_tr": "şikâyet etmek",
+    "article": null,
+    "category_id": "a2-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-leugen",
+    "text_tr": "yalan",
+    "article": "de",
+    "category_id": "a2-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-liegen",
+    "text_tr": "yalan söylemek",
+    "article": null,
+    "category_id": "a2-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-melden",
+    "text_tr": "bildirmek",
+    "article": null,
+    "category_id": "a2-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-reageren",
+    "text_tr": "tepki vermek",
+    "article": null,
+    "category_id": "a2-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-ruzie",
+    "text_tr": "kavga",
+    "article": "de",
+    "category_id": "a2-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-tellen",
+    "text_tr": "saymak",
+    "article": null,
+    "category_id": "a2-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-uitnodigen",
+    "text_tr": "davet etmek",
+    "article": null,
+    "category_id": "a2-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-uitnodiging",
+    "text_tr": "davet",
+    "article": "de",
+    "category_id": "a2-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-uitspreken",
+    "text_tr": "telaffuz etmek",
+    "article": null,
+    "category_id": "a2-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-verstaan",
+    "text_tr": "duyup anlamak",
+    "article": null,
+    "category_id": "a2-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-voorstellen",
+    "text_tr": "tanıştırmak",
+    "article": null,
+    "category_id": "a2-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-vergeten",
+    "text_tr": "unutmak",
+    "article": null,
+    "category_id": "a2-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-onthouden",
+    "text_tr": "aklında tutmak",
+    "article": null,
+    "category_id": "a2-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-woord",
+    "text_tr": "kelime",
+    "article": "het",
+    "category_id": "a2-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-mobiel",
+    "text_tr": "cep telefonu",
+    "article": "de",
+    "category_id": "a2-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-verhaal",
+    "text_tr": "hikâye",
+    "article": "het",
+    "category_id": "a2-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-voorbeeld",
+    "text_tr": "örnek",
+    "article": "het",
+    "category_id": "a2-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-onderwerp",
+    "text_tr": "konu",
+    "article": "het",
+    "category_id": "a2-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-reden",
+    "text_tr": "neden",
+    "article": "de",
+    "category_id": "a2-communication",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-aandoen",
+    "text_tr": "açmak (cihaz)",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-uitdoen",
+    "text_tr": "kapatmak (cihaz)",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-opendoen",
+    "text_tr": "kapıyı açmak",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-openen",
+    "text_tr": "açmak",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-sluiten",
+    "text_tr": "kapatmak",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-beslissen",
+    "text_tr": "karar vermek",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-beslissing",
+    "text_tr": "karar",
+    "article": "de",
+    "category_id": "a2-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-verstoppen",
+    "text_tr": "saklamak",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-bewegen",
+    "text_tr": "hareket etmek",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-gebeuren",
+    "text_tr": "meydana gelmek",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-halen",
+    "text_tr": "gidip almak",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-herinneren",
+    "text_tr": "hatırlamak",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-kiezen",
+    "text_tr": "seçmek",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-keus",
+    "text_tr": "seçim",
+    "article": "de",
+    "category_id": "a2-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-lukken",
+    "text_tr": "(bir işi) başarmak",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-meenemen",
+    "text_tr": "yanında götürmek",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-missen",
+    "text_tr": "özlemek",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-oplossen",
+    "text_tr": "çözmek",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-oplossing",
+    "text_tr": "çözüm",
+    "article": "de",
+    "category_id": "a2-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-opstaan",
+    "text_tr": "(yataktan) kalkmak",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-proberen",
+    "text_tr": "denemek",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-regelen",
+    "text_tr": "halletmek",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-roken",
+    "text_tr": "sigara içmek",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-terugkomen",
+    "text_tr": "geri gelmek",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-thuiskomen",
+    "text_tr": "eve gelmek",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-veranderen",
+    "text_tr": "değişmek",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-verdienen",
+    "text_tr": "para kazanmak",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-wennen",
+    "text_tr": "alışmak",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-wisselen",
+    "text_tr": "bozdurmak, değiştirmek",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-zorgen",
+    "text_tr": "ilgilenmek",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-zingen",
+    "text_tr": "şarkı söylemek",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-voelen",
+    "text_tr": "hissetmek",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-delen",
+    "text_tr": "paylaşmak",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-storen",
+    "text_tr": "rahatsız etmek",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-ontmoeting",
+    "text_tr": "buluşma",
+    "article": "de",
+    "category_id": "a2-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-ontvangen",
+    "text_tr": "teslim almak",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-versturen",
+    "text_tr": "postalamak",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-bezorgen",
+    "text_tr": "teslim etmek",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-bezoeken",
+    "text_tr": "ziyaret etmek",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-bezoek",
+    "text_tr": "ziyaret",
+    "article": "het",
+    "category_id": "a2-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-logeren",
+    "text_tr": "misafir kalmak",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "verb-reizen",
+    "text_tr": "seyahat etmek",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-begin",
+    "text_tr": "başlangıç",
+    "article": "het",
+    "category_id": "a2-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-einde",
+    "text_tr": "son",
+    "article": "het",
+    "category_id": "a2-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-halfuur",
+    "text_tr": "yarım saat",
+    "article": "het",
+    "category_id": "a2-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-kwartier",
+    "text_tr": "on beş dakika",
+    "article": "het",
+    "category_id": "a2-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-middag",
+    "text_tr": "öğleden sonra",
+    "article": "de",
+    "category_id": "a2-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-moment",
+    "text_tr": "an",
+    "article": "het",
+    "category_id": "a2-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-nacht",
+    "text_tr": "gece",
+    "article": "de",
+    "category_id": "a2-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-tijd",
+    "text_tr": "zaman",
+    "article": "de",
+    "category_id": "a2-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-toekomst",
+    "text_tr": "gelecek",
+    "article": "de",
+    "category_id": "a2-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "noun-lunchpauze",
+    "text_tr": "öğle arası",
+    "article": "de",
+    "category_id": "a2-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-eerder",
+    "text_tr": "daha önce",
+    "article": null,
+    "category_id": "a2-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-tegenwoordig",
+    "text_tr": "günümüzdeki",
+    "article": null,
+    "category_id": "a2-time",
+    "reviewed": true
+  },
+  {
+    "word_id": "adj-vorig",
+    "text_tr": "geçen",
+    "article": null,
+    "category_id": "a2-time",
+    "reviewed": true
+  }
+]
