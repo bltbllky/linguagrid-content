@@ -254,7 +254,7 @@
       "word_id": "verb-zoeken",
       "text": "to look for",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-brief",
@@ -284,7 +284,7 @@
       "word_id": "noun-werk",
       "text": "work",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "adj-groot",
@@ -494,7 +494,7 @@
       "word_id": "adj-vroeg",
       "text": "early",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "adj-verdrietig",
@@ -845,7 +845,7 @@
       "word_id": "noun-dansfeest",
       "text": "dance party",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-fiets",
@@ -923,7 +923,7 @@
       "word_id": "noun-thee",
       "text": "tea",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "adj-belangrijk",
@@ -935,7 +935,7 @@
       "word_id": "noun-dorp",
       "text": "village",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "adj-ziek",
@@ -1178,7 +1178,7 @@
       "word_id": "noun-koek",
       "text": "biscuit",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-zoon",
@@ -1190,7 +1190,7 @@
       "word_id": "noun-boterham",
       "text": "slice of bread",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "adj-verbaasd",
@@ -1328,7 +1328,7 @@
       "word_id": "verb-glimlachen",
       "text": "to smile",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-organisatie",
@@ -1352,7 +1352,7 @@
       "word_id": "noun-hulp",
       "text": "help",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-land",
@@ -1362,9 +1362,9 @@
     },
     {
       "word_id": "adj-bijzonder",
-      "text": "remarkable",
+      "text": "special",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "adj-moeilijk",
@@ -1590,13 +1590,13 @@
       "word_id": "verb-stoppen",
       "text": "to stop",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-lokaal",
       "text": "classroom",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-soort",
@@ -1674,7 +1674,7 @@
       "word_id": "noun-zon",
       "text": "sun",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "adj-extra",
@@ -1854,7 +1854,7 @@
       "word_id": "verb-schoonmaken",
       "text": "to clean",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "verb-vallen",
@@ -1974,7 +1974,7 @@
       "word_id": "adj-slank",
       "text": "slim",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "adj-leeg",
@@ -2015,7 +2015,8 @@
     {
       "word_id": "verb-leven",
       "text": "to live",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "owner"
     },
     {
       "word_id": "verb-regenen",
@@ -2086,7 +2087,7 @@
       "word_id": "noun-pizza",
       "text": "pizza",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-uniform",
@@ -2228,8 +2229,9 @@
     },
     {
       "word_id": "verb-poetsen",
-      "text": "to polish",
-      "reviewed": false
+      "text": "to brush",
+      "reviewed": true,
+      "review_source": "owner"
     },
     {
       "word_id": "noun-bord",
@@ -2407,9 +2409,9 @@
     },
     {
       "word_id": "verb-afwassen",
-      "text": "to do the washing-up",
+      "text": "to wash up",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-afzuigkap",
@@ -2481,7 +2483,7 @@
       "word_id": "noun-handdoek",
       "text": "towel",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-huur",
@@ -2541,7 +2543,7 @@
       "word_id": "noun-meubel",
       "text": "piece of furniture",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "verb-opruimen",
@@ -2553,7 +2555,7 @@
       "word_id": "noun-oven",
       "text": "oven",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-plafond",
@@ -2709,7 +2711,7 @@
       "word_id": "noun-mes",
       "text": "knife",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-glas",
@@ -2793,7 +2795,7 @@
       "word_id": "noun-boter",
       "text": "butter",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-brood",
@@ -2895,7 +2897,7 @@
       "word_id": "noun-knoflook",
       "text": "garlic",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "verb-koken",
@@ -2985,7 +2987,7 @@
       "word_id": "noun-salade",
       "text": "salad",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-sla",
@@ -3116,7 +3118,7 @@
       "word_id": "noun-bestelling",
       "text": "order",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "adj-vers",
@@ -3259,7 +3261,7 @@
       "word_id": "noun-maag",
       "text": "stomach",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-maagpijn",
@@ -3307,7 +3309,7 @@
       "word_id": "noun-paracetamol",
       "text": "paracetamol",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-patiënt",
@@ -3319,7 +3321,7 @@
       "word_id": "noun-pijn",
       "text": "pain",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-recept",
@@ -3439,7 +3441,7 @@
       "word_id": "noun-mond",
       "text": "mouth",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-gezicht",
@@ -3589,7 +3591,7 @@
       "word_id": "noun-manager",
       "text": "manager",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-medewerker",
@@ -3697,7 +3699,7 @@
       "word_id": "noun-universiteit",
       "text": "university",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-vergadering",
@@ -3763,7 +3765,7 @@
       "word_id": "verb-uitleggen",
       "text": "to explain",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-uitleg",
@@ -3840,7 +3842,7 @@
       "word_id": "noun-douane",
       "text": "customs",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-formulier",
@@ -4008,7 +4010,7 @@
       "word_id": "verb-mailen",
       "text": "to email",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "adj-online",
@@ -4080,7 +4082,7 @@
       "word_id": "noun-hotelkamer",
       "text": "hotel room",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-markt",
@@ -4104,7 +4106,7 @@
       "word_id": "noun-plein",
       "text": "square",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-provincie",
@@ -4422,7 +4424,7 @@
       "word_id": "noun-sjaal",
       "text": "scarf",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-vest",
@@ -4434,7 +4436,7 @@
       "word_id": "noun-bril",
       "text": "glasses",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-ring",
@@ -4500,7 +4502,7 @@
       "word_id": "noun-geboorte",
       "text": "birth",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-opa",
@@ -4686,7 +4688,7 @@
       "word_id": "verb-schaatsen",
       "text": "to ice-skate",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "verb-sporten",
@@ -4782,7 +4784,7 @@
       "word_id": "verb-trainen",
       "text": "to train",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "verb-winnen",
@@ -4908,7 +4910,7 @@
       "word_id": "noun-onweer",
       "text": "thunderstorm",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-storm",
@@ -5064,7 +5066,7 @@
       "word_id": "adj-enthousiast",
       "text": "enthusiastic",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "adj-gezellig",
@@ -5076,7 +5078,7 @@
       "word_id": "adj-grappig",
       "text": "funny",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-heimwee",
@@ -5304,7 +5306,7 @@
       "word_id": "adj-mogelijk",
       "text": "possible",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "adj-onmogelijk",
@@ -5592,7 +5594,7 @@
       "word_id": "verb-uitspreken",
       "text": "to pronounce",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "verb-verstaan",
@@ -5784,7 +5786,7 @@
       "word_id": "verb-regelen",
       "text": "to arrange",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "verb-roken",
@@ -5939,7 +5941,7 @@
       "word_id": "noun-moment",
       "text": "moment",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-nacht",
@@ -5973,8 +5975,9 @@
     },
     {
       "word_id": "adj-tegenwoordig",
-      "text": "present-day",
-      "reviewed": false
+      "text": "nowadays",
+      "reviewed": true,
+      "review_source": "owner"
     },
     {
       "word_id": "adj-vorig",

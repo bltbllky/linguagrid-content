@@ -5,7 +5,7 @@
       "word_id": "verb-zijn",
       "text": "olmak",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "verb-hebben",
@@ -53,17 +53,19 @@
       "word_id": "verb-willen",
       "text": "istemek",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "adj-heel",
-      "text": "bütün",
-      "reviewed": false
+      "text": "bütün, tam",
+      "reviewed": true,
+      "review_source": "owner"
     },
     {
       "word_id": "verb-kunnen",
-      "text": "-ebilmek",
-      "reviewed": false
+      "text": "yapabilmek",
+      "reviewed": true,
+      "review_source": "owner"
     },
     {
       "word_id": "verb-moeten",
@@ -103,8 +105,9 @@
     },
     {
       "word_id": "adj-leuk",
-      "text": "eğlenceli",
-      "reviewed": false
+      "text": "eğlenceli, hoş",
+      "reviewed": true,
+      "review_source": "owner"
     },
     {
       "word_id": "verb-denken",
@@ -116,7 +119,7 @@
       "word_id": "verb-lopen",
       "text": "yürümek",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "verb-zien",
@@ -180,8 +183,9 @@
     },
     {
       "word_id": "adj-erg",
-      "text": "berbat",
-      "reviewed": false
+      "text": "çok kötü, berbat",
+      "reviewed": true,
+      "review_source": "owner"
     },
     {
       "word_id": "noun-vrouw",
@@ -389,8 +393,9 @@
     },
     {
       "word_id": "verb-krijgen",
-      "text": "elde etmek",
-      "reviewed": false
+      "text": "(birinden) almak",
+      "reviewed": true,
+      "review_source": "owner"
     },
     {
       "word_id": "noun-vader",
@@ -412,8 +417,9 @@
     },
     {
       "word_id": "verb-pakken",
-      "text": "kapmak",
-      "reviewed": false
+      "text": "eline almak",
+      "reviewed": true,
+      "review_source": "owner"
     },
     {
       "word_id": "noun-bus",
@@ -664,7 +670,8 @@
     {
       "word_id": "verb-rijden",
       "text": "taşıtla gitmek",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "owner"
     },
     {
       "word_id": "verb-nemen",
@@ -700,7 +707,7 @@
       "word_id": "noun-leerling",
       "text": "öğrenci",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-tuin",
@@ -832,7 +839,7 @@
       "word_id": "noun-stok",
       "text": "sopa",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "adj-aardig",
@@ -1119,7 +1126,8 @@
     {
       "word_id": "adj-nederlands",
       "text": "Hollandaca",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "owner"
     },
     {
       "word_id": "noun-vliegtuig",
@@ -1203,7 +1211,7 @@
       "word_id": "verb-passen",
       "text": "uymak (beden)",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-telefoon",
@@ -1323,7 +1331,7 @@
       "word_id": "noun-meneer",
       "text": "beyefendi",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "verb-glimlachen",
@@ -1363,8 +1371,9 @@
     },
     {
       "word_id": "adj-bijzonder",
-      "text": "olağanüstü",
-      "reviewed": false
+      "text": "özel",
+      "reviewed": true,
+      "review_source": "owner"
     },
     {
       "word_id": "adj-moeilijk",
@@ -1448,7 +1457,7 @@
       "word_id": "adj-welkom",
       "text": "hoş geldin",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "adj-klaar",
@@ -1496,7 +1505,7 @@
       "word_id": "noun-kantoor",
       "text": "ofis",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "verb-huilen",
@@ -1542,15 +1551,15 @@
     },
     {
       "word_id": "noun-boodschap",
-      "text": "alışveriş (ihtiyaç)",
+      "text": "mesaj",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-collega",
       "text": "meslektaş",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-park",
@@ -1728,8 +1737,9 @@
     },
     {
       "word_id": "verb-zetten",
-      "text": "koymak",
-      "reviewed": false
+      "text": "koymak (dik)",
+      "reviewed": true,
+      "review_source": "owner"
     },
     {
       "word_id": "noun-feest",
@@ -1741,7 +1751,7 @@
       "word_id": "noun-informatie",
       "text": "bilgi",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-ziekenhuis",
@@ -1909,7 +1919,7 @@
       "word_id": "noun-ruimte",
       "text": "alan",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "verb-overstappen",
@@ -1957,7 +1967,7 @@
       "word_id": "noun-centrum",
       "text": "merkez",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "verb-duren",
@@ -2155,7 +2165,7 @@
       "word_id": "verb-ontmoeten",
       "text": "tanışmak",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-project",
@@ -2232,7 +2242,8 @@
     {
       "word_id": "verb-poetsen",
       "text": "fırçalamak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "owner"
     },
     {
       "word_id": "noun-bord",
@@ -2346,7 +2357,7 @@
       "word_id": "verb-feliciteren",
       "text": "tebrik etmek",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "adj-jarig",
@@ -2472,7 +2483,7 @@
       "word_id": "noun-fornuis",
       "text": "ocak",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-gordijn",
@@ -2538,7 +2549,7 @@
       "word_id": "noun-magnetron",
       "text": "mikrodalga fırın",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-meubel",
@@ -2610,7 +2621,7 @@
       "word_id": "noun-trap",
       "text": "merdiven",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-verhuizing",
@@ -2760,7 +2771,7 @@
       "word_id": "noun-appeltaart",
       "text": "elmalı turta",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-avondeten",
@@ -2812,8 +2823,9 @@
     },
     {
       "word_id": "noun-drank",
-      "text": "içki",
-      "reviewed": false
+      "text": "içecek",
+      "reviewed": true,
+      "review_source": "owner"
     },
     {
       "word_id": "noun-druif",
@@ -2891,7 +2903,7 @@
       "word_id": "verb-klaarmaken",
       "text": "hazırlamak",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-knoflook",
@@ -2921,7 +2933,7 @@
       "word_id": "noun-lunch",
       "text": "öğle yemeği",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "verb-lunchen",
@@ -3203,7 +3215,7 @@
       "word_id": "noun-duizeligheid",
       "text": "baş dönmesi",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "verb-genezen",
@@ -3291,8 +3303,9 @@
     },
     {
       "word_id": "noun-nek",
-      "text": "boyun",
-      "reviewed": false
+      "text": "ense",
+      "reviewed": true,
+      "review_source": "owner"
     },
     {
       "word_id": "noun-oor",
@@ -3436,7 +3449,7 @@
       "word_id": "noun-hoofd",
       "text": "kafa",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-mond",
@@ -3478,7 +3491,7 @@
       "word_id": "adj-slaperig",
       "text": "uykulu",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-zuster",
@@ -3490,7 +3503,7 @@
       "word_id": "noun-advertentie",
       "text": "ilan",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-afdeling",
@@ -3556,7 +3569,7 @@
       "word_id": "noun-ervaring",
       "text": "deneyim",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "adj-fulltime",
@@ -3626,8 +3639,9 @@
     },
     {
       "word_id": "noun-opleiding",
-      "text": "meslek eğitimi",
-      "reviewed": false
+      "text": "eğitim",
+      "reviewed": true,
+      "review_source": "owner"
     },
     {
       "word_id": "noun-pauze",
@@ -3681,7 +3695,7 @@
       "word_id": "noun-student",
       "text": "üniversite öğrencisi",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-studie",
@@ -3717,7 +3731,7 @@
       "word_id": "noun-vertaling",
       "text": "çeviri",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-werkdag",
@@ -3789,7 +3803,7 @@
       "word_id": "noun-betekenis",
       "text": "anlam",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "verb-betekenen",
@@ -3903,7 +3917,7 @@
       "word_id": "noun-post",
       "text": "posta",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-postbode",
@@ -3927,7 +3941,7 @@
       "word_id": "noun-rekening",
       "text": "fatura",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-rijbewijs",
@@ -4046,7 +4060,8 @@
     {
       "word_id": "noun-fietser",
       "text": "bisikletli",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "owner"
     },
     {
       "word_id": "noun-gebouw",
@@ -4070,7 +4085,7 @@
       "word_id": "noun-hoofdstad",
       "text": "başkent",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-hotel",
@@ -4094,7 +4109,7 @@
       "word_id": "verb-parkeren",
       "text": "park etmek",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-passagier",
@@ -4110,8 +4125,9 @@
     },
     {
       "word_id": "noun-provincie",
-      "text": "il",
-      "reviewed": false
+      "text": "eyalet",
+      "reviewed": true,
+      "review_source": "owner"
     },
     {
       "word_id": "noun-reisbureau",
@@ -4127,14 +4143,15 @@
     },
     {
       "word_id": "noun-spoor",
-      "text": "ray",
-      "reviewed": false
+      "text": "peron",
+      "reviewed": true,
+      "review_source": "owner"
     },
     {
       "word_id": "noun-stoep",
       "text": "kaldırım",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "verb-uitstappen",
@@ -4158,7 +4175,7 @@
       "word_id": "verb-aankomen",
       "text": "varmak",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-vervoer",
@@ -4212,7 +4229,7 @@
       "word_id": "noun-buitenland",
       "text": "yurt dışı",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "adj-buitenlands",
@@ -4338,7 +4355,7 @@
       "word_id": "noun-zak",
       "text": "poşet",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-tas",
@@ -4386,7 +4403,7 @@
       "word_id": "noun-muts",
       "text": "bere",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-ondergoed",
@@ -4494,7 +4511,7 @@
       "word_id": "noun-gezin",
       "text": "çekirdek aile",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-geboorte",
@@ -4534,13 +4551,15 @@
     },
     {
       "word_id": "noun-neef",
-      "text": "erkek kuzen",
-      "reviewed": false
+      "text": "kuzen, yeğen (erkek)",
+      "reviewed": true,
+      "review_source": "owner"
     },
     {
       "word_id": "noun-nicht",
-      "text": "kız kuzen",
-      "reviewed": false
+      "text": "kuzen, yeğen (kız)",
+      "reviewed": true,
+      "review_source": "owner"
     },
     {
       "word_id": "noun-oom",
@@ -4640,8 +4659,9 @@
     },
     {
       "word_id": "noun-feestdag",
-      "text": "bayram günü",
-      "reviewed": false
+      "text": "resmî tatil günü",
+      "reviewed": true,
+      "review_source": "owner"
     },
     {
       "word_id": "noun-film",
@@ -4725,7 +4745,7 @@
       "word_id": "noun-wedstrijd",
       "text": "maç",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "verb-uitgaan",
@@ -4832,7 +4852,8 @@
     {
       "word_id": "noun-duin",
       "text": "kum tepesi",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "owner"
     },
     {
       "word_id": "noun-gras",
@@ -4850,7 +4871,7 @@
       "word_id": "noun-huisdier",
       "text": "evcil hayvan",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-koe",
@@ -5022,8 +5043,9 @@
     },
     {
       "word_id": "noun-dijk",
-      "text": "set (bent)",
-      "reviewed": false
+      "text": "set, bent",
+      "reviewed": true,
+      "review_source": "owner"
     },
     {
       "word_id": "noun-ijs",
@@ -5171,8 +5193,9 @@
     },
     {
       "word_id": "adj-zenuwachtig",
-      "text": "telaşlı",
-      "reviewed": false
+      "text": "gergin",
+      "reviewed": true,
+      "review_source": "owner"
     },
     {
       "word_id": "verb-vervelen",
@@ -5226,7 +5249,7 @@
       "word_id": "adj-duidelijk",
       "text": "net, anlaşılır",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "adj-eenvoudig",
@@ -5274,7 +5297,7 @@
       "word_id": "adj-ingewikkeld",
       "text": "karmaşık",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "adj-lelijk",
@@ -5380,8 +5403,9 @@
     },
     {
       "word_id": "adj-vrij",
-      "text": "serbest",
-      "reviewed": false
+      "text": "serbest, izinli",
+      "reviewed": true,
+      "review_source": "owner"
     },
     {
       "word_id": "adj-veilig",
@@ -5451,14 +5475,15 @@
     },
     {
       "word_id": "verb-afspreken",
-      "text": "sözleşmek",
-      "reviewed": false
+      "text": "buluşmak için sözleşmek",
+      "reviewed": true,
+      "review_source": "owner"
     },
     {
       "word_id": "verb-beantwoorden",
       "text": "yanıtlamak",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "adj-beleefd",
@@ -5728,7 +5753,7 @@
       "word_id": "noun-keus",
       "text": "seçim",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "verb-lukken",
@@ -5800,7 +5825,7 @@
       "word_id": "verb-veranderen",
       "text": "değişmek",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "verb-verdienen",
@@ -5865,13 +5890,14 @@
     {
       "word_id": "verb-versturen",
       "text": "postalamak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "owner"
     },
     {
       "word_id": "verb-bezorgen",
       "text": "teslim etmek",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "verb-bezoeken",
@@ -5889,7 +5915,7 @@
       "word_id": "verb-logeren",
       "text": "misafir kalmak",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "verb-reizen",
@@ -5925,7 +5951,7 @@
       "word_id": "noun-middag",
       "text": "öğleden sonra",
       "reviewed": true,
-      "review_source": "roundtrip"
+      "review_source": "owner"
     },
     {
       "word_id": "noun-moment",
@@ -5971,8 +5997,9 @@
     },
     {
       "word_id": "adj-vorig",
-      "text": "önceki",
-      "reviewed": false
+      "text": "geçen",
+      "reviewed": true,
+      "review_source": "owner"
     }
   ],
   "categories": [
