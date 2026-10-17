@@ -1,1 +1,33 @@
-{ "content_version": 0, "min_app_version": { "ios": "0.1.0", "android": "0.1.0" }, "files": [] }
+{
+  "content_version": 1,
+  "min_app_version": {
+    "ios": "0.1.0",
+    "android": "0.1.0"
+  },
+  "languages": [
+    "tr",
+    "en"
+  ],
+  "files": [
+    {
+      "path": "release/1/words.json",
+      "sha256": "825fb8c7e1854ce2c680eaac6898f66fba9f62efafcc444c348ed20b324b96ee"
+    },
+    {
+      "path": "release/1/annotations.json",
+      "sha256": "350814d7ac24ba5c6a4a0f30a4a22fb1c346483d9b4083f4d3403b598f4774cf"
+    },
+    {
+      "path": "release/1/categories.json",
+      "sha256": "94b8002825599da8c27fe1d1e9f981a1e2085ba9426c053be4fad42cb4810638"
+    },
+    {
+      "path": "release/1/translations-tr.json",
+      "sha256": "b791a6b26c7c5ac0fbad8d5871b3845d5d32565e4edaf83056bd92792877317e"
+    },
+    {
+      "path": "release/1/translations-en.json",
+      "sha256": "c7afa63386eddc2af3691f7a992095ab7a82fa55c9da7a2795d74d3724434ab5"
+    }
+  ]
+}
