@@ -4,47 +4,56 @@
     {
       "word_id": "verb-zijn",
       "text": "to be",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-hebben",
       "text": "to have",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-gaan",
       "text": "to go",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-zeggen",
       "text": "to say",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-vinden",
       "text": "to find",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-huis",
       "text": "house",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-goed",
       "text": "good",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-moeder",
       "text": "mother",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-willen",
       "text": "to want",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-heel",
@@ -54,102 +63,122 @@
     {
       "word_id": "verb-kunnen",
       "text": "to be able to",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-moeten",
       "text": "to have to",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-praten",
       "text": "to talk",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-wonen",
       "text": "to live (somewhere)",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-familie",
       "text": "family",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-mens",
       "text": "human being",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-heten",
       "text": "to be called",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-leuk",
       "text": "nice",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-denken",
       "text": "to think",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-lopen",
       "text": "to walk",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-zien",
       "text": "to see",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-kijken",
       "text": "to look",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-doen",
       "text": "to do",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-blij",
       "text": "glad",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-school",
       "text": "school",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-jaar",
       "text": "year",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-eten",
       "text": "to eat",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-komen",
       "text": "to come",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-ander",
       "text": "other",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-vragen",
       "text": "to ask",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-erg",
@@ -159,42 +188,50 @@
     {
       "word_id": "noun-vrouw",
       "text": "woman",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-snel",
       "text": "fast",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kleed",
       "text": "rug",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-geven",
       "text": "to give",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-dag",
       "text": "day",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-werken",
       "text": "to work",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-strand",
       "text": "beach",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-zitten",
       "text": "to sit",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-vriendin",
@@ -204,357 +241,428 @@
     {
       "word_id": "adj-lang",
       "text": "long",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-vriend",
       "text": "friend",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-zoeken",
       "text": "to look for",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-brief",
       "text": "letter",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-haar",
       "text": "hair",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-staan",
       "text": "to stand",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-boot",
       "text": "boat",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-werk",
       "text": "work",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-groot",
       "text": "big",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-kopen",
       "text": "to buy",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-auto",
       "text": "car",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-bang",
       "text": "afraid",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-hond",
       "text": "dog",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-maken",
       "text": "to make",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-lachen",
       "text": "to laugh",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-oud",
       "text": "old",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-klein",
       "text": "small",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kind",
       "text": "child",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-worden",
       "text": "to become",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-probleem",
       "text": "problem",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-schreeuwen",
       "text": "to shout",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-liggen",
       "text": "to lie (down)",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-drinken",
       "text": "to drink",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-geld",
       "text": "money",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-man",
       "text": "man",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-krijgen",
       "text": "to get",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-vader",
       "text": "father",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-nieuw",
       "text": "new",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kamer",
       "text": "room",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-pakken",
       "text": "to grab",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-bus",
       "text": "bus",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-blaffen",
       "text": "to bark",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-rennen",
       "text": "to run",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-eten",
       "text": "food",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-mooi",
       "text": "beautiful",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-meisje",
       "text": "girl",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-koffie",
       "text": "coffee",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-keer",
       "text": "time (occasion)",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-zomer",
       "text": "summer",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-slaapkamer",
       "text": "bedroom",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-vertellen",
       "text": "to tell",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-rood",
       "text": "red",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-vroeg",
       "text": "early",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-verdrietig",
       "text": "sad",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-kennen",
       "text": "to know (someone)",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-volgen",
       "text": "to follow",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-begrijpen",
       "text": "to understand",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-fijn",
       "text": "lovely",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-mogen",
       "text": "to be allowed to",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-ouder",
       "text": "parent",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-lekker",
       "text": "tasty",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-trein",
       "text": "train",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-horen",
       "text": "to hear",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-lezen",
       "text": "to read",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-normaal",
       "text": "normal",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-les",
       "text": "lesson",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-boek",
       "text": "book",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-slapen",
       "text": "to sleep",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-houden",
       "text": "to hold",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-keuken",
       "text": "kitchen",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-zus",
       "text": "sister",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-schrijven",
       "text": "to write",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-winkel",
       "text": "shop",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-vaak",
       "text": "often",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-laat",
       "text": "late",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-week",
       "text": "week",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-spreken",
       "text": "to speak",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-ding",
       "text": "thing",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-nodig",
       "text": "necessary",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kop",
       "text": "cup",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-broer",
       "text": "brother",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-rijden",
@@ -564,12 +672,14 @@
     {
       "word_id": "verb-nemen",
       "text": "to take",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-helpen",
       "text": "to help",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-weten",
@@ -579,42 +689,50 @@
     {
       "word_id": "noun-oog",
       "text": "eye",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-hoofdstuk",
       "text": "chapter",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-leerling",
       "text": "pupil",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-tuin",
       "text": "garden",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-mevrouw",
       "text": "madam",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-betalen",
       "text": "to pay",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-buschauffeur",
       "text": "bus driver",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-leggen",
       "text": "to lay",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-bank",
@@ -624,252 +742,302 @@
     {
       "word_id": "adj-zacht",
       "text": "soft",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-eiland",
       "text": "island",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-uur",
       "text": "hour",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-vertrekken",
       "text": "to depart",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-naam",
       "text": "name",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-vakantie",
       "text": "holiday",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-maand",
       "text": "month",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-bellen",
       "text": "to phone",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-arm",
       "text": "poor",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-plan",
       "text": "plan",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-tafel",
       "text": "table",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-fles",
       "text": "bottle",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-minuut",
       "text": "minute",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-station",
       "text": "station",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-muziek",
       "text": "music",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-stok",
       "text": "stick",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-aardig",
       "text": "kind",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-dansfeest",
       "text": "dance party",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-fiets",
       "text": "bicycle",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-baas",
       "text": "boss",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-spelen",
       "text": "to play",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-paar",
       "text": "pair",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-bed",
       "text": "bed",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-dochter",
       "text": "daughter",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-hard",
       "text": "hard",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-open",
       "text": "open",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-badkamer",
       "text": "bathroom",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-woonkamer",
       "text": "living room",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-lief",
       "text": "sweet",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-eenzaam",
       "text": "lonely",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-thee",
       "text": "tea",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-belangrijk",
       "text": "important",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-dorp",
       "text": "village",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-ziek",
       "text": "ill",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-beginnen",
       "text": "to begin",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-stem",
       "text": "voice",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-fietsen",
       "text": "to cycle",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-deur",
       "text": "door",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-blauw",
       "text": "blue",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-dansen",
       "text": "to dance",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-vliegveld",
       "text": "airport",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-wit",
       "text": "white",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-appartement",
       "text": "apartment",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-vreemd",
       "text": "strange",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-café",
       "text": "café",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-wassen",
       "text": "to wash",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-weekend",
       "text": "weekend",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-ochtend",
       "text": "morning",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-gelukkig",
       "text": "happy",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-fruit",
       "text": "fruit",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-engels",
@@ -879,62 +1047,74 @@
     {
       "word_id": "noun-water",
       "text": "water",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-kort",
       "text": "short",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-ver",
       "text": "far",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-blond",
       "text": "blond",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-inwonen",
       "text": "to live with someone",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kus",
       "text": "kiss",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-sportschool",
       "text": "gym",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-brengen",
       "text": "to bring",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-website",
       "text": "website",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-luisteren",
       "text": "to listen",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-stad",
       "text": "city",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-gebruiken",
       "text": "to use",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-nederlands",
@@ -944,27 +1124,32 @@
     {
       "word_id": "noun-vliegtuig",
       "text": "aeroplane",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-reis",
       "text": "journey",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-verkopen",
       "text": "to sell",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-voet",
       "text": "foot",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-stappen",
       "text": "to step",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kaart",
@@ -974,227 +1159,272 @@
     {
       "word_id": "verb-leren",
       "text": "to learn",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-bruin",
       "text": "brown",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-mager",
       "text": "skinny",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-koek",
       "text": "biscuit",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-zoon",
       "text": "son",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-boterham",
       "text": "slice of bread",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-verbaasd",
       "text": "surprised",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-passen",
       "text": "to fit",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-telefoon",
       "text": "telephone",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-toilet",
       "text": "toilet",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-schoon",
       "text": "clean",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-lerares",
       "text": "teacher (female)",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-bushalte",
       "text": "bus stop",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-klas",
       "text": "class",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-groet",
       "text": "greeting",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-trouwen",
       "text": "to marry",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-studeren",
       "text": "to study",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-horloge",
       "text": "watch",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-trekken",
       "text": "to pull",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-televisie",
       "text": "television",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-antwoord",
       "text": "answer",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-jas",
       "text": "coat",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-jong",
       "text": "young",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-laten",
       "text": "to let",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-ongelukkig",
       "text": "unhappy",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-winter",
       "text": "winter",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-grijs",
       "text": "grey",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-meneer",
       "text": "sir",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-glimlachen",
       "text": "to smile",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-organisatie",
       "text": "organisation",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-internet",
       "text": "internet",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-antwoorden",
       "text": "to answer",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-hulp",
       "text": "help",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-land",
       "text": "country",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-bijzonder",
       "text": "remarkable",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-moeilijk",
       "text": "difficult",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-riem",
       "text": "belt",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-bedanken",
       "text": "to thank",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-zee",
       "text": "sea",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-zwemmen",
       "text": "to swim",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kat",
       "text": "cat",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-cadeau",
       "text": "present",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-hamburger",
       "text": "hamburger",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kilometer",
       "text": "kilometre",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-rechts",
       "text": "right",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-woning",
@@ -1204,32 +1434,38 @@
     {
       "word_id": "verb-besturen",
       "text": "to manage",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-wiskunde",
       "text": "maths",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-welkom",
       "text": "welcome",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-klaar",
       "text": "ready",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-avond",
       "text": "evening",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-weggaan",
       "text": "to go away",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-leraar",
@@ -1239,452 +1475,542 @@
     {
       "word_id": "adj-eigen",
       "text": "own",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-appel",
       "text": "apple",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-speciaal",
       "text": "special",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kantoor",
       "text": "office",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-huilen",
       "text": "to cry",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-groente",
       "text": "vegetable",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-sturen",
       "text": "to send",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-leven",
       "text": "life",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-moe",
       "text": "tired",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-product",
       "text": "product",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-sportief",
       "text": "sporty",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-boodschap",
       "text": "groceries",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-collega",
       "text": "colleague",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-park",
       "text": "park",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-hobby",
       "text": "hobby",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-dik",
       "text": "fat",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-stil",
       "text": "quiet",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-fabriek",
       "text": "factory",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-kosten",
       "text": "to cost",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-stoppen",
       "text": "to stop",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-lokaal",
       "text": "classroom",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-soort",
       "text": "sort",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-huishouden",
       "text": "household",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-vak",
       "text": "school subject",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-taxi",
       "text": "taxi",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-gezond",
       "text": "healthy",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-dragen",
       "text": "to carry",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-oma",
       "text": "grandma",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-aardappel",
       "text": "potato",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-adres",
       "text": "address",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-tram",
       "text": "tram",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-sport",
       "text": "sport",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-file",
       "text": "traffic jam",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-zon",
       "text": "sun",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-extra",
       "text": "extra",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kwart",
       "text": "quarter",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-weg",
       "text": "road",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-haven",
       "text": "harbour",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-lawaai",
       "text": "noise",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-perfect",
       "text": "perfect",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-euro",
       "text": "euro",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-gooien",
       "text": "to throw",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-zetten",
       "text": "to put",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-feest",
       "text": "party",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-informatie",
       "text": "information",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-ziekenhuis",
       "text": "hospital",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-balkon",
       "text": "balcony",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-melk",
       "text": "milk",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-links",
       "text": "left",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-voetbal",
       "text": "football",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-bier",
       "text": "beer",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-cola",
       "text": "cola",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-afspraak",
       "text": "appointment",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-geschiedenis",
       "text": "history",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-natuurkunde",
       "text": "physics",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-tennis",
       "text": "tennis",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-wachten",
       "text": "to wait",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-verbazen",
       "text": "to surprise",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-waar",
       "text": "true",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-echt",
       "text": "real",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-restaurant",
       "text": "restaurant",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-autorijden",
       "text": "to drive a car",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-favoriet",
       "text": "favourite",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-schoonmaken",
       "text": "to clean",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-vallen",
       "text": "to fall",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-vlees",
       "text": "meat",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-vraag",
       "text": "question",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-taal",
       "text": "language",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-vies",
       "text": "dirty",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-blijven",
       "text": "to stay",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-lijken",
       "text": "to look like",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-sinaasappel",
       "text": "orange (fruit)",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-ruimte",
       "text": "space",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-overstappen",
       "text": "to change trains",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-prijs",
       "text": "price",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-duur",
       "text": "expensive",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-dicht",
       "text": "closed",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-rijtjeshuis",
       "text": "terraced house",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-koud",
       "text": "cold",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-ruim",
       "text": "spacious",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-centrum",
       "text": "centre",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-duren",
       "text": "to last",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-relatie",
       "text": "relationship",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-slank",
       "text": "slim",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-leeg",
       "text": "empty",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-ei",
       "text": "egg",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-raam",
       "text": "window",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-straat",
       "text": "street",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-taart",
       "text": "cake",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-schijnen",
       "text": "to shine",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-leven",
@@ -1694,12 +2020,14 @@
     {
       "word_id": "verb-regenen",
       "text": "to rain",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-bloes",
       "text": "blouse",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-nerveus",
@@ -1709,162 +2037,194 @@
     {
       "word_id": "noun-papier",
       "text": "paper",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-benzine",
       "text": "petrol",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-chauffeur",
       "text": "driver",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-gewoon",
       "text": "ordinary",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-plezier",
       "text": "fun",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-boos",
       "text": "angry",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-geel",
       "text": "yellow",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-chocola",
       "text": "chocolate",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-pizza",
       "text": "pizza",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-uniform",
       "text": "uniform",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-dollar",
       "text": "dollar",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-radio",
       "text": "radio",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-afscheid",
       "text": "farewell",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-zwembad",
       "text": "swimming pool",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kleur",
       "text": "colour",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-vloer",
       "text": "floor",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-interessant",
       "text": "interesting",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-calorie",
       "text": "calorie",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-verbranden",
       "text": "to burn",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-ontmoeten",
       "text": "to meet",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-project",
       "text": "project",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-frisdrank",
       "text": "soft drink",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-metro",
       "text": "metro",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-noorden",
       "text": "north",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-webwinkel",
       "text": "online shop",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-idee",
       "text": "idea",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kerk",
       "text": "church",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-computer",
       "text": "computer",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-klant",
       "text": "customer",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-flat",
       "text": "block of flats",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-verdieping",
       "text": "storey",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-honger",
       "text": "hunger",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-poetsen",
@@ -1874,682 +2234,818 @@
     {
       "word_id": "noun-bord",
       "text": "plate",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-garage",
       "text": "garage",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-makelaar",
       "text": "estate agent",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-verhuizen",
       "text": "to move house",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-stroopwafel",
       "text": "syrup waffle",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-plannen",
       "text": "to plan",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-activiteit",
       "text": "activity",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-afvallen",
       "text": "to lose weight",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-strijken",
       "text": "to iron",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-foto",
       "text": "photo",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-docent",
       "text": "instructor",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-route",
       "text": "route",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-dokter",
       "text": "doctor",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kalender",
       "text": "calendar",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-supermarkt",
       "text": "supermarket",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kast",
       "text": "cupboard",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-druk",
       "text": "busy",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-patat",
       "text": "chips",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-feliciteren",
       "text": "to congratulate",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-jarig",
       "text": "having a birthday",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-verjaardag",
       "text": "birthday",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-berging",
       "text": "storage room",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-controleren",
       "text": "to check",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kam",
       "text": "comb",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-kammen",
       "text": "to comb",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-luis",
       "text": "louse",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-aankleden",
       "text": "to get dressed",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-achtertuin",
       "text": "back garden",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-afwas",
       "text": "washing-up",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-afwassen",
       "text": "to do the washing-up",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-afzuigkap",
       "text": "cooker hood",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-apparaat",
       "text": "appliance",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-bad",
       "text": "bath",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-bewoner",
       "text": "resident",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-dak",
       "text": "roof",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-deken",
       "text": "blanket",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-douchen",
       "text": "to shower",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-eetkamer",
       "text": "dining room",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-eettafel",
       "text": "dining table",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-fornuis",
       "text": "cooker",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-gordijn",
       "text": "curtain",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-handdoek",
       "text": "towel",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-huur",
       "text": "rent",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-huren",
       "text": "to rent",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kelder",
       "text": "cellar",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-keukenkast",
       "text": "kitchen cupboard",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kussen",
       "text": "pillow",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-laken",
       "text": "bed sheet",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-lamp",
       "text": "lamp",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-lift",
       "text": "lift",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-magnetron",
       "text": "microwave",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-meubel",
       "text": "piece of furniture",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-opruimen",
       "text": "to tidy up",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-oven",
       "text": "oven",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-plafond",
       "text": "ceiling",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-plank",
       "text": "shelf",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-repareren",
       "text": "to repair",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-rommel",
       "text": "mess",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-salontafel",
       "text": "coffee table",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-sleutel",
       "text": "key",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-stoel",
       "text": "chair",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-stof",
       "text": "dust",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-trap",
       "text": "stairs",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-verhuizing",
       "text": "house move",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-verwarming",
       "text": "heating",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-verwarmen",
       "text": "to heat",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-voordeur",
       "text": "front door",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-was",
       "text": "laundry",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-wasdroger",
       "text": "tumble dryer",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-waterkoker",
       "text": "kettle",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-wc",
       "text": "WC",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-woonplaats",
       "text": "place of residence",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-zolder",
       "text": "attic",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-spiegel",
       "text": "mirror",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-afval",
       "text": "rubbish",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-muur",
       "text": "wall",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-pan",
       "text": "pan",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-vork",
       "text": "fork",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-lepel",
       "text": "spoon",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-mes",
       "text": "knife",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-glas",
       "text": "glass",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kom",
       "text": "bowl",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-theelepel",
       "text": "teaspoon",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-eetlepel",
       "text": "tablespoon",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-doos",
       "text": "box",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-aardbei",
       "text": "strawberry",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-appelmoes",
       "text": "apple sauce",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-appeltaart",
       "text": "apple pie",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-avondeten",
       "text": "dinner",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-bakken",
       "text": "to bake",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-bakker",
       "text": "baker",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-boerenkool",
       "text": "kale",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-boon",
       "text": "bean",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-boter",
       "text": "butter",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-brood",
       "text": "bread",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-croissant",
       "text": "croissant",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-drank",
       "text": "drink",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-druif",
       "text": "grape",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-erwtensoep",
       "text": "pea soup",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-gehakt",
       "text": "minced meat",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-gerecht",
       "text": "dish",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-hagelslag",
       "text": "chocolate sprinkles",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-ham",
       "text": "ham",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-haring",
       "text": "herring",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-honing",
       "text": "honey",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-ingrediënt",
       "text": "ingredient",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-jam",
       "text": "jam",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kaas",
       "text": "cheese",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kip",
       "text": "chicken",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-klaarmaken",
       "text": "to prepare",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-knoflook",
       "text": "garlic",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-koken",
       "text": "to cook",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kok",
       "text": "cook",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kool",
       "text": "cabbage",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-lunch",
       "text": "lunch",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-lunchen",
       "text": "to have lunch",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-maaltijd",
       "text": "meal",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-olie",
       "text": "oil",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-ontbijt",
       "text": "breakfast",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-ontbijten",
       "text": "to have breakfast",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-pasta",
       "text": "pasta",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-peper",
       "text": "pepper",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-pudding",
       "text": "pudding",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-rijst",
       "text": "rice",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-rookworst",
       "text": "smoked sausage",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-salade",
       "text": "salad",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-sla",
       "text": "lettuce",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-slagroom",
       "text": "whipped cream",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-smaak",
       "text": "taste",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-smaken",
       "text": "to taste",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-smakelijk",
       "text": "appetising",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-soep",
       "text": "soup",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-stamppot",
       "text": "potato and vegetable mash",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-suiker",
       "text": "sugar",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-ui",
       "text": "onion",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-vis",
       "text": "fish",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-voedsel",
@@ -2559,82 +3055,98 @@
     {
       "word_id": "noun-wijn",
       "text": "wine",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-worst",
       "text": "sausage",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-wortel",
       "text": "carrot",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-zout",
       "text": "salt",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-zuur",
       "text": "sour",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-dorst",
       "text": "thirst",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-ober",
       "text": "waiter",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-fooi",
       "text": "tip",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-serveren",
       "text": "to serve",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-bestellen",
       "text": "to order",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-bestelling",
       "text": "order",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-vers",
       "text": "fresh",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-heet",
       "text": "hot",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-snijden",
       "text": "to cut",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-apotheek",
       "text": "pharmacy",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-apotheker",
       "text": "pharmacist",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-arts",
@@ -2644,532 +3156,638 @@
     {
       "word_id": "noun-bijsluiter",
       "text": "patient leaflet",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-bijwerking",
       "text": "side effect",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-bloed",
       "text": "blood",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-bloeden",
       "text": "to bleed",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-buik",
       "text": "belly",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-consult",
       "text": "consultation",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-dosering",
       "text": "dosage",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-duizeligheid",
       "text": "dizziness",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-genezen",
       "text": "to heal",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-gezondheid",
       "text": "health",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-griep",
       "text": "flu",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-hoesten",
       "text": "to cough",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-hoofdpijn",
       "text": "headache",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-huid",
       "text": "skin",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-keel",
       "text": "throat",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-koorts",
       "text": "fever",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-lichaam",
       "text": "body",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-maag",
       "text": "stomach",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-maagpijn",
       "text": "stomach ache",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-medicijn",
       "text": "medicine",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-medisch",
       "text": "medical",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-neus",
       "text": "nose",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-nek",
       "text": "neck",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-oor",
       "text": "ear",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-oorpijn",
       "text": "earache",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-paracetamol",
       "text": "paracetamol",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-patiënt",
       "text": "patient",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-pijn",
       "text": "pain",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-recept",
       "text": "prescription",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-rug",
       "text": "back",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-schouder",
       "text": "shoulder",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-slikken",
       "text": "to swallow",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-specialist",
       "text": "specialist",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-spreekuur",
       "text": "consulting hours",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-tand",
       "text": "tooth",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-teen",
       "text": "toe",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-vinger",
       "text": "finger",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-gewond",
       "text": "injured",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-wond",
       "text": "wound",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-ziekte",
       "text": "illness",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-zalf",
       "text": "ointment",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-zwanger",
       "text": "pregnant",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-neusspray",
       "text": "nasal spray",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-arm",
       "text": "arm",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-been",
       "text": "leg",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-hand",
       "text": "hand",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-hoofd",
       "text": "head",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-mond",
       "text": "mouth",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-gezicht",
       "text": "face",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-tong",
       "text": "tongue",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-ongezond",
       "text": "unhealthy",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-fit",
       "text": "fit",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-overgeven",
       "text": "to vomit",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-slaperig",
       "text": "sleepy",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-zuster",
       "text": "nurse",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-advertentie",
       "text": "advert",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-afdeling",
       "text": "department",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-agenda",
       "text": "diary",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-assistent",
       "text": "assistant",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-basisschool",
       "text": "primary school",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-bedrijf",
       "text": "company",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-beroep",
       "text": "profession",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-bureau",
       "text": "desk",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-cijfer",
       "text": "mark",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-cursus",
       "text": "course",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-directeur",
       "text": "director",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-ervaring",
       "text": "experience",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-fulltime",
       "text": "full-time",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-parttime",
       "text": "part-time",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-huiswerk",
       "text": "homework",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kennis",
       "text": "knowledge",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-loon",
       "text": "wages",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-manager",
       "text": "manager",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-medewerker",
       "text": "staff member",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-niveau",
       "text": "level",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-oefenen",
       "text": "to practise",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-ontslaan",
       "text": "to dismiss",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-opdracht",
       "text": "task",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-opleiding",
       "text": "training",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-pauze",
       "text": "break",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-personeel",
       "text": "staff",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-potlood",
       "text": "pencil",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-pen",
       "text": "pen",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-salaris",
       "text": "salary",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-schrift",
       "text": "exercise book",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-solliciteren",
       "text": "to apply for a job",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-stage",
       "text": "work placement",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-student",
       "text": "student",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-studie",
       "text": "studies",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-toets",
       "text": "test",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-universiteit",
       "text": "university",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-vergadering",
       "text": "meeting",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-vertalen",
       "text": "to translate",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-vertaling",
       "text": "translation",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-werkdag",
       "text": "working day",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-werkgever",
       "text": "employer",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-werkloos",
       "text": "unemployed",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-werknemer",
       "text": "employee",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-werkplek",
       "text": "workplace",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-werktijd",
       "text": "working hours",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-woordenboek",
       "text": "dictionary",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-uitleggen",
       "text": "to explain",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-uitleg",
       "text": "explanation",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-tekst",
       "text": "text",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-zin",
       "text": "sentence",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-betekenis",
       "text": "meaning",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-betekenen",
@@ -3179,1722 +3797,2066 @@
     {
       "word_id": "verb-inschrijven",
       "text": "to enrol",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-inschrijving",
       "text": "enrolment",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-succes",
       "text": "success",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-resultaat",
       "text": "result",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-moedertaal",
       "text": "mother tongue",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-slagen",
       "text": "to pass (an exam)",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-belasting",
       "text": "tax",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-douane",
       "text": "customs",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-formulier",
       "text": "form",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-gemeente",
       "text": "municipality",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-gemeentehuis",
       "text": "town hall",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-handtekening",
       "text": "signature",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-invullen",
       "text": "to fill in",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-loket",
       "text": "counter",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-paspoort",
       "text": "passport",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-politie",
       "text": "police",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-politieagent",
       "text": "police officer",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-post",
       "text": "post",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-postbode",
       "text": "postman",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-pakket",
       "text": "parcel",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-envelop",
       "text": "envelope",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-rekening",
       "text": "bill",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-rijbewijs",
       "text": "driving licence",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-wet",
       "text": "law",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-boete",
       "text": "fine",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-bibliotheek",
       "text": "library",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-aanmelden",
       "text": "to sign up",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-reserveren",
       "text": "to reserve",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-openingstijd",
       "text": "opening hours",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-ingang",
       "text": "entrance",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-uitgang",
       "text": "exit",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-datum",
       "text": "date",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-nummer",
       "text": "number",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-bericht",
       "text": "message",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-mail",
       "text": "email",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-mailen",
       "text": "to email",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-online",
       "text": "online",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-regel",
       "text": "rule",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-automobilist",
       "text": "motorist",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-bagage",
       "text": "luggage",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-brug",
       "text": "bridge",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-fietser",
       "text": "cyclist",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-gebouw",
       "text": "building",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-gracht",
       "text": "canal",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-halte",
       "text": "stop",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-hoofdstad",
       "text": "capital",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-hotel",
       "text": "hotel",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-hotelkamer",
       "text": "hotel room",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-markt",
       "text": "market",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-parkeren",
       "text": "to park",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-passagier",
       "text": "passenger",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-plein",
       "text": "square",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-provincie",
       "text": "province",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-reisbureau",
       "text": "travel agency",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-richting",
       "text": "direction",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-spoor",
       "text": "track",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-stoep",
       "text": "pavement",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-uitstappen",
       "text": "to get off",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-vertrek",
       "text": "departure",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-aankomst",
       "text": "arrival",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-aankomen",
       "text": "to arrive",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-vervoer",
       "text": "transport",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-verkeer",
       "text": "traffic",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-wijk",
       "text": "district",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-buurt",
       "text": "neighbourhood",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-camping",
       "text": "campsite",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-terras",
       "text": "terrace",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-toerist",
       "text": "tourist",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-koffer",
       "text": "suitcase",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-buitenland",
       "text": "abroad",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-buitenlands",
       "text": "foreign",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-grens",
       "text": "border",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-ongeluk",
       "text": "accident",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-pech",
       "text": "bad luck",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-boekwinkel",
       "text": "bookshop",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-cent",
       "text": "cent",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-gratis",
       "text": "free of charge",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-goedkoop",
       "text": "cheap",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kassa",
       "text": "checkout",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-maat",
       "text": "size",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-portemonnee",
       "text": "wallet",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-besparen",
       "text": "to economise",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-sparen",
       "text": "to save",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-verkoop",
       "text": "sale",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-verkoper",
       "text": "seller",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-winkelen",
       "text": "to go shopping",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-lenen",
       "text": "to borrow",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-terugbetalen",
       "text": "to pay back",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-uitgeven",
       "text": "to spend",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-waarde",
       "text": "value",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-zak",
       "text": "carrier bag",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-tas",
       "text": "bag",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-badpak",
       "text": "swimsuit",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-broek",
       "text": "trousers",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-handschoen",
       "text": "glove",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-jurk",
       "text": "dress",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kleding",
       "text": "clothing",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kous",
       "text": "stocking",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-muts",
       "text": "woolly hat",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-ondergoed",
       "text": "underwear",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-overhemd",
       "text": "shirt",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-pantoffel",
       "text": "slipper",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-paraplu",
       "text": "umbrella",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-rok",
       "text": "skirt",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-sjaal",
       "text": "scarf",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-vest",
       "text": "cardigan",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-bril",
       "text": "glasses",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-ring",
       "text": "ring",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-gymschoen",
       "text": "gym shoe",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-baby",
       "text": "baby",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-bruid",
       "text": "bride",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-bruiloft",
       "text": "wedding",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-buurman",
       "text": "neighbour (male)",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-buurvrouw",
       "text": "neighbour (female)",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-familielid",
       "text": "relative",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-gast",
       "text": "guest",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-gezin",
       "text": "nuclear family",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-geboorte",
       "text": "birth",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-opa",
       "text": "grandpa",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-huwelijk",
       "text": "marriage",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-jongen",
       "text": "boy",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kinderopvang",
       "text": "childcare",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-leeftijd",
       "text": "age",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-neef",
       "text": "cousin (male)",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-nicht",
       "text": "cousin (female)",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-oom",
       "text": "uncle",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-tante",
       "text": "aunt",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-oppas",
       "text": "babysitter",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-opvoeden",
       "text": "to bring up",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-persoon",
       "text": "person",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-scheiden",
       "text": "to divorce",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-scheiding",
       "text": "divorce",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-volwassene",
       "text": "adult",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-vriendschap",
       "text": "friendship",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-zoenen",
       "text": "to kiss",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-overlijden",
       "text": "to pass away",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-begrafenis",
       "text": "funeral",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-heer",
       "text": "gentleman",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-lid",
       "text": "member",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-club",
       "text": "club",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-dans",
       "text": "dance",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-feestdag",
       "text": "public holiday",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-film",
       "text": "film",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-hardlopen",
       "text": "to jog",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kermis",
       "text": "funfair",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kerst",
       "text": "Christmas",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-museum",
       "text": "museum",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-nieuwjaar",
       "text": "New Year",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-schaatsen",
       "text": "to ice-skate",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-sporten",
       "text": "to do sport",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-toneelstuk",
       "text": "stage play",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-voorstelling",
       "text": "performance",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-voetbalclub",
       "text": "football club",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-wandelen",
       "text": "to go for a walk",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-wandeling",
       "text": "walk",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-wedstrijd",
       "text": "match",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-uitgaan",
       "text": "to go out",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-vakantiedag",
       "text": "day off",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kunst",
       "text": "art",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-tekenen",
       "text": "to draw",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-speelgoed",
       "text": "toys",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-spel",
       "text": "game",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-journaal",
       "text": "news bulletin",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-krant",
       "text": "newspaper",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-trainen",
       "text": "to train",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-winnen",
       "text": "to win",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-verliezen",
       "text": "to lose",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-ontspannen",
       "text": "to relax",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-berg",
       "text": "mountain",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-bloem",
       "text": "flower",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-boom",
       "text": "tree",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-bos",
       "text": "forest",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-dier",
       "text": "animal",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-duin",
       "text": "dune",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-gras",
       "text": "grass",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-herfst",
       "text": "autumn",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-huisdier",
       "text": "pet",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-koe",
       "text": "cow",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-konijn",
       "text": "rabbit",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kou",
       "text": "cold weather",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-lente",
       "text": "spring",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-lucht",
       "text": "sky",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-maan",
       "text": "moon",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-mist",
       "text": "fog",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-natuur",
       "text": "nature",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-onweer",
       "text": "thunderstorm",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-storm",
       "text": "storm",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-paard",
       "text": "horse",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-plant",
       "text": "plant",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-regen",
       "text": "rain",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-rivier",
       "text": "river",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-seizoen",
       "text": "season",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-sneeuw",
       "text": "snow",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-sneeuwen",
       "text": "to snow",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-vogel",
       "text": "bird",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-vriezen",
       "text": "to freeze",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-waaien",
       "text": "to blow",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-weer",
       "text": "weather",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-wind",
       "text": "wind",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-wolk",
       "text": "cloud",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-zand",
       "text": "sand",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-zonnig",
       "text": "sunny",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-nat",
       "text": "wet",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-droog",
       "text": "dry",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-muis",
       "text": "mouse",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-dijk",
       "text": "dyke",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-ijs",
       "text": "ice",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-angst",
       "text": "fear",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-bezorgd",
       "text": "worried",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-dankbaar",
       "text": "grateful",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-eerlijk",
       "text": "honest",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-enthousiast",
       "text": "enthusiastic",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-gezellig",
       "text": "cosy",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-grappig",
       "text": "funny",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-heimwee",
       "text": "homesickness",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-jaloers",
       "text": "jealous",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-kalm",
       "text": "calm",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-nieuwsgierig",
       "text": "curious",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-ongerust",
       "text": "anxious",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-prettig",
       "text": "pleasant",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-saai",
       "text": "boring",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-schamen",
       "text": "to be ashamed",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-spannend",
       "text": "exciting",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-stress",
       "text": "stress",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-tevreden",
       "text": "satisfied",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-trots",
       "text": "proud",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-verliefd",
       "text": "in love",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-verrassing",
       "text": "surprise",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-vrolijk",
       "text": "cheerful",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-woedend",
       "text": "furious",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-zenuwachtig",
       "text": "nervous",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-vervelen",
       "text": "to be bored",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-verdriet",
       "text": "sorrow",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-geluk",
       "text": "luck",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-hopen",
       "text": "to hope",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-droom",
       "text": "dream",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-liefde",
       "text": "love",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-vertrouwen",
       "text": "to trust",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-dun",
       "text": "thin",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-duidelijk",
       "text": "clear",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-eenvoudig",
       "text": "simple",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-geschikt",
       "text": "suitable",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-gevaarlijk",
       "text": "dangerous",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-gemakkelijk",
       "text": "easy",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-handig",
       "text": "handy",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-hoog",
       "text": "high",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-laag",
       "text": "low",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-ingewikkeld",
       "text": "complicated",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-lelijk",
       "text": "ugly",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-donker",
       "text": "dark",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-modern",
       "text": "modern",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-mogelijk",
       "text": "possible",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-onmogelijk",
       "text": "impossible",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-oranje",
       "text": "orange (colour)",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-groen",
       "text": "green",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-zwart",
       "text": "black",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-precies",
       "text": "exact",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-prachtig",
       "text": "gorgeous",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-slecht",
       "text": "bad",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-sterk",
       "text": "strong",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-verkeerd",
       "text": "wrong",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-fout",
       "text": "mistake",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-vol",
       "text": "full",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-zwaar",
       "text": "heavy",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-zeker",
       "text": "sure",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-vrij",
       "text": "free",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-veilig",
       "text": "safe",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-warm",
       "text": "warm",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-langzaam",
       "text": "slow",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-verschillend",
       "text": "different",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-populair",
       "text": "popular",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-bekend",
       "text": "well-known",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-dagelijks",
       "text": "daily",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-geweldig",
       "text": "great",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-heerlijk",
       "text": "delicious",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-kapot",
       "text": "broken",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-advies",
       "text": "advice",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-afspreken",
       "text": "to arrange to meet",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-beantwoorden",
       "text": "to reply to",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-beleefd",
       "text": "polite",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-beschrijven",
       "text": "to describe",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-bespreken",
       "text": "to discuss",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-bedoelen",
       "text": "to mean (intend)",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-begroeten",
       "text": "to greet",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-beloven",
       "text": "to promise",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-gesprek",
       "text": "conversation",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-groeten",
       "text": "to say hello",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-herhalen",
       "text": "to repeat",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-informeren",
       "text": "to inform",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-klacht",
       "text": "complaint",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-klagen",
       "text": "to complain",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-leugen",
       "text": "lie",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-liegen",
       "text": "to tell a lie",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-melden",
       "text": "to report",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-reageren",
       "text": "to react",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-ruzie",
       "text": "quarrel",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-tellen",
       "text": "to count",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-uitnodigen",
       "text": "to invite",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-uitnodiging",
       "text": "invitation",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-uitspreken",
       "text": "to pronounce",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-verstaan",
       "text": "to understand (hear)",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-voorstellen",
       "text": "to introduce",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-vergeten",
       "text": "to forget",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-onthouden",
       "text": "to keep in mind",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-woord",
       "text": "word",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-mobiel",
       "text": "mobile phone",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-verhaal",
       "text": "story",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-voorbeeld",
       "text": "example",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-onderwerp",
       "text": "topic",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-reden",
       "text": "reason",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-aandoen",
       "text": "to switch on",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-uitdoen",
       "text": "to switch off",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-opendoen",
       "text": "to open the door",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-openen",
       "text": "to open",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-sluiten",
       "text": "to close",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-beslissen",
       "text": "to decide",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-beslissing",
       "text": "decision",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-verstoppen",
       "text": "to hide",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-bewegen",
       "text": "to move",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-gebeuren",
       "text": "to happen",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-halen",
       "text": "to fetch",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-herinneren",
       "text": "to remember",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-kiezen",
       "text": "to choose",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-keus",
       "text": "choice",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-lukken",
       "text": "to succeed",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-meenemen",
       "text": "to take along",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-missen",
       "text": "to miss",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-oplossen",
       "text": "to solve",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-oplossing",
       "text": "solution",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-opstaan",
       "text": "to get up",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-proberen",
       "text": "to try",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-regelen",
       "text": "to arrange",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-roken",
       "text": "to smoke",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-terugkomen",
       "text": "to come back",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-thuiskomen",
       "text": "to come home",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-veranderen",
       "text": "to change",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-verdienen",
       "text": "to earn",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-wennen",
       "text": "to get used to",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-wisselen",
       "text": "to exchange",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-zorgen",
       "text": "to take care of",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-zingen",
       "text": "to sing",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-voelen",
       "text": "to feel",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-delen",
       "text": "to share",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-storen",
       "text": "to disturb",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-ontmoeting",
@@ -4904,92 +5866,110 @@
     {
       "word_id": "verb-ontvangen",
       "text": "to receive",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-versturen",
       "text": "to post",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-bezorgen",
       "text": "to deliver",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-bezoeken",
       "text": "to visit",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-bezoek",
       "text": "visit",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-logeren",
       "text": "to stay the night",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "verb-reizen",
       "text": "to travel",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-begin",
       "text": "beginning",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-einde",
       "text": "end",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-halfuur",
       "text": "half an hour",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-kwartier",
       "text": "quarter of an hour",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-middag",
       "text": "afternoon",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-moment",
       "text": "moment",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-nacht",
       "text": "night",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-tijd",
       "text": "time",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-toekomst",
       "text": "future",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "noun-lunchpauze",
       "text": "lunch break",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-eerder",
       "text": "earlier",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     },
     {
       "word_id": "adj-tegenwoordig",
@@ -4999,7 +5979,8 @@
     {
       "word_id": "adj-vorig",
       "text": "previous",
-      "reviewed": false
+      "reviewed": true,
+      "review_source": "roundtrip"
     }
   ],
   "categories": [
