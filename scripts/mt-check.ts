@@ -5,6 +5,9 @@ export type MtLang = 'tr' | 'en';
 export const MT_LANGS: MtLang[] = ['tr', 'en'];
 export const DEFAULT_MAX_CHARS = 100_000;
 export const BATCH_SIZE = 128;
+export const TIMEOUT_MS = 30_000;
+export const USAGE =
+  'Usage: npm run mt-check -- [--dry-run] [--lang tr|en] [--release <n>] [--ids id1,id2] [--max-chars 100000]';
 export const ENDPOINT = 'https://translation.googleapis.com/language/translate/v2';
 
 export interface MtRow {
@@ -134,7 +137,7 @@ export function planRun(
 export async function translateAll(
   texts: string[],
   target: MtLang,
-  opts: { key: string; fetch: typeof fetch; budget: { cap: number; used: number } },
+  opts: { key: string; fetch: typeof fetch; budget: { cap: number; used: number }; timeoutMs?: number },
 ): Promise<string[]> {
   const out: string[] = [];
   const { budget } = opts;
@@ -144,11 +147,21 @@ export async function translateAll(
     if (budget.used + n > budget.cap) {
       throw new Error(`Character cap of ${budget.cap} reached after ${budget.used} characters; the rest was not sent.`);
     }
-    const res = await opts.fetch(ENDPOINT, {
-      method: 'POST',
-      headers: { 'content-type': 'application/json', 'x-goog-api-key': opts.key },
-      body: JSON.stringify({ q: batch, source: 'nl', target, format: 'text', model: 'nmt' }),
-    });
+    const ctl = new AbortController();
+    const timer = setTimeout(() => ctl.abort(), opts.timeoutMs ?? TIMEOUT_MS);
+    let res: Response;
+    try {
+      res = await opts.fetch(ENDPOINT, {
+        method: 'POST',
+        headers: { 'content-type': 'application/json', 'x-goog-api-key': opts.key },
+        body: JSON.stringify({ q: batch, source: 'nl', target, format: 'text', model: 'nmt' }),
+        signal: ctl.signal,
+      });
+    } catch {
+      throw new Error('Cloud Translation API request failed or timed out; no report was written.');
+    } finally {
+      clearTimeout(timer);
+    }
     budget.used += n;
     const body = (await res.json().catch(() => ({}))) as {
       error?: { message?: string };
@@ -217,4 +230,49 @@ export function renderReport(
     for (const r of bad) lines.push(`| ${cell(r.id)} | ${cell(r.dutch)} | ${cell(r.ours)} | ${cell(r.mt)} |  |`);
   }
   return lines.join('\n') + '\n';
+}
+
+export interface MtArgs {
+  dryRun: boolean;
+  lang?: MtLang;
+  release?: number;
+  ids?: string[];
+  cap: number;
+}
+
+export function parseArgs(argv: string[]): MtArgs {
+  const args = [...argv];
+  const dryAt = args.indexOf('--dry-run');
+  if (dryAt >= 0) args.splice(dryAt, 1);
+  const flag = (name: string): string | undefined => {
+    const at = args.indexOf(name);
+    if (at < 0) return undefined;
+    const value = args[at + 1];
+    if (value === undefined || value.trim() === '' || value.startsWith('--')) throw new Error(`${name} needs a value`);
+    args.splice(at, 2);
+    return value;
+  };
+  const lang = flag('--lang');
+  const release = flag('--release');
+  const ids = flag('--ids');
+  const max = flag('--max-chars');
+  if (args.length > 0) throw new Error(USAGE);
+  if (lang !== undefined && lang !== 'tr' && lang !== 'en') throw new Error('--lang must be tr or en');
+  if (release !== undefined && !/^[1-9]\d*$/.test(release)) throw new Error('--release must be a positive integer');
+  if (max !== undefined && !/^[1-9]\d*$/.test(max)) throw new Error('--max-chars must be a positive integer');
+  return {
+    dryRun: dryAt >= 0,
+    lang: lang as MtLang | undefined,
+    release: release ? Number(release) : undefined,
+    ids: ids?.split(',').map((i) => i.trim()),
+    cap: max ? Number(max) : DEFAULT_MAX_CHARS,
+  };
+}
+
+/** Returns the key for a live run, or throws; never reads anything but the two variables. */
+export function liveKey(env: Record<string, string | undefined>): string {
+  if (env.CI) throw new Error('mt-check sends text to Google and does not run in CI; use --dry-run');
+  const key = env.GOOGLE_TRANSLATE_API_KEY;
+  if (!key) throw new Error('GOOGLE_TRANSLATE_API_KEY is not set (README, "Machine-translation check")');
+  return key;
 }

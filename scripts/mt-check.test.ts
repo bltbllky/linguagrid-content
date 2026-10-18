@@ -8,7 +8,9 @@ import {
   ENDPOINT,
   buildRows,
   compare,
+  liveKey,
   loadRelease,
+  parseArgs,
   normalise,
   planRun,
   renderReport,
@@ -226,5 +228,50 @@ describe('planRun and runCheck', () => {
   it('names the report file', () => {
     assert.equal(reportPath('2026-10-18', false), 'review/mt-check/2026-10-18.md');
     assert.equal(reportPath('2026-10-18', true), 'review/mt-check/2026-10-18-rows.md');
+  });
+});
+
+describe('parseArgs and liveKey', () => {
+  it('parses flags and the default cap', () => {
+    assert.deepEqual(parseArgs(['--dry-run', '--lang', 'tr', '--ids', 'a, b', '--release', '2', '--max-chars', '50']), {
+      dryRun: true,
+      lang: 'tr',
+      release: 2,
+      ids: ['a', 'b'],
+      cap: 50,
+    });
+    assert.equal(parseArgs([]).cap, 100_000);
+  });
+
+  it('rejects a flag without a value instead of dropping it', () => {
+    for (const f of ['--ids', '--max-chars', '--lang', '--release']) {
+      assert.throws(() => parseArgs([f]), { message: `${f} needs a value` });
+    }
+    assert.throws(() => parseArgs(['--ids', '--dry-run']), { message: '--ids needs a value' });
+    assert.throws(() => parseArgs(['--ids', ' ']), { message: '--ids needs a value' });
+  });
+
+  it('rejects bad values and stray arguments', () => {
+    assert.throws(() => parseArgs(['--lang', 'de']), /--lang must be tr or en/);
+    assert.throws(() => parseArgs(['--max-chars', '0']), /positive integer/);
+    assert.throws(() => parseArgs(['--release', 'x']), /--release must be a positive integer/);
+    assert.throws(() => parseArgs(['oops']), /^Error: Usage|Usage: npm run mt-check/);
+  });
+
+  it('refuses a live run in CI and without a key', () => {
+    assert.throws(() => liveKey({ CI: 'true', GOOGLE_TRANSLATE_API_KEY: 'k' }), /does not run in CI/);
+    assert.throws(() => liveKey({}), /GOOGLE_TRANSLATE_API_KEY is not set/);
+    assert.equal(liveKey({ GOOGLE_TRANSLATE_API_KEY: 'k' }), 'k');
+  });
+});
+
+describe('timeout', () => {
+  it('aborts a hanging request with an error and no key in it', async () => {
+    const hang = ((_u: string, init: RequestInit) =>
+      new Promise((_r, rej) => init.signal?.addEventListener('abort', () => rej(new Error('aborted'))))) as unknown as typeof fetch;
+    await assert.rejects(
+      translateAll(['a'], 'tr', { key: 'test-key', fetch: hang, budget: { cap: 10, used: 0 }, timeoutMs: 20 }),
+      (e: Error) => /timed out/.test(e.message) && !e.message.includes('test-key'),
+    );
   });
 });
