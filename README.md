@@ -32,6 +32,18 @@ Before each release, 50 round-trip-accepted words per language are drawn at rand
 person who reads the language. More than one error leaves that language out of the release and resets its round-trip
 acceptances for the affected level (`docs/release/content-check.md` in the app repository).
 
+## Machine-translation check (ADR-014)
+
+After the round trip, and for single rows where review is stuck, `npm run mt-check` sends each released word's Dutch text
+(the lemma, with de/het for nouns) to Google Cloud Translation, NL→TR and NL→EN, and writes only the mismatches with our
+text to `review/mt-check/<date>.md` (`--ids id1,id2` for stuck rows; `--lang`, `--release`). Machine translation is a
+review hint, never content: nothing it returns is written into `data/` or a release. The content editor triages every
+mismatch; a real problem becomes a finding for the owner, as in step 2 above.
+
+The key comes only from `GOOGLE_TRANSLATE_API_KEY` in your shell: never commit it, never put it in a GitHub secret, and
+restrict it to the Cloud Translation API. A run stops before it would send more than `--max-chars` characters (default
+100,000; the free tier is 500,000 a month). `npm run mt-check -- --dry-run` shows the plan without a key or network.
+
 ## Release
 
 `npm run release` writes `release/<version>/` and bumps `content_version` in `manifest.json`:
