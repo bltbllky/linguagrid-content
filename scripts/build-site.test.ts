@@ -20,4 +20,17 @@ describe('buildSite', () => {
     assert.ok(existsSync(join(out, 'data', 'words.json')));
     assert.ok(!existsSync(join(out, 'privacy')));
   });
+
+  it('publishes the Pages root and the support pages', () => {
+    const root = mkdtempSync(join(tmpdir(), 'lgc-'));
+    mkdirSync(join(root, 'support'));
+    writeFileSync(join(root, 'index.html'), '<h1>LinguaGrid</h1>');
+    writeFileSync(join(root, 'support', 'en.html'), '<h1>Support</h1>');
+    writeFileSync(join(root, 'manifest.json'), '{}');
+    const out = join(root, 'public');
+
+    assert.deepEqual(buildSite(root, out), ['index.html', 'manifest.json', 'support']);
+    assert.ok(existsSync(join(out, 'index.html')));
+    assert.ok(existsSync(join(out, 'support', 'en.html')));
+  });
 });
