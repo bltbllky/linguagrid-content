@@ -30,13 +30,18 @@ for (const p of planRun(rows, cap)) {
 if (dryRun) {
   console.log('Dry run: nothing was sent and no file was written.');
 } else {
+  try {
+    process.loadEnvFile(join(root, '.env'));
+  } catch (e) {
+    if ((e as NodeJS.ErrnoException).code !== 'ENOENT') throw e;
+  }
   const key = liveKey(process.env);
   const { results, chars } = await runCheck(rows, { key, fetch, cap });
   const now = new Date();
   const pad = (n: number) => String(n).padStart(2, '0');
   const date = `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())}`;
-  const path = reportPath(date, ids !== undefined);
+  const path = reportPath(date, true);
   mkdirSync(join(root, 'review', 'mt-check'), { recursive: true });
   writeFileSync(join(root, path), renderReport({ date, version: release.version, chars, ids }, results));
-  console.log(`Wrote ${path}: ${results.filter((r) => r.cls === 'mismatch').length} mismatches`);
+  console.log(`Wrote ${path}: ${new Set(results.map((r) => r.id)).size} rows`);
 }
