@@ -4,23 +4,23 @@ import { join } from 'node:path';
 export type MtLang = 'tr' | 'en';
 export const MT_LANGS: MtLang[] = ['tr', 'en'];
 export const DEFAULT_MAX_CHARS = 100_000;
-export const BATCH_SIZE = 128;
+export const BATCH_SIZE = 50;
+export const RETRY_WAITS_MS = [1000, 2000, 4000];
 export const TIMEOUT_MS = 30_000;
 export const USAGE =
-  'Usage: npm run mt-check -- [--dry-run] [--lang tr|en] [--release <n>] [--ids id1,id2] [--max-chars 100000]';
-export const ENDPOINT = 'https://translation.googleapis.com/language/translate/v2';
+  'Usage: npm run mt-check -- --ids id1,id2 [--dry-run] [--lang tr|en] [--release <n>] [--max-chars 100000]';
+export const TARGETS: Record<MtLang, string> = { tr: 'TR', en: 'EN-GB' };
+
+export function endpointFor(key: string): string {
+  return key.endsWith(':fx') ? 'https://api-free.deepl.com/v2/translate' : 'https://api.deepl.com/v2/translate';
+}
 
 export interface MtRow {
   id: string;
   dutch: string;
   ours: string;
 }
-export type MtClass = 'match' | 'partial' | 'mismatch';
-export interface MtResult extends MtRow {
-  lang: MtLang;
-  mt: string;
-  cls: MtClass;
-}
+export type MtResult = MtRow & { lang: MtLang; mt: string };
 
 interface Word {
   id: string;
@@ -76,40 +76,6 @@ export function buildRows(release: Release, lang: MtLang, ids?: string[]): MtRow
   return rows;
 }
 
-export function normalise(text: string, lang: MtLang): string {
-  let t = text.normalize('NFC').toLocaleLowerCase(lang).replace(/\([^)]*\)/g, ' ');
-  t = t.trim().replace(/[.!?]+$/, '');
-  if (lang === 'en') t = t.replace(/^(to|the|an|a) /, '');
-  return t.replace(/\s+/g, ' ').trim();
-}
-
-const parts = (text: string, lang: MtLang): string[] =>
-  text
-    .split(/[,;/]/)
-    .map((p) => normalise(p, lang))
-    .filter(Boolean);
-
-function containsRun(hay: string[], needle: string[]): boolean {
-  for (let i = 0; i + needle.length <= hay.length; i++) {
-    if (needle.every((w, j) => hay[i + j] === w)) return true;
-  }
-  return false;
-}
-
-export function compare(ours: string, mt: string, lang: MtLang): MtClass {
-  const a = parts(ours, lang);
-  const b = parts(mt, lang);
-  if (a.some((x) => b.includes(x))) return 'match';
-  for (const x of a) {
-    for (const y of b) {
-      const xw = x.split(' ');
-      const yw = y.split(' ');
-      if (containsRun(yw, xw) || containsRun(xw, yw)) return 'partial';
-    }
-  }
-  return 'mismatch';
-}
-
 export function countChars(texts: string[]): number {
   return texts.reduce((sum, t) => sum + [...t].length, 0);
 }
@@ -134,54 +100,75 @@ export function planRun(
   return plan;
 }
 
+const wait = (ms: number) => new Promise<void>((resolve) => setTimeout(resolve, ms));
+
 export async function translateAll(
   texts: string[],
   target: MtLang,
-  opts: { key: string; fetch: typeof fetch; budget: { cap: number; used: number }; timeoutMs?: number },
+  opts: {
+    key: string;
+    fetch: typeof fetch;
+    budget: { cap: number; used: number };
+    timeoutMs?: number;
+    sleep?: (ms: number) => Promise<void>;
+  },
 ): Promise<string[]> {
   const out: string[] = [];
   const { budget } = opts;
+  const sleep = opts.sleep ?? wait;
   for (let i = 0; i < texts.length; i += BATCH_SIZE) {
     const batch = texts.slice(i, i + BATCH_SIZE);
     const n = countChars(batch);
     if (budget.used + n > budget.cap) {
       throw new Error(`Character cap of ${budget.cap} reached after ${budget.used} characters; the rest was not sent.`);
     }
-    const ctl = new AbortController();
-    const timer = setTimeout(() => ctl.abort(), opts.timeoutMs ?? TIMEOUT_MS);
-    let res: Response;
-    try {
-      res = await opts.fetch(ENDPOINT, {
-        method: 'POST',
-        headers: { 'content-type': 'application/json', 'x-goog-api-key': opts.key },
-        body: JSON.stringify({ q: batch, source: 'nl', target, format: 'text', model: 'nmt' }),
-        signal: ctl.signal,
-      });
-    } catch {
-      throw new Error('Cloud Translation API request failed or timed out; no report was written.');
-    } finally {
-      clearTimeout(timer);
+    for (let attempt = 0; ; attempt++) {
+      const ctl = new AbortController();
+      const timer = setTimeout(() => ctl.abort(), opts.timeoutMs ?? TIMEOUT_MS);
+      let res: Response;
+      try {
+        res = await opts.fetch(endpointFor(opts.key), {
+          method: 'POST',
+          headers: { 'content-type': 'application/json', authorization: `DeepL-Auth-Key ${opts.key}` },
+          body: JSON.stringify({ text: batch, source_lang: 'NL', target_lang: TARGETS[target] }),
+          signal: ctl.signal,
+        });
+      } catch {
+        throw new Error('DeepL API request failed or timed out; no report was written.');
+      } finally {
+        clearTimeout(timer);
+      }
+      if (res.status === 456) {
+        throw new Error(
+          'DeepL quota exceeded (456): the monthly character limit is used up; nothing more was sent.',
+        );
+      }
+      const body = (await res.json().catch(() => ({}))) as {
+        message?: string;
+        translations?: { text: string }[];
+      };
+      if (!res.ok) {
+        if ((res.status === 429 || res.status >= 500) && attempt < RETRY_WAITS_MS.length) {
+          await sleep(RETRY_WAITS_MS[attempt]);
+          continue;
+        }
+        throw new Error(`DeepL API error ${res.status}: ${body.message ?? res.statusText}`);
+      }
+      const got = body.translations ?? [];
+      if (got.length !== batch.length) {
+        throw new Error(`DeepL API returned ${got.length} translations for ${batch.length} texts`);
+      }
+      budget.used += n;
+      out.push(...got.map((t) => t.text));
+      break;
     }
-    budget.used += n;
-    const body = (await res.json().catch(() => ({}))) as {
-      error?: { message?: string };
-      data?: { translations?: { translatedText: string }[] };
-    };
-    if (!res.ok) {
-      throw new Error(`Cloud Translation API error ${res.status}: ${body.error?.message ?? res.statusText}`);
-    }
-    const got = body.data?.translations ?? [];
-    if (got.length !== batch.length) {
-      throw new Error(`Cloud Translation API returned ${got.length} translations for ${batch.length} texts`);
-    }
-    out.push(...got.map((t) => t.translatedText));
   }
   return out;
 }
 
 export async function runCheck(
   rows: Partial<Record<MtLang, MtRow[]>>,
-  opts: { key: string; fetch: typeof fetch; cap: number },
+  opts: { key: string; fetch: typeof fetch; cap: number; sleep?: (ms: number) => Promise<void> },
 ): Promise<{ results: MtResult[]; chars: number }> {
   const budget = { cap: opts.cap, used: 0 };
   const results: MtResult[] = [];
@@ -191,9 +178,9 @@ export async function runCheck(
     const mts = await translateAll(
       r.map((x) => x.dutch),
       lang,
-      { key: opts.key, fetch: opts.fetch, budget },
+      { key: opts.key, fetch: opts.fetch, budget, sleep: opts.sleep },
     );
-    r.forEach((row, i) => results.push({ ...row, lang, mt: mts[i], cls: compare(row.ours, mts[i], lang) }));
+    r.forEach((row, i) => results.push({ ...row, lang, mt: mts[i] }));
   }
   return { results, chars: budget.used };
 }
@@ -208,26 +195,25 @@ export function renderReport(
   meta: { date: string; version: number; chars: number; ids?: string[] },
   results: MtResult[],
 ): string {
-  const langs = MT_LANGS.filter((l) => results.some((r) => r.lang === l));
-  const count = (l: MtLang, c: MtClass) => results.filter((r) => r.lang === l && r.cls === c).length;
+  const ids = [...new Set(results.map((r) => r.id))];
+  const find = (id: string, lang: MtLang) => results.find((r) => r.id === id && r.lang === lang);
   const lines = [
-    `# Machine-translation check ${meta.date}`,
+    `# DeepL second opinion ${meta.date}`,
     '',
-    'Machine translated: every text in the "MT" column is an automatic translation from Google Translate (Cloud Translation API, model nmt). It is a review hint for the content editor, never content (ADR-014).',
+    'Machine translated by DeepL: every "DeepL" text below is an automatic translation (DeepL API, source NL). It is advisory context for a question to the owner, never a verdict and never content (ADR-015).',
     '',
-    `Release ${meta.version} · ${meta.chars} characters sent · source nl${meta.ids ? ` · rows: ${meta.ids.join(', ')}` : ''}`,
+    `Release ${meta.version} · ${meta.chars} characters sent${meta.ids ? ` · rows: ${meta.ids.join(', ')}` : ''}`,
     '',
-    ...langs.map((l) => `- ${l}: ${count(l, 'match')} match, ${count(l, 'partial')} partial, ${count(l, 'mismatch')} mismatch`),
+    '| id | Dutch sent | our TR | DeepL TR | our EN | DeepL EN |',
+    '|---|---|---|---|---|---|',
   ];
-  for (const l of langs) {
-    const bad = results.filter((r) => r.lang === l && r.cls === 'mismatch');
-    lines.push('', `## ${l} mismatches`, '');
-    if (bad.length === 0) {
-      lines.push('None.');
-      continue;
-    }
-    lines.push('| id | Dutch sent | our text | MT | triage |', '|---|---|---|---|---|');
-    for (const r of bad) lines.push(`| ${cell(r.id)} | ${cell(r.dutch)} | ${cell(r.ours)} | ${cell(r.mt)} |  |`);
+  for (const id of ids) {
+    const tr = find(id, 'tr');
+    const en = find(id, 'en');
+    const dutch = (tr ?? en)?.dutch ?? '';
+    lines.push(
+      `| ${[id, dutch, tr?.ours ?? '-', tr?.mt ?? '-', en?.ours ?? '-', en?.mt ?? '-'].map(cell).join(' | ')} |`,
+    );
   }
   return lines.join('\n') + '\n';
 }
@@ -236,7 +222,7 @@ export interface MtArgs {
   dryRun: boolean;
   lang?: MtLang;
   release?: number;
-  ids?: string[];
+  ids: string[];
   cap: number;
 }
 
@@ -257,6 +243,9 @@ export function parseArgs(argv: string[]): MtArgs {
   const ids = flag('--ids');
   const max = flag('--max-chars');
   if (args.length > 0) throw new Error(USAGE);
+  if (ids === undefined) {
+    throw new Error('--ids is required: mt-check reads only the rows the content editor marks for the owner');
+  }
   if (lang !== undefined && lang !== 'tr' && lang !== 'en') throw new Error('--lang must be tr or en');
   if (release !== undefined && !/^[1-9]\d*$/.test(release)) throw new Error('--release must be a positive integer');
   if (max !== undefined && !/^[1-9]\d*$/.test(max)) throw new Error('--max-chars must be a positive integer');
@@ -264,15 +253,15 @@ export function parseArgs(argv: string[]): MtArgs {
     dryRun: dryAt >= 0,
     lang: lang as MtLang | undefined,
     release: release ? Number(release) : undefined,
-    ids: ids?.split(',').map((i) => i.trim()),
+    ids: ids.split(',').map((i) => i.trim()),
     cap: max ? Number(max) : DEFAULT_MAX_CHARS,
   };
 }
 
 /** Returns the key for a live run, or throws; never reads anything but the two variables. */
 export function liveKey(env: Record<string, string | undefined>): string {
-  if (env.CI) throw new Error('mt-check sends text to Google and does not run in CI; use --dry-run');
-  const key = env.GOOGLE_TRANSLATE_API_KEY;
-  if (!key) throw new Error('GOOGLE_TRANSLATE_API_KEY is not set (README, "Machine-translation check")');
+  if (env.CI) throw new Error('mt-check sends text to DeepL and does not run in CI; use --dry-run');
+  const key = env.DEEPL_API_KEY;
+  if (!key) throw new Error('DEEPL_API_KEY is not set (README, "Machine-translation check")');
   return key;
 }

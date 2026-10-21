@@ -32,17 +32,20 @@ Before each release, 50 round-trip-accepted words per language are drawn at rand
 person who reads the language. More than one error leaves that language out of the release and resets its round-trip
 acceptances for the affected level (`docs/release/content-check.md` in the app repository).
 
-## Machine-translation check (ADR-014)
+## Machine-translation check (ADR-014, ADR-015)
 
-After the round trip, and for single rows where review is stuck, `npm run mt-check` sends each released word's Dutch text
-(the lemma, with de/het for nouns) to Google Cloud Translation, NL→TR and NL→EN, and writes only the mismatches with our
-text to `review/mt-check/<date>.md` (`--ids id1,id2` for stuck rows; `--lang`, `--release`). Machine translation is a
-review hint, never content: nothing it returns is written into `data/` or a release. The content editor triages every
-mismatch; a real problem becomes a finding for the owner, as in step 2 above.
+`npm run mt-check -- --ids id1,id2` asks DeepL for a second opinion on the rows the content editor hands to the owner. It
+sends only the Dutch text of those rows (the lemma, with de/het for nouns), NL→TR and NL→EN, and writes
+`review/mt-check/<date>-rows.md` with our text and DeepL's reading side by side. The reading is advisory context for the
+question to the owner: it flags nothing, gives no verdict and is never written into `data/` or a release. There is no
+full-release run.
 
-The key comes only from `GOOGLE_TRANSLATE_API_KEY` in your shell: never commit it, never put it in a GitHub secret, and
-restrict it to the Cloud Translation API. A run stops before it would send more than `--max-chars` characters (default
-100,000; the free tier is 500,000 a month). `npm run mt-check -- --dry-run` shows the plan without a key or network.
+Setup, once: copy your DeepL API key into a file named `.env` in the root of this repository, one line,
+`DEEPL_API_KEY=your-key` (the file is git-ignored; never commit the key or put it in a GitHub secret). A key ending in `:fx`
+is a Free key and uses the Free host; any other key uses the Pro host. Check the plan first with
+`npm run mt-check -- --dry-run --ids id1,id2` (no key, no network), then run it without `--dry-run`. A run stops before it
+would send more than `--max-chars` characters (default 100,000; the Free plan allows 500,000 a month and then stops with an
+error, never a bill). Only public Dutch words are sent; never send anything else.
 
 ## Release
 
