@@ -1,7 +1,22 @@
 import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+import { join } from 'node:path';
 import { describe, it } from 'node:test';
 
-import { lemmaCounts, lemmaRanks, parseLeipzigWords, readKaikki } from './b1-pool.ts';
+import {
+  B1_BAND,
+  buildPool,
+  calibration,
+  lemmaCounts,
+  lemmaRanks,
+  parseLeipzigWords,
+  poolCounts,
+  rankBand,
+  readKaikki,
+  selectB1,
+  type PoolRow,
+} from './b1-pool.ts';
+import type { Word } from './validate.ts';
 
 const entry = (word: string, pos: string, senses: object[], gender?: string) =>
   JSON.stringify({
@@ -71,5 +86,109 @@ describe('lemmaCounts and lemmaRanks', () => {
   it('ranks by count, ties alphabetical', () => {
     const ranks = lemmaRanks(new Map([['b', 2], ['c', 9], ['a', 2]]));
     assert.deepEqual([...ranks], [['c', 1], ['a', 2], ['b', 3]]);
+  });
+});
+
+describe('buildPool', () => {
+  const lemmas = [
+    ['noun', 'huis', 'n'],
+    ['noun', 'de', 'n'],
+    ['noun', 'aaaaaaaaaaaaa', 'n'],
+    ['noun', 'kantoor-gebouw', 'n'],
+    ['noun', "d'r", 'n'],
+    ['noun', 'notinopentaal', 'n'],
+    ['noun', 'liveword', 'n'],
+    ['noun', 'excluded', 'n'],
+    ['noun', 'dialect', 'n'],
+    ['noun', 'plural', 'p'],
+    ['noun', 'faraway', 'n'],
+    ['noun', 'twopos', 'm'],
+    ['verb', 'twopos', ''],
+    ['verb', 'liveword', ''],
+  ].map(([pos, word, g]) => entry(word, pos, [{ tags: word === 'dialect' ? ['dialectal'] : [] }], g || undefined));
+  const mixed = entry('mixed', 'noun', [{ tags: ['dialectal'] }, { tags: [] }], 'n');
+  const reflexive = entry('reflexive', 'verb', [{ tags: ['reflexive'] }]);
+  const index = readKaikki([...lemmas, mixed, reflexive]);
+  const words = ['huis', 'de', 'aaaaaaaaaaaaa', 'kantoor-gebouw', "d'r", 'notinopentaal', 'liveword', 'excluded', 'dialect',
+    'plural', 'faraway', 'twopos', 'reflexive', 'mixed'];
+  const ranks = new Map(words.map((w, i) => [w, i + 1]));
+  ranks.set('faraway', 500);
+  const openTaal = new Set(words.filter((w) => w !== 'notinopentaal'));
+  const live = { lemmas: new Set(['liveword']), excludedIds: new Set(['noun-excluded']) };
+  const pool = buildPool(ranks, index, openTaal, live, { min: 1, max: 100 });
+
+  it('keeps only rows passing C1-C5 and sorts by rank then pos', () => {
+    assert.deepEqual(
+      pool.map((r) => r.id),
+      ['noun-huis', 'noun-twopos', 'verb-twopos', 'noun-mixed'],
+    );
+  });
+  it('gives rank and gender', () => {
+    assert.deepEqual(pool[0], { id: 'noun-huis', lemma_nl: 'huis', pos: 'noun', rank: 1, gender: 'n' });
+    assert.equal(pool[2].gender, null);
+  });
+  it('drops ranks outside the band', () => {
+    assert.ok(!buildPool(ranks, index, openTaal, live, { min: 5, max: 100 }).some((r) => r.id === 'noun-huis'));
+    assert.deepEqual(buildPool(ranks, index, openTaal, live, { min: 1, max: 1 }).map((r) => r.id), ['noun-huis']);
+  });
+  it('counts per pos and band', () => {
+    const counts = poolCounts([
+      { id: 'a', lemma_nl: 'a', pos: 'noun', rank: 3000, gender: null },
+      { id: 'b', lemma_nl: 'b', pos: 'verb', rank: 5000, gender: null },
+      { id: 'c', lemma_nl: 'c', pos: 'noun', rank: 8000, gender: null },
+    ]);
+    assert.deepEqual(counts.pos, { noun: 2, verb: 1, adj: 0 });
+    assert.deepEqual(counts.band, { '3-5k': 1, '5-8k': 1, '8-10k': 1 });
+  });
+  it('names rank bands', () => {
+    assert.equal(rankBand(4999), '3-5k');
+    assert.equal(rankBand(5000), '5-8k');
+    assert.equal(rankBand(8000), '8-10k');
+  });
+});
+
+describe('selectB1', () => {
+  const row = (pos: 'noun' | 'adj', lemma: string): PoolRow => ({
+    id: `${pos}-${lemma}`,
+    lemma_nl: lemma,
+    pos,
+    rank: 1,
+    gender: null,
+  });
+  const pool = [row('noun', 'x'), row('noun', 'y'), row('adj', 'y')];
+  it('returns B1 own words in the order of the ids', () => {
+    assert.deepEqual(selectB1(pool, ['noun-y', 'noun-x']), [
+      { id: 'noun-y', lemma_nl: 'y', pos: 'noun', cefr: 'B1', source: 'own' },
+      { id: 'noun-x', lemma_nl: 'x', pos: 'noun', cefr: 'B1', source: 'own' },
+    ]);
+  });
+  it('rejects ids outside the pool and a lemma twice', () => {
+    assert.throws(() => selectB1(pool, ['noun-z']), /Not in the B1 pool: noun-z/);
+    assert.throws(() => selectB1(pool, ['noun-y', 'adj-y']), /Lemma twice in the selection: y/);
+  });
+});
+
+describe('calibration', () => {
+  const w = (lemma: string, cefr: 'A1' | 'A2'): Word => ({
+    id: `noun-${lemma}`,
+    lemma_nl: lemma,
+    pos: 'noun',
+    cefr,
+    source: 'nt2lex',
+  });
+  it('gives nearest-rank percentiles and counts words without a rank', () => {
+    const ranks = new Map(Array.from({ length: 10 }, (_, i) => [`w${i + 1}`, (i + 1) * 100]));
+    const words = [...Array.from({ length: 10 }, (_, i) => w(`w${i + 1}`, 'A2')), w('none', 'A2'), w('w1', 'A1')];
+    const [a1, a2] = calibration(ranks, words);
+    assert.deepEqual(a2, { level: 'A2', n: 10, median: 500, p75: 800, p90: 900, missing: 1 });
+    assert.deepEqual(a1, { level: 'A1', n: 1, median: 100, p75: 100, p90: 100, missing: 0 });
+  });
+});
+
+describe('criteria text', () => {
+  it('contains the band numbers the code uses', () => {
+    const text = readFileSync(join(import.meta.dirname, '..', 'data', 'b1', 'selection-criteria.md'), 'utf8');
+    assert.ok(text.includes(B1_BAND.min.toLocaleString('en-US')));
+    assert.ok(text.includes(B1_BAND.max.toLocaleString('en-US')));
   });
 });
