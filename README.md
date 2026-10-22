@@ -32,6 +32,14 @@ Before each release, 50 round-trip-accepted words per language are drawn at rand
 person who reads the language. More than one error leaves that language out of the release and resets its round-trip
 acceptances for the affected level (`docs/release/content-check.md` in the app repository).
 
+## Staged levels (B1)
+
+B1 words are collected before the app can show them (owner decision 2026-10-18; selected from open sources, owner decision 2026-10-21). They live in `data/b1/` with the same files
+and shapes as the live data, and no release reads them: `npm run release` uses only `data/words.json` and refuses any level
+other than A1 and A2. `npm run validate -- --stage b1` checks the staged files against the live ones: B1 level, own source,
+no lemma that is already an A1, A2 or B1 word, B1-only categories, and every live rule. B1 is released by its M3 task, which
+moves `data/b1/` into the live files.
+
 ## Machine-translation check (ADR-014, ADR-015)
 
 `npm run mt-check -- --ids id1,id2` asks DeepL for a second opinion on the rows the content editor hands to the owner. It

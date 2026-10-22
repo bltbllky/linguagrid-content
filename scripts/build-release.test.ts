@@ -25,6 +25,14 @@ function bilingual(englishReviewed: string[]): Content {
 const both = ['noun-tandarts', 'verb-lopen'];
 
 describe('buildRelease', () => {
+  it('blocks a live word above A2, with or without --allow-partial', () => {
+    const content = validContent();
+    content.words[0].cefr = 'B1';
+    for (const allowPartial of [false, true]) {
+      assert.throws(() => buildRelease(content, { minimums: {}, allowPartial }), /data\/words.json holds B1 words \(1\)/);
+    }
+  });
+
   it('includes only reviewed words and bumps the content version', () => {
     const release = buildRelease(validContent(), { minimums: {}, allowPartial: false });
     assert.equal(release.manifest.content_version, 2);

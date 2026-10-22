@@ -15,6 +15,9 @@ export interface Release {
   excluded: string[];
 }
 
+/** Levels the app can show. B1 is staged in data/b1 until its M3 task (US-022). */
+export const RELEASED_LEVELS: readonly string[] = ['A1', 'A2'];
+
 const json = (value: unknown) => JSON.stringify(value, null, 2) + '\n';
 
 /** Words below `minimums` per level, as "A1: 12 reviewed <noun> (minimum 400)". */
@@ -34,6 +37,11 @@ function shortfalls(words: Content['words'], minimums: ReleaseOptions['minimums'
  * The app downloads these files when the manifest's content_version is newer than its own.
  */
 export function buildRelease(content: Content, { minimums, allowPartial }: ReleaseOptions): Release {
+  const unreleased = content.words.filter((w) => !RELEASED_LEVELS.includes(w.cefr));
+  if (unreleased.length) {
+    const levels = [...new Set(unreleased.map((w) => w.cefr))].join('/');
+    throw new Error(`Release blocked — data/words.json holds ${levels} words (${unreleased.length}); B1 is released by its M3 task (US-022)`);
+  }
   const turkish = new Set(content.translations.tr.words.filter((t) => t.reviewed).map((t) => t.word_id));
   const reviewed = new Set(content.annotations.filter((a) => a.reviewed && turkish.has(a.word_id)).map((a) => a.word_id));
   const words = content.words.filter((w) => reviewed.has(w.id));
