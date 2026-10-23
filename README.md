@@ -39,6 +39,8 @@ and shapes as the live data, and no release reads them: `npm run release` uses o
 other than A1 and A2. `npm run validate -- --stage b1` checks the staged files against the live ones: B1 level, own source,
 no lemma that is already an A1, A2 or B1 word, B1-only categories, and every live rule. B1 is released by its M3 task, which
 moves `data/b1/` into the live files.
+Review sheets for B1: `npm run export-review -- [--lang en] --stage b1 b1`; imports take `--stage b1` too and write only
+`data/b1/` (a word the owner removes also goes to `data/excluded.json` and leaves `data/b1/selection.json`).
 
 ## Machine-translation check (ADR-014, ADR-015)
 
