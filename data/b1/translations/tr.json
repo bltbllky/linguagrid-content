@@ -1,0 +1,636 @@
+{
+  "lang": "tr",
+  "words": [
+    {
+      "word_id": "noun-presentatie",
+      "text": "sunum",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-doelstelling",
+      "text": "hedef",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-presteren",
+      "text": "başarı göstermek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-waardering",
+      "text": "takdir",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-werkloosheid",
+      "text": "işsizlik",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-fotograaf",
+      "text": "fotoğrafçı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-schilder",
+      "text": "ressam, boyacı",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-efficiënt",
+      "text": "verimli",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ingenieur",
+      "text": "mühendis",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kopie",
+      "text": "kopya",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-rapporteren",
+      "text": "rapor etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-belonen",
+      "text": "ödüllendirmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bonus",
+      "text": "ikramiye",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-meewerken",
+      "text": "iş birliği yapmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-analyseren",
+      "text": "analiz etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-afwezigheid",
+      "text": "devamsızlık",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-instructie",
+      "text": "talimat",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vervanging",
+      "text": "yerine geçme, değiştirme",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-flexibel",
+      "text": "esnek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ontwerper",
+      "text": "tasarımcı",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-zorgvuldig",
+      "text": "özenli",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-conferentie",
+      "text": "konferans",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hoofdkantoor",
+      "text": "genel merkez",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-motiveren",
+      "text": "motive etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-werkplaats",
+      "text": "atölye",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-arbeidsmarkt",
+      "text": "iş piyasası",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-leiderschap",
+      "text": "liderlik",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-medewerking",
+      "text": "iş birliği",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-werkgroep",
+      "text": "çalışma grubu",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-ambitieus",
+      "text": "hırslı",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-haalbaar",
+      "text": "yapılabilir",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-werkwijze",
+      "text": "çalışma yöntemi",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-inhuren",
+      "text": "dışarıdan tutmak (personel)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-motivatie",
+      "text": "motivasyon",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-inschatten",
+      "text": "tahmin etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vergaderen",
+      "text": "toplantı yapmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bewaker",
+      "text": "güvenlik görevlisi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-beoordeling",
+      "text": "değerlendirme",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-organisator",
+      "text": "organizatör",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-staking",
+      "text": "grev",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verlof",
+      "text": "izin (iş)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-afwezig",
+      "text": "orada olmayan",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-werkloze",
+      "text": "işsiz (kişi)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vacature",
+      "text": "açık pozisyon",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-expertise",
+      "text": "uzmanlık",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bespreking",
+      "text": "görüşme",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-werven",
+      "text": "işe alım yapmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-brandweerman",
+      "text": "itfaiyeci",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-doorzetten",
+      "text": "azimle devam etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-magazijn",
+      "text": "depo (firma)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-klus",
+      "text": "ufak iş",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-evalueren",
+      "text": "değerlendirmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-werkvloer",
+      "text": "çalışma ortamı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-deadline",
+      "text": "son teslim tarihi",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-afhandelen",
+      "text": "sonuçlandırmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-werkdruk",
+      "text": "iş yükü",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kantine",
+      "text": "kantin",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-technicus",
+      "text": "teknisyen",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-monteur",
+      "text": "tamirci",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-feedback",
+      "text": "geri bildirim",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-deskundig",
+      "text": "konusunda uzman",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bijlage",
+      "text": "ek (belge)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tolk",
+      "text": "tercüman",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-secretaresse",
+      "text": "sekreter",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-receptie",
+      "text": "resepsiyon",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-minimumloon",
+      "text": "asgari ücret",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-onervaren",
+      "text": "deneyimsiz",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-coördineren",
+      "text": "koordine etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-sollicitatie",
+      "text": "iş başvurusu",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vergoeding",
+      "text": "tazminat",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-beleggen",
+      "text": "yatırım yapmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tarief",
+      "text": "tarife",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verzekering",
+      "text": "sigorta",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verhoging",
+      "text": "artış, zam",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-begroting",
+      "text": "bütçe",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-financiering",
+      "text": "finansman",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-berekening",
+      "text": "hesaplama",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-munt",
+      "text": "madeni para",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-transactie",
+      "text": "işlem (para)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-doneren",
+      "text": "bağışlamak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-rijkdom",
+      "text": "zenginlik",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-premie",
+      "text": "prim (sigorta)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-erfenis",
+      "text": "miras",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bijstand",
+      "text": "sosyal yardım",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-betaalbaar",
+      "text": "uygun fiyatlı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-toeslag",
+      "text": "ek ödenek",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-zuinig",
+      "text": "tutumlu",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vergoeden",
+      "text": "(masrafı) karşılamak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-bezuinigen",
+      "text": "kısıntı yapmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-netto",
+      "text": "net",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-donatie",
+      "text": "bağış",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-bruto",
+      "text": "brüt",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-krediet",
+      "text": "kredi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verzekeraar",
+      "text": "sigorta şirketi",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uitbetalen",
+      "text": "(parayı) ödemek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bankrekening",
+      "text": "banka hesabı",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-witwassen",
+      "text": "kara para aklamak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kluis",
+      "text": "çelik kasa",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-saldo",
+      "text": "bakiye",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-overmaken",
+      "text": "havale etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-contant",
+      "text": "nakit",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-valuta",
+      "text": "döviz",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-besparing",
+      "text": "tasarruf",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-belegging",
+      "text": "yatırım",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-spaargeld",
+      "text": "birikim",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-factuur",
+      "text": "fatura (resmî)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bankbiljet",
+      "text": "banknot",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-creditcard",
+      "text": "kredi kartı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-polis",
+      "text": "poliçe",
+      "reviewed": false
+    }
+  ],
+  "categories": [
+    {
+      "category_id": "b1-work-career",
+      "title": "İş ve kariyer"
+    },
+    {
+      "category_id": "b1-money-banking",
+      "title": "Para ve banka"
+    },
+    {
+      "category_id": "b1-housing-contracts",
+      "title": "Konut ve sözleşmeler"
+    },
+    {
+      "category_id": "b1-health-care",
+      "title": "Sağlık ve bakım"
+    },
+    {
+      "category_id": "b1-government-law",
+      "title": "Devlet ve hukuk"
+    },
+    {
+      "category_id": "b1-education-courses",
+      "title": "Eğitim ve kurslar"
+    },
+    {
+      "category_id": "b1-media-news",
+      "title": "Medya ve haberler"
+    },
+    {
+      "category_id": "b1-society-politics",
+      "title": "Toplum ve siyaset"
+    },
+    {
+      "category_id": "b1-economy-business",
+      "title": "Ekonomi ve ticaret"
+    },
+    {
+      "category_id": "b1-environment-nature",
+      "title": "Çevre ve doğa"
+    },
+    {
+      "category_id": "b1-traffic-travel",
+      "title": "Trafik ve seyahat"
+    },
+    {
+      "category_id": "b1-technology-internet",
+      "title": "Teknoloji ve internet"
+    },
+    {
+      "category_id": "b1-consumer-shopping",
+      "title": "Tüketici ve alışveriş"
+    },
+    {
+      "category_id": "b1-food-cooking",
+      "title": "Yemek ve mutfak"
+    },
+    {
+      "category_id": "b1-relationships-family",
+      "title": "İlişkiler ve aile"
+    },
+    {
+      "category_id": "b1-feelings-character",
+      "title": "Duygular ve karakter"
+    },
+    {
+      "category_id": "b1-opinion-communication",
+      "title": "Görüş ve iletişim"
+    },
+    {
+      "category_id": "b1-time-planning",
+      "title": "Zaman ve planlama"
+    },
+    {
+      "category_id": "b1-culture-sport",
+      "title": "Kültür ve spor"
+    },
+    {
+      "category_id": "b1-describing",
+      "title": "Tanımlama"
+    },
+    {
+      "category_id": "b1-everyday-verbs",
+      "title": "Günlük fiiller"
+    }
+  ]
+}
