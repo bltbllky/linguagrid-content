@@ -5,3 +5,5 @@ public/
 .cache/
 .env
 .env.*
+# DeepL readings stay local (ADR-015 rule 6)
+review/mt-check/

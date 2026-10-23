@@ -5,6 +5,7 @@ import { describe, it } from 'node:test';
 
 import {
   B1_BAND,
+  PINNED_SHA256,
   buildPool,
   calibration,
   lemmaCounts,
@@ -14,6 +15,7 @@ import {
   rankBand,
   readKaikki,
   selectB1,
+  sourceDrift,
   type PoolRow,
 } from './b1-pool.ts';
 import type { Word } from './validate.ts';
@@ -62,6 +64,36 @@ describe('readKaikki', () => {
     assert.equal(index.lemmas.get('verb:lopen')?.reflexiveOnly, false);
     assert.equal(index.lemmas.get('noun:kleuren')?.pluralOnly, true);
   });
+  it('drops a lemma by C4 only when every entry is reflexive-only or plural-only', () => {
+    const mixedVerb = readKaikki([
+      entry('vergissen', 'verb', [{ tags: ['reflexive'] }]),
+      entry('vergissen', 'verb', [{}]),
+    ]);
+    assert.equal(mixedVerb.lemmas.get('verb:vergissen')?.reflexiveOnly, false);
+    const bothReflexive = readKaikki([
+      entry('vergissen', 'verb', [{ tags: ['reflexive'] }]),
+      entry('vergissen', 'verb', [{ tags: ['reflexive'] }]),
+    ]);
+    assert.equal(bothReflexive.lemmas.get('verb:vergissen')?.reflexiveOnly, true);
+    const mixedNoun = readKaikki([entry('kosten', 'noun', [{}], 'p'), entry('kosten', 'noun', [{}], 'm')]);
+    assert.equal(mixedNoun.lemmas.get('noun:kosten')?.pluralOnly, false);
+    const bothPlural = readKaikki([entry('kosten', 'noun', [{}], 'p'), entry('kosten', 'noun', [{}], 'p')]);
+    assert.equal(bothPlural.lemmas.get('noun:kosten')?.pluralOnly, true);
+  });
+  it('is not plural-only when one entry has a p template and a gender template', () => {
+    const line = JSON.stringify({
+      word: 'goed',
+      pos: 'noun',
+      senses: [{}],
+      head_templates: [
+        { name: 'nl-noun', args: { '1': 'p' } },
+        { name: 'nl-noun', args: { '1': 'n' } },
+      ],
+    });
+    const goed = readKaikki([line]).lemmas.get('noun:goed');
+    assert.equal(goed?.pluralOnly, false);
+    assert.deepEqual([...(goed?.genders ?? [])], ['n']);
+  });
 });
 
 describe('lemmaCounts and lemmaRanks', () => {
@@ -82,6 +114,16 @@ describe('lemmaCounts and lemmaRanks', () => {
     const split = lemmaCounts(new Map([['ab', 5]]), index);
     assert.equal(split.get('a'), 2.5);
     assert.equal(split.get('b'), 2.5);
+  });
+  it('shares a form that is a lemma and also a form-of another lemma equally (C2)', () => {
+    const shared = readKaikki([
+      entry('werk', 'noun', [{}], 'n'),
+      entry('werken', 'verb', [{}]),
+      entry('werken', 'noun', [{ form_of: [{ word: 'werk' }] }]),
+    ]);
+    const counts = lemmaCounts(new Map([['werken', 6], ['werk', 4]]), shared);
+    assert.equal(counts.get('werk'), 7);
+    assert.equal(counts.get('werken'), 3);
   });
   it('ranks by count, ties alphabetical', () => {
     const ranks = lemmaRanks(new Map([['b', 2], ['c', 9], ['a', 2]]));
@@ -105,12 +147,14 @@ describe('buildPool', () => {
     ['noun', 'twopos', 'm'],
     ['verb', 'twopos', ''],
     ['verb', 'liveword', ''],
+    ['noun', 'ontwikkeling', 'n'],
+    ['noun', 'kat', 'n'],
   ].map(([pos, word, g]) => entry(word, pos, [{ tags: word === 'dialect' ? ['dialectal'] : [] }], g || undefined));
   const mixed = entry('mixed', 'noun', [{ tags: ['dialectal'] }, { tags: [] }], 'n');
   const reflexive = entry('reflexive', 'verb', [{ tags: ['reflexive'] }]);
   const index = readKaikki([...lemmas, mixed, reflexive]);
   const words = ['huis', 'de', 'aaaaaaaaaaaaa', 'kantoor-gebouw', "d'r", 'notinopentaal', 'liveword', 'excluded', 'dialect',
-    'plural', 'faraway', 'twopos', 'reflexive', 'mixed'];
+    'plural', 'faraway', 'twopos', 'reflexive', 'mixed', 'ontwikkeling', 'kat'];
   const ranks = new Map(words.map((w, i) => [w, i + 1]));
   ranks.set('faraway', 500);
   const openTaal = new Set(words.filter((w) => w !== 'notinopentaal'));
@@ -120,7 +164,11 @@ describe('buildPool', () => {
   it('keeps only rows passing C1-C5 and sorts by rank then pos', () => {
     assert.deepEqual(
       pool.map((r) => r.id),
-      ['noun-huis', 'noun-twopos', 'verb-twopos', 'noun-mixed'],
+      ['noun-huis', 'noun-twopos', 'verb-twopos', 'noun-mixed', 'noun-ontwikkeling'],
+    );
+    assert.equal(
+      pool.find((r) => r.id === 'noun-twopos')!.rank,
+      pool.find((r) => r.id === 'verb-twopos')!.rank,
     );
   });
   it('gives rank and gender', () => {
@@ -140,10 +188,35 @@ describe('buildPool', () => {
     assert.deepEqual(counts.pos, { noun: 2, verb: 1, adj: 0 });
     assert.deepEqual(counts.band, { '3-5k': 1, '5-8k': 1, '8-10k': 1 });
   });
+  it('counts distinct lemmas and lemmas with two parts of speech', () => {
+    const counts = poolCounts([
+      { id: 'noun-a', lemma_nl: 'a', pos: 'noun', rank: 3000, gender: null },
+      { id: 'verb-a', lemma_nl: 'a', pos: 'verb', rank: 3000, gender: null },
+      { id: 'noun-b', lemma_nl: 'b', pos: 'noun', rank: 3001, gender: null },
+    ]);
+    assert.equal(counts.lemmas, 2);
+    assert.equal(counts.twoPos, 1);
+  });
   it('names rank bands', () => {
     assert.equal(rankBand(4999), '3-5k');
     assert.equal(rankBand(5000), '5-8k');
     assert.equal(rankBand(8000), '8-10k');
+  });
+});
+
+describe('sourceDrift', () => {
+  it('is empty when every hash matches its pin', () => {
+    assert.deepEqual(sourceDrift({ ...PINNED_SHA256 }), []);
+  });
+  it('names a changed source with both short hashes', () => {
+    const drift = sourceDrift({ ...PINNED_SHA256, 'wordlist.txt': 'f'.repeat(64) });
+    assert.equal(drift.length, 1);
+    assert.match(drift[0], /Source changed since 2026-10-22: wordlist\.txt \(pinned 12e5fb5e3c73, now /);
+  });
+  it('names every source that is not fetched', () => {
+    const drift = sourceDrift({});
+    assert.equal(drift.length, 4);
+    assert.ok(drift.every((l) => l.startsWith('Source not fetched: ')));
   });
 });
 
