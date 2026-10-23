@@ -24,6 +24,26 @@ noun-werkplaats,werkplaats,noun,3-5k,b1-work-career,3-5k band; noun; work and ca
 noun-arbeidsmarkt,arbeidsmarkt,noun,3-5k,b1-work-career,3-5k band; noun; work and career theme
 noun-leiderschap,leiderschap,noun,3-5k,b1-work-career,3-5k band; noun; work and career theme
 noun-medewerking,medewerking,noun,3-5k,b1-work-career,3-5k band; noun; work and career theme
+adj-ambitieus,ambitieus,adj,3-5k,b1-work-career,3-5k band; adjective; work and career theme
+noun-motivatie,motivatie,noun,3-5k,b1-work-career,3-5k band; noun; work and career theme
+verb-vergaderen,vergaderen,verb,3-5k,b1-work-career,3-5k band; verb; work and career theme
+noun-beoordeling,beoordeling,noun,3-5k,b1-work-career,3-5k band; noun; work and career theme
+noun-staking,staking,noun,3-5k,b1-work-career,3-5k band; noun; work and career theme
+noun-verlof,verlof,noun,3-5k,b1-work-career,3-5k band; noun; work and career theme
+adj-afwezig,afwezig,adj,3-5k,b1-work-career,3-5k band; adjective; work and career theme
+noun-werkloze,werkloze,noun,3-5k,b1-work-career,3-5k band; noun; work and career theme
+noun-vacature,vacature,noun,3-5k,b1-work-career,3-5k band; noun; work and career theme
+noun-brandweerman,brandweerman,noun,5-8k,b1-work-career,5-8k band; noun; work and career theme
+verb-doorzetten,doorzetten,verb,5-8k,b1-work-career,5-8k band; verb; work and career theme
+noun-magazijn,magazijn,noun,5-8k,b1-work-career,5-8k band; noun; work and career theme
+noun-klus,klus,noun,5-8k,b1-work-career,5-8k band; noun; work and career theme
+verb-evalueren,evalueren,verb,5-8k,b1-work-career,5-8k band; verb; work and career theme
+noun-deadline,deadline,noun,5-8k,b1-work-career,5-8k band; noun; work and career theme
+noun-werkdruk,werkdruk,noun,5-8k,b1-work-career,5-8k band; noun; work and career theme
+noun-kantine,kantine,noun,5-8k,b1-work-career,5-8k band; noun; work and career theme
+noun-technicus,technicus,noun,5-8k,b1-work-career,5-8k band; noun; work and career theme
+noun-monteur,monteur,noun,5-8k,b1-work-career,5-8k band; noun; work and career theme
+noun-feedback,feedback,noun,5-8k,b1-work-career,5-8k band; noun; work and career theme
 noun-vergoeding,vergoeding,noun,3-5k,b1-money-banking,3-5k band; noun; money and banking theme
 verb-beleggen,beleggen,verb,3-5k,b1-money-banking,3-5k band; verb; money and banking theme
 noun-tarief,tarief,noun,3-5k,b1-money-banking,3-5k band; noun; money and banking theme
@@ -39,6 +59,23 @@ noun-premie,premie,noun,3-5k,b1-money-banking,3-5k band; noun; money and banking
 noun-erfenis,erfenis,noun,3-5k,b1-money-banking,3-5k band; noun; money and banking theme
 noun-bijstand,bijstand,noun,3-5k,b1-money-banking,3-5k band; noun; money and banking theme
 adj-betaalbaar,betaalbaar,adj,3-5k,b1-money-banking,3-5k band; adjective; money and banking theme
+noun-toeslag,toeslag,noun,3-5k,b1-money-banking,3-5k band; noun; money and banking theme
+adj-zuinig,zuinig,adj,3-5k,b1-money-banking,3-5k band; adjective; money and banking theme
+verb-bezuinigen,bezuinigen,verb,3-5k,b1-money-banking,3-5k band; verb; money and banking theme
+adj-netto,netto,adj,3-5k,b1-money-banking,3-5k band; adjective; money and banking theme
+adj-bruto,bruto,adj,5-8k,b1-money-banking,5-8k band; adjective; money and banking theme
+noun-krediet,krediet,noun,5-8k,b1-money-banking,5-8k band; noun; money and banking theme
+noun-verzekeraar,verzekeraar,noun,5-8k,b1-money-banking,5-8k band; noun; money and banking theme
+verb-uitbetalen,uitbetalen,verb,5-8k,b1-money-banking,5-8k band; verb; money and banking theme
+noun-bankrekening,bankrekening,noun,5-8k,b1-money-banking,5-8k band; noun; money and banking theme
+noun-kluis,kluis,noun,5-8k,b1-money-banking,5-8k band; noun; money and banking theme
+noun-saldo,saldo,noun,5-8k,b1-money-banking,5-8k band; noun; money and banking theme
+verb-overmaken,overmaken,verb,5-8k,b1-money-banking,5-8k band; verb; money and banking theme
+adj-contant,contant,adj,5-8k,b1-money-banking,5-8k band; adjective; money and banking theme
+noun-valuta,valuta,noun,5-8k,b1-money-banking,5-8k band; noun; money and banking theme
+noun-besparing,besparing,noun,5-8k,b1-money-banking,5-8k band; noun; money and banking theme
+noun-spaargeld,spaargeld,noun,5-8k,b1-money-banking,5-8k band; noun; money and banking theme
+noun-factuur,factuur,noun,5-8k,b1-money-banking,5-8k band; noun; money and banking theme
 noun-renovatie,renovatie,noun,3-5k,b1-housing-contracts,3-5k band; noun; housing and contracts theme
 verb-isoleren,isoleren,verb,3-5k,b1-housing-contracts,3-5k band; verb; housing and contracts theme
 noun-verlichting,verlichting,noun,3-5k,b1-housing-contracts,3-5k band; noun; housing and contracts theme
@@ -56,6 +93,33 @@ noun-wand,wand,noun,3-5k,b1-housing-contracts,3-5k band; noun; housing and contr
 noun-woonhuis,woonhuis,noun,3-5k,b1-housing-contracts,3-5k band; noun; housing and contracts theme
 noun-onderdak,onderdak,noun,3-5k,b1-housing-contracts,3-5k band; noun; housing and contracts theme
 noun-isolatie,isolatie,noun,3-5k,b1-housing-contracts,3-5k band; noun; housing and contracts theme
+noun-kraan,kraan,noun,3-5k,b1-housing-contracts,3-5k band; noun; housing and contracts theme
+noun-hypotheek,hypotheek,noun,3-5k,b1-housing-contracts,3-5k band; noun; housing and contracts theme
+noun-aannemer,aannemer,noun,3-5k,b1-housing-contracts,3-5k band; noun; housing and contracts theme
+noun-alarm,alarm,noun,3-5k,b1-housing-contracts,3-5k band; noun; housing and contracts theme
+noun-ventilatie,ventilatie,noun,5-8k,b1-housing-contracts,5-8k band; noun; housing and contracts theme
+verb-opknappen,opknappen,verb,5-8k,b1-housing-contracts,5-8k band; verb; housing and contracts theme
+noun-gereedschap,gereedschap,noun,5-8k,b1-housing-contracts,5-8k band; noun; housing and contracts theme
+noun-schuur,schuur,noun,5-8k,b1-housing-contracts,5-8k band; noun; housing and contracts theme
+noun-huisvesting,huisvesting,noun,5-8k,b1-housing-contracts,5-8k band; noun; housing and contracts theme
+verb-boren,boren,verb,5-8k,b1-housing-contracts,5-8k band; verb; housing and contracts theme
+noun-notaris,notaris,noun,5-8k,b1-housing-contracts,5-8k band; noun; housing and contracts theme
+noun-vastgoed,vastgoed,noun,5-8k,b1-housing-contracts,5-8k band; noun; housing and contracts theme
+noun-schimmel,schimmel,noun,5-8k,b1-housing-contracts,5-8k band; noun; housing and contracts theme
+verb-bezichtigen,bezichtigen,verb,5-8k,b1-housing-contracts,5-8k band; verb; housing and contracts theme
+noun-aardgas,aardgas,noun,5-8k,b1-housing-contracts,5-8k band; noun; housing and contracts theme
+noun-verf,verf,noun,5-8k,b1-housing-contracts,5-8k band; noun; housing and contracts theme
+noun-kaars,kaars,noun,5-8k,b1-housing-contracts,5-8k band; noun; housing and contracts theme
+noun-huurwoning,huurwoning,noun,5-8k,b1-housing-contracts,5-8k band; noun; housing and contracts theme
+noun-tapijt,tapijt,noun,5-8k,b1-housing-contracts,5-8k band; noun; housing and contracts theme
+noun-hamer,hamer,noun,5-8k,b1-housing-contracts,5-8k band; noun; housing and contracts theme
+noun-koelkast,koelkast,noun,5-8k,b1-housing-contracts,5-8k band; noun; housing and contracts theme
+verb-schroeven,schroeven,verb,5-8k,b1-housing-contracts,5-8k band; verb; housing and contracts theme
+noun-brievenbus,brievenbus,noun,5-8k,b1-housing-contracts,5-8k band; noun; housing and contracts theme
+noun-wachtlijst,wachtlijst,noun,5-8k,b1-housing-contracts,5-8k band; noun; housing and contracts theme
+noun-emmer,emmer,noun,5-8k,b1-housing-contracts,5-8k band; noun; housing and contracts theme
+noun-woningmarkt,woningmarkt,noun,5-8k,b1-housing-contracts,5-8k band; noun; housing and contracts theme
+noun-douche,douche,noun,5-8k,b1-housing-contracts,5-8k band; noun; housing and contracts theme
 noun-aandoening,aandoening,noun,3-5k,b1-health-care,3-5k band; noun; health and care theme
 noun-herstel,herstel,noun,3-5k,b1-health-care,3-5k band; noun; health and care theme
 verb-bevallen,bevallen,verb,3-5k,b1-health-care,3-5k band; verb; health and care theme
@@ -86,6 +150,44 @@ noun-infectie,infectie,noun,3-5k,b1-health-care,3-5k band; noun; health and care
 noun-geneeskunde,geneeskunde,noun,3-5k,b1-health-care,3-5k band; noun; health and care theme
 noun-geneesmiddel,geneesmiddel,noun,3-5k,b1-health-care,3-5k band; noun; health and care theme
 noun-kliniek,kliniek,noun,3-5k,b1-health-care,3-5k band; noun; health and care theme
+adj-chronisch,chronisch,adj,3-5k,b1-health-care,3-5k band; adjective; health and care theme
+noun-zwangerschap,zwangerschap,noun,3-5k,b1-health-care,3-5k band; noun; health and care theme
+noun-psycholoog,psycholoog,noun,3-5k,b1-health-care,3-5k band; noun; health and care theme
+noun-hartaanval,hartaanval,noun,3-5k,b1-health-care,3-5k band; noun; health and care theme
+noun-levensstijl,levensstijl,noun,3-5k,b1-health-care,3-5k band; noun; health and care theme
+noun-conditie,conditie,noun,3-5k,b1-health-care,3-5k band; noun; health and care theme
+noun-sigaret,sigaret,noun,5-8k,b1-health-care,5-8k band; noun; health and care theme
+noun-nagel,nagel,noun,5-8k,b1-health-care,5-8k band; noun; health and care theme
+noun-dieet,dieet,noun,5-8k,b1-health-care,5-8k band; noun; health and care theme
+noun-therapie,therapie,noun,5-8k,b1-health-care,5-8k band; noun; health and care theme
+verb-plassen,plassen,verb,5-8k,b1-health-care,5-8k band; verb; health and care theme
+noun-tandarts,tandarts,noun,5-8k,b1-health-care,5-8k band; noun; health and care theme
+noun-hoest,hoest,noun,5-8k,b1-health-care,5-8k band; noun; health and care theme
+noun-handicap,handicap,noun,5-8k,b1-health-care,5-8k band; noun; health and care theme
+adj-lichamelijk,lichamelijk,adj,5-8k,b1-health-care,5-8k band; adjective; health and care theme
+noun-hygiëne,hygiëne,noun,5-8k,b1-health-care,5-8k band; noun; health and care theme
+noun-overgewicht,overgewicht,noun,5-8k,b1-health-care,5-8k band; noun; health and care theme
+noun-spier,spier,noun,5-8k,b1-health-care,5-8k band; noun; health and care theme
+noun-dementie,dementie,noun,5-8k,b1-health-care,5-8k band; noun; health and care theme
+noun-rolstoel,rolstoel,noun,5-8k,b1-health-care,5-8k band; noun; health and care theme
+noun-heup,heup,noun,5-8k,b1-health-care,5-8k band; noun; health and care theme
+adj-bewusteloos,bewusteloos,adj,5-8k,b1-health-care,5-8k band; adjective; health and care theme
+noun-elleboog,elleboog,noun,5-8k,b1-health-care,5-8k band; noun; health and care theme
+noun-chirurg,chirurg,noun,5-8k,b1-health-care,5-8k band; noun; health and care theme
+noun-verkoudheid,verkoudheid,noun,5-8k,b1-health-care,5-8k band; noun; health and care theme
+noun-nier,nier,noun,5-8k,b1-health-care,5-8k band; noun; health and care theme
+noun-bloeddruk,bloeddruk,noun,5-8k,b1-health-care,5-8k band; noun; health and care theme
+noun-verslaving,verslaving,noun,5-8k,b1-health-care,5-8k band; noun; health and care theme
+verb-zweten,zweten,verb,5-8k,b1-health-care,5-8k band; verb; health and care theme
+noun-ontsteking,ontsteking,noun,5-8k,b1-health-care,5-8k band; noun; health and care theme
+adj-dronken,dronken,adj,5-8k,b1-health-care,5-8k band; adjective; health and care theme
+noun-diabetes,diabetes,noun,5-8k,b1-health-care,5-8k band; noun; health and care theme
+noun-dierenarts,dierenarts,noun,5-8k,b1-health-care,5-8k band; noun; health and care theme
+adj-depressief,depressief,adj,5-8k,b1-health-care,5-8k band; adjective; health and care theme
+noun-ontspanning,ontspanning,noun,5-8k,b1-health-care,5-8k band; noun; health and care theme
+noun-vermoeidheid,vermoeidheid,noun,5-8k,b1-health-care,5-8k band; noun; health and care theme
+noun-mantelzorger,mantelzorger,noun,5-8k,b1-health-care,5-8k band; noun; health and care theme
+adj-psychisch,psychisch,adj,5-8k,b1-health-care,5-8k band; adjective; health and care theme
 noun-moordenaar,moordenaar,noun,3-5k,b1-government-law,3-5k band; noun; government and law theme
 verb-verstrekken,verstrekken,verb,3-5k,b1-government-law,3-5k band; verb; government and law theme
 adj-onschuldig,onschuldig,adj,3-5k,b1-government-law,3-5k band; adjective; government and law theme
@@ -117,6 +219,17 @@ noun-aanklager,aanklager,noun,3-5k,b1-government-law,3-5k band; noun; government
 noun-bezwaar,bezwaar,noun,3-5k,b1-government-law,3-5k band; noun; government and law theme
 verb-aanklagen,aanklagen,verb,3-5k,b1-government-law,3-5k band; verb; government and law theme
 noun-vonnis,vonnis,noun,3-5k,b1-government-law,3-5k band; noun; government and law theme
+noun-stempel,stempel,noun,3-5k,b1-government-law,3-5k band; noun; government and law theme
+noun-minderjarige,minderjarige,noun,3-5k,b1-government-law,3-5k band; noun; government and law theme
+noun-inbraak,inbraak,noun,3-5k,b1-government-law,3-5k band; noun; government and law theme
+verb-uitschrijven,uitschrijven,verb,3-5k,b1-government-law,3-5k band; verb; government and law theme
+noun-jurist,jurist,noun,3-5k,b1-government-law,3-5k band; noun; government and law theme
+adj-opzettelijk,opzettelijk,adj,5-8k,b1-government-law,5-8k band; adjective; government and law theme
+noun-registratie,registratie,noun,5-8k,b1-government-law,5-8k band; noun; government and law theme
+noun-strafblad,strafblad,noun,5-8k,b1-government-law,5-8k band; noun; government and law theme
+noun-oplichter,oplichter,noun,5-8k,b1-government-law,5-8k band; noun; government and law theme
+noun-inbreker,inbreker,noun,5-8k,b1-government-law,5-8k band; noun; government and law theme
+adj-ongeldig,ongeldig,adj,5-8k,b1-government-law,5-8k band; adjective; government and law theme
 noun-tabel,tabel,noun,3-5k,b1-education-courses,3-5k band; noun; education and courses theme
 noun-diploma,diploma,noun,3-5k,b1-education-courses,3-5k band; noun; education and courses theme
 noun-bladzijde,bladzijde,noun,3-5k,b1-education-courses,3-5k band; noun; education and courses theme
@@ -143,6 +256,25 @@ adj-schriftelijk,schriftelijk,adj,3-5k,b1-education-courses,3-5k band; adjective
 noun-afkorting,afkorting,noun,3-5k,b1-education-courses,3-5k band; noun; education and courses theme
 verb-toetsen,toetsen,verb,3-5k,b1-education-courses,3-5k band; verb; education and courses theme
 noun-master,master,noun,3-5k,b1-education-courses,3-5k band; noun; education and courses theme
+noun-driehoek,driehoek,noun,3-5k,b1-education-courses,3-5k band; noun; education and courses theme
+noun-spelling,spelling,noun,3-5k,b1-education-courses,3-5k band; noun; education and courses theme
+verb-opletten,opletten,verb,5-8k,b1-education-courses,5-8k band; verb; education and courses theme
+verb-optellen,optellen,verb,5-8k,b1-education-courses,5-8k band; verb; education and courses theme
+noun-opstel,opstel,noun,5-8k,b1-education-courses,5-8k band; noun; education and courses theme
+noun-biologie,biologie,noun,5-8k,b1-education-courses,5-8k band; noun; education and courses theme
+noun-certificaat,certificaat,noun,5-8k,b1-education-courses,5-8k band; noun; education and courses theme
+noun-aantekening,aantekening,noun,5-8k,b1-education-courses,5-8k band; noun; education and courses theme
+noun-werkwoord,werkwoord,noun,5-8k,b1-education-courses,5-8k band; noun; education and courses theme
+noun-samenvatting,samenvatting,noun,5-8k,b1-education-courses,5-8k band; noun; education and courses theme
+noun-hoofdletter,hoofdletter,noun,5-8k,b1-education-courses,5-8k band; noun; education and courses theme
+verb-lesgeven,lesgeven,verb,5-8k,b1-education-courses,5-8k band; verb; education and courses theme
+noun-notitie,notitie,noun,5-8k,b1-education-courses,5-8k band; noun; education and courses theme
+noun-inleiding,inleiding,noun,5-8k,b1-education-courses,5-8k band; noun; education and courses theme
+verb-opschrijven,opschrijven,verb,5-8k,b1-education-courses,5-8k band; verb; education and courses theme
+adj-mondeling,mondeling,adj,5-8k,b1-education-courses,5-8k band; adjective; education and courses theme
+verb-voorlezen,voorlezen,verb,5-8k,b1-education-courses,5-8k band; verb; education and courses theme
+noun-alfabet,alfabet,noun,5-8k,b1-education-courses,5-8k band; noun; education and courses theme
+verb-nakijken,nakijken,verb,5-8k,b1-education-courses,5-8k band; verb; education and courses theme
 noun-dagblad,dagblad,noun,3-5k,b1-media-news,3-5k band; noun; media and news theme
 verb-omkomen,omkomen,verb,3-5k,b1-media-news,3-5k band; verb; media and news theme
 adj-actueel,actueel,adj,3-5k,b1-media-news,3-5k band; adjective; media and news theme
@@ -157,6 +289,11 @@ noun-binnenland,binnenland,noun,3-5k,b1-media-news,3-5k band; noun; media and ne
 noun-enquête,enquête,noun,3-5k,b1-media-news,3-5k band; noun; media and news theme
 verb-instorten,instorten,verb,3-5k,b1-media-news,3-5k band; verb; media and news theme
 noun-podcast,podcast,noun,3-5k,b1-media-news,3-5k band; noun; media and news theme
+noun-verslaggever,verslaggever,noun,3-5k,b1-media-news,3-5k band; noun; media and news theme
+noun-schandaal,schandaal,noun,3-5k,b1-media-news,3-5k band; noun; media and news theme
+noun-blog,blog,noun,5-8k,b1-media-news,5-8k band; noun; media and news theme
+adj-vermist,vermist,adj,5-8k,b1-media-news,5-8k band; adjective; media and news theme
+noun-nepnieuws,nepnieuws,noun,5-8k,b1-media-news,5-8k band; noun; media and news theme
 adj-racistisch,racistisch,adj,3-5k,b1-society-politics,3-5k band; adjective; society and politics theme
 noun-onrust,onrust,noun,3-5k,b1-society-politics,3-5k band; noun; society and politics theme
 noun-referendum,referendum,noun,3-5k,b1-society-politics,3-5k band; noun; society and politics theme
@@ -177,6 +314,17 @@ verb-aftreden,aftreden,verb,3-5k,b1-society-politics,3-5k band; verb; society an
 noun-migratie,migratie,noun,3-5k,b1-society-politics,3-5k band; noun; society and politics theme
 noun-buurland,buurland,noun,3-5k,b1-society-politics,3-5k band; noun; society and politics theme
 noun-herdenking,herdenking,noun,3-5k,b1-society-politics,3-5k band; noun; society and politics theme
+noun-lijsttrekker,lijsttrekker,noun,3-5k,b1-society-politics,3-5k band; noun; society and politics theme
+noun-nieuwkomer,nieuwkomer,noun,3-5k,b1-society-politics,3-5k band; noun; society and politics theme
+verb-protesteren,protesteren,verb,3-5k,b1-society-politics,3-5k band; verb; society and politics theme
+noun-voedselbank,voedselbank,noun,3-5k,b1-society-politics,3-5k band; noun; society and politics theme
+verb-emigreren,emigreren,verb,5-8k,b1-society-politics,5-8k band; verb; society and politics theme
+noun-asiel,asiel,noun,5-8k,b1-society-politics,5-8k band; noun; society and politics theme
+noun-stemrecht,stemrecht,noun,5-8k,b1-society-politics,5-8k band; noun; society and politics theme
+noun-vooroordeel,vooroordeel,noun,5-8k,b1-society-politics,5-8k band; noun; society and politics theme
+noun-agressie,agressie,noun,5-8k,b1-society-politics,5-8k band; noun; society and politics theme
+noun-gelijkheid,gelijkheid,noun,5-8k,b1-society-politics,5-8k band; noun; society and politics theme
+noun-dakloze,dakloze,noun,5-8k,b1-society-politics,5-8k band; noun; society and politics theme
 noun-leverancier,leverancier,noun,3-5k,b1-economy-business,3-5k band; noun; economy and business theme
 noun-investeerder,investeerder,noun,3-5k,b1-economy-business,3-5k band; noun; economy and business theme
 noun-marketing,marketing,noun,3-5k,b1-economy-business,3-5k band; noun; economy and business theme
@@ -188,6 +336,8 @@ noun-welvaart,welvaart,noun,3-5k,b1-economy-business,3-5k band; noun; economy an
 verb-promoten,promoten,verb,3-5k,b1-economy-business,3-5k band; verb; economy and business theme
 noun-zakenman,zakenman,noun,3-5k,b1-economy-business,3-5k band; noun; economy and business theme
 noun-inflatie,inflatie,noun,3-5k,b1-economy-business,3-5k band; noun; economy and business theme
+noun-filiaal,filiaal,noun,3-5k,b1-economy-business,3-5k band; noun; economy and business theme
+noun-recessie,recessie,noun,5-8k,b1-economy-business,5-8k band; noun; economy and business theme
 noun-helling,helling,noun,3-5k,b1-environment-nature,3-5k band; noun; environment and nature theme
 noun-uitstoot,uitstoot,noun,3-5k,b1-environment-nature,3-5k band; noun; environment and nature theme
 noun-oever,oever,noun,3-5k,b1-environment-nature,3-5k band; noun; environment and nature theme
@@ -220,6 +370,19 @@ noun-aardbeving,aardbeving,noun,3-5k,b1-environment-nature,3-5k band; noun; envi
 noun-woestijn,woestijn,noun,3-5k,b1-environment-nature,3-5k band; noun; environment and nature theme
 noun-weiland,weiland,noun,3-5k,b1-environment-nature,3-5k band; noun; environment and nature theme
 verb-bevriezen,bevriezen,verb,3-5k,b1-environment-nature,3-5k band; verb; environment and nature theme
+noun-hitte,hitte,noun,3-5k,b1-environment-nature,3-5k band; noun; environment and nature theme
+verb-smelten,smelten,verb,3-5k,b1-environment-nature,3-5k band; verb; environment and nature theme
+noun-vlinder,vlinder,noun,3-5k,b1-environment-nature,3-5k band; noun; environment and nature theme
+noun-droogte,droogte,noun,3-5k,b1-environment-nature,3-5k band; noun; environment and nature theme
+noun-schildpad,schildpad,noun,3-5k,b1-environment-nature,3-5k band; noun; environment and nature theme
+noun-duurzaamheid,duurzaamheid,noun,5-8k,b1-environment-nature,5-8k band; noun; environment and nature theme
+noun-opwarming,opwarming,noun,5-8k,b1-environment-nature,5-8k band; noun; environment and nature theme
+verb-hergebruiken,hergebruiken,verb,5-8k,b1-environment-nature,5-8k band; verb; environment and nature theme
+noun-voorspelling,voorspelling,noun,5-8k,b1-environment-nature,5-8k band; noun; environment and nature theme
+noun-geur,geur,noun,5-8k,b1-environment-nature,5-8k band; noun; environment and nature theme
+noun-hittegolf,hittegolf,noun,5-8k,b1-environment-nature,5-8k band; noun; environment and nature theme
+noun-eend,eend,noun,5-8k,b1-environment-nature,5-8k band; noun; environment and nature theme
+noun-vervuiling,vervuiling,noun,5-8k,b1-environment-nature,5-8k band; noun; environment and nature theme
 noun-zadel,zadel,noun,3-5k,b1-traffic-travel,3-5k band; noun; traffic and travel theme
 noun-wiel,wiel,noun,3-5k,b1-traffic-travel,3-5k band; noun; traffic and travel theme
 noun-spoorweg,spoorweg,noun,3-5k,b1-traffic-travel,3-5k band; noun; traffic and travel theme
@@ -238,6 +401,17 @@ noun-fietspad,fietspad,noun,3-5k,b1-traffic-travel,3-5k band; noun; traffic and 
 noun-kruispunt,kruispunt,noun,3-5k,b1-traffic-travel,3-5k band; noun; traffic and travel theme
 noun-aanrijding,aanrijding,noun,3-5k,b1-traffic-travel,3-5k band; noun; traffic and travel theme
 noun-rijstrook,rijstrook,noun,3-5k,b1-traffic-travel,3-5k band; noun; traffic and travel theme
+noun-voetganger,voetganger,noun,3-5k,b1-traffic-travel,3-5k band; noun; traffic and travel theme
+verb-oversteken,oversteken,verb,3-5k,b1-traffic-travel,3-5k band; verb; traffic and travel theme
+noun-kenteken,kenteken,noun,5-8k,b1-traffic-travel,5-8k band; noun; traffic and travel theme
+noun-scooter,scooter,noun,5-8k,b1-traffic-travel,5-8k band; noun; traffic and travel theme
+noun-rotonde,rotonde,noun,5-8k,b1-traffic-travel,5-8k band; noun; traffic and travel theme
+noun-afrit,afrit,noun,5-8k,b1-traffic-travel,5-8k band; noun; traffic and travel theme
+noun-plattegrond,plattegrond,noun,5-8k,b1-traffic-travel,5-8k band; noun; traffic and travel theme
+noun-caravan,caravan,noun,5-8k,b1-traffic-travel,5-8k band; noun; traffic and travel theme
+verb-overnachten,overnachten,verb,5-8k,b1-traffic-travel,5-8k band; verb; traffic and travel theme
+noun-laadpaal,laadpaal,noun,5-8k,b1-traffic-travel,5-8k band; noun; traffic and travel theme
+noun-bekeuring,bekeuring,noun,5-8k,b1-traffic-travel,5-8k band; noun; traffic and travel theme
 noun-apparatuur,apparatuur,noun,3-5k,b1-technology-internet,3-5k band; noun; technology and internet theme
 noun-account,account,noun,3-5k,b1-technology-internet,3-5k band; noun; technology and internet theme
 verb-opstarten,opstarten,verb,3-5k,b1-technology-internet,3-5k band; verb; technology and internet theme
@@ -257,6 +431,23 @@ verb-crashen,crashen,verb,3-5k,b1-technology-internet,3-5k band; verb; technolog
 noun-uitvinding,uitvinding,noun,3-5k,b1-technology-internet,3-5k band; noun; technology and internet theme
 verb-opladen,opladen,verb,3-5k,b1-technology-internet,3-5k band; verb; technology and internet theme
 noun-tablet,tablet,noun,3-5k,b1-technology-internet,3-5k band; noun; technology and internet theme
+verb-kopiëren,kopiëren,verb,3-5k,b1-technology-internet,3-5k band; verb; technology and internet theme
+noun-storing,storing,noun,3-5k,b1-technology-internet,3-5k band; noun; technology and internet theme
+verb-uitvinden,uitvinden,verb,3-5k,b1-technology-internet,3-5k band; verb; technology and internet theme
+noun-toetsenbord,toetsenbord,noun,3-5k,b1-technology-internet,3-5k band; noun; technology and internet theme
+noun-wachtwoord,wachtwoord,noun,3-5k,b1-technology-internet,3-5k band; noun; technology and internet theme
+verb-aanmaken,aanmaken,verb,3-5k,b1-technology-internet,3-5k band; verb; technology and internet theme
+adj-draadloos,draadloos,adj,3-5k,b1-technology-internet,3-5k band; adjective; technology and internet theme
+noun-browser,browser,noun,5-8k,b1-technology-internet,5-8k band; noun; technology and internet theme
+verb-herstarten,herstarten,verb,5-8k,b1-technology-internet,5-8k band; verb; technology and internet theme
+noun-stekker,stekker,noun,5-8k,b1-technology-internet,5-8k band; noun; technology and internet theme
+verb-programmeren,programmeren,verb,5-8k,b1-technology-internet,5-8k band; verb; technology and internet theme
+noun-beeldscherm,beeldscherm,noun,5-8k,b1-technology-internet,5-8k band; noun; technology and internet theme
+verb-printen,printen,verb,5-8k,b1-technology-internet,5-8k band; verb; technology and internet theme
+verb-doorsturen,doorsturen,verb,5-8k,b1-technology-internet,5-8k band; verb; technology and internet theme
+verb-inloggen,inloggen,verb,5-8k,b1-technology-internet,5-8k band; verb; technology and internet theme
+noun-wifi,wifi,noun,5-8k,b1-technology-internet,5-8k band; noun; technology and internet theme
+noun-handleiding,handleiding,noun,5-8k,b1-technology-internet,5-8k band; noun; technology and internet theme
 verb-ruilen,ruilen,verb,3-5k,b1-consumer-shopping,3-5k band; verb; consumer and shopping theme
 noun-mode,mode,noun,3-5k,b1-consumer-shopping,3-5k band; noun; consumer and shopping theme
 verb-terugbrengen,terugbrengen,verb,3-5k,b1-consumer-shopping,3-5k band; verb; consumer and shopping theme
@@ -273,10 +464,53 @@ noun-garantie,garantie,noun,3-5k,b1-consumer-shopping,3-5k band; noun; consumer 
 noun-winkelier,winkelier,noun,3-5k,b1-consumer-shopping,3-5k band; noun; consumer and shopping theme
 verb-afleveren,afleveren,verb,3-5k,b1-consumer-shopping,3-5k band; verb; consumer and shopping theme
 noun-ketting,ketting,noun,3-5k,b1-consumer-shopping,3-5k band; noun; consumer and shopping theme
+noun-aanbieding,aanbieding,noun,3-5k,b1-consumer-shopping,3-5k band; noun; consumer and shopping theme
+noun-veiling,veiling,noun,3-5k,b1-consumer-shopping,3-5k band; noun; consumer and shopping theme
+noun-trui,trui,noun,3-5k,b1-consumer-shopping,3-5k band; noun; consumer and shopping theme
+noun-verpakking,verpakking,noun,3-5k,b1-consumer-shopping,3-5k band; noun; consumer and shopping theme
+noun-hoed,hoed,noun,3-5k,b1-consumer-shopping,3-5k band; noun; consumer and shopping theme
+noun-knoop,knoop,noun,3-5k,b1-consumer-shopping,3-5k band; noun; consumer and shopping theme
+noun-catalogus,catalogus,noun,3-5k,b1-consumer-shopping,3-5k band; noun; consumer and shopping theme
+verb-verzenden,verzenden,verb,5-8k,b1-consumer-shopping,5-8k band; verb; consumer and shopping theme
+noun-zeep,zeep,noun,5-8k,b1-consumer-shopping,5-8k band; noun; consumer and shopping theme
+noun-reparatie,reparatie,noun,5-8k,b1-consumer-shopping,5-8k band; noun; consumer and shopping theme
+noun-mouw,mouw,noun,5-8k,b1-consumer-shopping,5-8k band; noun; consumer and shopping theme
+verb-terugsturen,terugsturen,verb,5-8k,b1-consumer-shopping,5-8k band; verb; consumer and shopping theme
+verb-teruggeven,teruggeven,verb,5-8k,b1-consumer-shopping,5-8k band; verb; consumer and shopping theme
+noun-assortiment,assortiment,noun,5-8k,b1-consumer-shopping,5-8k band; noun; consumer and shopping theme
+adj-tweedehands,tweedehands,adj,5-8k,b1-consumer-shopping,5-8k band; adjective; consumer and shopping theme
+noun-sieraad,sieraad,noun,5-8k,b1-consumer-shopping,5-8k band; noun; consumer and shopping theme
+noun-postzegel,postzegel,noun,5-8k,b1-consumer-shopping,5-8k band; noun; consumer and shopping theme
+adj-voordelig,voordelig,adj,5-8k,b1-consumer-shopping,5-8k band; adjective; consumer and shopping theme
+noun-boekhandel,boekhandel,noun,5-8k,b1-consumer-shopping,5-8k band; noun; consumer and shopping theme
+verb-afhalen,afhalen,verb,5-8k,b1-consumer-shopping,5-8k band; verb; consumer and shopping theme
+adj-onbeperkt,onbeperkt,adj,5-8k,b1-consumer-shopping,5-8k band; adjective; consumer and shopping theme
+noun-balie,balie,noun,5-8k,b1-consumer-shopping,5-8k band; noun; consumer and shopping theme
+noun-kapsel,kapsel,noun,5-8k,b1-consumer-shopping,5-8k band; noun; consumer and shopping theme
 verb-mengen,mengen,verb,3-5k,b1-food-cooking,3-5k band; verb; food and cooking theme
 verb-proeven,proeven,verb,3-5k,b1-food-cooking,3-5k band; verb; food and cooking theme
 adj-gevuld,gevuld,adj,3-5k,b1-food-cooking,3-5k band; adjective; food and cooking theme
 noun-voeding,voeding,noun,3-5k,b1-food-cooking,3-5k band; noun; food and cooking theme
+noun-eiwit,eiwit,noun,3-5k,b1-food-cooking,3-5k band; noun; food and cooking theme
+adj-bitter,bitter,adj,3-5k,b1-food-cooking,3-5k band; adjective; food and cooking theme
+adj-zoet,zoet,adj,5-8k,b1-food-cooking,5-8k band; adjective; food and cooking theme
+noun-menu,menu,noun,5-8k,b1-food-cooking,5-8k band; noun; food and cooking theme
+verb-opeten,opeten,verb,5-8k,b1-food-cooking,5-8k band; verb; food and cooking theme
+noun-banaan,banaan,noun,5-8k,b1-food-cooking,5-8k band; noun; food and cooking theme
+adj-pittig,pittig,adj,5-8k,b1-food-cooking,5-8k band; adjective; food and cooking theme
+noun-chocolade,chocolade,noun,5-8k,b1-food-cooking,5-8k band; noun; food and cooking theme
+adj-rauw,rauw,adj,5-8k,b1-food-cooking,5-8k band; adjective; food and cooking theme
+adj-houdbaar,houdbaar,adj,5-8k,b1-food-cooking,5-8k band; adjective; food and cooking theme
+noun-diner,diner,noun,5-8k,b1-food-cooking,5-8k band; noun; food and cooking theme
+noun-saus,saus,noun,5-8k,b1-food-cooking,5-8k band; noun; food and cooking theme
+noun-peer,peer,noun,5-8k,b1-food-cooking,5-8k band; noun; food and cooking theme
+noun-mosterd,mosterd,noun,5-8k,b1-food-cooking,5-8k band; noun; food and cooking theme
+noun-slager,slager,noun,5-8k,b1-food-cooking,5-8k band; noun; food and cooking theme
+adj-zelfgemaakt,zelfgemaakt,adj,5-8k,b1-food-cooking,5-8k band; adjective; food and cooking theme
+noun-deksel,deksel,noun,5-8k,b1-food-cooking,5-8k band; noun; food and cooking theme
+noun-portie,portie,noun,5-8k,b1-food-cooking,5-8k band; noun; food and cooking theme
+noun-chips,chips,noun,5-8k,b1-food-cooking,5-8k band; noun; food and cooking theme
+noun-broodje,broodje,noun,5-8k,b1-food-cooking,5-8k band; noun; food and cooking theme
 verb-ruziën,ruziën,verb,3-5k,b1-relationships-family,3-5k band; verb; relationships and family theme
 noun-opvoeding,opvoeding,noun,3-5k,b1-relationships-family,3-5k band; noun; relationships and family theme
 verb-pesten,pesten,verb,3-5k,b1-relationships-family,3-5k band; verb; relationships and family theme
@@ -286,6 +520,23 @@ noun-voornaam,voornaam,noun,3-5k,b1-relationships-family,3-5k band; noun; relati
 noun-kleinkind,kleinkind,noun,3-5k,b1-relationships-family,3-5k band; noun; relationships and family theme
 adj-bevriend,bevriend,adj,3-5k,b1-relationships-family,3-5k band; adjective; relationships and family theme
 noun-kleinzoon,kleinzoon,noun,3-5k,b1-relationships-family,3-5k band; noun; relationships and family theme
+verb-vergeven,vergeven,verb,3-5k,b1-relationships-family,3-5k band; verb; relationships and family theme
+verb-adopteren,adopteren,verb,3-5k,b1-relationships-family,3-5k band; verb; relationships and family theme
+noun-grootouder,grootouder,noun,5-8k,b1-relationships-family,5-8k band; noun; relationships and family theme
+adj-gehuwd,gehuwd,adj,5-8k,b1-relationships-family,5-8k band; adjective; relationships and family theme
+noun-kleuter,kleuter,noun,5-8k,b1-relationships-family,5-8k band; noun; relationships and family theme
+noun-tweeling,tweeling,noun,5-8k,b1-relationships-family,5-8k band; noun; relationships and family theme
+verb-plagen,plagen,verb,5-8k,b1-relationships-family,5-8k band; verb; relationships and family theme
+verb-verwennen,verwennen,verb,5-8k,b1-relationships-family,5-8k band; verb; relationships and family theme
+verb-knuffelen,knuffelen,verb,5-8k,b1-relationships-family,5-8k band; verb; relationships and family theme
+noun-uitvaart,uitvaart,noun,5-8k,b1-relationships-family,5-8k band; noun; relationships and family theme
+noun-schoonzoon,schoonzoon,noun,5-8k,b1-relationships-family,5-8k band; noun; relationships and family theme
+noun-kleindochter,kleindochter,noun,5-8k,b1-relationships-family,5-8k band; noun; relationships and family theme
+noun-zwager,zwager,noun,5-8k,b1-relationships-family,5-8k band; noun; relationships and family theme
+verb-flirten,flirten,verb,5-8k,b1-relationships-family,5-8k band; verb; relationships and family theme
+verb-daten,daten,verb,5-8k,b1-relationships-family,5-8k band; verb; relationships and family theme
+noun-schoonvader,schoonvader,noun,5-8k,b1-relationships-family,5-8k band; noun; relationships and family theme
+noun-schoonmoeder,schoonmoeder,noun,5-8k,b1-relationships-family,5-8k band; noun; relationships and family theme
 noun-discipline,discipline,noun,3-5k,b1-feelings-character,3-5k band; noun; feelings and character theme
 adj-zielig,zielig,adj,3-5k,b1-feelings-character,3-5k band; adjective; feelings and character theme
 noun-gewoonte,gewoonte,noun,3-5k,b1-feelings-character,3-5k band; noun; feelings and character theme
@@ -309,6 +560,40 @@ verb-kwetsen,kwetsen,verb,3-5k,b1-feelings-character,3-5k band; verb; feelings a
 noun-passie,passie,noun,3-5k,b1-feelings-character,3-5k band; noun; feelings and character theme
 verb-bewonderen,bewonderen,verb,3-5k,b1-feelings-character,3-5k band; verb; feelings and character theme
 adj-stom,stom,adj,3-5k,b1-feelings-character,3-5k band; adjective; feelings and character theme
+noun-wantrouwen,wantrouwen,noun,3-5k,b1-feelings-character,3-5k band; noun; feelings and character theme
+noun-verbazing,verbazing,noun,3-5k,b1-feelings-character,3-5k band; noun; feelings and character theme
+noun-fantasie,fantasie,noun,3-5k,b1-feelings-character,3-5k band; noun; feelings and character theme
+noun-geduld,geduld,noun,3-5k,b1-feelings-character,3-5k band; noun; feelings and character theme
+noun-spijt,spijt,noun,3-5k,b1-feelings-character,3-5k band; noun; feelings and character theme
+noun-schrik,schrik,noun,3-5k,b1-feelings-character,3-5k band; noun; feelings and character theme
+adj-somber,somber,adj,5-8k,b1-feelings-character,5-8k band; adjective; feelings and character theme
+noun-eenzaamheid,eenzaamheid,noun,5-8k,b1-feelings-character,5-8k band; noun; feelings and character theme
+adj-naïef,naïef,adj,5-8k,b1-feelings-character,5-8k band; adjective; feelings and character theme
+adj-irritant,irritant,adj,5-8k,b1-feelings-character,5-8k band; adjective; feelings and character theme
+adj-verward,verward,adj,5-8k,b1-feelings-character,5-8k band; adjective; feelings and character theme
+adj-optimistisch,optimistisch,adj,5-8k,b1-feelings-character,5-8k band; adjective; feelings and character theme
+adj-dapper,dapper,adj,5-8k,b1-feelings-character,5-8k band; adjective; feelings and character theme
+noun-medelijden,medelijden,noun,5-8k,b1-feelings-character,5-8k band; noun; feelings and character theme
+adj-ontevreden,ontevreden,adj,5-8k,b1-feelings-character,5-8k band; adjective; feelings and character theme
+noun-woede,woede,noun,5-8k,b1-feelings-character,5-8k band; noun; feelings and character theme
+adj-gerust,gerust,adj,5-8k,b1-feelings-character,5-8k band; adjective; feelings and character theme
+noun-traan,traan,noun,5-8k,b1-feelings-character,5-8k band; noun; feelings and character theme
+adj-braaf,braaf,adj,5-8k,b1-feelings-character,5-8k band; adjective; feelings and character theme
+adj-arrogant,arrogant,adj,5-8k,b1-feelings-character,5-8k band; adjective; feelings and character theme
+adj-wanhopig,wanhopig,adj,5-8k,b1-feelings-character,5-8k band; adjective; feelings and character theme
+noun-nachtmerrie,nachtmerrie,noun,5-8k,b1-feelings-character,5-8k band; noun; feelings and character theme
+noun-ergernis,ergernis,noun,5-8k,b1-feelings-character,5-8k band; noun; feelings and character theme
+verb-troosten,troosten,verb,5-8k,b1-feelings-character,5-8k band; verb; feelings and character theme
+noun-schaamte,schaamte,noun,5-8k,b1-feelings-character,5-8k band; noun; feelings and character theme
+adj-sympathiek,sympathiek,adj,5-8k,b1-feelings-character,5-8k band; adjective; feelings and character theme
+adj-onhandig,onhandig,adj,5-8k,b1-feelings-character,5-8k band; adjective; feelings and character theme
+adj-asociaal,asociaal,adj,5-8k,b1-feelings-character,5-8k band; adjective; feelings and character theme
+adj-nuchter,nuchter,adj,5-8k,b1-feelings-character,5-8k band; adjective; feelings and character theme
+adj-slordig,slordig,adj,5-8k,b1-feelings-character,5-8k band; adjective; feelings and character theme
+adj-angstig,angstig,adj,5-8k,b1-feelings-character,5-8k band; adjective; feelings and character theme
+adj-brutaal,brutaal,adj,5-8k,b1-feelings-character,5-8k band; adjective; feelings and character theme
+adj-verlegen,verlegen,adj,5-8k,b1-feelings-character,5-8k band; adjective; feelings and character theme
+adj-egoïstisch,egoïstisch,adj,5-8k,b1-feelings-character,5-8k band; adjective; feelings and character theme
 noun-toespraak,toespraak,noun,3-5k,b1-opinion-communication,3-5k band; noun; opinion and communication theme
 verb-toegeven,toegeven,verb,3-5k,b1-opinion-communication,3-5k band; verb; opinion and communication theme
 verb-zwijgen,zwijgen,verb,3-5k,b1-opinion-communication,3-5k band; verb; opinion and communication theme
@@ -328,6 +613,20 @@ noun-bewering,bewering,noun,3-5k,b1-opinion-communication,3-5k band; noun; opini
 verb-formuleren,formuleren,verb,3-5k,b1-opinion-communication,3-5k band; verb; opinion and communication theme
 noun-suggestie,suggestie,noun,3-5k,b1-opinion-communication,3-5k band; noun; opinion and communication theme
 noun-aanbeveling,aanbeveling,noun,3-5k,b1-opinion-communication,3-5k band; noun; opinion and communication theme
+noun-compromis,compromis,noun,3-5k,b1-opinion-communication,3-5k band; noun; opinion and communication theme
+verb-uitdrukken,uitdrukken,verb,3-5k,b1-opinion-communication,3-5k band; verb; opinion and communication theme
+verb-overdrijven,overdrijven,verb,3-5k,b1-opinion-communication,3-5k band; verb; opinion and communication theme
+verb-aanmoedigen,aanmoedigen,verb,3-5k,b1-opinion-communication,3-5k band; verb; opinion and communication theme
+verb-schelden,schelden,verb,3-5k,b1-opinion-communication,3-5k band; verb; opinion and communication theme
+noun-toelichting,toelichting,noun,5-8k,b1-opinion-communication,5-8k band; noun; opinion and communication theme
+noun-misverstand,misverstand,noun,5-8k,b1-opinion-communication,5-8k band; noun; opinion and communication theme
+adj-telefonisch,telefonisch,adj,5-8k,b1-opinion-communication,5-8k band; adjective; opinion and communication theme
+verb-instemmen,instemmen,verb,5-8k,b1-opinion-communication,5-8k band; verb; opinion and communication theme
+verb-discussiëren,discussiëren,verb,5-8k,b1-opinion-communication,5-8k band; verb; opinion and communication theme
+noun-compliment,compliment,noun,5-8k,b1-opinion-communication,5-8k band; noun; opinion and communication theme
+verb-zeuren,zeuren,verb,5-8k,b1-opinion-communication,5-8k band; verb; opinion and communication theme
+adj-oneens,oneens,adj,5-8k,b1-opinion-communication,5-8k band; adjective; opinion and communication theme
+verb-kletsen,kletsen,verb,5-8k,b1-opinion-communication,5-8k band; verb; opinion and communication theme
 noun-volgorde,volgorde,noun,3-5k,b1-time-planning,3-5k band; noun; time and planning theme
 adj-eenmalig,eenmalig,adj,3-5k,b1-time-planning,3-5k band; adjective; time and planning theme
 noun-planning,planning,noun,3-5k,b1-time-planning,3-5k band; noun; time and planning theme
@@ -337,6 +636,13 @@ adj-gelijktijdig,gelijktijdig,adj,3-5k,b1-time-planning,3-5k band; adjective; ti
 verb-doorbrengen,doorbrengen,verb,3-5k,b1-time-planning,3-5k band; verb; time and planning theme
 noun-haast,haast,noun,3-5k,b1-time-planning,3-5k band; noun; time and planning theme
 noun-ogenblik,ogenblik,noun,3-5k,b1-time-planning,3-5k band; noun; time and planning theme
+noun-middernacht,middernacht,noun,3-5k,b1-time-planning,3-5k band; noun; time and planning theme
+adj-tijdig,tijdig,adj,3-5k,b1-time-planning,3-5k band; adjective; time and planning theme
+noun-bevestiging,bevestiging,noun,3-5k,b1-time-planning,3-5k band; noun; time and planning theme
+noun-schema,schema,noun,3-5k,b1-time-planning,3-5k band; noun; time and planning theme
+noun-voornemen,voornemen,noun,5-8k,b1-time-planning,5-8k band; noun; time and planning theme
+noun-wachttijd,wachttijd,noun,5-8k,b1-time-planning,5-8k band; noun; time and planning theme
+verb-afzeggen,afzeggen,verb,5-8k,b1-time-planning,5-8k band; verb; time and planning theme
 noun-strip,strip,noun,3-5k,b1-culture-sport,3-5k band; noun; culture and sport theme
 verb-filmen,filmen,verb,3-5k,b1-culture-sport,3-5k band; verb; culture and sport theme
 noun-rock,rock,noun,3-5k,b1-culture-sport,3-5k band; noun; culture and sport theme
@@ -358,6 +664,21 @@ noun-gids,gids,noun,3-5k,b1-culture-sport,3-5k band; noun; culture and sport the
 noun-wielrenner,wielrenner,noun,3-5k,b1-culture-sport,3-5k band; noun; culture and sport theme
 noun-gelijkspel,gelijkspel,noun,3-5k,b1-culture-sport,3-5k band; noun; culture and sport theme
 noun-recensie,recensie,noun,3-5k,b1-culture-sport,3-5k band; noun; culture and sport theme
+verb-juichen,juichen,verb,3-5k,b1-culture-sport,3-5k band; verb; culture and sport theme
+noun-hoofdpersoon,hoofdpersoon,noun,3-5k,b1-culture-sport,3-5k band; noun; culture and sport theme
+verb-fotograferen,fotograferen,verb,3-5k,b1-culture-sport,3-5k band; verb; culture and sport theme
+noun-viering,viering,noun,3-5k,b1-culture-sport,3-5k band; noun; culture and sport theme
+verb-zeilen,zeilen,verb,3-5k,b1-culture-sport,3-5k band; verb; culture and sport theme
+noun-sprookje,sprookje,noun,3-5k,b1-culture-sport,3-5k band; noun; culture and sport theme
+noun-dagboek,dagboek,noun,5-8k,b1-culture-sport,5-8k band; noun; culture and sport theme
+noun-entree,entree,noun,5-8k,b1-culture-sport,5-8k band; noun; culture and sport theme
+noun-speeltuin,speeltuin,noun,5-8k,b1-culture-sport,5-8k band; noun; culture and sport theme
+verb-skiën,skiën,verb,5-8k,b1-culture-sport,5-8k band; verb; culture and sport theme
+noun-sporthal,sporthal,noun,5-8k,b1-culture-sport,5-8k band; noun; culture and sport theme
+noun-rondleiding,rondleiding,noun,5-8k,b1-culture-sport,5-8k band; noun; culture and sport theme
+noun-pretpark,pretpark,noun,5-8k,b1-culture-sport,5-8k band; noun; culture and sport theme
+noun-puzzel,puzzel,noun,5-8k,b1-culture-sport,5-8k band; noun; culture and sport theme
+noun-schouwburg,schouwburg,noun,5-8k,b1-culture-sport,5-8k band; noun; culture and sport theme
 adj-stabiel,stabiel,adj,3-5k,b1-describing,3-5k band; adjective; no clear theme
 adj-bereikbaar,bereikbaar,adj,3-5k,b1-describing,3-5k band; adjective; no clear theme
 adj-fraai,fraai,adj,3-5k,b1-describing,3-5k band; adjective; no clear theme
@@ -402,6 +723,31 @@ adj-ouderwets,ouderwets,adj,3-5k,b1-describing,3-5k band; adjective; no clear th
 adj-nuttig,nuttig,adj,3-5k,b1-describing,3-5k band; adjective; no clear theme
 adj-gaaf,gaaf,adj,3-5k,b1-describing,3-5k band; adjective; no clear theme
 adj-eindeloos,eindeloos,adj,3-5k,b1-describing,3-5k band; adjective; no clear theme
+adj-smerig,smerig,adj,3-5k,b1-describing,3-5k band; adjective; no clear theme
+adj-soepel,soepel,adj,3-5k,b1-describing,3-5k band; adjective; no clear theme
+adj-vlot,vlot,adj,3-5k,b1-describing,3-5k band; adjective; no clear theme
+adj-keurig,keurig,adj,3-5k,b1-describing,3-5k band; adjective; no clear theme
+adj-heftig,heftig,adj,3-5k,b1-describing,3-5k band; adjective; no clear theme
+adj-nutteloos,nutteloos,adj,3-5k,b1-describing,3-5k band; adjective; no clear theme
+adj-aangenaam,aangenaam,adj,3-5k,b1-describing,3-5k band; adjective; no clear theme
+adj-ongewoon,ongewoon,adj,3-5k,b1-describing,3-5k band; adjective; no clear theme
+adj-transparant,transparant,adj,3-5k,b1-describing,3-5k band; adjective; no clear theme
+adj-abstract,abstract,adj,3-5k,b1-describing,3-5k band; adjective; no clear theme
+adj-levendig,levendig,adj,3-5k,b1-describing,3-5k band; adjective; no clear theme
+adj-afgelegen,afgelegen,adj,3-5k,b1-describing,3-5k band; adjective; no clear theme
+adj-merkwaardig,merkwaardig,adj,3-5k,b1-describing,3-5k band; adjective; no clear theme
+adj-krap,krap,adj,5-8k,b1-describing,5-8k band; adjective; no clear theme
+adj-waardeloos,waardeloos,adj,5-8k,b1-describing,5-8k band; adjective; no clear theme
+adj-vaag,vaag,adj,5-8k,b1-describing,5-8k band; adjective; no clear theme
+adj-begrijpelijk,begrijpelijk,adj,5-8k,b1-describing,5-8k band; adjective; no clear theme
+adj-matig,matig,adj,5-8k,b1-describing,5-8k band; adjective; no clear theme
+adj-schaars,schaars,adj,5-8k,b1-describing,5-8k band; adjective; no clear theme
+adj-overdreven,overdreven,adj,5-8k,b1-describing,5-8k band; adjective; no clear theme
+adj-zinvol,zinvol,adj,5-8k,b1-describing,5-8k band; adjective; no clear theme
+adj-onveilig,onveilig,adj,5-8k,b1-describing,5-8k band; adjective; no clear theme
+adj-defect,defect,adj,5-8k,b1-describing,5-8k band; adjective; no clear theme
+adj-koel,koel,adj,5-8k,b1-describing,5-8k band; adjective; no clear theme
+adj-boeiend,boeiend,adj,5-8k,b1-describing,5-8k band; adjective; no clear theme
 verb-vernielen,vernielen,verb,3-5k,b1-everyday-verbs,3-5k band; verb; no clear theme
 verb-falen,falen,verb,3-5k,b1-everyday-verbs,3-5k band; verb; no clear theme
 verb-betrappen,betrappen,verb,3-5k,b1-everyday-verbs,3-5k band; verb; no clear theme
@@ -434,3 +780,25 @@ verb-volhouden,volhouden,verb,3-5k,b1-everyday-verbs,3-5k band; verb; no clear t
 verb-bijhouden,bijhouden,verb,3-5k,b1-everyday-verbs,3-5k band; verb; no clear theme
 verb-afmaken,afmaken,verb,3-5k,b1-everyday-verbs,3-5k band; verb; no clear theme
 verb-overwinnen,overwinnen,verb,3-5k,b1-everyday-verbs,3-5k band; verb; no clear theme
+verb-weghalen,weghalen,verb,3-5k,b1-everyday-verbs,3-5k band; verb; no clear theme
+verb-uitzoeken,uitzoeken,verb,3-5k,b1-everyday-verbs,3-5k band; verb; no clear theme
+verb-scheuren,scheuren,verb,3-5k,b1-everyday-verbs,3-5k band; verb; no clear theme
+verb-uitvallen,uitvallen,verb,3-5k,b1-everyday-verbs,3-5k band; verb; no clear theme
+verb-uitzien,uitzien,verb,3-5k,b1-everyday-verbs,3-5k band; verb; no clear theme
+verb-kwijtraken,kwijtraken,verb,3-5k,b1-everyday-verbs,3-5k band; verb; no clear theme
+verb-tegenkomen,tegenkomen,verb,3-5k,b1-everyday-verbs,3-5k band; verb; no clear theme
+verb-omkeren,omkeren,verb,3-5k,b1-everyday-verbs,3-5k band; verb; no clear theme
+verb-tillen,tillen,verb,5-8k,b1-everyday-verbs,5-8k band; verb; no clear theme
+verb-overslaan,overslaan,verb,5-8k,b1-everyday-verbs,5-8k band; verb; no clear theme
+verb-uitkiezen,uitkiezen,verb,5-8k,b1-everyday-verbs,5-8k band; verb; no clear theme
+verb-stinken,stinken,verb,5-8k,b1-everyday-verbs,5-8k band; verb; no clear theme
+verb-aanraken,aanraken,verb,5-8k,b1-everyday-verbs,5-8k band; verb; no clear theme
+verb-scheren,scheren,verb,5-8k,b1-everyday-verbs,5-8k band; verb; no clear theme
+verb-weglopen,weglopen,verb,5-8k,b1-everyday-verbs,5-8k band; verb; no clear theme
+verb-uitkijken,uitkijken,verb,5-8k,b1-everyday-verbs,5-8k band; verb; no clear theme
+verb-weggooien,weggooien,verb,5-8k,b1-everyday-verbs,5-8k band; verb; no clear theme
+verb-aarzelen,aarzelen,verb,5-8k,b1-everyday-verbs,5-8k band; verb; no clear theme
+verb-uitlenen,uitlenen,verb,5-8k,b1-everyday-verbs,5-8k band; verb; no clear theme
+verb-vastzitten,vastzitten,verb,5-8k,b1-everyday-verbs,5-8k band; verb; no clear theme
+verb-oppassen,oppassen,verb,5-8k,b1-everyday-verbs,5-8k band; verb; no clear theme
+verb-vouwen,vouwen,verb,5-8k,b1-everyday-verbs,5-8k band; verb; no clear theme

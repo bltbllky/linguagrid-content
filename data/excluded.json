@@ -246,5 +246,509 @@
   {
     "id": "noun-khan",
     "reason": "proper name"
+  },
+  {
+    "id": "verb-aankomt",
+    "reason": "inflected form (aankomen)"
+  },
+  {
+    "id": "verb-toeneemt",
+    "reason": "inflected form (toenemen)"
+  },
+  {
+    "id": "noun-zwitserse",
+    "reason": "inflected adjective form (zwitsers)"
+  },
+  {
+    "id": "noun-gouda",
+    "reason": "mostly the place name Gouda"
+  },
+  {
+    "id": "noun-haagse",
+    "reason": "inflected adjective form (haags)"
+  },
+  {
+    "id": "noun-oostenrijkse",
+    "reason": "inflected adjective form (oostenrijks)"
+  },
+  {
+    "id": "noun-whatsapp",
+    "reason": "brand name"
+  },
+  {
+    "id": "verb-poppen",
+    "reason": "plural of pop tagged as a verb"
+  },
+  {
+    "id": "noun-rechtse",
+    "reason": "inflected adjective form (rechts)"
+  },
+  {
+    "id": "noun-rotterdamse",
+    "reason": "inflected adjective form (rotterdams)"
+  },
+  {
+    "id": "noun-deense",
+    "reason": "inflected adjective form (deens)"
+  },
+  {
+    "id": "verb-voorbereid",
+    "reason": "participle (voorbereiden)"
+  },
+  {
+    "id": "verb-jachten",
+    "reason": "plural of jacht tagged as a verb"
+  },
+  {
+    "id": "verb-sluizen",
+    "reason": "plural of sluis tagged as a verb"
+  },
+  {
+    "id": "noun-wijf",
+    "reason": "derogatory term"
+  },
+  {
+    "id": "noun-waalse",
+    "reason": "inflected adjective form (waals)"
+  },
+  {
+    "id": "verb-terugkeert",
+    "reason": "inflected form (terugkeren)"
+  },
+  {
+    "id": "verb-fabrieken",
+    "reason": "plural of fabriek tagged as a verb"
+  },
+  {
+    "id": "noun-shit",
+    "reason": "vulgar interjection"
+  },
+  {
+    "id": "verb-blanken",
+    "reason": "plural of blanke tagged as a verb"
+  },
+  {
+    "id": "adj-haren",
+    "reason": "plural of haar tagged as an adjective"
+  },
+  {
+    "id": "verb-buizen",
+    "reason": "plural of buis tagged as a verb"
+  },
+  {
+    "id": "noun-canadese",
+    "reason": "inflected adjective form (canadees)"
+  },
+  {
+    "id": "verb-palen",
+    "reason": "plural of paal tagged as a verb"
+  },
+  {
+    "id": "noun-meent",
+    "reason": "inflected form (menen)"
+  },
+  {
+    "id": "noun-cijferen",
+    "reason": "verb tagged as a noun"
+  },
+  {
+    "id": "verb-vingeren",
+    "reason": "plural of vinger tagged as a verb"
+  },
+  {
+    "id": "noun-marokkaanse",
+    "reason": "inflected adjective form (marokkaans)"
+  },
+  {
+    "id": "noun-aziatische",
+    "reason": "inflected adjective form (aziatisch)"
+  },
+  {
+    "id": "noun-iraanse",
+    "reason": "inflected adjective form (iraans)"
+  },
+  {
+    "id": "noun-noorse",
+    "reason": "inflected adjective form (noors)"
+  },
+  {
+    "id": "noun-hongaarse",
+    "reason": "inflected adjective form (hongaars)"
+  },
+  {
+    "id": "noun-schone",
+    "reason": "inflected adjective form (schoon)"
+  },
+  {
+    "id": "noun-gemaakte",
+    "reason": "participle form (maken)"
+  },
+  {
+    "id": "noun-rare",
+    "reason": "inflected adjective form (raar)"
+  },
+  {
+    "id": "noun-droge",
+    "reason": "inflected adjective form (droog)"
+  },
+  {
+    "id": "verb-aanschaf",
+    "reason": "noun tagged as a verb (aanschaffen)"
+  },
+  {
+    "id": "verb-vossen",
+    "reason": "plural of vos tagged as a verb"
+  },
+  {
+    "id": "verb-optreedt",
+    "reason": "inflected form (optreden)"
+  },
+  {
+    "id": "verb-opstel",
+    "reason": "noun tagged as a verb"
+  },
+  {
+    "id": "noun-limburgse",
+    "reason": "inflected adjective form (limburgs)"
+  },
+  {
+    "id": "verb-afneemt",
+    "reason": "inflected form (afnemen)"
+  },
+  {
+    "id": "verb-pasen",
+    "reason": "holiday name Pasen tagged as a verb"
+  },
+  {
+    "id": "verb-fruiten",
+    "reason": "lemmatisation error (fruit)"
+  },
+  {
+    "id": "noun-tsjechische",
+    "reason": "inflected adjective form (tsjechisch)"
+  },
+  {
+    "id": "verb-deelnam",
+    "reason": "inflected form (deelnemen)"
+  },
+  {
+    "id": "verb-oploopt",
+    "reason": "inflected form (oplopen)"
+  },
+  {
+    "id": "verb-overnam",
+    "reason": "inflected form (overnemen)"
+  },
+  {
+    "id": "verb-opvalt",
+    "reason": "inflected form (opvallen)"
+  },
+  {
+    "id": "noun-omdraaien",
+    "reason": "verb tagged as a noun"
+  },
+  {
+    "id": "noun-stille",
+    "reason": "inflected adjective form (stil)"
+  },
+  {
+    "id": "noun-friese",
+    "reason": "inflected adjective form (fries)"
+  },
+  {
+    "id": "noun-braziliaanse",
+    "reason": "inflected adjective form (braziliaans)"
+  },
+  {
+    "id": "noun-israëlische",
+    "reason": "inflected adjective form (israëlisch)"
+  },
+  {
+    "id": "noun-portugese",
+    "reason": "inflected adjective form (portugees)"
+  },
+  {
+    "id": "noun-londense",
+    "reason": "inflected adjective form (londens)"
+  },
+  {
+    "id": "verb-oorlogen",
+    "reason": "plural of oorlog tagged as a verb"
+  },
+  {
+    "id": "verb-tuinen",
+    "reason": "plural of tuin tagged as a verb"
+  },
+  {
+    "id": "verb-kisten",
+    "reason": "plural of kist tagged as a verb"
+  },
+  {
+    "id": "verb-strepen",
+    "reason": "plural of streep tagged as a verb"
+  },
+  {
+    "id": "verb-balken",
+    "reason": "plural of balk tagged as a verb"
+  },
+  {
+    "id": "verb-beieren",
+    "reason": "mostly the place name Beieren"
+  },
+  {
+    "id": "noun-romeo",
+    "reason": "first name"
+  },
+  {
+    "id": "verb-uitlaat",
+    "reason": "noun tagged as a verb (uitlaten)"
+  },
+  {
+    "id": "verb-inhoudt",
+    "reason": "inflected form (inhouden)"
+  },
+  {
+    "id": "verb-atten",
+    "reason": "lemmatisation error"
+  },
+  {
+    "id": "verb-uitziet",
+    "reason": "inflected form (uitzien)"
+  },
+  {
+    "id": "verb-terugkomt",
+    "reason": "inflected form (terugkomen)"
+  },
+  {
+    "id": "noun-ierse",
+    "reason": "inflected adjective form (iers)"
+  },
+  {
+    "id": "noun-woon",
+    "reason": "lemmatisation error (wonen)"
+  },
+  {
+    "id": "verb-aansluit",
+    "reason": "inflected form (aansluiten)"
+  },
+  {
+    "id": "verb-overblijft",
+    "reason": "inflected form (overblijven)"
+  },
+  {
+    "id": "verb-binnenkomt",
+    "reason": "inflected form (binnenkomen)"
+  },
+  {
+    "id": "verb-opnam",
+    "reason": "inflected form (opnemen)"
+  },
+  {
+    "id": "verb-botten",
+    "reason": "plural of bot tagged as a verb"
+  },
+  {
+    "id": "noun-madonna",
+    "reason": "proper name"
+  },
+  {
+    "id": "noun-belt",
+    "reason": "inflected form (bellen)"
+  },
+  {
+    "id": "noun-waal",
+    "reason": "mostly the river name Waal"
+  },
+  {
+    "id": "verb-uitgaat",
+    "reason": "inflected form (uitgaan)"
+  },
+  {
+    "id": "verb-optrad",
+    "reason": "inflected form (optreden)"
+  },
+  {
+    "id": "verb-uitvoert",
+    "reason": "inflected form (uitvoeren)"
+  },
+  {
+    "id": "verb-voorstelt",
+    "reason": "inflected form (voorstellen)"
+  },
+  {
+    "id": "verb-verwezen",
+    "reason": "participle (verwijzen)"
+  },
+  {
+    "id": "verb-aankwam",
+    "reason": "inflected form (aankomen)"
+  },
+  {
+    "id": "verb-opliep",
+    "reason": "inflected form (oplopen)"
+  },
+  {
+    "id": "verb-aanbiedt",
+    "reason": "inflected form (aanbieden)"
+  },
+  {
+    "id": "verb-ingaat",
+    "reason": "inflected form (ingaan)"
+  },
+  {
+    "id": "verb-omgaat",
+    "reason": "inflected form (omgaan)"
+  },
+  {
+    "id": "verb-uitbracht",
+    "reason": "inflected form (uitbrengen)"
+  },
+  {
+    "id": "verb-aangaf",
+    "reason": "inflected form (aangeven)"
+  },
+  {
+    "id": "noun-utrechtse",
+    "reason": "inflected adjective form (utrechts)"
+  },
+  {
+    "id": "noun-indiase",
+    "reason": "inflected adjective form (indiaas)"
+  },
+  {
+    "id": "noun-hein",
+    "reason": "first name"
+  },
+  {
+    "id": "noun-dries",
+    "reason": "mostly a first name"
+  },
+  {
+    "id": "verb-jassen",
+    "reason": "plural of jas tagged as a verb"
+  },
+  {
+    "id": "verb-poorten",
+    "reason": "plural of poort tagged as a verb"
+  },
+  {
+    "id": "noun-faal",
+    "reason": "lemmatisation error (falen)"
+  },
+  {
+    "id": "verb-aanzet",
+    "reason": "noun tagged as a verb (aanzetten)"
+  },
+  {
+    "id": "verb-afspeelt",
+    "reason": "inflected form (afspelen)"
+  },
+  {
+    "id": "verb-overeenkomt",
+    "reason": "inflected form (overeenkomen)"
+  },
+  {
+    "id": "verb-tegenkomt",
+    "reason": "inflected form (tegenkomen)"
+  },
+  {
+    "id": "verb-opneemt",
+    "reason": "inflected form (opnemen)"
+  },
+  {
+    "id": "verb-oproept",
+    "reason": "inflected form (oproepen)"
+  },
+  {
+    "id": "noun-mindere",
+    "reason": "inflected adjective form (minder)"
+  },
+  {
+    "id": "noun-finse",
+    "reason": "inflected adjective form (fins)"
+  },
+  {
+    "id": "noun-gevlucht",
+    "reason": "participle (vluchten)"
+  },
+  {
+    "id": "noun-gematigde",
+    "reason": "inflected adjective form (gematigd)"
+  },
+  {
+    "id": "verb-neuken",
+    "reason": "vulgar"
+  },
+  {
+    "id": "noun-reet",
+    "reason": "vulgar"
+  },
+  {
+    "id": "adj-klote",
+    "reason": "vulgar"
+  },
+  {
+    "id": "verb-meren",
+    "reason": "plural of meer tagged as a verb"
+  },
+  {
+    "id": "verb-luizen",
+    "reason": "plural of luis tagged as a verb"
+  },
+  {
+    "id": "verb-zeisen",
+    "reason": "plural of zeis tagged as a verb"
+  },
+  {
+    "id": "verb-pijpen",
+    "reason": "plural of pijp tagged as a verb; verb sense vulgar"
+  },
+  {
+    "id": "verb-intrek",
+    "reason": "inflected form (intrekken)"
+  },
+  {
+    "id": "verb-afgelast",
+    "reason": "participle (afgelasten)"
+  },
+  {
+    "id": "verb-terechtkomt",
+    "reason": "inflected form (terechtkomen)"
+  },
+  {
+    "id": "verb-afloopt",
+    "reason": "inflected form (aflopen)"
+  },
+  {
+    "id": "verb-meebrengt",
+    "reason": "inflected form (meebrengen)"
+  },
+  {
+    "id": "verb-overneemt",
+    "reason": "inflected form (overnemen)"
+  },
+  {
+    "id": "verb-kondigen",
+    "reason": "lemmatisation error (aankondigen)"
+  },
+  {
+    "id": "noun-blinde",
+    "reason": "inflected adjective form (blind)"
+  },
+  {
+    "id": "noun-indische",
+    "reason": "inflected adjective form (indisch)"
+  },
+  {
+    "id": "noun-ouwe",
+    "reason": "inflected adjective form (oud)"
+  },
+  {
+    "id": "noun-atalanta",
+    "reason": "club name"
+  },
+  {
+    "id": "noun-parool",
+    "reason": "mostly the newspaper name Het Parool"
   }
 ]
