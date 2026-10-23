@@ -24,6 +24,6 @@ Files under `data/b1/` are staged B1 content that is not in any app release yet.
 
 ## Open sources used for B1
 
-- Leipzig Corpora Collection word counts (CC BY). Leipzig terms: to be confirmed (T-128).
+- Leipzig Corpora Collection word counts. Leipzig Corpora Collection downloads: "The text corpora offered for download are made available under the Creative Commons licence CC BY." (no version stated on the page). Read on 2026-10-21 at https://wortschatz.uni-leipzig.de/en/usage. Cited as: Goldhahn, D., Eckart, T., & Quasthoff, U. (2012). Building Large Monolingual Dictionaries at the Leipzig Corpora Collection: From 100 to 200 Languages. Proceedings of LREC 2012.
 - Wiktionary, via kaikki.org (CC BY-SA 4.0), used only to check lemma, part of speech and articles; no Wiktionary text is copied into this repository.
 - OpenTaal wordlist (Revised BSD 3-clause or CC BY 3.0; copyright notice of the OpenTaal authors kept), used to check spelling.
