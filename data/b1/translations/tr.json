@@ -545,6 +545,836 @@
       "word_id": "noun-polis",
       "text": "poliçe",
       "reviewed": false
+    },
+    {
+      "word_id": "noun-renovatie",
+      "text": "renovasyon",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-isoleren",
+      "text": "yalıtmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verlichting",
+      "text": "aydınlatma",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-baksteen",
+      "text": "tuğla",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-uitzicht",
+      "text": "manzara",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-nieuwbouw",
+      "text": "yeni yapı",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-lekken",
+      "text": "sızdırmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-onderhoud",
+      "text": "bakım (onarım)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ladder",
+      "text": "seyyar merdiven",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-monteren",
+      "text": "monte etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-ophangen",
+      "text": "asmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verbouwing",
+      "text": "tadilat",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vegen",
+      "text": "süpürmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verven",
+      "text": "boyamak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wand",
+      "text": "iç duvar",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-onderdak",
+      "text": "barınak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-isolatie",
+      "text": "yalıtım",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kraan",
+      "text": "musluk",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hypotheek",
+      "text": "ipotek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-aannemer",
+      "text": "müteahhit",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-alarm",
+      "text": "alarm",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-comfort",
+      "text": "konfor",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ventilatie",
+      "text": "havalandırma",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-opknappen",
+      "text": "elden geçirmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gereedschap",
+      "text": "alet edevat",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-schuur",
+      "text": "bahçe kulübesi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-huisvesting",
+      "text": "barınma",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-boren",
+      "text": "matkapla delmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-notaris",
+      "text": "noter",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-woningbouw",
+      "text": "konut inşaatı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vastgoed",
+      "text": "gayrimenkul",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-schimmel",
+      "text": "küf",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-bezichtigen",
+      "text": "(evi) gezip görmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-aardgas",
+      "text": "doğal gaz",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verf",
+      "text": "boya",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kaars",
+      "text": "mum",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-huurwoning",
+      "text": "kiralık ev",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tapijt",
+      "text": "halı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hamer",
+      "text": "çekiç",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-koelkast",
+      "text": "buzdolabı",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-schroeven",
+      "text": "vidalamak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-buitenwijk",
+      "text": "dış mahalle",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-brievenbus",
+      "text": "posta kutusu",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wachtlijst",
+      "text": "bekleme listesi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-emmer",
+      "text": "kova",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-huisgenoot",
+      "text": "ev arkadaşı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-woningmarkt",
+      "text": "konut piyasası",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vaas",
+      "text": "vazo",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-maaien",
+      "text": "(çim) biçmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-douche",
+      "text": "duş",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-warmtepomp",
+      "text": "ısı pompası",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-airco",
+      "text": "klima",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ventilator",
+      "text": "vantilatör",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-huisnummer",
+      "text": "kapı numarası",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-huurder",
+      "text": "kiracı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-prullenbak",
+      "text": "çöp kutusu",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-woonruimte",
+      "text": "yaşam alanı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-flatgebouw",
+      "text": "apartman binası",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-schakelaar",
+      "text": "elektrik düğmesi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-postcode",
+      "text": "posta kodu",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-matras",
+      "text": "şilte",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-huiseigenaar",
+      "text": "ev sahibi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-herrie",
+      "text": "gürültü patırtı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wekker",
+      "text": "çalar saat",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-koopwoning",
+      "text": "mülk ev",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-stopcontact",
+      "text": "priz",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-aandoening",
+      "text": "rahatsızlık",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-herstel",
+      "text": "iyileşme",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-bevallen",
+      "text": "doğum yapmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gewonde",
+      "text": "yaralı (kişi)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-geheugen",
+      "text": "hafıza",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-depressie",
+      "text": "depresyon",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ambulance",
+      "text": "ambulans",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gehoor",
+      "text": "işitme",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verpleeghuis",
+      "text": "bakımevi",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-schadelijk",
+      "text": "zararlı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bewustzijn",
+      "text": "bilinç",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zuurstof",
+      "text": "oksijen",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-ademen",
+      "text": "nefes almak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wang",
+      "text": "yanak",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-besmettelijk",
+      "text": "bulaşıcı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-breuk",
+      "text": "kırık",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bacterie",
+      "text": "bakteri",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hulpdienst",
+      "text": "acil durum servisi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kanker",
+      "text": "kanser",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-dosis",
+      "text": "doz",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hals",
+      "text": "boyun",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vaccinatie",
+      "text": "aşılama",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-acuut",
+      "text": "akut, ani",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-giftig",
+      "text": "zehirli",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-diagnose",
+      "text": "teşhis",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vaccineren",
+      "text": "aşılamak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vitamine",
+      "text": "vitamin",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hulpverlener",
+      "text": "yardım görevlisi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ingreep",
+      "text": "müdahale (tıbbi)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-infectie",
+      "text": "enfeksiyon",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-geneeskunde",
+      "text": "tıp",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-erfelijk",
+      "text": "kalıtsal",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kliniek",
+      "text": "klinik",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hulpmiddel",
+      "text": "yardımcı araç",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-chronisch",
+      "text": "kronik",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zwangerschap",
+      "text": "hamilelik",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-psycholoog",
+      "text": "psikolog",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hartaanval",
+      "text": "kalp krizi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-levensstijl",
+      "text": "yaşam tarzı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-conditie",
+      "text": "kondisyon",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-sigaret",
+      "text": "sigara",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-nagel",
+      "text": "tırnak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-dieet",
+      "text": "diyet",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-letsel",
+      "text": "yaralanma",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-therapie",
+      "text": "terapi",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-plassen",
+      "text": "çiş yapmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verzorging",
+      "text": "bakım (kişisel)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tandarts",
+      "text": "diş hekimi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hoest",
+      "text": "öksürük",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-psychiater",
+      "text": "psikiyatr",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-handicap",
+      "text": "engellilik",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-prikken",
+      "text": "iğne yapmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-lichamelijk",
+      "text": "bedensel",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hygiëne",
+      "text": "hijyen",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-overgewicht",
+      "text": "fazla kilo",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-spier",
+      "text": "kas",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-stijf",
+      "text": "kaskatı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-dementie",
+      "text": "bunama",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-rolstoel",
+      "text": "tekerlekli sandalye",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-adem",
+      "text": "nefes",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-heup",
+      "text": "kalça",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-voorlichting",
+      "text": "bilgilendirme",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-bewusteloos",
+      "text": "baygın",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-darm",
+      "text": "bağırsak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-elleboog",
+      "text": "dirsek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tumor",
+      "text": "tümör",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-chirurg",
+      "text": "cerrah",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-injectie",
+      "text": "enjeksiyon",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verkoudheid",
+      "text": "soğuk algınlığı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-nier",
+      "text": "böbrek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bloeddruk",
+      "text": "tansiyon",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verslaving",
+      "text": "bağımlılık",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-zweten",
+      "text": "terlemek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-preventie",
+      "text": "önleme",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ontsteking",
+      "text": "iltihap",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-dronken",
+      "text": "sarhoş",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-diabetes",
+      "text": "şeker hastalığı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-dierenarts",
+      "text": "veteriner",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-depressief",
+      "text": "depresif",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-trauma",
+      "text": "travma",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ontspanning",
+      "text": "rahatlama",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vermoeidheid",
+      "text": "yorgunluk",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-mantelzorger",
+      "text": "bakım veren yakın",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-psychisch",
+      "text": "ruhsal",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-litteken",
+      "text": "yara izi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-revalidatie",
+      "text": "rehabilitasyon",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-doof",
+      "text": "sağır",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hartslag",
+      "text": "nabız",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-spoedeisend",
+      "text": "acil",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-brandwond",
+      "text": "yanık",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-niezen",
+      "text": "hapşırmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gebit",
+      "text": "diş yapısı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bloeding",
+      "text": "kanama",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-diarree",
+      "text": "ishal",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-antibioticum",
+      "text": "antibiyotik",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-verslaafd",
+      "text": "bağımlı",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-verkouden",
+      "text": "nezle olmuş",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-beterschap",
+      "text": "şifa",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-griepprik",
+      "text": "grip aşısı",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-misselijk",
+      "text": "midesi bulanan",
+      "reviewed": false
     }
   ],
   "categories": [
