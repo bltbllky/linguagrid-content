@@ -1,0 +1,6091 @@
+{
+  "lang": "en",
+  "words": [
+    {
+      "word_id": "noun-presentatie",
+      "text": "presentation",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-doelstelling",
+      "text": "objective (aim)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-presteren",
+      "text": "to perform (achieve)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-waardering",
+      "text": "appreciation",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-werkloosheid",
+      "text": "unemployment",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-fotograaf",
+      "text": "photographer",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-schilder",
+      "text": "painter",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-efficiënt",
+      "text": "efficient",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ingenieur",
+      "text": "engineer",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kopie",
+      "text": "copy",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-rapporteren",
+      "text": "to report (write a report)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-belonen",
+      "text": "to reward",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bonus",
+      "text": "bonus",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-meewerken",
+      "text": "to cooperate",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-analyseren",
+      "text": "to analyse",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-afwezigheid",
+      "text": "absence",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-instructie",
+      "text": "instruction",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vervanging",
+      "text": "replacement",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-flexibel",
+      "text": "flexible",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ontwerper",
+      "text": "designer",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-zorgvuldig",
+      "text": "careful",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-conferentie",
+      "text": "conference",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hoofdkantoor",
+      "text": "head office",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-motiveren",
+      "text": "to motivate",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-werkplaats",
+      "text": "workshop",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-arbeidsmarkt",
+      "text": "labour market",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-leiderschap",
+      "text": "leadership",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-medewerking",
+      "text": "cooperation",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-werkgroep",
+      "text": "working group",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-ambitieus",
+      "text": "ambitious",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-haalbaar",
+      "text": "feasible",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-werkwijze",
+      "text": "working method",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-inhuren",
+      "text": "to hire",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-motivatie",
+      "text": "motivation",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-inschatten",
+      "text": "to estimate",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vergaderen",
+      "text": "to hold a meeting",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bewaker",
+      "text": "guard",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-beoordeling",
+      "text": "assessment",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-organisator",
+      "text": "organiser",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-staking",
+      "text": "strike",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verlof",
+      "text": "leave (from work)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-afwezig",
+      "text": "absent",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-werkloze",
+      "text": "unemployed person",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vacature",
+      "text": "vacancy",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-expertise",
+      "text": "expertise",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bespreking",
+      "text": "discussion",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-werven",
+      "text": "to recruit",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-brandweerman",
+      "text": "firefighter",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-doorzetten",
+      "text": "to persevere",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-magazijn",
+      "text": "warehouse",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-klus",
+      "text": "odd job",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-evalueren",
+      "text": "to evaluate",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-werkvloer",
+      "text": "shop floor",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-deadline",
+      "text": "deadline",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-afhandelen",
+      "text": "to deal with",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-werkdruk",
+      "text": "workload",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kantine",
+      "text": "canteen",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-technicus",
+      "text": "technician",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-monteur",
+      "text": "mechanic",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-feedback",
+      "text": "feedback",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-deskundig",
+      "text": "knowledgeable",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bijlage",
+      "text": "attachment",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tolk",
+      "text": "interpreter",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-secretaresse",
+      "text": "secretary",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-receptie",
+      "text": "reception",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-minimumloon",
+      "text": "minimum wage",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-onervaren",
+      "text": "inexperienced",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-coördineren",
+      "text": "to coordinate",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-sollicitatie",
+      "text": "job application",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vergoeding",
+      "text": "compensation",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-beleggen",
+      "text": "to invest",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tarief",
+      "text": "rate (price)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verzekering",
+      "text": "insurance",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verhoging",
+      "text": "increase",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-begroting",
+      "text": "budget",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-financiering",
+      "text": "financing",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-berekening",
+      "text": "calculation",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-munt",
+      "text": "coin",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-transactie",
+      "text": "transaction",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-doneren",
+      "text": "to donate",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-rijkdom",
+      "text": "wealth",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-premie",
+      "text": "premium (insurance)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-erfenis",
+      "text": "inheritance",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bijstand",
+      "text": "social assistance",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-betaalbaar",
+      "text": "affordable",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-toeslag",
+      "text": "allowance",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-zuinig",
+      "text": "thrifty",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vergoeden",
+      "text": "to reimburse",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-bezuinigen",
+      "text": "to cut costs",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-netto",
+      "text": "net",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-donatie",
+      "text": "donation",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-bruto",
+      "text": "gross",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-krediet",
+      "text": "credit",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verzekeraar",
+      "text": "insurer",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uitbetalen",
+      "text": "to pay out",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bankrekening",
+      "text": "bank account",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-witwassen",
+      "text": "to launder (money)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kluis",
+      "text": "safe (for valuables)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-saldo",
+      "text": "balance (account)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-overmaken",
+      "text": "to transfer (money)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-contant",
+      "text": "in cash",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-valuta",
+      "text": "currency",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-besparing",
+      "text": "saving",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-belegging",
+      "text": "investment",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-spaargeld",
+      "text": "savings",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-factuur",
+      "text": "invoice",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bankbiljet",
+      "text": "banknote",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-creditcard",
+      "text": "credit card",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-polis",
+      "text": "insurance policy",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-renovatie",
+      "text": "renovation",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-isoleren",
+      "text": "to insulate",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verlichting",
+      "text": "lighting",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-baksteen",
+      "text": "brick",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-uitzicht",
+      "text": "view",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-nieuwbouw",
+      "text": "new construction",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-lekken",
+      "text": "to leak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-onderhoud",
+      "text": "maintenance",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ladder",
+      "text": "ladder",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-monteren",
+      "text": "to assemble",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-ophangen",
+      "text": "to hang up",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verbouwing",
+      "text": "building work",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vegen",
+      "text": "to sweep",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verven",
+      "text": "to paint",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wand",
+      "text": "wall (inside)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-onderdak",
+      "text": "shelter",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-isolatie",
+      "text": "insulation",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kraan",
+      "text": "tap",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hypotheek",
+      "text": "mortgage",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-aannemer",
+      "text": "contractor",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-alarm",
+      "text": "alarm",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-comfort",
+      "text": "comfort",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ventilatie",
+      "text": "ventilation",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-opknappen",
+      "text": "to do up (a house)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gereedschap",
+      "text": "tools",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-schuur",
+      "text": "shed",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-huisvesting",
+      "text": "housing",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-boren",
+      "text": "to drill",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-notaris",
+      "text": "notary",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-woningbouw",
+      "text": "housebuilding",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vastgoed",
+      "text": "real estate",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-schimmel",
+      "text": "mould",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-bezichtigen",
+      "text": "to view (a house)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-aardgas",
+      "text": "natural gas",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verf",
+      "text": "paint",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kaars",
+      "text": "candle",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-huurwoning",
+      "text": "rented home",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tapijt",
+      "text": "carpet",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hamer",
+      "text": "hammer",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-koelkast",
+      "text": "fridge",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-schroeven",
+      "text": "to screw",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-buitenwijk",
+      "text": "suburb",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-brievenbus",
+      "text": "letterbox",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wachtlijst",
+      "text": "waiting list",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-emmer",
+      "text": "bucket",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-huisgenoot",
+      "text": "housemate",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-woningmarkt",
+      "text": "housing market",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vaas",
+      "text": "vase",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-maaien",
+      "text": "to mow",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-douche",
+      "text": "shower",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-warmtepomp",
+      "text": "heat pump",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-airco",
+      "text": "air conditioning",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ventilator",
+      "text": "fan",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-huisnummer",
+      "text": "house number",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-huurder",
+      "text": "tenant",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-prullenbak",
+      "text": "bin",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-woonruimte",
+      "text": "living space",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-flatgebouw",
+      "text": "apartment block",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-schakelaar",
+      "text": "switch",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-postcode",
+      "text": "postcode",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-matras",
+      "text": "mattress",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-huiseigenaar",
+      "text": "homeowner",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-herrie",
+      "text": "racket (noise)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wekker",
+      "text": "alarm clock",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-koopwoning",
+      "text": "owner-occupied home",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-stopcontact",
+      "text": "socket",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-aandoening",
+      "text": "condition (medical)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-herstel",
+      "text": "recovery",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-bevallen",
+      "text": "to give birth",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gewonde",
+      "text": "injured person",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-geheugen",
+      "text": "memory",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-depressie",
+      "text": "depression",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ambulance",
+      "text": "ambulance",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gehoor",
+      "text": "hearing",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verpleeghuis",
+      "text": "nursing home",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-schadelijk",
+      "text": "harmful",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bewustzijn",
+      "text": "consciousness",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zuurstof",
+      "text": "oxygen",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-ademen",
+      "text": "to breathe",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wang",
+      "text": "cheek",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-besmettelijk",
+      "text": "contagious",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-breuk",
+      "text": "fracture",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bacterie",
+      "text": "bacterium",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hulpdienst",
+      "text": "emergency service",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kanker",
+      "text": "cancer",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-dosis",
+      "text": "dose",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hals",
+      "text": "neck (throat)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vaccinatie",
+      "text": "vaccination",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-acuut",
+      "text": "acute",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-giftig",
+      "text": "poisonous",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-diagnose",
+      "text": "diagnosis",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vaccineren",
+      "text": "to vaccinate",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vitamine",
+      "text": "vitamin",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hulpverlener",
+      "text": "aid worker",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ingreep",
+      "text": "medical procedure",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-infectie",
+      "text": "infection",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-geneeskunde",
+      "text": "medicine (science)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-erfelijk",
+      "text": "hereditary",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kliniek",
+      "text": "clinic",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hulpmiddel",
+      "text": "aid (device)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-chronisch",
+      "text": "chronic",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zwangerschap",
+      "text": "pregnancy",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-psycholoog",
+      "text": "psychologist",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hartaanval",
+      "text": "heart attack",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-levensstijl",
+      "text": "lifestyle",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-conditie",
+      "text": "fitness",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-sigaret",
+      "text": "cigarette",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-nagel",
+      "text": "nail (finger)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-dieet",
+      "text": "diet",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-letsel",
+      "text": "injury",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-therapie",
+      "text": "therapy",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-plassen",
+      "text": "to pee",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verzorging",
+      "text": "care",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tandarts",
+      "text": "dentist",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hoest",
+      "text": "cough",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-psychiater",
+      "text": "psychiatrist",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-handicap",
+      "text": "disability",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-prikken",
+      "text": "to prick",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-lichamelijk",
+      "text": "physical",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hygiëne",
+      "text": "hygiene",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-overgewicht",
+      "text": "excess weight",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-spier",
+      "text": "muscle",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-stijf",
+      "text": "stiff",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-dementie",
+      "text": "dementia",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-rolstoel",
+      "text": "wheelchair",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-adem",
+      "text": "breath",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-heup",
+      "text": "hip",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-voorlichting",
+      "text": "public information",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-bewusteloos",
+      "text": "unconscious",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-darm",
+      "text": "intestine",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-elleboog",
+      "text": "elbow",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tumor",
+      "text": "tumour",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-chirurg",
+      "text": "surgeon",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-injectie",
+      "text": "injection",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verkoudheid",
+      "text": "common cold",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-nier",
+      "text": "kidney",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bloeddruk",
+      "text": "blood pressure",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verslaving",
+      "text": "addiction",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-zweten",
+      "text": "to sweat",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-preventie",
+      "text": "prevention",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ontsteking",
+      "text": "inflammation",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-dronken",
+      "text": "drunk",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-diabetes",
+      "text": "diabetes",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-dierenarts",
+      "text": "vet",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-depressief",
+      "text": "depressed",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-trauma",
+      "text": "trauma",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ontspanning",
+      "text": "relaxation",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vermoeidheid",
+      "text": "fatigue",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-mantelzorger",
+      "text": "informal carer",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-psychisch",
+      "text": "mental",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-litteken",
+      "text": "scar",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-revalidatie",
+      "text": "rehabilitation",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-doof",
+      "text": "deaf",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hartslag",
+      "text": "heartbeat",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-spoedeisend",
+      "text": "urgent (medical)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-brandwond",
+      "text": "burn",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-niezen",
+      "text": "to sneeze",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gebit",
+      "text": "set of teeth",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bloeding",
+      "text": "bleeding",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-diarree",
+      "text": "diarrhoea",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-antibioticum",
+      "text": "antibiotic",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-verslaafd",
+      "text": "addicted",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-verkouden",
+      "text": "having a cold",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-beterschap",
+      "text": "get well soon",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-griepprik",
+      "text": "flu jab",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-misselijk",
+      "text": "nauseous",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-moordenaar",
+      "text": "murderer",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verstrekken",
+      "text": "to provide",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-onschuldig",
+      "text": "innocent",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-misdrijf",
+      "text": "crime",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-levenslang",
+      "text": "lifelong",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-overtreding",
+      "text": "violation",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-diefstal",
+      "text": "theft",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-goedkeuring",
+      "text": "approval",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-strafbaar",
+      "text": "punishable",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-celstraf",
+      "text": "prison sentence",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verdenking",
+      "text": "suspicion",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-ondervragen",
+      "text": "to question",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-overvallen",
+      "text": "to rob (a bank or shop)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-testament",
+      "text": "will (testament)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-stadhuis",
+      "text": "city hall",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-veroordeling",
+      "text": "conviction (court)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-mishandelen",
+      "text": "to mistreat",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-plicht",
+      "text": "duty",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-regelgeving",
+      "text": "regulations",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-inspectie",
+      "text": "inspection",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-beroven",
+      "text": "to rob (someone)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-overtreden",
+      "text": "to break (a rule)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-aanklacht",
+      "text": "charge (legal)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wetsvoorstel",
+      "text": "bill (law)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-legaal",
+      "text": "legal",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ambassade",
+      "text": "embassy",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-misbruik",
+      "text": "abuse",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-aanhouding",
+      "text": "arrest",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-dief",
+      "text": "thief",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-overval",
+      "text": "robbery (raid)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-stadsdeel",
+      "text": "city district",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-aanklager",
+      "text": "prosecutor",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bezwaar",
+      "text": "objection",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-aanklagen",
+      "text": "to sue",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vonnis",
+      "text": "verdict",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-opsporen",
+      "text": "to track down",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-stempel",
+      "text": "stamp (rubber)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gerechtshof",
+      "text": "court of appeal",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-minderjarige",
+      "text": "minor (under 18)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-inbraak",
+      "text": "burglary",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uitschrijven",
+      "text": "to deregister",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-jurist",
+      "text": "legal expert",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-opzettelijk",
+      "text": "deliberate",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-registratie",
+      "text": "registration",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-rechtspraak",
+      "text": "justice system",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-strafblad",
+      "text": "criminal record",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-oplichter",
+      "text": "swindler",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-inbreker",
+      "text": "burglar",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-ongeldig",
+      "text": "invalid",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-rechtszaal",
+      "text": "courtroom",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-inbreken",
+      "text": "to break in",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-misdadiger",
+      "text": "criminal",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-voorziening",
+      "text": "facility",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wijkagent",
+      "text": "community police officer",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tabel",
+      "text": "table (chart)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-diploma",
+      "text": "diploma",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bladzijde",
+      "text": "page",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-begeleiding",
+      "text": "guidance",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hogeschool",
+      "text": "university of applied sciences",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vaardigheid",
+      "text": "skill",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-concentratie",
+      "text": "concentration",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-opleiden",
+      "text": "to train (for a profession)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-beheersen",
+      "text": "to master",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-inleveren",
+      "text": "to hand in",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-oefening",
+      "text": "exercise",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-leerkracht",
+      "text": "teacher",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-campus",
+      "text": "campus",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-academisch",
+      "text": "academic",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-geslaagd",
+      "text": "successful",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-examen",
+      "text": "exam",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-faculteit",
+      "text": "faculty",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-grafiek",
+      "text": "graph",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-corrigeren",
+      "text": "to correct",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-herhaling",
+      "text": "repetition",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-afstuderen",
+      "text": "to graduate",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-schriftelijk",
+      "text": "written",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-afkorting",
+      "text": "abbreviation",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-toetsen",
+      "text": "to test",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-markeren",
+      "text": "to highlight",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-master",
+      "text": "master's degree",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-schooljaar",
+      "text": "school year",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-onregelmatig",
+      "text": "irregular",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-driehoek",
+      "text": "triangle",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-spelling",
+      "text": "spelling",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-essay",
+      "text": "essay",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-proefschrift",
+      "text": "doctoral thesis",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-opletten",
+      "text": "to pay attention",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-optellen",
+      "text": "to add up",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-weglaten",
+      "text": "to leave out",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-psychologie",
+      "text": "psychology",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-correctie",
+      "text": "correction",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-biologie",
+      "text": "biology",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-certificaat",
+      "text": "certificate",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-aantekening",
+      "text": "note",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-werkwoord",
+      "text": "verb",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-samenvatting",
+      "text": "summary",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hoofdletter",
+      "text": "capital letter",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-lesgeven",
+      "text": "to teach",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-inleiding",
+      "text": "introduction",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-opschrijven",
+      "text": "to write down",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-mondeling",
+      "text": "oral",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-voorlezen",
+      "text": "to read aloud",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-alfabet",
+      "text": "alphabet",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-nakijken",
+      "text": "to mark (homework)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-geografie",
+      "text": "geography",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-aftrekken",
+      "text": "to subtract",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-aanmelding",
+      "text": "sign-up",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-eindexamen",
+      "text": "final exam",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-klasgenoot",
+      "text": "classmate",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-meervoud",
+      "text": "plural",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-komma",
+      "text": "comma",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-tweetalig",
+      "text": "bilingual",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vragenlijst",
+      "text": "questionnaire",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-klaslokaal",
+      "text": "classroom (in a school)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-alinea",
+      "text": "paragraph",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-scheikunde",
+      "text": "chemistry",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-grammatica",
+      "text": "grammar",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-doorbraak",
+      "text": "breakthrough",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-omkomen",
+      "text": "to be killed",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-actueel",
+      "text": "topical",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-magazine",
+      "text": "magazine",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-dreiging",
+      "text": "threat",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-column",
+      "text": "column (opinion)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-redacteur",
+      "text": "editor",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-aankondiging",
+      "text": "announcement",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-terrorist",
+      "text": "terrorist",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-ontploffen",
+      "text": "to explode",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verdrinken",
+      "text": "to drown",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-binnenland",
+      "text": "domestic affairs",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-enquête",
+      "text": "survey",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-instorten",
+      "text": "to collapse",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-podcast",
+      "text": "podcast",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verslaggever",
+      "text": "reporter",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-schandaal",
+      "text": "scandal",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ontploffing",
+      "text": "explosion",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-citeren",
+      "text": "to quote",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-evacueren",
+      "text": "to evacuate",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-schietpartij",
+      "text": "shooting",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-blog",
+      "text": "blog",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-rubriek",
+      "text": "section (newspaper)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-episode",
+      "text": "episode",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-terrorisme",
+      "text": "terrorism",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-citaat",
+      "text": "quotation",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-censuur",
+      "text": "censorship",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ontvoering",
+      "text": "kidnapping",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-vermist",
+      "text": "missing",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-gewelddadig",
+      "text": "violent",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-nepnieuws",
+      "text": "fake news",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-soap",
+      "text": "soap opera",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-schokkend",
+      "text": "shocking",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ondertitel",
+      "text": "subtitle",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-nieuwsbrief",
+      "text": "newsletter",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-racistisch",
+      "text": "racist",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-onrust",
+      "text": "unrest",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-referendum",
+      "text": "referendum",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-opvang",
+      "text": "reception (of refugees)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-slavernij",
+      "text": "slavery",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-herkomst",
+      "text": "origin",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-raadslid",
+      "text": "council member",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-integreren",
+      "text": "to integrate",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-corruptie",
+      "text": "corruption",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bevrijding",
+      "text": "liberation",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-immigratie",
+      "text": "immigration",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vooruitgang",
+      "text": "progress",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-minderheid",
+      "text": "minority",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-activist",
+      "text": "activist",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-solidariteit",
+      "text": "solidarity",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-onrecht",
+      "text": "injustice",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-herdenken",
+      "text": "to commemorate",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-integratie",
+      "text": "integration",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-godsdienst",
+      "text": "religion",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-buitenlander",
+      "text": "foreigner",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-aftreden",
+      "text": "to resign",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-migratie",
+      "text": "migration",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-buurland",
+      "text": "neighbouring country",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-herdenking",
+      "text": "commemoration",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-lijsttrekker",
+      "text": "lead candidate",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-nieuwkomer",
+      "text": "newcomer",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-protesteren",
+      "text": "to protest",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-voedselbank",
+      "text": "food bank",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-partijleider",
+      "text": "party leader",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-emigreren",
+      "text": "to emigrate",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-asiel",
+      "text": "asylum",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-stemrecht",
+      "text": "right to vote",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vooroordeel",
+      "text": "prejudice",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-agressie",
+      "text": "aggression",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gelijkheid",
+      "text": "equality",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-dakloze",
+      "text": "homeless person",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-corrupt",
+      "text": "corrupt",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-progressief",
+      "text": "progressive",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-stembiljet",
+      "text": "ballot paper",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-stembureau",
+      "text": "polling station",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-statushouder",
+      "text": "recognised refugee",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-inburgeren",
+      "text": "to do civic integration",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-buurthuis",
+      "text": "community centre",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-leverancier",
+      "text": "supplier",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-investeerder",
+      "text": "investor",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-marketing",
+      "text": "marketing",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-grondstof",
+      "text": "raw material",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-innovatie",
+      "text": "innovation",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-export",
+      "text": "export",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-importeren",
+      "text": "to import",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-welvaart",
+      "text": "prosperity",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-econoom",
+      "text": "economist",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-promoten",
+      "text": "to promote",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zakenman",
+      "text": "businessman",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-inflatie",
+      "text": "inflation",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-import",
+      "text": "import",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-consumptie",
+      "text": "consumption",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-exporteren",
+      "text": "to export",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-filiaal",
+      "text": "branch (of a shop)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-innovatief",
+      "text": "innovative",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-recessie",
+      "text": "recession",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-marktaandeel",
+      "text": "market share",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-staatsschuld",
+      "text": "national debt",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-concurreren",
+      "text": "to compete",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vennootschap",
+      "text": "company (legal entity)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-adverteren",
+      "text": "to advertise",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-accountant",
+      "text": "accountant",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-detailhandel",
+      "text": "retail",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kostprijs",
+      "text": "cost price",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-aanbieder",
+      "text": "provider",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bedrijfstak",
+      "text": "branch of industry",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-koopkracht",
+      "text": "purchasing power",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-winstgevend",
+      "text": "profitable",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-boekhouding",
+      "text": "bookkeeping",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-helling",
+      "text": "slope",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-uitstoot",
+      "text": "emissions",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-oever",
+      "text": "riverbank",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-rots",
+      "text": "rock",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-beek",
+      "text": "stream",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-container",
+      "text": "container",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-streek",
+      "text": "region",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-natuurgebied",
+      "text": "nature reserve",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-roos",
+      "text": "rose",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-warmte",
+      "text": "warmth",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-platteland",
+      "text": "countryside",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-beer",
+      "text": "bear",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-schaap",
+      "text": "sheep",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-windmolen",
+      "text": "windmill",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-bloeien",
+      "text": "to bloom",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-varken",
+      "text": "pig",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vijver",
+      "text": "pond",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vorst",
+      "text": "frost",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kikker",
+      "text": "frog",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zonnepaneel",
+      "text": "solar panel",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-teek",
+      "text": "tick (insect)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-overstroming",
+      "text": "flood",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-zaaien",
+      "text": "to sow",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-neerslag",
+      "text": "precipitation",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-stikstof",
+      "text": "nitrogen",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-oogsten",
+      "text": "to harvest",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-olifant",
+      "text": "elephant",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-struik",
+      "text": "bush",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verbruiken",
+      "text": "to consume",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-aardbeving",
+      "text": "earthquake",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-woestijn",
+      "text": "desert",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-weiland",
+      "text": "meadow",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-bevriezen",
+      "text": "to freeze (turn to ice)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-smelten",
+      "text": "to melt",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vlinder",
+      "text": "butterfly",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-droogte",
+      "text": "drought",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-schildpad",
+      "text": "turtle",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vulkaan",
+      "text": "volcano",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zeespiegel",
+      "text": "sea level",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vervuilen",
+      "text": "to pollute",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-orkaan",
+      "text": "hurricane",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-duurzaamheid",
+      "text": "sustainability",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-opwarming",
+      "text": "warming",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-duif",
+      "text": "pigeon",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-hergebruiken",
+      "text": "to reuse",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-voorspelling",
+      "text": "forecast",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-drinkwater",
+      "text": "drinking water",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-modder",
+      "text": "mud",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kerncentrale",
+      "text": "nuclear power station",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-geur",
+      "text": "smell",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hittegolf",
+      "text": "heatwave",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-eend",
+      "text": "duck",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vervuiling",
+      "text": "pollution",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-waterval",
+      "text": "waterfall",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-mier",
+      "text": "ant",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tijger",
+      "text": "tiger",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-inzamelen",
+      "text": "to collect (waste or money)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-geit",
+      "text": "goat",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-afkoelen",
+      "text": "to cool down",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verspillen",
+      "text": "to waste",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bewolking",
+      "text": "cloud cover",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wesp",
+      "text": "wasp",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-regenbui",
+      "text": "rain shower",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-recyclen",
+      "text": "to recycle",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-bewolkt",
+      "text": "cloudy",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zadel",
+      "text": "saddle",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wiel",
+      "text": "wheel",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-spoorweg",
+      "text": "railway",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kruising",
+      "text": "crossroads",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-tanken",
+      "text": "to fill up (fuel)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-helikopter",
+      "text": "helicopter",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-botsing",
+      "text": "collision",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-botsen",
+      "text": "to collide",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-motorfiets",
+      "text": "motorcycle",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zitplaats",
+      "text": "seat",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-voorrang",
+      "text": "right of way",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-remmen",
+      "text": "to brake",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-landing",
+      "text": "landing",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-diesel",
+      "text": "diesel",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verblijf",
+      "text": "stay",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-drukte",
+      "text": "bustle",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-helm",
+      "text": "helmet",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-inhalen",
+      "text": "to overtake",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-fietspad",
+      "text": "cycle path",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-rijstrook",
+      "text": "lane",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-luchtvaart",
+      "text": "aviation",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-mobiliteit",
+      "text": "mobility",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-truck",
+      "text": "lorry",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-voetganger",
+      "text": "pedestrian",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-oversteken",
+      "text": "to cross (the road)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kenteken",
+      "text": "number plate",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-stadscentrum",
+      "text": "city centre",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-scooter",
+      "text": "scooter",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-metrostation",
+      "text": "metro station",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-rotonde",
+      "text": "roundabout",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-afrit",
+      "text": "motorway exit",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-plattegrond",
+      "text": "street map",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-accommodatie",
+      "text": "accommodation",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-caravan",
+      "text": "caravan",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-afslaan",
+      "text": "to turn (at a junction)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-overnachten",
+      "text": "to spend the night",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-laadpaal",
+      "text": "charging point",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-camper",
+      "text": "camper van",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-opstijgen",
+      "text": "to take off (plane)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-terugweg",
+      "text": "way back",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-visum",
+      "text": "visa",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gordel",
+      "text": "seat belt",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verdwalen",
+      "text": "to get lost",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tankstation",
+      "text": "petrol station",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-veerboot",
+      "text": "ferry",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-rugzak",
+      "text": "backpack",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-omweg",
+      "text": "detour",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bumper",
+      "text": "bumper",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-leasen",
+      "text": "to lease",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-navigatie",
+      "text": "navigation",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verkeersbord",
+      "text": "road sign",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-brommer",
+      "text": "moped",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-instappen",
+      "text": "to get in (a vehicle)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-terugreis",
+      "text": "return journey",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-apparatuur",
+      "text": "equipment",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-account",
+      "text": "account (online)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-opstarten",
+      "text": "to start up",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-laptop",
+      "text": "laptop",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-downloaden",
+      "text": "to download",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-laden",
+      "text": "to load",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ontwikkelaar",
+      "text": "developer",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kabel",
+      "text": "cable",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-volger",
+      "text": "follower",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-gamen",
+      "text": "to play video games",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-klikken",
+      "text": "to click",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-chip",
+      "text": "microchip",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-accu",
+      "text": "rechargeable battery",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-activeren",
+      "text": "to activate",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-beveiliging",
+      "text": "security",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-beveiligen",
+      "text": "to secure",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-crashen",
+      "text": "to crash",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-uitvinding",
+      "text": "invention",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-opladen",
+      "text": "to charge",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tablet",
+      "text": "tablet (computer)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-kopiëren",
+      "text": "to copy",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-storing",
+      "text": "malfunction",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-microfoon",
+      "text": "microphone",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uitvinden",
+      "text": "to invent",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-database",
+      "text": "database",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-toetsenbord",
+      "text": "keyboard",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wachtwoord",
+      "text": "password",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-aanmaken",
+      "text": "to create (an account)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-draadloos",
+      "text": "wireless",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hacker",
+      "text": "hacker",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-virtueel",
+      "text": "virtual",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-browser",
+      "text": "browser",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-herstarten",
+      "text": "to restart",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-filter",
+      "text": "filter",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-stekker",
+      "text": "plug",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-afdrukken",
+      "text": "to print",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-programmeren",
+      "text": "to program",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-beeldscherm",
+      "text": "monitor",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-elektronica",
+      "text": "electronics",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-provider",
+      "text": "internet provider",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-doorsturen",
+      "text": "to forward",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-inloggen",
+      "text": "to log in",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wifi",
+      "text": "wifi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-handleiding",
+      "text": "manual",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-scannen",
+      "text": "to scan",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-computerspel",
+      "text": "computer game",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-cookie",
+      "text": "cookie (internet)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zoekmachine",
+      "text": "search engine",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uploaden",
+      "text": "to upload",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-koptelefoon",
+      "text": "headphones",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-liken",
+      "text": "to like (online)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-router",
+      "text": "router",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-oplader",
+      "text": "charger",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-printer",
+      "text": "printer",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vastlopen",
+      "text": "to get stuck (computer)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-googelen",
+      "text": "to google",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-streamen",
+      "text": "to stream",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-ruilen",
+      "text": "to swap",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-mode",
+      "text": "fashion",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-terugbrengen",
+      "text": "to take back (to a shop)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-annuleren",
+      "text": "to cancel",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-korting",
+      "text": "discount",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-shirt",
+      "text": "T-shirt",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kapper",
+      "text": "hairdresser",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-exclusief",
+      "text": "excluding",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-abonnement",
+      "text": "subscription",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ontvangst",
+      "text": "receipt (of goods)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-lidmaatschap",
+      "text": "membership",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-levering",
+      "text": "delivery",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-garantie",
+      "text": "guarantee",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-winkelier",
+      "text": "shopkeeper",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ketting",
+      "text": "necklace",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-aanbieding",
+      "text": "special offer",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-veiling",
+      "text": "auction",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-trui",
+      "text": "jumper",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verpakking",
+      "text": "packaging",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-mand",
+      "text": "basket",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hoed",
+      "text": "hat",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-knoop",
+      "text": "button",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-catalogus",
+      "text": "catalogue",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verzenden",
+      "text": "to dispatch",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zeep",
+      "text": "soap",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-levensduur",
+      "text": "lifespan",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-reparatie",
+      "text": "repair",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-mouw",
+      "text": "sleeve",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-terugsturen",
+      "text": "to send back",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-assortiment",
+      "text": "range (of products)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-tweedehands",
+      "text": "second-hand",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-sieraad",
+      "text": "piece of jewellery",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-postzegel",
+      "text": "postage stamp",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-voordelig",
+      "text": "good value",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-boekhandel",
+      "text": "bookseller's",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-afhalen",
+      "text": "to pick up (an order)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-onbeperkt",
+      "text": "unlimited",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-etiket",
+      "text": "label",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-balie",
+      "text": "front desk",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-karton",
+      "text": "cardboard",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-luxueus",
+      "text": "luxurious",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wachtrij",
+      "text": "queue",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-winkelketen",
+      "text": "retail chain",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kapsel",
+      "text": "hairstyle",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-inbegrepen",
+      "text": "included",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-opsturen",
+      "text": "to send off",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kledingstuk",
+      "text": "item of clothing",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-laars",
+      "text": "boot",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-terugkrijgen",
+      "text": "to get back",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-katoen",
+      "text": "cotton",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-afrekenen",
+      "text": "to settle the bill",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tatoeage",
+      "text": "tattoo",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-peperduur",
+      "text": "very expensive",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-brochure",
+      "text": "brochure",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bouwmarkt",
+      "text": "DIY store",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bezorger",
+      "text": "delivery person",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-toiletpapier",
+      "text": "toilet paper",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-vrijblijvend",
+      "text": "without obligation",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-opzeggen",
+      "text": "to cancel (a subscription)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-parfum",
+      "text": "perfume",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-reservering",
+      "text": "reservation",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-afzender",
+      "text": "sender",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-mengen",
+      "text": "to mix",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-proeven",
+      "text": "to taste (try food)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-gevuld",
+      "text": "filled",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-voeding",
+      "text": "nutrition",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-eiwit",
+      "text": "protein",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-graan",
+      "text": "grain",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-bitter",
+      "text": "bitter",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-plukken",
+      "text": "to pick",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-zoet",
+      "text": "sweet (taste)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-menu",
+      "text": "menu",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-mixen",
+      "text": "to blend",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-banaan",
+      "text": "banana",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-mengsel",
+      "text": "mixture",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-schillen",
+      "text": "to peel",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-pittig",
+      "text": "spicy",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-chocolade",
+      "text": "chocolate (formal word)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-rauw",
+      "text": "raw",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-houdbaar",
+      "text": "non-perishable",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-diner",
+      "text": "dinner (formal meal)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-saus",
+      "text": "sauce",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-peer",
+      "text": "pear",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-mosterd",
+      "text": "mustard",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-slager",
+      "text": "butcher",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-zelfgemaakt",
+      "text": "homemade",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-deksel",
+      "text": "lid",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-portie",
+      "text": "portion",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-chips",
+      "text": "crisps",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-broodje",
+      "text": "bread roll",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-vegetarisch",
+      "text": "vegetarian",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-trakteren",
+      "text": "to treat (someone)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-borrel",
+      "text": "drinks (get-together)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kruid",
+      "text": "herb",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-rijp",
+      "text": "ripe",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tomaat",
+      "text": "tomato",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-koekje",
+      "text": "biscuit (small)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-friet",
+      "text": "chips (fries)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-pannenkoek",
+      "text": "pancake",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-airfryer",
+      "text": "air fryer",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-deeg",
+      "text": "dough",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zalm",
+      "text": "salmon",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-smeren",
+      "text": "to spread",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kers",
+      "text": "cherry",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-bederven",
+      "text": "to go off (food)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-ruziën",
+      "text": "to quarrel",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-opvoeding",
+      "text": "upbringing",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-pesten",
+      "text": "to bully",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-achternaam",
+      "text": "surname",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-opgroeien",
+      "text": "to grow up",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-voornaam",
+      "text": "first name",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kleinkind",
+      "text": "grandchild",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-bevriend",
+      "text": "friends (with someone)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kleinzoon",
+      "text": "grandson",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vergeven",
+      "text": "to forgive",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verwelkomen",
+      "text": "to welcome",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-adopteren",
+      "text": "to adopt",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-bedriegen",
+      "text": "to deceive",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gastheer",
+      "text": "host",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-grootouder",
+      "text": "grandparent",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-gehuwd",
+      "text": "married",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kleuter",
+      "text": "preschooler",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tweeling",
+      "text": "twins",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-plagen",
+      "text": "to tease",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verwennen",
+      "text": "to spoil",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-knuffelen",
+      "text": "to cuddle",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-uitvaart",
+      "text": "funeral service",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-schoonzoon",
+      "text": "son-in-law",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kleindochter",
+      "text": "granddaughter",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zwager",
+      "text": "brother-in-law",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-flirten",
+      "text": "to flirt",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-daten",
+      "text": "to date",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-schoonvader",
+      "text": "father-in-law",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-schoonmoeder",
+      "text": "mother-in-law",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gezinslid",
+      "text": "family member",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-puber",
+      "text": "adolescent",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-jarige",
+      "text": "birthday boy or girl",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-alleenstaand",
+      "text": "single (living alone)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verloofde",
+      "text": "fiancé(e)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vrijgezel",
+      "text": "single person",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-langskomen",
+      "text": "to drop by",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-samenwonen",
+      "text": "to live together",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kennismaking",
+      "text": "getting acquainted",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uitlachen",
+      "text": "to laugh at",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-peuter",
+      "text": "toddler",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-discipline",
+      "text": "discipline",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-zielig",
+      "text": "pitiful",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gewoonte",
+      "text": "habit",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-benieuwd",
+      "text": "eager to know",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-vriendelijk",
+      "text": "friendly",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verwarring",
+      "text": "confusion",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-vervelend",
+      "text": "annoying",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-moed",
+      "text": "courage",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-spontaan",
+      "text": "spontaneous",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-stilte",
+      "text": "silence",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hekel",
+      "text": "dislike",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-oprecht",
+      "text": "sincere",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-haat",
+      "text": "hatred",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-stoer",
+      "text": "tough",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-gemeen",
+      "text": "mean",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-frustratie",
+      "text": "frustration",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-romantisch",
+      "text": "romantic",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-bescheiden",
+      "text": "modest",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-geliefd",
+      "text": "beloved",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-kwetsen",
+      "text": "to hurt (feelings)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-passie",
+      "text": "passion",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-bewonderen",
+      "text": "to admire",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-stom",
+      "text": "stupid",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wantrouwen",
+      "text": "distrust",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verbazing",
+      "text": "astonishment",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-fantasie",
+      "text": "imagination",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-geduld",
+      "text": "patience",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-vijandig",
+      "text": "hostile",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-spijt",
+      "text": "regret",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-enthousiasme",
+      "text": "enthusiasm",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-schrik",
+      "text": "fright",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-somber",
+      "text": "gloomy",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-eenzaamheid",
+      "text": "loneliness",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-naïef",
+      "text": "naive",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-fanatiek",
+      "text": "fanatical",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-verward",
+      "text": "confused",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-mentaliteit",
+      "text": "mentality",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-optimistisch",
+      "text": "optimistic",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-dapper",
+      "text": "brave",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-medelijden",
+      "text": "pity",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-ontevreden",
+      "text": "dissatisfied",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-woede",
+      "text": "anger",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-alert",
+      "text": "alert",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-gerust",
+      "text": "reassured",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-traan",
+      "text": "tear (crying)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-braaf",
+      "text": "well-behaved",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-arrogant",
+      "text": "arrogant",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-wanhopig",
+      "text": "desperate",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-nachtmerrie",
+      "text": "nightmare",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ergernis",
+      "text": "irritation",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-leugenaar",
+      "text": "liar",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-troosten",
+      "text": "to comfort",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-wreed",
+      "text": "cruel",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-schaamte",
+      "text": "shame",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-sympathiek",
+      "text": "likeable",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-loyaal",
+      "text": "loyal",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-onhandig",
+      "text": "clumsy",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-asociaal",
+      "text": "antisocial",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-nuchter",
+      "text": "down-to-earth",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-onrustig",
+      "text": "restless",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-slordig",
+      "text": "sloppy",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-jaloezie",
+      "text": "jealousy",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-brutaal",
+      "text": "cheeky",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-verlegen",
+      "text": "shy",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-egoïstisch",
+      "text": "selfish",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-terughoudend",
+      "text": "reserved",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verveling",
+      "text": "boredom",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-opluchting",
+      "text": "relief",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-hopeloos",
+      "text": "hopeless",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-schuldgevoel",
+      "text": "guilt",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-irriteren",
+      "text": "to irritate",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-gespannen",
+      "text": "tense",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gezelligheid",
+      "text": "cosiness",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-tolerant",
+      "text": "tolerant",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-kalmeren",
+      "text": "to calm down",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-glimlach",
+      "text": "smile",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-eerlijkheid",
+      "text": "honesty",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-charmant",
+      "text": "charming",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-toespraak",
+      "text": "speech",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-noodzaak",
+      "text": "necessity",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-toegeven",
+      "text": "to admit",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-dialect",
+      "text": "dialect",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-zwijgen",
+      "text": "to keep silent",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-beledigen",
+      "text": "to insult",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-mededeling",
+      "text": "notice (message)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-uitdrukking",
+      "text": "expression",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-objectief",
+      "text": "objective (unbiased)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-onderscheid",
+      "text": "distinction",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-overtuiging",
+      "text": "conviction (belief)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-bekritiseren",
+      "text": "to criticise",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-relevant",
+      "text": "relevant",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-onterecht",
+      "text": "unjustified",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-dialoog",
+      "text": "dialogue",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-oordeel",
+      "text": "judgement",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-spreker",
+      "text": "speaker",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-aanraden",
+      "text": "to recommend",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-accent",
+      "text": "accent",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bewering",
+      "text": "claim (statement)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-formuleren",
+      "text": "to phrase",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-suggestie",
+      "text": "suggestion",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-aanbeveling",
+      "text": "recommendation",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-compromis",
+      "text": "compromise",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uitdrukken",
+      "text": "to express",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-overdrijven",
+      "text": "to exaggerate",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-aanmoedigen",
+      "text": "to encourage",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-schelden",
+      "text": "to swear (at someone)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-taalgebruik",
+      "text": "use of language",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-toelichting",
+      "text": "clarification",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-misverstand",
+      "text": "misunderstanding",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-opinie",
+      "text": "opinion (formal)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-ironisch",
+      "text": "ironic",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-telefonisch",
+      "text": "by phone",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-instemmen",
+      "text": "to agree (to a proposal)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uitwisselen",
+      "text": "to exchange (ideas)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-betwijfelen",
+      "text": "to doubt (something)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-telefoontje",
+      "text": "phone call",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-discussiëren",
+      "text": "to debate",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-compliment",
+      "text": "compliment",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-omschrijving",
+      "text": "description",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-zeuren",
+      "text": "to nag",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-schandalig",
+      "text": "scandalous",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-redeneren",
+      "text": "to reason",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-afraden",
+      "text": "to advise against",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-oneens",
+      "text": "in disagreement",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gebaar",
+      "text": "gesture",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-dilemma",
+      "text": "dilemma",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-kletsen",
+      "text": "to chat",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-onacceptabel",
+      "text": "unacceptable",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-sceptisch",
+      "text": "sceptical",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-oneerlijk",
+      "text": "unfair",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-fluisteren",
+      "text": "to whisper",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-volgorde",
+      "text": "order (sequence)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-eenmalig",
+      "text": "one-off",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-planning",
+      "text": "planning",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tijdstip",
+      "text": "point in time",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vrijdagavond",
+      "text": "Friday evening",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tijdperk",
+      "text": "era",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-dringend",
+      "text": "urgent",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zondagavond",
+      "text": "Sunday evening",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-gelijktijdig",
+      "text": "simultaneous",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-doorbrengen",
+      "text": "to spend (time)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-haast",
+      "text": "hurry",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-afwisselen",
+      "text": "to alternate",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-middernacht",
+      "text": "midnight",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-tijdig",
+      "text": "timely",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bevestiging",
+      "text": "confirmation",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-jaartal",
+      "text": "year (number)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-schema",
+      "text": "schedule",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zondagmiddag",
+      "text": "Sunday afternoon",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-voornemen",
+      "text": "intention",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-namiddag",
+      "text": "late afternoon",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-etmaal",
+      "text": "twenty-four hours",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-halfjaar",
+      "text": "six months",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wachttijd",
+      "text": "waiting time",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-afzeggen",
+      "text": "to call off",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-poos",
+      "text": "while (period)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-routine",
+      "text": "routine",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-doordeweeks",
+      "text": "on weekdays",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-opschieten",
+      "text": "to hurry up",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-rooster",
+      "text": "timetable",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kalenderjaar",
+      "text": "calendar year",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-inplannen",
+      "text": "to schedule",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-strip",
+      "text": "comic strip",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-filmen",
+      "text": "to film",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-rock",
+      "text": "rock music",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-genre",
+      "text": "genre",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tent",
+      "text": "tent",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-marathon",
+      "text": "marathon",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-breien",
+      "text": "to knit",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-toneel",
+      "text": "drama (stage plays)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-amateur",
+      "text": "amateur",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-carnaval",
+      "text": "carnival",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-inspiratie",
+      "text": "inspiration",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kroeg",
+      "text": "pub",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zang",
+      "text": "singing",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-sporter",
+      "text": "sportsperson",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-biografie",
+      "text": "biography",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-musical",
+      "text": "musical",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-poëzie",
+      "text": "poetry",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-expositie",
+      "text": "exhibition",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-dierentuin",
+      "text": "zoo",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-viool",
+      "text": "violin",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gids",
+      "text": "guide",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wielrenner",
+      "text": "racing cyclist",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gelijkspel",
+      "text": "draw (match)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-recensie",
+      "text": "review",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-juichen",
+      "text": "to cheer",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hoofdpersoon",
+      "text": "main character",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-fotograferen",
+      "text": "to photograph",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-beoefenen",
+      "text": "to practise (a sport or art)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-melodie",
+      "text": "melody",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-viering",
+      "text": "celebration",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-zeilen",
+      "text": "to sail",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-sprookje",
+      "text": "fairy tale",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-dagboek",
+      "text": "personal diary",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-creativiteit",
+      "text": "creativity",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ritme",
+      "text": "rhythm",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-bijwonen",
+      "text": "to attend",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-beklimmen",
+      "text": "to climb (a mountain)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-komedie",
+      "text": "comedy",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-trofee",
+      "text": "trophy",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-gokken",
+      "text": "to gamble",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-danser",
+      "text": "dancer",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-poster",
+      "text": "poster",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-entree",
+      "text": "admission",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-speeltuin",
+      "text": "playground",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-skiën",
+      "text": "to ski",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-fotografie",
+      "text": "photography",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-sporthal",
+      "text": "sports hall",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-atletiek",
+      "text": "athletics",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-applaus",
+      "text": "applause",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-speelfilm",
+      "text": "feature film",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-sponsor",
+      "text": "sponsor",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-rondleiding",
+      "text": "guided tour",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-basketbal",
+      "text": "basketball",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-pretpark",
+      "text": "theme park",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-puzzel",
+      "text": "puzzle",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-fictie",
+      "text": "fiction",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-schouwburg",
+      "text": "theatre (building)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hockey",
+      "text": "hockey",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-popmuziek",
+      "text": "pop music",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-kamperen",
+      "text": "to camp",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-stabiel",
+      "text": "stable",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-bereikbaar",
+      "text": "reachable",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-buitengewoon",
+      "text": "extraordinary",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-permanent",
+      "text": "permanent",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-realistisch",
+      "text": "realistic",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-neutraal",
+      "text": "neutral",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-nauwkeurig",
+      "text": "accurate",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-mild",
+      "text": "mild",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-kunstmatig",
+      "text": "artificial",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-volkomen",
+      "text": "utter",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-grof",
+      "text": "coarse",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-waardevol",
+      "text": "valuable",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-onnodig",
+      "text": "unnecessary",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-dramatisch",
+      "text": "dramatic",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-ongelooflijk",
+      "text": "incredible",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-fris",
+      "text": "fresh (air)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-identiek",
+      "text": "identical",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-drastisch",
+      "text": "drastic",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-glad",
+      "text": "slippery",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-vochtig",
+      "text": "damp",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-strikt",
+      "text": "strict",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-kaal",
+      "text": "bald",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-verrassend",
+      "text": "surprising",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-netjes",
+      "text": "neat",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-steil",
+      "text": "steep",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-cruciaal",
+      "text": "crucial",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-comfortabel",
+      "text": "comfortable",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-passend",
+      "text": "fitting",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-slap",
+      "text": "limp",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-verborgen",
+      "text": "hidden",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-spectaculair",
+      "text": "spectacular",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-knap",
+      "text": "good-looking",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-privé",
+      "text": "private",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-onzichtbaar",
+      "text": "invisible",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-ondiep",
+      "text": "shallow",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-ouderwets",
+      "text": "old-fashioned",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-nuttig",
+      "text": "useful",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-intens",
+      "text": "intense",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-gaaf",
+      "text": "awesome",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-eindeloos",
+      "text": "endless",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-soepel",
+      "text": "supple",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-vlot",
+      "text": "smooth (without delays)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-compact",
+      "text": "compact",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-heftig",
+      "text": "fierce",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-ongewoon",
+      "text": "unusual",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-transparant",
+      "text": "transparent",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-abstract",
+      "text": "abstract",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-levendig",
+      "text": "lively",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-afgelegen",
+      "text": "remote",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-tragisch",
+      "text": "tragic",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-krap",
+      "text": "tight (cramped)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-kleurrijk",
+      "text": "colourful",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-waardeloos",
+      "text": "worthless",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-verzorgd",
+      "text": "well-groomed",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-consequent",
+      "text": "consistent",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-vaag",
+      "text": "vague",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-ongeschikt",
+      "text": "unsuitable",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-begrijpelijk",
+      "text": "understandable",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-matig",
+      "text": "moderate",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-schaars",
+      "text": "scarce",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-alledaags",
+      "text": "everyday",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-overdreven",
+      "text": "exaggerated",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-zinvol",
+      "text": "meaningful",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-onveilig",
+      "text": "unsafe",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-schuin",
+      "text": "slanted",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-koel",
+      "text": "cool (slightly cold)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-elegant",
+      "text": "elegant",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-boeiend",
+      "text": "fascinating",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-verwarrend",
+      "text": "confusing",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-voorspelbaar",
+      "text": "predictable",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-informeel",
+      "text": "informal",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-onbelangrijk",
+      "text": "unimportant",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-ongevaarlijk",
+      "text": "harmless",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-schattig",
+      "text": "cute",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vernielen",
+      "text": "to wreck",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-falen",
+      "text": "to fail",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-betrappen",
+      "text": "to catch (in the act)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-splitsen",
+      "text": "to split",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-voortzetten",
+      "text": "to continue",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uitzetten",
+      "text": "to turn off",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uitdelen",
+      "text": "to hand out",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verraden",
+      "text": "to betray",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-slepen",
+      "text": "to drag",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-doorgeven",
+      "text": "to pass on",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vasthouden",
+      "text": "to hold on to",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verschuiven",
+      "text": "to shift",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-profiteren",
+      "text": "to benefit",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-bewaken",
+      "text": "to guard",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-tikken",
+      "text": "to tap",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-schudden",
+      "text": "to shake",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vertragen",
+      "text": "to slow down",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verwarren",
+      "text": "to confuse",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-tegenhouden",
+      "text": "to hold back",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-onderbreken",
+      "text": "to interrupt",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-achtervolgen",
+      "text": "to chase",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-knippen",
+      "text": "to cut (with scissors)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-checken",
+      "text": "to check (informal)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-schoppen",
+      "text": "to kick",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-binnenkomen",
+      "text": "to come in",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-opzoeken",
+      "text": "to look up",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-terechtkomen",
+      "text": "to end up",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-neerleggen",
+      "text": "to put down",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-bijten",
+      "text": "to bite",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verkleinen",
+      "text": "to make smaller",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-loslaten",
+      "text": "to let go",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-aanzetten",
+      "text": "to turn on",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-plakken",
+      "text": "to stick",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-zwaaien",
+      "text": "to wave",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-volhouden",
+      "text": "to keep going",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-bijhouden",
+      "text": "to keep track of",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-afmaken",
+      "text": "to finish",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-overwinnen",
+      "text": "to overcome",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-weghalen",
+      "text": "to take away",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uitzoeken",
+      "text": "to find out",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-scheuren",
+      "text": "to rip",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uitvallen",
+      "text": "to be cancelled (lesson, train)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uitzien",
+      "text": "to look (appear)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-riskeren",
+      "text": "to risk",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-rondlopen",
+      "text": "to walk around",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-blussen",
+      "text": "to extinguish",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-stapelen",
+      "text": "to stack",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-tegenkomen",
+      "text": "to run into",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-omkeren",
+      "text": "to turn over",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-tillen",
+      "text": "to lift",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-gillen",
+      "text": "to scream",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-overslaan",
+      "text": "to skip",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-glijden",
+      "text": "to slide",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uitkiezen",
+      "text": "to pick out",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-omvallen",
+      "text": "to fall over",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uitpakken",
+      "text": "to unpack",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-fluiten",
+      "text": "to whistle",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-spoelen",
+      "text": "to rinse",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-stinken",
+      "text": "to stink",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-aanraken",
+      "text": "to touch",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-scheren",
+      "text": "to shave",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-aansteken",
+      "text": "to light",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-thuisblijven",
+      "text": "to stay at home",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-weglopen",
+      "text": "to run away",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uitkijken",
+      "text": "to watch out",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-sorteren",
+      "text": "to sort",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-afpakken",
+      "text": "to snatch",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-leunen",
+      "text": "to lean",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-weggooien",
+      "text": "to throw away",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-weggeven",
+      "text": "to give away",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-aarzelen",
+      "text": "to hesitate",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uitlenen",
+      "text": "to lend",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vastzitten",
+      "text": "to be stuck",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vouwen",
+      "text": "to fold",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-knikken",
+      "text": "to nod",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-inpakken",
+      "text": "to pack",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-meevallen",
+      "text": "to be better than expected",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-losmaken",
+      "text": "to loosen",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-struikelen",
+      "text": "to trip",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uitproberen",
+      "text": "to try out",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vastmaken",
+      "text": "to fasten",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-tegenvallen",
+      "text": "to be disappointing",
+      "reviewed": false
+    }
+  ],
+  "categories": [
+    {
+      "category_id": "b1-work-career",
+      "title": "Work and career"
+    },
+    {
+      "category_id": "b1-money-banking",
+      "title": "Money and banking"
+    },
+    {
+      "category_id": "b1-housing-contracts",
+      "title": "Housing"
+    },
+    {
+      "category_id": "b1-health-care",
+      "title": "Health and care"
+    },
+    {
+      "category_id": "b1-government-law",
+      "title": "Government and law"
+    },
+    {
+      "category_id": "b1-education-courses",
+      "title": "Education and courses"
+    },
+    {
+      "category_id": "b1-media-news",
+      "title": "Media and news"
+    },
+    {
+      "category_id": "b1-society-politics",
+      "title": "Society and politics"
+    },
+    {
+      "category_id": "b1-economy-business",
+      "title": "Economy and business"
+    },
+    {
+      "category_id": "b1-environment-nature",
+      "title": "Environment and nature"
+    },
+    {
+      "category_id": "b1-traffic-travel",
+      "title": "Traffic and travel"
+    },
+    {
+      "category_id": "b1-technology-internet",
+      "title": "Technology and the internet"
+    },
+    {
+      "category_id": "b1-consumer-shopping",
+      "title": "Shopping and services"
+    },
+    {
+      "category_id": "b1-food-cooking",
+      "title": "Food and cooking"
+    },
+    {
+      "category_id": "b1-relationships-family",
+      "title": "Relationships and family"
+    },
+    {
+      "category_id": "b1-feelings-character",
+      "title": "Feelings and character"
+    },
+    {
+      "category_id": "b1-opinion-communication",
+      "title": "Opinions and communication"
+    },
+    {
+      "category_id": "b1-time-planning",
+      "title": "Time and planning"
+    },
+    {
+      "category_id": "b1-culture-sport",
+      "title": "Culture and sport"
+    },
+    {
+      "category_id": "b1-describing",
+      "title": "Describing"
+    },
+    {
+      "category_id": "b1-everyday-verbs",
+      "title": "Everyday verbs"
+    }
+  ]
+}
