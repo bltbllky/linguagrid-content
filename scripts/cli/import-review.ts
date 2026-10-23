@@ -18,6 +18,7 @@ if (!file) throw new Error('Usage: npm run import-review -- [--reviewer] [--stag
 const folder = basename(dirname(file));
 const lang = flag ?? (/^[a-z]{2,3}$/.test(folder) ? folder : 'tr');
 if (stage && !stage.translations[lang]) throw new Error(`No staged ${lang} file: create data/b1/translations/${lang}.json first`);
+const selectionPath = stage ? 'data/b1/selection.json' : 'data/a2-selection.json';
 
 const { content, excluded, summary } = applyReview(
   stage ? mergeStage(loadContent(), stage) : loadContent(),
@@ -25,15 +26,19 @@ const { content, excluded, summary } = applyReview(
   lang,
   source,
 );
+// A removal needs both files; read them before any write so a missing file leaves the data untouched.
+const removal = excluded.length
+  ? {
+      excluded: JSON.parse(readFileSync(join(root, 'data/excluded.json'), 'utf8')) as unknown[],
+      selection: JSON.parse(readFileSync(join(root, selectionPath), 'utf8')) as string[],
+    }
+  : undefined;
 const write = (path: string, value: unknown) =>
   writeFileSync(join(root, path), JSON.stringify(value, null, 2) + '\n');
 for (const [path, value] of Object.entries(stage ? stageFiles(content, stage) : changedFiles(content, lang))) write(path, value);
-if (excluded.length) {
-  const list = JSON.parse(readFileSync(join(root, 'data/excluded.json'), 'utf8'));
-  write('data/excluded.json', [...list, ...excluded]);
-  const selectionPath = stage ? 'data/b1/selection.json' : 'data/a2-selection.json';
+if (removal) {
+  write('data/excluded.json', [...removal.excluded, ...excluded]);
   const removed = new Set(excluded.map((e) => e.id));
-  const selection: string[] = JSON.parse(readFileSync(join(root, selectionPath), 'utf8'));
-  write(selectionPath, selection.filter((id) => !removed.has(id)));
+  write(selectionPath, removal.selection.filter((id) => !removed.has(id)));
 }
 console.log(lang, summary);
