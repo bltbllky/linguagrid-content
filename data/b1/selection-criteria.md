@@ -43,5 +43,6 @@ Amendments
    15-20% adjectives. C7: the bounds of 30 to 150 words per category stay; 1,200 words over the 21 categories is about
    57 a category, inside the bounds. No other criterion changes: C1-C6 and C9 select the same words as before.
    Reason: the owner's word targets of 2026-10-23 (A1 600, A2 1,000, B1 1,200; app repository,
-   docs/research/2026-10-22-word-counts-and-b2.md, option B; ADR-017). Made before any shortlist exists
+   docs/research/2026-10-22-word-counts-and-b2.md, option B; ADR-017, accepted 2026-10-23,
+   which supersedes the 1,000 of ADR-016 rule 5 for B1). Made before any shortlist exists
    (data/b1/selection.json does not exist yet). Owner approved 2026-10-23.
