@@ -853,7 +853,7 @@
     },
     {
       "word_id": "noun-huiseigenaar",
-      "text": "ev sahibi",
+      "text": "ev sahibi (mülk)",
       "reviewed": false
     },
     {
@@ -3384,6 +3384,941 @@
     {
       "word_id": "verb-streamen",
       "text": "internetten yayınlamak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-ruilen",
+      "text": "takas etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-mode",
+      "text": "moda",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-terugbrengen",
+      "text": "geri götürmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-annuleren",
+      "text": "iptal etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-korting",
+      "text": "indirim",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-shirt",
+      "text": "tişört",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kapper",
+      "text": "kuaför",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-exclusief",
+      "text": "hariç (fiyat)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-abonnement",
+      "text": "abonelik",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ontvangst",
+      "text": "teslim alma",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-lidmaatschap",
+      "text": "üyelik",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-levering",
+      "text": "teslimat",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-garantie",
+      "text": "garanti",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-winkelier",
+      "text": "dükkân sahibi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ketting",
+      "text": "kolye",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-aanbieding",
+      "text": "özel teklif",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-veiling",
+      "text": "açık artırma",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-trui",
+      "text": "kazak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verpakking",
+      "text": "ambalaj",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-mand",
+      "text": "sepet",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hoed",
+      "text": "şapka",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-knoop",
+      "text": "düğme (giysi)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-catalogus",
+      "text": "katalog",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verzenden",
+      "text": "kargoyla göndermek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zeep",
+      "text": "sabun",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-levensduur",
+      "text": "kullanım ömrü",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-reparatie",
+      "text": "onarım",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-mouw",
+      "text": "kol (giysi)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-terugsturen",
+      "text": "geri göndermek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-assortiment",
+      "text": "ürün yelpazesi",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-tweedehands",
+      "text": "ikinci el",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-sieraad",
+      "text": "takı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-postzegel",
+      "text": "pul",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-voordelig",
+      "text": "hesaplı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-boekhandel",
+      "text": "kitabevi",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-afhalen",
+      "text": "(paketi) gidip almak",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-onbeperkt",
+      "text": "sınırsız",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-etiket",
+      "text": "etiket",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-balie",
+      "text": "danışma masası",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-karton",
+      "text": "karton",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-luxueus",
+      "text": "lüks",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wachtrij",
+      "text": "kuyruk (sıra)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-winkelketen",
+      "text": "mağaza zinciri",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kapsel",
+      "text": "saç modeli",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-inbegrepen",
+      "text": "dahil (fiyat)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-opsturen",
+      "text": "postayla yollamak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kledingstuk",
+      "text": "kıyafet",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-laars",
+      "text": "çizme",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-terugkrijgen",
+      "text": "geri almak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-katoen",
+      "text": "pamuk",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-afrekenen",
+      "text": "hesabı ödemek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tatoeage",
+      "text": "dövme",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-peperduur",
+      "text": "çok pahalı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-brochure",
+      "text": "broşür",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bouwmarkt",
+      "text": "yapı market",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bezorger",
+      "text": "kurye",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-toiletpapier",
+      "text": "tuvalet kâğıdı",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-vrijblijvend",
+      "text": "bağlayıcı olmayan",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-opzeggen",
+      "text": "(aboneliği) iptal etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-parfum",
+      "text": "parfüm",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-reservering",
+      "text": "rezervasyon",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-afzender",
+      "text": "gönderen",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-mengen",
+      "text": "karıştırmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-proeven",
+      "text": "tadına bakmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-gevuld",
+      "text": "dolgulu",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-voeding",
+      "text": "beslenme",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-eiwit",
+      "text": "protein",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-graan",
+      "text": "tahıl",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-bitter",
+      "text": "acı (tat)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-plukken",
+      "text": "(meyve) toplamak",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-zoet",
+      "text": "tatlı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-menu",
+      "text": "menü",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-mixen",
+      "text": "mikserle karıştırmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-banaan",
+      "text": "muz",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-mengsel",
+      "text": "karışım",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-schillen",
+      "text": "kabuğunu soymak",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-pittig",
+      "text": "acılı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-chocolade",
+      "text": "çikolata (tatlı)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-rauw",
+      "text": "çiğ",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-houdbaar",
+      "text": "uzun ömürlü (gıda)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-diner",
+      "text": "akşam yemeği (davet)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-saus",
+      "text": "sos",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-peer",
+      "text": "armut",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-mosterd",
+      "text": "hardal",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-slager",
+      "text": "kasap",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-zelfgemaakt",
+      "text": "ev yapımı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-deksel",
+      "text": "kapak (tencere)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-portie",
+      "text": "porsiyon",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-chips",
+      "text": "cips",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-broodje",
+      "text": "sandviç",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-vegetarisch",
+      "text": "vejetaryen",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-trakteren",
+      "text": "ısmarlamak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-borrel",
+      "text": "içkili buluşma",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kruid",
+      "text": "ot (baharat)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-rijp",
+      "text": "olgun",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tomaat",
+      "text": "domates",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-koekje",
+      "text": "bisküvi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-friet",
+      "text": "kızarmış patates",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-pannenkoek",
+      "text": "krep",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-airfryer",
+      "text": "yağsız fritöz",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-deeg",
+      "text": "hamur",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zalm",
+      "text": "somon",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-smeren",
+      "text": "(ekmeğe) sürmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kers",
+      "text": "kiraz",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-bederven",
+      "text": "bozulmak (yiyecek)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-ruziën",
+      "text": "kavga etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-opvoeding",
+      "text": "terbiye",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-pesten",
+      "text": "zorbalık yapmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-achternaam",
+      "text": "soyadı",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-opgroeien",
+      "text": "büyümek (çocuk)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-voornaam",
+      "text": "ön ad",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kleinkind",
+      "text": "torun",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-bevriend",
+      "text": "dost",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kleinzoon",
+      "text": "erkek torun",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vergeven",
+      "text": "affetmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verwelkomen",
+      "text": "(misafiri) karşılamak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-adopteren",
+      "text": "evlat edinmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-bedriegen",
+      "text": "aldatmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gastheer",
+      "text": "ev sahibi (davet)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-grootouder",
+      "text": "büyükanne, büyükbaba",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-gehuwd",
+      "text": "evli",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kleuter",
+      "text": "anaokulu çocuğu",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tweeling",
+      "text": "ikiz",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-plagen",
+      "text": "sataşmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verwennen",
+      "text": "şımartmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-knuffelen",
+      "text": "sarılmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-uitvaart",
+      "text": "cenaze töreni",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-schoonzoon",
+      "text": "damat",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kleindochter",
+      "text": "kız torun",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zwager",
+      "text": "kayınbirader, enişte",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-flirten",
+      "text": "flört etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-daten",
+      "text": "biriyle çıkmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-schoonvader",
+      "text": "kayınpeder",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-schoonmoeder",
+      "text": "kayınvalide",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gezinslid",
+      "text": "aile üyesi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-puber",
+      "text": "ergen",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-jarige",
+      "text": "doğum günü olan (kişi)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-alleenstaand",
+      "text": "yalnız yaşayan",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verloofde",
+      "text": "nişanlı (kişi)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vrijgezel",
+      "text": "bekâr (kişi)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-langskomen",
+      "text": "uğramak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-samenwonen",
+      "text": "birlikte yaşamak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kennismaking",
+      "text": "tanışma",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uitlachen",
+      "text": "alay etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-peuter",
+      "text": "küçük çocuk",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-discipline",
+      "text": "disiplin",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-zielig",
+      "text": "acınası",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gewoonte",
+      "text": "alışkanlık",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-benieuwd",
+      "text": "merakla bekleyen",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-vriendelijk",
+      "text": "güler yüzlü",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verwarring",
+      "text": "kafa karışıklığı",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-vervelend",
+      "text": "can sıkıcı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-moed",
+      "text": "cesaret",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-spontaan",
+      "text": "spontane",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-stilte",
+      "text": "sessizlik",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hekel",
+      "text": "antipati",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-oprecht",
+      "text": "içten",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-haat",
+      "text": "nefret",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-stoer",
+      "text": "havalı",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-gemeen",
+      "text": "kötü niyetli",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-frustratie",
+      "text": "hüsran",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-romantisch",
+      "text": "romantik",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-bescheiden",
+      "text": "alçakgönüllü",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-geliefd",
+      "text": "sevilen",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-kwetsen",
+      "text": "incitmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-passie",
+      "text": "tutku",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-bewonderen",
+      "text": "hayran olmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-stom",
+      "text": "aptalca",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wantrouwen",
+      "text": "güvensizlik",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verbazing",
+      "text": "şaşkınlık",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-fantasie",
+      "text": "hayal gücü",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-geduld",
+      "text": "sabır",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-vijandig",
+      "text": "düşmanca",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-spijt",
+      "text": "pişmanlık",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-enthousiasme",
+      "text": "coşku",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-schrik",
+      "text": "ani korku",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-somber",
+      "text": "karamsar",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-eenzaamheid",
+      "text": "yalnızlık",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-naïef",
+      "text": "saf",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-fanatiek",
+      "text": "fanatik",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-verward",
+      "text": "kafası karışık",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-mentaliteit",
+      "text": "zihniyet",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-optimistisch",
+      "text": "iyimser",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-dapper",
+      "text": "cesur",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-medelijden",
+      "text": "acıma",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-ontevreden",
+      "text": "memnuniyetsiz",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-woede",
+      "text": "öfke",
       "reviewed": false
     }
   ],
