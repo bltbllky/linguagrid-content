@@ -1,0 +1,53 @@
+id,dutch,field,current,suggestion,reason,severity
+verb-inhuren,inhuren,text,dışarıdan tutmak (personel),(geçici) işe almak,"""dışarıdan tutmak"" is not idiomatic Turkish; inhuren is to hire (staff, a firm) for a job.",unsure
+adj-afwezig,afwezig,text,orada olmayan,"yok, gelmemiş (işte, okulda)","""orada olmayan"" is a paraphrase; afwezig is absent from work or class.",unsure
+noun-koopwoning,koopwoning,text,mülk ev,satılık ev,"""mülk ev"" is not idiomatic; it pairs with huurwoning ""kiralık ev"", the owner-occupied/for-sale home.",unsure
+verb-uitbetalen,uitbetalen,text,(parayı) ödemek,"(maaşı, tazminatı) ödemek","The hint ""(parayı)"" does not separate it from A2 betalen ""ödemek""; uitbetalen is paying out a salary or a claim.",unsure
+noun-gebit,gebit,text,diş yapısı,dişler,"""diş yapısı"" is not everyday Turkish; the natural word is plural, which needs an exception to the singular-noun rule.",unsure
+noun-statushouder,statushouder,text,oturum izinli mülteci,oturum izni almış mülteci,"""izinli"" reads as ""on leave""; ""oturum izni almış"" is the usual phrase.",unsure
+noun-vergoeding,vergoeding,text,tazminat,"ödenek, tazminat","At B1 vergoeding is mostly a reimbursement or allowance (reiskostenvergoeding); ""tazminat"" alone is damages.",unsure
+noun-eiwit,eiwit,text,protein,"protein, yumurta akı","In the food category the kitchen sense ""egg white"" is as common as ""protein"".",unsure
+noun-opvoeding,opvoeding,text,terbiye,(çocuk) yetiştirme,"""terbiye"" today reads as manners; opvoeding is upbringing.",unsure
+noun-toespraak,toespraak,text,söylev,konuşma (topluluğa),"""söylev"" is dated; a toespraak is a speech at an event.",unsure
+noun-dialect,dialect,text,şive,"lehçe, ağız","""şive"" is also used for accent, which is B1 accent ""aksan""; dialect is ""lehçe/ağız"".",unsure
+noun-poos,poos,text,kısa süre,bir süre,"""een poos"" is a while, not a short time (""een hele poos"" = a long while).",unsure
+verb-checken,checken,text,göz atıp kontrol etmek,kontrol etmek (hızlıca),"""göz atıp kontrol etmek"" is a paraphrase; checken is an informal synonym of A2 controleren, so the owner may also drop it (C9).",unsure
+verb-uitzetten,uitzetten,text,kapatmak (elektrik),kapatmak (düğmeden),"""(elektrik)"" suggests cutting the power; uitzetten is switching a device off, a synonym of A2 uitdoen ""kapatmak (cihaz)"" (C9).",unsure
+noun-chips,chips,text,cips,remove from B1,"""chips"" is the plural of chip (B1 noun-chip ""çip""); C1 and C4 allow no plural form or plural-only noun.",wrong
+noun-friet,friet,text,kızarmış patates,"remove from B1, or keep","Regional synonym of A2 patat ""patates kızartması""; C9 keeps one of a pair, and the two prompts differ only in word order.",unsure
+noun-cookie,cookie,article,de,het (or keep de if the Woordenlijst lists both),Wiktionary differs: it gives the neuter for this noun (https://en.wiktionary.org/wiki/cookie#Dutch); check https://woordenlijst.org/zoeken/?q=cookie before deciding.,unsure
+noun-chocolade,chocolade,level,B1,remove from B1,"Spelling variant of A2 chocola ""çikolata""; the hint ""(tatlı)"" adds no meaning (C9).",unsure
+noun-proefschrift,proefschrift,level,B1,B2 (remove from B1),Academic register (doctoral thesis); a B2 word for an adult learner.,unsure
+noun-vennootschap,vennootschap,level,B1,B2 (remove from B1),Legal-business term (company form); B2 rather than B1.,unsure
+noun-gerechtshof,gerechtshof,level,B1,B2 (remove from B1),"Court of appeal; specialised legal vocabulary, B2.",unsure
+verb-witwassen,witwassen,level,B1,B2 (remove from B1),Financial-crime term from the news; B2 rather than B1.,unsure
+noun-regelgeving,regelgeving,level,B1,B2 (remove from B1),Formal collective noun (regulations); B2 rather than B1.,unsure
+noun-koelkast,koelkast,level,B1,A2,Core home word that A1/A2 courses teach; better placed in the A1/A2 extras pool (T-146; C3 keeps one level per lemma).,unsure
+noun-douche,douche,level,B1,A2,Core home word that A1/A2 courses teach; better placed in the A1/A2 extras pool (T-146; C3 keeps one level per lemma).,unsure
+noun-wekker,wekker,level,B1,A2,Core home word that A1/A2 courses teach; better placed in the A1/A2 extras pool (T-146; C3 keeps one level per lemma).,unsure
+noun-tandarts,tandarts,level,B1,A2,Core services word that A1/A2 courses teach; better placed in the A1/A2 extras pool (T-146; C3 keeps one level per lemma).,unsure
+noun-kapper,kapper,level,B1,A2,Core services word that A1/A2 courses teach; better placed in the A1/A2 extras pool (T-146; C3 keeps one level per lemma).,unsure
+noun-postcode,postcode,level,B1,A2,Core form-filling word that A1/A2 courses teach; better placed in the A1/A2 extras pool (T-146; C3 keeps one level per lemma).,unsure
+noun-huisnummer,huisnummer,level,B1,A2,Core form-filling word that A1/A2 courses teach; better placed in the A1/A2 extras pool (T-146; C3 keeps one level per lemma).,unsure
+noun-achternaam,achternaam,level,B1,A2,Core form-filling word that A1/A2 courses teach; better placed in the A1/A2 extras pool (T-146; C3 keeps one level per lemma).,unsure
+noun-voornaam,voornaam,level,B1,A2,Core form-filling word that A1/A2 courses teach; better placed in the A1/A2 extras pool (T-146; C3 keeps one level per lemma).,unsure
+noun-banaan,banaan,level,B1,A2,Core food word that A1/A2 courses teach; better placed in the A1/A2 extras pool (T-146; C3 keeps one level per lemma).,unsure
+noun-tomaat,tomaat,level,B1,A2,Core food word that A1/A2 courses teach; better placed in the A1/A2 extras pool (T-146; C3 keeps one level per lemma).,unsure
+noun-peer,peer,level,B1,A2,Core food word that A1/A2 courses teach; better placed in the A1/A2 extras pool (T-146; C3 keeps one level per lemma).,unsure
+noun-broodje,broodje,level,B1,A2,Core food word that A1/A2 courses teach; better placed in the A1/A2 extras pool (T-146; C3 keeps one level per lemma).,unsure
+noun-koekje,koekje,level,B1,A2,Core food word that A1/A2 courses teach; better placed in the A1/A2 extras pool (T-146; C3 keeps one level per lemma).,unsure
+noun-trui,trui,level,B1,A2,Core clothing word that A1/A2 courses teach; better placed in the A1/A2 extras pool (T-146; C3 keeps one level per lemma).,unsure
+noun-hoed,hoed,level,B1,A2,Core clothing word that A1/A2 courses teach; better placed in the A1/A2 extras pool (T-146; C3 keeps one level per lemma).,unsure
+noun-schaap,schaap,level,B1,A2,Core animal word that A1/A2 courses teach; better placed in the A1/A2 extras pool (T-146; C3 keeps one level per lemma).,unsure
+noun-varken,varken,level,B1,A2,Core animal word that A1/A2 courses teach; better placed in the A1/A2 extras pool (T-146; C3 keeps one level per lemma).,unsure
+noun-eend,eend,level,B1,A2,Core animal word that A1/A2 courses teach; better placed in the A1/A2 extras pool (T-146; C3 keeps one level per lemma).,unsure
+noun-olifant,olifant,level,B1,A2,Core animal word that A1/A2 courses teach; better placed in the A1/A2 extras pool (T-146; C3 keeps one level per lemma).,unsure
+noun-kleinkind,kleinkind,level,B1,A2,Core family word that A1/A2 courses teach; better placed in the A1/A2 extras pool (T-146; C3 keeps one level per lemma).,unsure
+verb-binnenkomen,binnenkomen,level,B1,A2,Core daily-verb word that A1/A2 courses teach; better placed in the A1/A2 extras pool (T-146; C3 keeps one level per lemma).,unsure
+verb-thuisblijven,thuisblijven,level,B1,A2,Core daily-verb word that A1/A2 courses teach; better placed in the A1/A2 extras pool (T-146; C3 keeps one level per lemma).,unsure
+verb-weggooien,weggooien,level,B1,A2,Core daily-verb word that A1/A2 courses teach; better placed in the A1/A2 extras pool (T-146; C3 keeps one level per lemma).,unsure
+adj-vriendelijk,vriendelijk,level,B1,A2,Core describing word that A1/A2 courses teach; better placed in the A1/A2 extras pool (T-146; C3 keeps one level per lemma).,unsure
+adj-vervelend,vervelend,level,B1,A2,Core describing word that A1/A2 courses teach; better placed in the A1/A2 extras pool (T-146; C3 keeps one level per lemma).,unsure
+noun-laptop,laptop,level,B1,A2,Core household-object word that A1/A2 courses teach; better placed in the A1/A2 extras pool (T-146; C3 keeps one level per lemma).,unsure
+noun-dierentuin,dierentuin,level,B1,A2,Core free-time word that A1/A2 courses teach; better placed in the A1/A2 extras pool (T-146; C3 keeps one level per lemma).,unsure
+noun-bladzijde,bladzijde,level,B1,A2,Core school word that A1/A2 courses teach; better placed in the A1/A2 extras pool (T-146; C3 keeps one level per lemma).,unsure
