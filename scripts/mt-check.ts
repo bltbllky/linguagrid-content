@@ -274,7 +274,7 @@ export function parseArgs(argv: string[]): MtArgs {
   const max = flag('--max-chars');
   if (args.length > 0) throw new Error(USAGE);
   if (stage !== undefined && release !== undefined) throw new Error('use either --stage or --release');
-  if (stage !== undefined && !(stage in STAGES)) throw new Error('--stage must be b1, a1a2 or b2');
+  if (stage !== undefined && !Object.hasOwn(STAGES, stage)) throw new Error('--stage must be b1, a1a2 or b2');
   if (ids === undefined) {
     throw new Error('--ids is required: mt-check reads only the rows the content editor marks for the owner');
   }

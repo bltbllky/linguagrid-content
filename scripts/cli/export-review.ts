@@ -12,6 +12,7 @@ const lang = langAt >= 0 ? args.splice(langAt, 2)[1] : 'tr';
 if (!lang) throw new Error('Usage: npm run export-review -- [--lang en] [--stage b1|a1a2|b2] a1');
 const stage = takeStage(args);
 const level = args[0] ?? (stage ? STAGES[stage.name].levels[0] : 'A1');
+if (stage && !STAGES[stage.name].levels.some((l) => l === level.toUpperCase())) throw new Error(`Level ${level} is not in the ${stage.name} stage`);
 const base = stage && level.toLowerCase() !== stage.name ? `${stage.name}-${level.toLowerCase()}` : level.toLowerCase();
 // Turkish keeps its original path (review/a1.csv); other languages get review/<lang>/<level>.csv.
 const path = join('review', ...(lang === 'tr' ? [] : [lang]), `${base}.csv`);

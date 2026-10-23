@@ -430,6 +430,7 @@ describe('parseArgs and liveKey', () => {
     assert.throws(() => parseArgs(['--ids', 'a', '--stage']), { message: '--stage needs a value' });
     assert.equal(parseArgs(['--ids', 'a', '--stage', 'a1a2']).stage, 'a1a2');
     assert.equal(parseArgs(['--ids', 'a', '--stage', 'b2']).stage, 'b2');
+    assert.throws(() => parseArgs(['--ids', 'a', '--stage', 'toString']), { message: '--stage must be b1, a1a2 or b2' });
     assert.throws(() => parseArgs(['--ids', 'a', '--stage', 'c1']), { message: '--stage must be b1, a1a2 or b2' });
   });
 

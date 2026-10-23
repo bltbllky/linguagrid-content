@@ -310,3 +310,9 @@ describe('stage profiles', () => {
     assert.deepEqual(s.words, []);
   });
 });
+
+describe('loadStage names', () => {
+  it('refuses prototype names', () => {
+    assert.throws(() => loadStage('constructor'), /Unknown stage "constructor"/);
+  });
+});
