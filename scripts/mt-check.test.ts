@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { mkdirSync, mkdtempSync, rmSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
-import { join } from 'node:path';
+import { dirname, join } from 'node:path';
 import { describe, it } from 'node:test';
 
 import {
@@ -11,6 +11,8 @@ import {
   endpointFor,
   liveKey,
   loadRelease,
+  loadStageRelease,
+  missingTexts,
   parseArgs,
   planRun,
   renderReport,
@@ -19,6 +21,7 @@ import {
   translateAll,
   type MtLang,
   type MtRow,
+  type Release,
 } from './mt-check.ts';
 
 function fixture(): string {
@@ -54,6 +57,28 @@ function fixture(): string {
     ],
     categories: [],
   });
+  return root;
+}
+
+/** A live content root (one word) plus a B1 stage: `noun-x` has a het article and a Turkish text, `verb-y` has neither. */
+function stageFixture(): string {
+  const root = mkdtempSync(join(tmpdir(), 'lgc-mt-stage-'));
+  const put = (file: string, value: unknown) => {
+    mkdirSync(dirname(join(root, file)), { recursive: true });
+    writeFileSync(join(root, file), JSON.stringify(value));
+  };
+  put('manifest.json', { content_version: 1, min_app_version: { ios: '1.0.0', android: '1.0.0' }, files: [] });
+  put('data/words.json', [{ id: 'noun-tandarts', lemma_nl: 'tandarts', pos: 'noun', cefr: 'A1', source: 'nt2lex' }]);
+  put('data/annotations.json', []);
+  put('data/categories.json', []);
+  put('data/translations/tr.json', { lang: 'tr', words: [], categories: [] });
+  put('data/b1/words.json', [
+    { id: 'noun-x', lemma_nl: 'x', pos: 'noun', cefr: 'B1', source: 'own' },
+    { id: 'verb-y', lemma_nl: 'y', pos: 'verb', cefr: 'B1', source: 'own' },
+  ]);
+  put('data/b1/annotations.json', [{ word_id: 'noun-x', article: 'het', category_id: 'b1-c', reviewed: true }]);
+  put('data/b1/categories.json', [{ id: 'b1-c', cefr: 'B1', order: 1 }]);
+  put('data/b1/translations/tr.json', { lang: 'tr', words: [{ word_id: 'noun-x', text: 'iz', reviewed: true }], categories: [] });
   return root;
 }
 
@@ -104,6 +129,56 @@ describe('buildRows', () => {
     assert.equal(buildRows(r, 'en').length, 2);
     assert.equal(buildRows(r, 'tr', [' noun-spoor']).length, 1);
     assert.throws(() => buildRows(r, 'tr', ['noun-x']), /Unknown word id: noun-x/);
+  });
+});
+
+describe('loadStageRelease', () => {
+  it('reads only the staged words with their articles and texts, as release 0', () => {
+    const r = loadStageRelease(stageFixture());
+    assert.equal(r.version, 0);
+    assert.deepEqual(
+      r.words.map((w) => w.id),
+      ['noun-x', 'verb-y'],
+    );
+    assert.deepEqual(buildRows(r, 'tr'), [{ id: 'noun-x', dutch: 'het x', ours: 'iz' }]);
+  });
+
+  it('refuses a live id as unknown and accepts a staged one', () => {
+    const r = loadStageRelease(stageFixture());
+    assert.throws(() => buildRows(r, 'tr', ['noun-tandarts']), { message: 'Unknown word id: noun-tandarts' });
+    assert.deepEqual(buildRows(r, 'tr', ['noun-x']), [{ id: 'noun-x', dutch: 'het x', ours: 'iz' }]);
+  });
+
+  it('rejects an unknown stage', () => {
+    assert.throws(() => loadStageRelease(stageFixture(), 'b2'), { message: 'Unknown stage "b2"; only b1 is staged' });
+  });
+});
+
+describe('missingTexts', () => {
+  const r: Release = {
+    version: 0,
+    words: [
+      { id: 'noun-x', lemma_nl: 'x', pos: 'noun' },
+      { id: 'noun-y', lemma_nl: 'y', pos: 'noun' },
+    ],
+    annotations: [],
+    translations: { tr: [{ word_id: 'noun-x', text: 'a' }, { word_id: 'noun-z', text: 'b' }] },
+  };
+
+  it('lists the known ids without a text, trimmed and in the order given', () => {
+    assert.deepEqual(missingTexts(r, 'tr', ['noun-x', ' noun-y']), ['noun-y']);
+    assert.deepEqual(missingTexts(r, 'tr', ['noun-y', 'noun-x']), ['noun-y']);
+  });
+
+  it('lists every known id when the language has no file, and none when all have text', () => {
+    assert.deepEqual(missingTexts(r, 'en', ['noun-x', 'noun-y']), ['noun-x', 'noun-y']);
+    assert.deepEqual(missingTexts(r, 'tr', ['noun-x']), []);
+  });
+
+  it('counts an empty text as missing, like buildRows, and leaves unknown ids to buildRows', () => {
+    const empty: Release = { ...r, translations: { tr: [{ word_id: 'noun-y', text: '' }] } };
+    assert.deepEqual(missingTexts(empty, 'tr', ['noun-y']), ['noun-y']);
+    assert.deepEqual(missingTexts(r, 'tr', ['noun-q']), []);
   });
 });
 
@@ -292,6 +367,13 @@ describe('planRun and runCheck', () => {
     assert.ok(!esc.includes('rows:'));
   });
 
+  it('labels a stage report and keeps the release label by default', () => {
+    const stage = renderReport({ date: '2026-10-23', version: 0, chars: 9, label: 'Stage b1' }, []);
+    assert.ok(stage.includes('Stage b1 · 9 characters sent\n'));
+    assert.ok(!stage.includes('Release 0'));
+    assert.ok(renderReport({ date: 'd', version: 3, chars: 1 }, []).includes('Release 3 · 1 characters sent\n'));
+  });
+
   it('names the report file', () => {
     assert.equal(reportPath('2026-10-18', false), 'review/mt-check/2026-10-18.md');
     assert.equal(reportPath('2026-10-18', true), 'review/mt-check/2026-10-18-rows.md');
@@ -331,6 +413,16 @@ describe('parseArgs and liveKey', () => {
     assert.throws(() => parseArgs(['--ids', 'a', '--max-chars', '0']), /positive integer/);
     assert.throws(() => parseArgs(['--ids', 'a', '--release', 'x']), /--release must be a positive integer/);
     assert.throws(() => parseArgs(['--ids', 'a', 'oops']), /Usage: npm run mt-check/);
+  });
+
+  it('takes --stage b1 and refuses it together with --release', () => {
+    assert.equal(parseArgs(['--ids', 'a', '--stage', 'b1']).stage, 'b1');
+    assert.equal('stage' in parseArgs(['--ids', 'a']), false);
+    assert.throws(() => parseArgs(['--ids', 'a', '--stage', 'b1', '--release', '3']), {
+      message: 'use either --stage or --release',
+    });
+    assert.throws(() => parseArgs(['--ids', 'a', '--stage']), { message: '--stage needs a value' });
+    assert.throws(() => parseArgs(['--ids', 'a', '--stage', 'b2']), { message: '--stage must be b1 (the only staged level)' });
   });
 
   it('refuses a live run in CI and without a key', () => {

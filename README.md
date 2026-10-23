@@ -50,7 +50,8 @@ Review sheets for B1: `npm run export-review -- [--lang en] --stage b1 b1`; impo
 
 `npm run mt-check -- --ids id1,id2` asks DeepL for a second opinion on the rows the content editor hands to the owner. It
 sends only the Dutch text of those rows (the lemma, with de/het for nouns), NL→TR and NL→EN, and writes
-`review/mt-check/<date>-rows.md` with our text and DeepL's reading side by side. The reading is advisory context for the
+`review/mt-check/<date>-rows.md` with our text and DeepL's reading side by side. The reports stay on your machine:
+`review/mt-check/` is git-ignored. For staged B1 rows add `--stage b1`. The reading is advisory context for the
 question to the owner: it flags nothing, gives no verdict and is never written into `data/` or a release. There is no
 full-release run.
 
