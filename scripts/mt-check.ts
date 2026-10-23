@@ -1,6 +1,9 @@
 import { existsSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 
+import { loadStage, mergeStage } from './stage.ts';
+import { loadContent } from './validate.ts';
+
 export type MtLang = 'tr' | 'en';
 export const MT_LANGS: MtLang[] = ['tr', 'en'];
 export const DEFAULT_MAX_CHARS = 100_000;
@@ -56,6 +59,31 @@ export function loadRelease(root: string, version?: number): Release {
     annotations: readJson(join(dir, 'annotations.json')) as Annotation[],
     translations,
   };
+}
+
+/** The staged rows as a release (version 0): only the staged words, their annotations and their texts (T-129). */
+export function loadStageRelease(root: string, name = 'b1'): Release {
+  const stage = loadStage(name, root);
+  const merged = mergeStage(loadContent(root), stage);
+  const ids = new Set(stage.words.map((w) => w.id));
+  const translations: Release['translations'] = {};
+  for (const lang of MT_LANGS) {
+    const file = merged.translations[lang];
+    if (file) translations[lang] = file.words.filter((t) => ids.has(t.word_id));
+  }
+  return {
+    version: 0,
+    words: merged.words.filter((w) => ids.has(w.id)),
+    annotations: merged.annotations.filter((a) => ids.has(a.word_id)),
+    translations,
+  };
+}
+
+/** The trimmed ids that are words of `release` but have no text in `lang`, in the order given; unknown ids stay buildRows' error. */
+export function missingTexts(release: Release, lang: MtLang, ids: string[]): string[] {
+  const words = new Set(release.words.map((w) => w.id));
+  const texts = new Map((release.translations[lang] ?? []).map((t) => [t.word_id, t.text]));
+  return [...new Set(ids.map((i) => i.trim()))].filter((id) => words.has(id) && !texts.get(id));
 }
 
 export function buildRows(release: Release, lang: MtLang, ids?: string[]): MtRow[] {
@@ -192,7 +220,7 @@ export function reportPath(date: string, rowsOnly: boolean): string {
 const cell = (s: string) => s.replace(/\r?\n/g, ' ').replace(/\|/g, '\\|');
 
 export function renderReport(
-  meta: { date: string; version: number; chars: number; ids?: string[] },
+  meta: { date: string; version: number; chars: number; ids?: string[]; label?: string },
   results: MtResult[],
 ): string {
   const ids = [...new Set(results.map((r) => r.id))];
@@ -202,7 +230,7 @@ export function renderReport(
     '',
     'Machine translated by DeepL: every "DeepL" text below is an automatic translation (DeepL API, source NL). It is advisory context for a question to the owner, never a verdict and never content (ADR-015).',
     '',
-    `Release ${meta.version} · ${meta.chars} characters sent${meta.ids ? ` · rows: ${meta.ids.join(', ')}` : ''}`,
+    `${meta.label ?? `Release ${meta.version}`} · ${meta.chars} characters sent${meta.ids ? ` · rows: ${meta.ids.join(', ')}` : ''}`,
     '',
     '| id | Dutch sent | our TR | DeepL TR | our EN | DeepL EN |',
     '|---|---|---|---|---|---|',
@@ -222,6 +250,7 @@ export interface MtArgs {
   dryRun: boolean;
   lang?: MtLang;
   release?: number;
+  stage?: string;
   ids: string[];
   cap: number;
 }
@@ -240,9 +269,12 @@ export function parseArgs(argv: string[]): MtArgs {
   };
   const lang = flag('--lang');
   const release = flag('--release');
+  const stage = flag('--stage');
   const ids = flag('--ids');
   const max = flag('--max-chars');
   if (args.length > 0) throw new Error(USAGE);
+  if (stage !== undefined && release !== undefined) throw new Error('use either --stage or --release');
+  if (stage !== undefined && stage !== 'b1') throw new Error('--stage must be b1 (the only staged level)');
   if (ids === undefined) {
     throw new Error('--ids is required: mt-check reads only the rows the content editor marks for the owner');
   }
@@ -253,6 +285,7 @@ export function parseArgs(argv: string[]): MtArgs {
     dryRun: dryAt >= 0,
     lang: lang as MtLang | undefined,
     release: release ? Number(release) : undefined,
+    ...(stage === undefined ? {} : { stage }),
     ids: ids.split(',').map((i) => i.trim()),
     cap: max ? Number(max) : DEFAULT_MAX_CHARS,
   };

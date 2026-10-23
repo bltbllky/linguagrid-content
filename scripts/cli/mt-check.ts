@@ -7,6 +7,8 @@ import {
   liveKey,
   parseArgs,
   loadRelease,
+  loadStageRelease,
+  missingTexts,
   planRun,
   renderReport,
   reportPath,
@@ -16,12 +18,17 @@ import {
 } from '../mt-check.ts';
 
 const root = join(import.meta.dirname, '..', '..');
-const { dryRun, lang: langArg, release: releaseArg, ids, cap } = parseArgs(process.argv.slice(2));
+const { dryRun, lang: langArg, release: releaseArg, stage, ids, cap } = parseArgs(process.argv.slice(2));
 
-const release = loadRelease(root, releaseArg);
+const release = stage ? loadStageRelease(root, stage) : loadRelease(root, releaseArg);
+const label = stage ? `Stage ${stage}` : `Release ${release.version}`;
 const langs: MtLang[] = langArg ? [langArg] : MT_LANGS;
 const rows: Partial<Record<MtLang, MtRow[]>> = {};
-for (const lang of langs) rows[lang] = buildRows(release, lang, ids);
+for (const lang of langs) {
+  rows[lang] = buildRows(release, lang, ids);
+  const miss = missingTexts(release, lang, ids);
+  if (miss.length) console.warn(`No ${lang} text for: ${miss.join(', ')} (skipped)`);
+}
 
 for (const p of planRun(rows, cap)) {
   console.log(`${p.lang}: ${p.words} words, ${p.requests} requests, ${p.chars} characters (cap ${cap})`);
@@ -42,6 +49,6 @@ if (dryRun) {
   const date = `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())}`;
   const path = reportPath(date, true);
   mkdirSync(join(root, 'review', 'mt-check'), { recursive: true });
-  writeFileSync(join(root, path), renderReport({ date, version: release.version, chars, ids }, results));
+  writeFileSync(join(root, path), renderReport({ date, version: release.version, chars, ids, label }, results));
   console.log(`Wrote ${path}: ${new Set(results.map((r) => r.id)).size} rows`);
 }
