@@ -15,7 +15,7 @@ import type { Annotation, TranslationFile, Word } from './validate.ts';
 
 function stage(): Stage {
   return {
-    level: 'B1',
+    name: 'b1',
     words: [{ id: 'noun-gemeente', lemma_nl: 'gemeente', pos: 'noun', cefr: 'B1', source: 'own' }],
     categories: [{ id: 'b1-services', cefr: 'B1', order: 32 }],
     annotations: [{ word_id: 'noun-gemeente', article: 'de', category_id: 'b1-services', reviewed: false }],
@@ -146,7 +146,7 @@ describe('mergeStage and loadStage', () => {
     const dir = root(true);
     assert.ok(!loadContent(dir).words.some((w) => w.id === 'noun-gemeente'));
     assert.ok(loadStage('b1', dir).words.some((w) => w.id === 'noun-gemeente'));
-    assert.throws(() => loadStage('b2', dir), /Unknown stage "b2"/);
+    assert.throws(() => loadStage('c1', dir), /Unknown stage "c1"; staged: b1, a1a2, b2/);
   });
 
   it('returns an empty stage without data/b1', () => {
@@ -165,7 +165,7 @@ describe('mergeStage and loadStage', () => {
     const plain = ['a1'];
     assert.equal(takeStage(plain, dir), undefined);
     assert.deepEqual(plain, ['a1']);
-    assert.throws(() => takeStage(['--stage'], dir), /Usage: .*--stage b1/);
+    assert.throws(() => takeStage(['--stage'], dir), /Usage: .*--stage b1\|a1a2\|b2/);
   });
 });
 
@@ -229,5 +229,84 @@ describe('exportReview for the stage', () => {
     const rows = csv.split('\n');
     assert.ok(rows.includes('noun-gemeente,gemeente,de,belediye,Kamu hizmetleri,'));
     assert.ok(!csv.includes('noun-tandarts'));
+  });
+});
+
+/** The A1/A2 extras: one A1 word in the live A1 category, no categories of its own. */
+function extras(): Stage {
+  return {
+    name: 'a1a2',
+    words: [{ id: 'noun-dinsdag', lemma_nl: 'dinsdag', pos: 'noun', cefr: 'A1', source: 'own' }],
+    categories: [],
+    annotations: [{ word_id: 'noun-dinsdag', article: 'de', category_id: 'health', reviewed: false }],
+    translations: { tr: { lang: 'tr', words: [{ word_id: 'noun-dinsdag', text: 'salı', reviewed: false }], categories: [] } },
+  };
+}
+
+function b2(): Stage {
+  const s = stage();
+  s.name = 'b2';
+  s.words[0].cefr = 'B2';
+  s.categories = [{ id: 'b2-law', cefr: 'B2', order: 40 }];
+  s.annotations![0].category_id = 'b2-law';
+  s.translations.tr!.categories = [{ category_id: 'b2-law', title: 'Recht' }];
+  return s;
+}
+
+describe('stage profiles', () => {
+  it('accepts the A1A2 extras', () => {
+    assert.deepEqual(validateStage(validContent(), extras()), { errors: [], incomplete: [] });
+  });
+
+  it('checks the A1A2 level, categories and category level', () => {
+    const a = extras();
+    a.words[0].cefr = 'B1';
+    assert.ok(validateStage(validContent(), a).errors.includes('noun-dinsdag: level B1 in the A1A2 stage'));
+    const b = extras();
+    const live = validContent();
+    live.categories.push({ id: 'a2-home', cefr: 'A2', order: 2 });
+    live.translations.tr.categories.push({ category_id: 'a2-home', title: 'Thuis' });
+    b.annotations![0].category_id = 'a2-home';
+    assert.ok(validateStage(live, b).errors.includes('noun-dinsdag: A1 word in category "a2-home" of level A2'));
+    const c = extras();
+    c.categories = [{ id: 'a1-own', cefr: 'A1', order: 3 }];
+    assert.ok(validateStage(validContent(), c).errors.includes('a1-own: the A1A2 stage uses live categories only'));
+  });
+
+  it('rejects a lemma staged in another stage', () => {
+    const errors = validateStage(validContent(), extras(), [{ ...stage(), words: [{ ...stage().words[0], id: 'noun-dins', lemma_nl: 'dinsdag' }] }]).errors;
+    assert.ok(errors.includes('noun-dinsdag: lemma "dinsdag" is already staged in b1 (noun-dins)'));
+  });
+
+  it('applies the B1 rules to B2 with level B2', () => {
+    assert.deepEqual(validateStage(validContent(), b2()), { errors: [], incomplete: [] });
+    const a = b2();
+    a.words[0].cefr = 'B1';
+    assert.ok(validateStage(validContent(), a).errors.includes('noun-gemeente: level B1 in the B2 stage'));
+    const b = b2();
+    b.categories[0].id = 'b1-services';
+    b.annotations![0].category_id = 'b1-services';
+    b.translations.tr!.categories[0].category_id = 'b1-services';
+    assert.ok(validateStage(validContent(), b, [stage()]).errors.includes('b1-services: category id is already staged in b1'));
+  });
+
+  it('reports the A1A2 stage with its own words only', () => {
+    const lines = stageReport(validContent(), extras());
+    assert.equal(lines[0], 'A1A2 stage: 1 words (1 nouns, 0 verbs, 0 adjectives), 0 categories');
+    assert.ok(lines.includes('tr A1: 1 translated, 0 reviewed (0 by round trip) / 1 words'));
+  });
+
+  it('writes the A1A2 files under data/a1a2/ and no categories', () => {
+    const s = extras();
+    const files = stageFiles(mergeStage(validContent(), s), s);
+    assert.ok(Object.keys(files).every((key) => key.startsWith('data/a1a2/')));
+    assert.ok(!Object.keys(files).some((key) => key.includes('categories')));
+  });
+
+  it('loads an absent b2 folder as an empty stage named b2', () => {
+    const dir = mkdtempSync(join(tmpdir(), 'lgc-'));
+    const s = loadStage('b2', dir);
+    assert.equal(s.name, 'b2');
+    assert.deepEqual(s.words, []);
   });
 });

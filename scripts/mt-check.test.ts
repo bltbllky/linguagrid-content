@@ -150,7 +150,12 @@ describe('loadStageRelease', () => {
   });
 
   it('rejects an unknown stage', () => {
-    assert.throws(() => loadStageRelease(stageFixture(), 'b2'), { message: 'Unknown stage "b2"; only b1 is staged' });
+    assert.throws(() => loadStageRelease(stageFixture(), 'c1'), { message: 'Unknown stage "c1"; staged: b1, a1a2, b2' });
+  });
+
+  it('reads the other stages, an absent folder being empty', () => {
+    assert.deepEqual(loadStageRelease(stageFixture(), 'a1a2').words, []);
+    assert.deepEqual(loadStageRelease(stageFixture(), 'b2').words, []);
   });
 });
 
@@ -371,6 +376,7 @@ describe('planRun and runCheck', () => {
     const stage = renderReport({ date: '2026-10-23', version: 0, chars: 9, label: 'Stage b1' }, []);
     assert.ok(stage.includes('Stage b1 · 9 characters sent\n'));
     assert.ok(!stage.includes('Release 0'));
+    assert.ok(renderReport({ date: '2026-10-23', version: 0, chars: 9, label: 'Stage a1a2' }, []).includes('Stage a1a2 · 9 characters sent\n'));
     assert.ok(renderReport({ date: 'd', version: 3, chars: 1 }, []).includes('Release 3 · 1 characters sent\n'));
   });
 
@@ -422,7 +428,9 @@ describe('parseArgs and liveKey', () => {
       message: 'use either --stage or --release',
     });
     assert.throws(() => parseArgs(['--ids', 'a', '--stage']), { message: '--stage needs a value' });
-    assert.throws(() => parseArgs(['--ids', 'a', '--stage', 'b2']), { message: '--stage must be b1 (the only staged level)' });
+    assert.equal(parseArgs(['--ids', 'a', '--stage', 'a1a2']).stage, 'a1a2');
+    assert.equal(parseArgs(['--ids', 'a', '--stage', 'b2']).stage, 'b2');
+    assert.throws(() => parseArgs(['--ids', 'a', '--stage', 'c1']), { message: '--stage must be b1, a1a2 or b2' });
   });
 
   it('refuses a live run in CI and without a key', () => {
