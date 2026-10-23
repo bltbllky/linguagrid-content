@@ -46,3 +46,9 @@ Amendments
    docs/research/2026-10-22-word-counts-and-b2.md, option B; ADR-017, accepted 2026-10-23,
    which supersedes the 1,000 of ADR-016 rule 5 for B1). Made before any shortlist exists
    (data/b1/selection.json does not exist yet). Owner approved 2026-10-23.
+2026-10-23. C3, clarification (no word changes): "in data/excluded.json" applies per id, that is per lemma and part of
+   speech, as the pool tool has done since T-125 (scripts/b1-pool.ts, buildPool). A lemma that is an A1 or A2 word stays
+   ineligible under every part of speech. An excluded row does not block the same lemma under another part of speech:
+   4 of the 1,200 selected words depend on this reading (noun-ingreep, noun-opvang, noun-uitstoot, noun-welvaart, whose
+   verb rows are excluded as forms tagged as verbs). Made after the shortlist exists (data/b1/selection.json); owner
+   approved 2026-10-23.
