@@ -5,6 +5,7 @@ import { describe, it } from 'node:test';
 
 import {
   B1_BAND,
+  articleCheck,
   PINNED_SHA256,
   buildPool,
   calibration,
@@ -18,7 +19,7 @@ import {
   sourceDrift,
   type PoolRow,
 } from './b1-pool.ts';
-import type { Word } from './validate.ts';
+import type { Annotation, Word } from './validate.ts';
 
 const entry = (word: string, pos: string, senses: object[], gender?: string) =>
   JSON.stringify({
@@ -227,6 +228,52 @@ describe('sourceDrift', () => {
     const drift = sourceDrift({});
     assert.equal(drift.length, 4);
     assert.ok(drift.every((l) => l.startsWith('Source not fetched: ')));
+  });
+});
+
+describe('articleCheck', () => {
+  const noun = (word: string): Word => ({ id: `noun-${word}`, lemma_nl: word, pos: 'noun', cefr: 'B1', source: 'own' });
+  const note = (word: string, article: 'de' | 'het' | null): Annotation => ({
+    word_id: `noun-${word}`,
+    article,
+    category_id: 'b1-describing',
+    reviewed: false,
+  });
+  const index = readKaikki([
+    entry('huis', 'noun', [{}], 'n'),
+    entry('duin', 'noun', [{}], 'm'),
+    entry('duin', 'noun', [{}], 'n'),
+    entry('man', 'noun', [{}], 'c'),
+    entry('bal', 'noun', [{}]),
+    entry('lopen', 'verb', [{}]),
+  ]);
+  const run = (words: Word[], notes: Annotation[]) =>
+    Object.fromEntries(articleCheck(words, notes, index).map((r) => [r.dutch, r]));
+
+  it('agrees or differs with the Wiktionary gender', () => {
+    const rows = run([noun('huis')], [note('huis', 'het')]);
+    assert.deepEqual(rows.huis, { id: 'noun-huis', dutch: 'huis', stored: 'het', wiktionary: 'het', result: 'agree' });
+    assert.equal(run([noun('huis')], [note('huis', 'de')]).huis.result, 'differ');
+  });
+  it('accepts a stored article that is one of two Wiktionary genders', () => {
+    const rows = run([noun('duin')], [note('duin', 'het')]);
+    assert.equal(rows.duin.result, 'both');
+    assert.equal(rows.duin.wiktionary, 'de/het');
+  });
+  it('maps c to de', () => {
+    assert.equal(run([noun('man')], [note('man', 'de')]).man.wiktionary, 'de');
+  });
+  it('is unchecked without a gender or an entry, and skips verbs', () => {
+    const rows = run([noun('bal'), noun('zzz'), { ...noun('lopen'), id: 'verb-lopen', pos: 'verb' }], [note('bal', 'de')]);
+    assert.equal(rows.bal.result, 'unchecked');
+    assert.equal(rows.zzz.result, 'unchecked');
+    assert.equal(rows.zzz.stored, '');
+    assert.ok(!('lopen' in rows));
+  });
+  it('says differ when two genders do not include the stored article', () => {
+    const only = readKaikki([entry('duin', 'noun', [{}], 'm'), entry('duin', 'noun', [{}], 'f')]);
+    const rows = articleCheck([noun('duin')], [note('duin', 'het')], only);
+    assert.equal(rows[0].result, 'differ');
   });
 });
 
