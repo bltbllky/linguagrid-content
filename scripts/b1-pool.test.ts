@@ -6,10 +6,13 @@ import { describe, it } from 'node:test';
 import {
   A1A2_BAND,
   A1A2_RULES,
+  A1_MAX_RANK,
   B1_BAND,
   B1_RULES,
   articleCheck,
   PINNED_SHA256,
+  CARDINALS,
+  addCardinals,
   buildPool,
   calibration,
   lemmaCounts,
@@ -391,6 +394,51 @@ describe('A1/A2 pool profile', () => {
   });
   it('has the band and letter rule in the criteria file', () => {
     const text = readFileSync(join(import.meta.dirname, '..', 'data', 'a1a2', 'selection-criteria.md'), 'utf8');
-    assert.ok(text.includes('3,000') && text.includes('3 to 12 letters'));
+    assert.ok(text.includes('3,000') && text.includes('5,000') && text.includes('3 to 12 letters') && text.includes('miljard'));
+    assert.equal(A1A2_BAND.max, 5000);
+    assert.equal(A1_MAX_RANK, 3000);
+  });
+  it('names the 3-5k band', () => {
+    assert.equal(rankBandA1A2(2500), '2-3k');
+    assert.equal(rankBandA1A2(4200), '3-5k');
+  });
+  it('rejects an A1 word above lemma rank 3,000 and keeps it as A2', () => {
+    const pool: PoolRow[] = [{ id: 'noun-x', lemma_nl: 'x', pos: 'noun', rank: 3200, gender: null }];
+    assert.throws(() => selectA1A2(pool, { A1: ['noun-x'], A2: [] }), /A1 word outside lemma rank 1-3,000: noun-x \(rank 3200\)/);
+    assert.equal(selectA1A2(pool, { A1: [], A2: ['noun-x'] })[0].cefr, 'A2');
+  });
+
+  describe('cardinal numbers (E7)', () => {
+    const make = () => ({
+      index: readKaikki([entry('twee', 'noun', [{}], 'm'), entry('dertien', 'num', [{}])]),
+      forms: new Map([['twee', 900], ['dertien', 50], ['huis', 100]]),
+      counts: new Map([['huis', 100], ['twee', 900]]),
+      ranks: new Map([['twee', 1], ['huis', 2]]),
+    });
+    it('lists the 32 words', () => {
+      assert.equal(CARDINALS.length, 32);
+      assert.equal(new Set(CARDINALS).size, 32);
+    });
+    it('adds a numeral-only word as a noun row without moving other ranks', () => {
+      const { index, forms, counts, ranks } = make();
+      assert.deepEqual(addCardinals(index, forms, counts, ranks, ['twee', 'dertien', 'tachtig']), ['dertien']);
+      assert.equal(ranks.get('dertien'), 3);
+      assert.equal(ranks.get('huis'), 2);
+      const lemma = index.lemmas.get('noun:dertien')!;
+      assert.equal(lemma.pos, 'noun');
+      assert.equal(lemma.genders.size, 0);
+      assert.ok(!index.lemmas.has('noun:tachtig'));
+    });
+    it('puts the added row in the pool with gender null', () => {
+      const { index, forms, counts, ranks } = make();
+      addCardinals(index, forms, counts, ranks, ['twee', 'dertien']);
+      const words = new Set(['twee', 'dertien', 'huis']);
+      const pool = buildPool(ranks, index, words, { lemmas: new Set(), excludedIds: new Set() }, A1A2_BAND, A1A2_RULES);
+      assert.equal(pool.find((r) => r.id === 'noun-dertien')?.gender, null);
+      assert.equal(pool.filter((r) => r.id === 'noun-twee').length, 1);
+    });
+    it('leaves numerals out of the index without addCardinals', () => {
+      assert.ok(!readKaikki([entry('dertien', 'num', [{}])]).lemmas.has('noun:dertien'));
+    });
   });
 });
