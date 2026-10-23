@@ -7,6 +7,10 @@ import { Readable } from 'node:stream';
 import { pipeline } from 'node:stream/promises';
 
 import {
+  A1A2_BAND,
+  A1A2_RULES,
+  B1_BAND,
+  B1_RULES,
   addKaikkiLine,
   articleCheck,
   buildPool,
@@ -16,6 +20,9 @@ import {
   lemmaRanks,
   parseLeipzigWords,
   poolCounts,
+  rankBand,
+  rankBandA1A2,
+  selectA1A2,
   selectB1,
   sourceDrift,
   type PoolRow,
@@ -78,6 +85,11 @@ function findWordsFile(name: string): string {
   throw new Error(`Missing ${name}-words.txt in .cache/b1; run --fetch`);
 }
 
+type Level = 'b1' | 'a1a2';
+let level: Level = 'b1';
+const poolFile = () => join(cache, level === 'a1a2' ? 'pool-a1a2.json' : 'pool.json');
+const readIfThere = <T>(path: string): T[] => (existsSync(path) ? readJson<T[]>(path) : []);
+
 async function build() {
   const recordFile = join(cache, 'sources.json');
   reportDrift(existsSync(recordFile) ? readJson<Record<string, string>>(recordFile) : {});
@@ -97,14 +109,25 @@ async function build() {
   const words = readJson<Word[]>(join(root, 'data', 'words.json'));
   const excluded = readJson<{ id: string }[]>(join(root, 'data', 'excluded.json'));
   const ranks = lemmaRanks(lemmaCounts(forms, index));
-  const pool = buildPool(ranks, index, openTaal, {
-    lemmas: new Set(words.map((w) => w.lemma_nl)),
-    excludedIds: new Set(excluded.map((e) => e.id)),
-  });
-  writeFileSync(join(cache, 'pool.json'), JSON.stringify(pool, null, 2) + '\n');
+  const a1a2 = level === 'a1a2';
+  // The extras must not repeat a lemma of any other level, live or staged (E3).
+  const taken = a1a2
+    ? [...words, ...readIfThere<Word>(join(root, 'data', 'b1', 'words.json')), ...readIfThere<Word>(join(root, 'data', 'b2', 'words.json'))]
+    : words;
+  const pool = buildPool(
+    ranks,
+    index,
+    openTaal,
+    { lemmas: new Set(taken.map((w) => w.lemma_nl)), excludedIds: new Set(excluded.map((e) => e.id)) },
+    a1a2 ? A1A2_BAND : B1_BAND,
+    a1a2 ? A1A2_RULES : B1_RULES,
+  );
+  writeFileSync(poolFile(), JSON.stringify(pool, null, 2) + '\n');
 
-  const counts = poolCounts(pool);
-  console.log(`Pool: ${pool.length} rows, ${counts.lemmas} lemmas (${counts.twoPos} with two parts of speech) (.cache/b1/pool.json)`);
+  const counts = poolCounts(pool, a1a2 ? rankBandA1A2 : rankBand);
+  console.log(
+    `Pool: ${pool.length} rows, ${counts.lemmas} lemmas (${counts.twoPos} with two parts of speech) (${poolFile().replace(root + '/', '')})`,
+  );
   console.log('Per part of speech:', counts.pos);
   console.log('Per rank band:', counts.band);
   console.log('Calibration of our live words on the lemma rank (C2, information only):');
@@ -112,7 +135,16 @@ async function build() {
 }
 
 function write() {
-  const pool = readJson<PoolRow[]>(join(cache, 'pool.json'));
+  if (level === 'a1a2') {
+    const pool = readJson<PoolRow[]>(poolFile());
+    const sel = readJson<{ A1: string[]; A2: string[] }>(join(root, 'data', 'a1a2', 'selection.json'));
+    const out = selectA1A2(pool, sel);
+    mkdirSync(join(root, 'data', 'a1a2'), { recursive: true });
+    writeFileSync(join(root, 'data', 'a1a2', 'words.json'), JSON.stringify(out, null, 2) + '\n');
+    console.log(`Wrote ${out.length} words to data/a1a2/words.json`);
+    return;
+  }
+  const pool = readJson<PoolRow[]>(poolFile());
   const ids = readJson<string[]>(join(root, 'data', 'b1', 'selection.json'));
   const out = selectB1(pool, ids);
   writeFileSync(join(root, 'data', 'b1', 'words.json'), JSON.stringify(out, null, 2) + '\n');
@@ -142,9 +174,20 @@ function checkArticles() {
 }
 
 const modes = { '--fetch': fetchAll, '--build': build, '--write': write, '--check-articles': checkArticles };
-const given = process.argv.slice(2);
-if (given.length !== 1 || !(given[0] in modes)) {
-  console.error('Usage: npm run b1-pool -- --fetch | --build | --write | --check-articles (exactly one)');
+const usage = 'Usage: npm run b1-pool -- --fetch | --build | --write | --check-articles [--level b1|a1a2]';
+const args = process.argv.slice(2);
+const at = args.indexOf('--level');
+if (at >= 0) {
+  const value = args[at + 1];
+  if (value !== 'b1' && value !== 'a1a2') {
+    console.error(usage);
+    process.exit(1);
+  }
+  level = value;
+  args.splice(at, 2);
+}
+if (args.length !== 1 || !(args[0] in modes) || (level === 'a1a2' && args[0] === '--check-articles')) {
+  console.error(usage);
   process.exit(1);
 }
-await modes[given[0] as keyof typeof modes]();
+await modes[args[0] as keyof typeof modes]();

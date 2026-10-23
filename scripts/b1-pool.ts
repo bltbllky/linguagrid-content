@@ -2,6 +2,16 @@ import { wordId, type Annotation, type Pos, type Word } from './validate.ts';
 
 /** Criterion C2 of data/b1/selection-criteria.md: lemma rank 3,000-10,000. */
 export const B1_BAND = { min: 3000, max: 10000 } as const;
+/** Criterion E2 of data/a1a2/selection-criteria.md: lemma rank 1-3,000. */
+export const A1A2_BAND = { min: 1, max: 3000 } as const;
+
+export interface PoolRules {
+  minLetters: number;
+  infinitiveOnly: boolean;
+  noDemonyms: boolean;
+}
+export const B1_RULES: PoolRules = { minLetters: 4, infinitiveOnly: false, noDemonyms: false };
+export const A1A2_RULES: PoolRules = { minLetters: 3, infinitiveOnly: true, noDemonyms: true };
 /** Criterion C5: a lemma is dropped when every sense carries one of these tags. */
 export const EXCLUDED_TAGS = [
   'proper-noun',
@@ -20,7 +30,6 @@ export const EXCLUDED_TAGS = [
 
 const KAIKKI_POS: Record<string, Pos> = { noun: 'noun', verb: 'verb', adj: 'adj' };
 const POS_ORDER: Pos[] = ['noun', 'verb', 'adj'];
-const MIN_LETTERS = 4;
 const GENDER_LETTERS = 'mfnc';
 
 export interface Lemma {
@@ -31,6 +40,8 @@ export interface Lemma {
   genders: Set<string>;
   reflexiveOnly: boolean;
   pluralOnly: boolean;
+  /** Every sense is marked as a demonym (tag or category name). */
+  demonym: boolean;
 }
 export interface KaikkiIndex {
   /** Key: `<pos>:<word>`. */
@@ -46,9 +57,11 @@ export interface PoolRow {
   gender: string | null;
 }
 export type RankBand = '3-5k' | '5-8k' | '8-10k';
+export type RankBandA1A2 = '0-1k' | '1-2k' | '2-3k';
 
 interface KaikkiSense {
   tags?: string[];
+  categories?: ({ name?: string } | string)[];
   form_of?: { word: string }[];
   alt_of?: { word: string }[];
 }
@@ -113,6 +126,7 @@ export function addKaikkiLine(index: KaikkiIndex, line: string): void {
     genders,
     reflexiveOnly: pos === 'verb' && senses.length > 0 && senses.every((s) => s.tags?.includes('reflexive')),
     pluralOnly: sawPlural && genders.size === 0,
+    demonym: senses.length > 0 && senses.every(isDemonymSense),
   };
   const key = `${pos}:${word}`;
   const old = index.lemmas.get(key);
@@ -122,10 +136,16 @@ export function addKaikkiLine(index: KaikkiIndex, line: string): void {
     // Dropped by C4 only when every entry is reflexive-only or plural-only.
     old.reflexiveOnly &&= fresh.reflexiveOnly;
     old.pluralOnly &&= fresh.pluralOnly;
+    old.demonym &&= fresh.demonym;
   } else {
     index.lemmas.set(key, fresh);
   }
 }
+
+/** In the kaikki extract the marker is a category name such as "Demonyms"; a sense tag is accepted too. */
+const isDemonymSense = (s: KaikkiSense) =>
+  (s.tags ?? []).some((t) => /demonym/i.test(t)) ||
+  (s.categories ?? []).some((c) => /demonym/i.test(typeof c === 'string' ? c : (c.name ?? '')));
 
 export function readKaikki(lines: Iterable<string>): KaikkiIndex {
   const index = emptyKaikkiIndex();
@@ -160,17 +180,21 @@ export function buildPool(
   openTaal: Set<string>,
   live: { lemmas: Set<string>; excludedIds: Set<string> },
   band: { min: number; max: number } = B1_BAND,
+  rules: PoolRules = B1_RULES,
 ): PoolRow[] {
   const rows: PoolRow[] = [];
   for (const l of index.lemmas.values()) {
     const rank = ranks.get(l.word);
     if (rank === undefined || rank < band.min || rank > band.max) continue;
     const letters = Array.from(l.word).length;
-    if (!/^\p{L}+$/u.test(l.word) || letters < MIN_LETTERS || letters > 12) continue;
+    if (!/^\p{L}+$/u.test(l.word) || letters < rules.minLetters || letters > 12) continue;
     const id = wordId(l.pos, l.word);
     if (!openTaal.has(l.word) || live.lemmas.has(l.word) || live.excludedIds.has(id)) continue;
     if (EXCLUDED_TAGS.some((t) => l.tags.has(t)) || l.reflexiveOnly || l.pluralOnly) continue;
     const gender = l.genders.size ? [...l.genders].sort().join('/') : null;
+    // Dutch infinitives end in -en or -n (gaan, zijn).
+    if (rules.infinitiveOnly && l.pos === 'verb' && !l.word.endsWith('n')) continue;
+    if (rules.noDemonyms && l.demonym) continue;
     rows.push({ id, lemma_nl: l.word, pos: l.pos, rank, gender });
   }
   return rows.sort((a, b) => a.rank - b.rank || POS_ORDER.indexOf(a.pos) - POS_ORDER.indexOf(b.pos));
@@ -180,21 +204,29 @@ export function rankBand(rank: number): RankBand {
   return rank < 5000 ? '3-5k' : rank < 8000 ? '5-8k' : '8-10k';
 }
 
-export function poolCounts(pool: PoolRow[]): {
+export function rankBandA1A2(rank: number): RankBandA1A2 {
+  return rank < 1000 ? '0-1k' : rank < 2000 ? '1-2k' : '2-3k';
+}
+
+export function poolCounts<B extends string = RankBand>(
+  pool: PoolRow[],
+  bandOf: (rank: number) => string = rankBand,
+): {
   pos: Record<Pos, number>;
-  band: Record<RankBand, number>;
+  band: Record<B, number>;
   lemmas: number;
   twoPos: number;
 } {
   const pos: Record<Pos, number> = { noun: 0, verb: 0, adj: 0 };
-  const band: Record<RankBand, number> = { '3-5k': 0, '5-8k': 0, '8-10k': 0 };
+  const band: Record<string, number> = {};
   const perLemma = new Map<string, number>();
   for (const r of pool) {
     pos[r.pos]++;
-    band[rankBand(r.rank)]++;
+    const b = bandOf(r.rank);
+    band[b] = (band[b] ?? 0) + 1;
     perLemma.set(r.lemma_nl, (perLemma.get(r.lemma_nl) ?? 0) + 1);
   }
-  return { pos, band, lemmas: perLemma.size, twoPos: [...perLemma.values()].filter((n) => n > 1).length };
+  return { pos, band: band as Record<B, number>, lemmas: perLemma.size, twoPos: [...perLemma.values()].filter((n) => n > 1).length };
 }
 
 /** sha256 of the sources the pool of 2026-10-22 was built from (T-125 run, .cache/b1/sources.json). */
@@ -270,15 +302,34 @@ export function articleCheck(words: Word[], annotations: Annotation[], index: Ka
     });
 }
 
-/** The selected ids as B1 words, in the order of `ids`. */
-export function selectB1(pool: PoolRow[], ids: string[]): Word[] {
+/** The selected ids as own words of `cefr`, in the order of `ids`; `lemmas` is shared across calls. */
+export function selectWords(
+  pool: PoolRow[],
+  ids: string[],
+  cefr: Word['cefr'],
+  poolName: string,
+  lemmas = new Set<string>(),
+): Word[] {
   const byId = new Map(pool.map((r) => [r.id, r]));
-  const lemmas = new Set<string>();
   return ids.map((id) => {
     const row = byId.get(id);
-    if (!row) throw new Error(`Not in the B1 pool: ${id}`);
+    if (!row) throw new Error(`Not in the ${poolName} pool: ${id}`);
     if (lemmas.has(row.lemma_nl)) throw new Error(`Lemma twice in the selection: ${row.lemma_nl}`);
     lemmas.add(row.lemma_nl);
-    return { id: row.id, lemma_nl: row.lemma_nl, pos: row.pos, cefr: 'B1', source: 'own' };
+    return { id: row.id, lemma_nl: row.lemma_nl, pos: row.pos, cefr, source: 'own' };
   });
+}
+
+/** The selected ids as B1 words, in the order of `ids`. */
+export function selectB1(pool: PoolRow[], ids: string[]): Word[] {
+  return selectWords(pool, ids, 'B1', 'B1');
+}
+
+/** A1 words first, then A2; one lemma may not appear twice across both lists. */
+export function selectA1A2(pool: PoolRow[], sel: { A1: string[]; A2: string[] }): Word[] {
+  for (const key of ['A1', 'A2'] as const) {
+    if (!Array.isArray(sel[key])) throw new Error(`data/a1a2/selection.json needs an "${key}" list of ids`);
+  }
+  const lemmas = new Set<string>();
+  return [...selectWords(pool, sel.A1, 'A1', 'a1a2', lemmas), ...selectWords(pool, sel.A2, 'A2', 'a1a2', lemmas)];
 }
