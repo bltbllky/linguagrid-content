@@ -34,4 +34,23 @@ Each selected word is logged with a reason of at most 8 words that cites only fa
 category, "closed set".
 
 Amendments
-(none)
+2026-10-23. E3, clarification (no word changes): "in data/excluded.json" applies per id, that is per lemma and part of
+   speech, as the pool tool does (scripts/b1-pool.ts, buildPool). A lemma that is a live or staged word stays ineligible
+   under every part of speech. No word of the T-146 shortlist (content PR #41) depends on this reading. Owner approved
+   2026-10-23.
+2026-10-23. E2, E7, E9, after the shortlist. At lemma rank 1-3,000 only 55 A1 and 361 A2 words pass E1-E10 (content
+   PR #41, 416 words), not 210 and 420. Changes:
+   E2 The band depends on the level: A1 lemma rank 1-3,000 (unchanged), A2 lemma rank 1-5,000. Reason: our live A2
+      words have median rank 2,565 and 75th percentile 4,962 on this scale (data/b1/selection-criteria.md C2), so
+      1-5,000 holds the bulk of live A2. Staged B1 words stay out under E3.
+   E7 The A1 closed sets add the cardinal numbers: nul to twintig, the tens dertig to negentig, honderd, duizend,
+      miljoen and miljard (32 words). Each is a noun row and still passes E1-E6 (3 to 12 letters, A1 band, not live,
+      not excluded). Compound numbers (eenentwintig) and ordinals (eerste) are not in the set. E8 applies: an existing
+      A1 category, no new one.
+   E9 A1 has no count target: every A1 word that passes E1-E8 and E10 is taken, with no 5% margin, and the
+      part-of-speech window for A1 is measured on the level after the extras (live plus extras), because the closed
+      sets are nouns. A2 stays at 420 (target 400 plus 5%), with the window measured on the extras as before.
+   Expected outcome after the review: A1 about 470 words (400 live, the 55 of PR #41 and the numbers that pass), below
+   the 600 of ADR-017 rule 1; A2 about 1,000 (600 live and about 400 extras). The owner accepted that A1 stays below
+   600. Made after the shortlist exists (content PR #41, 416 words); the owner approved it on 2026-10-23
+   (app repository, ADR-018, Accepted 2026-10-23, which supersedes ADR-017 rules 1 and 4 in part for the A1/A2 extras).
