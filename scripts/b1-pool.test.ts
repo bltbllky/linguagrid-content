@@ -360,6 +360,16 @@ describe('A1/A2 pool profile', () => {
     assert.ok(ids().includes('adj-mixed'));
     assert.ok(buildPool(ranks, index, new Set(words), live, { min: 1, max: 100 }, B1_RULES).some((r) => r.id === 'adj-hollands'));
   });
+  it('merges the demonym flag of two entries with AND', () => {
+    const merge = (second: object[]) =>
+      readKaikki([entry('amerikaans', 'adj', sense), entry('amerikaans', 'adj', second)]).lemmas.get('adj:amerikaans')!;
+    assert.equal(merge(sense).demonym, true);
+    assert.equal(merge([{}]).demonym, false);
+  });
+  it('rejects a selection without an A1 or A2 list', () => {
+    assert.throws(() => selectA1A2([], { A1: [] } as never), /needs an "A2" list/);
+    assert.throws(() => selectA1A2([], { A2: [] } as never), /needs an "A1" list/);
+  });
   it('names the 1k bands', () => {
     const pool = [500, 1500, 2500].map((rank) => ({ id: `n${rank}`, lemma_nl: `n${rank}`, pos: 'noun' as const, rank, gender: null }));
     assert.deepEqual(poolCounts(pool, rankBandA1A2).band, { '0-1k': 1, '1-2k': 1, '2-3k': 1 });

@@ -327,6 +327,9 @@ export function selectB1(pool: PoolRow[], ids: string[]): Word[] {
 
 /** A1 words first, then A2; one lemma may not appear twice across both lists. */
 export function selectA1A2(pool: PoolRow[], sel: { A1: string[]; A2: string[] }): Word[] {
+  for (const key of ['A1', 'A2'] as const) {
+    if (!Array.isArray(sel[key])) throw new Error(`data/a1a2/selection.json needs an "${key}" list of ids`);
+  }
   const lemmas = new Set<string>();
   return [...selectWords(pool, sel.A1, 'A1', 'a1a2', lemmas), ...selectWords(pool, sel.A2, 'A2', 'a1a2', lemmas)];
 }
