@@ -9,6 +9,7 @@ import { pipeline } from 'node:stream/promises';
 import {
   A1A2_BAND,
   A1A2_RULES,
+  addCardinals,
   B1_BAND,
   B1_RULES,
   addKaikkiLine,
@@ -108,8 +109,10 @@ async function build() {
   );
   const words = readJson<Word[]>(join(root, 'data', 'words.json'));
   const excluded = readJson<{ id: string }[]>(join(root, 'data', 'excluded.json'));
-  const ranks = lemmaRanks(lemmaCounts(forms, index));
+  const counts = lemmaCounts(forms, index);
+  const ranks = lemmaRanks(counts);
   const a1a2 = level === 'a1a2';
+  const added = a1a2 ? addCardinals(index, forms, counts, ranks) : [];
   // The extras must not repeat a lemma of any other level, live or staged (E3).
   const taken = a1a2
     ? [...words, ...readIfThere<Word>(join(root, 'data', 'b1', 'words.json')), ...readIfThere<Word>(join(root, 'data', 'b2', 'words.json'))]
@@ -124,12 +127,13 @@ async function build() {
   );
   writeFileSync(poolFile(), JSON.stringify(pool, null, 2) + '\n');
 
-  const counts = poolCounts(pool, a1a2 ? rankBandA1A2 : rankBand);
+  const stats = poolCounts(pool, a1a2 ? rankBandA1A2 : rankBand);
   console.log(
-    `Pool: ${pool.length} rows, ${counts.lemmas} lemmas (${counts.twoPos} with two parts of speech) (${poolFile().replace(root + '/', '')})`,
+    `Pool: ${pool.length} rows, ${stats.lemmas} lemmas (${stats.twoPos} with two parts of speech) (${poolFile().replace(root + '/', '')})`,
   );
-  console.log('Per part of speech:', counts.pos);
-  console.log('Per rank band:', counts.band);
+  if (a1a2) console.log(`Cardinal numbers added as noun rows (E7): ${added.join(', ') || 'none'}`);
+  console.log('Per part of speech:', stats.pos);
+  console.log('Per rank band:', stats.band);
   console.log('Calibration of our live words on the lemma rank (C2, information only):');
   console.table(calibration(ranks, words));
 }
