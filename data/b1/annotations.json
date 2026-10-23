@@ -1648,5 +1648,917 @@
     "article": null,
     "category_id": "b1-health-care",
     "reviewed": false
+  },
+  {
+    "word_id": "noun-moordenaar",
+    "article": "de",
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-verstrekken",
+    "article": null,
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-onschuldig",
+    "article": null,
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-misdrijf",
+    "article": "het",
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-levenslang",
+    "article": null,
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-overtreding",
+    "article": "de",
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-diefstal",
+    "article": "de",
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-goedkeuring",
+    "article": "de",
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-strafbaar",
+    "article": null,
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-celstraf",
+    "article": "de",
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-verdenking",
+    "article": "de",
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-ondervragen",
+    "article": null,
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-overvallen",
+    "article": null,
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-testament",
+    "article": "het",
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-stadhuis",
+    "article": "het",
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-veroordeling",
+    "article": "de",
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-mishandelen",
+    "article": null,
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-plicht",
+    "article": "de",
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-regelgeving",
+    "article": "de",
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-inspectie",
+    "article": "de",
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-beroven",
+    "article": null,
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-overtreden",
+    "article": null,
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-aanklacht",
+    "article": "de",
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-wetsvoorstel",
+    "article": "het",
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-legaal",
+    "article": null,
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-ambassade",
+    "article": "de",
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-misbruik",
+    "article": "het",
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-aanhouding",
+    "article": "de",
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-dief",
+    "article": "de",
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-overval",
+    "article": "de",
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-stadsdeel",
+    "article": "het",
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-aanklager",
+    "article": "de",
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bezwaar",
+    "article": "het",
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-aanklagen",
+    "article": null,
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-vonnis",
+    "article": "het",
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-opsporen",
+    "article": null,
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-stempel",
+    "article": "de",
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-gerechtshof",
+    "article": "het",
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-minderjarige",
+    "article": "de",
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-inbraak",
+    "article": "de",
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-uitschrijven",
+    "article": null,
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-jurist",
+    "article": "de",
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-opzettelijk",
+    "article": null,
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-registratie",
+    "article": "de",
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-rechtspraak",
+    "article": "de",
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-strafblad",
+    "article": "het",
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-oplichter",
+    "article": "de",
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-inbreker",
+    "article": "de",
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-ongeldig",
+    "article": null,
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-rechtszaal",
+    "article": "de",
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-inbreken",
+    "article": null,
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-misdadiger",
+    "article": "de",
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-voorziening",
+    "article": "de",
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-wijkagent",
+    "article": "de",
+    "category_id": "b1-government-law",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-tabel",
+    "article": "de",
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-diploma",
+    "article": "het",
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bladzijde",
+    "article": "de",
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-begeleiding",
+    "article": "de",
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-hogeschool",
+    "article": "de",
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-vaardigheid",
+    "article": "de",
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-concentratie",
+    "article": "de",
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-opleiden",
+    "article": null,
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-beheersen",
+    "article": null,
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-inleveren",
+    "article": null,
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-oefening",
+    "article": "de",
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-leerkracht",
+    "article": "de",
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-campus",
+    "article": "de",
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-academisch",
+    "article": null,
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-geslaagd",
+    "article": null,
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-examen",
+    "article": "het",
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-faculteit",
+    "article": "de",
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-grafiek",
+    "article": "de",
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-corrigeren",
+    "article": null,
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-herhaling",
+    "article": "de",
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-afstuderen",
+    "article": null,
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-schriftelijk",
+    "article": null,
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-afkorting",
+    "article": "de",
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-toetsen",
+    "article": null,
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-markeren",
+    "article": null,
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-master",
+    "article": "de",
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-schooljaar",
+    "article": "het",
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-onregelmatig",
+    "article": null,
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-driehoek",
+    "article": "de",
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-spelling",
+    "article": "de",
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-essay",
+    "article": "het",
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-proefschrift",
+    "article": "het",
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-opletten",
+    "article": null,
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-optellen",
+    "article": null,
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-weglaten",
+    "article": null,
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-psychologie",
+    "article": "de",
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-correctie",
+    "article": "de",
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-biologie",
+    "article": "de",
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-certificaat",
+    "article": "het",
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-aantekening",
+    "article": "de",
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-werkwoord",
+    "article": "het",
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-samenvatting",
+    "article": "de",
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-hoofdletter",
+    "article": "de",
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-lesgeven",
+    "article": null,
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-inleiding",
+    "article": "de",
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-opschrijven",
+    "article": null,
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-mondeling",
+    "article": null,
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-voorlezen",
+    "article": null,
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-alfabet",
+    "article": "het",
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-nakijken",
+    "article": null,
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-geografie",
+    "article": "de",
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-aftrekken",
+    "article": null,
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-aanmelding",
+    "article": "de",
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-eindexamen",
+    "article": "het",
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-klasgenoot",
+    "article": "de",
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-meervoud",
+    "article": "het",
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-komma",
+    "article": "de",
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-tweetalig",
+    "article": null,
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-vragenlijst",
+    "article": "de",
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-klaslokaal",
+    "article": "het",
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-alinea",
+    "article": "de",
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-scheikunde",
+    "article": "de",
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-grammatica",
+    "article": "de",
+    "category_id": "b1-education-courses",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-doorbraak",
+    "article": "de",
+    "category_id": "b1-media-news",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-omkomen",
+    "article": null,
+    "category_id": "b1-media-news",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-actueel",
+    "article": null,
+    "category_id": "b1-media-news",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-magazine",
+    "article": "het",
+    "category_id": "b1-media-news",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-dreiging",
+    "article": "de",
+    "category_id": "b1-media-news",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-column",
+    "article": "de",
+    "category_id": "b1-media-news",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-redacteur",
+    "article": "de",
+    "category_id": "b1-media-news",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-aankondiging",
+    "article": "de",
+    "category_id": "b1-media-news",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-terrorist",
+    "article": "de",
+    "category_id": "b1-media-news",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-ontploffen",
+    "article": null,
+    "category_id": "b1-media-news",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-verdrinken",
+    "article": null,
+    "category_id": "b1-media-news",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-binnenland",
+    "article": "het",
+    "category_id": "b1-media-news",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-enquête",
+    "article": "de",
+    "category_id": "b1-media-news",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-instorten",
+    "article": null,
+    "category_id": "b1-media-news",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-podcast",
+    "article": "de",
+    "category_id": "b1-media-news",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-verslaggever",
+    "article": "de",
+    "category_id": "b1-media-news",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-schandaal",
+    "article": "het",
+    "category_id": "b1-media-news",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-ontploffing",
+    "article": "de",
+    "category_id": "b1-media-news",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-citeren",
+    "article": null,
+    "category_id": "b1-media-news",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-evacueren",
+    "article": null,
+    "category_id": "b1-media-news",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-schietpartij",
+    "article": "de",
+    "category_id": "b1-media-news",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-blog",
+    "article": "de",
+    "category_id": "b1-media-news",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-rubriek",
+    "article": "de",
+    "category_id": "b1-media-news",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-episode",
+    "article": "de",
+    "category_id": "b1-media-news",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-terrorisme",
+    "article": "het",
+    "category_id": "b1-media-news",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-citaat",
+    "article": "het",
+    "category_id": "b1-media-news",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-censuur",
+    "article": "de",
+    "category_id": "b1-media-news",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-ontvoering",
+    "article": "de",
+    "category_id": "b1-media-news",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-vermist",
+    "article": null,
+    "category_id": "b1-media-news",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-gewelddadig",
+    "article": null,
+    "category_id": "b1-media-news",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-nepnieuws",
+    "article": "het",
+    "category_id": "b1-media-news",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-soap",
+    "article": "de",
+    "category_id": "b1-media-news",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-schokkend",
+    "article": null,
+    "category_id": "b1-media-news",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-ondertitel",
+    "article": "de",
+    "category_id": "b1-media-news",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-nieuwsbrief",
+    "article": "de",
+    "category_id": "b1-media-news",
+    "reviewed": false
   }
 ]

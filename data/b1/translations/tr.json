@@ -1375,6 +1375,766 @@
       "word_id": "adj-misselijk",
       "text": "midesi bulanan",
       "reviewed": false
+    },
+    {
+      "word_id": "noun-moordenaar",
+      "text": "katil",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verstrekken",
+      "text": "temin etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-onschuldig",
+      "text": "masum",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-misdrijf",
+      "text": "suç",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-levenslang",
+      "text": "ömür boyu",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-overtreding",
+      "text": "ihlal",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-diefstal",
+      "text": "hırsızlık",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-goedkeuring",
+      "text": "onay",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-strafbaar",
+      "text": "suç sayılan",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-celstraf",
+      "text": "hapis cezası",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verdenking",
+      "text": "suç şüphesi",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-ondervragen",
+      "text": "sorgulamak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-overvallen",
+      "text": "silahlı soygun yapmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-testament",
+      "text": "vasiyet",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-stadhuis",
+      "text": "belediye sarayı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-veroordeling",
+      "text": "mahkûmiyet",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-mishandelen",
+      "text": "darp etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-plicht",
+      "text": "yükümlülük",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-regelgeving",
+      "text": "mevzuat",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-inspectie",
+      "text": "denetim",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-beroven",
+      "text": "soymak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-overtreden",
+      "text": "ihlal etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-aanklacht",
+      "text": "suçlama",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wetsvoorstel",
+      "text": "yasa tasarısı",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-legaal",
+      "text": "yasal",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ambassade",
+      "text": "büyükelçilik",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-misbruik",
+      "text": "kötüye kullanma",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-aanhouding",
+      "text": "gözaltı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-dief",
+      "text": "hırsız",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-overval",
+      "text": "soygun (silahlı)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-stadsdeel",
+      "text": "ilçe",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-aanklager",
+      "text": "savcı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bezwaar",
+      "text": "itiraz",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-aanklagen",
+      "text": "dava açmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vonnis",
+      "text": "hüküm (mahkeme)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-opsporen",
+      "text": "izini bulmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-stempel",
+      "text": "damga",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gerechtshof",
+      "text": "mahkeme (istinaf)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-minderjarige",
+      "text": "reşit olmayan (kişi)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-inbraak",
+      "text": "ev soygunu",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uitschrijven",
+      "text": "kaydını sildirmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-jurist",
+      "text": "hukukçu",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-opzettelijk",
+      "text": "kasıtlı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-registratie",
+      "text": "tescil",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-rechtspraak",
+      "text": "yargı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-strafblad",
+      "text": "sabıka kaydı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-oplichter",
+      "text": "dolandırıcı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-inbreker",
+      "text": "ev hırsızı",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-ongeldig",
+      "text": "geçersiz",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-rechtszaal",
+      "text": "mahkeme salonu",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-inbreken",
+      "text": "(bir yere) zorla girmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-misdadiger",
+      "text": "suçlu",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-voorziening",
+      "text": "olanak, tesis",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wijkagent",
+      "text": "mahalle polisi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tabel",
+      "text": "tablo",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-diploma",
+      "text": "diploma",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bladzijde",
+      "text": "sayfa",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-begeleiding",
+      "text": "rehberlik",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hogeschool",
+      "text": "yüksekokul",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vaardigheid",
+      "text": "beceri",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-concentratie",
+      "text": "konsantrasyon",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-opleiden",
+      "text": "eğitmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-beheersen",
+      "text": "hâkim olmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-inleveren",
+      "text": "(ödevi) teslim etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-oefening",
+      "text": "alıştırma",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-leerkracht",
+      "text": "sınıf öğretmeni",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-campus",
+      "text": "kampüs",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-academisch",
+      "text": "akademik",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-geslaagd",
+      "text": "sınavı geçmiş",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-examen",
+      "text": "resmî sınav",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-faculteit",
+      "text": "fakülte",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-grafiek",
+      "text": "grafik",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-corrigeren",
+      "text": "düzeltmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-herhaling",
+      "text": "tekrar",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-afstuderen",
+      "text": "mezun olmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-schriftelijk",
+      "text": "yazılı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-afkorting",
+      "text": "kısaltma",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-toetsen",
+      "text": "sınamak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-markeren",
+      "text": "işaretlemek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-master",
+      "text": "yüksek lisans",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-schooljaar",
+      "text": "öğretim yılı",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-onregelmatig",
+      "text": "düzensiz",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-driehoek",
+      "text": "üçgen",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-spelling",
+      "text": "yazım",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-essay",
+      "text": "deneme (yazı)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-proefschrift",
+      "text": "doktora tezi",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-opletten",
+      "text": "dikkat etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-optellen",
+      "text": "toplamak (matematik)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-weglaten",
+      "text": "dışarıda bırakmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-psychologie",
+      "text": "psikoloji",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-correctie",
+      "text": "düzeltme",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-biologie",
+      "text": "biyoloji",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-certificaat",
+      "text": "sertifika",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-aantekening",
+      "text": "not (ders)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-werkwoord",
+      "text": "fiil",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-samenvatting",
+      "text": "özet",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hoofdletter",
+      "text": "büyük harf",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-lesgeven",
+      "text": "ders vermek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-inleiding",
+      "text": "giriş (yazı)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-opschrijven",
+      "text": "not etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-mondeling",
+      "text": "sözlü",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-voorlezen",
+      "text": "sesli okumak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-alfabet",
+      "text": "alfabe",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-nakijken",
+      "text": "gözden geçirmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-geografie",
+      "text": "coğrafya",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-aftrekken",
+      "text": "çıkarmak (matematik)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-aanmelding",
+      "text": "başvuru",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-eindexamen",
+      "text": "bitirme sınavı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-klasgenoot",
+      "text": "sınıf arkadaşı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-meervoud",
+      "text": "çoğul",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-komma",
+      "text": "virgül",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-tweetalig",
+      "text": "iki dilli",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vragenlijst",
+      "text": "soru formu",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-klaslokaal",
+      "text": "sınıf odası",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-alinea",
+      "text": "paragraf",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-scheikunde",
+      "text": "kimya",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-grammatica",
+      "text": "dil bilgisi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-doorbraak",
+      "text": "atılım",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-omkomen",
+      "text": "hayatını kaybetmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-actueel",
+      "text": "güncel",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-magazine",
+      "text": "dergi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-dreiging",
+      "text": "tehdit",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-column",
+      "text": "köşe yazısı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-redacteur",
+      "text": "editör",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-aankondiging",
+      "text": "duyuru",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-terrorist",
+      "text": "terörist",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-ontploffen",
+      "text": "patlamak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verdrinken",
+      "text": "(suda) boğulmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-binnenland",
+      "text": "yurt içi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-enquête",
+      "text": "anket",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-instorten",
+      "text": "çökmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-podcast",
+      "text": "podcast",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verslaggever",
+      "text": "muhabir",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-schandaal",
+      "text": "skandal",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ontploffing",
+      "text": "patlama",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-citeren",
+      "text": "alıntı yapmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-evacueren",
+      "text": "tahliye etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-schietpartij",
+      "text": "silahlı saldırı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-blog",
+      "text": "blog",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-rubriek",
+      "text": "bölüm (gazete)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-episode",
+      "text": "bölüm (dizi)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-terrorisme",
+      "text": "terörizm",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-citaat",
+      "text": "alıntı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-censuur",
+      "text": "sansür",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ontvoering",
+      "text": "kaçırma (insan)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-vermist",
+      "text": "kayıp",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-gewelddadig",
+      "text": "şiddet içeren",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-nepnieuws",
+      "text": "sahte haber",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-soap",
+      "text": "pembe dizi",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-schokkend",
+      "text": "şok edici",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ondertitel",
+      "text": "altyazı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-nieuwsbrief",
+      "text": "bülten (e-posta)",
+      "reviewed": false
     }
   ],
   "categories": [
