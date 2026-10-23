@@ -2560,5 +2560,839 @@
     "article": "de",
     "category_id": "b1-media-news",
     "reviewed": false
+  },
+  {
+    "word_id": "adj-racistisch",
+    "article": null,
+    "category_id": "b1-society-politics",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-onrust",
+    "article": "de",
+    "category_id": "b1-society-politics",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-referendum",
+    "article": "het",
+    "category_id": "b1-society-politics",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-opvang",
+    "article": "de",
+    "category_id": "b1-society-politics",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-slavernij",
+    "article": "de",
+    "category_id": "b1-society-politics",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-herkomst",
+    "article": "de",
+    "category_id": "b1-society-politics",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-raadslid",
+    "article": "het",
+    "category_id": "b1-society-politics",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-integreren",
+    "article": null,
+    "category_id": "b1-society-politics",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-corruptie",
+    "article": "de",
+    "category_id": "b1-society-politics",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bevrijding",
+    "article": "de",
+    "category_id": "b1-society-politics",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-immigratie",
+    "article": "de",
+    "category_id": "b1-society-politics",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-vooruitgang",
+    "article": "de",
+    "category_id": "b1-society-politics",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-minderheid",
+    "article": "de",
+    "category_id": "b1-society-politics",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-activist",
+    "article": "de",
+    "category_id": "b1-society-politics",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-solidariteit",
+    "article": "de",
+    "category_id": "b1-society-politics",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-onrecht",
+    "article": "het",
+    "category_id": "b1-society-politics",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-herdenken",
+    "article": null,
+    "category_id": "b1-society-politics",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-integratie",
+    "article": "de",
+    "category_id": "b1-society-politics",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-godsdienst",
+    "article": "de",
+    "category_id": "b1-society-politics",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-buitenlander",
+    "article": "de",
+    "category_id": "b1-society-politics",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-aftreden",
+    "article": null,
+    "category_id": "b1-society-politics",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-migratie",
+    "article": "de",
+    "category_id": "b1-society-politics",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-buurland",
+    "article": "het",
+    "category_id": "b1-society-politics",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-herdenking",
+    "article": "de",
+    "category_id": "b1-society-politics",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-lijsttrekker",
+    "article": "de",
+    "category_id": "b1-society-politics",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-nieuwkomer",
+    "article": "de",
+    "category_id": "b1-society-politics",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-protesteren",
+    "article": null,
+    "category_id": "b1-society-politics",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-voedselbank",
+    "article": "de",
+    "category_id": "b1-society-politics",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-partijleider",
+    "article": "de",
+    "category_id": "b1-society-politics",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-emigreren",
+    "article": null,
+    "category_id": "b1-society-politics",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-asiel",
+    "article": "het",
+    "category_id": "b1-society-politics",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-stemrecht",
+    "article": "het",
+    "category_id": "b1-society-politics",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-vooroordeel",
+    "article": "het",
+    "category_id": "b1-society-politics",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-agressie",
+    "article": "de",
+    "category_id": "b1-society-politics",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-gelijkheid",
+    "article": "de",
+    "category_id": "b1-society-politics",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-dakloze",
+    "article": "de",
+    "category_id": "b1-society-politics",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-corrupt",
+    "article": null,
+    "category_id": "b1-society-politics",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-progressief",
+    "article": null,
+    "category_id": "b1-society-politics",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-stembiljet",
+    "article": "het",
+    "category_id": "b1-society-politics",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-stembureau",
+    "article": "het",
+    "category_id": "b1-society-politics",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-statushouder",
+    "article": "de",
+    "category_id": "b1-society-politics",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-inburgeren",
+    "article": null,
+    "category_id": "b1-society-politics",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-buurthuis",
+    "article": "het",
+    "category_id": "b1-society-politics",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-leverancier",
+    "article": "de",
+    "category_id": "b1-economy-business",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-investeerder",
+    "article": "de",
+    "category_id": "b1-economy-business",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-marketing",
+    "article": "de",
+    "category_id": "b1-economy-business",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-grondstof",
+    "article": "de",
+    "category_id": "b1-economy-business",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-innovatie",
+    "article": "de",
+    "category_id": "b1-economy-business",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-export",
+    "article": "de",
+    "category_id": "b1-economy-business",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-importeren",
+    "article": null,
+    "category_id": "b1-economy-business",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-welvaart",
+    "article": "de",
+    "category_id": "b1-economy-business",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-econoom",
+    "article": "de",
+    "category_id": "b1-economy-business",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-promoten",
+    "article": null,
+    "category_id": "b1-economy-business",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-zakenman",
+    "article": "de",
+    "category_id": "b1-economy-business",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-inflatie",
+    "article": "de",
+    "category_id": "b1-economy-business",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-import",
+    "article": "de",
+    "category_id": "b1-economy-business",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-consumptie",
+    "article": "de",
+    "category_id": "b1-economy-business",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-exporteren",
+    "article": null,
+    "category_id": "b1-economy-business",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-filiaal",
+    "article": "het",
+    "category_id": "b1-economy-business",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-innovatief",
+    "article": null,
+    "category_id": "b1-economy-business",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-recessie",
+    "article": "de",
+    "category_id": "b1-economy-business",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-marktaandeel",
+    "article": "het",
+    "category_id": "b1-economy-business",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-staatsschuld",
+    "article": "de",
+    "category_id": "b1-economy-business",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-concurreren",
+    "article": null,
+    "category_id": "b1-economy-business",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-vennootschap",
+    "article": "de",
+    "category_id": "b1-economy-business",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-adverteren",
+    "article": null,
+    "category_id": "b1-economy-business",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-accountant",
+    "article": "de",
+    "category_id": "b1-economy-business",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-detailhandel",
+    "article": "de",
+    "category_id": "b1-economy-business",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-kostprijs",
+    "article": "de",
+    "category_id": "b1-economy-business",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-aanbieder",
+    "article": "de",
+    "category_id": "b1-economy-business",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bedrijfstak",
+    "article": "de",
+    "category_id": "b1-economy-business",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-koopkracht",
+    "article": "de",
+    "category_id": "b1-economy-business",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-winstgevend",
+    "article": null,
+    "category_id": "b1-economy-business",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-boekhouding",
+    "article": "de",
+    "category_id": "b1-economy-business",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-helling",
+    "article": "de",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-uitstoot",
+    "article": "de",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-oever",
+    "article": "de",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-rots",
+    "article": "de",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-beek",
+    "article": "de",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-container",
+    "article": "de",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-streek",
+    "article": "de",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-natuurgebied",
+    "article": "het",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-roos",
+    "article": "de",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-warmte",
+    "article": "de",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-platteland",
+    "article": "het",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-beer",
+    "article": "de",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-schaap",
+    "article": "het",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-windmolen",
+    "article": "de",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-bloeien",
+    "article": null,
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-varken",
+    "article": "het",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-vijver",
+    "article": "de",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-vorst",
+    "article": "de",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-kikker",
+    "article": "de",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-zonnepaneel",
+    "article": "het",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-teek",
+    "article": "de",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-overstroming",
+    "article": "de",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-zaaien",
+    "article": null,
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-neerslag",
+    "article": "de",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-stikstof",
+    "article": "de",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-oogsten",
+    "article": null,
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-olifant",
+    "article": "de",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-struik",
+    "article": "de",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-verbruiken",
+    "article": null,
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-aardbeving",
+    "article": "de",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-woestijn",
+    "article": "de",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-weiland",
+    "article": "het",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-bevriezen",
+    "article": null,
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-smelten",
+    "article": null,
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-vlinder",
+    "article": "de",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-droogte",
+    "article": "de",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-schildpad",
+    "article": "de",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-vulkaan",
+    "article": "de",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-zeespiegel",
+    "article": "de",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-vervuilen",
+    "article": null,
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-orkaan",
+    "article": "de",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-duurzaamheid",
+    "article": "de",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-opwarming",
+    "article": "de",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-duif",
+    "article": "de",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-hergebruiken",
+    "article": null,
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-voorspelling",
+    "article": "de",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-drinkwater",
+    "article": "het",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-modder",
+    "article": "de",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-kerncentrale",
+    "article": "de",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-geur",
+    "article": "de",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-hittegolf",
+    "article": "de",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-eend",
+    "article": "de",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-vervuiling",
+    "article": "de",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-waterval",
+    "article": "de",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-mier",
+    "article": "de",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-tijger",
+    "article": "de",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-inzamelen",
+    "article": null,
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-geit",
+    "article": "de",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-afkoelen",
+    "article": null,
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-verspillen",
+    "article": null,
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bewolking",
+    "article": "de",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-wesp",
+    "article": "de",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-regenbui",
+    "article": "de",
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-recyclen",
+    "article": null,
+    "category_id": "b1-environment-nature",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-bewolkt",
+    "article": null,
+    "category_id": "b1-environment-nature",
+    "reviewed": false
   }
 ]
