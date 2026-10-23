@@ -31,6 +31,15 @@ export function loadStage(name = 'b1', root = ROOT): Stage {
   };
 }
 
+/** Splices `--stage <name>` out of the CLI arguments and loads that stage; undefined without the flag. */
+export function takeStage(args: string[], root = ROOT): Stage | undefined {
+  const at = args.indexOf('--stage');
+  if (at < 0) return undefined;
+  const name = args.splice(at, 2)[1];
+  if (!name) throw new Error('Usage: --stage b1 (the only staged level)');
+  return loadStage(name, root);
+}
+
 /** The live content followed by the staged content, so every live rule can run on both. */
 export function mergeStage(live: Content, stage: Stage): Content {
   const langs = new Set([...Object.keys(live.translations), ...Object.keys(stage.translations)]);
@@ -83,6 +92,29 @@ export function validateStage(live: Content, stage: Stage): { errors: string[]; 
   }
   for (const message of validateContent(mergeStage(live, stage))) (gaps.has(message) ? incomplete : errors).push(message);
   return { errors, incomplete };
+}
+
+/**
+ * The staged files to write after a review, keyed by path relative to the repository root. Only the
+ * staged words, categories and languages are kept; the deprecated `text_tr` is never written.
+ */
+export function stageFiles(merged: Content, stage: Stage): Record<string, unknown> {
+  const ids = new Set(stage.words.map((w) => w.id));
+  const cats = new Set(stage.categories.map((c) => c.id));
+  const files: Record<string, unknown> = { 'data/b1/words.json': merged.words.filter((w) => ids.has(w.id)) };
+  if (stage.annotations) {
+    files['data/b1/annotations.json'] = merged.annotations.filter((a) => ids.has(a.word_id)).map(({ text_tr: _, ...a }) => a);
+  }
+  for (const lang of Object.keys(stage.translations)) {
+    const file = merged.translations[lang];
+    if (!file) continue;
+    files[`data/b1/translations/${lang}.json`] = {
+      lang,
+      words: file.words.filter((t) => ids.has(t.word_id)),
+      categories: file.categories.filter((c) => cats.has(c.category_id)),
+    };
+  }
+  return files;
 }
 
 export function stageReport(live: Content, stage: Stage): string[] {
