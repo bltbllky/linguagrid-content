@@ -4,7 +4,10 @@ import { join } from 'node:path';
 import { describe, it } from 'node:test';
 
 import {
+  A1A2_BAND,
+  A1A2_RULES,
   B1_BAND,
+  B1_RULES,
   articleCheck,
   PINNED_SHA256,
   buildPool,
@@ -14,7 +17,9 @@ import {
   parseLeipzigWords,
   poolCounts,
   rankBand,
+  rankBandA1A2,
   readKaikki,
+  selectA1A2,
   selectB1,
   sourceDrift,
   type PoolRow,
@@ -320,5 +325,62 @@ describe('criteria text', () => {
     const text = readFileSync(join(import.meta.dirname, '..', 'data', 'b1', 'selection-criteria.md'), 'utf8');
     assert.ok(text.includes(B1_BAND.min.toLocaleString('en-US')));
     assert.ok(text.includes(B1_BAND.max.toLocaleString('en-US')));
+  });
+});
+
+describe('A1/A2 pool profile', () => {
+  const nouns = ['kat', 'ab', 'fin'].map((w) => entry(w, 'noun', [{}], 'm'));
+  const sense = [{ categories: [{ name: 'Demonyms' }] }];
+  const index = readKaikki([
+    ...nouns,
+    entry('lopen', 'verb', [{}]),
+    entry('liep', 'verb', [{}]),
+    entry('hollands', 'adj', sense),
+    entry('mixed', 'adj', [...sense, {}]),
+    entry('tagged', 'adj', [{ tags: ['demonym'] }]),
+  ]);
+  const words = ['kat', 'ab', 'fin', 'lopen', 'liep', 'hollands', 'mixed', 'tagged'];
+  const ranks = new Map(words.map((w, i) => [w, i + 1]));
+  const live = { lemmas: new Set<string>(), excludedIds: new Set<string>() };
+  const ids = (rules = A1A2_RULES) =>
+    buildPool(ranks, index, new Set(words), live, A1A2_BAND, rules).map((r) => r.id);
+
+  it('keeps a 3-letter word with the A1/A2 rules only; 2 letters drop in both', () => {
+    assert.ok(ids().includes('noun-kat'));
+    assert.ok(!ids(B1_RULES).includes('noun-kat'));
+    assert.ok(!ids().includes('noun-ab') && !ids(B1_RULES).includes('noun-ab'));
+  });
+  it('keeps only infinitives for verbs (A1/A2 rules)', () => {
+    assert.ok(ids().includes('verb-lopen') && !ids().includes('verb-liep'));
+    const b1 = buildPool(ranks, index, new Set(words), live, { min: 1, max: 100 }, B1_RULES).map((r) => r.id);
+    assert.ok(b1.includes('verb-lopen') && b1.includes('verb-liep'));
+  });
+  it('drops a lemma whose every sense is a demonym', () => {
+    assert.ok(!ids().includes('adj-hollands') && !ids().includes('adj-tagged'));
+    assert.ok(ids().includes('adj-mixed'));
+    assert.ok(buildPool(ranks, index, new Set(words), live, { min: 1, max: 100 }, B1_RULES).some((r) => r.id === 'adj-hollands'));
+  });
+  it('names the 1k bands', () => {
+    const pool = [500, 1500, 2500].map((rank) => ({ id: `n${rank}`, lemma_nl: `n${rank}`, pos: 'noun' as const, rank, gender: null }));
+    assert.deepEqual(poolCounts(pool, rankBandA1A2).band, { '0-1k': 1, '1-2k': 1, '2-3k': 1 });
+    assert.equal(rankBandA1A2(999), '0-1k');
+    assert.equal(rankBandA1A2(2000), '2-3k');
+  });
+  it('selects A1 then A2 words with one lemma set', () => {
+    const pool: PoolRow[] = [
+      { id: 'noun-x', lemma_nl: 'x', pos: 'noun', rank: 1, gender: null },
+      { id: 'verb-y', lemma_nl: 'y', pos: 'verb', rank: 2, gender: null },
+      { id: 'noun-y', lemma_nl: 'y', pos: 'noun', rank: 2, gender: null },
+    ];
+    assert.deepEqual(selectA1A2(pool, { A1: ['noun-x'], A2: ['verb-y'] }), [
+      { id: 'noun-x', lemma_nl: 'x', pos: 'noun', cefr: 'A1', source: 'own' },
+      { id: 'verb-y', lemma_nl: 'y', pos: 'verb', cefr: 'A2', source: 'own' },
+    ]);
+    assert.throws(() => selectA1A2(pool, { A1: ['noun-z'], A2: [] }), /Not in the a1a2 pool/);
+    assert.throws(() => selectA1A2(pool, { A1: ['verb-y'], A2: ['noun-y'] }), /Lemma twice/);
+  });
+  it('has the band and letter rule in the criteria file', () => {
+    const text = readFileSync(join(import.meta.dirname, '..', 'data', 'a1a2', 'selection-criteria.md'), 'utf8');
+    assert.ok(text.includes('3,000') && text.includes('3 to 12 letters'));
   });
 });

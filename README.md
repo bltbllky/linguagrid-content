@@ -46,6 +46,8 @@ Review sheets for B1: `npm run export-review -- [--lang en] --stage b1 b1`; impo
 
 `npm run b1-pool -- --fetch` downloads the open sources into `.cache/b1/` (never committed): the Leipzig Corpora Collection word counts (CC BY), the Wiktionary Dutch extract of kaikki.org (CC BY-SA 4.0) and the OpenTaal wordlist (BSD-3 or CC BY 3.0). `--build` writes the candidate pool, `--write` turns `data/b1/selection.json` into `data/b1/words.json`, and `--check-articles` compares our de/het articles with Wiktionary. Wiktionary is used to check only: none of its text is copied into this repository. The selection criteria are in `data/b1/selection-criteria.md`.
 
+`--level a1a2` builds the pool for the A1/A2 extras (lemma rank 1-3,000, 3-12 letters, criteria in `data/a1a2/selection-criteria.md`) into `.cache/b1/pool-a1a2.json`, and `--write --level a1a2` turns `data/a1a2/selection.json` into `data/a1a2/words.json`.
+
 ## Machine-translation check (ADR-014, ADR-015)
 
 `npm run mt-check -- --ids id1,id2` asks DeepL for a second opinion on the rows the content editor hands to the owner. It
