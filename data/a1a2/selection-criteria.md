@@ -53,4 +53,4 @@ Amendments
    Expected outcome after the review: A1 about 470 words (400 live, the 55 of PR #41 and the numbers that pass), below
    the 600 of ADR-017 rule 1; A2 about 1,000 (600 live and about 400 extras). The owner accepted that A1 stays below
    600. Made after the shortlist exists (content PR #41, 416 words); the owner approved it on 2026-10-23
-   (app repository, ADR-018, which supersedes ADR-017 rules 1 and 4 in part for the A1/A2 extras).
+   (app repository, ADR-018, Accepted 2026-10-23, which supersedes ADR-017 rules 1 and 4 in part for the A1/A2 extras).
