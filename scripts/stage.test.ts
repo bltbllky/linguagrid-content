@@ -4,10 +4,14 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { describe, it } from 'node:test';
 
-import { validContent } from './fixtures/valid.ts';
-import { loadStage, mergeStage, stageReport, validateStage } from './stage.ts';
+import { exportReview } from './export-review.ts';
+import { applyReview } from './import-review.ts';
+import { applyRoundtrip } from './import-roundtrip.ts';
+import { partialEnglish, validContent } from './fixtures/valid.ts';
+import { loadStage, mergeStage, stageFiles, stageReport, takeStage, validateStage } from './stage.ts';
 import type { Stage } from './stage.ts';
 import { loadContent } from './validate.ts';
+import type { Annotation, TranslationFile, Word } from './validate.ts';
 
 function stage(): Stage {
   return {
@@ -151,6 +155,18 @@ describe('mergeStage and loadStage', () => {
     assert.deepEqual(s.categories, []);
     assert.equal(s.annotations, undefined);
   });
+
+  it('takes --stage and its name out of the arguments', () => {
+    const dir = root(true);
+    const args = ['--stage', 'b1', 'b1'];
+    const s = takeStage(args, dir);
+    assert.deepEqual(args, ['b1']);
+    assert.ok(s?.words.some((w) => w.id === 'noun-gemeente'));
+    const plain = ['a1'];
+    assert.equal(takeStage(plain, dir), undefined);
+    assert.deepEqual(plain, ['a1']);
+    assert.throws(() => takeStage(['--stage'], dir), /Usage: .*--stage b1/);
+  });
 });
 
 describe('stageReport', () => {
@@ -158,5 +174,60 @@ describe('stageReport', () => {
     const lines = stageReport(validContent(), stage());
     assert.equal(lines[0], 'B1 stage: 1 words (1 nouns, 0 verbs, 0 adjectives), 1 categories');
     assert.ok(lines.some((l) => l.startsWith('tr B1: 1 translated, 0 reviewed (0 by round trip) / 1 words')));
+  });
+});
+
+describe('stageFiles', () => {
+  it('keys only data/b1/ paths; a round-trip OK marks the staged Turkish word and drops deprecated text_tr', () => {
+    const s = stage();
+    s.annotations![0].text_tr = 'belediye';
+    const { content } = applyRoundtrip(mergeStage(validContent(), s), 'id,verdict\nnoun-gemeente,OK\n', 'tr');
+    const files = stageFiles(content, s);
+    assert.ok(Object.keys(files).every((key) => key.startsWith('data/b1/')));
+    assert.deepEqual((files['data/b1/words.json'] as Word[]).map((w) => w.id), ['noun-gemeente']);
+    const tr = files['data/b1/translations/tr.json'] as TranslationFile;
+    assert.deepEqual(tr.words, [{ word_id: 'noun-gemeente', text: 'belediye', reviewed: true, review_source: 'roundtrip' }]);
+    const annotations = files['data/b1/annotations.json'] as Annotation[];
+    assert.deepEqual(annotations.map((a) => a.word_id), ['noun-gemeente']);
+    assert.ok(annotations.every((a) => !('text_tr' in a)));
+  });
+
+  it('writes the changed staged English file and never a live English word', () => {
+    const s = stage();
+    s.translations.en = { lang: 'en', words: [{ word_id: 'noun-gemeente', text: 'municipality', reviewed: false }], categories: [] };
+    const live = validContent();
+    live.translations.en = partialEnglish();
+    const { content } = applyRoundtrip(mergeStage(live, s), 'id,verdict\nnoun-gemeente,OK\n', 'en');
+    const files = stageFiles(content, s);
+    const en = files['data/b1/translations/en.json'] as TranslationFile;
+    assert.deepEqual(en.words, [{ word_id: 'noun-gemeente', text: 'municipality', reviewed: true, review_source: 'roundtrip' }]);
+    assert.deepEqual((files['data/b1/translations/tr.json'] as TranslationFile).words[0].reviewed, false);
+  });
+
+  it('drops a word the owner removed from every staged file', () => {
+    const s = stage();
+    const sheet = 'id,dutch,article,turkish,category,decision\nnoun-gemeente,gemeente,de,belediye,Kamu hizmetleri,REMOVE\n';
+    const { content, excluded } = applyReview(mergeStage(validContent(), s), sheet);
+    assert.deepEqual(excluded, [{ id: 'noun-gemeente', reason: 'removed in review' }]);
+    const files = stageFiles(content, s);
+    assert.deepEqual(files['data/b1/words.json'], []);
+    assert.deepEqual(files['data/b1/annotations.json'], []);
+    assert.deepEqual((files['data/b1/translations/tr.json'] as TranslationFile).words, []);
+  });
+
+  it('has no annotations key when the stage has no annotations file', () => {
+    const s = stage();
+    delete s.annotations;
+    const files = stageFiles(mergeStage(validContent(), s), s);
+    assert.ok(!('data/b1/annotations.json' in files));
+  });
+});
+
+describe('exportReview for the stage', () => {
+  it('lists the staged B1 words and no live word', () => {
+    const csv = exportReview(mergeStage(validContent(), stage()), 'B1');
+    const rows = csv.split('\n');
+    assert.ok(rows.includes('noun-gemeente,gemeente,de,belediye,Kamu hizmetleri,'));
+    assert.ok(!csv.includes('noun-tandarts'));
   });
 });
