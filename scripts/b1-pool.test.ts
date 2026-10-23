@@ -125,6 +125,10 @@ describe('lemmaCounts and lemmaRanks', () => {
     assert.equal(counts.get('werk'), 7);
     assert.equal(counts.get('werken'), 3);
   });
+  it('does not count a form twice when its form-of list contains itself', () => {
+    const selfRef = readKaikki([entry('werken', 'verb', [{}]), entry('werken', 'noun', [{ form_of: [{ word: 'werken' }] }])]);
+    assert.equal(lemmaCounts(new Map([['werken', 6]]), selfRef).get('werken'), 6);
+  });
   it('ranks by count, ties alphabetical', () => {
     const ranks = lemmaRanks(new Map([['b', 2], ['c', 9], ['a', 2]]));
     assert.deepEqual([...ranks], [['c', 1], ['a', 2], ['b', 3]]);
