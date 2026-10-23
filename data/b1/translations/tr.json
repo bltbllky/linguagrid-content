@@ -1318,7 +1318,7 @@
     },
     {
       "word_id": "adj-spoedeisend",
-      "text": "acil",
+      "text": "acil (tıbbi)",
       "reviewed": false
     },
     {
@@ -4319,6 +4319,886 @@
     {
       "word_id": "noun-woede",
       "text": "öfke",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-alert",
+      "text": "tetikte",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-gerust",
+      "text": "içi rahat",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-traan",
+      "text": "gözyaşı",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-braaf",
+      "text": "uslu",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-arrogant",
+      "text": "kibirli",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-wanhopig",
+      "text": "çaresiz",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-nachtmerrie",
+      "text": "kâbus",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ergernis",
+      "text": "sinirlenme",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-leugenaar",
+      "text": "yalancı",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-troosten",
+      "text": "teselli etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-wreed",
+      "text": "zalim",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-schaamte",
+      "text": "utanç",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-sympathiek",
+      "text": "sempatik",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-loyaal",
+      "text": "sadık",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-onhandig",
+      "text": "beceriksiz",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-asociaal",
+      "text": "görgüsüz",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-nuchter",
+      "text": "ayık, gerçekçi",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-onrustig",
+      "text": "huzursuz",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-slordig",
+      "text": "özensiz",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-jaloezie",
+      "text": "kıskançlık",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-brutaal",
+      "text": "küstah",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-verlegen",
+      "text": "utangaç",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-egoïstisch",
+      "text": "bencil",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-terughoudend",
+      "text": "çekingen",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verveling",
+      "text": "can sıkıntısı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-opluchting",
+      "text": "ferahlama",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-hopeloos",
+      "text": "umutsuz",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-schuldgevoel",
+      "text": "suçluluk duygusu",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-irriteren",
+      "text": "sinirlendirmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-gespannen",
+      "text": "gerilimli",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gezelligheid",
+      "text": "samimiyet",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-tolerant",
+      "text": "hoşgörülü",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-kalmeren",
+      "text": "sakinleşmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-glimlach",
+      "text": "gülümseme",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-eerlijkheid",
+      "text": "dürüstlük",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-charmant",
+      "text": "çekici",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-toespraak",
+      "text": "söylev",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-noodzaak",
+      "text": "gereklilik",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-toegeven",
+      "text": "(hatasını) kabul etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-dialect",
+      "text": "şive",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-zwijgen",
+      "text": "susmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-beledigen",
+      "text": "hakaret etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-mededeling",
+      "text": "bildirim",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-uitdrukking",
+      "text": "deyim, ifade",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-objectief",
+      "text": "nesnel",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-onderscheid",
+      "text": "ayrım",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-overtuiging",
+      "text": "kanaat",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-bekritiseren",
+      "text": "eleştirmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-relevant",
+      "text": "konuyla ilgili",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-onterecht",
+      "text": "yersiz",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-dialoog",
+      "text": "diyalog",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-oordeel",
+      "text": "yargı (fikir)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-spreker",
+      "text": "konuşmacı",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-aanraden",
+      "text": "tavsiye etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-accent",
+      "text": "aksan",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bewering",
+      "text": "iddia",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-formuleren",
+      "text": "ifadeye dökmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-suggestie",
+      "text": "öneri",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-aanbeveling",
+      "text": "tavsiye (resmî)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-compromis",
+      "text": "uzlaşma",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uitdrukken",
+      "text": "ifade etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-overdrijven",
+      "text": "abartmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-aanmoedigen",
+      "text": "cesaretlendirmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-schelden",
+      "text": "küfretmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-taalgebruik",
+      "text": "dil kullanımı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-toelichting",
+      "text": "ek açıklama",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-misverstand",
+      "text": "yanlış anlaşılma",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-opinie",
+      "text": "görüş",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-ironisch",
+      "text": "ironik",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-telefonisch",
+      "text": "telefonla",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-instemmen",
+      "text": "onay vermek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uitwisselen",
+      "text": "değiş tokuş etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-betwijfelen",
+      "text": "şüphe etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-telefoontje",
+      "text": "telefon görüşmesi",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-discussiëren",
+      "text": "tartışmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-compliment",
+      "text": "iltifat",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-omschrijving",
+      "text": "tanım",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-zeuren",
+      "text": "mızmızlanmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-schandalig",
+      "text": "utanç verici",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-redeneren",
+      "text": "akıl yürütmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-afraden",
+      "text": "caydırmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-oneens",
+      "text": "aynı fikirde olmayan",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gebaar",
+      "text": "jest",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-dilemma",
+      "text": "ikilem",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-kletsen",
+      "text": "gevezelik etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-onacceptabel",
+      "text": "kabul edilemez",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-sceptisch",
+      "text": "kuşkucu",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-oneerlijk",
+      "text": "adaletsiz",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-fluisteren",
+      "text": "fısıldamak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-volgorde",
+      "text": "sıra (düzen)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-eenmalig",
+      "text": "tek seferlik",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-planning",
+      "text": "planlama",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tijdstip",
+      "text": "vakit",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vrijdagavond",
+      "text": "cuma akşamı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tijdperk",
+      "text": "çağ",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-dringend",
+      "text": "acil",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zondagavond",
+      "text": "pazar akşamı",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-gelijktijdig",
+      "text": "eş zamanlı",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-doorbrengen",
+      "text": "(zaman) geçirmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-haast",
+      "text": "acele",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-afwisselen",
+      "text": "dönüşümlü yapmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-middernacht",
+      "text": "gece yarısı",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-tijdig",
+      "text": "zamanında",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bevestiging",
+      "text": "teyit",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-jaartal",
+      "text": "yıl rakamı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-schema",
+      "text": "şema",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zondagmiddag",
+      "text": "pazar öğleden sonrası",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-voornemen",
+      "text": "niyet",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-namiddag",
+      "text": "ikindi vakti",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-etmaal",
+      "text": "yirmi dört saat",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-halfjaar",
+      "text": "altı ay",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wachttijd",
+      "text": "bekleme süresi",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-afzeggen",
+      "text": "(randevuyu) iptal etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-poos",
+      "text": "kısa süre",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-routine",
+      "text": "rutin",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-doordeweeks",
+      "text": "hafta içi",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-opschieten",
+      "text": "acele etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-rooster",
+      "text": "çizelge",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kalenderjaar",
+      "text": "takvim yılı",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-inplannen",
+      "text": "programa almak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-strip",
+      "text": "çizgi roman",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-filmen",
+      "text": "filme almak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-rock",
+      "text": "rock müzik",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-genre",
+      "text": "tür (sanat)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tent",
+      "text": "çadır",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-marathon",
+      "text": "maraton",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-breien",
+      "text": "örgü örmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-toneel",
+      "text": "sahne, tiyatro",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-amateur",
+      "text": "amatör",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-carnaval",
+      "text": "karnaval",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-inspiratie",
+      "text": "ilham",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kroeg",
+      "text": "birahane",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zang",
+      "text": "şarkı söyleme",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-sporter",
+      "text": "sporcu",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-biografie",
+      "text": "biyografi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-musical",
+      "text": "müzikal",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-poëzie",
+      "text": "şiir",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-expositie",
+      "text": "sergi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-dierentuin",
+      "text": "hayvanat bahçesi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-viool",
+      "text": "keman",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gids",
+      "text": "rehber",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wielrenner",
+      "text": "bisiklet yarışçısı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gelijkspel",
+      "text": "beraberlik (maç)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-recensie",
+      "text": "eleştiri yazısı",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-juichen",
+      "text": "tezahürat yapmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hoofdpersoon",
+      "text": "ana karakter",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-fotograferen",
+      "text": "fotoğraf çekmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-beoefenen",
+      "text": "uğraşmak (spor, sanat)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-melodie",
+      "text": "melodi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-viering",
+      "text": "kutlama",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-zeilen",
+      "text": "yelken açmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-sprookje",
+      "text": "masal",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-dagboek",
+      "text": "günlük (defter)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-creativiteit",
+      "text": "yaratıcılık",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ritme",
+      "text": "ritim",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-bijwonen",
+      "text": "(etkinliğe) katılmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-beklimmen",
+      "text": "tırmanmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-komedie",
+      "text": "komedi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-trofee",
+      "text": "kupa",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-gokken",
+      "text": "kumar oynamak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-danser",
+      "text": "dansçı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-poster",
+      "text": "poster",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-entree",
+      "text": "giriş ücreti",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-speeltuin",
+      "text": "oyun parkı",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-skiën",
+      "text": "kayak yapmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-fotografie",
+      "text": "fotoğrafçılık",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-sporthal",
+      "text": "spor salonu (kapalı)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-atletiek",
+      "text": "atletizm",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-applaus",
+      "text": "alkış",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-speelfilm",
+      "text": "sinema filmi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-sponsor",
+      "text": "sponsor",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-rondleiding",
+      "text": "rehberli tur",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-basketbal",
+      "text": "basketbol",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-pretpark",
+      "text": "eğlence parkı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-puzzel",
+      "text": "bulmaca",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-fictie",
+      "text": "kurgu",
       "reviewed": false
     }
   ],
