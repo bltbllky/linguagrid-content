@@ -1,11 +1,13 @@
-import { loadStage, stageReport, validateStage } from '../stage.ts';
+import { STAGES, loadStage, stageReport, validateStage } from '../stage.ts';
+import type { StageName } from '../stage.ts';
 import { loadContent, translationReport, validateContent } from '../validate.ts';
 
 const content = loadContent();
 const stageName = process.argv.includes('--stage') ? process.argv[process.argv.indexOf('--stage') + 1] : undefined;
 if (stageName) {
   const stage = loadStage(stageName);
-  const { errors, incomplete } = validateStage(content, stage);
+  const others = (Object.keys(STAGES) as StageName[]).filter((n) => n !== stage.name).map((n) => loadStage(n));
+  const { errors, incomplete } = validateStage(content, stage, others);
   for (const e of errors) console.error(`✖ ${e}`);
   if (incomplete.length) {
     const groups = new Map<string, number>();
@@ -16,7 +18,7 @@ if (stageName) {
     console.log(`… incomplete: ${[...groups].map(([gap, n]) => `${n} ${gap}`).join(', ')}`);
   }
   for (const line of stageReport(content, stage)) console.log(line);
-  console.log(errors.length ? `${errors.length} problem(s)` : '✔ B1 stage is valid');
+  console.log(errors.length ? `${errors.length} problem(s)` : `✔ ${stage.name.toUpperCase()} stage is valid`);
   process.exit(errors.length ? 1 : 0);
 }
 const errors = validateContent(content);

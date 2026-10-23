@@ -19,3 +19,5 @@ jobs:
       - run: npm test
       - run: npm run validate
       - run: npm run validate -- --stage b1
+      - run: npm run validate -- --stage a1a2
+      - run: npm run validate -- --stage b2

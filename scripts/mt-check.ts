@@ -1,7 +1,7 @@
 import { existsSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 
-import { loadStage, mergeStage } from './stage.ts';
+import { STAGES, loadStage, mergeStage } from './stage.ts';
 import { loadContent } from './validate.ts';
 
 export type MtLang = 'tr' | 'en';
@@ -274,7 +274,7 @@ export function parseArgs(argv: string[]): MtArgs {
   const max = flag('--max-chars');
   if (args.length > 0) throw new Error(USAGE);
   if (stage !== undefined && release !== undefined) throw new Error('use either --stage or --release');
-  if (stage !== undefined && stage !== 'b1') throw new Error('--stage must be b1 (the only staged level)');
+  if (stage !== undefined && !Object.hasOwn(STAGES, stage)) throw new Error('--stage must be b1, a1a2 or b2');
   if (ids === undefined) {
     throw new Error('--ids is required: mt-check reads only the rows the content editor marks for the owner');
   }
