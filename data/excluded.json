@@ -1090,5 +1090,585 @@
   {
     "id": "verb-ingreep",
     "reason": "noun tagged as a verb (ingrijpen)"
+  },
+  {
+    "id": "noun-van",
+    "reason": "function word (van) tagged as a noun"
+  },
+  {
+    "id": "noun-een",
+    "reason": "function word (een) tagged as a noun"
+  },
+  {
+    "id": "noun-hij",
+    "reason": "pronoun (hij) tagged as a noun"
+  },
+  {
+    "id": "verb-maren",
+    "reason": "conjunction form (maar) tagged as a verb"
+  },
+  {
+    "id": "verb-huizen",
+    "reason": "plural of huis tagged as a verb"
+  },
+  {
+    "id": "verb-clubben",
+    "reason": "plural of club tagged as a verb"
+  },
+  {
+    "id": "verb-weken",
+    "reason": "plural of week tagged as a verb"
+  },
+  {
+    "id": "verb-jijen",
+    "reason": "pronoun (jij) tagged as a verb"
+  },
+  {
+    "id": "verb-gebieden",
+    "reason": "plural of gebied tagged as a verb"
+  },
+  {
+    "id": "verb-boeken",
+    "reason": "plural of boek tagged as a verb"
+  },
+  {
+    "id": "verb-dagen",
+    "reason": "plural of dag tagged as a verb"
+  },
+  {
+    "id": "verb-paren",
+    "reason": "plural of paar tagged as a verb"
+  },
+  {
+    "id": "verb-manen",
+    "reason": "plural of maan tagged as a verb"
+  },
+  {
+    "id": "verb-naasten",
+    "reason": "preposition form (naast) tagged as a verb"
+  },
+  {
+    "id": "verb-verhalen",
+    "reason": "plural of verhaal tagged as a verb"
+  },
+  {
+    "id": "verb-wateren",
+    "reason": "plural of water tagged as a verb"
+  },
+  {
+    "id": "verb-prijzen",
+    "reason": "plural of prijs tagged as a verb"
+  },
+  {
+    "id": "verb-rijen",
+    "reason": "plural of rij tagged as a verb"
+  },
+  {
+    "id": "verb-witten",
+    "reason": "inflected adjective form (wit) tagged as a verb"
+  },
+  {
+    "id": "verb-vrijen",
+    "reason": "inflected adjective form (vrij) tagged as a verb"
+  },
+  {
+    "id": "adj-gemaakt",
+    "reason": "past participle (maken)"
+  },
+  {
+    "id": "adj-genoemd",
+    "reason": "past participle (noemen)"
+  },
+  {
+    "id": "adj-niks",
+    "reason": "pronoun tagged as an adjective"
+  },
+  {
+    "id": "noun-heen",
+    "reason": "adverb tagged as a noun"
+  },
+  {
+    "id": "noun-haag",
+    "reason": "place name (Den Haag) tagged as a noun"
+  },
+  {
+    "id": "noun-nederlandse",
+    "reason": "inflected adjective form (nederlands)"
+  },
+  {
+    "id": "noun-amerikaanse",
+    "reason": "inflected adjective form (amerikaans)"
+  },
+  {
+    "id": "noun-duitse",
+    "reason": "inflected adjective form (duits)"
+  },
+  {
+    "id": "noun-franse",
+    "reason": "inflected adjective form (frans)"
+  },
+  {
+    "id": "noun-enkel",
+    "reason": "homograph of the adverb enkel; inherits its rank"
+  },
+  {
+    "id": "verb-ogen",
+    "reason": "homograph of the plural ogen (oog); inherits its rank"
+  },
+  {
+    "id": "verb-scholen",
+    "reason": "homograph of the plural scholen (school); inherits its rank"
+  },
+  {
+    "id": "noun-goede",
+    "reason": "inflected adjective form (goed)"
+  },
+  {
+    "id": "noun-lager",
+    "reason": "comparative of laag tagged as a noun; inherits its rank"
+  },
+  {
+    "id": "noun-zwarte",
+    "reason": "inflected adjective form (zwart)"
+  },
+  {
+    "id": "verb-kanten",
+    "reason": "homograph of the plural kanten (kant); inherits its rank"
+  },
+  {
+    "id": "adj-kanten",
+    "reason": "homograph of the plural kanten (kant); inherits its rank"
+  },
+  {
+    "id": "noun-overal",
+    "reason": "homograph of the adverb overal; inherits its rank"
+  },
+  {
+    "id": "verb-dingen",
+    "reason": "homograph of the plural dingen (ding); inherits its rank"
+  },
+  {
+    "id": "noun-peter",
+    "reason": "first name (Peter) tagged as a noun; inherits its rank"
+  },
+  {
+    "id": "verb-zinnen",
+    "reason": "homograph of the plural zinnen (zin); inherits its rank"
+  },
+  {
+    "id": "noun-schreef",
+    "reason": "past tense of schrijven tagged as a noun"
+  },
+  {
+    "id": "noun-oudste",
+    "reason": "inflected adjective form (oud)"
+  },
+  {
+    "id": "noun-britse",
+    "reason": "inflected adjective form (brits)"
+  },
+  {
+    "id": "verb-bleken",
+    "reason": "past tense of blijken tagged as a verb"
+  },
+  {
+    "id": "noun-meerdere",
+    "reason": "determiner tagged as a noun"
+  },
+  {
+    "id": "adj-meerder",
+    "reason": "determiner tagged as an adjective"
+  },
+  {
+    "id": "verb-meerderen",
+    "reason": "homograph of the determiner meerdere; inherits its rank"
+  },
+  {
+    "id": "verb-zeven",
+    "reason": "numeral (zeven) tagged as a verb; inherits its rank"
+  },
+  {
+    "id": "verb-banen",
+    "reason": "homograph of the plural banen (baan); inherits its rank"
+  },
+  {
+    "id": "verb-middelen",
+    "reason": "homograph of the plural middelen (middel); inherits its rank"
+  },
+  {
+    "id": "verb-wetten",
+    "reason": "homograph of the plural wetten (wet); inherits its rank"
+  },
+  {
+    "id": "noun-belgische",
+    "reason": "inflected adjective form (belgisch)"
+  },
+  {
+    "id": "verb-zomeren",
+    "reason": "homograph of the plural zomers (zomer); inherits its rank"
+  },
+  {
+    "id": "adj-uitgebracht",
+    "reason": "past participle (uitbrengen)"
+  },
+  {
+    "id": "adj-genaamd",
+    "reason": "past participle (noemen)"
+  },
+  {
+    "id": "verb-indien",
+    "reason": "conjunction tagged as a verb"
+  },
+  {
+    "id": "noun-des",
+    "reason": "article form tagged as a noun"
+  },
+  {
+    "id": "noun-stelt",
+    "reason": "verb form (stellen) tagged as a noun; inherits its rank"
+  },
+  {
+    "id": "verb-ploegen",
+    "reason": "homograph of the plural ploegen (ploeg); inherits its rank"
+  },
+  {
+    "id": "verb-kaarten",
+    "reason": "homograph of the plural kaarten (kaart); inherits its rank"
+  },
+  {
+    "id": "noun-wilde",
+    "reason": "inflected adjective form (wild)"
+  },
+  {
+    "id": "verb-slechten",
+    "reason": "homograph of the inflected adjective slechte (slecht); inherits its rank"
+  },
+  {
+    "id": "verb-gassen",
+    "reason": "homograph of the plural gassen (gas); inherits its rank"
+  },
+  {
+    "id": "noun-hoor",
+    "reason": "interjection tagged as a noun"
+  },
+  {
+    "id": "verb-beiden",
+    "reason": "homograph of the determiner beiden; inherits its rank"
+  },
+  {
+    "id": "verb-wegen",
+    "reason": "homograph of the plural wegen (weg); inherits its rank"
+  },
+  {
+    "id": "verb-boeren",
+    "reason": "homograph of the plural boeren (boer); inherits its rank"
+  },
+  {
+    "id": "verb-wonden",
+    "reason": "homograph of the plural wonden (wond); inherits its rank"
+  },
+  {
+    "id": "noun-chinese",
+    "reason": "inflected adjective form (chinees)"
+  },
+  {
+    "id": "noun-gent",
+    "reason": "place name (Gent) tagged as a noun"
+  },
+  {
+    "id": "noun-trok",
+    "reason": "past tense of trekken tagged as a noun"
+  },
+  {
+    "id": "noun-schepen",
+    "reason": "homograph of the plural schepen (schip); inherits its rank"
+  },
+  {
+    "id": "verb-lessen",
+    "reason": "homograph of the plural lessen (les); inherits its rank"
+  },
+  {
+    "id": "noun-leek",
+    "reason": "past tense of lijken tagged as a noun; inherits its rank"
+  },
+  {
+    "id": "verb-jouwen",
+    "reason": "pronoun (jouw) tagged as a verb"
+  },
+  {
+    "id": "noun-engelse",
+    "reason": "inflected adjective form (engels)"
+  },
+  {
+    "id": "noun-italiaanse",
+    "reason": "inflected adjective form (italiaans)"
+  },
+  {
+    "id": "noun-spaanse",
+    "reason": "inflected adjective form (spaans)"
+  },
+  {
+    "id": "noun-slechte",
+    "reason": "inflected adjective form (slecht)"
+  },
+  {
+    "id": "noun-san",
+    "reason": "part of place names (San) tagged as a noun"
+  },
+  {
+    "id": "adj-goedkoper",
+    "reason": "comparative form (goedkoop)"
+  },
+  {
+    "id": "verb-briefen",
+    "reason": "homograph of the plural brieven (brief); inherits its rank"
+  },
+  {
+    "id": "verb-temperaturen",
+    "reason": "plural of temperatuur tagged as a verb"
+  },
+  {
+    "id": "verb-bussen",
+    "reason": "homograph of the plural bussen (bus); inherits its rank"
+  },
+  {
+    "id": "verb-benen",
+    "reason": "homograph of the plural benen (been); inherits its rank"
+  },
+  {
+    "id": "adj-benen",
+    "reason": "homograph of the plural benen (been); inherits its rank"
+  },
+  {
+    "id": "noun-groene",
+    "reason": "inflected adjective form (groen)"
+  },
+  {
+    "id": "verb-ballen",
+    "reason": "homograph of the plural ballen (bal); inherits its rank"
+  },
+  {
+    "id": "noun-japanse",
+    "reason": "inflected adjective form (japans)"
+  },
+  {
+    "id": "verb-bomen",
+    "reason": "homograph of the plural bomen (boom); inherits its rank"
+  },
+  {
+    "id": "noun-steven",
+    "reason": "first name (Steven) tagged as a noun; inherits its rank"
+  },
+  {
+    "id": "noun-ramen",
+    "reason": "homograph of the plural ramen (raam); inherits its rank"
+  },
+  {
+    "id": "verb-ramen",
+    "reason": "homograph of the plural ramen (raam); inherits its rank"
+  },
+  {
+    "id": "verb-misten",
+    "reason": "homograph of the past tense misten (missen); inherits its rank"
+  },
+  {
+    "id": "noun-zieke",
+    "reason": "inflected adjective form (ziek)"
+  },
+  {
+    "id": "noun-blauwe",
+    "reason": "inflected adjective form (blauw)"
+  },
+  {
+    "id": "noun-losse",
+    "reason": "inflected adjective form (los)"
+  },
+  {
+    "id": "noun-rijke",
+    "reason": "inflected adjective form (rijk)"
+  },
+  {
+    "id": "noun-turkse",
+    "reason": "inflected adjective form (turks)"
+  },
+  {
+    "id": "noun-griekse",
+    "reason": "inflected adjective form (grieks)"
+  },
+  {
+    "id": "noun-zeeland",
+    "reason": "place name (Zeeland) tagged as a noun"
+  },
+  {
+    "id": "verb-zagen",
+    "reason": "homograph of the past tense zagen (zien); inherits its rank"
+  },
+  {
+    "id": "adj-high",
+    "reason": "English word; rank from English text"
+  },
+  {
+    "id": "noun-kies",
+    "reason": "homograph of the verb form kies (kiezen); inherits its rank"
+  },
+  {
+    "id": "noun-voor",
+    "reason": "homograph of the preposition voor; inherits its rank"
+  },
+  {
+    "id": "noun-bij",
+    "reason": "homograph of the preposition bij; inherits its rank"
+  },
+  {
+    "id": "adj-bij",
+    "reason": "homograph of the preposition bij; inherits its rank"
+  },
+  {
+    "id": "adj-aan",
+    "reason": "homograph of the preposition aan; inherits its rank"
+  },
+  {
+    "id": "adj-naar",
+    "reason": "homograph of the preposition naar; inherits its rank"
+  },
+  {
+    "id": "adj-eens",
+    "reason": "homograph of the adverb eens; inherits its rank"
+  },
+  {
+    "id": "noun-dan",
+    "reason": "homograph of the adverb dan; inherits its rank"
+  },
+  {
+    "id": "noun-niet",
+    "reason": "homograph of the adverb niet; inherits its rank"
+  },
+  {
+    "id": "verb-nieten",
+    "reason": "homograph of the adverb niet; inherits its rank"
+  },
+  {
+    "id": "noun-meer",
+    "reason": "homograph of the adverb meer; inherits its rank"
+  },
+  {
+    "id": "noun-zij",
+    "reason": "homograph of the pronoun zij; inherits its rank"
+  },
+  {
+    "id": "adj-geen",
+    "reason": "homograph of the determiner geen; inherits its rank"
+  },
+  {
+    "id": "noun-hun",
+    "reason": "homograph of the pronoun hun; inherits its rank"
+  },
+  {
+    "id": "noun-wel",
+    "reason": "homograph of the adverb wel; inherits its rank"
+  },
+  {
+    "id": "verb-wellen",
+    "reason": "homograph of the adverb wel; inherits its rank"
+  },
+  {
+    "id": "verb-velen",
+    "reason": "homograph of the determiner vele; inherits its rank"
+  },
+  {
+    "id": "verb-waren",
+    "reason": "homograph of the past tense waren (zijn); inherits its rank"
+  },
+  {
+    "id": "noun-mijn",
+    "reason": "homograph of the pronoun mijn; inherits its rank"
+  },
+  {
+    "id": "noun-kan",
+    "reason": "homograph of the verb form kan (kunnen); inherits its rank"
+  },
+  {
+    "id": "noun-ons",
+    "reason": "homograph of the pronoun ons; inherits its rank"
+  },
+  {
+    "id": "noun-zelf",
+    "reason": "homograph of the pronoun zelf; inherits its rank"
+  },
+  {
+    "id": "verb-mennen",
+    "reason": "homograph of the pronoun men; inherits its rank"
+  },
+  {
+    "id": "noun-den",
+    "reason": "homograph of the article form den; inherits its rank"
+  },
+  {
+    "id": "verb-helen",
+    "reason": "homograph of the adjective form hele (heel); inherits its rank"
+  },
+  {
+    "id": "verb-landen",
+    "reason": "homograph of the plural landen (land); inherits its rank"
+  },
+  {
+    "id": "verb-keren",
+    "reason": "homograph of the plural keren (keer); inherits its rank"
+  },
+  {
+    "id": "adj-mee",
+    "reason": "homograph of the adverb mee; inherits its rank"
+  },
+  {
+    "id": "adj-binnen",
+    "reason": "homograph of the preposition binnen; inherits its rank"
+  },
+  {
+    "id": "noun-want",
+    "reason": "homograph of the conjunction want; inherits its rank"
+  },
+  {
+    "id": "verb-innen",
+    "reason": "homograph of the preposition in; inherits its rank"
+  },
+  {
+    "id": "verb-uiten",
+    "reason": "homograph of the preposition uit; inherits its rank"
+  },
+  {
+    "id": "adj-uiten",
+    "reason": "homograph of the preposition uit; inherits its rank"
+  },
+  {
+    "id": "verb-minderen",
+    "reason": "homograph of the adverb minder; inherits its rank"
+  },
+  {
+    "id": "verb-beteren",
+    "reason": "homograph of the comparative beter; inherits its rank"
+  },
+  {
+    "id": "verb-snellen",
+    "reason": "homograph of the adjective form snelle (snel); inherits its rank"
+  },
+  {
+    "id": "verb-sterken",
+    "reason": "homograph of the adjective form sterke (sterk); inherits its rank"
+  },
+  {
+    "id": "noun-wezen",
+    "reason": "homograph of the verb form wezen (zijn); inherits its rank"
+  },
+  {
+    "id": "noun-zegge",
+    "reason": "homograph of the verb form zegge (zeggen); inherits its rank"
+  },
+  {
+    "id": "noun-hen",
+    "reason": "homograph of the pronoun hen; inherits its rank"
+  },
+  {
+    "id": "noun-jouw",
+    "reason": "homograph of the pronoun jouw; inherits its rank"
   }
 ]
