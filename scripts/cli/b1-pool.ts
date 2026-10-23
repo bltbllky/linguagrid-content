@@ -8,6 +8,7 @@ import { pipeline } from 'node:stream/promises';
 
 import {
   addKaikkiLine,
+  articleCheck,
   buildPool,
   calibration,
   emptyKaikkiIndex,
@@ -19,7 +20,7 @@ import {
   sourceDrift,
   type PoolRow,
 } from '../b1-pool.ts';
-import type { Word } from '../validate.ts';
+import type { Annotation, Word } from '../validate.ts';
 
 const SOURCES = [
   { name: 'nld_news_2020_1M', file: 'nld_news_2020_1M.tar.gz', url: 'https://downloads.wortschatz-leipzig.de/corpora/nld_news_2020_1M.tar.gz', leipzig: true },
@@ -118,10 +119,32 @@ function write() {
   console.log(`Wrote ${out.length} words to data/b1/words.json`);
 }
 
-const modes = { '--fetch': fetchAll, '--build': build, '--write': write };
+function checkArticles() {
+  const need = (path: string, step: string) => {
+    if (!existsSync(path)) {
+      console.error(`Missing ${path.replace(root + '/', '')}; ${step}`);
+      process.exit(1);
+    }
+    return path;
+  };
+  const kaikki = need(join(cache, 'kaikki.org-dictionary-Dutch.jsonl'), 'run --fetch first');
+  const words = readJson<Word[]>(need(join(root, 'data', 'b1', 'words.json'), 'run --write first (T-078)'));
+  const notes = readJson<Annotation[]>(need(join(root, 'data', 'b1', 'annotations.json'), 'write the B1 annotations first (T-080)'));
+  const index = emptyKaikkiIndex();
+  for (const line of readFileSync(kaikki, 'utf8').split('\n')) addKaikkiLine(index, line);
+  const rows = articleCheck(words, notes, index);
+  const csv = rows.map((r) => [r.id, r.dutch, r.stored, r.wiktionary, r.result].join(','));
+  writeFileSync(join(cache, 'article-check.csv'), ['id,dutch,stored,wiktionary,result', ...csv].join('\n') + '\n');
+  const count = (result: string) => rows.filter((r) => r.result === result).length;
+  console.log(
+    `Articles: ${count('agree')} agree, ${count('differ')} differ, ${count('both')} both, ${count('unchecked')} unchecked (.cache/b1/article-check.csv)`,
+  );
+}
+
+const modes = { '--fetch': fetchAll, '--build': build, '--write': write, '--check-articles': checkArticles };
 const given = process.argv.slice(2);
 if (given.length !== 1 || !(given[0] in modes)) {
-  console.error('Usage: npm run b1-pool -- --fetch | --build | --write (exactly one)');
+  console.error('Usage: npm run b1-pool -- --fetch | --build | --write | --check-articles (exactly one)');
   process.exit(1);
 }
 await modes[given[0] as keyof typeof modes]();

@@ -1,4 +1,4 @@
-import { wordId, type Pos, type Word } from './validate.ts';
+import { wordId, type Annotation, type Pos, type Word } from './validate.ts';
 
 /** Criterion C2 of data/b1/selection-criteria.md: lemma rank 3,000-10,000. */
 export const B1_BAND = { min: 3000, max: 10000 } as const;
@@ -233,6 +233,41 @@ export function calibration(ranks: Map<string, number>, words: Word[]) {
       missing: own.length - found.length,
     };
   });
+}
+
+export type ArticleResult = 'agree' | 'differ' | 'both' | 'unchecked';
+export interface ArticleRow {
+  id: string;
+  dutch: string;
+  stored: string;
+  wiktionary: string;
+  result: ArticleResult;
+}
+
+const ARTICLE_OF: Record<string, 'de' | 'het'> = { m: 'de', f: 'de', c: 'de', n: 'het' };
+
+/**
+ * Check only: compares our stored article of each noun with the Wiktionary gender. Nothing is taken from Wiktionary;
+ * a noun with both genders matches when the stored article is one of them (ADR-012 rule 6).
+ */
+export function articleCheck(words: Word[], annotations: Annotation[], index: KaikkiIndex): ArticleRow[] {
+  const stored = new Map(annotations.map((a) => [a.word_id, a.article]));
+  return words
+    .filter((w) => w.pos === 'noun')
+    .map((w) => {
+      const article = stored.get(w.id) ?? '';
+      const found = new Set<string>();
+      for (const g of index.lemmas.get(`noun:${norm(w.lemma_nl)}`)?.genders ?? []) found.add(ARTICLE_OF[g]);
+      const wiktionary = [...found].sort();
+      const result: ArticleResult = !wiktionary.length
+        ? 'unchecked'
+        : !wiktionary.includes(article)
+          ? 'differ'
+          : wiktionary.length > 1
+            ? 'both'
+            : 'agree';
+      return { id: w.id, dutch: w.lemma_nl, stored: article, wiktionary: wiktionary.join('/'), result };
+    });
 }
 
 /** The selected ids as B1 words, in the order of `ids`. */
