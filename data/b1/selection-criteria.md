@@ -29,6 +29,7 @@ C7 Themes. Each selected word gets one category from our taxonomy: b1-work-caree
    b1-describing (adjectives with no clear theme), b1-everyday-verbs (verbs with no clear theme). Each category holds
    30 to 150 words; no theme is dropped to fit a size.
 C8 Mix. 1,000 words: about 55-65% nouns, 20-25% verbs, 15-20% adjectives (the proportions of the pool).
+   Amended 2026-10-23: 1,200 words (see Amendments).
 C9 One of a pair. When two near-synonyms both qualify, take the more frequent one, so that two Dutch words do not share one
    Turkish or English prompt.
 Each selected word is logged with a reason of at most 8 words that cites only facts: rank band, part of speech, theme.
@@ -38,4 +39,9 @@ work and study, services, city and transport, health, free time, nature and weat
 describing, communication, daily verbs) towards adult-life areas; the names are ours, not taken from any course or book.
 
 Amendments
-(none)
+2026-10-23. C8: the set has 1,200 words (was 1,000). The proportions stay: about 55-65% nouns, 20-25% verbs,
+   15-20% adjectives. C7: the bounds of 30 to 150 words per category stay; 1,200 words over the 21 categories is about
+   57 a category, inside the bounds. No other criterion changes: C1-C6 and C9 select the same words as before.
+   Reason: the owner's word targets of 2026-10-23 (A1 600, A2 1,000, B1 1,200; app repository,
+   docs/research/2026-10-22-word-counts-and-b2.md, option B; ADR-017). Made before any shortlist exists
+   (data/b1/selection.json does not exist yet). Owner approved 2026-10-23.
