@@ -16,6 +16,7 @@ import {
   parseLeipzigWords,
   poolCounts,
   selectB1,
+  sourceDrift,
   type PoolRow,
 } from '../b1-pool.ts';
 import type { Word } from '../validate.ts';
@@ -35,6 +36,12 @@ async function sha256(path: string): Promise<string> {
   const hash = createHash('sha256');
   for await (const chunk of createReadStream(path)) hash.update(chunk);
   return hash.digest('hex');
+}
+
+function reportDrift(record: Record<string, string>) {
+  const lines = sourceDrift(record);
+  if (!lines.length) console.log('Sources match the pins of 2026-10-22');
+  for (const line of lines) console.warn(line);
 }
 
 async function fetchAll() {
@@ -58,6 +65,7 @@ async function fetchAll() {
     console.log(`${record[s.file]}  ${s.file}`);
   }
   writeFileSync(recordFile, JSON.stringify(record, null, 2) + '\n');
+  reportDrift(record);
 }
 
 function findWordsFile(name: string): string {
@@ -70,6 +78,8 @@ function findWordsFile(name: string): string {
 }
 
 async function build() {
+  const recordFile = join(cache, 'sources.json');
+  reportDrift(existsSync(recordFile) ? readJson<Record<string, string>>(recordFile) : {});
   const forms = new Map<string, number>();
   for (const s of SOURCES.filter((x) => x.leipzig)) {
     for (const [form, n] of parseLeipzigWords(readFileSync(findWordsFile(s.name), 'utf8'))) {
@@ -93,7 +103,7 @@ async function build() {
   writeFileSync(join(cache, 'pool.json'), JSON.stringify(pool, null, 2) + '\n');
 
   const counts = poolCounts(pool);
-  console.log(`Pool: ${pool.length} rows (.cache/b1/pool.json)`);
+  console.log(`Pool: ${pool.length} rows, ${counts.lemmas} lemmas (${counts.twoPos} with two parts of speech) (.cache/b1/pool.json)`);
   console.log('Per part of speech:', counts.pos);
   console.log('Per rank band:', counts.band);
   console.log('Calibration of our live words on the lemma rank (C2, information only):');

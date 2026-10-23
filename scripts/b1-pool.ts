@@ -100,10 +100,10 @@ export function addKaikkiLine(index: KaikkiIndex, line: string): void {
     tags = tags ? new Set([...tags].filter((t) => own.has(t))) : own;
   }
   const genders = new Set<string>();
-  let pluralOnly = false;
+  let sawPlural = false;
   for (const t of entry.head_templates ?? []) {
     const first = t.name === 'nl-noun' ? t.args?.['1']?.[0] : undefined;
-    if (first === 'p') pluralOnly = true;
+    if (first === 'p') sawPlural = true;
     else if (first && GENDER_LETTERS.includes(first)) genders.add(first);
   }
   const fresh: Lemma = {
@@ -112,15 +112,16 @@ export function addKaikkiLine(index: KaikkiIndex, line: string): void {
     tags: tags ?? new Set(),
     genders,
     reflexiveOnly: pos === 'verb' && senses.length > 0 && senses.every((s) => s.tags?.includes('reflexive')),
-    pluralOnly,
+    pluralOnly: sawPlural && genders.size === 0,
   };
   const key = `${pos}:${word}`;
   const old = index.lemmas.get(key);
   if (old) {
     old.tags = new Set([...old.tags].filter((t) => fresh.tags.has(t)));
     for (const g of fresh.genders) old.genders.add(g);
-    old.reflexiveOnly ||= fresh.reflexiveOnly;
-    old.pluralOnly ||= fresh.pluralOnly;
+    // Dropped by C4 only when every entry is reflexive-only or plural-only.
+    old.reflexiveOnly &&= fresh.reflexiveOnly;
+    old.pluralOnly &&= fresh.pluralOnly;
   } else {
     index.lemmas.set(key, fresh);
   }
@@ -132,18 +133,16 @@ export function readKaikki(lines: Iterable<string>): KaikkiIndex {
   return index;
 }
 
-/** Sums surface-form counts per lemma word; a form with several targets is split equally. */
+/** Sums surface-form counts per lemma word; a form with several lemma readings (itself included) is split equally. */
 export function lemmaCounts(forms: Map<string, number>, index: KaikkiIndex): Map<string, number> {
   const lemmaWords = new Set([...index.lemmas.values()].map((l) => l.word));
   const counts = new Map<string, number>();
   const add = (word: string, n: number) => counts.set(word, (counts.get(word) ?? 0) + n);
   for (const [form, n] of forms) {
-    if (lemmaWords.has(form)) {
-      add(form, n);
-      continue;
-    }
-    const targets = [...(index.formOf.get(form) ?? [])].filter((t) => lemmaWords.has(t));
-    for (const t of targets) add(t, n / targets.length);
+    const targets = [...(index.formOf.get(form) ?? [])].filter((t) => t !== form && lemmaWords.has(t));
+    // A form that is a lemma and also an inflection of other lemmas (werken) is shared equally (C2).
+    const shares = lemmaWords.has(form) ? [form, ...targets] : targets;
+    for (const t of shares) add(t, n / shares.length);
   }
   return counts;
 }
@@ -181,14 +180,41 @@ export function rankBand(rank: number): RankBand {
   return rank < 5000 ? '3-5k' : rank < 8000 ? '5-8k' : '8-10k';
 }
 
-export function poolCounts(pool: PoolRow[]): { pos: Record<Pos, number>; band: Record<RankBand, number> } {
+export function poolCounts(pool: PoolRow[]): {
+  pos: Record<Pos, number>;
+  band: Record<RankBand, number>;
+  lemmas: number;
+  twoPos: number;
+} {
   const pos: Record<Pos, number> = { noun: 0, verb: 0, adj: 0 };
   const band: Record<RankBand, number> = { '3-5k': 0, '5-8k': 0, '8-10k': 0 };
+  const perLemma = new Map<string, number>();
   for (const r of pool) {
     pos[r.pos]++;
     band[rankBand(r.rank)]++;
+    perLemma.set(r.lemma_nl, (perLemma.get(r.lemma_nl) ?? 0) + 1);
   }
-  return { pos, band };
+  return { pos, band, lemmas: perLemma.size, twoPos: [...perLemma.values()].filter((n) => n > 1).length };
+}
+
+/** sha256 of the sources the pool of 2026-10-22 was built from (T-125 run, .cache/b1/sources.json). */
+export const PINNED_SHA256: Record<string, string> = {
+  'nld_news_2020_1M.tar.gz': '1494539090cee20e5b7f235a8bcbc77833fbac224c14550e1c810b977bfab8cd',
+  'nld_wikipedia_2021_1M.tar.gz': '4205c6638ee85ab29644402d9237cd5d3df1ece4e152d1b453134fec80588aee',
+  'kaikki.org-dictionary-Dutch.jsonl': '00c8ee4a95169bb1ec0ac9b495d43dc7746a1e59e9a44914bae8909f9f167121',
+  'wordlist.txt': '12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be',
+};
+
+/** One warning per source that is missing or differs from its pin; empty when all match. */
+export function sourceDrift(record: Record<string, string>, pinned = PINNED_SHA256): string[] {
+  return Object.entries(pinned).flatMap(([file, hash]) => {
+    const now = record[file];
+    if (!now) return [`Source not fetched: ${file}`];
+    if (now === hash) return [];
+    return [
+      `Source changed since 2026-10-22: ${file} (pinned ${hash.slice(0, 12)}, now ${now.slice(0, 12)}); the pool will differ from the reviewed one`,
+    ];
+  });
 }
 
 const nearestRank = (sorted: number[], p: number) => sorted[Math.max(0, Math.ceil(p * sorted.length) - 1)];
