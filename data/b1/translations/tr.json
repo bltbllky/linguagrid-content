@@ -448,7 +448,7 @@
     },
     {
       "word_id": "adj-netto",
-      "text": "net",
+      "text": "net (para)",
       "reviewed": false
     },
     {
@@ -733,7 +733,7 @@
     },
     {
       "word_id": "noun-tapijt",
-      "text": "halı",
+      "text": "halı (yer kaplaması)",
       "reviewed": false
     },
     {
@@ -4403,7 +4403,7 @@
     },
     {
       "word_id": "adj-nuchter",
-      "text": "ayık, gerçekçi",
+      "text": "ayık, aklı başında",
       "reviewed": false
     },
     {
@@ -5199,6 +5199,806 @@
     {
       "word_id": "noun-fictie",
       "text": "kurgu",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-schouwburg",
+      "text": "tiyatro binası",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hockey",
+      "text": "hokey",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-popmuziek",
+      "text": "pop müzik",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-kamperen",
+      "text": "kamp yapmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-stabiel",
+      "text": "istikrarlı",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-bereikbaar",
+      "text": "ulaşılabilir",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-buitengewoon",
+      "text": "olağanüstü",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-permanent",
+      "text": "kalıcı",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-realistisch",
+      "text": "gerçekçi",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-neutraal",
+      "text": "tarafsız",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-nauwkeurig",
+      "text": "kesin, titiz",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-mild",
+      "text": "hafif, ılıman",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-kunstmatig",
+      "text": "yapay",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-volkomen",
+      "text": "eksiksiz",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-grof",
+      "text": "kaba",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-waardevol",
+      "text": "değerli",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-onnodig",
+      "text": "gereksiz",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-dramatisch",
+      "text": "dramatik",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-ongelooflijk",
+      "text": "inanılmaz",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-fris",
+      "text": "ferah",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-identiek",
+      "text": "özdeş",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-drastisch",
+      "text": "radikal",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-glad",
+      "text": "kaygan",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-vochtig",
+      "text": "nemli",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-strikt",
+      "text": "katı (kural)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-kaal",
+      "text": "kel",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-verrassend",
+      "text": "şaşırtıcı",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-netjes",
+      "text": "derli toplu",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-steil",
+      "text": "dik (yokuş)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-cruciaal",
+      "text": "kritik",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-comfortabel",
+      "text": "rahat",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-passend",
+      "text": "yakışan, yerinde",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-slap",
+      "text": "gevşek",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-verborgen",
+      "text": "gizli",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-spectaculair",
+      "text": "göz alıcı",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-knap",
+      "text": "yakışıklı, zeki",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-privé",
+      "text": "özel (kişisel)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-onzichtbaar",
+      "text": "görünmez",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-ondiep",
+      "text": "sığ",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-ouderwets",
+      "text": "eski moda",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-nuttig",
+      "text": "yararlı",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-intens",
+      "text": "yoğun (duygu)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-gaaf",
+      "text": "süper",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-eindeloos",
+      "text": "sonsuz",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-soepel",
+      "text": "kıvrak",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-vlot",
+      "text": "seri, akıcı",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-compact",
+      "text": "kompakt",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-heftig",
+      "text": "şiddetli",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-ongewoon",
+      "text": "alışılmadık",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-transparant",
+      "text": "şeffaf",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-abstract",
+      "text": "soyut",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-levendig",
+      "text": "canlı",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-afgelegen",
+      "text": "ücra",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-tragisch",
+      "text": "trajik",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-krap",
+      "text": "sıkışık",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-kleurrijk",
+      "text": "renkli",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-waardeloos",
+      "text": "değersiz",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-verzorgd",
+      "text": "bakımlı",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-consequent",
+      "text": "tutarlı",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-vaag",
+      "text": "belirsiz",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-ongeschikt",
+      "text": "uygunsuz",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-begrijpelijk",
+      "text": "anlaşılabilir",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-matig",
+      "text": "vasat",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-schaars",
+      "text": "kıt",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-alledaags",
+      "text": "gündelik",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-overdreven",
+      "text": "abartılı",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-zinvol",
+      "text": "anlamlı",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-onveilig",
+      "text": "güvensiz",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-schuin",
+      "text": "eğik",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-koel",
+      "text": "serin",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-elegant",
+      "text": "zarif",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-boeiend",
+      "text": "sürükleyici",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-verwarrend",
+      "text": "kafa karıştırıcı",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-voorspelbaar",
+      "text": "tahmin edilebilir",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-informeel",
+      "text": "resmî olmayan",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-onbelangrijk",
+      "text": "önemsiz",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-ongevaarlijk",
+      "text": "zararsız",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-schattig",
+      "text": "şirin",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vernielen",
+      "text": "tahrip etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-falen",
+      "text": "başarısız olmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-betrappen",
+      "text": "suçüstü yakalamak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-splitsen",
+      "text": "bölmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-voortzetten",
+      "text": "sürdürmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uitzetten",
+      "text": "kapatmak (elektrik)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uitdelen",
+      "text": "dağıtmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verraden",
+      "text": "ihanet etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-slepen",
+      "text": "sürüklemek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-doorgeven",
+      "text": "aktarmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vasthouden",
+      "text": "sıkıca tutmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verschuiven",
+      "text": "kaydırmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-profiteren",
+      "text": "yararlanmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-bewaken",
+      "text": "korumak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-tikken",
+      "text": "hafifçe vurmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-schudden",
+      "text": "sallamak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vertragen",
+      "text": "geciktirmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verwarren",
+      "text": "birbirine karıştırmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-tegenhouden",
+      "text": "engellemek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-onderbreken",
+      "text": "kesintiye uğratmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-achtervolgen",
+      "text": "kovalamak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-knippen",
+      "text": "makasla kesmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-checken",
+      "text": "göz atıp kontrol etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-schoppen",
+      "text": "tekmelemek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-binnenkomen",
+      "text": "içeri girmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-opzoeken",
+      "text": "(bilgiyi) araştırmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-terechtkomen",
+      "text": "sonunda bir yere varmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-neerleggen",
+      "text": "yere koymak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-bijten",
+      "text": "ısırmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verkleinen",
+      "text": "küçültmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-loslaten",
+      "text": "serbest bırakmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-aanzetten",
+      "text": "çalıştırmak (cihaz)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-plakken",
+      "text": "yapıştırmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-zwaaien",
+      "text": "el sallamak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-volhouden",
+      "text": "dayanmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-bijhouden",
+      "text": "güncel tutmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-afmaken",
+      "text": "bitirmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-overwinnen",
+      "text": "yenmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-weghalen",
+      "text": "ortadan kaldırmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uitzoeken",
+      "text": "araştırıp çözmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-scheuren",
+      "text": "yırtmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uitvallen",
+      "text": "iptal olmak, kesilmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uitzien",
+      "text": "görünmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-riskeren",
+      "text": "riske atmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-rondlopen",
+      "text": "dolaşmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-blussen",
+      "text": "söndürmek (yangın)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-stapelen",
+      "text": "üst üste koymak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-tegenkomen",
+      "text": "rastlamak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-omkeren",
+      "text": "ters çevirmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-tillen",
+      "text": "(yerden) kaldırmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-gillen",
+      "text": "çığlık atmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-overslaan",
+      "text": "es geçmek, atlamak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-glijden",
+      "text": "kaymak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uitkiezen",
+      "text": "seçip almak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-omvallen",
+      "text": "devrilmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uitpakken",
+      "text": "paketi açmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-fluiten",
+      "text": "ıslık çalmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-spoelen",
+      "text": "durulamak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-stinken",
+      "text": "kötü kokmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-aanraken",
+      "text": "dokunmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-scheren",
+      "text": "tıraş etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-aansteken",
+      "text": "(mum, ateş) yakmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-thuisblijven",
+      "text": "evde kalmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-weglopen",
+      "text": "kaçıp gitmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uitkijken",
+      "text": "dikkatli olmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-sorteren",
+      "text": "tasnif etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-afpakken",
+      "text": "elinden almak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-leunen",
+      "text": "yaslanmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-weggooien",
+      "text": "çöpe atmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-weggeven",
+      "text": "bedavaya vermek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-aarzelen",
+      "text": "tereddüt etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uitlenen",
+      "text": "ödünç vermek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vastzitten",
+      "text": "sıkışıp kalmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vouwen",
+      "text": "katlamak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-knikken",
+      "text": "başını sallamak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-inpakken",
+      "text": "paketlemek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-meevallen",
+      "text": "beklenenden iyi çıkmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-losmaken",
+      "text": "(düğümü) çözmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-struikelen",
+      "text": "tökezlemek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uitproberen",
+      "text": "deneyip görmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vastmaken",
+      "text": "sabitlemek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-tegenvallen",
+      "text": "beklenenden kötü çıkmak",
       "reviewed": false
     }
   ],
