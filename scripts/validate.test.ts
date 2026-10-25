@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import { describe, it } from 'node:test';
 
+import { CARDINALS } from './b1-pool.ts';
 import { partialEnglish, validContent } from './fixtures/valid.ts';
 import { loadContent, translationReport, validateContent, withLegacyTurkish, wordId } from './validate.ts';
 
@@ -120,6 +121,36 @@ describe('validateContent', () => {
       'noun-tandarts: noun without de/het article',
       'verb-lopen: article on a verb',
     ]);
+  });
+
+  /** The noun of `validContent()` renamed to `lemma`, with the given article. */
+  const nounNamed = (lemma: string, article: 'de' | 'het' | null) => {
+    const content = validContent();
+    const id = `noun-${lemma}`;
+    content.words[0] = { ...content.words[0], id, lemma_nl: lemma };
+    content.annotations[0] = { ...content.annotations[0], word_id: id, article };
+    content.translations.tr.words[0] = { ...content.translations.tr.words[0], word_id: id };
+    return content;
+  };
+
+  it('accepts a cardinal number noun without an article (ADR-018 rule 3)', () => {
+    assert.deepEqual(validateContent(nounNamed('dertien', null)), []);
+    assert.deepEqual(validateContent(nounNamed('een', null)), []);
+    assert.deepEqual(validateContent(nounNamed('miljard', null)), []);
+  });
+
+  it('still accepts a cardinal number noun that has an article', () => {
+    assert.deepEqual(validateContent(nounNamed('dertien', 'de')), []);
+    assert.deepEqual(validateContent(nounNamed('honderd', 'het')), []);
+  });
+
+  it('still reports a noun without an article that is not a cardinal number', () => {
+    assert.deepEqual(validateContent(nounNamed('huis', null)), ['noun-huis: noun without de/het article']);
+    assert.deepEqual(validateContent(nounNamed('dertienhoek', null)), ['noun-dertienhoek: noun without de/het article']);
+  });
+
+  it('keeps the closed set of cardinal numbers at 32 words', () => {
+    assert.equal(CARDINALS.length, 32);
   });
 
   it('reports duplicate ids and ids that do not match the lemma', () => {
