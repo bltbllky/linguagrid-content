@@ -1,0 +1,7 @@
+date,sheet,lang,words,errors,seed,note
+2026-10-17,launch,tr,50,1,20261017,
+2026-10-17,launch,en,50,2,,drawn from all unflagged words before ADR-012; one error is a synonym preference
+2026-10-25,a1a2,tr,50,1,20261025,C21 kruispunt
+2026-10-25,a1a2,en,50,0,20261025,D19 ontsnappen was corrected by the owner (owner: D19 düzelt; content#62) so 0 errors; ADR-019 counted 1 before the retraction
+2026-10-25,b1,tr,50,0,20261023,
+2026-10-25,b1,en,50,0,20261023,

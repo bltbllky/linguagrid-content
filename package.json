@@ -12,6 +12,7 @@
     "import-review": "tsx scripts/cli/import-review.ts",
     "import-roundtrip": "tsx scripts/cli/import-roundtrip.ts",
     "mt-check": "tsx scripts/cli/mt-check.ts",
+    "spot-check": "tsx scripts/cli/spot-check.ts",
     "b1-pool": "tsx scripts/cli/b1-pool.ts",
     "release": "tsx scripts/cli/build-release.ts"
   },
