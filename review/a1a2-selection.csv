@@ -464,7 +464,7 @@ verb-merken,merken,verb,A2,0-1k,a2-daily-verbs,0-1k band; verb; a2-daily-verbs
 verb-bekijken,bekijken,verb,A2,0-1k,a2-daily-verbs,0-1k band; verb; a2-daily-verbs
 verb-verdelen,verdelen,verb,A2,0-1k,a2-daily-verbs,0-1k band; verb; a2-daily-verbs
 verb-vergelijken,vergelijken,verb,A2,0-1k,a2-daily-verbs,0-1k band; verb; a2-daily-verbs
-noun-stap,stap,noun,A2,0-1k,a2-daily-verbs,0-1k band; noun; a2-daily-verbs
+noun-stap,stap,noun,A2,0-1k,a2-city-transport,0-1k band; noun; a2-city-transport
 verb-bedenken,bedenken,verb,A2,0-1k,a2-daily-verbs,0-1k band; verb; a2-daily-verbs
 verb-kloppen,kloppen,verb,A2,1-2k,a2-daily-verbs,1-2k band; verb; a2-daily-verbs
 verb-stelen,stelen,verb,A2,1-2k,a2-daily-verbs,1-2k band; verb; a2-daily-verbs
@@ -503,3 +503,32 @@ verb-uitstellen,uitstellen,verb,A2,1-2k,a2-time,1-2k band; verb; a2-time
 adj-wekelijks,wekelijks,adj,A2,2-3k,a2-time,2-3k band; adjective; a2-time
 noun-zeventien,zeventien,noun,A2,3-5k,a2-time,3-5k band; noun; cardinal number; rank above 3,000
 noun-negentien,negentien,noun,A2,3-5k,a2-time,3-5k band; noun; cardinal number; rank above 3,000
+noun-koelkast,koelkast,noun,A2,5-8k,a2-home,moved from B1; owner decision A24
+noun-douche,douche,noun,A2,5-8k,a2-home,moved from B1; owner decision A24
+noun-wekker,wekker,noun,A2,8-10k,a2-home,moved from B1; owner decision A24
+noun-huisnummer,huisnummer,noun,A2,8-10k,a2-services,moved from B1; owner decision A24
+noun-postcode,postcode,noun,A2,8-10k,a2-services,moved from B1; owner decision A24
+noun-kapper,kapper,noun,A2,3-5k,a2-services,moved from B1; owner decision A24
+noun-tandarts,tandarts,noun,A2,5-8k,a2-health,moved from B1; owner decision A24
+noun-bladzijde,bladzijde,noun,A2,3-5k,a2-work-study,moved from B1; owner decision A24
+noun-laptop,laptop,noun,A2,3-5k,a2-work-study,moved from B1; owner decision A24
+noun-dierentuin,dierentuin,noun,A2,3-5k,a2-free-time,moved from B1; owner decision A24
+noun-achternaam,achternaam,noun,A2,3-5k,a2-people,moved from B1; owner decision A24
+noun-voornaam,voornaam,noun,A2,3-5k,a2-people,moved from B1; owner decision A24
+noun-kleinkind,kleinkind,noun,A2,3-5k,a2-people,moved from B1; owner decision A24
+noun-banaan,banaan,noun,A2,5-8k,a2-food,moved from B1; owner decision A24
+noun-peer,peer,noun,A2,5-8k,a2-food,moved from B1; owner decision A24
+noun-broodje,broodje,noun,A2,5-8k,a2-food,moved from B1; owner decision A24
+noun-tomaat,tomaat,noun,A2,8-10k,a2-food,moved from B1; owner decision A24
+noun-koekje,koekje,noun,A2,8-10k,a2-food,moved from B1; owner decision A24
+noun-trui,trui,noun,A2,3-5k,a2-clothes,moved from B1; owner decision A24
+noun-hoed,hoed,noun,A2,3-5k,a2-clothes,moved from B1; owner decision A24
+noun-schaap,schaap,noun,A2,3-5k,a2-nature-weather,moved from B1; owner decision A24
+noun-varken,varken,noun,A2,3-5k,a2-nature-weather,moved from B1; owner decision A24
+noun-olifant,olifant,noun,A2,3-5k,a2-nature-weather,moved from B1; owner decision A24
+noun-eend,eend,noun,A2,5-8k,a2-nature-weather,moved from B1; owner decision A24
+verb-binnenkomen,binnenkomen,verb,A2,3-5k,a2-daily-verbs,moved from B1; owner decision A24
+verb-thuisblijven,thuisblijven,verb,A2,5-8k,a2-daily-verbs,moved from B1; owner decision A24
+verb-weggooien,weggooien,verb,A2,5-8k,a2-daily-verbs,moved from B1; owner decision A24
+adj-vriendelijk,vriendelijk,adj,A2,3-5k,a2-feelings,moved from B1; owner decision A24
+adj-vervelend,vervelend,adj,A2,3-5k,a2-feelings,moved from B1; owner decision A24
