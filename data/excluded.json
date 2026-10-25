@@ -1950,5 +1950,845 @@
   {
     "id": "verb-sluipen",
     "reason": "B1 narrative verb, left out of the extras by the owner"
+  },
+  {
+    "id": "noun-oostenrijker",
+    "reason": "demonym"
+  },
+  {
+    "id": "noun-libanese",
+    "reason": "inflected demonym (libanees)"
+  },
+  {
+    "id": "noun-afghaanse",
+    "reason": "inflected demonym (afghaans)"
+  },
+  {
+    "id": "noun-kroatische",
+    "reason": "inflected demonym (kroatisch)"
+  },
+  {
+    "id": "noun-tsjech",
+    "reason": "demonym"
+  },
+  {
+    "id": "noun-thai",
+    "reason": "demonym"
+  },
+  {
+    "id": "adj-nijmeegs",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-luxemburgs",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-caribisch",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-zeventigste",
+    "reason": "ordinal number"
+  },
+  {
+    "id": "noun-gewacht",
+    "reason": "past participle (wachten)"
+  },
+  {
+    "id": "noun-malle",
+    "reason": "inflected adjective form (mal)"
+  },
+  {
+    "id": "noun-hallo",
+    "reason": "interjection tagged as a noun"
+  },
+  {
+    "id": "adj-macedonisch",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "noun-nijmeegse",
+    "reason": "inflected adjective from a place name"
+  },
+  {
+    "id": "adj-tachtigste",
+    "reason": "ordinal number"
+  },
+  {
+    "id": "noun-naakte",
+    "reason": "inflected adjective form (naakt)"
+  },
+  {
+    "id": "noun-kruiden",
+    "reason": "plural (kruid)"
+  },
+  {
+    "id": "noun-siemens",
+    "reason": "proper name"
+  },
+  {
+    "id": "noun-agatha",
+    "reason": "first name"
+  },
+  {
+    "id": "noun-congolees",
+    "reason": "demonym"
+  },
+  {
+    "id": "adj-congolees",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "noun-urker",
+    "reason": "demonym"
+  },
+  {
+    "id": "noun-oeigoer",
+    "reason": "demonym"
+  },
+  {
+    "id": "adj-ijslands",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "noun-koreaan",
+    "reason": "demonym"
+  },
+  {
+    "id": "adj-siberisch",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "noun-brusselaar",
+    "reason": "demonym"
+  },
+  {
+    "id": "noun-byzantijn",
+    "reason": "demonym"
+  },
+  {
+    "id": "adj-lets",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "noun-belarus",
+    "reason": "place name"
+  },
+  {
+    "id": "noun-berber",
+    "reason": "demonym"
+  },
+  {
+    "id": "noun-hindoestaan",
+    "reason": "demonym"
+  },
+  {
+    "id": "noun-somalische",
+    "reason": "inflected demonym (somalisch)"
+  },
+  {
+    "id": "adj-ethiopisch",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "noun-sloveense",
+    "reason": "inflected demonym (sloveens)"
+  },
+  {
+    "id": "noun-vietnamees",
+    "reason": "demonym"
+  },
+  {
+    "id": "adj-vietnamees",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "noun-getrouwe",
+    "reason": "inflected adjective form (getrouw)"
+  },
+  {
+    "id": "noun-inwendige",
+    "reason": "inflected adjective form (inwendig)"
+  },
+  {
+    "id": "noun-afghaan",
+    "reason": "demonym"
+  },
+  {
+    "id": "noun-sloveen",
+    "reason": "demonym"
+  },
+  {
+    "id": "noun-indonesiër",
+    "reason": "demonym"
+  },
+  {
+    "id": "noun-ghanese",
+    "reason": "inflected demonym (ghanees)"
+  },
+  {
+    "id": "noun-lutherse",
+    "reason": "inflected adjective form (luthers)"
+  },
+  {
+    "id": "adj-slavisch",
+    "reason": "adjective from a people name"
+  },
+  {
+    "id": "noun-rokken",
+    "reason": "plural (rok)"
+  },
+  {
+    "id": "noun-petto",
+    "reason": "only in the phrase in petto"
+  },
+  {
+    "id": "noun-luxemburgse",
+    "reason": "inflected adjective from a place name"
+  },
+  {
+    "id": "adj-nigeriaans",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "noun-dominicaan",
+    "reason": "demonym"
+  },
+  {
+    "id": "noun-drent",
+    "reason": "demonym"
+  },
+  {
+    "id": "noun-laos",
+    "reason": "place name"
+  },
+  {
+    "id": "noun-molukker",
+    "reason": "demonym"
+  },
+  {
+    "id": "noun-slowaakse",
+    "reason": "inflected demonym (slowaaks)"
+  },
+  {
+    "id": "adj-konings",
+    "reason": "genitive form (koning)"
+  },
+  {
+    "id": "noun-wachtende",
+    "reason": "inflected participle (wachten)"
+  },
+  {
+    "id": "adj-tsjechisch",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-algerijns",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "noun-cubaan",
+    "reason": "demonym"
+  },
+  {
+    "id": "noun-ghanees",
+    "reason": "demonym"
+  },
+  {
+    "id": "adj-ghanees",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-negentigste",
+    "reason": "ordinal number"
+  },
+  {
+    "id": "noun-ethiopische",
+    "reason": "inflected adjective from a place name"
+  },
+  {
+    "id": "adj-bengaals",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-perzisch",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-bosnisch",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "noun-heemstede",
+    "reason": "place name"
+  },
+  {
+    "id": "noun-dato",
+    "reason": "only in the phrase de dato"
+  },
+  {
+    "id": "noun-dixi",
+    "reason": "Latin phrase, not a Dutch lemma"
+  },
+  {
+    "id": "noun-geadopteerde",
+    "reason": "inflected participle (adopteren)"
+  },
+  {
+    "id": "adj-enigst",
+    "reason": "superlative form (enig)"
+  },
+  {
+    "id": "noun-ijslandse",
+    "reason": "inflected adjective from a place name"
+  },
+  {
+    "id": "noun-inca",
+    "reason": "people name"
+  },
+  {
+    "id": "noun-slavische",
+    "reason": "inflected adjective from a people name"
+  },
+  {
+    "id": "noun-algerijnse",
+    "reason": "inflected adjective from a place name"
+  },
+  {
+    "id": "adj-chileens",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "noun-carthager",
+    "reason": "demonym"
+  },
+  {
+    "id": "adj-iberisch",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "noun-moerdijk",
+    "reason": "place name"
+  },
+  {
+    "id": "noun-russin",
+    "reason": "demonym"
+  },
+  {
+    "id": "noun-vietnamese",
+    "reason": "inflected demonym (vietnamees)"
+  },
+  {
+    "id": "noun-albanese",
+    "reason": "inflected demonym (albanees)"
+  },
+  {
+    "id": "adj-gronings",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-koreaans",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "noun-palts",
+    "reason": "place name"
+  },
+  {
+    "id": "verb-aankon",
+    "reason": "past tense form (aankunnen)"
+  },
+  {
+    "id": "noun-rooie",
+    "reason": "inflected adjective form (rood)"
+  },
+  {
+    "id": "noun-bosnische",
+    "reason": "inflected adjective from a place name"
+  },
+  {
+    "id": "noun-oekraïner",
+    "reason": "demonym"
+  },
+  {
+    "id": "noun-taiwanees",
+    "reason": "demonym"
+  },
+  {
+    "id": "adj-taiwanees",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "noun-roemeen",
+    "reason": "demonym"
+  },
+  {
+    "id": "adj-syrisch",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "noun-nigeriaanse",
+    "reason": "inflected adjective from a place name"
+  },
+  {
+    "id": "noun-maltese",
+    "reason": "inflected demonym (maltees)"
+  },
+  {
+    "id": "noun-kelt",
+    "reason": "people name"
+  },
+  {
+    "id": "noun-ajacied",
+    "reason": "supporter of a named club"
+  },
+  {
+    "id": "noun-wanhopige",
+    "reason": "inflected adjective form (wanhopig)"
+  },
+  {
+    "id": "noun-waanzinnige",
+    "reason": "inflected adjective form (waanzinnig)"
+  },
+  {
+    "id": "noun-hoogbejaarde",
+    "reason": "inflected adjective form (hoogbejaard)"
+  },
+  {
+    "id": "noun-stijve",
+    "reason": "inflected adjective form (stijf)"
+  },
+  {
+    "id": "adj-lazarus",
+    "reason": "from a person name"
+  },
+  {
+    "id": "adj-praags",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "noun-letse",
+    "reason": "inflected demonym (lets)"
+  },
+  {
+    "id": "adj-wolfs",
+    "reason": "genitive form (wolf)"
+  },
+  {
+    "id": "noun-chileense",
+    "reason": "inflected adjective from a place name"
+  },
+  {
+    "id": "noun-achtjarige",
+    "reason": "inflected adjective form (achtjarig)"
+  },
+  {
+    "id": "noun-koele",
+    "reason": "inflected adjective form (koel)"
+  },
+  {
+    "id": "noun-afrikaner",
+    "reason": "demonym"
+  },
+  {
+    "id": "noun-zaan",
+    "reason": "place name"
+  },
+  {
+    "id": "noun-aron",
+    "reason": "first name"
+  },
+  {
+    "id": "noun-kromp",
+    "reason": "past tense form (krimpen)"
+  },
+  {
+    "id": "noun-harmonische",
+    "reason": "inflected adjective form (harmonisch)"
+  },
+  {
+    "id": "noun-antilliaan",
+    "reason": "demonym"
+  },
+  {
+    "id": "adj-dominicaans",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "noun-ethiopiër",
+    "reason": "demonym"
+  },
+  {
+    "id": "noun-irakees",
+    "reason": "demonym"
+  },
+  {
+    "id": "noun-cherokee",
+    "reason": "people name"
+  },
+  {
+    "id": "noun-creool",
+    "reason": "demonym"
+  },
+  {
+    "id": "noun-kansarme",
+    "reason": "inflected adjective form (kansarm)"
+  },
+  {
+    "id": "noun-afwezige",
+    "reason": "inflected adjective form (afwezig)"
+  },
+  {
+    "id": "noun-sneeuwwitje",
+    "reason": "character name"
+  },
+  {
+    "id": "adj-baskisch",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-maleis",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "noun-soedanees",
+    "reason": "demonym"
+  },
+  {
+    "id": "adj-soedanees",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "noun-israëliet",
+    "reason": "people name"
+  },
+  {
+    "id": "noun-somaliër",
+    "reason": "demonym"
+  },
+  {
+    "id": "noun-katachtige",
+    "reason": "inflected adjective form (katachtig)"
+  },
+  {
+    "id": "noun-duizendste",
+    "reason": "ordinal number"
+  },
+  {
+    "id": "adj-duizendste",
+    "reason": "ordinal number"
+  },
+  {
+    "id": "noun-vrijthof",
+    "reason": "place name"
+  },
+  {
+    "id": "adj-wauw",
+    "reason": "interjection tagged as an adjective"
+  },
+  {
+    "id": "noun-dominicaanse",
+    "reason": "inflected adjective from a place name"
+  },
+  {
+    "id": "noun-taiwanese",
+    "reason": "inflected demonym (taiwanees)"
+  },
+  {
+    "id": "noun-chileen",
+    "reason": "demonym"
+  },
+  {
+    "id": "noun-papoea",
+    "reason": "people name"
+  },
+  {
+    "id": "noun-kille",
+    "reason": "inflected adjective form (kil)"
+  },
+  {
+    "id": "noun-zoeloe",
+    "reason": "people name"
+  },
+  {
+    "id": "adj-zoeloe",
+    "reason": "adjective from a people name"
+  },
+  {
+    "id": "adj-pruisisch",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-berbers",
+    "reason": "adjective from a people name"
+  },
+  {
+    "id": "noun-azteek",
+    "reason": "people name"
+  },
+  {
+    "id": "noun-farizeeër",
+    "reason": "historical people name"
+  },
+  {
+    "id": "noun-samaritaan",
+    "reason": "people name"
+  },
+  {
+    "id": "adj-mongools",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-miljoenste",
+    "reason": "ordinal number"
+  },
+  {
+    "id": "noun-aagje",
+    "reason": "first name"
+  },
+  {
+    "id": "noun-aalt",
+    "reason": "first name"
+  },
+  {
+    "id": "noun-makke",
+    "reason": "inflected adjective form (mak)"
+  },
+  {
+    "id": "noun-bataaf",
+    "reason": "historical people name"
+  },
+  {
+    "id": "adj-egyptisch",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "noun-hagenees",
+    "reason": "demonym"
+  },
+  {
+    "id": "adj-kaaps",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "noun-kazachs",
+    "reason": "language name from a place name"
+  },
+  {
+    "id": "adj-kazachs",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-keltisch",
+    "reason": "adjective from a people name"
+  },
+  {
+    "id": "noun-maleise",
+    "reason": "inflected adjective from a place name"
+  },
+  {
+    "id": "adj-twents",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "noun-kazachse",
+    "reason": "inflected demonym (kazachs)"
+  },
+  {
+    "id": "adj-does",
+    "reason": "dialect or name form, not a Dutch adjective"
+  },
+  {
+    "id": "noun-indo",
+    "reason": "people name"
+  },
+  {
+    "id": "noun-algerijn",
+    "reason": "demonym"
+  },
+  {
+    "id": "noun-spaanstalige",
+    "reason": "inflected adjective form (spaanstalig)"
+  },
+  {
+    "id": "noun-donnie",
+    "reason": "first name"
+  },
+  {
+    "id": "noun-linkshandige",
+    "reason": "inflected adjective form (linkshandig)"
+  },
+  {
+    "id": "noun-mensachtige",
+    "reason": "inflected adjective form (mensachtig)"
+  },
+  {
+    "id": "noun-pallieter",
+    "reason": "character name"
+  },
+  {
+    "id": "verb-testritten",
+    "reason": "plural tagged as a verb (testrit)"
+  },
+  {
+    "id": "noun-israëli",
+    "reason": "demonym"
+  },
+  {
+    "id": "adj-javaans",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-haarlems",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-londens",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-utrechter",
+    "reason": "demonym tagged as an adjective"
+  },
+  {
+    "id": "adj-vaticaans",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "noun-welshman",
+    "reason": "demonym"
+  },
+  {
+    "id": "noun-gehuwde",
+    "reason": "inflected participle (huwen)"
+  },
+  {
+    "id": "noun-anderstalige",
+    "reason": "inflected adjective form (anderstalig)"
+  },
+  {
+    "id": "adj-antilliaans",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-byzantijns",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "noun-gentenaar",
+    "reason": "demonym"
+  },
+  {
+    "id": "adj-koerdisch",
+    "reason": "adjective from a people name"
+  },
+  {
+    "id": "adj-luxemburger",
+    "reason": "demonym tagged as an adjective"
+  },
+  {
+    "id": "adj-nederduits",
+    "reason": "language adjective from a place name"
+  },
+  {
+    "id": "adj-osmaans",
+    "reason": "adjective from a dynasty name"
+  },
+  {
+    "id": "adj-palestijns",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "noun-garibaldi",
+    "reason": "person name"
+  },
+  {
+    "id": "noun-soedanese",
+    "reason": "inflected demonym (soedanees)"
+  },
+  {
+    "id": "adj-aramees",
+    "reason": "language adjective from a people name"
+  },
+  {
+    "id": "adj-caraïbisch",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-hoogduits",
+    "reason": "language adjective from a place name"
+  },
+  {
+    "id": "adj-manx",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "noun-norbertijn",
+    "reason": "member of a named religious order"
+  },
+  {
+    "id": "noun-slowaak",
+    "reason": "demonym"
+  },
+  {
+    "id": "adj-peruaans",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "noun-peruaanse",
+    "reason": "inflected adjective from a place name"
+  },
+  {
+    "id": "noun-welshe",
+    "reason": "inflected adjective from a place name"
+  },
+  {
+    "id": "noun-zuiderling",
+    "reason": "demonym"
+  },
+  {
+    "id": "noun-kinderloze",
+    "reason": "inflected adjective form (kinderloos)"
+  },
+  {
+    "id": "noun-ongewervelde",
+    "reason": "inflected adjective form (ongewerveld)"
+  },
+  {
+    "id": "verb-motorboten",
+    "reason": "plural tagged as a verb (motorboot)"
+  },
+  {
+    "id": "noun-madrileen",
+    "reason": "demonym"
+  },
+  {
+    "id": "noun-oosterling",
+    "reason": "demonym"
+  },
+  {
+    "id": "noun-siamees",
+    "reason": "demonym"
+  },
+  {
+    "id": "adj-siamees",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "noun-eritreeër",
+    "reason": "demonym"
+  },
+  {
+    "id": "noun-nikker",
+    "reason": "offensive slur"
+  },
+  {
+    "id": "noun-roodharige",
+    "reason": "inflected adjective form (roodharig)"
+  },
+  {
+    "id": "noun-blijde",
+    "reason": "inflected adjective form (blij)"
   }
 ]
