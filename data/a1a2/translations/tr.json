@@ -1,0 +1,2526 @@
+{
+  "lang": "tr",
+  "words": [
+    {
+      "word_id": "adj-geboren",
+      "text": "doğmuş",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-getrouwd",
+      "text": "evlenmiş",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-echtgenoot",
+      "text": "eş (erkek)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-echtgenote",
+      "text": "eş (kadın)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-wakker",
+      "text": "uyanık",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-twee",
+      "text": "iki",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-drie",
+      "text": "üç",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-miljoen",
+      "text": "milyon",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-januari",
+      "text": "ocak (ay)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vijf",
+      "text": "beş",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-mei",
+      "text": "mayıs",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-juni",
+      "text": "haziran",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-september",
+      "text": "eylül",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-april",
+      "text": "nisan",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-oktober",
+      "text": "ekim",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-december",
+      "text": "aralık",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-juli",
+      "text": "temmuz",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zes",
+      "text": "altı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-november",
+      "text": "kasım",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-augustus",
+      "text": "ağustos",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tien",
+      "text": "on",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-half",
+      "text": "yarım",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-februari",
+      "text": "şubat",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-miljard",
+      "text": "milyar",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vier",
+      "text": "dört",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-maart",
+      "text": "mart",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vrijdag",
+      "text": "cuma",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zondag",
+      "text": "pazar (gün)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-maandag",
+      "text": "pazartesi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zaterdag",
+      "text": "cumartesi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-honderd",
+      "text": "yüz (sayı)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-donderdag",
+      "text": "perşembe",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-woensdag",
+      "text": "çarşamba",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-dinsdag",
+      "text": "salı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-duizend",
+      "text": "bin",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-twintig",
+      "text": "yirmi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-seconde",
+      "text": "saniye",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zeven",
+      "text": "yedi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-acht",
+      "text": "sekiz",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-twaalf",
+      "text": "on iki",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-dertig",
+      "text": "otuz",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-elf",
+      "text": "on bir",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vijftien",
+      "text": "on beş",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vijftig",
+      "text": "elli",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-negen",
+      "text": "dokuz",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zestig",
+      "text": "altmış",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-veertien",
+      "text": "on dört",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zestien",
+      "text": "on altı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tachtig",
+      "text": "seksen",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-dertien",
+      "text": "on üç",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zeventig",
+      "text": "yetmiş",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-veertig",
+      "text": "kırk",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-nul",
+      "text": "sıfır",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-negentig",
+      "text": "doksan",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-achttien",
+      "text": "on sekiz",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vliegen",
+      "text": "uçmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hart",
+      "text": "kalp",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-rusten",
+      "text": "dinlenmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-borst",
+      "text": "göğüs",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-duim",
+      "text": "başparmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bot",
+      "text": "kemik",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-long",
+      "text": "akciğer",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-knie",
+      "text": "diz",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zuiden",
+      "text": "güney",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-westen",
+      "text": "batı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-oosten",
+      "text": "doğu",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-bouwen",
+      "text": "inşa etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-groeien",
+      "text": "büyümek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-drukken",
+      "text": "basmak (düğmeye)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-draaien",
+      "text": "dönmek, döndürmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-hoeven",
+      "text": "gerekmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-roepen",
+      "text": "seslenmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-hangen",
+      "text": "asılı durmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-breken",
+      "text": "kırmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-springen",
+      "text": "zıplamak",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-rond",
+      "text": "yuvarlak",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-bezig",
+      "text": "meşgul",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-rijk",
+      "text": "zengin",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-diep",
+      "text": "derin",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-prima",
+      "text": "gayet iyi",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-gek",
+      "text": "deli",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-paars",
+      "text": "mor",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-roze",
+      "text": "pembe",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-schoen",
+      "text": "ayakkabı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-licht",
+      "text": "ışık",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-elektrisch",
+      "text": "elektrikli",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-bewaren",
+      "text": "saklamak (korumak)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-eigenaar",
+      "text": "sahip",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-branden",
+      "text": "yanmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gang",
+      "text": "koridor",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gat",
+      "text": "delik",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-energie",
+      "text": "enerji",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-slot",
+      "text": "kilit",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-houten",
+      "text": "ahşap",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-waslijn",
+      "text": "çamaşır ipi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-geluid",
+      "text": "ses",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-legen",
+      "text": "boşaltmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-voorwerp",
+      "text": "nesne",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-inrichten",
+      "text": "döşemek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verbouwen",
+      "text": "tadilat yapmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-spul",
+      "text": "eşya",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-drogen",
+      "text": "kurutmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-plastic",
+      "text": "plastik",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-knop",
+      "text": "düğme",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bel",
+      "text": "zil",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-stroom",
+      "text": "elektrik akımı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hal",
+      "text": "hol (giriş)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-doek",
+      "text": "bez",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-klok",
+      "text": "duvar saati",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-metaal",
+      "text": "metal",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verhuren",
+      "text": "kiraya vermek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-batterij",
+      "text": "pil",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gas",
+      "text": "gaz",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tegel",
+      "text": "fayans",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-draad",
+      "text": "tel",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-overlast",
+      "text": "rahatsızlık (gürültü)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zaag",
+      "text": "testere",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hek",
+      "text": "çit",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-beker",
+      "text": "bardak (kupa)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hoes",
+      "text": "kılıf",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-drempel",
+      "text": "eşik",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zeef",
+      "text": "süzgeç",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-bedienen",
+      "text": "müşteriye hizmet etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-alcohol",
+      "text": "alkol",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vet",
+      "text": "katı yağ",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-pot",
+      "text": "kavanoz",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-koelen",
+      "text": "soğutmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-dood",
+      "text": "ölü",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-virus",
+      "text": "virüs",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-testen",
+      "text": "test etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-ernstig",
+      "text": "ağır (hastalık)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-controle",
+      "text": "kontrol",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vaccin",
+      "text": "aşı",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-meten",
+      "text": "ölçmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-behandelen",
+      "text": "tedavi etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-bleek",
+      "text": "solgun",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gewicht",
+      "text": "ağırlık",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-operatie",
+      "text": "ameliyat",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verzorgen",
+      "text": "bakımını yapmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-mondkap",
+      "text": "maske (ağız)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-buigen",
+      "text": "eğilmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-symptoom",
+      "text": "belirti",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-levend",
+      "text": "yaşayan",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-huisarts",
+      "text": "aile hekimi",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-innemen",
+      "text": "(ilaç) almak",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-blind",
+      "text": "kör",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-opereren",
+      "text": "ameliyat etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-slaap",
+      "text": "uyku",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-pijnlijk",
+      "text": "ağrılı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-blessure",
+      "text": "sakatlık",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-lip",
+      "text": "dudak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-rib",
+      "text": "kaburga",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-pil",
+      "text": "hap",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-organiseren",
+      "text": "organize etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-aanwezig",
+      "text": "mevcut",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-lijst",
+      "text": "liste",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-tijdelijk",
+      "text": "geçici",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-contract",
+      "text": "sözleşme",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-rekenen",
+      "text": "hesaplamak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verbeteren",
+      "text": "iyileştirmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-doel",
+      "text": "amaç",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-taak",
+      "text": "yapılacak iş",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-zakken",
+      "text": "(sınavda) kalmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-zelfstandig",
+      "text": "bağımsız",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-journalist",
+      "text": "gazeteci",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-machine",
+      "text": "makine",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-rapport",
+      "text": "karne",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-meester",
+      "text": "ilkokul öğretmeni",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-typen",
+      "text": "yazmak (klavyeyle)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-getal",
+      "text": "sayı",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-overleggen",
+      "text": "danışmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-samenwerken",
+      "text": "işbirliği yapmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-pagina",
+      "text": "sayfa (web)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-opslaan",
+      "text": "kaydetmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-som",
+      "text": "hesap problemi",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-geldig",
+      "text": "geçerli",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-brand",
+      "text": "yangın",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-verplicht",
+      "text": "zorunlu",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-document",
+      "text": "belge",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verlengen",
+      "text": "uzatmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-code",
+      "text": "kod",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-brandweer",
+      "text": "itfaiye",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-aanvragen",
+      "text": "başvurmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-plaats",
+      "text": "yer",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-meter",
+      "text": "metre",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-afstand",
+      "text": "mesafe",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-toren",
+      "text": "kule",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-schip",
+      "text": "gemi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-motor",
+      "text": "motor",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-snelheid",
+      "text": "hız",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hoek",
+      "text": "köşe",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kanaal",
+      "text": "kanal (gemi yolu)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-stuur",
+      "text": "direksiyon, gidon",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tunnel",
+      "text": "tünel",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vlucht",
+      "text": "uçuş",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-snelweg",
+      "text": "otoyol",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vrachtwagen",
+      "text": "yük kamyonu",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bestemming",
+      "text": "varış yeri",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bocht",
+      "text": "viraj",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-dichtbij",
+      "text": "yakın",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vertraging",
+      "text": "gecikme",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-piloot",
+      "text": "pilot",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-perron",
+      "text": "tren peronu",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ticket",
+      "text": "bilet",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-rit",
+      "text": "kısa yolculuk",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-pijl",
+      "text": "ok (işaret)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kruispunt",
+      "text": "dörtyol",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-laan",
+      "text": "bulvar",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kade",
+      "text": "rıhtım",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-rem",
+      "text": "fren",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-straatnaam",
+      "text": "sokak adı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-stuk",
+      "text": "parça",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-helft",
+      "text": "yarı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bedrag",
+      "text": "tutar",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-aanbieden",
+      "text": "teklif etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-goud",
+      "text": "altın",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-centimeter",
+      "text": "santimetre",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-merk",
+      "text": "marka",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kilogram",
+      "text": "kilogram",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-rij",
+      "text": "sıra",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-lening",
+      "text": "borç (para)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-millimeter",
+      "text": "milimetre",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gram",
+      "text": "gram",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-liter",
+      "text": "litre",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-betaling",
+      "text": "ödeme",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zilver",
+      "text": "gümüş",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-aankoop",
+      "text": "satın alma",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-luxe",
+      "text": "lüks (konfor)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-pond",
+      "text": "yarım kilo",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bon",
+      "text": "fiş",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-automaat",
+      "text": "otomat",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-pak",
+      "text": "takım elbise",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vlek",
+      "text": "leke",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-das",
+      "text": "kravat",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-pet",
+      "text": "kasket",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-groep",
+      "text": "grup",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-lengte",
+      "text": "boy",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bezoeker",
+      "text": "ziyaretçi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-partner",
+      "text": "partner",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bijnaam",
+      "text": "takma ad",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-echtpaar",
+      "text": "evli çift",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-weduwe",
+      "text": "dul kadın",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tiener",
+      "text": "yeniyetme",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vieren",
+      "text": "kutlamak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-team",
+      "text": "takım",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-speler",
+      "text": "oyuncu",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-serie",
+      "text": "dizi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-programma",
+      "text": "program",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kasteel",
+      "text": "kale (şato)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-scoren",
+      "text": "gol atmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kampioen",
+      "text": "şampiyon",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-medaille",
+      "text": "madalya",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-finale",
+      "text": "final",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-lied",
+      "text": "şarkı",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verzamelen",
+      "text": "toplamak (koleksiyon)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-raden",
+      "text": "tahmin etmek (cevabı)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-winnaar",
+      "text": "kazanan",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-fan",
+      "text": "hayran",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-video",
+      "text": "video",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-schilderij",
+      "text": "tablo (resim)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-stadion",
+      "text": "stadyum",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-festival",
+      "text": "festival",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kunstenaar",
+      "text": "sanatçı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-doelpunt",
+      "text": "gol",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vlag",
+      "text": "bayrak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-acteur",
+      "text": "aktör",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-schilderen",
+      "text": "resim yapmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-concert",
+      "text": "konser",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-klassiek",
+      "text": "klasik",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-schrijver",
+      "text": "yazar",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tijdschrift",
+      "text": "dergi (yayın)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-theater",
+      "text": "tiyatro (bina)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-roman",
+      "text": "roman",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-beurt",
+      "text": "sıra (oyunda)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-voetballen",
+      "text": "futbol oynamak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zanger",
+      "text": "şarkıcı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-trainer",
+      "text": "antrenör",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-training",
+      "text": "antrenman",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-camera",
+      "text": "kamera",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-duiken",
+      "text": "dalmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-instrument",
+      "text": "enstrüman",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tekening",
+      "text": "çizim",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gedicht",
+      "text": "şiir (metin)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vuurwerk",
+      "text": "havai fişek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-meedoen",
+      "text": "katılmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bal",
+      "text": "top",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-feesten",
+      "text": "parti yapmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-klappen",
+      "text": "alkışlamak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-documentaire",
+      "text": "belgesel",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-muzikant",
+      "text": "müzisyen",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-piano",
+      "text": "piyano",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gitaar",
+      "text": "gitar",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kunstwerk",
+      "text": "sanat eseri",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zaal",
+      "text": "salon",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bar",
+      "text": "bar",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-voetballer",
+      "text": "futbolcu",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-avontuur",
+      "text": "macera",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bioscoop",
+      "text": "sinema",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-klimmen",
+      "text": "tırmanmak (spor)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-interesse",
+      "text": "ilgi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tocht",
+      "text": "gezi (doğada)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-versieren",
+      "text": "süslemek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-attractie",
+      "text": "eğlence aracı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-circus",
+      "text": "sirk",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-pop",
+      "text": "oyuncak bebek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-drum",
+      "text": "davul",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-clown",
+      "text": "palyaço",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ballet",
+      "text": "bale",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-roeien",
+      "text": "kürek çekmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wereld",
+      "text": "dünya",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vuur",
+      "text": "ateş (alev)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-grond",
+      "text": "yer (zemin)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-wild",
+      "text": "vahşi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-steen",
+      "text": "taş",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-veld",
+      "text": "tarla",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ster",
+      "text": "yıldız",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-molen",
+      "text": "değirmen",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-blad",
+      "text": "yaprak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tak",
+      "text": "dal",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-aarde",
+      "text": "toprak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-boerderij",
+      "text": "çiftlik",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-boer",
+      "text": "çiftçi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hout",
+      "text": "tahta (malzeme)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-landschap",
+      "text": "manzara (doğa)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hert",
+      "text": "geyik",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-pad",
+      "text": "patika",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-schaduw",
+      "text": "gölge",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-sloot",
+      "text": "hendek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-temperatuur",
+      "text": "sıcaklık",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-heuvel",
+      "text": "tepe",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-leeuw",
+      "text": "aslan",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-staart",
+      "text": "kuyruk",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vlieg",
+      "text": "sinek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-nest",
+      "text": "yuva",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wolf",
+      "text": "kurt",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kust",
+      "text": "kıyı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-golf",
+      "text": "dalga",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-dal",
+      "text": "vadi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-oceaan",
+      "text": "okyanus",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-slang",
+      "text": "yılan",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-rat",
+      "text": "sıçan",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-grot",
+      "text": "mağara",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-insect",
+      "text": "böcek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-poot",
+      "text": "pati",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-polder",
+      "text": "polder",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-aap",
+      "text": "maymun",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bui",
+      "text": "kısa sağanak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ijzer",
+      "text": "demir",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hitte",
+      "text": "aşırı sıcak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-schelp",
+      "text": "deniz kabuğu",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-geloven",
+      "text": "inanmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-durven",
+      "text": "cesaret etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-genieten",
+      "text": "keyif almak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gevoel",
+      "text": "his",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-twijfelen",
+      "text": "kararsız kalmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-herinnering",
+      "text": "anı",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verrassen",
+      "text": "sürpriz yapmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-sfeer",
+      "text": "ortam, atmosfer",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-dromen",
+      "text": "rüya görmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-jammer",
+      "text": "yazık",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-onzeker",
+      "text": "emin olmayan",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-schrikken",
+      "text": "irkilmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-schelen",
+      "text": "umurunda olmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-emotie",
+      "text": "duygu",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-humor",
+      "text": "mizah",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-haten",
+      "text": "nefret etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-vreselijk",
+      "text": "korkunç",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-eng",
+      "text": "korkutucu",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-actief",
+      "text": "aktif",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-enorm",
+      "text": "kocaman",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hoogte",
+      "text": "yükseklik",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-breed",
+      "text": "geniş (enine)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-vlak",
+      "text": "düz (yassı)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-midden",
+      "text": "orta",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kant",
+      "text": "taraf",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-gemiddeld",
+      "text": "ortalama",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-gelijk",
+      "text": "eşit",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verschil",
+      "text": "fark",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-serieus",
+      "text": "ciddi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gevaar",
+      "text": "tehlike",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-los",
+      "text": "gevşek (bağsız)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-dubbel",
+      "text": "iki kat",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-onbekend",
+      "text": "bilinmeyen",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-streng",
+      "text": "sert (kişi)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-redelijk",
+      "text": "makul",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-automatisch",
+      "text": "otomatik",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-stevig",
+      "text": "sağlam",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-uniek",
+      "text": "eşsiz",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-typisch",
+      "text": "tipik",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-slim",
+      "text": "akıllı",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-zwak",
+      "text": "güçsüz",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-dom",
+      "text": "aptal",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-vierkant",
+      "text": "kare",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-logisch",
+      "text": "mantıklı",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-praktisch",
+      "text": "pratik",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-helder",
+      "text": "berrak",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-smal",
+      "text": "dar",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-streep",
+      "text": "çizgi",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-vals",
+      "text": "sahte",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-apart",
+      "text": "ayrı",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-beroemd",
+      "text": "ünlü",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-toevallig",
+      "text": "tesadüfi",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-voorzichtig",
+      "text": "dikkatli",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-kwijt",
+      "text": "kaybolmuş (eşya)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-betrouwbaar",
+      "text": "güvenilir",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-uitstekend",
+      "text": "çok iyi",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-creatief",
+      "text": "yaratıcı",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-scherp",
+      "text": "keskin",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-achterkant",
+      "text": "arka taraf",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-breedte",
+      "text": "genişlik",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-verstandig",
+      "text": "akıllıca",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-agressief",
+      "text": "saldırgan",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-onderkant",
+      "text": "alt taraf",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-stiekem",
+      "text": "sinsi",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-belachelijk",
+      "text": "gülünç",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-voorkant",
+      "text": "ön taraf",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bovenkant",
+      "text": "üst taraf",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-lui",
+      "text": "tembel",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-buitenkant",
+      "text": "dış taraf",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-binnenkant",
+      "text": "iç taraf",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-cirkel",
+      "text": "çember",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-keurig",
+      "text": "düzgün",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-noemen",
+      "text": "adlandırmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-opnemen",
+      "text": "(telefonu) açmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-tonen",
+      "text": "göstermek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-contact",
+      "text": "iletişim",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-mening",
+      "text": "kişisel görüş",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-wijzen",
+      "text": "işaret etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-weigeren",
+      "text": "reddetmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-klinken",
+      "text": "kulağa gelmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-link",
+      "text": "bağlantı (internet)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-app",
+      "text": "uygulama (telefon)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-spellen",
+      "text": "harf harf söylemek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-nieuws",
+      "text": "haber",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-waarschuwen",
+      "text": "uyarmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-uitspraak",
+      "text": "telaffuz",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-geheim",
+      "text": "sır",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verbieden",
+      "text": "yasaklamak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-wensen",
+      "text": "dilemek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-appen",
+      "text": "mesaj atmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-accepteren",
+      "text": "kabul etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-letter",
+      "text": "harf",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-onzin",
+      "text": "saçmalık",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-excuus",
+      "text": "özür",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-scherm",
+      "text": "ekran (telefon)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tip",
+      "text": "ipucu",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-grap",
+      "text": "şaka",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-internetten",
+      "text": "internette gezinmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-opmerking",
+      "text": "yorum",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-negeren",
+      "text": "görmezden gelmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wens",
+      "text": "dilek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-belofte",
+      "text": "söz (vaat)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-posten",
+      "text": "paylaşım yapmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verzinnen",
+      "text": "uydurmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-updaten",
+      "text": "güncellemek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-eindigen",
+      "text": "bitmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verwachten",
+      "text": "beklemek (olmasını)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vervangen",
+      "text": "yerine koymak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-ontdekken",
+      "text": "keşfetmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-redden",
+      "text": "kurtarmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-beschermen",
+      "text": "korumak (zarardan)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-merken",
+      "text": "fark etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-bekijken",
+      "text": "incelemek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verdelen",
+      "text": "bölüştürmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vergelijken",
+      "text": "karşılaştırmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-stap",
+      "text": "adım",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-bedenken",
+      "text": "düşünüp bulmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-kloppen",
+      "text": "kapıyı çalmak, doğru olmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-stelen",
+      "text": "çalmak (hırsızlık)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vechten",
+      "text": "dövüşmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verplaatsen",
+      "text": "yerini değiştirmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-ontsnappen",
+      "text": "kaçmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-herkennen",
+      "text": "görünce tanımak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-grijpen",
+      "text": "kapmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-doorgaan",
+      "text": "devam etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vullen",
+      "text": "doldurmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-toevoegen",
+      "text": "eklemek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-oppakken",
+      "text": "yerden almak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-trappen",
+      "text": "tekme atmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vangen",
+      "text": "yakalamak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-schuiven",
+      "text": "itip kaydırmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-opgeven",
+      "text": "vazgeçmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-meemaken",
+      "text": "başından geçmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-nadenken",
+      "text": "düşünüp taşınmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-afzetten",
+      "text": "(arabayla) bırakmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-mislukken",
+      "text": "boşa çıkmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-duwen",
+      "text": "itmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-letten",
+      "text": "özen göstermek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-ruiken",
+      "text": "koklamak, kokmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-kruipen",
+      "text": "sürünmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-stoten",
+      "text": "çarpmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-gieten",
+      "text": "dökmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-afgeven",
+      "text": "elden vermek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-sluipen",
+      "text": "sinsice yürümek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-opblazen",
+      "text": "şişirmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-eeuw",
+      "text": "yüzyıl",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-volgend",
+      "text": "sonraki",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-jaarlijks",
+      "text": "yıllık",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-regelmatig",
+      "text": "düzenli",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verleden",
+      "text": "geçmiş",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uitstellen",
+      "text": "ertelemek",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-wekelijks",
+      "text": "haftalık",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zeventien",
+      "text": "on yedi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-negentien",
+      "text": "on dokuz",
+      "reviewed": false
+    }
+  ],
+  "categories": []
+}
