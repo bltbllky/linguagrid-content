@@ -180,3 +180,9 @@ Check the English.
 | D48 | de operatie | operation (surgery) |✓|
 | D49 | gelijk | equal |✓|
 | D50 | de clown | clown |✓|
+
+## Spot-check result (T-152, 2026-10-25)
+- Part C (50 Turkish words, text and article): 49 marked ✓, **1 error** (C21 het kruispunt: "dörtyol" → "kavşak", imported as the owner's text).
+- Part D (50 English words): 49 marked ✓, **1 error** (D19 ontsnappen: "to escape" → "relaxed", imported as the owner's text).
+- ADR-012 rule 7 (more than one error stops a language) is therefore not triggered for either language: the round-trip acceptances were imported (`review/roundtrip-a1a2/result.csv`, `review/roundtrip-a1a2-en/result.csv`).
+- Open: Q1 (category of "stap") was left blank in the filled sheet; noun-stap is unchanged until the owner answers.
