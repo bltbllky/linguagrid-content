@@ -26,6 +26,14 @@ describe('site pages', () => {
     assert.equal(addresses.size, 1, [...addresses].join(', '));
   });
 
+  it('use ugebdev@gmail.com as the one contact address on the six pages', () => {
+    const addresses = new Set<string>();
+    for (const file of [...SUPPORT, ...PRIVACY]) {
+      for (const m of read(file).matchAll(/mailto:([^"?]+)/g)) addresses.add(m[1]);
+    }
+    assert.deepEqual([...addresses], ['ugebdev@gmail.com']);
+  });
+
   it('give each support page its language, privacy link and language switcher', () => {
     for (const lang of LANGS) {
       const html = read(`support/${lang}.html`);
