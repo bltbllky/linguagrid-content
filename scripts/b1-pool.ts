@@ -2,6 +2,8 @@ import { wordId, type Annotation, type Pos, type Word } from './validate.ts';
 
 /** Criterion C2 of data/b1/selection-criteria.md: lemma rank 3,000-10,000. */
 export const B1_BAND = { min: 3000, max: 10000 } as const;
+/** Criterion D2 of data/b2/selection-criteria.md: lemma rank 10,000-20,000. */
+export const B2_BAND = { min: 10000, max: 20000 } as const;
 /** Criterion E2 (amended 2026-10-23): the pool band is the A2 band, lemma rank 1-5,000. */
 export const A1A2_BAND = { min: 1, max: 5000 } as const;
 /** E2: A1 extras stop at lemma rank 3,000. */
@@ -16,6 +18,7 @@ export interface PoolRules {
 }
 export const B1_RULES: PoolRules = { minLetters: 4, infinitiveOnly: false, noDemonyms: false };
 export const A1A2_RULES: PoolRules = { minLetters: 3, infinitiveOnly: true, noDemonyms: true };
+export const B2_RULES: PoolRules = { minLetters: 4, infinitiveOnly: true, noDemonyms: true };
 /** Criterion C5: a lemma is dropped when every sense carries one of these tags. */
 export const EXCLUDED_TAGS = [
   'proper-noun',
@@ -59,6 +62,8 @@ export interface PoolRow {
   pos: Pos;
   rank: number;
   gender: string | null;
+  /** Set by the B2 profile only. */
+  band?: 'b2' | 'b1-band';
 }
 export type RankBand = '3-5k' | '5-8k' | '8-10k';
 export type RankBandA1A2 = '0-1k' | '1-2k' | '2-3k' | '3-5k';
@@ -232,6 +237,37 @@ export function buildPool(
     rows.push({ id, lemma_nl: l.word, pos: l.pos, rank, gender });
   }
   return rows.sort((a, b) => a.rank - b.rank || POS_ORDER.indexOf(a.pos) - POS_ORDER.indexOf(b.pos));
+}
+
+/** B2 pool: the 10,000-20,000 band plus B1-band rows that are not B1 words, sorted by rank. */
+export function buildB2Pool(
+  ranks: Map<string, number>,
+  index: KaikkiIndex,
+  openTaal: Set<string>,
+  live: { lemmas: Set<string>; excludedIds: Set<string> },
+  b1Lemmas: Set<string>,
+): PoolRow[] {
+  const top = buildPool(ranks, index, openTaal, live, B2_BAND, B2_RULES).map((r) => ({ ...r, band: 'b2' as const }));
+  const leftovers = buildPool(ranks, index, openTaal, live, B1_BAND, B2_RULES)
+    .filter((r) => !b1Lemmas.has(r.lemma_nl))
+    .map((r) => ({ ...r, band: 'b1-band' as const }));
+  return [...top, ...leftovers].sort((a, b) => a.rank - b.rank || POS_ORDER.indexOf(a.pos) - POS_ORDER.indexOf(b.pos));
+}
+
+export function rankBandB2(row: PoolRow): '10-15k' | '15-20k' | 'b1-band' {
+  return row.band === 'b1-band' ? 'b1-band' : row.rank < 15000 ? '10-15k' : '15-20k';
+}
+
+/** Share of rows with 10-12 letters, two decimals (D4 cap: 0.40). */
+export function longShare(pool: PoolRow[]): number {
+  if (!pool.length) return 0;
+  const long = pool.filter((r) => Array.from(r.lemma_nl).length >= 10).length;
+  return Math.round((long / pool.length) * 100) / 100;
+}
+
+/** Ids the pool must skip. For B2 an id whose reason starts with "level B2" stays a candidate (PM decision 2026-10-25). */
+export function excludedIdsFor(level: 'b1' | 'a1a2' | 'b2', excluded: { id: string; reason: string }[]): Set<string> {
+  return new Set(excluded.filter((e) => !(level === 'b2' && e.reason.startsWith('level B2'))).map((e) => e.id));
 }
 
 export function rankBand(rank: number): RankBand {
