@@ -2,8 +2,12 @@ import { wordId, type Annotation, type Pos, type Word } from './validate.ts';
 
 /** Criterion C2 of data/b1/selection-criteria.md: lemma rank 3,000-10,000. */
 export const B1_BAND = { min: 3000, max: 10000 } as const;
-/** Criterion E2 of data/a1a2/selection-criteria.md: lemma rank 1-3,000. */
-export const A1A2_BAND = { min: 1, max: 3000 } as const;
+/** Criterion E2 (amended 2026-10-23): the pool band is the A2 band, lemma rank 1-5,000. */
+export const A1A2_BAND = { min: 1, max: 5000 } as const;
+/** E2: A1 extras stop at lemma rank 3,000. */
+export const A1_MAX_RANK = 3000;
+/** Criterion E7 (amended 2026-10-23): the A1 closed set of cardinal numbers. */
+export const CARDINALS = ['nul', 'een', 'twee', 'drie', 'vier', 'vijf', 'zes', 'zeven', 'acht', 'negen', 'tien', 'elf', 'twaalf', 'dertien', 'veertien', 'vijftien', 'zestien', 'zeventien', 'achttien', 'negentien', 'twintig', 'dertig', 'veertig', 'vijftig', 'zestig', 'zeventig', 'tachtig', 'negentig', 'honderd', 'duizend', 'miljoen', 'miljard'] as const;
 
 export interface PoolRules {
   minLetters: number;
@@ -57,7 +61,7 @@ export interface PoolRow {
   gender: string | null;
 }
 export type RankBand = '3-5k' | '5-8k' | '8-10k';
-export type RankBandA1A2 = '0-1k' | '1-2k' | '2-3k';
+export type RankBandA1A2 = '0-1k' | '1-2k' | '2-3k' | '3-5k';
 
 interface KaikkiSense {
   tags?: string[];
@@ -167,6 +171,36 @@ export function lemmaCounts(forms: Map<string, number>, index: KaikkiIndex): Map
   return counts;
 }
 
+/**
+ * Adds the cardinal numbers as noun rows (E7) and returns the added words in list order. A word is skipped when it
+ * has a noun entry already or no form count. Mutates `index` and `ranks`.
+ */
+export function addCardinals(
+  index: KaikkiIndex,
+  forms: Map<string, number>,
+  counts: Map<string, number>,
+  ranks: Map<string, number>,
+  words: readonly string[] = CARDINALS,
+): string[] {
+  const added: string[] = [];
+  for (const w of words) {
+    if (index.lemmas.has(`noun:${w}`) || !forms.has(w)) continue;
+    // Wiktionary has 13-19 and the tens only as numerals; ranking them against the counted lemmas leaves every other rank as it is.
+    index.lemmas.set(`noun:${w}`, {
+      word: w,
+      pos: 'noun',
+      tags: new Set(),
+      genders: new Set(),
+      reflexiveOnly: false,
+      pluralOnly: false,
+      demonym: false,
+    });
+    if (!ranks.has(w)) ranks.set(w, 1 + [...counts.values()].filter((c) => c > forms.get(w)!).length);
+    added.push(w);
+  }
+  return added;
+}
+
 /** Rank 1 = highest count; ties alphabetical. */
 export function lemmaRanks(counts: Map<string, number>): Map<string, number> {
   const sorted = [...counts].sort((a, b) => b[1] - a[1] || (a[0] < b[0] ? -1 : 1));
@@ -205,7 +239,7 @@ export function rankBand(rank: number): RankBand {
 }
 
 export function rankBandA1A2(rank: number): RankBandA1A2 {
-  return rank < 1000 ? '0-1k' : rank < 2000 ? '1-2k' : '2-3k';
+  return rank < 1000 ? '0-1k' : rank < 2000 ? '1-2k' : rank < 3000 ? '2-3k' : '3-5k';
 }
 
 export function poolCounts<B extends string = RankBand>(
@@ -329,6 +363,11 @@ export function selectB1(pool: PoolRow[], ids: string[]): Word[] {
 export function selectA1A2(pool: PoolRow[], sel: { A1: string[]; A2: string[] }): Word[] {
   for (const key of ['A1', 'A2'] as const) {
     if (!Array.isArray(sel[key])) throw new Error(`data/a1a2/selection.json needs an "${key}" list of ids`);
+  }
+  const byId = new Map(pool.map((r) => [r.id, r]));
+  for (const id of sel.A1) {
+    const row = byId.get(id);
+    if (row && row.rank > A1_MAX_RANK) throw new Error(`A1 word outside lemma rank 1-3,000: ${id} (rank ${row.rank})`);
   }
   const lemmas = new Set<string>();
   return [...selectWords(pool, sel.A1, 'A1', 'a1a2', lemmas), ...selectWords(pool, sel.A2, 'A2', 'a1a2', lemmas)];
