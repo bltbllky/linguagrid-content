@@ -206,3 +206,8 @@ Check the English.
 | D48 | bitter | bitter |✓|
 | D49 | ongewoon | unusual |✓|
 | D50 | het wiel | wheel |✓|
+
+## Spot-check result (T-085, 2026-10-25)
+- Part C (50 Turkish words, text and article): 50 marked ✓, **0 errors**.
+- Part D (50 English words): 50 marked ✓, **0 errors**.
+- ADR-012 rule 7 therefore holds for both languages: the round-trip acceptances were imported (`review/roundtrip-b1/result.csv`, `review/roundtrip-b1-en/result.csv`).
