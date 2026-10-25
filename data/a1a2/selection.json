@@ -60,8 +60,6 @@
     "verb-rusten",
     "noun-borst",
     "noun-duim",
-    "noun-bot",
-    "noun-long",
     "noun-knie",
     "noun-zuiden",
     "noun-westen",
@@ -83,9 +81,13 @@
     "adj-gek",
     "adj-paars",
     "adj-roze",
-    "noun-schoen"
+    "noun-schoen",
+    "noun-zeventien",
+    "noun-negentien"
   ],
   "A2": [
+    "noun-bot",
+    "noun-long",
     "noun-licht",
     "adj-elektrisch",
     "verb-bewaren",
@@ -117,12 +119,10 @@
     "noun-gas",
     "noun-tegel",
     "noun-draad",
-    "noun-overlast",
     "noun-zaag",
     "noun-hek",
     "noun-beker",
     "noun-hoes",
-    "noun-drempel",
     "noun-zeef",
     "verb-bedienen",
     "noun-alcohol",
@@ -495,7 +495,6 @@
     "verb-stoten",
     "verb-gieten",
     "verb-afgeven",
-    "verb-sluipen",
     "verb-opblazen",
     "noun-eeuw",
     "adj-volgend",
@@ -503,8 +502,6 @@
     "adj-regelmatig",
     "noun-verleden",
     "verb-uitstellen",
-    "adj-wekelijks",
-    "noun-zeventien",
-    "noun-negentien"
+    "adj-wekelijks"
   ]
 }

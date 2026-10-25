@@ -423,14 +423,14 @@
     "id": "noun-bot",
     "lemma_nl": "bot",
     "pos": "noun",
-    "cefr": "A1",
+    "cefr": "A2",
     "source": "own"
   },
   {
     "id": "noun-long",
     "lemma_nl": "long",
     "pos": "noun",
-    "cefr": "A1",
+    "cefr": "A2",
     "source": "own"
   },
   {
@@ -805,13 +805,6 @@
     "source": "own"
   },
   {
-    "id": "noun-overlast",
-    "lemma_nl": "overlast",
-    "pos": "noun",
-    "cefr": "A2",
-    "source": "own"
-  },
-  {
     "id": "noun-zaag",
     "lemma_nl": "zaag",
     "pos": "noun",
@@ -835,13 +828,6 @@
   {
     "id": "noun-hoes",
     "lemma_nl": "hoes",
-    "pos": "noun",
-    "cefr": "A2",
-    "source": "own"
-  },
-  {
-    "id": "noun-drempel",
-    "lemma_nl": "drempel",
     "pos": "noun",
     "cefr": "A2",
     "source": "own"
@@ -3451,13 +3437,6 @@
     "source": "own"
   },
   {
-    "id": "verb-sluipen",
-    "lemma_nl": "sluipen",
-    "pos": "verb",
-    "cefr": "A2",
-    "source": "own"
-  },
-  {
     "id": "verb-opblazen",
     "lemma_nl": "opblazen",
     "pos": "verb",
@@ -3517,14 +3496,14 @@
     "id": "noun-zeventien",
     "lemma_nl": "zeventien",
     "pos": "noun",
-    "cefr": "A2",
+    "cefr": "A1",
     "source": "own"
   },
   {
     "id": "noun-negentien",
     "lemma_nl": "negentien",
     "pos": "noun",
-    "cefr": "A2",
+    "cefr": "A1",
     "source": "own"
   }
 ]

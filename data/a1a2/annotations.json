@@ -3,31 +3,36 @@
     "word_id": "adj-geboren",
     "article": null,
     "category_id": "a1-people",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-getrouwd",
     "article": null,
     "category_id": "a1-people",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-echtgenoot",
     "article": "de",
     "category_id": "a1-people",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-echtgenote",
     "article": "de",
     "category_id": "a1-people",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-wakker",
     "article": null,
     "category_id": "a1-home",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-twee",
@@ -51,7 +56,8 @@
     "word_id": "noun-januari",
     "article": "de",
     "category_id": "a1-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-vijf",
@@ -63,43 +69,50 @@
     "word_id": "noun-mei",
     "article": "de",
     "category_id": "a1-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-juni",
     "article": "de",
     "category_id": "a1-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-september",
     "article": "de",
     "category_id": "a1-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-april",
     "article": "de",
     "category_id": "a1-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-oktober",
     "article": "de",
     "category_id": "a1-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-december",
     "article": "de",
     "category_id": "a1-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-juli",
     "article": "de",
     "category_id": "a1-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-zes",
@@ -111,13 +124,15 @@
     "word_id": "noun-november",
     "article": "de",
     "category_id": "a1-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-augustus",
     "article": "de",
     "category_id": "a1-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-tien",
@@ -129,13 +144,15 @@
     "word_id": "adj-half",
     "article": null,
     "category_id": "a1-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-februari",
     "article": "de",
     "category_id": "a1-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-miljard",
@@ -153,31 +170,36 @@
     "word_id": "noun-maart",
     "article": "de",
     "category_id": "a1-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-vrijdag",
     "article": "de",
     "category_id": "a1-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-zondag",
     "article": "de",
     "category_id": "a1-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-maandag",
     "article": "de",
     "category_id": "a1-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-zaterdag",
     "article": "de",
     "category_id": "a1-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-honderd",
@@ -189,19 +211,22 @@
     "word_id": "noun-donderdag",
     "article": "de",
     "category_id": "a1-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-woensdag",
     "article": "de",
     "category_id": "a1-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-dinsdag",
     "article": "de",
     "category_id": "a1-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-duizend",
@@ -219,7 +244,8 @@
     "word_id": "noun-seconde",
     "article": "de",
     "category_id": "a1-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-zeven",
@@ -333,2694 +359,3122 @@
     "word_id": "verb-vliegen",
     "article": null,
     "category_id": "a1-city-travel",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-hart",
     "article": "het",
     "category_id": "a1-body-health",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-rusten",
     "article": null,
     "category_id": "a1-body-health",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-borst",
     "article": "de",
     "category_id": "a1-body-health",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-duim",
     "article": "de",
     "category_id": "a1-body-health",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-bot",
     "article": "het",
-    "category_id": "a1-body-health",
-    "reviewed": false
+    "category_id": "a2-health",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-long",
     "article": "de",
-    "category_id": "a1-body-health",
-    "reviewed": false
+    "category_id": "a2-health",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-knie",
     "article": "de",
     "category_id": "a1-body-health",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-zuiden",
     "article": "het",
     "category_id": "a1-nature",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-westen",
     "article": "het",
     "category_id": "a1-nature",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-oosten",
     "article": "het",
     "category_id": "a1-nature",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-bouwen",
     "article": null,
     "category_id": "a1-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-groeien",
     "article": null,
     "category_id": "a1-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-drukken",
     "article": null,
     "category_id": "a1-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-draaien",
     "article": null,
     "category_id": "a1-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-hoeven",
     "article": null,
     "category_id": "a1-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-roepen",
     "article": null,
     "category_id": "a1-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-hangen",
     "article": null,
     "category_id": "a1-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-breken",
     "article": null,
     "category_id": "a1-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-springen",
     "article": null,
     "category_id": "a1-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-rond",
     "article": null,
     "category_id": "a1-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-bezig",
     "article": null,
     "category_id": "a1-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-rijk",
     "article": null,
     "category_id": "a1-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-diep",
     "article": null,
     "category_id": "a1-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-prima",
     "article": null,
     "category_id": "a1-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-gek",
     "article": null,
     "category_id": "a1-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-paars",
     "article": null,
     "category_id": "a1-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-roze",
     "article": null,
     "category_id": "a1-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-schoen",
     "article": "de",
     "category_id": "a1-clothes",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-licht",
     "article": "het",
     "category_id": "a2-home",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-elektrisch",
     "article": null,
     "category_id": "a2-home",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-bewaren",
     "article": null,
     "category_id": "a2-home",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-eigenaar",
     "article": "de",
     "category_id": "a2-home",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-branden",
     "article": null,
     "category_id": "a2-home",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-gang",
     "article": "de",
     "category_id": "a2-home",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-gat",
     "article": "het",
     "category_id": "a2-home",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-energie",
     "article": "de",
     "category_id": "a2-home",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-slot",
     "article": "het",
     "category_id": "a2-home",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-houten",
     "article": null,
     "category_id": "a2-home",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-waslijn",
     "article": "de",
     "category_id": "a2-home",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-geluid",
     "article": "het",
     "category_id": "a2-home",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-legen",
     "article": null,
     "category_id": "a2-home",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-voorwerp",
     "article": "het",
     "category_id": "a2-home",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-inrichten",
     "article": null,
     "category_id": "a2-home",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-verbouwen",
     "article": null,
     "category_id": "a2-home",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-spul",
     "article": "het",
     "category_id": "a2-home",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-drogen",
     "article": null,
     "category_id": "a2-home",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-plastic",
     "article": "het",
     "category_id": "a2-home",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-knop",
     "article": "de",
     "category_id": "a2-home",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-bel",
     "article": "de",
     "category_id": "a2-home",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-stroom",
     "article": "de",
     "category_id": "a2-home",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-hal",
     "article": "de",
     "category_id": "a2-home",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-doek",
     "article": "de",
     "category_id": "a2-home",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-klok",
     "article": "de",
     "category_id": "a2-home",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-metaal",
     "article": "het",
     "category_id": "a2-home",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-verhuren",
     "article": null,
     "category_id": "a2-home",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-batterij",
     "article": "de",
     "category_id": "a2-home",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-gas",
     "article": "het",
     "category_id": "a2-home",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-tegel",
     "article": "de",
     "category_id": "a2-home",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-draad",
     "article": "de",
     "category_id": "a2-home",
-    "reviewed": false
-  },
-  {
-    "word_id": "noun-overlast",
-    "article": "de",
-    "category_id": "a2-home",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-zaag",
     "article": "de",
     "category_id": "a2-home",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-hek",
     "article": "het",
     "category_id": "a2-home",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-beker",
     "article": "de",
     "category_id": "a2-home",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-hoes",
     "article": "de",
     "category_id": "a2-home",
-    "reviewed": false
-  },
-  {
-    "word_id": "noun-drempel",
-    "article": "de",
-    "category_id": "a2-home",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-zeef",
     "article": "de",
     "category_id": "a2-food",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-bedienen",
     "article": null,
     "category_id": "a2-food",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-alcohol",
     "article": "de",
     "category_id": "a2-food",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-vet",
     "article": "het",
     "category_id": "a2-food",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-pot",
     "article": "de",
     "category_id": "a2-food",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-koelen",
     "article": null,
     "category_id": "a2-food",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-dood",
     "article": null,
     "category_id": "a2-health",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-virus",
     "article": "het",
     "category_id": "a2-health",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-testen",
     "article": null,
     "category_id": "a2-health",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-ernstig",
     "article": null,
     "category_id": "a2-health",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-controle",
     "article": "de",
     "category_id": "a2-health",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-vaccin",
     "article": "het",
     "category_id": "a2-health",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-meten",
     "article": null,
     "category_id": "a2-health",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-behandelen",
     "article": null,
     "category_id": "a2-health",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-bleek",
     "article": null,
     "category_id": "a2-health",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-gewicht",
     "article": "het",
     "category_id": "a2-health",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-operatie",
     "article": "de",
     "category_id": "a2-health",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-verzorgen",
     "article": null,
     "category_id": "a2-health",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-mondkap",
     "article": "de",
     "category_id": "a2-health",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "verb-buigen",
     "article": null,
     "category_id": "a2-health",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-symptoom",
     "article": "het",
     "category_id": "a2-health",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "adj-levend",
     "article": null,
     "category_id": "a2-health",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-huisarts",
     "article": "de",
     "category_id": "a2-health",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-innemen",
     "article": null,
     "category_id": "a2-health",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-blind",
     "article": null,
     "category_id": "a2-health",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-opereren",
     "article": null,
     "category_id": "a2-health",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-slaap",
     "article": "de",
     "category_id": "a2-health",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-pijnlijk",
     "article": null,
     "category_id": "a2-health",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-blessure",
     "article": "de",
     "category_id": "a2-health",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-lip",
     "article": "de",
     "category_id": "a2-health",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-rib",
     "article": "de",
     "category_id": "a2-health",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-pil",
     "article": "de",
     "category_id": "a2-health",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-organiseren",
     "article": null,
     "category_id": "a2-work-study",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-aanwezig",
     "article": null,
     "category_id": "a2-work-study",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-lijst",
     "article": "de",
     "category_id": "a2-work-study",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-tijdelijk",
     "article": null,
     "category_id": "a2-work-study",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-contract",
     "article": "het",
     "category_id": "a2-work-study",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-rekenen",
     "article": null,
     "category_id": "a2-work-study",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-verbeteren",
     "article": null,
     "category_id": "a2-work-study",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-doel",
     "article": "het",
     "category_id": "a2-work-study",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-taak",
     "article": "de",
     "category_id": "a2-work-study",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-zakken",
     "article": null,
     "category_id": "a2-work-study",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-zelfstandig",
     "article": null,
     "category_id": "a2-work-study",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-journalist",
     "article": "de",
     "category_id": "a2-work-study",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-machine",
     "article": "de",
     "category_id": "a2-work-study",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-rapport",
     "article": "het",
     "category_id": "a2-work-study",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-meester",
     "article": "de",
     "category_id": "a2-work-study",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-typen",
     "article": null,
     "category_id": "a2-work-study",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-getal",
     "article": "het",
     "category_id": "a2-work-study",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-overleggen",
     "article": null,
     "category_id": "a2-work-study",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-samenwerken",
     "article": null,
     "category_id": "a2-work-study",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-pagina",
     "article": "de",
     "category_id": "a2-work-study",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-opslaan",
     "article": null,
     "category_id": "a2-work-study",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-som",
     "article": "de",
     "category_id": "a2-work-study",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-geldig",
     "article": null,
     "category_id": "a2-services",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-brand",
     "article": "de",
     "category_id": "a2-services",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-verplicht",
     "article": null,
     "category_id": "a2-services",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-document",
     "article": "het",
     "category_id": "a2-services",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-verlengen",
     "article": null,
     "category_id": "a2-services",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-code",
     "article": "de",
     "category_id": "a2-services",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-brandweer",
     "article": "de",
     "category_id": "a2-services",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-aanvragen",
     "article": null,
     "category_id": "a2-services",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-plaats",
     "article": "de",
     "category_id": "a2-city-transport",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-meter",
     "article": "de",
     "category_id": "a2-city-transport",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-afstand",
     "article": "de",
     "category_id": "a2-city-transport",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-toren",
     "article": "de",
     "category_id": "a2-city-transport",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-schip",
     "article": "het",
     "category_id": "a2-city-transport",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-motor",
     "article": "de",
     "category_id": "a2-city-transport",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-snelheid",
     "article": "de",
     "category_id": "a2-city-transport",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-hoek",
     "article": "de",
     "category_id": "a2-city-transport",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-kanaal",
     "article": "het",
     "category_id": "a2-city-transport",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-stuur",
     "article": "het",
     "category_id": "a2-city-transport",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-tunnel",
     "article": "de",
     "category_id": "a2-city-transport",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-vlucht",
     "article": "de",
     "category_id": "a2-city-transport",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-snelweg",
     "article": "de",
     "category_id": "a2-city-transport",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-vrachtwagen",
     "article": "de",
     "category_id": "a2-city-transport",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-bestemming",
     "article": "de",
     "category_id": "a2-city-transport",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-bocht",
     "article": "de",
     "category_id": "a2-city-transport",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-dichtbij",
     "article": null,
     "category_id": "a2-city-transport",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-vertraging",
     "article": "de",
     "category_id": "a2-city-transport",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-piloot",
     "article": "de",
     "category_id": "a2-city-transport",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-perron",
     "article": "het",
     "category_id": "a2-city-transport",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-ticket",
     "article": "het",
     "category_id": "a2-city-transport",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-rit",
     "article": "de",
     "category_id": "a2-city-transport",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-pijl",
     "article": "de",
     "category_id": "a2-city-transport",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-kruispunt",
     "article": "het",
     "category_id": "a2-city-transport",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-laan",
     "article": "de",
     "category_id": "a2-city-transport",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-kade",
     "article": "de",
     "category_id": "a2-city-transport",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-rem",
     "article": "de",
     "category_id": "a2-city-transport",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-straatnaam",
     "article": "de",
     "category_id": "a2-city-transport",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-stuk",
     "article": "het",
     "category_id": "a2-shopping",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-helft",
     "article": "de",
     "category_id": "a2-shopping",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-bedrag",
     "article": "het",
     "category_id": "a2-shopping",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-aanbieden",
     "article": null,
     "category_id": "a2-shopping",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-goud",
     "article": "het",
     "category_id": "a2-shopping",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-centimeter",
     "article": "de",
     "category_id": "a2-shopping",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-merk",
     "article": "het",
     "category_id": "a2-shopping",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-kilogram",
     "article": "de",
     "category_id": "a2-shopping",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-rij",
     "article": "de",
     "category_id": "a2-shopping",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-lening",
     "article": "de",
     "category_id": "a2-shopping",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-millimeter",
     "article": "de",
     "category_id": "a2-shopping",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-gram",
     "article": "de",
     "category_id": "a2-shopping",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-liter",
     "article": "de",
     "category_id": "a2-shopping",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-betaling",
     "article": "de",
     "category_id": "a2-shopping",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-zilver",
     "article": "het",
     "category_id": "a2-shopping",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-aankoop",
     "article": "de",
     "category_id": "a2-shopping",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-luxe",
     "article": "de",
     "category_id": "a2-shopping",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-pond",
     "article": "het",
     "category_id": "a2-shopping",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-bon",
     "article": "de",
     "category_id": "a2-shopping",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-automaat",
     "article": "de",
     "category_id": "a2-shopping",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-pak",
     "article": "het",
     "category_id": "a2-clothes",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-vlek",
     "article": "de",
     "category_id": "a2-clothes",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-das",
     "article": "de",
     "category_id": "a2-clothes",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-pet",
     "article": "de",
     "category_id": "a2-clothes",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-groep",
     "article": "de",
     "category_id": "a2-people",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-lengte",
     "article": "de",
     "category_id": "a2-people",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-bezoeker",
     "article": "de",
     "category_id": "a2-people",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-partner",
     "article": "de",
     "category_id": "a2-people",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-bijnaam",
     "article": "de",
     "category_id": "a2-people",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-echtpaar",
     "article": "het",
     "category_id": "a2-people",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-weduwe",
     "article": "de",
     "category_id": "a2-people",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-tiener",
     "article": "de",
     "category_id": "a2-people",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-vieren",
     "article": null,
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-team",
     "article": "het",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-speler",
     "article": "de",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-serie",
     "article": "de",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-programma",
     "article": "het",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-kasteel",
     "article": "het",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-scoren",
     "article": null,
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-kampioen",
     "article": "de",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-medaille",
     "article": "de",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-finale",
     "article": "de",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-lied",
     "article": "het",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-verzamelen",
     "article": null,
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-raden",
     "article": null,
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-winnaar",
     "article": "de",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-fan",
     "article": "de",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-video",
     "article": "de",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-schilderij",
     "article": "het",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-stadion",
     "article": "het",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-festival",
     "article": "het",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-kunstenaar",
     "article": "de",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-doelpunt",
     "article": "het",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-vlag",
     "article": "de",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-acteur",
     "article": "de",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-schilderen",
     "article": null,
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-concert",
     "article": "het",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-klassiek",
     "article": null,
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-schrijver",
     "article": "de",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-tijdschrift",
     "article": "het",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-theater",
     "article": "het",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-roman",
     "article": "de",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-beurt",
     "article": "de",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-voetballen",
     "article": null,
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-zanger",
     "article": "de",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-trainer",
     "article": "de",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-training",
     "article": "de",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-camera",
     "article": "de",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-duiken",
     "article": null,
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-instrument",
     "article": "het",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-tekening",
     "article": "de",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-gedicht",
     "article": "het",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-vuurwerk",
     "article": "het",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-meedoen",
     "article": null,
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-bal",
     "article": "de",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-feesten",
     "article": null,
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-klappen",
     "article": null,
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-documentaire",
     "article": "de",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-muzikant",
     "article": "de",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-piano",
     "article": "de",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-gitaar",
     "article": "de",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-kunstwerk",
     "article": "het",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-zaal",
     "article": "de",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-bar",
     "article": "de",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-voetballer",
     "article": "de",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-avontuur",
     "article": "het",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-bioscoop",
     "article": "de",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-klimmen",
     "article": null,
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-interesse",
     "article": "de",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-tocht",
     "article": "de",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-versieren",
     "article": null,
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-attractie",
     "article": "de",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-circus",
     "article": "het",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-pop",
     "article": "de",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-drum",
     "article": "de",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-clown",
     "article": "de",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-ballet",
     "article": "het",
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-roeien",
     "article": null,
     "category_id": "a2-free-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-wereld",
     "article": "de",
     "category_id": "a2-nature-weather",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-vuur",
     "article": "het",
     "category_id": "a2-nature-weather",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-grond",
     "article": "de",
     "category_id": "a2-nature-weather",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-wild",
     "article": null,
     "category_id": "a2-nature-weather",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-steen",
     "article": "de",
     "category_id": "a2-nature-weather",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-veld",
     "article": "het",
     "category_id": "a2-nature-weather",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-ster",
     "article": "de",
     "category_id": "a2-nature-weather",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-molen",
     "article": "de",
     "category_id": "a2-nature-weather",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-blad",
     "article": "het",
     "category_id": "a2-nature-weather",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-tak",
     "article": "de",
     "category_id": "a2-nature-weather",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-aarde",
     "article": "de",
     "category_id": "a2-nature-weather",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-boerderij",
     "article": "de",
     "category_id": "a2-nature-weather",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-boer",
     "article": "de",
     "category_id": "a2-nature-weather",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-hout",
     "article": "het",
     "category_id": "a2-nature-weather",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-landschap",
     "article": "het",
     "category_id": "a2-nature-weather",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-hert",
     "article": "het",
     "category_id": "a2-nature-weather",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-pad",
     "article": "het",
     "category_id": "a2-nature-weather",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-schaduw",
     "article": "de",
     "category_id": "a2-nature-weather",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-sloot",
     "article": "de",
     "category_id": "a2-nature-weather",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-temperatuur",
     "article": "de",
     "category_id": "a2-nature-weather",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-heuvel",
     "article": "de",
     "category_id": "a2-nature-weather",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-leeuw",
     "article": "de",
     "category_id": "a2-nature-weather",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-staart",
     "article": "de",
     "category_id": "a2-nature-weather",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-vlieg",
     "article": "de",
     "category_id": "a2-nature-weather",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-nest",
     "article": "het",
     "category_id": "a2-nature-weather",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-wolf",
     "article": "de",
     "category_id": "a2-nature-weather",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-kust",
     "article": "de",
     "category_id": "a2-nature-weather",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-golf",
     "article": "de",
     "category_id": "a2-nature-weather",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-dal",
     "article": "het",
     "category_id": "a2-nature-weather",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-oceaan",
     "article": "de",
     "category_id": "a2-nature-weather",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-slang",
     "article": "de",
     "category_id": "a2-nature-weather",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-rat",
     "article": "de",
     "category_id": "a2-nature-weather",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-grot",
     "article": "de",
     "category_id": "a2-nature-weather",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-insect",
     "article": "het",
     "category_id": "a2-nature-weather",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-poot",
     "article": "de",
     "category_id": "a2-nature-weather",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-polder",
     "article": "de",
     "category_id": "a2-nature-weather",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-aap",
     "article": "de",
     "category_id": "a2-nature-weather",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-bui",
     "article": "de",
     "category_id": "a2-nature-weather",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-ijzer",
     "article": "het",
     "category_id": "a2-nature-weather",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-hitte",
     "article": "de",
     "category_id": "a2-nature-weather",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-schelp",
     "article": "de",
     "category_id": "a2-nature-weather",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-geloven",
     "article": null,
     "category_id": "a2-feelings",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-durven",
     "article": null,
     "category_id": "a2-feelings",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-genieten",
     "article": null,
     "category_id": "a2-feelings",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-gevoel",
     "article": "het",
     "category_id": "a2-feelings",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-twijfelen",
     "article": null,
     "category_id": "a2-feelings",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-herinnering",
     "article": "de",
     "category_id": "a2-feelings",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-verrassen",
     "article": null,
     "category_id": "a2-feelings",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-sfeer",
     "article": "de",
     "category_id": "a2-feelings",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-dromen",
     "article": null,
     "category_id": "a2-feelings",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-jammer",
     "article": null,
     "category_id": "a2-feelings",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-onzeker",
     "article": null,
     "category_id": "a2-feelings",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-schrikken",
     "article": null,
     "category_id": "a2-feelings",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-schelen",
     "article": null,
     "category_id": "a2-feelings",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-emotie",
     "article": "de",
     "category_id": "a2-feelings",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-humor",
     "article": "de",
     "category_id": "a2-feelings",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-haten",
     "article": null,
     "category_id": "a2-feelings",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-vreselijk",
     "article": null,
     "category_id": "a2-feelings",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-eng",
     "article": null,
     "category_id": "a2-feelings",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-actief",
     "article": null,
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-enorm",
     "article": null,
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-hoogte",
     "article": "de",
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-breed",
     "article": null,
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-vlak",
     "article": null,
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-midden",
     "article": "het",
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-kant",
     "article": "de",
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-gemiddeld",
     "article": null,
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-gelijk",
     "article": null,
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-verschil",
     "article": "het",
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-serieus",
     "article": null,
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-gevaar",
     "article": "het",
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-los",
     "article": null,
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-dubbel",
     "article": null,
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-onbekend",
     "article": null,
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-streng",
     "article": null,
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-redelijk",
     "article": null,
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-automatisch",
     "article": null,
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-stevig",
     "article": null,
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-uniek",
     "article": null,
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-typisch",
     "article": null,
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-slim",
     "article": null,
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-zwak",
     "article": null,
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-dom",
     "article": null,
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-vierkant",
     "article": null,
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-logisch",
     "article": null,
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-praktisch",
     "article": null,
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-helder",
     "article": null,
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-smal",
     "article": null,
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-streep",
     "article": "de",
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-vals",
     "article": null,
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-apart",
     "article": null,
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-beroemd",
     "article": null,
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-toevallig",
     "article": null,
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-voorzichtig",
     "article": null,
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-kwijt",
     "article": null,
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-betrouwbaar",
     "article": null,
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-uitstekend",
     "article": null,
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-creatief",
     "article": null,
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-scherp",
     "article": null,
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-achterkant",
     "article": "de",
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-breedte",
     "article": "de",
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-verstandig",
     "article": null,
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-agressief",
     "article": null,
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-onderkant",
     "article": "de",
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-stiekem",
     "article": null,
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "adj-belachelijk",
     "article": null,
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-voorkant",
     "article": "de",
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-bovenkant",
     "article": "de",
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-lui",
     "article": null,
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-buitenkant",
     "article": "de",
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-binnenkant",
     "article": "de",
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-cirkel",
     "article": "de",
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-keurig",
     "article": null,
     "category_id": "a2-describing",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-noemen",
     "article": null,
     "category_id": "a2-communication",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-opnemen",
     "article": null,
     "category_id": "a2-communication",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-tonen",
     "article": null,
     "category_id": "a2-communication",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-contact",
     "article": "het",
     "category_id": "a2-communication",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-mening",
     "article": "de",
     "category_id": "a2-communication",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-wijzen",
     "article": null,
     "category_id": "a2-communication",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-weigeren",
     "article": null,
     "category_id": "a2-communication",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-klinken",
     "article": null,
     "category_id": "a2-communication",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-link",
     "article": "de",
     "category_id": "a2-communication",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-app",
     "article": "de",
     "category_id": "a2-communication",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-spellen",
     "article": null,
     "category_id": "a2-communication",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-nieuws",
     "article": "het",
     "category_id": "a2-communication",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-waarschuwen",
     "article": null,
     "category_id": "a2-communication",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-uitspraak",
     "article": "de",
     "category_id": "a2-communication",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-geheim",
     "article": "het",
     "category_id": "a2-communication",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-verbieden",
     "article": null,
     "category_id": "a2-communication",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-wensen",
     "article": null,
     "category_id": "a2-communication",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-appen",
     "article": null,
     "category_id": "a2-communication",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-accepteren",
     "article": null,
     "category_id": "a2-communication",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-letter",
     "article": "de",
     "category_id": "a2-communication",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-onzin",
     "article": "de",
     "category_id": "a2-communication",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-excuus",
     "article": "het",
     "category_id": "a2-communication",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-scherm",
     "article": "het",
     "category_id": "a2-communication",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-tip",
     "article": "de",
     "category_id": "a2-communication",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-grap",
     "article": "de",
     "category_id": "a2-communication",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-internetten",
     "article": null,
     "category_id": "a2-communication",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-opmerking",
     "article": "de",
     "category_id": "a2-communication",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-negeren",
     "article": null,
     "category_id": "a2-communication",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-wens",
     "article": "de",
     "category_id": "a2-communication",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-belofte",
     "article": "de",
     "category_id": "a2-communication",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-posten",
     "article": null,
     "category_id": "a2-communication",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-verzinnen",
     "article": null,
     "category_id": "a2-communication",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-updaten",
     "article": null,
     "category_id": "a2-communication",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-eindigen",
     "article": null,
     "category_id": "a2-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-verwachten",
     "article": null,
     "category_id": "a2-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-vervangen",
     "article": null,
     "category_id": "a2-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-ontdekken",
     "article": null,
     "category_id": "a2-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-redden",
     "article": null,
     "category_id": "a2-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-beschermen",
     "article": null,
     "category_id": "a2-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-merken",
     "article": null,
     "category_id": "a2-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-bekijken",
     "article": null,
     "category_id": "a2-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-verdelen",
     "article": null,
     "category_id": "a2-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-vergelijken",
     "article": null,
     "category_id": "a2-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-stap",
     "article": "de",
     "category_id": "a2-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-bedenken",
     "article": null,
     "category_id": "a2-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-kloppen",
     "article": null,
     "category_id": "a2-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-stelen",
     "article": null,
     "category_id": "a2-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-vechten",
     "article": null,
     "category_id": "a2-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-verplaatsen",
     "article": null,
     "category_id": "a2-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-ontsnappen",
     "article": null,
     "category_id": "a2-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-herkennen",
     "article": null,
     "category_id": "a2-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-grijpen",
     "article": null,
     "category_id": "a2-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-doorgaan",
     "article": null,
     "category_id": "a2-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-vullen",
     "article": null,
     "category_id": "a2-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-toevoegen",
     "article": null,
     "category_id": "a2-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-oppakken",
     "article": null,
     "category_id": "a2-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-trappen",
     "article": null,
     "category_id": "a2-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-vangen",
     "article": null,
     "category_id": "a2-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-schuiven",
     "article": null,
     "category_id": "a2-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-opgeven",
     "article": null,
     "category_id": "a2-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-meemaken",
     "article": null,
     "category_id": "a2-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-nadenken",
     "article": null,
     "category_id": "a2-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-afzetten",
     "article": null,
     "category_id": "a2-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "verb-mislukken",
     "article": null,
     "category_id": "a2-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-duwen",
     "article": null,
     "category_id": "a2-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-letten",
     "article": null,
     "category_id": "a2-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-ruiken",
     "article": null,
     "category_id": "a2-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-kruipen",
     "article": null,
     "category_id": "a2-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-stoten",
     "article": null,
     "category_id": "a2-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-gieten",
     "article": null,
     "category_id": "a2-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-afgeven",
     "article": null,
     "category_id": "a2-daily-verbs",
-    "reviewed": false
-  },
-  {
-    "word_id": "verb-sluipen",
-    "article": null,
-    "category_id": "a2-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-opblazen",
     "article": null,
     "category_id": "a2-daily-verbs",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-eeuw",
     "article": "de",
     "category_id": "a2-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-volgend",
     "article": null,
     "category_id": "a2-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-jaarlijks",
     "article": null,
     "category_id": "a2-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-regelmatig",
     "article": null,
     "category_id": "a2-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-verleden",
     "article": "het",
     "category_id": "a2-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-uitstellen",
     "article": null,
     "category_id": "a2-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-wekelijks",
     "article": null,
     "category_id": "a2-time",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-zeventien",
     "article": null,
-    "category_id": "a2-time",
-    "reviewed": false
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-negentien",
     "article": null,
-    "category_id": "a2-time",
-    "reviewed": false
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "owner"
   }
 ]

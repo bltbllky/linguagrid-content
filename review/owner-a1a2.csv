@@ -1,124 +1,124 @@
 part,no,id,cefr,dutch,english,turkish,suggested,why,decision
-A,A1,adj-getrouwd,A1,getrouwd,married (everyday word),evlenmiş,evli,"""evlenmiş"" is the participle (has got married); the everyday adjective is ""evli"". B1 gehuwd already has ""evli"", so gehuwd would need a hint such as ""evli (resmî)"". Round trip close/close. Machine translated by DeepL, advisory only: TR ""evli"".",
-A,A2,noun-bot,A1,het bot,bone,kemik,level: A2,"Bone is an A2 health word; A1 body vocabulary is the visible body parts. Machine translated by DeepL, advisory only: TR ""kemik"".",
-A,A3,noun-long,A1,de long,lung,akciğer,level: A2,"Internal organs are beyond the A1 body words (hoofd, arm, been, buik); long is an A2 health word. Machine translated by DeepL, advisory only: TR ""akciğer"".",
-A,A4,noun-batterij,A2,de batterij,battery,pil,pil (batarya),"The prompt ""pil"" is spelled like the Dutch extras word pil (A2, ""hap""); a learner who reads ""pil"" may trace pil instead of batterij. Machine translated by DeepL, advisory only: TR ""pil"".",
-A,A5,noun-overlast,A2,de overlast,nuisance,rahatsızlık (gürültü),level: B1: leave out of the extras,"Formal word from housing and council letters (geluidsoverlast, overlast melden); B1. Machine translated by DeepL, advisory only: TR ""rahatsızlık"".",
-A,A6,noun-drempel,A2,de drempel,threshold,eşik,level: B1: leave out of the extras,"The door-step sense is rare in A2 texts; the frequent sense is figurative (een drempel verlagen), B1. Machine translated by DeepL, advisory only: TR ""eşik"".",
-A,A7,noun-mondkap,A2,de mondkap,face mask,maske (ağız),article: de (keep),"Round trip: the blind Dutch pass guessed het. Wiktionary gives mondkap as feminine, so de (https://en.wiktionary.org/wiki/mondkap). Owner confirms. Machine translated by DeepL, advisory only: TR ""ağız maskesi"".",
-A,A8,noun-symptoom,A2,het symptoom,symptom,belirti,level: B1: leave out of the extras,"Medical register; at A2 patients say klachten. B1. Machine translated by DeepL, advisory only: TR ""belirti"".",
-A,A9,noun-tak,A2,de tak,branch,dal,dal (ağaç),"The prompt ""dal"" is spelled like the Dutch extras word dal (A2, ""vadi""), in the same category a2-nature-weather, so both can share a grid. Machine translated by DeepL, advisory only: TR ""dal"".",
-A,A10,adj-stiekem,A2,stiekem,sneaky,sinsi,gizlice,"At A2 stiekem mostly means secretly (iets stiekem doen); ""sinsi"" is a negative trait (sly). ""gizlice"" is not used by another word (B1 verborgen has ""gizli""). Machine translated by DeepL, advisory only: TR ""gizlice"". Decide with B-row of the same word (TR and EN together).",
-A,A11,verb-afzetten,A2,afzetten,to drop off (someone),(arabayla) bırakmak,(arabayla) bırakmak (keep),"Round trip mismatch: the blind Dutch pass read the switch-off sense (kapatmak), which is also A2 but is the prompt of A2 uitdoen ""kapatmak (cihaz)"". The drop-off sense keeps them apart. Machine translated by DeepL, advisory only: TR ""bırakmak"".",
-A,A12,verb-sluipen,A2,sluipen,to sneak,sinsice yürümek,level: B1: leave out of the extras,"A narrative verb (to creep); A2 learners say stiekem lopen. B1. Machine translated by DeepL, advisory only: TR ""sinsice yaklaşmak"".",
-A,A13,noun-zeventien,A2,zeventien,seventeen,on yedi,level: A1,"Split from the other teens (dertien to achttien are A1) only by the rank rule E7; a learner meets 11-19 as one A1 set. Machine translated by DeepL, advisory only: TR ""on yedi"".",
-A,A14,noun-negentien,A2,negentien,nineteen,on dokuz,level: A1,"As zeventien: the only other teen at A2. Machine translated by DeepL, advisory only: TR ""on dokuz"".",
-B,B1,verb-testen,A2,testen,to test (try out),test etmek,to test (for an illness),"The category is Health and body, where testen is a medical test (""laten testen op corona""); the hint ""(try out)"" points to the product sense. The hint is needed (B1 toetsen is ""to test""). Machine translated by DeepL, advisory only: EN ""testing"".",
-B,B2,noun-rapport,A2,het rapport,report,karne,school report,"The A2 sense in Work and education is the school report; the Turkish has ""karne"". A bare ""report"" reads as a written report (verslag). Round trip close/match. Machine translated by DeepL, advisory only: EN ""the report"".",
-B,B3,noun-vrachtwagen,A2,de vrachtwagen,lorry (goods vehicle),yük kamyonu,lorry (everyday word),"B1 truck is already ""lorry"", and ""goods vehicle"" describes both words, so the hint does not separate them. vrachtwagen is the everyday word; the register hint follows getrouwd ""married (everyday word)"" vs B1 gehuwd. Machine translated by DeepL, advisory only: EN ""the lorry"".",
-B,B4,noun-merk,A2,het merk,brand,marka,brand name,"The prompt ""brand"" is spelled like the Dutch extras word brand (A2, ""fire (blaze)""); a learner who reads ""brand"" may trace brand instead of merk. Same pattern as T-149 batterij/pil. Machine translated by DeepL, advisory only: EN ""the brand"".",
-B,B5,noun-pond,A2,het pond,pound,yarım kilo,pound (half a kilo),"In Shopping and money a bare ""pound"" reads as the currency, or as 454 g. Dutch pond is 500 g at the market; the Turkish already says ""yarım kilo"". Round trip close/match. Machine translated by DeepL, advisory only: EN ""the pound"".",
-B,B6,noun-tijdschrift,A2,het tijdschrift,magazine (periodical),dergi (yayın),magazine (everyday word),"B1 magazine is ""magazine"" and is spelled like this prompt; ""periodical"" is a rarer English word and fits both Dutch words. tijdschrift is the everyday word. Machine translated by DeepL, advisory only: EN ""the magazine"".",
-B,B7,verb-verrassen,A2,verrassen,to surprise (unexpectedly),sürpriz yapmak,to surprise (with a gift),"""unexpectedly"" repeats the verb's meaning and does not separate it from A1 verbazen ""to surprise"". The A2 use is ""iemand verrassen met een cadeau""; the Turkish ""sürpriz yapmak"" has the same sense. Machine translated by DeepL, advisory only: EN ""surprise"".",
-B,B8,adj-stiekem,A2,stiekem,sneaky,sinsi,secretly,"At A2 stiekem mostly means secretly (""iets stiekem doen""); ""sneaky"" is the character trait. It follows the Turkish ""sinsi"", which T-149 filed with the suggestion ""gizlice"". Decide both rows together; the English follows the owner's Turkish sense. Machine translated by DeepL, advisory only: EN ""on the sly"". Decide with A-row of the same word (TR and EN together).",
-B,B9,verb-afzetten,A2,afzetten,to drop off (someone),(arabayla) bırakmak,to drop off (someone) (keep),"Round trip mismatch: the blind Dutch pass read the switch-off sense, which is also A2 but is the prompt of A1 uitdoen ""to switch off"". The drop-off sense keeps them apart and matches the Turkish (T-149 kept it the same way). Machine translated by DeepL, advisory only: EN ""to switch off"".",
-C,C1,adj-geboren,A1,geboren,born,doğmuş,,,
-C,C2,noun-cirkel,A2,de cirkel,circle,çember,,,
-C,C3,noun-buitenkant,A2,de buitenkant,outside,dış taraf,,,
-C,C4,noun-instrument,A2,het instrument,instrument,enstrüman,,,
-C,C5,verb-bouwen,A1,bouwen,to build,inşa etmek,,,
-C,C6,noun-piloot,A2,de piloot,pilot,pilot,,,
-C,C7,noun-tekening,A2,de tekening,drawing,çizim,,,
-C,C8,noun-stadion,A2,het stadion,stadium,stadyum,,,
-C,C9,adj-helder,A2,helder,clear (bright),berrak,,,
-C,C10,noun-oceaan,A2,de oceaan,ocean,okyanus,,,
-C,C11,noun-zestig,A1,zestig,sixty,altmış,,,
-C,C12,adj-wakker,A1,wakker,awake,uyanık,,,
-C,C13,adj-zwak,A2,zwak,weak,güçsüz,,,
-C,C14,verb-afgeven,A2,afgeven,to hand over,elden vermek,,,
-C,C15,verb-herkennen,A2,herkennen,to recognise,görünce tanımak,,,
-C,C16,noun-ijzer,A2,het ijzer,iron (metal),demir,,,
-C,C17,adj-houten,A2,houten,wooden,ahşap,,,
-C,C18,adj-wekelijks,A2,wekelijks,weekly,haftalık,,,
-C,C19,noun-tip,A2,de tip,tip (advice),ipucu,,,
-C,C20,noun-finale,A2,de finale,final,final,,,
-C,C21,noun-kruispunt,A2,het kruispunt,junction,dörtyol,,,
-C,C22,noun-tachtig,A1,tachtig,eighty,seksen,,,
-C,C23,noun-belofte,A2,de belofte,promise,söz (vaat),,,
-C,C24,noun-vuurwerk,A2,het vuurwerk,fireworks,havai fişek,,,
-C,C25,verb-draaien,A1,draaien,to turn (rotate),"dönmek, döndürmek",,,
-C,C26,noun-kunstenaar,A2,de kunstenaar,artist,sanatçı,,,
-C,C27,noun-dinsdag,A1,de dinsdag,Tuesday,salı,,,
-C,C28,verb-schilderen,A2,schilderen,to paint (a picture),resim yapmak,,,
-C,C29,noun-hout,A2,het hout,wood,tahta (malzeme),,,
-C,C30,noun-wens,A2,de wens,wish,dilek,,,
-C,C31,noun-dertig,A1,dertig,thirty,otuz,,,
-C,C32,noun-juni,A1,de juni,June,haziran,,,
-C,C33,verb-samenwerken,A2,samenwerken,to work together,işbirliği yapmak,,,
-C,C34,adj-vals,A2,vals,fake,sahte,,,
-C,C35,noun-blad,A2,het blad,leaf,yaprak,,,
-C,C36,verb-voetballen,A2,voetballen,to play football,futbol oynamak,,,
-C,C37,verb-stelen,A2,stelen,to steal,çalmak (hırsızlık),,,
-C,C38,verb-schrikken,A2,schrikken,to get a fright,irkilmek,,,
-C,C39,verb-verlengen,A2,verlengen,to extend,uzatmak,,,
-C,C40,verb-branden,A2,branden,to burn (be alight),yanmak,,,
-C,C41,noun-grap,A2,de grap,joke,şaka,,,
-C,C42,noun-oktober,A1,de oktober,October,ekim,,,
-C,C43,verb-beschermen,A2,beschermen,to protect,korumak (zarardan),,,
-C,C44,noun-trainer,A2,de trainer,coach,antrenör,,,
-C,C45,verb-vieren,A2,vieren,to celebrate,kutlamak,,,
-C,C46,adj-scherp,A2,scherp,sharp,keskin,,,
-C,C47,noun-toren,A2,de toren,tower,kule,,,
-C,C48,noun-muzikant,A2,de muzikant,musician,müzisyen,,,
-C,C49,verb-duiken,A2,duiken,to dive,dalmak,,,
-C,C50,noun-rem,A2,de rem,brake,fren,,,
-D,D1,noun-zeventig,A1,zeventig,seventy,yetmiş,,,
-D,D2,noun-pijl,A2,de pijl,arrow,ok (işaret),,,
-D,D3,noun-nul,A1,nul,zero,sıfır,,,
-D,D4,verb-scoren,A2,scoren,to score,gol atmak,,,
-D,D5,noun-echtpaar,A2,het echtpaar,married couple,evli çift,,,
-D,D6,noun-miljoen,A1,miljoen,million,milyon,,,
-D,D7,noun-groep,A2,de groep,group,grup,,,
-D,D8,noun-laan,A2,de laan,avenue,bulvar,,,
-D,D9,noun-goud,A2,het goud,gold,altın,,,
-D,D10,noun-aarde,A2,de aarde,earth,toprak,,,
-D,D11,noun-pot,A2,de pot,jar,kavanoz,,,
-D,D12,noun-boerderij,A2,de boerderij,farm,çiftlik,,,
-D,D13,noun-virus,A2,het virus,virus,virüs,,,
-D,D14,noun-luxe,A2,de luxe,luxury,lüks (konfor),,,
-D,D15,noun-vrijdag,A1,de vrijdag,Friday,cuma,,,
-D,D16,noun-echtgenote,A1,de echtgenote,wife,eş (kadın),,,
-D,D17,noun-miljard,A1,miljard,billion,milyar,,,
-D,D18,noun-augustus,A1,de augustus,August,ağustos,,,
-D,D19,verb-ontsnappen,A2,ontsnappen,to escape,kaçmak,,,
-D,D20,noun-motor,A2,de motor,engine,motor,,,
-D,D21,noun-lengte,A2,de lengte,height (of a person),boy,,,
-D,D22,adj-toevallig,A2,toevallig,by chance,tesadüfi,,,
-D,D23,noun-snelheid,A2,de snelheid,speed,hız,,,
-D,D24,noun-tiener,A2,de tiener,teenager,yeniyetme,,,
-D,D25,noun-seconde,A1,de seconde,second (of time),saniye,,,
-D,D26,noun-temperatuur,A2,de temperatuur,temperature,sıcaklık,,,
-D,D27,adj-rijk,A1,rijk,rich,zengin,,,
-D,D28,noun-veertig,A1,veertig,forty,kırk,,,
-D,D29,noun-gevoel,A2,het gevoel,feeling,his,,,
-D,D30,noun-mening,A2,de mening,opinion,kişisel görüş,,,
-D,D31,noun-bal,A2,de bal,ball,top,,,
-D,D32,noun-letter,A2,de letter,letter (of the alphabet),harf,,,
-D,D33,noun-som,A2,de som,sum,hesap problemi,,,
-D,D34,noun-echtgenoot,A1,de echtgenoot,husband,eş (erkek),,,
-D,D35,noun-das,A2,de das,tie,kravat,,,
-D,D36,noun-document,A2,het document,document,belge,,,
-D,D37,verb-springen,A1,springen,to jump,zıplamak,,,
-D,D38,noun-gitaar,A2,de gitaar,guitar,gitar,,,
-D,D39,verb-uitstellen,A2,uitstellen,to postpone,ertelemek,,,
-D,D40,noun-code,A2,de code,code,kod,,,
-D,D41,noun-gram,A2,de gram,gram,gram,,,
-D,D42,noun-straatnaam,A2,de straatnaam,street name,sokak adı,,,
-D,D43,verb-accepteren,A2,accepteren,to accept,kabul etmek,,,
-D,D44,noun-programma,A2,het programma,programme,program,,,
-D,D45,verb-organiseren,A2,organiseren,to organise,organize etmek,,,
-D,D46,noun-sfeer,A2,de sfeer,atmosphere,"ortam, atmosfer",,,
-D,D47,noun-kunstwerk,A2,het kunstwerk,work of art,sanat eseri,,,
-D,D48,noun-operatie,A2,de operatie,operation (surgery),ameliyat,,,
-D,D49,adj-gelijk,A2,gelijk,equal,eşit,,,
-D,D50,noun-clown,A2,de clown,clown,palyaço,,,
+A,A1,adj-getrouwd,A1,getrouwd,married (everyday word),evlenmiş,evli,"""evlenmiş"" is the participle (has got married); the everyday adjective is ""evli"". B1 gehuwd already has ""evli"", so gehuwd would need a hint such as ""evli (resmî)"". Round trip close/close. Machine translated by DeepL, advisory only: TR ""evli"".",Ö
+A,A2,noun-bot,A1,het bot,bone,kemik,level: A2,"Bone is an A2 health word; A1 body vocabulary is the visible body parts. Machine translated by DeepL, advisory only: TR ""kemik"".",Ö
+A,A3,noun-long,A1,de long,lung,akciğer,level: A2,"Internal organs are beyond the A1 body words (hoofd, arm, been, buik); long is an A2 health word. Machine translated by DeepL, advisory only: TR ""akciğer"".",Ö
+A,A4,noun-batterij,A2,de batterij,battery,pil,pil (batarya),"The prompt ""pil"" is spelled like the Dutch extras word pil (A2, ""hap""); a learner who reads ""pil"" may trace pil instead of batterij. Machine translated by DeepL, advisory only: TR ""pil"".",Ö
+A,A5,noun-overlast,A2,de overlast,nuisance,rahatsızlık (gürültü),level: B1: leave out of the extras,"Formal word from housing and council letters (geluidsoverlast, overlast melden); B1. Machine translated by DeepL, advisory only: TR ""rahatsızlık"".",Ö
+A,A6,noun-drempel,A2,de drempel,threshold,eşik,level: B1: leave out of the extras,"The door-step sense is rare in A2 texts; the frequent sense is figurative (een drempel verlagen), B1. Machine translated by DeepL, advisory only: TR ""eşik"".",Ö
+A,A7,noun-mondkap,A2,de mondkap,face mask,maske (ağız),article: de (keep),"Round trip: the blind Dutch pass guessed het. Wiktionary gives mondkap as feminine, so de (https://en.wiktionary.org/wiki/mondkap). Owner confirms. Machine translated by DeepL, advisory only: TR ""ağız maskesi"".",OK
+A,A8,noun-symptoom,A2,het symptoom,symptom,belirti,level: B1: leave out of the extras,"Medical register; at A2 patients say klachten. B1. Machine translated by DeepL, advisory only: TR ""belirti"".",OK
+A,A9,noun-tak,A2,de tak,branch,dal,dal (ağaç),"The prompt ""dal"" is spelled like the Dutch extras word dal (A2, ""vadi""), in the same category a2-nature-weather, so both can share a grid. Machine translated by DeepL, advisory only: TR ""dal"".",OK
+A,A10,adj-stiekem,A2,stiekem,sneaky,sinsi,gizlice,"At A2 stiekem mostly means secretly (iets stiekem doen); ""sinsi"" is a negative trait (sly). ""gizlice"" is not used by another word (B1 verborgen has ""gizli""). Machine translated by DeepL, advisory only: TR ""gizlice"". Decide with B-row of the same word (TR and EN together).",Ö
+A,A11,verb-afzetten,A2,afzetten,to drop off (someone),(arabayla) bırakmak,(arabayla) bırakmak (keep),"Round trip mismatch: the blind Dutch pass read the switch-off sense (kapatmak), which is also A2 but is the prompt of A2 uitdoen ""kapatmak (cihaz)"". The drop-off sense keeps them apart. Machine translated by DeepL, advisory only: TR ""bırakmak"".",OK
+A,A12,verb-sluipen,A2,sluipen,to sneak,sinsice yürümek,level: B1: leave out of the extras,"A narrative verb (to creep); A2 learners say stiekem lopen. B1. Machine translated by DeepL, advisory only: TR ""sinsice yaklaşmak"".",Ö
+A,A13,noun-zeventien,A2,zeventien,seventeen,on yedi,level: A1,"Split from the other teens (dertien to achttien are A1) only by the rank rule E7; a learner meets 11-19 as one A1 set. Machine translated by DeepL, advisory only: TR ""on yedi"".",Ö
+A,A14,noun-negentien,A2,negentien,nineteen,on dokuz,level: A1,"As zeventien: the only other teen at A2. Machine translated by DeepL, advisory only: TR ""on dokuz"".",Ö
+B,B1,verb-testen,A2,testen,to test (try out),test etmek,to test (for an illness),"The category is Health and body, where testen is a medical test (""laten testen op corona""); the hint ""(try out)"" points to the product sense. The hint is needed (B1 toetsen is ""to test""). Machine translated by DeepL, advisory only: EN ""testing"".",OK
+B,B2,noun-rapport,A2,het rapport,report,karne,school report,"The A2 sense in Work and education is the school report; the Turkish has ""karne"". A bare ""report"" reads as a written report (verslag). Round trip close/match. Machine translated by DeepL, advisory only: EN ""the report"".",Ö
+B,B3,noun-vrachtwagen,A2,de vrachtwagen,lorry (goods vehicle),yük kamyonu,lorry (everyday word),"B1 truck is already ""lorry"", and ""goods vehicle"" describes both words, so the hint does not separate them. vrachtwagen is the everyday word; the register hint follows getrouwd ""married (everyday word)"" vs B1 gehuwd. Machine translated by DeepL, advisory only: EN ""the lorry"".",OK
+B,B4,noun-merk,A2,het merk,brand,marka,brand name,"The prompt ""brand"" is spelled like the Dutch extras word brand (A2, ""fire (blaze)""); a learner who reads ""brand"" may trace brand instead of merk. Same pattern as T-149 batterij/pil. Machine translated by DeepL, advisory only: EN ""the brand"".",OK
+B,B5,noun-pond,A2,het pond,pound,yarım kilo,pound (half a kilo),"In Shopping and money a bare ""pound"" reads as the currency, or as 454 g. Dutch pond is 500 g at the market; the Turkish already says ""yarım kilo"". Round trip close/match. Machine translated by DeepL, advisory only: EN ""the pound"".",OK
+B,B6,noun-tijdschrift,A2,het tijdschrift,magazine (periodical),dergi (yayın),magazine (everyday word),"B1 magazine is ""magazine"" and is spelled like this prompt; ""periodical"" is a rarer English word and fits both Dutch words. tijdschrift is the everyday word. Machine translated by DeepL, advisory only: EN ""the magazine"".",OK
+B,B7,verb-verrassen,A2,verrassen,to surprise (unexpectedly),sürpriz yapmak,to surprise (with a gift),"""unexpectedly"" repeats the verb's meaning and does not separate it from A1 verbazen ""to surprise"". The A2 use is ""iemand verrassen met een cadeau""; the Turkish ""sürpriz yapmak"" has the same sense. Machine translated by DeepL, advisory only: EN ""surprise"".",OK
+B,B8,adj-stiekem,A2,stiekem,sneaky,sinsi,secretly,"At A2 stiekem mostly means secretly (""iets stiekem doen""); ""sneaky"" is the character trait. It follows the Turkish ""sinsi"", which T-149 filed with the suggestion ""gizlice"". Decide both rows together; the English follows the owner's Turkish sense. Machine translated by DeepL, advisory only: EN ""on the sly"". Decide with A-row of the same word (TR and EN together).",Ö
+B,B9,verb-afzetten,A2,afzetten,to drop off (someone),(arabayla) bırakmak,to drop off (someone) (keep),"Round trip mismatch: the blind Dutch pass read the switch-off sense, which is also A2 but is the prompt of A1 uitdoen ""to switch off"". The drop-off sense keeps them apart and matches the Turkish (T-149 kept it the same way). Machine translated by DeepL, advisory only: EN ""to switch off"".",OK
+C,C1,adj-geboren,A1,geboren,born,doğmuş,,,✓
+C,C2,noun-cirkel,A2,de cirkel,circle,çember,,,✓
+C,C3,noun-buitenkant,A2,de buitenkant,outside,dış taraf,,,✓
+C,C4,noun-instrument,A2,het instrument,instrument,enstrüman,,,✓
+C,C5,verb-bouwen,A1,bouwen,to build,inşa etmek,,,✓
+C,C6,noun-piloot,A2,de piloot,pilot,pilot,,,✓
+C,C7,noun-tekening,A2,de tekening,drawing,çizim,,,✓
+C,C8,noun-stadion,A2,het stadion,stadium,stadyum,,,✓
+C,C9,adj-helder,A2,helder,clear (bright),berrak,,,✓
+C,C10,noun-oceaan,A2,de oceaan,ocean,okyanus,,,✓
+C,C11,noun-zestig,A1,zestig,sixty,altmış,,,✓
+C,C12,adj-wakker,A1,wakker,awake,uyanık,,,✓
+C,C13,adj-zwak,A2,zwak,weak,güçsüz,,,✓
+C,C14,verb-afgeven,A2,afgeven,to hand over,elden vermek,,,✓
+C,C15,verb-herkennen,A2,herkennen,to recognise,görünce tanımak,,,✓
+C,C16,noun-ijzer,A2,het ijzer,iron (metal),demir,,,✓
+C,C17,adj-houten,A2,houten,wooden,ahşap,,,✓
+C,C18,adj-wekelijks,A2,wekelijks,weekly,haftalık,,,✓
+C,C19,noun-tip,A2,de tip,tip (advice),ipucu,,,✓
+C,C20,noun-finale,A2,de finale,final,final,,,✓
+C,C21,noun-kruispunt,A2,het kruispunt,junction,dörtyol,,,kavşak
+C,C22,noun-tachtig,A1,tachtig,eighty,seksen,,,✓
+C,C23,noun-belofte,A2,de belofte,promise,söz (vaat),,,✓
+C,C24,noun-vuurwerk,A2,het vuurwerk,fireworks,havai fişek,,,✓
+C,C25,verb-draaien,A1,draaien,to turn (rotate),"dönmek, döndürmek",,,✓
+C,C26,noun-kunstenaar,A2,de kunstenaar,artist,sanatçı,,,✓
+C,C27,noun-dinsdag,A1,de dinsdag,Tuesday,salı,,,✓
+C,C28,verb-schilderen,A2,schilderen,to paint (a picture),resim yapmak,,,✓
+C,C29,noun-hout,A2,het hout,wood,tahta (malzeme),,,✓
+C,C30,noun-wens,A2,de wens,wish,dilek,,,✓
+C,C31,noun-dertig,A1,dertig,thirty,otuz,,,✓
+C,C32,noun-juni,A1,de juni,June,haziran,,,✓
+C,C33,verb-samenwerken,A2,samenwerken,to work together,işbirliği yapmak,,,✓
+C,C34,adj-vals,A2,vals,fake,sahte,,,✓
+C,C35,noun-blad,A2,het blad,leaf,yaprak,,,✓
+C,C36,verb-voetballen,A2,voetballen,to play football,futbol oynamak,,,✓
+C,C37,verb-stelen,A2,stelen,to steal,çalmak (hırsızlık),,,✓
+C,C38,verb-schrikken,A2,schrikken,to get a fright,irkilmek,,,✓
+C,C39,verb-verlengen,A2,verlengen,to extend,uzatmak,,,✓
+C,C40,verb-branden,A2,branden,to burn (be alight),yanmak,,,✓
+C,C41,noun-grap,A2,de grap,joke,şaka,,,✓
+C,C42,noun-oktober,A1,de oktober,October,ekim,,,✓
+C,C43,verb-beschermen,A2,beschermen,to protect,korumak (zarardan),,,✓
+C,C44,noun-trainer,A2,de trainer,coach,antrenör,,,✓
+C,C45,verb-vieren,A2,vieren,to celebrate,kutlamak,,,✓
+C,C46,adj-scherp,A2,scherp,sharp,keskin,,,✓
+C,C47,noun-toren,A2,de toren,tower,kule,,,✓
+C,C48,noun-muzikant,A2,de muzikant,musician,müzisyen,,,✓
+C,C49,verb-duiken,A2,duiken,to dive,dalmak,,,✓
+C,C50,noun-rem,A2,de rem,brake,fren,,,✓
+D,D1,noun-zeventig,A1,zeventig,seventy,yetmiş,,,✓
+D,D2,noun-pijl,A2,de pijl,arrow,ok (işaret),,,✓
+D,D3,noun-nul,A1,nul,zero,sıfır,,,✓
+D,D4,verb-scoren,A2,scoren,to score,gol atmak,,,✓
+D,D5,noun-echtpaar,A2,het echtpaar,married couple,evli çift,,,✓
+D,D6,noun-miljoen,A1,miljoen,million,milyon,,,✓
+D,D7,noun-groep,A2,de groep,group,grup,,,✓
+D,D8,noun-laan,A2,de laan,avenue,bulvar,,,✓
+D,D9,noun-goud,A2,het goud,gold,altın,,,✓
+D,D10,noun-aarde,A2,de aarde,earth,toprak,,,✓
+D,D11,noun-pot,A2,de pot,jar,kavanoz,,,✓
+D,D12,noun-boerderij,A2,de boerderij,farm,çiftlik,,,✓
+D,D13,noun-virus,A2,het virus,virus,virüs,,,✓
+D,D14,noun-luxe,A2,de luxe,luxury,lüks (konfor),,,✓
+D,D15,noun-vrijdag,A1,de vrijdag,Friday,cuma,,,✓
+D,D16,noun-echtgenote,A1,de echtgenote,wife,eş (kadın),,,✓
+D,D17,noun-miljard,A1,miljard,billion,milyar,,,✓
+D,D18,noun-augustus,A1,de augustus,August,ağustos,,,✓
+D,D19,verb-ontsnappen,A2,ontsnappen,to escape,kaçmak,,,relaxed
+D,D20,noun-motor,A2,de motor,engine,motor,,,✓
+D,D21,noun-lengte,A2,de lengte,height (of a person),boy,,,✓
+D,D22,adj-toevallig,A2,toevallig,by chance,tesadüfi,,,✓
+D,D23,noun-snelheid,A2,de snelheid,speed,hız,,,✓
+D,D24,noun-tiener,A2,de tiener,teenager,yeniyetme,,,✓
+D,D25,noun-seconde,A1,de seconde,second (of time),saniye,,,✓
+D,D26,noun-temperatuur,A2,de temperatuur,temperature,sıcaklık,,,✓
+D,D27,adj-rijk,A1,rijk,rich,zengin,,,✓
+D,D28,noun-veertig,A1,veertig,forty,kırk,,,✓
+D,D29,noun-gevoel,A2,het gevoel,feeling,his,,,✓
+D,D30,noun-mening,A2,de mening,opinion,kişisel görüş,,,✓
+D,D31,noun-bal,A2,de bal,ball,top,,,✓
+D,D32,noun-letter,A2,de letter,letter (of the alphabet),harf,,,✓
+D,D33,noun-som,A2,de som,sum,hesap problemi,,,✓
+D,D34,noun-echtgenoot,A1,de echtgenoot,husband,eş (erkek),,,✓
+D,D35,noun-das,A2,de das,tie,kravat,,,✓
+D,D36,noun-document,A2,het document,document,belge,,,✓
+D,D37,verb-springen,A1,springen,to jump,zıplamak,,,✓
+D,D38,noun-gitaar,A2,de gitaar,guitar,gitar,,,✓
+D,D39,verb-uitstellen,A2,uitstellen,to postpone,ertelemek,,,✓
+D,D40,noun-code,A2,de code,code,kod,,,✓
+D,D41,noun-gram,A2,de gram,gram,gram,,,✓
+D,D42,noun-straatnaam,A2,de straatnaam,street name,sokak adı,,,✓
+D,D43,verb-accepteren,A2,accepteren,to accept,kabul etmek,,,✓
+D,D44,noun-programma,A2,het programma,programme,program,,,✓
+D,D45,verb-organiseren,A2,organiseren,to organise,organize etmek,,,✓
+D,D46,noun-sfeer,A2,de sfeer,atmosphere,"ortam, atmosfer",,,✓
+D,D47,noun-kunstwerk,A2,het kunstwerk,work of art,sanat eseri,,,✓
+D,D48,noun-operatie,A2,de operatie,operation (surgery),ameliyat,,,✓
+D,D49,adj-gelijk,A2,gelijk,equal,eşit,,,✓
+D,D50,noun-clown,A2,de clown,clown,palyaço,,,✓
