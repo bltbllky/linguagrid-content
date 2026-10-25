@@ -12,19 +12,25 @@ import {
   addCardinals,
   B1_BAND,
   B1_RULES,
+  B2_BAND,
+  B2_RULES,
   addKaikkiLine,
   articleCheck,
+  buildB2Pool,
   buildPool,
   calibration,
   emptyKaikkiIndex,
+  excludedIdsFor,
   lemmaCounts,
   lemmaRanks,
+  longShare,
   parseLeipzigWords,
   poolCounts,
   rankBand,
   rankBandA1A2,
+  rankBandB2,
   selectA1A2,
-  selectB1,
+  selectWords,
   sourceDrift,
   type PoolRow,
 } from '../b1-pool.ts';
@@ -86,10 +92,19 @@ function findWordsFile(name: string): string {
   throw new Error(`Missing ${name}-words.txt in .cache/b1; run --fetch`);
 }
 
-type Level = 'b1' | 'a1a2';
+type Level = 'b1' | 'a1a2' | 'b2';
 let level: Level = 'b1';
-const poolFile = () => join(cache, level === 'a1a2' ? 'pool-a1a2.json' : 'pool.json');
+const poolFile = () => join(cache, level === 'b1' ? 'pool.json' : `pool-${level}.json`);
 const readIfThere = <T>(path: string): T[] => (existsSync(path) ? readJson<T[]>(path) : []);
+
+/** Live words plus every staged stage, so no level repeats a lemma of another (D3, E3). */
+function liveWords(): Word[] {
+  return [
+    ...readJson<Word[]>(join(root, 'data', 'words.json')),
+    ...readIfThere<Word>(join(root, 'data', 'words-own.json')),
+    ...['b1', 'a1a2', 'b2'].filter((stage) => stage !== level).flatMap((stage) => readIfThere<Word>(join(root, 'data', stage, 'words.json'))),
+  ];
+}
 
 async function build() {
   const recordFile = join(cache, 'sources.json');
@@ -108,32 +123,44 @@ async function build() {
     readFileSync(join(cache, 'wordlist.txt'), 'utf8').split('\n').map((l) => l.trim().normalize('NFC').toLowerCase()),
   );
   const words = readJson<Word[]>(join(root, 'data', 'words.json'));
-  const excluded = readJson<{ id: string }[]>(join(root, 'data', 'excluded.json'));
+  const excluded = readJson<{ id: string; reason: string }[]>(join(root, 'data', 'excluded.json'));
   const counts = lemmaCounts(forms, index);
   const ranks = lemmaRanks(counts);
   const a1a2 = level === 'a1a2';
   const added = a1a2 ? addCardinals(index, forms, counts, ranks) : [];
-  // The extras must not repeat a lemma of any other level, live or staged (E3).
-  const taken = a1a2
-    ? [...words, ...readIfThere<Word>(join(root, 'data', 'b1', 'words.json')), ...readIfThere<Word>(join(root, 'data', 'b2', 'words.json'))]
-    : words;
-  const pool = buildPool(
-    ranks,
-    index,
-    openTaal,
-    { lemmas: new Set(taken.map((w) => w.lemma_nl)), excludedIds: new Set(excluded.map((e) => e.id)) },
-    a1a2 ? A1A2_BAND : B1_BAND,
-    a1a2 ? A1A2_RULES : B1_RULES,
-  );
+  // The extras and B2 must not repeat a lemma of any other level, live or staged (E3, D3).
+  const taken = liveWords();
+  const live = { lemmas: new Set(taken.map((w) => w.lemma_nl)), excludedIds: excludedIdsFor(level, excluded) };
+  const pool =
+    level === 'b2'
+      ? buildB2Pool(
+          ranks,
+          index,
+          openTaal,
+          live,
+          new Set(readIfThere<Word>(join(root, 'data', 'b1', 'words.json')).map((w) => w.lemma_nl)),
+        )
+      : buildPool(ranks, index, openTaal, live, a1a2 ? A1A2_BAND : B1_BAND, a1a2 ? A1A2_RULES : B1_RULES);
   writeFileSync(poolFile(), JSON.stringify(pool, null, 2) + '\n');
 
   const stats = poolCounts(pool, a1a2 ? rankBandA1A2 : rankBand);
+  if (level === 'b2') {
+    const band: Record<string, number> = {};
+    for (const r of pool) band[rankBandB2(r)] = (band[rankBandB2(r)] ?? 0) + 1;
+    stats.band = band;
+  }
   console.log(
     `Pool: ${pool.length} rows, ${stats.lemmas} lemmas (${stats.twoPos} with two parts of speech) (${poolFile().replace(root + '/', '')})`,
   );
   if (a1a2) console.log(`Cardinal numbers added as noun rows (E7): ${added.join(', ') || 'none'}`);
   console.log('Per part of speech:', stats.pos);
   console.log('Per rank band:', stats.band);
+  if (level === 'b2') {
+    console.log(`Share of 10-12 letter rows: ${longShare(pool)}`);
+    const back = excluded.filter((e) => !excludedIdsFor('b2', [e]).has(e.id));
+    const found = back.filter((e) => pool.some((r) => r.id === e.id)).map((e) => e.id);
+    console.log(`B2 candidates from the exclusion list: ${found.length} (${found.join(', ') || 'none'})`);
+  }
   console.log('Calibration of our live words on the lemma rank (C2, information only):');
   console.table(calibration(ranks, words));
 }
@@ -149,10 +176,11 @@ function write() {
     return;
   }
   const pool = readJson<PoolRow[]>(poolFile());
-  const ids = readJson<string[]>(join(root, 'data', 'b1', 'selection.json'));
-  const out = selectB1(pool, ids);
-  writeFileSync(join(root, 'data', 'b1', 'words.json'), JSON.stringify(out, null, 2) + '\n');
-  console.log(`Wrote ${out.length} words to data/b1/words.json`);
+  const ids = readJson<string[]>(join(root, 'data', level, 'selection.json'));
+  const name = level.toUpperCase();
+  const out = selectWords(pool, ids, name as Word['cefr'], name);
+  writeFileSync(join(root, 'data', level, 'words.json'), JSON.stringify(out, null, 2) + '\n');
+  console.log(`Wrote ${out.length} words to data/${level}/words.json`);
 }
 
 function checkArticles() {
@@ -164,8 +192,8 @@ function checkArticles() {
     return path;
   };
   const kaikki = need(join(cache, 'kaikki.org-dictionary-Dutch.jsonl'), 'run --fetch first');
-  const words = readJson<Word[]>(need(join(root, 'data', 'b1', 'words.json'), 'run --write first (T-078)'));
-  const notes = readJson<Annotation[]>(need(join(root, 'data', 'b1', 'annotations.json'), 'write the B1 annotations first (T-080)'));
+  const words = readJson<Word[]>(need(join(root, 'data', level, 'words.json'), 'run --write first'));
+  const notes = readJson<Annotation[]>(need(join(root, 'data', level, 'annotations.json'), `write the ${level} annotations first`));
   const index = emptyKaikkiIndex();
   for (const line of readFileSync(kaikki, 'utf8').split('\n')) addKaikkiLine(index, line);
   const rows = articleCheck(words, notes, index);
@@ -178,19 +206,19 @@ function checkArticles() {
 }
 
 const modes = { '--fetch': fetchAll, '--build': build, '--write': write, '--check-articles': checkArticles };
-const usage = 'Usage: npm run b1-pool -- --fetch | --build | --write | --check-articles [--level b1|a1a2]';
+const usage = 'Usage: npm run b1-pool -- --fetch | --build | --write | --check-articles [--level b1|a1a2|b2]';
 const args = process.argv.slice(2);
 const at = args.indexOf('--level');
 if (at >= 0) {
   const value = args[at + 1];
-  if (value !== 'b1' && value !== 'a1a2') {
+  if (value !== 'b1' && value !== 'a1a2' && value !== 'b2') {
     console.error(usage);
     process.exit(1);
   }
   level = value;
   args.splice(at, 2);
 }
-if (args.length !== 1 || !(args[0] in modes) || (level === 'a1a2' && args[0] === '--check-articles')) {
+if (args.length !== 1 || !(args[0] in modes)) {
   console.error(usage);
   process.exit(1);
 }

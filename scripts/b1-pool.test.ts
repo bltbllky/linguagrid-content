@@ -9,21 +9,28 @@ import {
   A1_MAX_RANK,
   B1_BAND,
   B1_RULES,
+  B2_BAND,
+  B2_RULES,
   articleCheck,
   PINNED_SHA256,
   CARDINALS,
   addCardinals,
+  buildB2Pool,
   buildPool,
   calibration,
+  excludedIdsFor,
+  longShare,
   lemmaCounts,
   lemmaRanks,
   parseLeipzigWords,
   poolCounts,
   rankBand,
   rankBandA1A2,
+  rankBandB2,
   readKaikki,
   selectA1A2,
   selectB1,
+  selectWords,
   sourceDrift,
   type PoolRow,
 } from './b1-pool.ts';
@@ -439,6 +446,93 @@ describe('A1/A2 pool profile', () => {
     });
     it('leaves numerals out of the index without addCardinals', () => {
       assert.ok(!readKaikki([entry('dertien', 'num', [{}])]).lemmas.has('noun:dertien'));
+    });
+  });
+});
+
+describe('B2 pool profile', () => {
+  const words = ['steriel', 'ver', 'bedenkelijk', 'huis', 'vennootschap', 'witwassen', 'gaat'];
+  const index = readKaikki([
+    entry('steriel', 'adj', [{}]),
+    entry('verwerpen', 'verb', [{}]),
+    entry('bedenkelijk', 'adj', [{}]),
+    entry('huis', 'noun', [{}], 'n'),
+    entry('vennootschap', 'noun', [{}], 'f'),
+    entry('gaat', 'verb', [{}]),
+  ]);
+  const ranks = new Map([
+    ['steriel', 12000],
+    ['verwerpen', 25000],
+    ['bedenkelijk', 6000],
+    ['huis', 6500],
+    ['vennootschap', 6100],
+    ['gaat', 15000],
+  ]);
+  const open = new Set([...words, 'verwerpen']);
+  const live = { lemmas: new Set<string>(), excludedIds: new Set<string>() };
+  const excluded = [
+    { id: 'noun-vennootschap', reason: 'level B2 (T-085)' },
+    { id: 'noun-faust', reason: 'character name from a textbook' },
+  ];
+
+  it('has the B2 band and rules', () => {
+    assert.deepEqual(B2_BAND, { min: 10000, max: 20000 });
+    assert.deepEqual(B2_RULES, { minLetters: 4, infinitiveOnly: true, noDemonyms: true });
+  });
+  it('gives b2 rows and b1-band rows that are not B1 words', () => {
+    const pool = buildB2Pool(ranks, index, open, live, new Set(['huis']));
+    assert.deepEqual(
+      pool.map((r) => [r.lemma_nl, r.band]),
+      [
+        ['bedenkelijk', 'b1-band'],
+        ['vennootschap', 'b1-band'],
+        ['steriel', 'b2'],
+      ],
+    );
+  });
+  it('drops a verb lemma that does not end in n', () => {
+    assert.ok(!buildB2Pool(ranks, index, open, live, new Set()).some((r) => r.lemma_nl === 'gaat'));
+  });
+  it('names the rank bands', () => {
+    const row = (rank: number, band: 'b2' | 'b1-band'): PoolRow => ({ id: 'x', lemma_nl: 'x', pos: 'noun', rank, gender: null, band });
+    assert.equal(rankBandB2(row(12000, 'b2')), '10-15k');
+    assert.equal(rankBandB2(row(17000, 'b2')), '15-20k');
+    assert.equal(rankBandB2(row(6000, 'b1-band')), 'b1-band');
+  });
+  it('computes the share of 10-12 letter rows', () => {
+    const rows = ['abcd', 'abcdefghij', 'abcdefghijkl'].map((w) => ({ id: w, lemma_nl: w, pos: 'noun' as const, rank: 1, gender: null }));
+    assert.equal(longShare(rows), 0.67);
+    assert.equal(longShare([]), 0);
+  });
+  it('selects B2 words and rejects an unknown id', () => {
+    const pool = [{ id: 'adj-steriel', lemma_nl: 'steriel', pos: 'adj' as const, rank: 12000, gender: null }];
+    assert.equal(selectWords(pool, ['adj-steriel'], 'B2', 'B2')[0].cefr, 'B2');
+    assert.throws(() => selectWords(pool, ['adj-x'], 'B2', 'B2'), /Not in the B2 pool/);
+  });
+  it('reads the band numbers from the criteria file', () => {
+    const text = readFileSync(join(import.meta.dirname, '..', 'data', 'b2', 'selection-criteria.md'), 'utf8');
+    assert.ok(text.includes('10,000'));
+    assert.ok(text.includes('20,000'));
+  });
+
+  describe('excludedIdsFor (amended 2026-10-25)', () => {
+    it('lets a "level B2" id through for b2 only', () => {
+      assert.deepEqual(excludedIdsFor('b2', excluded), new Set(['noun-faust']));
+      assert.deepEqual(excludedIdsFor('b1', excluded), new Set(['noun-vennootschap', 'noun-faust']));
+      assert.deepEqual(excludedIdsFor('a1a2', excluded), new Set(['noun-vennootschap', 'noun-faust']));
+    });
+    it('treats only a reason that starts with "level B2" as the exception', () => {
+      const other = [
+        { id: 'noun-a', reason: 'level b2' },
+        { id: 'noun-b', reason: 'removed, level B2' },
+      ];
+      assert.deepEqual(excludedIdsFor('b2', other), new Set(['noun-a', 'noun-b']));
+    });
+    it('keeps vennootschap a B2 candidate only with the b2 set', () => {
+      const run = (level: 'b1' | 'b2') =>
+        buildB2Pool(ranks, index, open, { lemmas: new Set(), excludedIds: excludedIdsFor(level, excluded) }, new Set());
+      assert.equal(run('b2').find((r) => r.lemma_nl === 'vennootschap')?.band, 'b1-band');
+      assert.ok(!run('b1').some((r) => r.lemma_nl === 'vennootschap'));
     });
   });
 });
