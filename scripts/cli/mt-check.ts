@@ -4,14 +4,12 @@ import { join } from 'node:path';
 import {
   MT_LANGS,
   buildRows,
-  csvPath,
   liveKey,
   parseArgs,
   loadRelease,
   loadStageRelease,
   missingTexts,
   planRun,
-  renderCsv,
   renderReport,
   reportPath,
   runCheck,
@@ -53,6 +51,4 @@ if (dryRun) {
   mkdirSync(join(root, 'review', 'mt-check'), { recursive: true });
   writeFileSync(join(root, path), renderReport({ date, version: release.version, chars, ids, label }, results));
   console.log(`Wrote ${path}: ${new Set(results.map((r) => r.id)).size} rows`);
-  writeFileSync(join(root, csvPath(date)), renderCsv(results));
-  console.log(`Wrote ${csvPath(date)}: ${results.length} readings`);
 }

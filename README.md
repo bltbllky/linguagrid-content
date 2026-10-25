@@ -27,7 +27,7 @@ Every learner language is accepted by the round-trip check of ADR-012, and a hum
    reading share a head word (`scripts/same.ts`); every other row stays with the owner. `npm run three-readers -- --lang tr|en
    --result <result.csv> --findings <findings.csv> --deepl review/mt-check/<date>-rows.csv [--other-findings <findings.csv>]
    [--hold id,id] [--dry-run]` adds the columns `deepl` and `deepl_same` to the result sheet, appends "Released: three readers
-   agree (ADR-019)." to the released findings, and prints the held rows by reason and the released ids for the owner sheet.
+   agree (ADR-019)." to the released findings (a released row is re-evaluated on a rerun and goes back to `owner` if the readings no longer agree), and prints the held rows by reason and the released ids for the owner sheet.
 3. `npm run import-roundtrip -- [--lang en] <sheet>` sets `reviewed: true` with `review_source: "roundtrip"` on the `OK`
    rows (for Turkish also on the annotation when the article check matched). The owner decides the remaining rows in the
    review sheet: `npm run import-review review/a1.csv` applies them with `review_source: "owner"` (`--reviewer` for a
@@ -64,8 +64,7 @@ Review sheets for B1: `npm run export-review -- [--lang en] --stage b1 b1`; impo
 
 `npm run mt-check -- --ids id1,id2` asks DeepL for a second opinion on the rows the content editor hands to the owner. It
 sends only the Dutch text of those rows (the lemma, with de/het for nouns), NL→TR and NL→EN, and writes
-`review/mt-check/<date>-rows.md` with our text and DeepL's reading side by side, and `review/mt-check/<date>-rows.csv`
-(`id,lang,dutch,mt`) for `three-readers`. The reports stay on your machine:
+`review/mt-check/<date>-rows.md` with our text and DeepL's reading side by side. The reports stay on your machine:
 `review/mt-check/` is git-ignored. For staged B1 rows add `--stage b1`. The reading is advisory context for the
 question to the owner and, on an eligible row, the third reader of `three-readers` (ADR-019); it is never written into `data/`
 or a release. There is no

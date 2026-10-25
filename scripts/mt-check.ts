@@ -217,18 +217,6 @@ export function reportPath(date: string, rowsOnly: boolean): string {
   return `review/mt-check/${date}${rowsOnly ? '-rows' : ''}.md`;
 }
 
-export function csvPath(date: string): string {
-  return `review/mt-check/${date}-rows.csv`;
-}
-
-const csvCell = (s: string) => (/[",\r\n]/.test(s) ? `"${s.replaceAll('"', '""')}"` : s);
-
-/** The readings as CSV for `three-readers` (T-194): header `id,lang,dutch,mt`. */
-export function renderCsv(results: MtResult[]): string {
-  const lines = results.map((r) => [r.id, r.lang, r.dutch, r.mt].map(csvCell).join(','));
-  return ['id,lang,dutch,mt', ...lines].join('\n') + '\n';
-}
-
 const cell = (s: string) => s.replace(/\r?\n/g, ' ').replace(/\|/g, '\\|');
 
 export function renderReport(
