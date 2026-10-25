@@ -8,6 +8,7 @@ import {
   BATCH_SIZE,
   RETRY_WAITS_MS,
   buildRows,
+  csvPath,
   endpointFor,
   liveKey,
   loadRelease,
@@ -15,6 +16,7 @@ import {
   missingTexts,
   parseArgs,
   planRun,
+  renderCsv,
   renderReport,
   reportPath,
   runCheck,
@@ -451,5 +453,19 @@ describe('timeout', () => {
       translateAll(['a'], 'tr', { key: 'test-key', fetch: hang, budget: { cap: 10, used: 0 }, timeoutMs: 20 }),
       (e: Error) => /timed out/.test(e.message) && !e.message.includes('test-key'),
     );
+  });
+});
+
+describe('rows CSV (T-194)', () => {
+  it('names the file beside the Markdown report', () => {
+    assert.equal(csvPath('2026-12-02'), 'review/mt-check/2026-12-02-rows.csv');
+  });
+
+  it('renders a header and one line per result, quoting where needed', () => {
+    const text = renderCsv([
+      { id: 'noun-a', dutch: 'de a', ours: 'o', mt: 'x, y', lang: 'tr' },
+      { id: 'noun-b', dutch: 'het "b"', ours: 'o', mt: 'm', lang: 'en' },
+    ]);
+    assert.equal(text, 'id,lang,dutch,mt\nnoun-a,tr,de a,"x, y"\nnoun-b,en,"het ""b""",m\n');
   });
 });
