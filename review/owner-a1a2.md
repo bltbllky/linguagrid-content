@@ -186,3 +186,5 @@ Check the English.
 - Part D (50 English words): 49 marked ✓, **1 error** (D19 ontsnappen: "to escape" → "relaxed", imported as the owner's text).
 - ADR-012 rule 7 (more than one error stops a language) is therefore not triggered for either language: the round-trip acceptances were imported (`review/roundtrip-a1a2/result.csv`, `review/roundtrip-a1a2-en/result.csv`).
 - Open: Q1 (category of "stap") was left blank in the filled sheet; noun-stap is unchanged until the owner answers.
+
+2026-10-25: owner corrected D19 — 'relaxed' was a slip; 'to escape' kept. Part D: 0 errors.
