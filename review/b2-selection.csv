@@ -13,7 +13,6 @@ verb-ordenen,ordenen,verb,b1-band,b2-work-organisation,B1 band; formal; verb; wo
 noun-logistiek,logistiek,noun,b1-band,b2-work-organisation,B1 band; formal; noun; work and organisation theme
 noun-bezigheid,bezigheid,noun,b1-band,b2-work-organisation,B1 band; formal; noun; work and organisation theme
 noun-evaluatie,evaluatie,noun,b1-band,b2-work-organisation,B1 band; formal; noun; work and organisation theme
-noun-mijlpaal,mijlpaal,noun,b1-band,b2-work-organisation,B1 band; formal; noun; work and organisation theme
 noun-briefing,briefing,noun,10-15k,b2-work-organisation,10-15k band; noun; work and organisation theme
 noun-roeping,roeping,noun,10-15k,b2-work-organisation,10-15k band; noun; work and organisation theme
 noun-strateeg,strateeg,noun,10-15k,b2-work-organisation,10-15k band; noun; work and organisation theme
@@ -207,10 +206,10 @@ verb-betreden,betreden,verb,b1-band,b2-law-administration,B1 band; formal; verb;
 verb-schorsen,schorsen,verb,b1-band,b2-law-administration,B1 band; formal; verb; law and administration theme
 verb-vrijgeven,vrijgeven,verb,b1-band,b2-law-administration,B1 band; formal; verb; law and administration theme
 noun-regelgeving,regelgeving,noun,b1-band,b2-law-administration,formal use; owner level B2
-verb-naleven,naleven,verb,b1-band,b2-law-administration,B1 band; formal; verb; law and administration theme
-verb-herzien,herzien,verb,b1-band,b2-law-administration,B1 band; formal; verb; law and administration theme
 noun-gerechtshof,gerechtshof,noun,b1-band,b2-law-administration,formal use; owner level B2
 verb-witwassen,witwassen,verb,b1-band,b2-law-administration,formal use; owner level B2
+noun-taakstraf,taakstraf,noun,b1-band,b2-law-administration,B1 band; formal; noun; law and administration theme
+noun-strafzaak,strafzaak,noun,b1-band,b2-law-administration,B1 band; formal; noun; law and administration theme
 verb-opvragen,opvragen,verb,10-15k,b2-law-administration,10-15k band; verb; law and administration theme
 verb-procederen,procederen,verb,10-15k,b2-law-administration,10-15k band; verb; law and administration theme
 noun-bemiddeling,bemiddeling,noun,10-15k,b2-law-administration,10-15k band; noun; law and administration theme
@@ -381,6 +380,7 @@ noun-consensus,consensus,noun,b1-band,b2-politics-society,B1 band; formal; noun;
 noun-dodental,dodental,noun,b1-band,b2-politics-society,B1 band; formal; noun; politics and society theme
 noun-misstand,misstand,noun,b1-band,b2-politics-society,B1 band; formal; noun; politics and society theme
 noun-taboe,taboe,noun,b1-band,b2-politics-society,B1 band; formal; noun; politics and society theme
+noun-wanbeleid,wanbeleid,noun,b1-band,b2-politics-society,B1 band; formal; noun; politics and society theme
 noun-kiesrecht,kiesrecht,noun,10-15k,b2-politics-society,10-15k band; noun; politics and society theme
 noun-atheïst,atheïst,noun,10-15k,b2-politics-society,10-15k band; noun; politics and society theme
 adj-autoritair,autoritair,adj,10-15k,b2-politics-society,10-15k band; adj; politics and society theme
@@ -484,7 +484,6 @@ noun-stoornis,stoornis,noun,b1-band,b2-science-health,B1 band; formal; noun; sci
 verb-inenten,inenten,verb,b1-band,b2-science-health,B1 band; formal; verb; science and health theme
 noun-terugval,terugval,noun,b1-band,b2-science-health,B1 band; formal; noun; science and health theme
 noun-inname,inname,noun,b1-band,b2-science-health,B1 band; formal; noun; science and health theme
-adj-vatbaar,vatbaar,adj,b1-band,b2-science-health,B1 band; formal; adj; science and health theme
 adj-dement,dement,adj,10-15k,b2-science-health,10-15k band; adj; science and health theme
 noun-miskraam,miskraam,noun,10-15k,b2-science-health,10-15k band; noun; science and health theme
 noun-ontlasting,ontlasting,noun,10-15k,b2-science-health,10-15k band; noun; science and health theme
@@ -845,6 +844,7 @@ noun-perceel,perceel,noun,b1-band,b2-housing-city,B1 band; formal; noun; housing
 noun-verval,verval,noun,b1-band,b2-housing-city,B1 band; formal; noun; housing and city theme
 noun-afbraak,afbraak,noun,b1-band,b2-housing-city,B1 band; formal; noun; housing and city theme
 adj-naburig,naburig,adj,b1-band,b2-housing-city,B1 band; formal; adj; housing and city theme
+adj-leefbaar,leefbaar,adj,b1-band,b2-housing-city,B1 band; formal; adj; housing and city theme
 noun-lekkage,lekkage,noun,10-15k,b2-housing-city,10-15k band; noun; housing and city theme
 noun-omheining,omheining,noun,10-15k,b2-housing-city,10-15k band; noun; housing and city theme
 noun-waterleiding,waterleiding,noun,10-15k,b2-housing-city,10-15k band; noun; housing and city theme
@@ -938,6 +938,7 @@ adj-avontuurlijk,avontuurlijk,adj,15-20k,b2-travel-mobility,15-20k band; adj; tr
 noun-rijexamen,rijexamen,noun,15-20k,b2-travel-mobility,15-20k band; noun; travel and mobility theme
 adj-pittoresk,pittoresk,adj,15-20k,b2-travel-mobility,15-20k band; adj; travel and mobility theme
 noun-remweg,remweg,noun,15-20k,b2-travel-mobility,15-20k band; noun; travel and mobility theme
+adj-ongehuwd,ongehuwd,adj,b1-band,b2-relationships-behaviour,B1 band; formal; adj; relationships and behaviour theme
 adj-wereldvreemd,wereldvreemd,adj,10-15k,b2-relationships-behaviour,10-15k band; adj; relationships and behaviour theme
 noun-stiefvader,stiefvader,noun,10-15k,b2-relationships-behaviour,10-15k band; noun; relationships and behaviour theme
 adj-geestig,geestig,adj,10-15k,b2-relationships-behaviour,10-15k band; adj; relationships and behaviour theme
@@ -1087,7 +1088,6 @@ noun-aansteller,aansteller,noun,15-20k,b2-relationships-behaviour,15-20k band; n
 adj-argeloos,argeloos,adj,15-20k,b2-relationships-behaviour,15-20k band; adj; relationships and behaviour theme
 adj-hatelijk,hatelijk,adj,15-20k,b2-relationships-behaviour,15-20k band; adj; relationships and behaviour theme
 verb-ophemelen,ophemelen,verb,15-20k,b2-relationships-behaviour,15-20k band; verb; relationships and behaviour theme
-noun-frictie,frictie,noun,15-20k,b2-relationships-behaviour,15-20k band; noun; relationships and behaviour theme
 verb-hechten,hechten,verb,b1-band,b2-feelings-attitudes,B1 band; formal; verb; feelings and attitudes theme
 verb-betreuren,betreuren,verb,b1-band,b2-feelings-attitudes,B1 band; formal; verb; feelings and attitudes theme
 noun-genoegen,genoegen,noun,b1-band,b2-feelings-attitudes,B1 band; formal; noun; feelings and attitudes theme
@@ -1200,9 +1200,9 @@ adj-verveeld,verveeld,adj,15-20k,b2-feelings-attitudes,15-20k band; adj; feeling
 noun-ontzag,ontzag,noun,15-20k,b2-feelings-attitudes,15-20k band; noun; feelings and attitudes theme
 verb-vernemen,vernemen,verb,b1-band,b2-thinking-arguing,B1 band; formal; verb; thinking and arguing theme
 verb-ontlenen,ontlenen,verb,b1-band,b2-thinking-arguing,B1 band; formal; verb; thinking and arguing theme
-verb-beogen,beogen,verb,b1-band,b2-thinking-arguing,B1 band; formal; verb; thinking and arguing theme
-verb-betogen,betogen,verb,b1-band,b2-thinking-arguing,B1 band; formal; verb; thinking and arguing theme
-verb-refereren,refereren,verb,b1-band,b2-thinking-arguing,B1 band; formal; verb; thinking and arguing theme
+adj-onjuist,onjuist,adj,b1-band,b2-thinking-arguing,B1 band; formal; adj; thinking and arguing theme
+noun-nuance,nuance,noun,b1-band,b2-thinking-arguing,B1 band; formal; noun; thinking and arguing theme
+verb-verhullen,verhullen,verb,b1-band,b2-thinking-arguing,B1 band; formal; verb; thinking and arguing theme
 adj-stellig,stellig,adj,10-15k,b2-thinking-arguing,10-15k band; adj; thinking and arguing theme
 verb-inleiden,inleiden,verb,10-15k,b2-thinking-arguing,10-15k band; verb; thinking and arguing theme
 adj-zinnig,zinnig,adj,10-15k,b2-thinking-arguing,10-15k band; adj; thinking and arguing theme
@@ -1379,7 +1379,8 @@ adj-abrupt,abrupt,adj,b1-band,b2-describing,B1 band; formal; adj; describing the
 adj-uitvoerig,uitvoerig,adj,b1-band,b2-describing,B1 band; formal; adj; describing theme
 adj-variabel,variabel,adj,b1-band,b2-describing,B1 band; formal; adj; describing theme
 adj-robuust,robuust,adj,b1-band,b2-describing,B1 band; formal; adj; describing theme
-adj-gewenst,gewenst,adj,b1-band,b2-describing,B1 band; formal; adj; describing theme
+adj-vergeefs,vergeefs,adj,b1-band,b2-describing,B1 band; formal; adj; describing theme
+adj-leesbaar,leesbaar,adj,b1-band,b2-describing,B1 band; formal; adj; describing theme
 adj-bedreven,bedreven,adj,10-15k,b2-describing,10-15k band; adj; describing theme
 adj-haastig,haastig,adj,10-15k,b2-describing,10-15k band; adj; describing theme
 adj-ongebreideld,ongebreideld,adj,10-15k,b2-describing,10-15k band; adj; describing theme
@@ -1512,7 +1513,6 @@ verb-verpesten,verpesten,verb,b1-band,b2-abstract-verbs,B1 band; formal; verb; a
 verb-omzeilen,omzeilen,verb,b1-band,b2-abstract-verbs,B1 band; formal; verb; abstract verbs theme
 verb-verharden,verharden,verb,b1-band,b2-abstract-verbs,B1 band; formal; verb; abstract verbs theme
 verb-gewennen,gewennen,verb,b1-band,b2-abstract-verbs,B1 band; formal; verb; abstract verbs theme
-verb-weerstaan,weerstaan,verb,b1-band,b2-abstract-verbs,B1 band; formal; verb; abstract verbs theme
 verb-blunderen,blunderen,verb,10-15k,b2-abstract-verbs,10-15k band; verb; abstract verbs theme
 verb-zwichten,zwichten,verb,10-15k,b2-abstract-verbs,10-15k band; verb; abstract verbs theme
 verb-terugvallen,terugvallen,verb,10-15k,b2-abstract-verbs,10-15k band; verb; abstract verbs theme

@@ -98,13 +98,6 @@
     "source": "own"
   },
   {
-    "id": "noun-mijlpaal",
-    "lemma_nl": "mijlpaal",
-    "pos": "noun",
-    "cefr": "B2",
-    "source": "own"
-  },
-  {
     "id": "noun-briefing",
     "lemma_nl": "briefing",
     "pos": "noun",
@@ -1456,20 +1449,6 @@
     "source": "own"
   },
   {
-    "id": "verb-naleven",
-    "lemma_nl": "naleven",
-    "pos": "verb",
-    "cefr": "B2",
-    "source": "own"
-  },
-  {
-    "id": "verb-herzien",
-    "lemma_nl": "herzien",
-    "pos": "verb",
-    "cefr": "B2",
-    "source": "own"
-  },
-  {
     "id": "noun-gerechtshof",
     "lemma_nl": "gerechtshof",
     "pos": "noun",
@@ -1480,6 +1459,20 @@
     "id": "verb-witwassen",
     "lemma_nl": "witwassen",
     "pos": "verb",
+    "cefr": "B2",
+    "source": "own"
+  },
+  {
+    "id": "noun-taakstraf",
+    "lemma_nl": "taakstraf",
+    "pos": "noun",
+    "cefr": "B2",
+    "source": "own"
+  },
+  {
+    "id": "noun-strafzaak",
+    "lemma_nl": "strafzaak",
+    "pos": "noun",
     "cefr": "B2",
     "source": "own"
   },
@@ -2674,6 +2667,13 @@
     "source": "own"
   },
   {
+    "id": "noun-wanbeleid",
+    "lemma_nl": "wanbeleid",
+    "pos": "noun",
+    "cefr": "B2",
+    "source": "own"
+  },
+  {
     "id": "noun-kiesrecht",
     "lemma_nl": "kiesrecht",
     "pos": "noun",
@@ -3391,13 +3391,6 @@
     "id": "noun-inname",
     "lemma_nl": "inname",
     "pos": "noun",
-    "cefr": "B2",
-    "source": "own"
-  },
-  {
-    "id": "adj-vatbaar",
-    "lemma_nl": "vatbaar",
-    "pos": "adj",
     "cefr": "B2",
     "source": "own"
   },
@@ -5922,6 +5915,13 @@
     "source": "own"
   },
   {
+    "id": "adj-leefbaar",
+    "lemma_nl": "leefbaar",
+    "pos": "adj",
+    "cefr": "B2",
+    "source": "own"
+  },
+  {
     "id": "noun-lekkage",
     "lemma_nl": "lekkage",
     "pos": "noun",
@@ -6569,6 +6569,13 @@
     "id": "noun-remweg",
     "lemma_nl": "remweg",
     "pos": "noun",
+    "cefr": "B2",
+    "source": "own"
+  },
+  {
+    "id": "adj-ongehuwd",
+    "lemma_nl": "ongehuwd",
+    "pos": "adj",
     "cefr": "B2",
     "source": "own"
   },
@@ -7616,13 +7623,6 @@
     "source": "own"
   },
   {
-    "id": "noun-frictie",
-    "lemma_nl": "frictie",
-    "pos": "noun",
-    "cefr": "B2",
-    "source": "own"
-  },
-  {
     "id": "verb-hechten",
     "lemma_nl": "hechten",
     "pos": "verb",
@@ -8407,22 +8407,22 @@
     "source": "own"
   },
   {
-    "id": "verb-beogen",
-    "lemma_nl": "beogen",
-    "pos": "verb",
+    "id": "adj-onjuist",
+    "lemma_nl": "onjuist",
+    "pos": "adj",
     "cefr": "B2",
     "source": "own"
   },
   {
-    "id": "verb-betogen",
-    "lemma_nl": "betogen",
-    "pos": "verb",
+    "id": "noun-nuance",
+    "lemma_nl": "nuance",
+    "pos": "noun",
     "cefr": "B2",
     "source": "own"
   },
   {
-    "id": "verb-refereren",
-    "lemma_nl": "refereren",
+    "id": "verb-verhullen",
+    "lemma_nl": "verhullen",
     "pos": "verb",
     "cefr": "B2",
     "source": "own"
@@ -9660,8 +9660,15 @@
     "source": "own"
   },
   {
-    "id": "adj-gewenst",
-    "lemma_nl": "gewenst",
+    "id": "adj-vergeefs",
+    "lemma_nl": "vergeefs",
+    "pos": "adj",
+    "cefr": "B2",
+    "source": "own"
+  },
+  {
+    "id": "adj-leesbaar",
+    "lemma_nl": "leesbaar",
     "pos": "adj",
     "cefr": "B2",
     "source": "own"
@@ -10586,13 +10593,6 @@
   {
     "id": "verb-gewennen",
     "lemma_nl": "gewennen",
-    "pos": "verb",
-    "cefr": "B2",
-    "source": "own"
-  },
-  {
-    "id": "verb-weerstaan",
-    "lemma_nl": "weerstaan",
     "pos": "verb",
     "cefr": "B2",
     "source": "own"
