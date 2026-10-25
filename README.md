@@ -20,7 +20,7 @@ Every learner language is accepted by the round-trip check of ADR-012, and a hum
    agents, which have not seen the existing text, write it again: one from the pivot (English for Turkish, Turkish for
    English; for other languages, an English back-translation) and one from the Dutch lemma alone, with a de/het guess for
    nouns. A comparer marks each as match, close or mismatch in a result sheet under `review/roundtrip/`, with a `verdict`
-   column: `OK` for match/match or match/close without a finding, and `owner` for a mismatch, an article disagreement or a
+   column: `OK` for match/match or match/close without a finding (also for rows with `deepl_same` = `yes`, ADR-019), and `owner` for a mismatch, an article disagreement or a
    content-editor finding. Close/close rows go to the content editor, who sets `OK` or files a finding.
 3. `npm run import-roundtrip -- [--lang en] <sheet>` sets `reviewed: true` with `review_source: "roundtrip"` on the `OK`
    rows (for Turkish also on the annotation when the article check matched). The owner decides the remaining rows in the
@@ -28,9 +28,13 @@ Every learner language is accepted by the round-trip check of ADR-012, and a hum
    named reviewer). A round trip never overwrites a human decision. Only the owner merges a PR that marks content reviewed.
 4. `npm run validate` checks the files and prints the coverage per language and level (reviewed / total).
 
-Before each release, 50 round-trip-accepted words per language are drawn at random (seed recorded) and checked by a
-person who reads the language. More than one error leaves that language out of the release and resets its round-trip
-acceptances for the affected level (`docs/release/content-check.md` in the app repository).
+Spot check (ADR-019): per language and sheet, `npm run spot-check -- draw --lang tr --seed <YYYYMMDD> --result <result.csv>
+[--exclude <owner-sheet.csv,...>]` draws 20 round-trip-accepted words (seed recorded) plus 30 for an extension, 5 of the 20 from
+rows released by `deepl_same` = `yes` when a sheet has at least 10 of them. 0 errors pass; 1 error adds the 30 (at most 1 in 50
+passes); 2 or more in the 20 fail. A failure leaves the language out and resets the `roundtrip` acceptances of the level
+(`docs/release/content-check.md` in the app repository). Append each result to `review/spot-check-tally.csv`; `npm run
+spot-check -- tally` prints the running numbers, and when the newest 200 tallied words hold more than 4 errors the next sheet
+uses 50 words again.
 
 ## Staged levels (B1)
 
