@@ -1,0 +1,30 @@
+id,dutch,tr,en_existing,en_blind_tr,class,reason,en_blind_nl,class_nl,precheck,verdict
+noun-koelkast,koelkast,buzdolabı,fridge,fridge,match,same text,fridge,match,,OK
+noun-douche,douche,duş,shower,shower,match,same text,shower,match,,OK
+noun-huisnummer,huisnummer,kapı numarası,house number,house number,match,same text,house number,match,,OK
+noun-postcode,postcode,posta kodu,postcode,postcode,match,same text,postcode,match,,OK
+noun-wekker,wekker,çalar saat,alarm clock,alarm clock,match,same text,alarm clock,match,,OK
+noun-tandarts,tandarts,diş hekimi,dentist,dentist,match,same text,dentist,match,,OK
+noun-bladzijde,bladzijde,sayfa,page,page,match,same text,page,match,,OK
+noun-schaap,schaap,koyun,sheep,sheep,match,same text,sheep,match,,OK
+noun-varken,varken,domuz,pig,pig,match,same text,pig,match,,OK
+noun-olifant,olifant,fil,elephant,elephant,match,same text,elephant,match,,OK
+noun-eend,eend,ördek,duck,duck,match,same text,duck,match,,OK
+noun-laptop,laptop,dizüstü bilgisayar,laptop,laptop,match,same text,laptop,match,,OK
+noun-kapper,kapper,kuaför,hairdresser,hairdresser,match,same text,hairdresser,match,,OK
+noun-trui,trui,kazak,jumper,jumper,match,same text,jumper,match,,OK
+noun-hoed,hoed,şapka,hat,hat,match,same text,hat,match,,OK
+noun-banaan,banaan,muz,banana,banana,match,same text,banana,match,,OK
+noun-peer,peer,armut,pear,pear,match,same text,pear,match,,OK
+noun-broodje,broodje,sandviç,bread roll,roll (bread),match,"same meaning, synonym or wording difference",roll (bread),match,,OK
+noun-tomaat,tomaat,domates,tomato,tomato,match,same text,tomato,match,,OK
+noun-koekje,koekje,bisküvi,biscuit (small),biscuit,match,"same meaning, synonym or wording difference",biscuit,match,,OK
+noun-achternaam,achternaam,soyadı,surname,surname,match,same text,surname,match,,OK
+noun-voornaam,voornaam,ön ad,first name,first name,match,same text,first name,match,,OK
+noun-kleinkind,kleinkind,torun,grandchild,grandchild,match,same text,grandchild,match,,OK
+adj-vriendelijk,vriendelijk,güler yüzlü,friendly,friendly,match,same text,friendly,match,,OK
+adj-vervelend,vervelend,can sıkıcı,annoying,annoying,match,same text,annoying,match,,OK
+noun-dierentuin,dierentuin,hayvanat bahçesi,zoo,zoo,match,same text,zoo,match,,OK
+verb-binnenkomen,binnenkomen,içeri girmek,to come in,to come in,match,same text,to come in,match,,OK
+verb-thuisblijven,thuisblijven,evde kalmak,to stay at home,to stay home,match,"same meaning, synonym or wording difference",to stay home,match,,OK
+verb-weggooien,weggooien,çöpe atmak,to throw away,to throw away,match,same text,to throw away,match,,OK

@@ -3214,7 +3214,7 @@
   {
     "word_id": "noun-stap",
     "article": "de",
-    "category_id": "a2-daily-verbs",
+    "category_id": "a2-city-transport",
     "reviewed": true,
     "review_source": "roundtrip"
   },
@@ -3474,6 +3474,209 @@
     "word_id": "noun-negentien",
     "article": null,
     "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-koelkast",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-douche",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-wekker",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-huisnummer",
+    "article": "het",
+    "category_id": "a2-services",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-postcode",
+    "article": "de",
+    "category_id": "a2-services",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-kapper",
+    "article": "de",
+    "category_id": "a2-services",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-tandarts",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-bladzijde",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-laptop",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-dierentuin",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-achternaam",
+    "article": "de",
+    "category_id": "a2-people",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-voornaam",
+    "article": "de",
+    "category_id": "a2-people",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-kleinkind",
+    "article": "het",
+    "category_id": "a2-people",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-banaan",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-peer",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-broodje",
+    "article": "het",
+    "category_id": "a2-food",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-tomaat",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-koekje",
+    "article": "het",
+    "category_id": "a2-food",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-trui",
+    "article": "de",
+    "category_id": "a2-clothes",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-hoed",
+    "article": "de",
+    "category_id": "a2-clothes",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-schaap",
+    "article": "het",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-varken",
+    "article": "het",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-olifant",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-eend",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-binnenkomen",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-thuisblijven",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-weggooien",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "adj-vriendelijk",
+    "article": null,
+    "category_id": "a2-feelings",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "adj-vervelend",
+    "article": null,
+    "category_id": "a2-feelings",
     "reviewed": true,
     "review_source": "owner"
   }
