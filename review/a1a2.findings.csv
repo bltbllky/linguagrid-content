@@ -1,0 +1,13 @@
+id,dutch,field,current,suggestion,reason,severity
+adj-getrouwd,getrouwd,text,evlenmiş,evli,"""evlenmiş"" is the participle (has got married); the everyday adjective is ""evli"". B1 gehuwd already has ""evli"", so gehuwd would need a hint such as ""evli (resmî)"".",unsure
+adj-stiekem,stiekem,text,sinsi,gizlice,"At A2 stiekem mostly means secretly (iets stiekem doen); ""sinsi"" is a negative trait (sly). ""gizlice"" is not used by another word (B1 verborgen has ""gizli"").",unsure
+noun-batterij,batterij,text,pil,pil (batarya),"The prompt ""pil"" is spelled like the Dutch extras word pil (A2, ""hap""); a learner who reads ""pil"" may trace pil instead of batterij.",unsure
+noun-tak,tak,text,dal,dal (ağaç),"The prompt ""dal"" is spelled like the Dutch extras word dal (A2, ""vadi""), in the same category a2-nature-weather, so both can share a grid.",unsure
+noun-long,long,level,A1,A2,"Internal organs are beyond the A1 body words (hoofd, arm, been, buik); long is an A2 health word.",unsure
+noun-bot,bot,level,A1,A2,"Bone is an A2 health word; A1 body vocabulary is the visible body parts.",unsure
+noun-zeventien,zeventien,level,A2,A1,"Split from the other teens (dertien to achttien are A1) only by the rank rule E7; a learner meets 11-19 as one A1 set.",unsure
+noun-negentien,negentien,level,A2,A1,"As zeventien: the only other teen at A2.",unsure
+noun-drempel,drempel,level,A2,B1: leave out of the extras,"The door-step sense is rare in A2 texts; the frequent sense is figurative (een drempel verlagen), B1.",unsure
+verb-sluipen,sluipen,level,A2,B1: leave out of the extras,"A narrative verb (to creep); A2 learners say stiekem lopen. B1.",unsure
+noun-overlast,overlast,level,A2,B1: leave out of the extras,"Formal word from housing and council letters (geluidsoverlast, overlast melden); B1.",unsure
+noun-symptoom,symptoom,level,A2,B1: leave out of the extras,"Medical register; at A2 patients say klachten. B1.",unsure
