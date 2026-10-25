@@ -1750,6 +1750,776 @@
       "word_id": "noun-schelp",
       "text": "shell",
       "reviewed": false
+    },
+    {
+      "word_id": "verb-geloven",
+      "text": "to believe",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-durven",
+      "text": "to dare",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-genieten",
+      "text": "to enjoy",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gevoel",
+      "text": "feeling",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-twijfelen",
+      "text": "to doubt",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-herinnering",
+      "text": "memory (of an event)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verrassen",
+      "text": "to surprise (unexpectedly)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-sfeer",
+      "text": "atmosphere",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-dromen",
+      "text": "to dream",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-jammer",
+      "text": "too bad",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-onzeker",
+      "text": "unsure",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-schrikken",
+      "text": "to get a fright",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-schelen",
+      "text": "to care (matter)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-emotie",
+      "text": "emotion",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-humor",
+      "text": "humour",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-haten",
+      "text": "to hate",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-vreselijk",
+      "text": "terrible",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-eng",
+      "text": "scary",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-actief",
+      "text": "active",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-enorm",
+      "text": "enormous",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hoogte",
+      "text": "height",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-breed",
+      "text": "wide",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-vlak",
+      "text": "flat",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-midden",
+      "text": "middle",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kant",
+      "text": "side",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-gemiddeld",
+      "text": "average",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-gelijk",
+      "text": "equal",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verschil",
+      "text": "difference",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-serieus",
+      "text": "serious (not joking)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gevaar",
+      "text": "danger",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-los",
+      "text": "loose",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-dubbel",
+      "text": "double",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-onbekend",
+      "text": "unknown",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-streng",
+      "text": "strict (person)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-redelijk",
+      "text": "reasonable",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-automatisch",
+      "text": "automatic",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-stevig",
+      "text": "sturdy",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-uniek",
+      "text": "unique",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-typisch",
+      "text": "typical",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-slim",
+      "text": "clever",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-zwak",
+      "text": "weak",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-dom",
+      "text": "stupid (not clever)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-vierkant",
+      "text": "square (shape)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-logisch",
+      "text": "logical",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-praktisch",
+      "text": "practical",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-helder",
+      "text": "clear (bright)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-smal",
+      "text": "narrow",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-streep",
+      "text": "stripe",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-vals",
+      "text": "fake",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-apart",
+      "text": "separate",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-beroemd",
+      "text": "famous",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-toevallig",
+      "text": "by chance",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-voorzichtig",
+      "text": "careful (cautious)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-kwijt",
+      "text": "lost (missing)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-betrouwbaar",
+      "text": "reliable",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-uitstekend",
+      "text": "excellent",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-creatief",
+      "text": "creative",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-scherp",
+      "text": "sharp",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-achterkant",
+      "text": "back (rear side)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-breedte",
+      "text": "width",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-verstandig",
+      "text": "sensible",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-agressief",
+      "text": "aggressive",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-onderkant",
+      "text": "bottom (underside)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-stiekem",
+      "text": "sneaky",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-belachelijk",
+      "text": "ridiculous",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-voorkant",
+      "text": "front",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bovenkant",
+      "text": "top (upper side)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-lui",
+      "text": "lazy",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-buitenkant",
+      "text": "outside",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-binnenkant",
+      "text": "inside",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-cirkel",
+      "text": "circle",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-keurig",
+      "text": "neat (proper)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-noemen",
+      "text": "to name (call)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-opnemen",
+      "text": "to answer (the phone)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-tonen",
+      "text": "to show",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-contact",
+      "text": "contact",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-mening",
+      "text": "opinion",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-wijzen",
+      "text": "to point",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-weigeren",
+      "text": "to refuse",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-klinken",
+      "text": "to sound",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-link",
+      "text": "link",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-app",
+      "text": "app",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-spellen",
+      "text": "to spell",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-nieuws",
+      "text": "news",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-waarschuwen",
+      "text": "to warn",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-uitspraak",
+      "text": "pronunciation",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-geheim",
+      "text": "secret",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verbieden",
+      "text": "to forbid",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-wensen",
+      "text": "to wish",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-appen",
+      "text": "to text (via an app)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-accepteren",
+      "text": "to accept",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-letter",
+      "text": "letter (of the alphabet)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-onzin",
+      "text": "nonsense",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-excuus",
+      "text": "apology",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-scherm",
+      "text": "screen",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tip",
+      "text": "tip (advice)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-grap",
+      "text": "joke",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-internetten",
+      "text": "to go online",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-opmerking",
+      "text": "remark",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-negeren",
+      "text": "to ignore",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wens",
+      "text": "wish",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-belofte",
+      "text": "promise",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-posten",
+      "text": "to post (online)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verzinnen",
+      "text": "to make up",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-updaten",
+      "text": "to update",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-eindigen",
+      "text": "to end",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verwachten",
+      "text": "to expect",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vervangen",
+      "text": "to replace",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-ontdekken",
+      "text": "to discover",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-redden",
+      "text": "to rescue",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-beschermen",
+      "text": "to protect",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-merken",
+      "text": "to notice",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-bekijken",
+      "text": "to look at",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verdelen",
+      "text": "to divide",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vergelijken",
+      "text": "to compare",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-stap",
+      "text": "step",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-bedenken",
+      "text": "to think up",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-kloppen",
+      "text": "to knock",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-stelen",
+      "text": "to steal",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vechten",
+      "text": "to fight",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verplaatsen",
+      "text": "to move (something)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-ontsnappen",
+      "text": "to escape",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-herkennen",
+      "text": "to recognise",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-grijpen",
+      "text": "to grab (snatch)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-doorgaan",
+      "text": "to go on",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vullen",
+      "text": "to fill",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-toevoegen",
+      "text": "to add",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-oppakken",
+      "text": "to pick up",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-trappen",
+      "text": "to kick (a ball)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vangen",
+      "text": "to catch",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-schuiven",
+      "text": "to slide (push along)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-opgeven",
+      "text": "to give up",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-meemaken",
+      "text": "to experience",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-nadenken",
+      "text": "to think (about something)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-afzetten",
+      "text": "to drop off (someone)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-mislukken",
+      "text": "to fail (not work out)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-duwen",
+      "text": "to push",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-letten",
+      "text": "to pay attention (to)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-ruiken",
+      "text": "to smell",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-kruipen",
+      "text": "to crawl",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-stoten",
+      "text": "to bump",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-gieten",
+      "text": "to pour",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-afgeven",
+      "text": "to hand over",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-sluipen",
+      "text": "to sneak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-opblazen",
+      "text": "to blow up",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-eeuw",
+      "text": "century",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-volgend",
+      "text": "next",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-jaarlijks",
+      "text": "yearly",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-regelmatig",
+      "text": "regular",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verleden",
+      "text": "past",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uitstellen",
+      "text": "to postpone",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-wekelijks",
+      "text": "weekly",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zeventien",
+      "text": "seventeen",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-negentien",
+      "text": "nineteen",
+      "reviewed": false
     }
   ],
   "categories": []
