@@ -35,8 +35,36 @@
     "source": "own"
   },
   {
+    "id": "noun-twee",
+    "lemma_nl": "twee",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "own"
+  },
+  {
+    "id": "noun-drie",
+    "lemma_nl": "drie",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "own"
+  },
+  {
+    "id": "noun-miljoen",
+    "lemma_nl": "miljoen",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "own"
+  },
+  {
     "id": "noun-januari",
     "lemma_nl": "januari",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "own"
+  },
+  {
+    "id": "noun-vijf",
+    "lemma_nl": "vijf",
     "pos": "noun",
     "cefr": "A1",
     "source": "own"
@@ -91,6 +119,13 @@
     "source": "own"
   },
   {
+    "id": "noun-zes",
+    "lemma_nl": "zes",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "own"
+  },
+  {
     "id": "noun-november",
     "lemma_nl": "november",
     "pos": "noun",
@@ -105,6 +140,13 @@
     "source": "own"
   },
   {
+    "id": "noun-tien",
+    "lemma_nl": "tien",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "own"
+  },
+  {
     "id": "adj-half",
     "lemma_nl": "half",
     "pos": "adj",
@@ -114,6 +156,20 @@
   {
     "id": "noun-februari",
     "lemma_nl": "februari",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "own"
+  },
+  {
+    "id": "noun-miljard",
+    "lemma_nl": "miljard",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "own"
+  },
+  {
+    "id": "noun-vier",
+    "lemma_nl": "vier",
     "pos": "noun",
     "cefr": "A1",
     "source": "own"
@@ -154,6 +210,13 @@
     "source": "own"
   },
   {
+    "id": "noun-honderd",
+    "lemma_nl": "honderd",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "own"
+  },
+  {
     "id": "noun-donderdag",
     "lemma_nl": "donderdag",
     "pos": "noun",
@@ -175,8 +238,148 @@
     "source": "own"
   },
   {
+    "id": "noun-duizend",
+    "lemma_nl": "duizend",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "own"
+  },
+  {
+    "id": "noun-twintig",
+    "lemma_nl": "twintig",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "own"
+  },
+  {
     "id": "noun-seconde",
     "lemma_nl": "seconde",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "own"
+  },
+  {
+    "id": "noun-zeven",
+    "lemma_nl": "zeven",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "own"
+  },
+  {
+    "id": "noun-acht",
+    "lemma_nl": "acht",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "own"
+  },
+  {
+    "id": "noun-twaalf",
+    "lemma_nl": "twaalf",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "own"
+  },
+  {
+    "id": "noun-dertig",
+    "lemma_nl": "dertig",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "own"
+  },
+  {
+    "id": "noun-elf",
+    "lemma_nl": "elf",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "own"
+  },
+  {
+    "id": "noun-vijftien",
+    "lemma_nl": "vijftien",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "own"
+  },
+  {
+    "id": "noun-vijftig",
+    "lemma_nl": "vijftig",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "own"
+  },
+  {
+    "id": "noun-negen",
+    "lemma_nl": "negen",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "own"
+  },
+  {
+    "id": "noun-zestig",
+    "lemma_nl": "zestig",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "own"
+  },
+  {
+    "id": "noun-veertien",
+    "lemma_nl": "veertien",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "own"
+  },
+  {
+    "id": "noun-zestien",
+    "lemma_nl": "zestien",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "own"
+  },
+  {
+    "id": "noun-tachtig",
+    "lemma_nl": "tachtig",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "own"
+  },
+  {
+    "id": "noun-dertien",
+    "lemma_nl": "dertien",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "own"
+  },
+  {
+    "id": "noun-zeventig",
+    "lemma_nl": "zeventig",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "own"
+  },
+  {
+    "id": "noun-veertig",
+    "lemma_nl": "veertig",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "own"
+  },
+  {
+    "id": "noun-nul",
+    "lemma_nl": "nul",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "own"
+  },
+  {
+    "id": "noun-negentig",
+    "lemma_nl": "negentig",
+    "pos": "noun",
+    "cefr": "A1",
+    "source": "own"
+  },
+  {
+    "id": "noun-achttien",
+    "lemma_nl": "achttien",
     "pos": "noun",
     "cefr": "A1",
     "source": "own"
@@ -609,6 +812,41 @@
     "source": "own"
   },
   {
+    "id": "noun-zaag",
+    "lemma_nl": "zaag",
+    "pos": "noun",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
+    "id": "noun-hek",
+    "lemma_nl": "hek",
+    "pos": "noun",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
+    "id": "noun-beker",
+    "lemma_nl": "beker",
+    "pos": "noun",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
+    "id": "noun-hoes",
+    "lemma_nl": "hoes",
+    "pos": "noun",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
+    "id": "noun-drempel",
+    "lemma_nl": "drempel",
+    "pos": "noun",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
     "id": "noun-zeef",
     "lemma_nl": "zeef",
     "pos": "noun",
@@ -633,6 +871,20 @@
     "id": "noun-vet",
     "lemma_nl": "vet",
     "pos": "noun",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
+    "id": "noun-pot",
+    "lemma_nl": "pot",
+    "pos": "noun",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
+    "id": "verb-koelen",
+    "lemma_nl": "koelen",
+    "pos": "verb",
     "cefr": "A2",
     "source": "own"
   },
@@ -798,6 +1050,27 @@
     "source": "own"
   },
   {
+    "id": "noun-lip",
+    "lemma_nl": "lip",
+    "pos": "noun",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
+    "id": "noun-rib",
+    "lemma_nl": "rib",
+    "pos": "noun",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
+    "id": "noun-pil",
+    "lemma_nl": "pil",
+    "pos": "noun",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
     "id": "verb-organiseren",
     "lemma_nl": "organiseren",
     "pos": "verb",
@@ -917,6 +1190,13 @@
     "source": "own"
   },
   {
+    "id": "verb-overleggen",
+    "lemma_nl": "overleggen",
+    "pos": "verb",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
     "id": "verb-samenwerken",
     "lemma_nl": "samenwerken",
     "pos": "verb",
@@ -934,6 +1214,13 @@
     "id": "verb-opslaan",
     "lemma_nl": "opslaan",
     "pos": "verb",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
+    "id": "noun-som",
+    "lemma_nl": "som",
+    "pos": "noun",
     "cefr": "A2",
     "source": "own"
   },
@@ -1141,6 +1428,55 @@
     "source": "own"
   },
   {
+    "id": "noun-rit",
+    "lemma_nl": "rit",
+    "pos": "noun",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
+    "id": "noun-pijl",
+    "lemma_nl": "pijl",
+    "pos": "noun",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
+    "id": "noun-kruispunt",
+    "lemma_nl": "kruispunt",
+    "pos": "noun",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
+    "id": "noun-laan",
+    "lemma_nl": "laan",
+    "pos": "noun",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
+    "id": "noun-kade",
+    "lemma_nl": "kade",
+    "pos": "noun",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
+    "id": "noun-rem",
+    "lemma_nl": "rem",
+    "pos": "noun",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
+    "id": "noun-straatnaam",
+    "lemma_nl": "straatnaam",
+    "pos": "noun",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
     "id": "noun-stuk",
     "lemma_nl": "stuk",
     "pos": "noun",
@@ -1267,6 +1603,20 @@
     "source": "own"
   },
   {
+    "id": "noun-bon",
+    "lemma_nl": "bon",
+    "pos": "noun",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
+    "id": "noun-automaat",
+    "lemma_nl": "automaat",
+    "pos": "noun",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
     "id": "noun-pak",
     "lemma_nl": "pak",
     "pos": "noun",
@@ -1276,6 +1626,20 @@
   {
     "id": "noun-vlek",
     "lemma_nl": "vlek",
+    "pos": "noun",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
+    "id": "noun-das",
+    "lemma_nl": "das",
+    "pos": "noun",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
+    "id": "noun-pet",
+    "lemma_nl": "pet",
     "pos": "noun",
     "cefr": "A2",
     "source": "own"
@@ -1757,6 +2121,48 @@
     "source": "own"
   },
   {
+    "id": "noun-circus",
+    "lemma_nl": "circus",
+    "pos": "noun",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
+    "id": "noun-pop",
+    "lemma_nl": "pop",
+    "pos": "noun",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
+    "id": "noun-drum",
+    "lemma_nl": "drum",
+    "pos": "noun",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
+    "id": "noun-clown",
+    "lemma_nl": "clown",
+    "pos": "noun",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
+    "id": "noun-ballet",
+    "lemma_nl": "ballet",
+    "pos": "noun",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
+    "id": "verb-roeien",
+    "lemma_nl": "roeien",
+    "pos": "verb",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
     "id": "noun-wereld",
     "lemma_nl": "wereld",
     "pos": "noun",
@@ -2009,6 +2415,41 @@
     "source": "own"
   },
   {
+    "id": "noun-aap",
+    "lemma_nl": "aap",
+    "pos": "noun",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
+    "id": "noun-bui",
+    "lemma_nl": "bui",
+    "pos": "noun",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
+    "id": "noun-ijzer",
+    "lemma_nl": "ijzer",
+    "pos": "noun",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
+    "id": "noun-hitte",
+    "lemma_nl": "hitte",
+    "pos": "noun",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
+    "id": "noun-schelp",
+    "lemma_nl": "schelp",
+    "pos": "noun",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
     "id": "verb-geloven",
     "lemma_nl": "geloven",
     "pos": "verb",
@@ -2093,6 +2534,13 @@
     "source": "own"
   },
   {
+    "id": "verb-schelen",
+    "lemma_nl": "schelen",
+    "pos": "verb",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
     "id": "noun-emotie",
     "lemma_nl": "emotie",
     "pos": "noun",
@@ -2116,6 +2564,13 @@
   {
     "id": "adj-vreselijk",
     "lemma_nl": "vreselijk",
+    "pos": "adj",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
+    "id": "adj-eng",
+    "lemma_nl": "eng",
     "pos": "adj",
     "cefr": "A2",
     "source": "own"
@@ -2233,8 +2688,36 @@
     "source": "own"
   },
   {
+    "id": "adj-redelijk",
+    "lemma_nl": "redelijk",
+    "pos": "adj",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
+    "id": "adj-automatisch",
+    "lemma_nl": "automatisch",
+    "pos": "adj",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
     "id": "adj-stevig",
     "lemma_nl": "stevig",
+    "pos": "adj",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
+    "id": "adj-uniek",
+    "lemma_nl": "uniek",
+    "pos": "adj",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
+    "id": "adj-typisch",
+    "lemma_nl": "typisch",
     "pos": "adj",
     "cefr": "A2",
     "source": "own"
@@ -2422,6 +2905,55 @@
     "source": "own"
   },
   {
+    "id": "noun-voorkant",
+    "lemma_nl": "voorkant",
+    "pos": "noun",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
+    "id": "noun-bovenkant",
+    "lemma_nl": "bovenkant",
+    "pos": "noun",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
+    "id": "adj-lui",
+    "lemma_nl": "lui",
+    "pos": "adj",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
+    "id": "noun-buitenkant",
+    "lemma_nl": "buitenkant",
+    "pos": "noun",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
+    "id": "noun-binnenkant",
+    "lemma_nl": "binnenkant",
+    "pos": "noun",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
+    "id": "noun-cirkel",
+    "lemma_nl": "cirkel",
+    "pos": "noun",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
+    "id": "adj-keurig",
+    "lemma_nl": "keurig",
+    "pos": "adj",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
     "id": "verb-noemen",
     "lemma_nl": "noemen",
     "pos": "verb",
@@ -2431,6 +2963,13 @@
   {
     "id": "verb-opnemen",
     "lemma_nl": "opnemen",
+    "pos": "verb",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
+    "id": "verb-tonen",
+    "lemma_nl": "tonen",
     "pos": "verb",
     "cefr": "A2",
     "source": "own"
@@ -2590,6 +3129,13 @@
     "source": "own"
   },
   {
+    "id": "verb-internetten",
+    "lemma_nl": "internetten",
+    "pos": "verb",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
     "id": "noun-opmerking",
     "lemma_nl": "opmerking",
     "pos": "noun",
@@ -2641,6 +3187,13 @@
   {
     "id": "verb-eindigen",
     "lemma_nl": "eindigen",
+    "pos": "verb",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
+    "id": "verb-verwachten",
+    "lemma_nl": "verwachten",
     "pos": "verb",
     "cefr": "A2",
     "source": "own"
@@ -2821,8 +3374,22 @@
     "source": "own"
   },
   {
+    "id": "verb-meemaken",
+    "lemma_nl": "meemaken",
+    "pos": "verb",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
     "id": "verb-nadenken",
     "lemma_nl": "nadenken",
+    "pos": "verb",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
+    "id": "verb-afzetten",
+    "lemma_nl": "afzetten",
     "pos": "verb",
     "cefr": "A2",
     "source": "own"
@@ -2858,6 +3425,41 @@
   {
     "id": "verb-kruipen",
     "lemma_nl": "kruipen",
+    "pos": "verb",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
+    "id": "verb-stoten",
+    "lemma_nl": "stoten",
+    "pos": "verb",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
+    "id": "verb-gieten",
+    "lemma_nl": "gieten",
+    "pos": "verb",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
+    "id": "verb-afgeven",
+    "lemma_nl": "afgeven",
+    "pos": "verb",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
+    "id": "verb-sluipen",
+    "lemma_nl": "sluipen",
+    "pos": "verb",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
+    "id": "verb-opblazen",
+    "lemma_nl": "opblazen",
     "pos": "verb",
     "cefr": "A2",
     "source": "own"
@@ -2908,6 +3510,20 @@
     "id": "adj-wekelijks",
     "lemma_nl": "wekelijks",
     "pos": "adj",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
+    "id": "noun-zeventien",
+    "lemma_nl": "zeventien",
+    "pos": "noun",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
+    "id": "noun-negentien",
+    "lemma_nl": "negentien",
+    "pos": "noun",
     "cefr": "A2",
     "source": "own"
   }

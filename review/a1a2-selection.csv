@@ -4,7 +4,11 @@ adj-getrouwd,getrouwd,adj,A1,1-2k,a1-people,1-2k band; adjective; basic quality;
 noun-echtgenoot,echtgenoot,noun,A1,2-3k,a1-people,2-3k band; noun; closed set (family members)
 noun-echtgenote,echtgenote,noun,A1,2-3k,a1-people,2-3k band; noun; closed set (family members)
 adj-wakker,wakker,adj,A1,1-2k,a1-home,1-2k band; adjective; basic quality; a1-home
+noun-twee,twee,noun,A1,0-1k,a1-time,0-1k band; noun; closed set (cardinal numbers)
+noun-drie,drie,noun,A1,0-1k,a1-time,0-1k band; noun; closed set (cardinal numbers)
+noun-miljoen,miljoen,noun,A1,0-1k,a1-time,0-1k band; noun; closed set (cardinal numbers)
 noun-januari,januari,noun,A1,0-1k,a1-time,0-1k band; noun; closed set (months)
+noun-vijf,vijf,noun,A1,0-1k,a1-time,0-1k band; noun; closed set (cardinal numbers)
 noun-mei,mei,noun,A1,0-1k,a1-time,0-1k band; noun; closed set (months)
 noun-juni,juni,noun,A1,0-1k,a1-time,0-1k band; noun; closed set (months)
 noun-september,september,noun,A1,0-1k,a1-time,0-1k band; noun; closed set (months)
@@ -12,19 +16,44 @@ noun-april,april,noun,A1,0-1k,a1-time,0-1k band; noun; closed set (months)
 noun-oktober,oktober,noun,A1,0-1k,a1-time,0-1k band; noun; closed set (months)
 noun-december,december,noun,A1,0-1k,a1-time,0-1k band; noun; closed set (months)
 noun-juli,juli,noun,A1,0-1k,a1-time,0-1k band; noun; closed set (months)
+noun-zes,zes,noun,A1,0-1k,a1-time,0-1k band; noun; closed set (cardinal numbers)
 noun-november,november,noun,A1,0-1k,a1-time,0-1k band; noun; closed set (months)
 noun-augustus,augustus,noun,A1,0-1k,a1-time,0-1k band; noun; closed set (months)
+noun-tien,tien,noun,A1,0-1k,a1-time,0-1k band; noun; closed set (cardinal numbers)
 adj-half,half,adj,A1,0-1k,a1-time,0-1k band; adjective; basic quality; a1-time
 noun-februari,februari,noun,A1,0-1k,a1-time,0-1k band; noun; closed set (months)
+noun-miljard,miljard,noun,A1,0-1k,a1-time,0-1k band; noun; closed set (cardinal numbers)
+noun-vier,vier,noun,A1,0-1k,a1-time,0-1k band; noun; closed set (cardinal numbers)
 noun-maart,maart,noun,A1,0-1k,a1-time,0-1k band; noun; closed set (months)
 noun-vrijdag,vrijdag,noun,A1,0-1k,a1-time,0-1k band; noun; closed set (weekdays)
 noun-zondag,zondag,noun,A1,0-1k,a1-time,0-1k band; noun; closed set (weekdays)
 noun-maandag,maandag,noun,A1,0-1k,a1-time,0-1k band; noun; closed set (weekdays)
 noun-zaterdag,zaterdag,noun,A1,0-1k,a1-time,0-1k band; noun; closed set (weekdays)
+noun-honderd,honderd,noun,A1,0-1k,a1-time,0-1k band; noun; closed set (cardinal numbers)
 noun-donderdag,donderdag,noun,A1,0-1k,a1-time,0-1k band; noun; closed set (weekdays)
 noun-woensdag,woensdag,noun,A1,0-1k,a1-time,0-1k band; noun; closed set (weekdays)
 noun-dinsdag,dinsdag,noun,A1,0-1k,a1-time,0-1k band; noun; closed set (weekdays)
+noun-duizend,duizend,noun,A1,0-1k,a1-time,0-1k band; noun; closed set (cardinal numbers)
+noun-twintig,twintig,noun,A1,0-1k,a1-time,0-1k band; noun; closed set (cardinal numbers)
 noun-seconde,seconde,noun,A1,0-1k,a1-time,0-1k band; noun; a1-time
+noun-zeven,zeven,noun,A1,0-1k,a1-time,0-1k band; noun; closed set (cardinal numbers); homograph
+noun-acht,acht,noun,A1,0-1k,a1-time,0-1k band; noun; closed set (cardinal numbers); homograph
+noun-twaalf,twaalf,noun,A1,0-1k,a1-time,0-1k band; noun; closed set (cardinal numbers)
+noun-dertig,dertig,noun,A1,1-2k,a1-time,1-2k band; noun; closed set (cardinal numbers)
+noun-elf,elf,noun,A1,1-2k,a1-time,1-2k band; noun; closed set (cardinal numbers); homograph
+noun-vijftien,vijftien,noun,A1,1-2k,a1-time,1-2k band; noun; closed set (cardinal numbers)
+noun-vijftig,vijftig,noun,A1,1-2k,a1-time,1-2k band; noun; closed set (cardinal numbers)
+noun-negen,negen,noun,A1,1-2k,a1-time,1-2k band; noun; closed set (cardinal numbers)
+noun-zestig,zestig,noun,A1,1-2k,a1-time,1-2k band; noun; closed set (cardinal numbers)
+noun-veertien,veertien,noun,A1,2-3k,a1-time,2-3k band; noun; closed set (cardinal numbers)
+noun-zestien,zestien,noun,A1,2-3k,a1-time,2-3k band; noun; closed set (cardinal numbers)
+noun-tachtig,tachtig,noun,A1,2-3k,a1-time,2-3k band; noun; closed set (cardinal numbers)
+noun-dertien,dertien,noun,A1,2-3k,a1-time,2-3k band; noun; closed set (cardinal numbers)
+noun-zeventig,zeventig,noun,A1,2-3k,a1-time,2-3k band; noun; closed set (cardinal numbers)
+noun-veertig,veertig,noun,A1,2-3k,a1-time,2-3k band; noun; closed set (cardinal numbers)
+noun-nul,nul,noun,A1,2-3k,a1-time,2-3k band; noun; closed set (cardinal numbers)
+noun-negentig,negentig,noun,A1,2-3k,a1-time,2-3k band; noun; closed set (cardinal numbers)
+noun-achttien,achttien,noun,A1,2-3k,a1-time,2-3k band; noun; closed set (cardinal numbers)
 verb-vliegen,vliegen,verb,A1,0-1k,a1-city-travel,0-1k band; verb; basic action; a1-city-travel
 noun-hart,hart,noun,A1,1-2k,a1-body-health,1-2k band; noun; closed set (body parts)
 verb-rusten,rusten,verb,A1,1-2k,a1-body-health,1-2k band; verb; basic action; a1-body-health
@@ -86,10 +115,17 @@ noun-gas,gas,noun,A2,2-3k,a2-home,2-3k band; noun; a2-home
 noun-tegel,tegel,noun,A2,2-3k,a2-home,2-3k band; noun; a2-home
 noun-draad,draad,noun,A2,2-3k,a2-home,2-3k band; noun; a2-home
 noun-overlast,overlast,noun,A2,2-3k,a2-home,2-3k band; noun; a2-home
+noun-zaag,zaag,noun,A2,3-5k,a2-home,3-5k band; noun; a2-home
+noun-hek,hek,noun,A2,3-5k,a2-home,3-5k band; noun; a2-home
+noun-beker,beker,noun,A2,3-5k,a2-home,3-5k band; noun; a2-home
+noun-hoes,hoes,noun,A2,3-5k,a2-home,3-5k band; noun; a2-home
+noun-drempel,drempel,noun,A2,3-5k,a2-home,3-5k band; noun; a2-home
 noun-zeef,zeef,noun,A2,0-1k,a2-food,0-1k band; noun; a2-food
 verb-bedienen,bedienen,verb,A2,1-2k,a2-food,1-2k band; verb; a2-food
 noun-alcohol,alcohol,noun,A2,2-3k,a2-food,2-3k band; noun; a2-food
 noun-vet,vet,noun,A2,2-3k,a2-food,2-3k band; noun; a2-food
+noun-pot,pot,noun,A2,3-5k,a2-food,3-5k band; noun; a2-food
+verb-koelen,koelen,verb,A2,3-5k,a2-food,3-5k band; verb; a2-food
 adj-dood,dood,adj,A2,0-1k,a2-health,0-1k band; adjective; a2-health
 noun-virus,virus,noun,A2,0-1k,a2-health,0-1k band; noun; a2-health
 verb-testen,testen,verb,A2,0-1k,a2-health,0-1k band; verb; a2-health
@@ -113,6 +149,9 @@ verb-opereren,opereren,verb,A2,2-3k,a2-health,2-3k band; verb; a2-health
 noun-slaap,slaap,noun,A2,2-3k,a2-health,2-3k band; noun; a2-health
 adj-pijnlijk,pijnlijk,adj,A2,2-3k,a2-health,2-3k band; adjective; a2-health
 noun-blessure,blessure,noun,A2,2-3k,a2-health,2-3k band; noun; a2-health
+noun-lip,lip,noun,A2,3-5k,a2-health,3-5k band; noun; a2-health
+noun-rib,rib,noun,A2,3-5k,a2-health,3-5k band; noun; a2-health
+noun-pil,pil,noun,A2,3-5k,a2-health,3-5k band; noun; a2-health
 verb-organiseren,organiseren,verb,A2,0-1k,a2-work-study,0-1k band; verb; a2-work-study
 adj-aanwezig,aanwezig,adj,A2,0-1k,a2-work-study,0-1k band; adjective; a2-work-study
 noun-lijst,lijst,noun,A2,0-1k,a2-work-study,0-1k band; noun; a2-work-study
@@ -130,9 +169,11 @@ noun-rapport,rapport,noun,A2,1-2k,a2-work-study,1-2k band; noun; a2-work-study
 noun-meester,meester,noun,A2,1-2k,a2-work-study,1-2k band; noun; a2-work-study
 verb-typen,typen,verb,A2,1-2k,a2-work-study,1-2k band; verb; a2-work-study
 noun-getal,getal,noun,A2,1-2k,a2-work-study,1-2k band; noun; a2-work-study
+verb-overleggen,overleggen,verb,A2,1-2k,a2-work-study,1-2k band; verb; a2-work-study
 verb-samenwerken,samenwerken,verb,A2,2-3k,a2-work-study,2-3k band; verb; a2-work-study
 noun-pagina,pagina,noun,A2,2-3k,a2-work-study,2-3k band; noun; a2-work-study
 verb-opslaan,opslaan,verb,A2,2-3k,a2-work-study,2-3k band; verb; a2-work-study
+noun-som,som,noun,A2,3-5k,a2-work-study,3-5k band; noun; a2-work-study
 adj-geldig,geldig,adj,A2,0-1k,a2-services,0-1k band; adjective; a2-services
 noun-brand,brand,noun,A2,1-2k,a2-services,1-2k band; noun; a2-services
 adj-verplicht,verplicht,adj,A2,1-2k,a2-services,1-2k band; adjective; a2-services
@@ -162,6 +203,13 @@ noun-vertraging,vertraging,noun,A2,2-3k,a2-city-transport,2-3k band; noun; a2-ci
 noun-piloot,piloot,noun,A2,2-3k,a2-city-transport,2-3k band; noun; a2-city-transport
 noun-perron,perron,noun,A2,2-3k,a2-city-transport,2-3k band; noun; a2-city-transport
 noun-ticket,ticket,noun,A2,2-3k,a2-city-transport,2-3k band; noun; a2-city-transport
+noun-rit,rit,noun,A2,3-5k,a2-city-transport,3-5k band; noun; a2-city-transport
+noun-pijl,pijl,noun,A2,3-5k,a2-city-transport,3-5k band; noun; a2-city-transport
+noun-kruispunt,kruispunt,noun,A2,3-5k,a2-city-transport,3-5k band; noun; a2-city-transport
+noun-laan,laan,noun,A2,3-5k,a2-city-transport,3-5k band; noun; a2-city-transport
+noun-kade,kade,noun,A2,3-5k,a2-city-transport,3-5k band; noun; a2-city-transport
+noun-rem,rem,noun,A2,3-5k,a2-city-transport,3-5k band; noun; a2-city-transport
+noun-straatnaam,straatnaam,noun,A2,3-5k,a2-city-transport,3-5k band; noun; a2-city-transport
 noun-stuk,stuk,noun,A2,0-1k,a2-shopping,0-1k band; noun; a2-shopping
 noun-helft,helft,noun,A2,0-1k,a2-shopping,0-1k band; noun; a2-shopping
 noun-bedrag,bedrag,noun,A2,0-1k,a2-shopping,0-1k band; noun; a2-shopping
@@ -180,8 +228,12 @@ noun-zilver,zilver,noun,A2,2-3k,a2-shopping,2-3k band; noun; a2-shopping
 noun-aankoop,aankoop,noun,A2,2-3k,a2-shopping,2-3k band; noun; a2-shopping
 noun-luxe,luxe,noun,A2,2-3k,a2-shopping,2-3k band; noun; a2-shopping
 noun-pond,pond,noun,A2,2-3k,a2-shopping,2-3k band; noun; a2-shopping
+noun-bon,bon,noun,A2,3-5k,a2-shopping,3-5k band; noun; a2-shopping
+noun-automaat,automaat,noun,A2,3-5k,a2-shopping,3-5k band; noun; a2-shopping
 noun-pak,pak,noun,A2,1-2k,a2-clothes,1-2k band; noun; a2-clothes
 noun-vlek,vlek,noun,A2,2-3k,a2-clothes,2-3k band; noun; a2-clothes
+noun-das,das,noun,A2,3-5k,a2-clothes,3-5k band; noun; a2-clothes
+noun-pet,pet,noun,A2,3-5k,a2-clothes,3-5k band; noun; a2-clothes
 noun-groep,groep,noun,A2,0-1k,a2-people,0-1k band; noun; a2-people
 noun-lengte,lengte,noun,A2,0-1k,a2-people,0-1k band; noun; a2-people
 noun-bezoeker,bezoeker,noun,A2,0-1k,a2-people,0-1k band; noun; a2-people
@@ -250,6 +302,12 @@ noun-interesse,interesse,noun,A2,2-3k,a2-free-time,2-3k band; noun; a2-free-time
 noun-tocht,tocht,noun,A2,2-3k,a2-free-time,2-3k band; noun; a2-free-time
 verb-versieren,versieren,verb,A2,2-3k,a2-free-time,2-3k band; verb; a2-free-time
 noun-attractie,attractie,noun,A2,2-3k,a2-free-time,2-3k band; noun; a2-free-time
+noun-circus,circus,noun,A2,3-5k,a2-free-time,3-5k band; noun; a2-free-time
+noun-pop,pop,noun,A2,3-5k,a2-free-time,3-5k band; noun; a2-free-time
+noun-drum,drum,noun,A2,3-5k,a2-free-time,3-5k band; noun; a2-free-time
+noun-clown,clown,noun,A2,3-5k,a2-free-time,3-5k band; noun; a2-free-time
+noun-ballet,ballet,noun,A2,3-5k,a2-free-time,3-5k band; noun; a2-free-time
+verb-roeien,roeien,verb,A2,3-5k,a2-free-time,3-5k band; verb; a2-free-time
 noun-wereld,wereld,noun,A2,0-1k,a2-nature-weather,0-1k band; noun; a2-nature-weather
 noun-vuur,vuur,noun,A2,0-1k,a2-nature-weather,0-1k band; noun; a2-nature-weather
 noun-grond,grond,noun,A2,0-1k,a2-nature-weather,0-1k band; noun; a2-nature-weather
@@ -286,6 +344,11 @@ noun-grot,grot,noun,A2,2-3k,a2-nature-weather,2-3k band; noun; a2-nature-weather
 noun-insect,insect,noun,A2,2-3k,a2-nature-weather,2-3k band; noun; a2-nature-weather
 noun-poot,poot,noun,A2,2-3k,a2-nature-weather,2-3k band; noun; a2-nature-weather
 noun-polder,polder,noun,A2,2-3k,a2-nature-weather,2-3k band; noun; a2-nature-weather
+noun-aap,aap,noun,A2,3-5k,a2-nature-weather,3-5k band; noun; a2-nature-weather
+noun-bui,bui,noun,A2,3-5k,a2-nature-weather,3-5k band; noun; a2-nature-weather
+noun-ijzer,ijzer,noun,A2,3-5k,a2-nature-weather,3-5k band; noun; a2-nature-weather
+noun-hitte,hitte,noun,A2,3-5k,a2-nature-weather,3-5k band; noun; a2-nature-weather
+noun-schelp,schelp,noun,A2,3-5k,a2-nature-weather,3-5k band; noun; a2-nature-weather
 verb-geloven,geloven,verb,A2,0-1k,a2-feelings,0-1k band; verb; a2-feelings
 verb-durven,durven,verb,A2,1-2k,a2-feelings,1-2k band; verb; a2-feelings
 verb-genieten,genieten,verb,A2,1-2k,a2-feelings,1-2k band; verb; a2-feelings
@@ -298,10 +361,12 @@ verb-dromen,dromen,verb,A2,2-3k,a2-feelings,2-3k band; verb; a2-feelings
 adj-jammer,jammer,adj,A2,2-3k,a2-feelings,2-3k band; adjective; a2-feelings
 adj-onzeker,onzeker,adj,A2,2-3k,a2-feelings,2-3k band; adjective; a2-feelings
 verb-schrikken,schrikken,verb,A2,2-3k,a2-feelings,2-3k band; verb; a2-feelings
+verb-schelen,schelen,verb,A2,2-3k,a2-feelings,2-3k band; verb; a2-feelings
 noun-emotie,emotie,noun,A2,2-3k,a2-feelings,2-3k band; noun; a2-feelings
 noun-humor,humor,noun,A2,2-3k,a2-feelings,2-3k band; noun; a2-feelings
 verb-haten,haten,verb,A2,2-3k,a2-feelings,2-3k band; verb; a2-feelings
 adj-vreselijk,vreselijk,adj,A2,2-3k,a2-feelings,2-3k band; adjective; a2-feelings
+adj-eng,eng,adj,A2,3-5k,a2-feelings,3-5k band; adjective; a2-feelings
 adj-actief,actief,adj,A2,0-1k,a2-describing,0-1k band; adjective; a2-describing
 adj-enorm,enorm,adj,A2,0-1k,a2-describing,0-1k band; adjective; a2-describing
 noun-hoogte,hoogte,noun,A2,0-1k,a2-describing,0-1k band; noun; a2-describing
@@ -318,7 +383,11 @@ adj-los,los,adj,A2,1-2k,a2-describing,1-2k band; adjective; a2-describing
 adj-dubbel,dubbel,adj,A2,1-2k,a2-describing,1-2k band; adjective; a2-describing
 adj-onbekend,onbekend,adj,A2,1-2k,a2-describing,1-2k band; adjective; a2-describing
 adj-streng,streng,adj,A2,1-2k,a2-describing,1-2k band; adjective; a2-describing
+adj-redelijk,redelijk,adj,A2,1-2k,a2-describing,1-2k band; adjective; a2-describing
+adj-automatisch,automatisch,adj,A2,1-2k,a2-describing,1-2k band; adjective; a2-describing
 adj-stevig,stevig,adj,A2,1-2k,a2-describing,1-2k band; adjective; a2-describing
+adj-uniek,uniek,adj,A2,1-2k,a2-describing,1-2k band; adjective; a2-describing
+adj-typisch,typisch,adj,A2,1-2k,a2-describing,1-2k band; adjective; a2-describing
 adj-slim,slim,adj,A2,1-2k,a2-describing,1-2k band; adjective; a2-describing
 adj-zwak,zwak,adj,A2,1-2k,a2-describing,1-2k band; adjective; a2-describing
 adj-dom,dom,adj,A2,1-2k,a2-describing,1-2k band; adjective; a2-describing
@@ -345,8 +414,16 @@ adj-agressief,agressief,adj,A2,2-3k,a2-describing,2-3k band; adjective; a2-descr
 noun-onderkant,onderkant,noun,A2,2-3k,a2-describing,2-3k band; noun; a2-describing
 adj-stiekem,stiekem,adj,A2,2-3k,a2-describing,2-3k band; adjective; a2-describing
 adj-belachelijk,belachelijk,adj,A2,2-3k,a2-describing,2-3k band; adjective; a2-describing
+noun-voorkant,voorkant,noun,A2,3-5k,a2-describing,3-5k band; noun; a2-describing
+noun-bovenkant,bovenkant,noun,A2,3-5k,a2-describing,3-5k band; noun; a2-describing
+adj-lui,lui,adj,A2,3-5k,a2-describing,3-5k band; adjective; a2-describing
+noun-buitenkant,buitenkant,noun,A2,3-5k,a2-describing,3-5k band; noun; a2-describing
+noun-binnenkant,binnenkant,noun,A2,3-5k,a2-describing,3-5k band; noun; a2-describing
+noun-cirkel,cirkel,noun,A2,3-5k,a2-describing,3-5k band; noun; a2-describing
+adj-keurig,keurig,adj,A2,3-5k,a2-describing,3-5k band; adjective; a2-describing
 verb-noemen,noemen,verb,A2,0-1k,a2-communication,0-1k band; verb; a2-communication
 verb-opnemen,opnemen,verb,A2,0-1k,a2-communication,0-1k band; verb; a2-communication
+verb-tonen,tonen,verb,A2,0-1k,a2-communication,0-1k band; verb; a2-communication
 noun-contact,contact,noun,A2,0-1k,a2-communication,0-1k band; noun; a2-communication
 noun-mening,mening,noun,A2,0-1k,a2-communication,0-1k band; noun; a2-communication
 verb-wijzen,wijzen,verb,A2,0-1k,a2-communication,0-1k band; verb; a2-communication
@@ -369,6 +446,7 @@ noun-excuus,excuus,noun,A2,1-2k,a2-communication,1-2k band; noun; a2-communicati
 noun-scherm,scherm,noun,A2,1-2k,a2-communication,1-2k band; noun; a2-communication
 noun-tip,tip,noun,A2,1-2k,a2-communication,1-2k band; noun; a2-communication
 noun-grap,grap,noun,A2,2-3k,a2-communication,2-3k band; noun; a2-communication
+verb-internetten,internetten,verb,A2,2-3k,a2-communication,2-3k band; verb; a2-communication
 noun-opmerking,opmerking,noun,A2,2-3k,a2-communication,2-3k band; noun; a2-communication
 verb-negeren,negeren,verb,A2,2-3k,a2-communication,2-3k band; verb; a2-communication
 noun-wens,wens,noun,A2,2-3k,a2-communication,2-3k band; noun; a2-communication
@@ -377,6 +455,7 @@ verb-posten,posten,verb,A2,2-3k,a2-communication,2-3k band; verb; a2-communicati
 verb-verzinnen,verzinnen,verb,A2,2-3k,a2-communication,2-3k band; verb; a2-communication
 verb-updaten,updaten,verb,A2,2-3k,a2-communication,2-3k band; verb; a2-communication
 verb-eindigen,eindigen,verb,A2,0-1k,a2-daily-verbs,0-1k band; verb; a2-daily-verbs
+verb-verwachten,verwachten,verb,A2,0-1k,a2-daily-verbs,0-1k band; verb; a2-daily-verbs
 verb-vervangen,vervangen,verb,A2,0-1k,a2-daily-verbs,0-1k band; verb; a2-daily-verbs
 verb-ontdekken,ontdekken,verb,A2,0-1k,a2-daily-verbs,0-1k band; verb; a2-daily-verbs
 verb-redden,redden,verb,A2,0-1k,a2-daily-verbs,0-1k band; verb; a2-daily-verbs
@@ -402,12 +481,19 @@ verb-trappen,trappen,verb,A2,1-2k,a2-daily-verbs,1-2k band; verb; a2-daily-verbs
 verb-vangen,vangen,verb,A2,1-2k,a2-daily-verbs,1-2k band; verb; a2-daily-verbs
 verb-schuiven,schuiven,verb,A2,2-3k,a2-daily-verbs,2-3k band; verb; a2-daily-verbs
 verb-opgeven,opgeven,verb,A2,2-3k,a2-daily-verbs,2-3k band; verb; a2-daily-verbs
+verb-meemaken,meemaken,verb,A2,2-3k,a2-daily-verbs,2-3k band; verb; a2-daily-verbs
 verb-nadenken,nadenken,verb,A2,2-3k,a2-daily-verbs,2-3k band; verb; a2-daily-verbs
+verb-afzetten,afzetten,verb,A2,2-3k,a2-daily-verbs,2-3k band; verb; a2-daily-verbs
 verb-mislukken,mislukken,verb,A2,2-3k,a2-daily-verbs,2-3k band; verb; a2-daily-verbs
 verb-duwen,duwen,verb,A2,2-3k,a2-daily-verbs,2-3k band; verb; a2-daily-verbs
 verb-letten,letten,verb,A2,2-3k,a2-daily-verbs,2-3k band; verb; a2-daily-verbs
 verb-ruiken,ruiken,verb,A2,2-3k,a2-daily-verbs,2-3k band; verb; a2-daily-verbs
 verb-kruipen,kruipen,verb,A2,2-3k,a2-daily-verbs,2-3k band; verb; a2-daily-verbs
+verb-stoten,stoten,verb,A2,3-5k,a2-daily-verbs,3-5k band; verb; a2-daily-verbs
+verb-gieten,gieten,verb,A2,3-5k,a2-daily-verbs,3-5k band; verb; a2-daily-verbs
+verb-afgeven,afgeven,verb,A2,3-5k,a2-daily-verbs,3-5k band; verb; a2-daily-verbs
+verb-sluipen,sluipen,verb,A2,3-5k,a2-daily-verbs,3-5k band; verb; a2-daily-verbs
+verb-opblazen,opblazen,verb,A2,3-5k,a2-daily-verbs,3-5k band; verb; a2-daily-verbs
 noun-eeuw,eeuw,noun,A2,0-1k,a2-time,0-1k band; noun; a2-time
 adj-volgend,volgend,adj,A2,0-1k,a2-time,0-1k band; adjective; a2-time
 adj-jaarlijks,jaarlijks,adj,A2,0-1k,a2-time,0-1k band; adjective; a2-time
@@ -415,3 +501,5 @@ adj-regelmatig,regelmatig,adj,A2,0-1k,a2-time,0-1k band; adjective; a2-time
 noun-verleden,verleden,noun,A2,0-1k,a2-time,0-1k band; noun; a2-time
 verb-uitstellen,uitstellen,verb,A2,1-2k,a2-time,1-2k band; verb; a2-time
 adj-wekelijks,wekelijks,adj,A2,2-3k,a2-time,2-3k band; adjective; a2-time
+noun-zeventien,zeventien,noun,A2,3-5k,a2-time,3-5k band; noun; cardinal number; rank above 3,000
+noun-negentien,negentien,noun,A2,3-5k,a2-time,3-5k band; noun; cardinal number; rank above 3,000
