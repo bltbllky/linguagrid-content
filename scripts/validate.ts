@@ -3,6 +3,8 @@ import { join } from 'node:path';
 
 import { Ajv } from 'ajv';
 
+import { CARDINALS } from './b1-pool.ts';
+
 export const MAX_WORD_LENGTH = 12;
 
 type Cefr = 'A1' | 'A2' | 'B1' | 'B2' | 'C1';
@@ -126,7 +128,9 @@ export function validateContent(content: Content): string[] {
       errors.push(`${word.id}: missing annotation`);
       continue;
     }
-    if (word.pos === 'noun' && !note.article) errors.push(`${word.id}: noun without de/het article`);
+    // ADR-018 rule 3: a bare cardinal number has no learner article.
+    const bareNumeral = note.article === null && (CARDINALS as readonly string[]).includes(word.lemma_nl);
+    if (word.pos === 'noun' && !note.article && !bareNumeral) errors.push(`${word.id}: noun without de/het article`);
     if (word.pos !== 'noun' && note.article) errors.push(`${word.id}: article on a ${word.pos}`);
     if (!categories.has(note.category_id)) {
       errors.push(`${word.id}: unknown category "${note.category_id}"`);
