@@ -1,9 +1,12 @@
 import assert from 'node:assert/strict';
+import { mkdirSync, mkdtempSync, writeFileSync } from 'node:fs';
+import { tmpdir } from 'node:os';
+import { join } from 'node:path';
 import { describe, it } from 'node:test';
 
 import { CARDINALS } from './b1-pool.ts';
 import { partialEnglish, validContent } from './fixtures/valid.ts';
-import { loadContent, translationReport, validateContent, withLegacyTurkish, wordId } from './validate.ts';
+import { fileSourceIssues, loadContent, translationReport, validateContent, withLegacyTurkish, wordId } from './validate.ts';
 
 describe('validateContent', () => {
   it('accepts valid content', () => {
@@ -298,6 +301,52 @@ describe('loadContent', () => {
     assert.ok(Array.isArray(content.words));
     assert.equal(typeof content.manifest.content_version, 'number');
     assert.equal(content.translations.tr.lang, 'tr');
+  });
+});
+
+/** A temp root with the `validContent()` files, as `loadContent` and `fileSourceIssues` read them. */
+function tempRoot(own?: unknown[]): string {
+  const root = mkdtempSync(join(tmpdir(), 'lg-own-'));
+  const content = validContent();
+  mkdirSync(join(root, 'data', 'translations'), { recursive: true });
+  const put = (file: string, v: unknown) => writeFileSync(join(root, file), JSON.stringify(v));
+  put('data/words.json', content.words);
+  put('data/annotations.json', content.annotations);
+  put('data/categories.json', content.categories);
+  put('manifest.json', content.manifest);
+  for (const [lang, file] of Object.entries(content.translations)) put(`data/translations/${lang}.json`, file);
+  if (own) put('data/words-own.json', own);
+  return root;
+}
+
+const ownWord = { id: 'noun-dinsdag', lemma_nl: 'dinsdag', pos: 'noun', cefr: 'A1', source: 'own' };
+
+describe('data/words-own.json (T-153)', () => {
+  it('loadContent appends the own words after data/words.json', () => {
+    const content = loadContent(tempRoot([ownWord]));
+    assert.equal(content.words.length, validContent().words.length + 1);
+    assert.deepEqual(content.words.at(-1), ownWord);
+  });
+
+  it('loadContent is unchanged without the file', () => {
+    assert.deepEqual(loadContent(tempRoot()).words, validContent().words);
+  });
+
+  it('fileSourceIssues is empty for clean files, with and without the own file', () => {
+    assert.deepEqual(fileSourceIssues(tempRoot()), []);
+    assert.deepEqual(fileSourceIssues(tempRoot([ownWord])), []);
+  });
+
+  it('fileSourceIssues rejects an own row in words.json', () => {
+    const root = tempRoot();
+    const words = [...validContent().words, ownWord];
+    writeFileSync(join(root, 'data', 'words.json'), JSON.stringify(words));
+    assert.deepEqual(fileSourceIssues(root), ['data/words.json: noun-dinsdag has source own (own words belong in data/words-own.json)']);
+  });
+
+  it('fileSourceIssues rejects an nt2lex row in words-own.json', () => {
+    const root = tempRoot([{ ...ownWord, source: 'nt2lex' }]);
+    assert.deepEqual(fileSourceIssues(root), ['data/words-own.json: noun-dinsdag has source nt2lex']);
   });
 });
 

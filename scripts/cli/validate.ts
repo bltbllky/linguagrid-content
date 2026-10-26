@@ -1,6 +1,6 @@
 import { STAGES, loadStage, stageReport, validateStage } from '../stage.ts';
 import type { StageName } from '../stage.ts';
-import { loadContent, translationReport, validateContent } from '../validate.ts';
+import { fileSourceIssues, loadContent, translationReport, validateContent } from '../validate.ts';
 
 const content = loadContent();
 const stageName = process.argv.includes('--stage') ? process.argv[process.argv.indexOf('--stage') + 1] : undefined;
@@ -21,7 +21,7 @@ if (stageName) {
   console.log(errors.length ? `${errors.length} problem(s)` : `✔ ${stage.name.toUpperCase()} stage is valid`);
   process.exit(errors.length ? 1 : 0);
 }
-const errors = validateContent(content);
+const errors = [...fileSourceIssues(), ...validateContent(content)];
 for (const e of errors) console.error(`✖ ${e}`);
 if (!errors.length) for (const line of translationReport(content)) console.log(line);
 console.log(errors.length ? `${errors.length} problem(s)` : '✔ content is valid');
