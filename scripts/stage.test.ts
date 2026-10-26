@@ -8,9 +8,9 @@ import { exportReview } from './export-review.ts';
 import { applyReview } from './import-review.ts';
 import { applyRoundtrip } from './import-roundtrip.ts';
 import { partialEnglish, validContent } from './fixtures/valid.ts';
-import { loadStage, mergeStage, stageFiles, stageReport, takeStage, validateStage } from './stage.ts';
+import { loadStage, mergeStage, promoteStage, stageFiles, stageReport, takeStage, validateStage } from './stage.ts';
 import type { Stage } from './stage.ts';
-import { loadContent } from './validate.ts';
+import { loadContent, validateContent } from './validate.ts';
 import type { Annotation, TranslationFile, Word } from './validate.ts';
 
 function stage(): Stage {
@@ -314,5 +314,43 @@ describe('stage profiles', () => {
 describe('loadStage names', () => {
   it('refuses prototype names', () => {
     assert.throws(() => loadStage('constructor'), /Unknown stage "constructor"/);
+  });
+});
+
+describe('promoteStage (T-153)', () => {
+  it('moves the A1/A2 extras into the live files and removes the staged ones', () => {
+    const live = validContent();
+    const { files, remove } = promoteStage(live, [], extras());
+    assert.deepEqual(files['data/words-own.json'], extras().words);
+    const annotations = files['data/annotations.json'] as Annotation[];
+    assert.deepEqual(annotations.slice(0, live.annotations.length), live.annotations);
+    assert.equal(annotations.at(-1)!.word_id, 'noun-dinsdag');
+    assert.ok(!('text_tr' in annotations.at(-1)!));
+    const tr = files['data/translations/tr.json'] as TranslationFile;
+    assert.deepEqual(tr.words.map((t) => t.word_id), [...live.translations.tr.words.map((t) => t.word_id), 'noun-dinsdag']);
+    assert.deepEqual(tr.categories, live.translations.tr.categories);
+    assert.deepEqual(remove, ['data/a1a2/words.json', 'data/a1a2/annotations.json', 'data/a1a2/translations']);
+  });
+
+  it('appends after the live own words on a later promotion', () => {
+    const earlier: Word = { id: 'noun-woensdag', lemma_nl: 'woensdag', pos: 'noun', cefr: 'A1', source: 'own' };
+    const { files } = promoteStage(validContent(), [earlier], extras());
+    assert.deepEqual((files['data/words-own.json'] as Word[]).map((w) => w.id), ['noun-woensdag', 'noun-dinsdag']);
+  });
+
+  it('leaves the merged result valid', () => {
+    const live = validContent();
+    const { files } = promoteStage(live, [], extras());
+    const merged = {
+      ...live,
+      words: [...live.words, ...(files['data/words-own.json'] as Word[])],
+      annotations: files['data/annotations.json'] as Annotation[],
+      translations: { ...live.translations, tr: files['data/translations/tr.json'] as TranslationFile },
+    };
+    assert.deepEqual(validateContent(merged), []);
+  });
+
+  it('refuses any other stage', () => {
+    assert.throws(() => promoteStage(validContent(), [], stage()), /Only a1a2 is promoted here/);
   });
 });

@@ -1,4 +1,4 @@
-import { readdirSync, readFileSync } from 'node:fs';
+import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 import { Ajv } from 'ajv';
@@ -257,7 +257,7 @@ export function loadContent(root = ROOT): Content {
   const read = (file: string) => JSON.parse(readFileSync(join(root, file), 'utf8'));
   const langs = readdirSync(join(root, 'data', 'translations')).filter((f) => f.endsWith('.json'));
   return {
-    words: read('data/words.json'),
+    words: [...read('data/words.json'), ...(existsSync(join(root, 'data', 'words-own.json')) ? read('data/words-own.json') : [])],
     annotations: read('data/annotations.json'),
     categories: read('data/categories.json'),
     translations: Object.fromEntries(
@@ -265,4 +265,13 @@ export function loadContent(root = ROOT): Content {
     ) as Content['translations'],
     manifest: read('manifest.json'),
   };
+}
+
+/** Each word file holds one kind of word: NT2Lex-derived rows in `words.json`, our own selection in `words-own.json` (T-153). */
+export function fileSourceIssues(root = ROOT): string[] {
+  const read = (file: string): Word[] => (existsSync(join(root, file)) ? JSON.parse(readFileSync(join(root, file), 'utf8')) : []);
+  return [
+    ...read('data/words.json').filter((w) => w.source !== 'nt2lex').map((w) => `data/words.json: ${w.id} has source own (own words belong in data/words-own.json)`),
+    ...read('data/words-own.json').filter((w) => w.source !== 'own').map((w) => `data/words-own.json: ${w.id} has source nt2lex`),
+  ];
 }

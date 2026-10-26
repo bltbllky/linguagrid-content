@@ -161,3 +161,21 @@ export function stageReport(live: Content, stage: Stage): string[] {
     ...lines.filter((l) => l.startsWith('⚠') && [...ids].some((id) => l.includes(id))),
   ];
 }
+
+/**
+ * The live files to write when a reviewed stage goes live, keyed by path relative to the repository root, and the staged
+ * paths to remove afterwards. Only the A1/A2 extras are promoted here; they use the live categories. A language that the
+ * stage has but live lacks becomes a new file.
+ */
+export function promoteStage(live: Content, liveOwn: Word[], stage: Stage): { files: Record<string, unknown>; remove: string[] } {
+  if (stage.name !== 'a1a2') throw new Error('Only a1a2 is promoted here; B1 and B2 are released by their US-022 tasks');
+  const files: Record<string, unknown> = {
+    'data/words-own.json': [...liveOwn, ...stage.words],
+    'data/annotations.json': [...live.annotations, ...(stage.annotations ?? []).map(({ text_tr: _, ...a }) => a)],
+  };
+  for (const [lang, staged] of Object.entries(stage.translations)) {
+    const current = live.translations[lang];
+    files[`data/translations/${lang}.json`] = { ...(current ?? { lang, categories: [] }), words: [...(current?.words ?? []), ...staged!.words] };
+  }
+  return { files, remove: ['data/a1a2/words.json', 'data/a1a2/annotations.json', 'data/a1a2/translations'] };
+}
