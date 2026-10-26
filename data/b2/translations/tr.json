@@ -388,7 +388,7 @@
     },
     {
       "word_id": "adj-werkbaar",
-      "text": "uygulanabilir",
+      "text": "işe yarar",
       "reviewed": false
     },
     {
@@ -5995,6 +5995,756 @@
       "word_id": "noun-ontzag",
       "text": "huşu",
       "reviewed": false
+    },
+    {
+      "word_id": "verb-vernemen",
+      "text": "haber almak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-ontlenen",
+      "text": "(bir kaynaktan) almak",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-onjuist",
+      "text": "hatalı (bilgi)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-nuance",
+      "text": "nüans",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verhullen",
+      "text": "örtbas etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-stellig",
+      "text": "kesin (emin)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-inleiden",
+      "text": "(konuya) giriş yapmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-zinnig",
+      "text": "mantıklı (yararlı)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-opsommen",
+      "text": "tek tek saymak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-doordenken",
+      "text": "derinlemesine düşünmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-overschatten",
+      "text": "gözünde büyütmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-afbakenen",
+      "text": "sınırlarını çizmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-dogma",
+      "text": "katı inanç",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-onredelijk",
+      "text": "makul olmayan",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-relevantie",
+      "text": "konuyla ilgisi",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vertekenen",
+      "text": "çarpıtmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-uitvoerbaar",
+      "text": "icra edilebilir",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-opheldering",
+      "text": "açıklık getirme",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-typerend",
+      "text": "karakteristik",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-onomstreden",
+      "text": "tartışmasız",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-ontcijferen",
+      "text": "şifresini çözmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bijzaak",
+      "text": "ikincil mesele",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-onverstandig",
+      "text": "akılsızca",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-afkeuring",
+      "text": "onaylamama",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-anticiperen",
+      "text": "önceden hazırlanmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-onlogisch",
+      "text": "mantıksız",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-reikwijdte",
+      "text": "kapsam",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-valkuil",
+      "text": "gizli tuzak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-graadmeter",
+      "text": "ölçüt",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-paradox",
+      "text": "paradoks",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-voorwendsel",
+      "text": "bahane",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-formulering",
+      "text": "ifade biçimi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tegenwicht",
+      "text": "denge unsuru",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-doorzien",
+      "text": "içyüzünü görmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-verwerpelijk",
+      "text": "kınanacak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-samenhangen",
+      "text": "bağlantılı olmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-gissen",
+      "text": "kestirmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-hypothetisch",
+      "text": "varsayımsal",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-dooddoener",
+      "text": "lafı kesen klişe",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-stroken",
+      "text": "örtüşmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-irrationeel",
+      "text": "akıldışı",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-argumenteren",
+      "text": "argüman sunmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-benul",
+      "text": "en ufak fikir",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-blauwdruk",
+      "text": "taslak plan",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hiaat",
+      "text": "eksik kalan yer",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-drogreden",
+      "text": "safsata",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-middenweg",
+      "text": "orta yol",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-onwaar",
+      "text": "doğru olmayan",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-pragmatisch",
+      "text": "pragmatik",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-narratief",
+      "text": "anlatı",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-ontrafelen",
+      "text": "(sırrı) çözmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-raamwerk",
+      "text": "çerçeve",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-toepasbaar",
+      "text": "uygulanabilir",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-weloverwogen",
+      "text": "iyice düşünülmüş",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-betwist",
+      "text": "tartışmalı",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uiteenlopen",
+      "text": "ayrışmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-minpunt",
+      "text": "eksi yön",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-neveneffect",
+      "text": "yan sonuç",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verifiëren",
+      "text": "doğrulamak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bezinning",
+      "text": "tefekkür",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-haalbaarheid",
+      "text": "fizibilite",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-onomkeerbaar",
+      "text": "geri döndürülemez",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-veelzeggend",
+      "text": "çok şey anlatan",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-voorbarig",
+      "text": "aceleci (erken)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-intrinsiek",
+      "text": "içsel",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-stellingname",
+      "text": "tavır alma",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-misvatting",
+      "text": "yanlış kanı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-struikelblok",
+      "text": "engel (sorun)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-pluspunt",
+      "text": "artı yön",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gedachtegang",
+      "text": "düşünce silsilesi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-scepsis",
+      "text": "kuşkuculuk",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-scheidslijn",
+      "text": "ayrım çizgisi",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-diepgaand",
+      "text": "derinlemesine",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-juistheid",
+      "text": "doğruluk",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vuistregel",
+      "text": "pratik kural",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gezichtspunt",
+      "text": "bakış açısı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-beweegreden",
+      "text": "güdü",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-goedpraten",
+      "text": "mazur göstermek",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-intuïtief",
+      "text": "sezgisel",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-cynisme",
+      "text": "sinizm",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-onwetend",
+      "text": "habersiz (bilgisiz)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-oriënteren",
+      "text": "bilgi toplamak (karar öncesi)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-plausibel",
+      "text": "akla yatkın",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-realist",
+      "text": "gerçekçi (kişi)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-onhaalbaar",
+      "text": "gerçekleştirilemez",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-retorisch",
+      "text": "retorik",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-echtheid",
+      "text": "orijinallik",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-raadzaam",
+      "text": "tavsiye edilir",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-toedichten",
+      "text": "(birine) mal etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-paradoxaal",
+      "text": "paradoksal",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tunnelvisie",
+      "text": "at gözlüğü",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-overdenken",
+      "text": "üzerinde düşünmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-doorgronden",
+      "text": "derinden kavramak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-polemiek",
+      "text": "polemik",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-schandelijk",
+      "text": "yüz kızartıcı",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-tekenend",
+      "text": "belirleyici (tipik)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verzinsel",
+      "text": "uydurma",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-volmondig",
+      "text": "açık yürekli",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-abstractie",
+      "text": "soyutlama",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-consistentie",
+      "text": "tutarlılık",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-versimpelen",
+      "text": "basitleştirmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-denkfout",
+      "text": "düşünce hatası",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-denkvermogen",
+      "text": "düşünme yeteneği",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-discutabel",
+      "text": "tartışmaya açık",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-foutmarge",
+      "text": "hata payı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hamvraag",
+      "text": "can alıcı soru",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-discrepantie",
+      "text": "uyuşmazlık",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-mijmeren",
+      "text": "dalıp gitmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-rechtzetten",
+      "text": "(yanlışı) düzeltmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wensdenken",
+      "text": "hüsnükuruntu",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-afwegen",
+      "text": "(seçenekleri) tartmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-immoreel",
+      "text": "ahlaksız",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-ongefundeerd",
+      "text": "dayanaksız",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-verdedigbaar",
+      "text": "savunulabilir",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-staven",
+      "text": "belgelemek",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-arbitrair",
+      "text": "keyfî",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-causaal",
+      "text": "nedensel",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-tweeledig",
+      "text": "iki yönlü",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-coherent",
+      "text": "bütünlüklü",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-kortzichtig",
+      "text": "ileriyi göremeyen",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-paradigma",
+      "text": "düşünce modeli",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-toespeling",
+      "text": "ima",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-doorhakken",
+      "text": "kesip atmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-motivering",
+      "text": "gerekçe",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-pareren",
+      "text": "savuşturmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-romantiseren",
+      "text": "romantikleştirmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wildgroei",
+      "text": "kontrolsüz artış",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-betekenisvol",
+      "text": "anlam yüklü",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-dogmatisch",
+      "text": "dogmatik",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-insinuatie",
+      "text": "üstü kapalı suçlama",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-knelpunt",
+      "text": "darboğaz",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-opteren",
+      "text": "tercihte bulunmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-breuklijn",
+      "text": "kırılma hattı",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-heroverwegen",
+      "text": "yeniden düşünmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-ongeschreven",
+      "text": "yazılı olmayan",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-tastbaar",
+      "text": "elle tutulur",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-beredeneren",
+      "text": "mantıkla açıklamak",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-onomwonden",
+      "text": "dolaysız",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-verklaarbaar",
+      "text": "açıklanabilir",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-visionair",
+      "text": "vizyoner",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-breekpunt",
+      "text": "kırılma noktası",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-nietszeggend",
+      "text": "içi boş",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-hekelen",
+      "text": "yerden yere vurmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-warrig",
+      "text": "karışık (anlatım)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ingeving",
+      "text": "ilham (anlık)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-poneren",
+      "text": "ileri sürmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zingeving",
+      "text": "anlam arayışı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ijkpunt",
+      "text": "referans noktası",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-aftasten",
+      "text": "nabız yoklamak",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-cryptisch",
+      "text": "muğlak",
+      "reviewed": false
     }
   ],
   "categories": [
@@ -6049,6 +6799,10 @@
     {
       "category_id": "b2-feelings-attitudes",
       "title": "Duygular ve tutumlar"
+    },
+    {
+      "category_id": "b2-thinking-arguing",
+      "title": "Düşünme ve tartışma"
     }
   ]
 }
