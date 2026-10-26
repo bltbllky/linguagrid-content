@@ -6,7 +6,7 @@ import { loadContent } from '../validate.ts';
 
 const root = join(import.meta.dirname, '..', '..');
 const { manifest, files, excluded } = buildRelease(loadContent(), {
-  minimums: { A1: 400, A2: 600 },
+  minimums: { A1: 400, A2: 600, B1: 600 },
   allowPartial: process.argv.includes('--allow-partial'),
 });
 const dir = join(root, 'release', String(manifest.content_version));

@@ -13,8 +13,8 @@ const fail = (message: string): never => {
   return process.exit(1);
 };
 
-if (!name) fail('Usage: npm run promote-stage -- a1a2');
-if (name !== 'a1a2') fail('Only a1a2 is promoted here; B1 and B2 are released by their US-022 tasks');
+if (!name) fail('Usage: npm run promote-stage -- a1a2|b1');
+if (name !== 'a1a2' && name !== 'b1') fail('Only a1a2 and b1 are promoted here; B2 is released by its US-033 task');
 const stage = loadStage(name);
 const live = loadContent();
 const others = (Object.keys(STAGES) as StageName[]).filter((n) => n !== stage.name).map((n) => loadStage(n));
@@ -30,6 +30,7 @@ const { files, remove } = promoteStage(live, liveOwn, stage);
 
 // Check the merged result before anything is written.
 const merged = mergeStage(live, { ...stage, categories: [], annotations: [], translations: {} });
+merged.categories = (files['data/categories.json'] as typeof merged.categories | undefined) ?? merged.categories;
 merged.annotations = files['data/annotations.json'] as typeof merged.annotations;
 for (const [path, value] of Object.entries(files)) {
   const lang = /^data\/translations\/(.+)\.json$/.exec(path)?.[1];
@@ -46,4 +47,4 @@ for (const [path, value] of Object.entries(files)) {
   writeFileSync(join(root, path), JSON.stringify(value, null, 2) + '\n');
 }
 for (const path of remove) rmSync(join(root, path), { recursive: true, force: true });
-console.log(`Promoted ${stage.words.length} words to data/words-own.json`);
+console.log(`Promoted ${stage.words.length} ${stage.name.toUpperCase()} words to data/words-own.json`);

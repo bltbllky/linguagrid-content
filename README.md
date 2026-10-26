@@ -45,10 +45,9 @@ uses 50 words again.
 ## Staged levels (B1)
 
 B1 words are collected before the app can show them (owner decision 2026-10-18; selected from open sources, owner decision 2026-10-21). They live in `data/b1/` with the same files
-and shapes as the live data, and no release reads them: `npm run release` uses only `data/words.json` and refuses any level
-other than A1 and A2. `npm run validate -- --stage b1` checks the staged files against the live ones: B1 level, own source,
-no lemma that is already an A1, A2 or B1 word, B1-only categories, and every live rule. B1 is released by its M3 task, which
-moves `data/b1/` into the live files.
+and shapes as the live data, and no release reads them: `npm run release` reads the live files (`data/words.json` and `data/words-own.json`) and refuses any level
+other than A1, A2 and B1 (B1 went live with content release 2, US-022, 2026-10-26). `npm run validate -- --stage b1` checks the staged files against the live ones: B1 level, own source,
+no lemma that is already an A1, A2 or B1 word, B1-only categories, and every live rule. `npm run promote-stage -- b1` moved the reviewed B1 words, their categories and texts into the live files; `data/b1/` now keeps only `selection-criteria.md` and `selection.json` as the record. B2 stays staged until US-033.
 Review sheets for B1: `npm run export-review -- [--lang en] --stage b1 b1`; imports take `--stage b1` too and write only
 `data/b1/` (a word the owner removes also goes to `data/excluded.json` and leaves `data/b1/selection.json`).
 

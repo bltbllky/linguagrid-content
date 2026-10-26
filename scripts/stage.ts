@@ -164,18 +164,25 @@ export function stageReport(live: Content, stage: Stage): string[] {
 
 /**
  * The live files to write when a reviewed stage goes live, keyed by path relative to the repository root, and the staged
- * paths to remove afterwards. Only the A1/A2 extras are promoted here; they use the live categories. A language that the
- * stage has but live lacks becomes a new file.
+ * paths to remove afterwards. Only the A1/A2 extras and B1 are promoted here. The extras use the live categories; B1 brings
+ * its own categories and their titles. A language that the stage has but live lacks becomes a new file.
  */
 export function promoteStage(live: Content, liveOwn: Word[], stage: Stage): { files: Record<string, unknown>; remove: string[] } {
-  if (stage.name !== 'a1a2') throw new Error('Only a1a2 is promoted here; B1 and B2 are released by their US-022 tasks');
+  if (stage.name !== 'a1a2' && stage.name !== 'b1') throw new Error('Only a1a2 and b1 are promoted here; B2 is released by its US-033 task');
+  const { ownCategories } = STAGES[stage.name];
   const files: Record<string, unknown> = {
     'data/words-own.json': [...liveOwn, ...stage.words],
     'data/annotations.json': [...live.annotations, ...(stage.annotations ?? []).map(({ text_tr: _, ...a }) => a)],
   };
+  if (ownCategories) files['data/categories.json'] = [...live.categories, ...stage.categories];
   for (const [lang, staged] of Object.entries(stage.translations)) {
     const current = live.translations[lang];
-    files[`data/translations/${lang}.json`] = { ...(current ?? { lang, categories: [] }), words: [...(current?.words ?? []), ...staged!.words] };
+    files[`data/translations/${lang}.json`] = {
+      ...(current ?? { lang, categories: [] }),
+      words: [...(current?.words ?? []), ...staged!.words],
+      ...(ownCategories ? { categories: [...(current?.categories ?? []), ...staged!.categories] } : {}),
+    };
   }
-  return { files, remove: ['data/a1a2/words.json', 'data/a1a2/annotations.json', 'data/a1a2/translations'] };
+  const dir = `data/${stage.name}`;
+  return { files, remove: [`${dir}/words.json`, ...(ownCategories ? [`${dir}/categories.json`] : []), `${dir}/annotations.json`, `${dir}/translations`] };
 }

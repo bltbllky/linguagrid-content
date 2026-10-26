@@ -350,7 +350,43 @@ describe('promoteStage (T-153)', () => {
     assert.deepEqual(validateContent(merged), []);
   });
 
-  it('refuses any other stage', () => {
-    assert.throws(() => promoteStage(validContent(), [], stage()), /Only a1a2 is promoted here/);
+  it('refuses B2', () => {
+    assert.throws(() => promoteStage(validContent(), [], { ...stage(), name: 'b2' }), /Only a1a2 and b1 are promoted here/);
+  });
+
+  describe('B1 (T-197)', () => {
+    const after = () => {
+      const live = validContent();
+      const { files, remove } = promoteStage(live, [], stage());
+      const merged = {
+        ...live,
+        words: [...live.words, ...(files['data/words-own.json'] as Word[])],
+        categories: files['data/categories.json'] as typeof live.categories,
+        annotations: files['data/annotations.json'] as Annotation[],
+        translations: { ...live.translations, tr: files['data/translations/tr.json'] as TranslationFile },
+      };
+      return { files, remove, merged };
+    };
+
+    it('moves words, categories and category titles into the live files', () => {
+      const { files, remove } = after();
+      assert.deepEqual((files['data/words-own.json'] as Word[]).map((w) => w.id), ['noun-gemeente']);
+      assert.equal((files['data/categories.json'] as { id: string }[]).at(-1)!.id, 'b1-services');
+      const tr = files['data/translations/tr.json'] as TranslationFile;
+      assert.deepEqual(tr.categories.at(-1), { category_id: 'b1-services', title: 'Kamu hizmetleri' });
+      assert.equal(tr.words.at(-1)!.word_id, 'noun-gemeente');
+      assert.deepEqual(remove, ['data/b1/words.json', 'data/b1/categories.json', 'data/b1/annotations.json', 'data/b1/translations']);
+    });
+
+    it('leaves the merged result valid', () => {
+      assert.deepEqual(validateContent(after().merged), []);
+    });
+
+    it('keeps rejecting an extras word in a B1 category', () => {
+      const extra = extras();
+      extra.annotations![0].category_id = 'b1-services';
+      const { errors } = validateStage(after().merged, extra);
+      assert.ok(errors.includes(`noun-dinsdag: ${extra.words[0].cefr} word in category "b1-services" of level B1`), errors.join('\n'));
+    });
   });
 });

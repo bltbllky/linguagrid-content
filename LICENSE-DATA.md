@@ -11,7 +11,7 @@ The selection of words, their parts of speech and CEFR levels are derived from *
 NT2Lex is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Our adaptation in
 `data/words.json` is shared under the same licence: attribution required, non-commercial use only, share alike.
 
-## LinguaGrid annotations and translations — `data/annotations.json`, `data/categories.json`, `data/translations/*.json`, `data/b1/words.json`, `data/b1/categories.json`, `data/b1/annotations.json`, `data/b1/translations/*.json`, `data/words-own.json`, `data/a1a2/*`, `data/b2/*`
+## LinguaGrid annotations and translations — `data/annotations.json`, `data/categories.json`, `data/translations/*.json`, `data/words-own.json`, `data/a1a2/*`, `data/b2/*`
 
 De/het articles and categories (`data/annotations.json`, `data/categories.json`, ADR-009) and the translations of the prompts and
 category titles, one file per learner language (`data/translations/<lang>.json`, for example `data/translations/tr.json` for
@@ -22,7 +22,7 @@ This repository is the unrestricted copy of all licensed content distributed in 
 
 `data/words-own.json` holds the A1 and A2 words we selected ourselves from the open sources below, under the criteria in `data/a1a2/selection-criteria.md`; it contains no NT2Lex data. Files under `data/a1a2/` and `data/b2/` are staged content that is not in any app release yet.
 
-Files under `data/b1/` are staged B1 content that is not in any app release yet. The B1 word selection is ours, made from the open sources below under the criteria in `data/b1/selection-criteria.md`; it contains no NT2Lex data.
+The B1 words (since content release 2) and the A1/A2 extras live in `data/words-own.json`; their selection is ours, made from the open sources below under the criteria in `data/b1/selection-criteria.md` and `data/a1a2/selection-criteria.md`; they contain no NT2Lex data.
 
 ## Open sources used for B1, B2 and the A1/A2 extras
 
