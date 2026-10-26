@@ -1198,5 +1198,905 @@
     "article": null,
     "category_id": "b2-money-economy",
     "reviewed": false
+  },
+  {
+    "word_id": "verb-ontvoeren",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-intrekken",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-verwerpen",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-betreden",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-schorsen",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-vrijgeven",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-regelgeving",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-gerechtshof",
+    "article": "het",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-witwassen",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-taakstraf",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-strafzaak",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-opvragen",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-procederen",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bemiddeling",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-confisqueren",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-frauduleus",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-misdadig",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-fouilleren",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-geoorloofd",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-nalatigheid",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-voorarrest",
+    "article": "het",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-ontvoerder",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-heterdaad",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-omkopen",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-wapenbezit",
+    "article": "het",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-jurisdictie",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-plofkraak",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-klager",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-octrooi",
+    "article": "het",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-gedogen",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-consultatie",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-mensenhandel",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-uitlevering",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-bemiddelen",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-medeweten",
+    "article": "het",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-raadsman",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-ongegrond",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-verzegelen",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-sommeren",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-ingezetene",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-aantekenen",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-geldigheid",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-misleiding",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-ontvreemden",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-inwilligen",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-omkoping",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-legitiem",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-precedent",
+    "article": "het",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-seponeren",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-bestelen",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-deurwaarder",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-amnestie",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-medeplichtig",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-valsheid",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-alibi",
+    "article": "het",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bewijslast",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-calamiteit",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-inspecteren",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-sjoemelen",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-detentie",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-eiser",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-kadaster",
+    "article": "het",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-smokkelaar",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-formaliteit",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-schadeclaim",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-verzwaren",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-ambtelijk",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-dekmantel",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-ongeoorloofd",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-rookverbod",
+    "article": "het",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-meerderjarig",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-ooggetuige",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-rijverbod",
+    "article": "het",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-dagvaarding",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bedrieger",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-oogmerk",
+    "article": "het",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-strafmaat",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-alleenrecht",
+    "article": "het",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-inreisverbod",
+    "article": "het",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-officieus",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-ontduiken",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-opruiing",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-papierwerk",
+    "article": "het",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-laster",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-aanscherping",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-aanvrager",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-drugsdealer",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-herroepen",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-klopjacht",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-stalken",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-advocatuur",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-beklag",
+    "article": "het",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bestraffing",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bewijsstuk",
+    "article": "het",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-borgtocht",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-navraag",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-vrijwaren",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-ontvankelijk",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-verjaren",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-aangever",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-afwikkeling",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-beambte",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-onwettig",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-rechtsgang",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-afpersen",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-arbitrage",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-convenant",
+    "article": "het",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-meldkamer",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-verruimen",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bedenktijd",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-machtiging",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-surveillance",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-verweer",
+    "article": "het",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-deponeren",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-afschrift",
+    "article": "het",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-beëdiging",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-curatele",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-gerechtigd",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-illegaliteit",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-alimentatie",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-pakkans",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-ronselen",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-voorkennis",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-kennisgeving",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-onteigening",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-aangetekend",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bankoverval",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-boedel",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-heling",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-kansspel",
+    "article": "het",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-namaak",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-wapenhandel",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-dreigbrief",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-oneigenlijk",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-onpartijdig",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-recidive",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-wildplassen",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-eerherstel",
+    "article": "het",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-onterven",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-clandestien",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-strafrechter",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-afgifte",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-meineed",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-rompslomp",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-smeergeld",
+    "article": "het",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-aanhangig",
+    "article": null,
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-gunning",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-aanmaning",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-loverboy",
+    "article": "de",
+    "category_id": "b2-law-administration",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-beding",
+    "article": "het",
+    "category_id": "b2-law-administration",
+    "reviewed": false
   }
 ]
