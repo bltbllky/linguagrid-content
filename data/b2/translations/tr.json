@@ -505,12 +505,511 @@
       "word_id": "verb-aanwerven",
       "text": "işe almak",
       "reviewed": false
+    },
+    {
+      "word_id": "noun-segment",
+      "text": "pazar dilimi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-marge",
+      "text": "marj",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kapitaal",
+      "text": "sermaye",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-reduceren",
+      "text": "düşürmek (miktar)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-kostbaar",
+      "text": "kıymetli",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-stilstand",
+      "text": "duraklama",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-sponsoren",
+      "text": "sponsor olmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-minimum",
+      "text": "en az miktar",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-limiet",
+      "text": "limit",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uitkeren",
+      "text": "ödeme yapmak (sigorta)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-overschot",
+      "text": "fazlalık",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-baat",
+      "text": "yarar",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-aanschaf",
+      "text": "edinme",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-omrekenen",
+      "text": "(başka birime) çevirmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-schenking",
+      "text": "hibe",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vennootschap",
+      "text": "ortaklık şirketi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-obligatie",
+      "text": "tahvil",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-dekking",
+      "text": "sigorta kapsamı",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-veilen",
+      "text": "açık artırmayla satmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-basisinkomen",
+      "text": "temel gelir",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-afzetmarkt",
+      "text": "satış pazarı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-sanering",
+      "text": "yeniden yapılandırma",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-profijt",
+      "text": "kazanç",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wisselkoers",
+      "text": "döviz kuru",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-besteding",
+      "text": "harcama",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-teruggave",
+      "text": "vergi iadesi",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-begroten",
+      "text": "bütçelemek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-spenderen",
+      "text": "(zaman, para) harcamak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-herverdeling",
+      "text": "yeniden dağıtım",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verrekenen",
+      "text": "mahsup etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-aflossen",
+      "text": "borç ödemek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-groothandel",
+      "text": "toptan ticaret",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-munteenheid",
+      "text": "para birimi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-staatslening",
+      "text": "devlet tahvili",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wachtgeld",
+      "text": "bekleme ödeneği",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-marktwaarde",
+      "text": "piyasa değeri",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-armoedegrens",
+      "text": "yoksulluk sınırı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-jaarrekening",
+      "text": "yıllık mali tablo",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vakantiegeld",
+      "text": "tatil parası",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-onderpand",
+      "text": "rehin",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verzilveren",
+      "text": "nakde çevirmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-afdragen",
+      "text": "(vergi, prim) yatırmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-declareren",
+      "text": "masraf bildirmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-inkrimpen",
+      "text": "daraltmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-niche",
+      "text": "niş",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-schuldenlast",
+      "text": "borç yükü",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-competitief",
+      "text": "rekabetçi",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-indexeren",
+      "text": "endekslemek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-meebetalen",
+      "text": "ödemeye katılmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-halveren",
+      "text": "yarıya indirmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ondergrens",
+      "text": "alt sınır",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-franchise",
+      "text": "bayilik sistemi",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-aanprijzen",
+      "text": "methetmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-jaaromzet",
+      "text": "yıllık ciro",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-draagkracht",
+      "text": "ödeme gücü",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-spaarzaam",
+      "text": "idareli",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zorgpremie",
+      "text": "sağlık sigortası primi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-geldnood",
+      "text": "para sıkıntısı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-krapte",
+      "text": "darlık (piyasa)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verkoopprijs",
+      "text": "satış fiyatı",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-procentueel",
+      "text": "yüzdesel",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-afdracht",
+      "text": "pay ödemesi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-betaalmiddel",
+      "text": "ödeme aracı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-contributie",
+      "text": "aidat",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-rondkomen",
+      "text": "geçinmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-voorradig",
+      "text": "stokta mevcut",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bijproduct",
+      "text": "yan ürün",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-schuldenaar",
+      "text": "borçlu (kişi)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-storting",
+      "text": "para yatırma",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-winstoogmerk",
+      "text": "kâr amacı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bovengrens",
+      "text": "üst sınır",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-klandizie",
+      "text": "müşteri çevresi",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-schatrijk",
+      "text": "çok zengin",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-stagnatie",
+      "text": "durgunluk",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wereldmarkt",
+      "text": "dünya pazarı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bankwezen",
+      "text": "bankacılık",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-exporteur",
+      "text": "ihracatçı",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-schappelijk",
+      "text": "insaflı",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-afschrijven",
+      "text": "hesaptan çekmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-huismerk",
+      "text": "market markası",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-opdrijven",
+      "text": "(fiyatı) şişirmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-armoedig",
+      "text": "sefil",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-besteedbaar",
+      "text": "harcanabilir",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-floreren",
+      "text": "serpilmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-speculatief",
+      "text": "spekülatif",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bekostiging",
+      "text": "masrafların karşılanması",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-spotgoedkoop",
+      "text": "sudan ucuz",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-straatarm",
+      "text": "çok fakir",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-renderen",
+      "text": "kâr getirmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uitsparen",
+      "text": "(masraftan) kısmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uitloven",
+      "text": "ödül vaat etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-incasso",
+      "text": "otomatik tahsilat",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-koopavond",
+      "text": "uzun alışveriş akşamı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verarming",
+      "text": "yoksullaşma",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-afslanken",
+      "text": "küçülmek (şirket)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-deflatie",
+      "text": "deflasyon",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-zakendoen",
+      "text": "ticaret yapmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-aansmeren",
+      "text": "(birine) kakalamak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-afromen",
+      "text": "kaymağını almak",
+      "reviewed": false
     }
   ],
   "categories": [
     {
       "category_id": "b2-work-organisation",
       "title": "İş ve organizasyon"
+    },
+    {
+      "category_id": "b2-money-economy",
+      "title": "Para ve ekonomi"
     }
   ]
 }
