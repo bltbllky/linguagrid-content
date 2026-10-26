@@ -7350,6 +7350,531 @@
       "word_id": "adj-doodstil",
       "text": "dead quiet",
       "reviewed": false
+    },
+    {
+      "word_id": "adj-kansrijk",
+      "text": "promising",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-delicaat",
+      "text": "delicate (sensitive)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-knullig",
+      "text": "clumsy (amateurish)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-summier",
+      "text": "scant (brief)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-monotoon",
+      "text": "monotonous",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-banaal",
+      "text": "banal",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-atypisch",
+      "text": "atypical",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-weelderig",
+      "text": "lush (luxurious)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-afgezaagd",
+      "text": "hackneyed",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-meerjarig",
+      "text": "multi-year",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-notoir",
+      "text": "notorious (well-known)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-smakeloos",
+      "text": "tasteless (crude)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-triviaal",
+      "text": "trivial",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-schimmig",
+      "text": "murky (shadowy)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-rumoerig",
+      "text": "noisy (rowdy)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-matigen",
+      "text": "to moderate",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-afzien",
+      "text": "to refrain (from)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-opvoeren",
+      "text": "to step up (increase)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verbreden",
+      "text": "to widen",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-domineren",
+      "text": "to dominate",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-lonen",
+      "text": "to be worth it",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-benutten",
+      "text": "to make use of",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-evolueren",
+      "text": "to evolve",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vergen",
+      "text": "to demand (require)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-hinderen",
+      "text": "to hinder",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-aantasten",
+      "text": "to affect (damage)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-behoeven",
+      "text": "to need (formal)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-voordoen",
+      "text": "to occur (arise)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-afstaan",
+      "text": "to give up (cede)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-volstaan",
+      "text": "to suffice",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-ontwijken",
+      "text": "to avoid (dodge)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-spreiden",
+      "text": "to spread (out)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-wegvallen",
+      "text": "to drop out (fall away)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-pogen",
+      "text": "to attempt",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vergaren",
+      "text": "to amass",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-omarmen",
+      "text": "to embrace (an idea)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verkorten",
+      "text": "to shorten (formal)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-doorstaan",
+      "text": "to endure (withstand)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verhelpen",
+      "text": "to remedy",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vrijmaken",
+      "text": "to free up",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verpesten",
+      "text": "to spoil (ruin)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-omzeilen",
+      "text": "to get round (circumvent)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verharden",
+      "text": "to harden",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-gewennen",
+      "text": "to become accustomed",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-blunderen",
+      "text": "to blunder",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-zwichten",
+      "text": "to give in",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-terugvallen",
+      "text": "to fall back (on)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-mislopen",
+      "text": "to miss out on",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-oplaaien",
+      "text": "to flare up",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-nabootsen",
+      "text": "to imitate",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-trotseren",
+      "text": "to defy (brave)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-inperken",
+      "text": "to curb",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-elimineren",
+      "text": "to eliminate",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verdoezelen",
+      "text": "to cover up (gloss over)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-indammen",
+      "text": "to contain (curb)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verstevigen",
+      "text": "to strengthen",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-inluiden",
+      "text": "to herald",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-opzadelen",
+      "text": "to saddle (with)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-herleven",
+      "text": "to revive",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-ontplooien",
+      "text": "to develop (unfold)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vorderen",
+      "text": "to progress (advance)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-lokaliseren",
+      "text": "to locate",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-ontregelen",
+      "text": "to disrupt",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-opstapelen",
+      "text": "to pile up",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-afschrikken",
+      "text": "to deter",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-dwarsbomen",
+      "text": "to thwart",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-ruïneren",
+      "text": "to ruin",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-ontberen",
+      "text": "to lack (formal)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-escaleren",
+      "text": "to escalate",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-dulden",
+      "text": "to tolerate (put up with)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-saboteren",
+      "text": "to sabotage",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-voortduren",
+      "text": "to continue (last)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-dicteren",
+      "text": "to dictate",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-meetellen",
+      "text": "to count (be included)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-schromen",
+      "text": "to hesitate (shrink from)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-inspannen",
+      "text": "to exert oneself",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-terroriseren",
+      "text": "to terrorise",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-normaliseren",
+      "text": "to normalise",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-standhouden",
+      "text": "to hold out",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-volharden",
+      "text": "to persist",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-berokkenen",
+      "text": "to cause (harm)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-afweren",
+      "text": "to ward off",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-samensmelten",
+      "text": "to merge (fuse)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-mompelen",
+      "text": "to mumble",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-ondergraven",
+      "text": "to undermine",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-afwenden",
+      "text": "to avert",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-samenvallen",
+      "text": "to coincide",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-inboeten",
+      "text": "to lose (forfeit)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-bemoeilijken",
+      "text": "to complicate",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-tarten",
+      "text": "to defy (challenge)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-bijbenen",
+      "text": "to keep up with",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verprutsen",
+      "text": "to mess up",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-ondervangen",
+      "text": "to overcome (cover for)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-misgaan",
+      "text": "to go wrong",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-sjouwen",
+      "text": "to lug",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-najagen",
+      "text": "to pursue (chase)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verruilen",
+      "text": "to swap (exchange for)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-aanhaken",
+      "text": "to join in (link up)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-omschakelen",
+      "text": "to switch over",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-stilvallen",
+      "text": "to come to a halt",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-meeliften",
+      "text": "to piggyback (on)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uitwissen",
+      "text": "to erase",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-traineren",
+      "text": "to stall (delay)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-afzwakken",
+      "text": "to weaken (water down)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-opleven",
+      "text": "to pick up (revive)",
+      "reviewed": false
     }
   ],
   "categories": [
