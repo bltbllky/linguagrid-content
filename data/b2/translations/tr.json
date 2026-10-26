@@ -2960,6 +2960,586 @@
       "word_id": "adj-cognitief",
       "text": "bilişsel",
       "reviewed": false
+    },
+    {
+      "word_id": "adj-agrarisch",
+      "text": "tarımsal",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-behoud",
+      "text": "muhafaza",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-nucleair",
+      "text": "nükleer",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-inheems",
+      "text": "yerli (tür)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vrijkomen",
+      "text": "açığa çıkmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-biomassa",
+      "text": "biyokütle",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-plantaardig",
+      "text": "bitkisel",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verspilling",
+      "text": "israf",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-natuurbrand",
+      "text": "orman yangını",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-windenergie",
+      "text": "rüzgâr enerjisi",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-wisselvallig",
+      "text": "değişken (hava)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-natuurramp",
+      "text": "doğal afet",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-veehouderij",
+      "text": "hayvancılık",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-afvalwater",
+      "text": "atık su",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-laaggelegen",
+      "text": "alçakta kalan",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-circulair",
+      "text": "döngüsel",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-recycling",
+      "text": "geri dönüşüm",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-windpark",
+      "text": "rüzgâr çiftliği",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-voetafdruk",
+      "text": "karbon ayak izi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-opwekking",
+      "text": "enerji üretimi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-uitlaatgas",
+      "text": "egzoz gazı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-akkerbouw",
+      "text": "tarla tarımı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gaswinning",
+      "text": "gaz çıkarma",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-inzameling",
+      "text": "(atık) toplama",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-voedselketen",
+      "text": "besin zinciri",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-afvalstof",
+      "text": "atık madde",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ecologie",
+      "text": "ekoloji",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-milieustraat",
+      "text": "atık getirme merkezi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kernreactor",
+      "text": "nükleer reaktör",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hergebruik",
+      "text": "yeniden kullanım",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-waterbeheer",
+      "text": "su yönetimi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zonnecel",
+      "text": "güneş hücresi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-natuurbeheer",
+      "text": "doğa yönetimi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vergroening",
+      "text": "yeşillendirme",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zwerfvuil",
+      "text": "sokağa atılan çöp",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-statiegeld",
+      "text": "depozito (şişe)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-huisvuil",
+      "text": "ev çöpü",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-blauwalg",
+      "text": "mavi-yeşil alg",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gasveld",
+      "text": "gaz sahası",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gifstof",
+      "text": "zehirli madde",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-lozing",
+      "text": "deşarj (atık)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-ongerept",
+      "text": "el değmemiş",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-pesticide",
+      "text": "tarım ilacı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-compost",
+      "text": "kompost",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-toxisch",
+      "text": "toksik",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ozonlaag",
+      "text": "ozon tabakası",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-smog",
+      "text": "dumanlı sis",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-genereren",
+      "text": "üretmek (otomatik)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-component",
+      "text": "bileşen",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ophef",
+      "text": "yaygara",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-licentie",
+      "text": "lisans",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-weergave",
+      "text": "gösterim",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-algoritme",
+      "text": "algoritma",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-voorloper",
+      "text": "öncül",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-statement",
+      "text": "basın açıklaması",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-handmatig",
+      "text": "manuel",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-analoog",
+      "text": "analog",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-trollen",
+      "text": "trollük yapmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-voorpagina",
+      "text": "ilk sayfa (gazete)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-haperen",
+      "text": "aksamak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kortsluiting",
+      "text": "kısa devre",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zoekopdracht",
+      "text": "arama sorgusu",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-cyberaanval",
+      "text": "siber saldırı",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-opwaarderen",
+      "text": "(bakiye) yüklemek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-broncode",
+      "text": "kaynak kod",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-lettertype",
+      "text": "yazı tipi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vakblad",
+      "text": "meslek dergisi",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-contactloos",
+      "text": "temassız",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-hacken",
+      "text": "hacklemek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-malware",
+      "text": "kötü amaçlı yazılım",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-notificatie",
+      "text": "(uygulama) bildirimi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-videogesprek",
+      "text": "görüntülü görüşme",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-inzoomen",
+      "text": "yakınlaştırmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vergrendelen",
+      "text": "(ekranı) kilitlemek",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-machinaal",
+      "text": "makineyle yapılan",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-upgrade",
+      "text": "yükseltme (sürüm)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-programmeur",
+      "text": "programcı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-chatbot",
+      "text": "sohbet robotu",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-pincode",
+      "text": "kart şifresi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-onderschrift",
+      "text": "resim altı yazısı",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-afmelden",
+      "text": "üyelikten çıkmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vlogger",
+      "text": "vlogcu",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-werkgeheugen",
+      "text": "çalışma belleği",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-informatica",
+      "text": "bilgisayar bilimi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-opiniestuk",
+      "text": "görüş yazısı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-rekenkracht",
+      "text": "işlem gücü",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ransomware",
+      "text": "fidye yazılımı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-reclamespot",
+      "text": "reklam filmi",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-zappen",
+      "text": "kanal değiştirmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-ontgrendelen",
+      "text": "kilidini açmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-blogger",
+      "text": "blog yazarı",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-ontkoppelen",
+      "text": "bağlantıyı kesmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-nieuwslezer",
+      "text": "haber spikeri",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-rectificatie",
+      "text": "tekzip",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-voorlichter",
+      "text": "bilgilendirme görevlisi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-krantenkop",
+      "text": "gazete manşeti",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-beeldbellen",
+      "text": "görüntülü aramak",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-tendentieus",
+      "text": "yönlendirici",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-geavanceerd",
+      "text": "gelişmiş",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-trefwoord",
+      "text": "anahtar kelime",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bureaublad",
+      "text": "masaüstü",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-inbox",
+      "text": "gelen kutusu",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-informatief",
+      "text": "bilgilendirici",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zoekfunctie",
+      "text": "arama işlevi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-profielfoto",
+      "text": "profil fotoğrafı",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-configureren",
+      "text": "ayarlarını yapmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-techgigant",
+      "text": "teknoloji devi",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-spammen",
+      "text": "spam göndermek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gamer",
+      "text": "video oyuncusu",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-laadtijd",
+      "text": "yükleme süresi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wederhoor",
+      "text": "karşı tarafı dinleme",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-appgroep",
+      "text": "mesajlaşma grubu",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-sjabloon",
+      "text": "şablon",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-aanvinken",
+      "text": "kutucuğu işaretlemek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-deepfake",
+      "text": "sahte video (yapay zekâ)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-slagzin",
+      "text": "slogan",
+      "reviewed": false
     }
   ],
   "categories": [
@@ -2982,6 +3562,14 @@
     {
       "category_id": "b2-science-health",
       "title": "Bilim ve sağlık"
+    },
+    {
+      "category_id": "b2-environment-energy",
+      "title": "Çevre ve enerji"
+    },
+    {
+      "category_id": "b2-technology-media",
+      "title": "Teknoloji ve medya"
     }
   ]
 }
