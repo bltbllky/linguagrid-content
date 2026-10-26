@@ -1,7 +1,7 @@
 import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 
-import { translationReport, validateContent } from './validate.ts';
+import { translationReport, validateContent, withLegacyTurkish } from './validate.ts';
 import type { Annotation, Category, Content, TranslationFile, Word } from './validate.ts';
 
 const ROOT = join(import.meta.dirname, '..');
@@ -170,11 +170,7 @@ export function stageReport(live: Content, stage: Stage): string[] {
 export function promoteStage(live: Content, liveOwn: Word[], stage: Stage): { files: Record<string, unknown>; remove: string[] } {
   if (stage.name !== 'a1a2' && stage.name !== 'b1') throw new Error('Only a1a2 and b1 are promoted here; B2 is released by its US-033 task');
   const { ownCategories } = STAGES[stage.name];
-  const files: Record<string, unknown> = {
-    'data/words-own.json': [...liveOwn, ...stage.words],
-    'data/annotations.json': [...live.annotations, ...(stage.annotations ?? []).map(({ text_tr: _, ...a }) => a)],
-  };
-  if (ownCategories) files['data/categories.json'] = [...live.categories, ...stage.categories];
+  const files: Record<string, unknown> = { 'data/words-own.json': [...liveOwn, ...stage.words] };
   for (const [lang, staged] of Object.entries(stage.translations)) {
     const current = live.translations[lang];
     files[`data/translations/${lang}.json`] = {
@@ -183,6 +179,15 @@ export function promoteStage(live: Content, liveOwn: Word[], stage: Stage): { fi
       ...(ownCategories ? { categories: [...(current?.categories ?? []), ...staged!.categories] } : {}),
     };
   }
+  // The app still reads the deprecated text_tr / title_tr (T-034): write them for the promoted rows too.
+  const legacy = withLegacyTurkish({
+    ...live,
+    categories: stage.categories,
+    annotations: stage.annotations ?? [],
+    translations: { ...live.translations, tr: files['data/translations/tr.json'] as TranslationFile },
+  });
+  files['data/annotations.json'] = [...live.annotations, ...legacy.annotations];
+  if (ownCategories) files['data/categories.json'] = [...live.categories, ...legacy.categories];
   const dir = `data/${stage.name}`;
   return { files, remove: [`${dir}/words.json`, ...(ownCategories ? [`${dir}/categories.json`] : []), `${dir}/annotations.json`, `${dir}/translations`] };
 }

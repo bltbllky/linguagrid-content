@@ -325,7 +325,7 @@ describe('promoteStage (T-153)', () => {
     const annotations = files['data/annotations.json'] as Annotation[];
     assert.deepEqual(annotations.slice(0, live.annotations.length), live.annotations);
     assert.equal(annotations.at(-1)!.word_id, 'noun-dinsdag');
-    assert.ok(!('text_tr' in annotations.at(-1)!));
+    assert.equal(annotations.at(-1)!.text_tr, 'salı');
     const tr = files['data/translations/tr.json'] as TranslationFile;
     assert.deepEqual(tr.words.map((t) => t.word_id), [...live.translations.tr.words.map((t) => t.word_id), 'noun-dinsdag']);
     assert.deepEqual(tr.categories, live.translations.tr.categories);
@@ -348,6 +348,21 @@ describe('promoteStage (T-153)', () => {
       translations: { ...live.translations, tr: files['data/translations/tr.json'] as TranslationFile },
     };
     assert.deepEqual(validateContent(merged), []);
+  });
+
+  it('writes the deprecated text_tr and title_tr equal to tr.json, in live key order (T-034)', () => {
+    for (const [s, ids] of [[stage(), ['noun-gemeente']], [extras(), ['noun-dinsdag']]] as const) {
+      const { files } = promoteStage(validContent(), [], s);
+      const tr = files['data/translations/tr.json'] as TranslationFile;
+      const annotations = files['data/annotations.json'] as Annotation[];
+      for (const id of ids) {
+        const row = annotations.find((x) => x.word_id === id)!;
+        assert.equal(row.text_tr, tr.words.find((t) => t.word_id === id)!.text);
+        assert.deepEqual(Object.keys(row), ['word_id', 'text_tr', 'article', 'category_id', 'reviewed']);
+      }
+      const categories = (files['data/categories.json'] ?? []) as { id: string; title_tr?: string }[];
+      for (const c of categories.filter((x) => s.categories.some((y) => y.id === x.id))) assert.equal(c.title_tr, tr.categories.find((t) => t.category_id === c.id)?.title);
+    }
   });
 
   it('refuses B2', () => {
