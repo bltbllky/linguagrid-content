@@ -54,9 +54,8 @@ export function releaseRows(input: ReleaseInput): ReleaseOutput {
 
   const byId = new Map<string, string[][]>();
   for (const r of fin.rows) byId.set(r[f('id')], [...(byId.get(r[f('id')]) ?? []), r]);
-  const other = new Set(
-    input.otherFindings === undefined ? [] : table(input.otherFindings).rows.map((r) => r[0]),
-  );
+  const otherTable = table(input.otherFindings ?? '');
+  const other = new Set(otherTable.rows.map((r) => r[otherTable.header.indexOf('id')]));
   const hold = new Set(input.hold ?? []);
 
   const dl = table(input.deepl);
@@ -123,9 +122,8 @@ export function releaseRows(input: ReleaseInput): ReleaseOutput {
   const done = new Set(released);
   const findings = fin.rows.map((r) => {
     const out = [...r];
-    if (done.has(r[f('id')]) && !out[f('reason')].includes(RELEASED)) {
-      out[f('reason')] = out[f('reason')] ? `${out[f('reason')]} ${RELEASED}` : RELEASED;
-    }
+    const reason = out[f('reason')].split(RELEASED).join('').replace(/\s+$/, '').replace(/^\s+/, '');
+    out[f('reason')] = done.has(r[f('id')]) ? (reason ? `${reason} ${RELEASED}` : RELEASED) : reason;
     return out;
   });
 

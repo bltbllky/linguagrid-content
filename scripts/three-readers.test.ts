@@ -159,6 +159,8 @@ describe('releaseRows', () => {
     const once = releaseRows(input);
     const again = releaseRows({ ...input, result: once.result, findings: once.findings, deepl: deepl(['noun-a', 'tr', 'z']) });
     assert.deepEqual([cols(again, 'noun-a').verdict, cols(again, 'noun-a').deepl_same], ['owner', 'no']);
+    assert.equal(parseCsv(once.findings)[1][5], `poor wording ${SENTENCE}`);
+    assert.equal(parseCsv(again.findings)[1][5], 'poor wording');
   });
 
   it('reads a BOM and CRLF files and quotes cells', () => {
