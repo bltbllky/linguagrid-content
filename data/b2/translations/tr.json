@@ -3540,6 +3540,656 @@
       "word_id": "noun-slagzin",
       "text": "slogan",
       "reviewed": false
+    },
+    {
+      "word_id": "noun-vorming",
+      "text": "kişisel gelişim",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bevinding",
+      "text": "bulgu",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hypothese",
+      "text": "hipotez",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-verkennen",
+      "text": "keşif yapmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-universum",
+      "text": "evren",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-materie",
+      "text": "madde (fizik)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-volksmond",
+      "text": "halk dili",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-doceren",
+      "text": "(üniversitede) ders vermek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-opstel",
+      "text": "kompozisyon",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-opdoen",
+      "text": "(deneyim) edinmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-opgave",
+      "text": "çözülecek soru",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-educatief",
+      "text": "eğitici",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-sociologie",
+      "text": "sosyoloji",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-studiebeurs",
+      "text": "öğrenim bursu",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-klemtoon",
+      "text": "vurgu",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-decaan",
+      "text": "dekan",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-doctoraat",
+      "text": "doktora",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-casus",
+      "text": "vaka",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-taalkundige",
+      "text": "dilbilimci",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-terminologie",
+      "text": "terminoloji",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-leerzaam",
+      "text": "öğretici",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-leerjaar",
+      "text": "sınıf düzeyi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-cursist",
+      "text": "kursiyer",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-jargon",
+      "text": "meslek dili",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-spreekwoord",
+      "text": "atasözü",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-hoogopgeleid",
+      "text": "yüksek öğrenimli",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-astronomie",
+      "text": "astronomi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-enkelvoud",
+      "text": "tekil",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-ontleden",
+      "text": "çözümlemek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-plagiaat",
+      "text": "intihal",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-herkansing",
+      "text": "bütünleme sınavı",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-engelstalig",
+      "text": "İngilizce dilinde",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-woordenschat",
+      "text": "kelime hazinesi",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-bijbrengen",
+      "text": "(bilgi) kazandırmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-didactisch",
+      "text": "didaktik",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-grammaticaal",
+      "text": "dilbilgisel",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-socioloog",
+      "text": "sosyolog",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-studiejaar",
+      "text": "öğrenim yılı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-geologie",
+      "text": "jeoloji",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-uitblinker",
+      "text": "sivrilen kişi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-voorvoegsel",
+      "text": "önek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-seminar",
+      "text": "seminer",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-spreektaal",
+      "text": "konuşma dili",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-leerstof",
+      "text": "ders konusu",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-lidwoord",
+      "text": "tanımlık (artikel)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-analfabeet",
+      "text": "okuma yazma bilmeyen (kişi)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-leenwoord",
+      "text": "alıntı sözcük",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-onderbouw",
+      "text": "alt sınıflar (ortaokul)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-symposium",
+      "text": "sempozyum",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-voetnoot",
+      "text": "dipnot",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-toetsing",
+      "text": "sınama",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-leenstelsel",
+      "text": "öğrenim kredisi sistemi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-naslagwerk",
+      "text": "başvuru kitabı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-connotatie",
+      "text": "yan anlam",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-methodiek",
+      "text": "metodoloji",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-spelfout",
+      "text": "yazım hatası",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-taalkunde",
+      "text": "dilbilim",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-afkijken",
+      "text": "kopya çekmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-eigennaam",
+      "text": "özel ad",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-geometrie",
+      "text": "geometri",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-streektaal",
+      "text": "yöresel dil",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-pedagoog",
+      "text": "pedagog",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-spijbelen",
+      "text": "okulu asmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-veldwerk",
+      "text": "saha çalışması",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-conciërge",
+      "text": "okul görevlisi",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-ijverig",
+      "text": "çalışkan",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-spreekbeurt",
+      "text": "sınıf sunumu",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-doorstromen",
+      "text": "(üst kademeye) geçmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-eufemisme",
+      "text": "örtmece",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-scriptie",
+      "text": "bitirme tezi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-collegegeld",
+      "text": "üniversite harcı",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-empirisch",
+      "text": "ampirik",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-schrijftaal",
+      "text": "yazı dili",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-verstaanbaar",
+      "text": "anlaşılır (ses)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vervoeging",
+      "text": "fiil çekimi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-voertaal",
+      "text": "eğitim dili",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bijles",
+      "text": "özel ders",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zelfstudie",
+      "text": "kendi kendine çalışma",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-semester",
+      "text": "yarıyıl",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-intonatie",
+      "text": "tonlama",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-meertalig",
+      "text": "çok dilli",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bijzin",
+      "text": "yan cümle",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-brugklas",
+      "text": "geçiş sınıfı (ortaokul)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-afleren",
+      "text": "huyundan vazgeçmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-idioom",
+      "text": "deyimsel ifade",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-tolken",
+      "text": "tercümanlık yapmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-leesteken",
+      "text": "noktalama işareti",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-deelwoord",
+      "text": "ortaç",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-dyslexie",
+      "text": "disleksi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-practicum",
+      "text": "laboratuvar dersi",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-nomineren",
+      "text": "aday göstermek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-erfgoed",
+      "text": "kültürel miras",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ritueel",
+      "text": "ritüel",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-regie",
+      "text": "yönetmenlik (film)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-visueel",
+      "text": "görsel",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-mythe",
+      "text": "mit",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-creatie",
+      "text": "yaratı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-nominatie",
+      "text": "adaylık",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-inzending",
+      "text": "gönderilen eser",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-improviseren",
+      "text": "doğaçlama yapmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-folklore",
+      "text": "folklor",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-monoloog",
+      "text": "monolog",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vertolken",
+      "text": "(rolü) canlandırmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-vermakelijk",
+      "text": "eğlendirici",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-songtekst",
+      "text": "şarkı sözü",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-anekdote",
+      "text": "anekdot",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-plechtig",
+      "text": "resmî ve ciddi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-plot",
+      "text": "olay örgüsü",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-komisch",
+      "text": "mizahi",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-expressief",
+      "text": "anlatımı güçlü",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-poppodium",
+      "text": "konser salonu (pop)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-woordspeling",
+      "text": "kelime oyunu",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-cliché",
+      "text": "klişe",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-recensent",
+      "text": "eleştirmen",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-animatiefilm",
+      "text": "animasyon filmi",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-theatraal",
+      "text": "teatral",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-spiritueel",
+      "text": "ruhani",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-harmonisch",
+      "text": "ahenkli",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kunsthandel",
+      "text": "sanat ticareti",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-vormgeven",
+      "text": "biçim vermek",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-esthetisch",
+      "text": "estetik",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bijgeloof",
+      "text": "batıl inanç",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-decoratief",
+      "text": "dekoratif",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-iconisch",
+      "text": "ikonik",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-befaamd",
+      "text": "nam salmış",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-ceremonieel",
+      "text": "törensel",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tijdverdrijf",
+      "text": "oyalanma",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-filmhuis",
+      "text": "sanat sineması",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kassucces",
+      "text": "gişe başarısı",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-talentvol",
+      "text": "yetenekli",
+      "reviewed": false
     }
   ],
   "categories": [
@@ -3570,6 +4220,14 @@
     {
       "category_id": "b2-technology-media",
       "title": "Teknoloji ve medya"
+    },
+    {
+      "category_id": "b2-education-research",
+      "title": "Eğitim ve araştırma"
+    },
+    {
+      "category_id": "b2-culture-arts",
+      "title": "Kültür ve sanat"
     }
   ]
 }
