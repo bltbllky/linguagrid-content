@@ -134,7 +134,7 @@ verb-aflossen,aflossen,borç ödemek,to pay off (a loan),pay off,match,"same mea
 noun-groothandel,groothandel,toptan ticaret,wholesale,wholesale,match,same text,wholesale,match,,OK,,
 noun-munteenheid,munteenheid,para birimi,currency unit,currency,match,"same meaning, synonym or wording difference",currency,match,,OK,,
 noun-staatslening,staatslening,devlet tahvili,government bond,government bond,match,same text,government bond,match,,OK,,
-noun-wachtgeld,wachtgeld,bekleme ödeneği,redundancy pay,redundancy pay,match,same text,redundancy pay,match,unsure,OK,the redundancy pay,yes
+noun-wachtgeld,wachtgeld,bekleme ödeneği,redundancy pay,redundancy pay,match,same text,redundancy pay,match,unsure,owner,the redundancy pay,
 noun-marktwaarde,marktwaarde,piyasa değeri,market value,market value,match,same text,market value,match,,OK,,
 noun-armoedegrens,armoedegrens,yoksulluk sınırı,poverty line,poverty line,match,same text,poverty line,match,,OK,,
 noun-jaarrekening,jaarrekening,yıllık mali tablo,annual accounts,annual accounts,match,same text,annual accounts,match,,OK,,
@@ -484,7 +484,7 @@ noun-stoornis,stoornis,bozukluk,disorder,disorder,match,same text,disorder,match
 verb-inenten,inenten,aşı yapmak,to inoculate,vaccinate,match,"same meaning, synonym or wording difference",vaccinate,match,,OK,,
 noun-terugval,terugval,nüksetme,relapse,relapse,match,same text,relapse,match,,OK,,
 noun-inname,inname,(ilaç) alımı,intake,intake,match,same text,intake,match,,OK,,
-adj-dement,dement,demanslı,demented,demented,match,same text,demented,match,unsure,OK,demented,yes
+adj-dement,dement,demanslı,demented,demented,match,same text,demented,match,unsure,owner,demented,
 noun-miskraam,miskraam,düşük (gebelik),miscarriage,miscarriage,match,same text,miscarriage,match,,OK,,
 noun-ontlasting,ontlasting,dışkı,stool (faeces),stool (faeces),match,"same meaning, synonym or wording difference",stool,match,,OK,,
 noun-hartinfarct,hartinfarct,kalp enfarktüsü,myocardial infarction,heart attack,match,"same meaning, synonym or wording difference",heart attack,match,,OK,,
