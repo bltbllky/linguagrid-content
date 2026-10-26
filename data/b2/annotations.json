@@ -5026,5 +5026,611 @@
     "article": null,
     "category_id": "b2-culture-arts",
     "reviewed": false
+  },
+  {
+    "word_id": "noun-ligging",
+    "article": "de",
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bebouwing",
+    "article": "de",
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bewoning",
+    "article": "de",
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-perceel",
+    "article": "het",
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-verval",
+    "article": "het",
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-afbraak",
+    "article": "de",
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-naburig",
+    "article": null,
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-leefbaar",
+    "article": null,
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-lekkage",
+    "article": "de",
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-omheining",
+    "article": "de",
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-waterleiding",
+    "article": "de",
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-bouwkundig",
+    "article": null,
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-inboedel",
+    "article": "de",
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-vraagprijs",
+    "article": "de",
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-verfraaien",
+    "article": null,
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-ongedierte",
+    "article": "het",
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-loodgieter",
+    "article": "de",
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-hoogbouw",
+    "article": "de",
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-huishouding",
+    "article": "de",
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bouwplaats",
+    "article": "de",
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-huizenmarkt",
+    "article": "de",
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-onbewoonbaar",
+    "article": null,
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-riant",
+    "article": null,
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-sfeervol",
+    "article": null,
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-thermostaat",
+    "article": "de",
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-stedeling",
+    "article": "de",
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-tuinieren",
+    "article": null,
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-nachtleven",
+    "article": "het",
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-sanitair",
+    "article": "het",
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-stadswijk",
+    "article": "de",
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-taxatie",
+    "article": "de",
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-corporatie",
+    "article": "de",
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-huisbaas",
+    "article": "de",
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-ontruiming",
+    "article": "de",
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-bouwvallig",
+    "article": null,
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-autovrij",
+    "article": null,
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-dakkapel",
+    "article": "de",
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-huurcontract",
+    "article": "het",
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-vrijstaand",
+    "article": null,
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-woningbrand",
+    "article": "de",
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-grachtenpand",
+    "article": "het",
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-dichtbevolkt",
+    "article": null,
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-verloedering",
+    "article": "de",
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-woonboot",
+    "article": "de",
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bouwput",
+    "article": "de",
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-erfpacht",
+    "article": "de",
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-leegstaand",
+    "article": null,
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-kraakpand",
+    "article": "het",
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-dakterras",
+    "article": "het",
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-loopafstand",
+    "article": "de",
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-overbevolkt",
+    "article": null,
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-wijkbewoner",
+    "article": "de",
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bezichtiging",
+    "article": "de",
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-elektricien",
+    "article": "de",
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-volkstuin",
+    "article": "de",
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-knus",
+    "article": null,
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-krot",
+    "article": "het",
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-borgsom",
+    "article": "de",
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-autoluw",
+    "article": null,
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-woonerf",
+    "article": "het",
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-stadsrand",
+    "article": "de",
+    "category_id": "b2-housing-city",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-knooppunt",
+    "article": "het",
+    "category_id": "b2-travel-mobility",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-pendelen",
+    "article": null,
+    "category_id": "b2-travel-mobility",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-rondweg",
+    "article": "de",
+    "category_id": "b2-travel-mobility",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-wegennet",
+    "article": "het",
+    "category_id": "b2-travel-mobility",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-omleiden",
+    "article": null,
+    "category_id": "b2-travel-mobility",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-spoorwegnet",
+    "article": "het",
+    "category_id": "b2-travel-mobility",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-spitsuur",
+    "article": "het",
+    "category_id": "b2-travel-mobility",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-startbaan",
+    "article": "de",
+    "category_id": "b2-travel-mobility",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-vluchtstrook",
+    "article": "de",
+    "category_id": "b2-travel-mobility",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-annulering",
+    "article": "de",
+    "category_id": "b2-travel-mobility",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-omleiding",
+    "article": "de",
+    "category_id": "b2-travel-mobility",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-busbaan",
+    "article": "de",
+    "category_id": "b2-travel-mobility",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-verkeersader",
+    "article": "de",
+    "category_id": "b2-travel-mobility",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-begaanbaar",
+    "article": null,
+    "category_id": "b2-travel-mobility",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-stalling",
+    "article": "de",
+    "category_id": "b2-travel-mobility",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-versperren",
+    "article": null,
+    "category_id": "b2-travel-mobility",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-flitser",
+    "article": "de",
+    "category_id": "b2-travel-mobility",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-middenberm",
+    "article": "de",
+    "category_id": "b2-travel-mobility",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-afgelasting",
+    "article": "de",
+    "category_id": "b2-travel-mobility",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-noodlanding",
+    "article": "de",
+    "category_id": "b2-travel-mobility",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-zeehaven",
+    "article": "de",
+    "category_id": "b2-travel-mobility",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-luchtverkeer",
+    "article": "het",
+    "category_id": "b2-travel-mobility",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-binnenvaart",
+    "article": "de",
+    "category_id": "b2-travel-mobility",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-hoogseizoen",
+    "article": "het",
+    "category_id": "b2-travel-mobility",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-rijschool",
+    "article": "de",
+    "category_id": "b2-travel-mobility",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-forens",
+    "article": "de",
+    "category_id": "b2-travel-mobility",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-overnachting",
+    "article": "de",
+    "category_id": "b2-travel-mobility",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-tolweg",
+    "article": "de",
+    "category_id": "b2-travel-mobility",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-inchecken",
+    "article": null,
+    "category_id": "b2-travel-mobility",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-oponthoud",
+    "article": "het",
+    "category_id": "b2-travel-mobility",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-weggebruiker",
+    "article": "de",
+    "category_id": "b2-travel-mobility",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-gladheid",
+    "article": "de",
+    "category_id": "b2-travel-mobility",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-tegenligger",
+    "article": "de",
+    "category_id": "b2-travel-mobility",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-touroperator",
+    "article": "de",
+    "category_id": "b2-travel-mobility",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-opstopping",
+    "article": "de",
+    "category_id": "b2-travel-mobility",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-snorfiets",
+    "article": "de",
+    "category_id": "b2-travel-mobility",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-avontuurlijk",
+    "article": null,
+    "category_id": "b2-travel-mobility",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-rijexamen",
+    "article": "het",
+    "category_id": "b2-travel-mobility",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-pittoresk",
+    "article": null,
+    "category_id": "b2-travel-mobility",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-remweg",
+    "article": "de",
+    "category_id": "b2-travel-mobility",
+    "reviewed": false
   }
 ]
