@@ -1750,6 +1750,606 @@
       "word_id": "noun-beding",
       "text": "sözleşme şartı",
       "reviewed": false
+    },
+    {
+      "word_id": "noun-motie",
+      "text": "önerge",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-prominent",
+      "text": "önde gelen",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-autonoom",
+      "text": "özerk",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ideologie",
+      "text": "ideoloji",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bewind",
+      "text": "rejim, iktidar",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-stelsel",
+      "text": "düzen (vergi, sağlık)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-formatie",
+      "text": "hükümet kurma",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-resolutie",
+      "text": "karar (BM)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-mandaat",
+      "text": "temsil yetkisi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-achterban",
+      "text": "taban (destekçiler)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-concessie",
+      "text": "taviz",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-privilege",
+      "text": "ayrıcalık",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-aantreden",
+      "text": "göreve başlamak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-doelwit",
+      "text": "hedef (saldırı)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-hervormen",
+      "text": "reform yapmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-alliantie",
+      "text": "ittifak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-dictatuur",
+      "text": "diktatörlük",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-vreedzaam",
+      "text": "barışçıl",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-mondiaal",
+      "text": "küresel",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-petitie",
+      "text": "imza kampanyası",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-aanhang",
+      "text": "yandaşlar",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-delegatie",
+      "text": "heyet",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-onvrede",
+      "text": "hoşnutsuzluk",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-draagvlak",
+      "text": "toplumsal destek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-betoger",
+      "text": "gösterici",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-waarnemer",
+      "text": "gözlemci",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-gematigd",
+      "text": "ılımlı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-consensus",
+      "text": "fikir birliği",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-dodental",
+      "text": "ölü sayısı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-misstand",
+      "text": "usulsüzlük",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-taboe",
+      "text": "tabu",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wanbeleid",
+      "text": "kötü yönetim",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kiesrecht",
+      "text": "seçme hakkı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-atheïst",
+      "text": "ateist",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-autoritair",
+      "text": "otoriter",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-liberalisme",
+      "text": "liberalizm",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-soeverein",
+      "text": "egemen",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-burgerschap",
+      "text": "vatandaşlık",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-emigrant",
+      "text": "göçmen (giden)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-cohesie",
+      "text": "uyum (toplumsal)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-diplomatiek",
+      "text": "diplomatik",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-populistisch",
+      "text": "popülist",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-diplomatie",
+      "text": "diplomasi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-extremisme",
+      "text": "aşırıcılık",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-lobby",
+      "text": "lobi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-feminist",
+      "text": "kadın hakları savunucusu",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-inclusie",
+      "text": "kapsayıcılık",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-stemgedrag",
+      "text": "oy verme davranışı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-voorvechter",
+      "text": "öncü savunucu",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-dissident",
+      "text": "rejim muhalifi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-feminisme",
+      "text": "feminizm",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-persvrijheid",
+      "text": "basın özgürlüğü",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-parlementair",
+      "text": "parlamenter",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-utopie",
+      "text": "ütopya",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-legitimiteit",
+      "text": "meşruiyet",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-neutraliteit",
+      "text": "tarafsızlık",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-segregatie",
+      "text": "ayrışma (toplumsal)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-islamofobie",
+      "text": "İslamofobi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tegengeluid",
+      "text": "karşı ses",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-electoraal",
+      "text": "seçimle ilgili",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-weerbaarheid",
+      "text": "dayanıklılık",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-lobbyist",
+      "text": "lobici",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-intolerantie",
+      "text": "hoşgörüsüzlük",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-noodhulp",
+      "text": "acil yardım",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-oproer",
+      "text": "ayaklanma",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-idealisme",
+      "text": "idealizm",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-scanderen",
+      "text": "slogan atmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-immigrant",
+      "text": "göçmen (gelen)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-terugtreden",
+      "text": "görevden çekilmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-militant",
+      "text": "militan",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-homohuwelijk",
+      "text": "eşcinsel evlilik",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-onveiligheid",
+      "text": "güvenlik sorunu",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-redevoering",
+      "text": "resmî konuşma",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-informateur",
+      "text": "koalisyon arabulucusu",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kiesdrempel",
+      "text": "seçim barajı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-waakzaamheid",
+      "text": "teyakkuz",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kentering",
+      "text": "gidişatın dönmesi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-patstelling",
+      "text": "çıkmaz",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-staatsbezoek",
+      "text": "devlet ziyareti",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kieskring",
+      "text": "seçim bölgesi",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-elitair",
+      "text": "seçkinci",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bewindsvrouw",
+      "text": "kadın yönetici (hükümet)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-orthodox",
+      "text": "ortodoks",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-terreurdaad",
+      "text": "terör eylemi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wantoestand",
+      "text": "kötü koşullar",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-behoudend",
+      "text": "muhafazakâr",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-kansarm",
+      "text": "dezavantajlı",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-eensgezind",
+      "text": "birlik içinde",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-onderklasse",
+      "text": "alt sınıf",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-stigma",
+      "text": "damgalanma",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-geweldloos",
+      "text": "şiddetsiz",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-stereotype",
+      "text": "stereotip",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-rechtvaardig",
+      "text": "adil",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kanshebber",
+      "text": "güçlü aday",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kinderarbeid",
+      "text": "çocuk işçiliği",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-medeburger",
+      "text": "yurttaş",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-nepotisme",
+      "text": "kayırmacılık",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-migreren",
+      "text": "göç etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-homofobie",
+      "text": "homofobi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-leegloop",
+      "text": "nüfus kaybı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-brandbrief",
+      "text": "acil uyarı mektubu",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-inburgering",
+      "text": "entegrasyon (göçmen)",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-polderen",
+      "text": "uzlaşarak karar almak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-geopolitiek",
+      "text": "jeopolitik",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-toespreken",
+      "text": "hitap etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-seksisme",
+      "text": "cinsiyetçilik",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vragenuur",
+      "text": "soru saati (meclis)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vredesmacht",
+      "text": "barış gücü",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-vrijzinnig",
+      "text": "özgür düşünceli",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-bijeenroepen",
+      "text": "toplantıya çağırmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-burgerzin",
+      "text": "yurttaşlık bilinci",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kiesstelsel",
+      "text": "seçim sistemi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zakkenvuller",
+      "text": "vurguncu",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-asielbeleid",
+      "text": "sığınma politikası",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-embargo",
+      "text": "ambargo",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wereldmacht",
+      "text": "dünya gücü",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-xenofobie",
+      "text": "yabancı düşmanlığı",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-humanitair",
+      "text": "insani",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-ontheemd",
+      "text": "yerinden edilmiş",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-maakbaar",
+      "text": "şekillendirilebilir",
+      "reviewed": false
     }
   ],
   "categories": [
@@ -1764,6 +2364,10 @@
     {
       "category_id": "b2-law-administration",
       "title": "Hukuk ve idare"
+    },
+    {
+      "category_id": "b2-politics-society",
+      "title": "Siyaset ve toplum"
     }
   ]
 }
