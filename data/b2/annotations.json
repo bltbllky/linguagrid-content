@@ -2818,5 +2818,737 @@
     "article": null,
     "category_id": "b2-politics-society",
     "reviewed": false
+  },
+  {
+    "word_id": "noun-straling",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-toedienen",
+    "article": null,
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-organisch",
+    "article": null,
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-sterfte",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-organisme",
+    "article": "het",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-mutatie",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-bezwijken",
+    "article": null,
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-regelmaat",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-voorzorg",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-immuun",
+    "article": null,
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-medicatie",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-stoornis",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-inenten",
+    "article": null,
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-terugval",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-inname",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-dement",
+    "article": null,
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-miskraam",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-ontlasting",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-hartinfarct",
+    "article": "het",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-zenuwstelsel",
+    "article": "het",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-klonen",
+    "article": null,
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-psychose",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-overspanning",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-vitaal",
+    "article": null,
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-allergie",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-autistisch",
+    "article": null,
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-puberteit",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-wervelkolom",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-ziektebeeld",
+    "article": "het",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-hartfalen",
+    "article": "het",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-ouderenzorg",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-uitputting",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-reanimeren",
+    "article": null,
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bevruchting",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-pijnstiller",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-vegetariër",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-lichaamsbouw",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-uitdroging",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-infuus",
+    "article": "het",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-koolhydraat",
+    "article": "het",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-nachtrust",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-revalideren",
+    "article": null,
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-paranoïde",
+    "article": null,
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-psyche",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-veganistisch",
+    "article": null,
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-verslaafde",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-leefstijl",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-dagbesteding",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-placebo",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-alcoholvrij",
+    "article": null,
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-inzinking",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-veroudering",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-borstvoeding",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-kramp",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-paniekaanval",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-allergisch",
+    "article": null,
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-bacterieel",
+    "article": null,
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-inademen",
+    "article": null,
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-complicatie",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-sneltest",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-fobie",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-risicofactor",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bloedgroep",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-ondervoeding",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-verlamming",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-genetica",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-virologie",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-vitaliteit",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-gynaecoloog",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-proefdier",
+    "article": "het",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-menstruatie",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-onvruchtbaar",
+    "article": null,
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-triage",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-epilepsie",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-polikliniek",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-schizofrenie",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-diëtist",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-hersenletsel",
+    "article": "het",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-insuline",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-slagader",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-wondermiddel",
+    "article": "het",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-behandelaar",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-resistent",
+    "article": null,
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-steriel",
+    "article": null,
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-ziekelijk",
+    "article": null,
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bestraling",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-doseren",
+    "article": null,
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-mediteren",
+    "article": null,
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-oogarts",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-eetstoornis",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-kinderarts",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-ongeneeslijk",
+    "article": null,
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-stotteren",
+    "article": null,
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-hygiënisch",
+    "article": null,
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-welbevinden",
+    "article": "het",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-alcoholisme",
+    "article": "het",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-nazorg",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-specialisme",
+    "article": "het",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-spierpijn",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-verdoving",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-cholesterol",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-mantelzorg",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-reuk",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bloeddonor",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-waanidee",
+    "article": "het",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-hooikoorts",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-reuma",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-traumatisch",
+    "article": null,
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-stamcel",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-migraine",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-motorisch",
+    "article": null,
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-narcose",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-afwennen",
+    "article": null,
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-eetlust",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-labiel",
+    "article": null,
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-afkicken",
+    "article": null,
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-rookvrij",
+    "article": null,
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-voedzaam",
+    "article": null,
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-heilzaam",
+    "article": null,
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-menopauze",
+    "article": "de",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-nierfalen",
+    "article": "het",
+    "category_id": "b2-science-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-cognitief",
+    "article": null,
+    "category_id": "b2-science-health",
+    "reviewed": false
   }
 ]

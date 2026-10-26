@@ -2350,6 +2350,616 @@
       "word_id": "adj-maakbaar",
       "text": "şekillendirilebilir",
       "reviewed": false
+    },
+    {
+      "word_id": "noun-straling",
+      "text": "radyasyon",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-toedienen",
+      "text": "(ilaç) vermek",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-organisch",
+      "text": "organik",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-sterfte",
+      "text": "ölüm oranı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-organisme",
+      "text": "organizma",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-mutatie",
+      "text": "mutasyon",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-bezwijken",
+      "text": "yenik düşmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-regelmaat",
+      "text": "düzenlilik",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-voorzorg",
+      "text": "ihtiyat",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-immuun",
+      "text": "bağışık",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-medicatie",
+      "text": "ilaç tedavisi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-stoornis",
+      "text": "bozukluk",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-inenten",
+      "text": "aşı yapmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-terugval",
+      "text": "nüksetme",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-inname",
+      "text": "(ilaç) alımı",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-dement",
+      "text": "demanslı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-miskraam",
+      "text": "düşük (gebelik)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ontlasting",
+      "text": "dışkı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hartinfarct",
+      "text": "kalp enfarktüsü",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zenuwstelsel",
+      "text": "sinir sistemi",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-klonen",
+      "text": "klonlamak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-psychose",
+      "text": "psikoz",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-overspanning",
+      "text": "sinir yorgunluğu",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-vitaal",
+      "text": "dinç",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-allergie",
+      "text": "alerji",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-autistisch",
+      "text": "otistik",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-puberteit",
+      "text": "ergenlik",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wervelkolom",
+      "text": "omurga",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ziektebeeld",
+      "text": "hastalık tablosu",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hartfalen",
+      "text": "kalp yetmezliği",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ouderenzorg",
+      "text": "yaşlı bakımı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-uitputting",
+      "text": "bitkinlik",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-reanimeren",
+      "text": "canlandırmak (ilk yardım)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bevruchting",
+      "text": "döllenme",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-pijnstiller",
+      "text": "ağrı kesici",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vegetariër",
+      "text": "vejetaryen (kişi)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-lichaamsbouw",
+      "text": "vücut yapısı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-uitdroging",
+      "text": "vücudun susuz kalması",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-infuus",
+      "text": "serum",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-koolhydraat",
+      "text": "karbonhidrat",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-nachtrust",
+      "text": "gece uykusu",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-revalideren",
+      "text": "fizik tedaviyle iyileşmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-paranoïde",
+      "text": "paranoyak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-psyche",
+      "text": "ruhsal yapı",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-veganistisch",
+      "text": "vegan",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verslaafde",
+      "text": "bağımlı (kişi)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-leefstijl",
+      "text": "yaşam biçimi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-dagbesteding",
+      "text": "gündüz etkinlik programı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-placebo",
+      "text": "plasebo",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-alcoholvrij",
+      "text": "alkolsüz",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-inzinking",
+      "text": "ruhsal çöküntü",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-veroudering",
+      "text": "yaşlanma",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-borstvoeding",
+      "text": "emzirme",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kramp",
+      "text": "kas kasılması",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-paniekaanval",
+      "text": "panik atak",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-allergisch",
+      "text": "alerjik",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-bacterieel",
+      "text": "bakteriyel",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-inademen",
+      "text": "solumak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-complicatie",
+      "text": "komplikasyon",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-sneltest",
+      "text": "hızlı test",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-fobie",
+      "text": "fobi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-risicofactor",
+      "text": "risk faktörü",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bloedgroep",
+      "text": "kan grubu",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-ondervoeding",
+      "text": "yetersiz beslenme",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verlamming",
+      "text": "felç",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-genetica",
+      "text": "genetik",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-virologie",
+      "text": "viroloji",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vitaliteit",
+      "text": "dinçlik",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gynaecoloog",
+      "text": "jinekolog",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-proefdier",
+      "text": "deney hayvanı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-menstruatie",
+      "text": "adet kanaması",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-onvruchtbaar",
+      "text": "kısır",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-triage",
+      "text": "triyaj",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-epilepsie",
+      "text": "epilepsi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-polikliniek",
+      "text": "poliklinik",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-schizofrenie",
+      "text": "şizofreni",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-diëtist",
+      "text": "diyetisyen",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hersenletsel",
+      "text": "beyin hasarı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-insuline",
+      "text": "insülin",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-slagader",
+      "text": "atardamar",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-wondermiddel",
+      "text": "mucize ilaç",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-behandelaar",
+      "text": "tedavi uzmanı",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-resistent",
+      "text": "dirençli",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-steriel",
+      "text": "steril",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-ziekelijk",
+      "text": "hastalıklı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bestraling",
+      "text": "ışın tedavisi",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-doseren",
+      "text": "dozunu ayarlamak",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-mediteren",
+      "text": "meditasyon yapmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-oogarts",
+      "text": "göz doktoru",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-eetstoornis",
+      "text": "yeme bozukluğu",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kinderarts",
+      "text": "çocuk doktoru",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-ongeneeslijk",
+      "text": "tedavisi olmayan",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-stotteren",
+      "text": "kekelemek",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-hygiënisch",
+      "text": "hijyenik",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-welbevinden",
+      "text": "esenlik",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-alcoholisme",
+      "text": "alkolizm",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-nazorg",
+      "text": "tedavi sonrası bakım",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-specialisme",
+      "text": "uzmanlık dalı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-spierpijn",
+      "text": "kas ağrısı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verdoving",
+      "text": "uyuşturma",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-cholesterol",
+      "text": "kolesterol",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-mantelzorg",
+      "text": "gayriresmî bakım (aile)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-reuk",
+      "text": "koku alma duyusu",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bloeddonor",
+      "text": "kan bağışçısı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-waanidee",
+      "text": "sanrı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-hooikoorts",
+      "text": "saman nezlesi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-reuma",
+      "text": "romatizma",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-traumatisch",
+      "text": "travmatik",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-stamcel",
+      "text": "kök hücre",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-migraine",
+      "text": "migren",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-motorisch",
+      "text": "motor (hareket)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-narcose",
+      "text": "genel anestezi",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-afwennen",
+      "text": "alışkanlığı bırakmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-eetlust",
+      "text": "iştah",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-labiel",
+      "text": "duygusal açıdan dengesiz",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-afkicken",
+      "text": "bağımlılıktan kurtulmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-rookvrij",
+      "text": "dumansız (ortam)",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-voedzaam",
+      "text": "besleyici",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-heilzaam",
+      "text": "şifalı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-menopauze",
+      "text": "menopoz",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-nierfalen",
+      "text": "böbrek yetmezliği",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-cognitief",
+      "text": "bilişsel",
+      "reviewed": false
     }
   ],
   "categories": [
@@ -2368,6 +2978,10 @@
     {
       "category_id": "b2-politics-society",
       "title": "Siyaset ve toplum"
+    },
+    {
+      "category_id": "b2-science-health",
+      "title": "Bilim ve sağlık"
     }
   ]
 }
