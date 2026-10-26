@@ -1,0 +1,516 @@
+{
+  "lang": "tr",
+  "words": [
+    {
+      "word_id": "noun-arbeid",
+      "text": "emek, çalışma",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uitwerken",
+      "text": "ayrıntılandırmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-beheer",
+      "text": "yönetim",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-beloning",
+      "text": "ödül",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-imago",
+      "text": "imaj",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tactiek",
+      "text": "taktik",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-beheerder",
+      "text": "idareci",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vakgebied",
+      "text": "uzmanlık alanı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-stichter",
+      "text": "kurucu",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-afstemmen",
+      "text": "uyumlu hale getirmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-ordenen",
+      "text": "düzene koymak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-logistiek",
+      "text": "lojistik",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bezigheid",
+      "text": "uğraş",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-evaluatie",
+      "text": "değerlendirme (sonuç)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-briefing",
+      "text": "brifing",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-roeping",
+      "text": "içten gelen çağrı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-strateeg",
+      "text": "stratejist",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-ambiëren",
+      "text": "(bir göreve) talip olmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-nieuweling",
+      "text": "acemi",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-voltijds",
+      "text": "tam mesai",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-uitvoerder",
+      "text": "uygulayıcı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-raadgever",
+      "text": "danışman",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-werkgebied",
+      "text": "çalışma alanı",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-opschalen",
+      "text": "ölçeği büyütmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-schoonmaker",
+      "text": "temizlikçi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zakenpartner",
+      "text": "iş ortağı",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-proactief",
+      "text": "proaktif",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vennoot",
+      "text": "ortak (şirket)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-slagkracht",
+      "text": "icraat gücü",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-loondienst",
+      "text": "ücretli çalışma",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-nevenfunctie",
+      "text": "yan görev",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-bekwaam",
+      "text": "yetkin",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-stroomlijnen",
+      "text": "sadeleştirmek (süreç)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-inhaalslag",
+      "text": "açığı kapatma",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-incompetent",
+      "text": "yeteneksiz",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-thuiswerk",
+      "text": "evden çalışma",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vakmanschap",
+      "text": "ustalık",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-supervisie",
+      "text": "gözetim",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-bijbaan",
+      "text": "ek iş",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-stagiair",
+      "text": "stajyer",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-werving",
+      "text": "işe alım",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-aansturing",
+      "text": "yönlendirme (ekip)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-rangorde",
+      "text": "sıra düzeni",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-actieplan",
+      "text": "eylem planı",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-innoveren",
+      "text": "yenilik yapmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-daadkrachtig",
+      "text": "icraatçı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gedragscode",
+      "text": "davranış kuralları",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-coaching",
+      "text": "koçluk",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-uitbesteden",
+      "text": "dış kaynağa vermek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-portfolio",
+      "text": "portföy",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-meedenken",
+      "text": "fikir katmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-tijdrovend",
+      "text": "zaman alıcı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-werkervaring",
+      "text": "iş deneyimi",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-positioneren",
+      "text": "konumlandırmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-sleutelrol",
+      "text": "kilit rol",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-staker",
+      "text": "grevci",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-toegewijd",
+      "text": "kendini adamış",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-doornemen",
+      "text": "üzerinden geçmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-loonlijst",
+      "text": "maaş bordrosu",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vakkenvuller",
+      "text": "reyon görevlisi",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-bijsturen",
+      "text": "yönünü düzeltmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-offerte",
+      "text": "fiyat teklifi",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-doelgericht",
+      "text": "hedefe yönelik",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-takenpakket",
+      "text": "görev tanımı",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-structureren",
+      "text": "yapılandırmak",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-shortlist",
+      "text": "kısa liste",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-tijdslimiet",
+      "text": "süre sınırı",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-beroepsmatig",
+      "text": "mesleki",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-gegadigde",
+      "text": "talip",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-nachtdienst",
+      "text": "gece vardiyası",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-geschoold",
+      "text": "kalifiye",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-deeltijd",
+      "text": "yarı zamanlı çalışma",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zakenvrouw",
+      "text": "iş kadını",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-archiveren",
+      "text": "arşivlemek",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-inefficiënt",
+      "text": "verimsiz",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-klankbord",
+      "text": "fikir danışılan kişi",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-onzorgvuldig",
+      "text": "dikkatsiz",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-werkbaar",
+      "text": "uygulanabilir",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zakenwereld",
+      "text": "iş dünyası",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-verzuim",
+      "text": "işe gelmeme",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vervolgstap",
+      "text": "sonraki adım",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-ambachtelijk",
+      "text": "el yapımı",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-detacheren",
+      "text": "geçici görevlendirmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-hiërarchisch",
+      "text": "hiyerarşik",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-kantoortuin",
+      "text": "açık ofis",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-leidinggeven",
+      "text": "liderlik etmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-voortvarend",
+      "text": "atak",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-doelmatig",
+      "text": "amaca uygun",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-consulent",
+      "text": "danışman (kurum)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-uurloon",
+      "text": "saat ücreti",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-aankaarten",
+      "text": "gündeme getirmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-zakenreis",
+      "text": "iş seyahati",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-overwerk",
+      "text": "fazla mesai",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-zwoegen",
+      "text": "didinmek",
+      "reviewed": false
+    },
+    {
+      "word_id": "adj-planmatig",
+      "text": "planlı",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-dagdeel",
+      "text": "gün dilimi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-vakkennis",
+      "text": "mesleki bilgi",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-droombaan",
+      "text": "hayalindeki iş",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-initiëren",
+      "text": "başlatmak (girişim)",
+      "reviewed": false
+    },
+    {
+      "word_id": "noun-inkoper",
+      "text": "satın alma sorumlusu",
+      "reviewed": false
+    },
+    {
+      "word_id": "verb-aanwerven",
+      "text": "işe almak",
+      "reviewed": false
+    }
+  ],
+  "categories": [
+    {
+      "category_id": "b2-work-organisation",
+      "title": "İş ve organizasyon"
+    }
+  ]
+}
