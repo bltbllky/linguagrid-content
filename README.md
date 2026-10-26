@@ -22,6 +22,12 @@ Every learner language is accepted by the round-trip check of ADR-012, and a hum
    nouns. A comparer marks each as match, close or mismatch in a result sheet under `review/roundtrip/`, with a `verdict`
    column: `OK` for match/match or match/close without a finding (also for rows with `deepl_same` = `yes`, ADR-019), and `owner` for a mismatch, an article disagreement or a
    content-editor finding. Close/close rows go to the content editor, who sets `OK` or files a finding.
+   Three-reader release (ADR-019): an `owner` row whose only finding is an `unsure` text finding, with both classes `match`
+   (and, for Turkish nouns, `article_check` `match`), becomes `OK` when the current text, both blind readings and the DeepL
+   reading share a head word (`scripts/same.ts`); every other row stays with the owner. `npm run three-readers -- --lang tr|en
+   --result <result.csv> --findings <findings.csv> --deepl review/mt-check/<date>-rows.csv [--other-findings <findings.csv>]
+   [--hold id,id] [--dry-run]` adds the columns `deepl` and `deepl_same` to the result sheet, appends "Released: three readers
+   agree (ADR-019)." to the released findings (a released row is re-evaluated on a rerun and goes back to `owner` if the readings no longer agree), and prints the held rows by reason and the released ids for the owner sheet.
 3. `npm run import-roundtrip -- [--lang en] <sheet>` sets `reviewed: true` with `review_source: "roundtrip"` on the `OK`
    rows (for Turkish also on the annotation when the article check matched). The owner decides the remaining rows in the
    review sheet: `npm run import-review review/a1.csv` applies them with `review_source: "owner"` (`--reviewer` for a
@@ -61,7 +67,8 @@ sends only the Dutch text of those rows (the lemma, with de/het for nouns), NLâ†
 `review/mt-check/<date>-rows.md` with our text and DeepL's reading side by side, and `review/mt-check/<date>-rows.csv`
 (`id,lang,dutch,mt`) for `three-readers`. The reports stay on your machine:
 `review/mt-check/` is git-ignored. For staged B1 rows add `--stage b1`. The reading is advisory context for the
-question to the owner: it flags nothing, gives no verdict and is never written into `data/` or a release. There is no
+question to the owner and, on an eligible row, the third reader of `three-readers` (ADR-019); it is never written into `data/`
+or a release. There is no
 full-release run.
 
 Setup, once: copy your DeepL API key into a file named `.env` in the root of this repository, one line,
