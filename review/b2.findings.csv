@@ -1,0 +1,59 @@
+id,dutch,field,current,suggestion,reason,severity
+noun-roeping,roeping,text,içten gelen çağrı,meslek aşkı,"""içten gelen çağrı"" is a calque; roeping is a vocation (zijn roeping volgen), in Turkish ""meslek aşkı"".",unsure
+noun-vakantiegeld,vakantiegeld,text,tatil parası,tatil ikramiyesi,"Vakantiegeld is the holiday allowance an employer pays (about 8% of the salary), not money for a holiday. Released: three readers agree (ADR-019).",unsure
+noun-afdracht,afdracht,text,pay ödemesi,"(vergi, prim) ödemesi","""pay ödemesi"" (share payment) is unclear; afdracht is paying over tax or premiums, as B2 afdragen ""(vergi, prim) yatırmak"".",unsure
+adj-geoorloofd,geoorloofd,text,yasak olmayan,izin verilen,"A paraphrase by negation; geoorloofd is ""permitted"", and its B2 antonym ongeoorloofd is ""izinsiz"".",unsure
+noun-alibi,alibi,text,suç anı mazereti,başka yerde bulunma kanıtı,"""mazeret"" is an excuse; an alibi is proof of being elsewhere at the time of the crime.",unsure
+adj-onwettig,onwettig,text,kanunsuz,kanuna aykırı,"""kanunsuz"" reads as lawless (a lawless place, an outlaw); onwettig is unlawful.",unsure
+noun-loverboy,loverboy,text,duygusal tuzakçı (fuhuş),aşk tuzağıyla fuhuşa sürükleyen,"""tuzakçı"" is not in use; a loverboy makes a girl fall in love to force her into prostitution. Sensitive word (T-158 list).",unsure
+noun-mantelzorg,mantelzorg,text,gayriresmî bakım (aile),aile içi bakım (gönüllü),"""gayriresmî bakım"" is a calque; mantelzorg is unpaid care for an ill or old relative or friend.",unsure
+noun-huisman,huisman,text,ev işlerine bakan erkek,ev erkeği,"A paraphrase; Turkish says ""ev erkeği"" (after ""ev kadını"") for a stay-at-home husband.",unsure
+noun-halfzus,halfzus,text,yarı kardeş (kız),üvey kız kardeş (anne/baba bir),"""yarı kardeş"" is not Turkish; a half-sister is ""anne bir / baba bir kız kardeş"", in everyday speech ""üvey kız kardeş"".",unsure
+adj-ongehoord,ongehoord,text,işitilmemiş,akıl almaz (rezalet),"Literal; ongehoord is outrageous or unheard-of (""dat is ongehoord!""), ""işitilmemiş"" reads as ""not heard"". ""kabul edilemez"" is B1 onacceptabel.",unsure
+adj-tendentieus,tendentieus,text,yönlendirici,taraflı (haber),"""yönlendirici"" means guiding; tendentieus is biased (reporting).",unsure
+adj-tekenend,tekenend,text,belirleyici (tipik),(bir durumun) tipik göstergesi,"""belirleyici"" means decisive; tekenend is ""telling, typical of"" (tekenend voor).",unsure
+adj-voorbarig,voorbarig,text,aceleci (erken),vakitsiz (erken),"""aceleci"" describes a person in a hurry; voorbarig is a premature conclusion or decision.",unsure
+noun-echtheid,echtheid,text,orijinallik,sahicilik,"""orijinallik"" is mostly originality (creativity); echtheid is authenticity (of a painting, a document).",unsure
+verb-doorhakken,doorhakken,text,kesip atmak,kestirip atmak (karar),"B2 use is the fixed phrase ""de knoop doorhakken"" (to make the decision); ""kesip atmak"" reads as cutting something off.",unsure
+adj-notoir,notoir,text,herkesçe bilinen,adı çıkmış,"notoir carries the bad sense (een notoire leugenaar); ""herkesçe bilinen"" is neutral, like bekend.",unsure
+verb-aantasten,aantasten,text,zedelemek,"(sağlığa, itibara) zarar vermek","""zedelemek"" covers honour and reputation only; aantasten is also said of health, privacy and nature.",unsure
+verb-verhullen,verhullen,text,örtbas etmek,perdelemek,"""örtbas etmek"" (cover up a scandal) is the sense of B2 verdoezelen ""üstünü örtmek""; verhullen is to veil or disguise.",unsure
+noun-dagdeel,dagdeel,text,gün dilimi,"günün bir bölümü (sabah, öğleden sonra)","""gün dilimi"" is unclear (time zone-like); a dagdeel is a morning, afternoon or evening block (childcare, work).",unsure
+adj-uitvoerbaar,uitvoerbaar,text,icra edilebilir,hayata geçirilebilir,"""icra edilebilir"" is legal-enforcement register; uitvoerbaar is a plan that can be carried out.",style
+verb-floreren,floreren,text,serpilmek,gelişip büyümek,"""serpilmek"" is said of children and plants; floreren is a business or town that thrives.",style
+noun-wederhoor,wederhoor,article,het,de,"Woordenlijst: zelfstandig naamwoord (m), so ""de wederhoor""; Wiktionary also gives de (b1-pool differ). Not changed in data (T-161 makes no data change).",wrong
+noun-portfolio,portfolio,article,het,keep het,"b1-pool differ (Wiktionary: de); Woordenlijst gives m/o (both), so the stored article is right. Block A1: one decision for the 7 rows.",unsure
+noun-incasso,incasso,article,het,keep het,"b1-pool differ (Wiktionary: de); Woordenlijst gives m/o (both), so the stored article is right. Block A1: one decision for the 7 rows.",unsure
+noun-rookverbod,rookverbod,article,het,keep het,"b1-pool differ (Wiktionary: de); Woordenlijst gives o (het verbod), so the stored article is right. Block A1: one decision for the 7 rows.",unsure
+noun-strafrechter,strafrechter,article,de,keep de,"b1-pool differ (Wiktionary: het); Woordenlijst gives m (de rechter), so the stored article is right. Block A1: one decision for the 7 rows.",unsure
+noun-reuma,reuma,article,de,keep de,"b1-pool differ (Wiktionary: de); Woordenlijst gives v/o (both), so the stored article is right. Block A1: one decision for the 7 rows.",unsure
+noun-sjabloon,sjabloon,article,het,keep het,"b1-pool differ (Wiktionary: de); Woordenlijst gives m/v/o (both), so the stored article is right. Block A1: one decision for the 7 rows.",unsure
+noun-hiaat,hiaat,article,het,keep het,"b1-pool differ (Wiktionary: de); Woordenlijst gives m/o (both), so the stored article is right. Block A1: one decision for the 7 rows.",unsure
+adj-voltijds,voltijds,level,B2,remove from B2,"Synonym of live fulltime ""tam zamanlı""; ""tam mesai"" is a noun phrase for an adjective. Same pattern as B1 chocolade.",unsure
+noun-leefstijl,leefstijl,level,B2,remove from B2,"Variant of B1 levensstijl ""yaşam tarzı""; kept apart only by wording (yaşam biçimi).",unsure
+noun-huizenmarkt,huizenmarkt,level,B2,remove from B2,"Synonym of B1 woningmarkt ""konut piyasası""; kept apart only by wording.",unsure
+noun-schoonmaker,schoonmaker,level,B2,remove from B2 (below B2),Too easy for B2: A2 job word (T-159 list). Block L1: one decision for the 16 rows.,unsure
+noun-loodgieter,loodgieter,level,B2,remove from B2 (below B2),Too easy for B2: A2/B1 job word (T-159 list). Block L1: one decision for the 16 rows.,unsure
+noun-elektricien,elektricien,level,B2,remove from B2 (below B2),Too easy for B2: A2/B1 job word (T-159 list). Block L1: one decision for the 16 rows.,unsure
+noun-kinderarts,kinderarts,level,B2,remove from B2 (below B2),"Too easy for B2: transparent compound (kind + arts), A2 (T-159 list). Block L1: one decision for the 16 rows.",unsure
+noun-oogarts,oogarts,level,B2,remove from B2 (below B2),"Too easy for B2: transparent compound, A2 (T-159 list). Block L1: one decision for the 16 rows.",unsure
+noun-rijschool,rijschool,level,B2,remove from B2 (below B2),Too easy for B2: A2 daily-life word (T-159 list). Block L1: one decision for the 16 rows.,unsure
+noun-bijles,bijles,level,B2,remove from B2 (below B2),Too easy for B2: B1 school word (T-159 list). Block L1: one decision for the 16 rows.,unsure
+noun-nachtleven,nachtleven,level,B2,remove from B2 (below B2),"Too easy for B2: transparent compound, B1 (T-159 list). Block L1: one decision for the 16 rows.",unsure
+noun-profielfoto,profielfoto,level,B2,remove from B2 (below B2),"Too easy for B2: transparent compound, A2 (T-159 list). Block L1: one decision for the 16 rows.",unsure
+noun-spierpijn,spierpijn,level,B2,remove from B2 (below B2),Too easy for B2: A2 health word (T-159 list). Block L1: one decision for the 16 rows.,unsure
+noun-songtekst,songtekst,level,B2,remove from B2 (below B2),"Too easy for B2: transparent compound, B1 (T-159 list). Block L1: one decision for the 16 rows.",unsure
+noun-zakenreis,zakenreis,level,B2,remove from B2 (below B2),"Too easy for B2: transparent compound, B1 (T-159 list). Block L1: one decision for the 16 rows.",unsure
+noun-stiefvader,stiefvader,level,B2,remove from B2 (below B2),Too easy for B2: B1 family word (T-159 list). Block L1: one decision for the 16 rows.,unsure
+noun-stiefmoeder,stiefmoeder,level,B2,remove from B2 (below B2),Too easy for B2: B1 family word (T-159 list). Block L1: one decision for the 16 rows.,unsure
+adj-ijskoud,ijskoud,level,B2,remove from B2 (below B2),Too easy for B2: A2 compound (ijs + koud) (T-159 list). Block L1: one decision for the 16 rows.,unsure
+adj-piepklein,piepklein,level,B2,remove from B2 (below B2),Too easy for B2: B1 intensified adjective (T-159 list). Block L1: one decision for the 16 rows.,unsure
+verb-sommeren,sommeren,level,B2,C1 (remove from B2),Specialised: formal legal summons; rare outside legal texts. Block L2: one decision for the 5 rows.,unsure
+adj-aanhangig,aanhangig,level,B2,C1 (remove from B2),Specialised: legal (aanhangig maken); rare outside legal texts. Block L2: one decision for the 5 rows.,unsure
+noun-beding,beding,level,B2,C1 (remove from B2),Specialised: contract-law term; rare outside legal texts. Block L2: one decision for the 5 rows.,unsure
+noun-curatele,curatele,level,B2,C1 (remove from B2),Specialised: legal guardianship term; rare outside legal texts. Block L2: one decision for the 5 rows.,unsure
+noun-boedel,boedel,level,B2,C1 (remove from B2),Specialised: inheritance/bankruptcy term; rare outside legal texts. Block L2: one decision for the 5 rows.,unsure
+noun-wachtgeld,wachtgeld,text,bekleme ödeneği,görevden ayrılma ödeneği,"Round trip: close in both passes (blinds: işten çıkarma tazminatı, işsizlik ödeneği (memur)). Wachtgeld is the benefit a civil servant or politician gets after leaving office; ""bekleme ödeneği"" is a calque.",unsure
+verb-afschrijven,afschrijven,text,hesaptan çekmek,keep (debit sense) and align English,"Round trip: mismatch in both passes. The EN pivot ""to write off"" and the NL reading ""amorti etmek"" carry the write-off/depreciate sense; the Turkish has the debit sense (het bedrag wordt afgeschreven). Both are B2 senses; the two languages must carry the same one (T-162 English).",unsure
+verb-aantekenen,aantekenen,text,kayda geçirmek,(itiraz) kaydettirmek,"Round trip: mismatch in both passes. The EN pivot ""to lodge (an appeal)"" and the NL reading ""itiraz etmek"" give the B2 use bezwaar/beroep aantekenen; ""kayda geçirmek"" (to note down) loses it. B2 aangetekend ""taahhütlü"" is a separate word.",unsure
+verb-opwaarderen,opwaarderen,text,(bakiye) yüklemek,keep (top-up sense) and align English,"Round trip: mismatch in both passes. The EN pivot is ""to upgrade"" and the NL reading ""yükseltmek""; the Turkish has the top-up sense (ov-chipkaart opwaarderen). The upgrade sense sits next to B2 upgrade ""yükseltme (sürüm)"". The owner picks one sense for both languages (T-162 English).",unsure
