@@ -138,7 +138,12 @@ async function build() {
           index,
           openTaal,
           live,
-          new Set(readIfThere<Word>(join(root, 'data', 'b1', 'words.json')).map((w) => w.lemma_nl)),
+          new Set(
+            [
+              ...readIfThere<Word>(join(root, 'data', 'b1', 'words.json')),
+              ...readIfThere<Word>(join(root, 'data', 'words-own.json')).filter((w) => w.cefr === 'B1'),
+            ].map((w) => w.lemma_nl),
+          ),
         )
       : buildPool(ranks, index, openTaal, live, a1a2 ? A1A2_BAND : B1_BAND, a1a2 ? A1A2_RULES : B1_RULES);
   writeFileSync(poolFile(), JSON.stringify(pool, null, 2) + '\n');

@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
 import { describe, it } from 'node:test';
 
-import { validContent } from './fixtures/valid.ts';
+import { partialEnglish, validContent } from './fixtures/valid.ts';
 import { buildRelease } from './build-release.ts';
 import { validateContent, withLegacyTurkish } from './validate.ts';
 import type { Content } from './validate.ts';
@@ -24,13 +24,37 @@ function bilingual(englishReviewed: string[]): Content {
 }
 const both = ['noun-tandarts', 'verb-lopen'];
 
+function b1Content() {
+  const content = validContent();
+  content.words[0].cefr = 'B1';
+  return content;
+}
+
 describe('buildRelease', () => {
-  it('blocks a live word above A2, with or without --allow-partial', () => {
+  it('blocks a live B2 word, with or without --allow-partial', () => {
     const content = validContent();
-    content.words[0].cefr = 'B1';
+    content.words[0].cefr = 'B2';
     for (const allowPartial of [false, true]) {
-      assert.throws(() => buildRelease(content, { minimums: {}, allowPartial }), /data\/words.json holds B1 words \(1\)/);
+      assert.throws(() => buildRelease(content, { minimums: {}, allowPartial }), /live word files hold B2 words \(1\)/);
     }
+  });
+
+  it('releases a reviewed B1 word (US-022)', () => {
+    const release = buildRelease(b1Content(), { minimums: { A1: 0, A2: 0, B1: 1 }, allowPartial: false });
+    assert.ok(JSON.parse(release.files['words.json']).some((w: { id: string }) => w.id === 'noun-tandarts'));
+  });
+
+  it('stops under the B1 minimum unless --allow-partial', () => {
+    assert.throws(() => buildRelease(b1Content(), { minimums: { B1: 2 }, allowPartial: false }), /B1: 1 reviewed words \(minimum 2\)/);
+    assert.doesNotThrow(() => buildRelease(b1Content(), { minimums: { B1: 2 }, allowPartial: true }));
+  });
+
+  it('leaves out a language whose B1 text is not reviewed', () => {
+    const content = b1Content();
+    content.translations.en = { ...partialEnglish(), words: [{ word_id: 'noun-tandarts', text: 'dentist', reviewed: false }] };
+    const release = buildRelease(content, { minimums: { B1: 1 }, allowPartial: false });
+    assert.equal(release.excluded.filter((e) => e.startsWith('en:')).length, 1);
+    assert.deepEqual(release.manifest.languages, ['tr']);
   });
 
   it('includes only reviewed words and bumps the content version', () => {
