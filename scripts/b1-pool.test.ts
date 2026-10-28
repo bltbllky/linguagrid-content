@@ -7,6 +7,8 @@ import {
   A1A2_BAND,
   A1A2_RULES,
   A1_MAX_RANK,
+  CORE_A1_MAX_RANK,
+  CORE_BAND,
   B1_BAND,
   B1_RULES,
   B2_BAND,
@@ -562,18 +564,41 @@ describe('core pool profile (ADR-022)', () => {
   it('selects core words as own words, A1 then A2', () => {
     const pool: PoolRow[] = [
       { id: 'noun-huis', lemma_nl: 'huis', pos: 'noun', rank: 200, gender: null },
-      { id: 'verb-lopen', lemma_nl: 'lopen', pos: 'verb', rank: 3500, gender: null },
+      { id: 'verb-lopen', lemma_nl: 'lopen', pos: 'verb', rank: 5500, gender: null },
     ];
     const out = selectCore(pool, { A1: ['noun-huis'], A2: ['verb-lopen'] });
     assert.deepEqual(out, [
       { id: 'noun-huis', lemma_nl: 'huis', pos: 'noun', cefr: 'A1', source: 'own' },
       { id: 'verb-lopen', lemma_nl: 'lopen', pos: 'verb', cefr: 'A2', source: 'own' },
     ]);
-    assert.throws(() => selectCore(pool, { A1: ['verb-lopen'], A2: [] }), /A1 word outside lemma rank 1-3,000/);
+    assert.throws(() => selectCore(pool, { A1: ['verb-lopen'], A2: [] }), /A1 word outside lemma rank 1-5,000/);
     assert.throws(() => selectCore(pool, { A1: ['noun-huis'] } as never), /data\/core\/selection.json needs an "A2" list/);
     assert.throws(() => selectLevels(pool, { A1: [] } as never, 'a1a2'), /data\/a1a2\/selection.json needs an "A2" list/);
   });
   it('excludedIdsFor treats core like a1a2', () => {
     assert.ok(excludedIdsFor('core', [{ id: 'noun-x', reason: 'level B2 (T-085)' }]).has('noun-x'));
+  });
+  it('core bands (amended 2026-10-28): pool 1-10,000, A1 up to 5,000, a1a2 unchanged', () => {
+    assert.deepEqual(CORE_BAND, { min: 1, max: 10000 });
+    assert.equal(CORE_A1_MAX_RANK, 5000);
+    assert.equal(A1A2_BAND.max, 5000);
+    assert.equal(A1_MAX_RANK, 3000);
+    const pool: PoolRow[] = [
+      { id: 'noun-a', lemma_nl: 'a', pos: 'noun', rank: 5000, gender: null },
+      { id: 'noun-b', lemma_nl: 'b', pos: 'noun', rank: 5001, gender: null },
+    ];
+    assert.equal(selectCore(pool, { A1: ['noun-a'], A2: ['noun-b'] })[0].cefr, 'A1');
+    assert.throws(() => selectCore(pool, { A1: ['noun-b'], A2: [] }), /A1 word outside lemma rank 1-5,000: noun-b \(rank 5001\)/);
+    assert.throws(() => selectA1A2(pool, { A1: ['noun-a'], A2: [] }), /A1 word outside lemma rank 1-3,000: noun-a \(rank 5000\)/);
+  });
+  it('core pool build keeps rank 5,001-10,000 rows that the a1a2 band drops', () => {
+    const words = ['huis', 'kast', 'lamp'];
+    const index = readKaikki(words.map((w) => entry(w, 'noun', [{}], 'n')));
+    const ranks = new Map([['huis', 100], ['kast', 7000], ['lamp', 10001]]);
+    const open = new Set(words);
+    const live = { lemmas: new Set<string>(), excludedIds: new Set<string>() };
+    const ids = (band: { min: number; max: number }) => buildPool(ranks, index, open, live, band, A1A2_RULES).map((r) => r.lemma_nl);
+    assert.deepEqual(ids(CORE_BAND), ['huis', 'kast']);
+    assert.deepEqual(ids(A1A2_BAND), ['huis']);
   });
 });

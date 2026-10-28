@@ -32,3 +32,7 @@ K11 A1 floor. When the A1 core words plus the 84 A1 extras are fewer than 410, t
    a1-food, a1-time, a1-body-health or a1-clothes, until A1 holds 410; A2 is then filled to 630 from the next rows.
 Each selected word is logged with a reason of at most 8 words that cites only facts: rank band, part of speech,
 category, "closed set" or "A1 floor (K11)".
+
+Amended 2026-10-28 (owner, option a): for the core profile the pool band is lemma rank 1-10,000 and A1 words stop at
+rank 5,000; B1 lemmas stay excluded by K3. Reason: the first blind run gave A1 300 and A2 480 under the 3,000/5,000
+bands (pool counts only; no launch word read).
