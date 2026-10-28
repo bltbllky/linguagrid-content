@@ -8,7 +8,7 @@ import { exportReview } from './export-review.ts';
 import { applyReview } from './import-review.ts';
 import { applyRoundtrip } from './import-roundtrip.ts';
 import { partialEnglish, validContent } from './fixtures/valid.ts';
-import { loadStage, mergeStage, promoteStage, stageFiles, stageReport, takeStage, validateStage } from './stage.ts';
+import { loadStage, mergeStage, promoteStage, stageFiles, stageReport, takeStage, validateStage, withoutNt2lex } from './stage.ts';
 import type { Stage } from './stage.ts';
 import { loadContent, validateContent } from './validate.ts';
 import type { Annotation, TranslationFile, Word } from './validate.ts';
@@ -403,5 +403,65 @@ describe('promoteStage (T-153)', () => {
       const { errors } = validateStage(after().merged, extra);
       assert.ok(errors.includes(`noun-dinsdag: ${extra.words[0].cefr} word in category "b1-services" of level B1`), errors.join('\n'));
     });
+  });
+});
+
+describe('core stage (ADR-022)', () => {
+  /** A core stage that keeps the launch word `noun-tandarts` as an own word, with its annotation and text. */
+  function core(): Stage {
+    return {
+      name: 'core',
+      words: [{ id: 'noun-tandarts', lemma_nl: 'tandarts', pos: 'noun', cefr: 'A1', source: 'own' }],
+      categories: [],
+      annotations: [{ word_id: 'noun-tandarts', article: 'de', category_id: 'health', reviewed: true, review_source: 'owner' }],
+      translations: { tr: { lang: 'tr', words: [{ word_id: 'noun-tandarts', text: 'diş hekimi', reviewed: true, review_source: 'owner' }], categories: [] } },
+    };
+  }
+
+  it('accepts a core word that reuses a launch id and lemma', () => {
+    assert.deepEqual(validateStage(validContent(), core()), { errors: [], incomplete: [] });
+  });
+
+  it('still rejects a lemma of words-own.json', () => {
+    const live = validContent();
+    live.words.push({ id: 'noun-gemeente', lemma_nl: 'gemeente', pos: 'noun', cefr: 'B1', source: 'own' });
+    live.annotations.push({ word_id: 'noun-gemeente', article: 'de', category_id: 'health', reviewed: false });
+    live.translations.tr.words.push({ word_id: 'noun-gemeente', text: 'belediye', reviewed: false });
+    const s = core();
+    s.words.push({ id: 'noun-gemeente2', lemma_nl: 'gemeente', pos: 'noun', cefr: 'A2', source: 'own' });
+    s.annotations!.push({ word_id: 'noun-gemeente2', article: 'de', category_id: 'health', reviewed: false });
+    s.translations.tr!.words.push({ word_id: 'noun-gemeente2', text: 'belediye', reviewed: false });
+    assert.ok(validateStage(live, s).errors.includes('noun-gemeente2: lemma "gemeente" is already in noun-gemeente'));
+  });
+
+  it('rejects a lemma that core shares with another stage, in both directions', () => {
+    const extra: Stage = { ...extras(), words: [{ ...extras().words[0], id: 'noun-tand', lemma_nl: 'tandarts' }] };
+    assert.ok(validateStage(validContent(), core(), [extra]).errors.includes('noun-tandarts: lemma "tandarts" is already staged in a1a2 (noun-tand)'));
+    assert.ok(validateStage(validContent(), extra, [core()]).errors.includes('noun-tand: lemma "tandarts" is already staged in core (noun-tandarts)'));
+  });
+
+  it('checks the category level of a core word', () => {
+    const live = validContent();
+    live.categories.push({ id: 'a1-home', cefr: 'A1', order: 2 });
+    live.translations.tr.categories.push({ category_id: 'a1-home', title: 'Thuis' });
+    const s = core();
+    s.words[0].cefr = 'A2';
+    s.annotations![0].category_id = 'a1-home';
+    assert.ok(validateStage(live, s).errors.includes('A2 word in category "a1-home" of level A1'.replace(/^/, 'noun-tandarts: ')));
+  });
+
+  it('withoutNt2lex drops nt2lex words with their annotations and texts, and keeps categories', () => {
+    const live = validContent();
+    live.words[1].source = 'own';
+    const base = withoutNt2lex(live);
+    assert.deepEqual(base.words.map((w) => w.id), ['verb-lopen']);
+    assert.deepEqual(base.annotations.map((a) => a.word_id), ['verb-lopen']);
+    assert.deepEqual(base.translations.tr.words.map((t) => t.word_id), ['verb-lopen']);
+    assert.deepEqual(base.categories, live.categories);
+    assert.deepEqual(base.translations.tr.categories, live.translations.tr.categories);
+  });
+
+  it('is a stage name that loadStage knows', () => {
+    assert.equal(loadStage('core').name, 'core');
   });
 });
