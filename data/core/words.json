@@ -2660,6 +2660,13 @@
     "source": "own"
   },
   {
+    "id": "verb-verlaten",
+    "lemma_nl": "verlaten",
+    "pos": "verb",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
     "id": "noun-kilometer",
     "lemma_nl": "kilometer",
     "pos": "noun",
@@ -2670,13 +2677,6 @@
     "id": "noun-richting",
     "lemma_nl": "richting",
     "pos": "noun",
-    "cefr": "A2",
-    "source": "own"
-  },
-  {
-    "id": "verb-vertrekken",
-    "lemma_nl": "vertrekken",
-    "pos": "verb",
     "cefr": "A2",
     "source": "own"
   },
@@ -4823,6 +4823,13 @@
     "source": "own"
   },
   {
+    "id": "noun-voorjaar",
+    "lemma_nl": "voorjaar",
+    "pos": "noun",
+    "cefr": "A2",
+    "source": "own"
+  },
+  {
     "id": "noun-kwart",
     "lemma_nl": "kwart",
     "pos": "noun",
@@ -4853,13 +4860,6 @@
   {
     "id": "noun-herfst",
     "lemma_nl": "herfst",
-    "pos": "noun",
-    "cefr": "A2",
-    "source": "own"
-  },
-  {
-    "id": "noun-lente",
-    "lemma_nl": "lente",
     "pos": "noun",
     "cefr": "A2",
     "source": "own"
