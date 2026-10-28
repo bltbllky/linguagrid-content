@@ -20,7 +20,7 @@ Turkish, ADR-011), are our own data: written by the LinguaGrid project and revie
 
 This repository is the unrestricted copy of all licensed content distributed in the LinguaGrid app.
 
-`data/words-own.json` holds the A1 and A2 words we selected ourselves from the open sources below, under the criteria in `data/a1a2/selection-criteria.md`; it contains no NT2Lex data. Files under `data/a1a2/` and `data/b2/` are staged content that is not in any app release yet.
+`data/words-own.json` holds the B1 words (since content release 2); its selection is ours, made from the open sources below under the criteria in `data/b1/selection-criteria.md`; it contains no NT2Lex data. Files under `data/a1a2/` and `data/b2/` are staged content that is not in any app release yet.
 
 The B1 words (since content release 2) and the A1/A2 extras live in `data/words-own.json`; their selection is ours, made from the open sources below under the criteria in `data/b1/selection-criteria.md` and `data/a1a2/selection-criteria.md`; they contain no NT2Lex data.
 
