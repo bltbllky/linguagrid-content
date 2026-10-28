@@ -30,8 +30,11 @@ import {
   readKaikki,
   selectA1A2,
   selectB1,
+  selectCore,
+  selectLevels,
   selectWords,
   sourceDrift,
+  takenLemmas,
   type PoolRow,
 } from './b1-pool.ts';
 import type { Annotation, Word } from './validate.ts';
@@ -534,5 +537,43 @@ describe('B2 pool profile', () => {
       assert.equal(run('b2').find((r) => r.lemma_nl === 'vennootschap')?.band, 'b1-band');
       assert.ok(!run('b1').some((r) => r.lemma_nl === 'vennootschap'));
     });
+  });
+});
+
+describe('core pool profile (ADR-022)', () => {
+  const w = (id: string): Word => {
+    const [pos, lemma] = id.split('-');
+    return { id, lemma_nl: lemma, pos: pos as Word['pos'], cefr: 'A1', source: 'own' };
+  };
+  it('takenLemmas never counts the launch words or its own stage for core', () => {
+    const files = {
+      launch: [w('verb-lopen')],
+      own: [w('noun-gemeente')],
+      stages: { a1a2: [w('noun-dinsdag')], core: [w('noun-huis')] },
+    };
+    assert.deepEqual(takenLemmas('core', files), new Set(['gemeente', 'dinsdag']));
+    assert.deepEqual(takenLemmas('a1a2', files), new Set(['lopen', 'gemeente', 'huis']));
+    assert.deepEqual(takenLemmas('b1', files), new Set(['lopen', 'gemeente', 'dinsdag', 'huis']));
+  });
+  it('takenLemmas for core ignores the launch list even when it is full', () => {
+    const files = { launch: [w('noun-huis'), w('verb-lopen')], own: [], stages: {} };
+    assert.equal(takenLemmas('core', files).size, 0);
+  });
+  it('selects core words as own words, A1 then A2', () => {
+    const pool: PoolRow[] = [
+      { id: 'noun-huis', lemma_nl: 'huis', pos: 'noun', rank: 200, gender: null },
+      { id: 'verb-lopen', lemma_nl: 'lopen', pos: 'verb', rank: 3500, gender: null },
+    ];
+    const out = selectCore(pool, { A1: ['noun-huis'], A2: ['verb-lopen'] });
+    assert.deepEqual(out, [
+      { id: 'noun-huis', lemma_nl: 'huis', pos: 'noun', cefr: 'A1', source: 'own' },
+      { id: 'verb-lopen', lemma_nl: 'lopen', pos: 'verb', cefr: 'A2', source: 'own' },
+    ]);
+    assert.throws(() => selectCore(pool, { A1: ['verb-lopen'] } as never), /A1 word outside lemma rank 1-3,000/);
+    assert.throws(() => selectCore(pool, { A1: ['noun-huis'] } as never), /data\/core\/selection.json needs an "A2" list/);
+    assert.throws(() => selectLevels(pool, { A1: [] } as never, 'a1a2'), /data\/a1a2\/selection.json needs an "A2" list/);
+  });
+  it('excludedIdsFor treats core like a1a2', () => {
+    assert.ok(excludedIdsFor('core', [{ id: 'noun-x', reason: 'level B2 (T-085)' }]).has('noun-x'));
   });
 });
