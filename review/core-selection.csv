@@ -1,697 +1,869 @@
 id,dutch,pos,cefr,rank_band,category_id,reason
-noun-mens,mens,noun,A1,0-1k,a1-people,0-1k band; noun; a1-people
-noun-naam,naam,noun,A1,0-1k,a1-people,0-1k band; noun; a1-people
-noun-man,man,noun,A1,0-1k,a1-people,0-1k band; noun; a1-people
-noun-vrouw,vrouw,noun,A1,0-1k,a1-people,0-1k band; noun; a1-people
-noun-kind,kind,noun,A1,0-1k,a1-people,0-1k band; noun; a1-people
-noun-familie,familie,noun,A1,0-1k,a1-people,0-1k band; noun; a1-people
-noun-zoon,zoon,noun,A1,0-1k,a1-people,0-1k band; noun; a1-people; closed set
-noun-vader,vader,noun,A1,0-1k,a1-people,0-1k band; noun; a1-people; closed set
-noun-jongen,jongen,noun,A1,0-1k,a1-people,0-1k band; noun; a1-people
-noun-moeder,moeder,noun,A1,0-1k,a1-people,0-1k band; noun; a1-people; closed set
-noun-vriend,vriend,noun,A1,0-1k,a1-people,0-1k band; noun; a1-people
-noun-dochter,dochter,noun,A1,0-1k,a1-people,0-1k band; noun; a1-people; closed set
-noun-broer,broer,noun,A1,0-1k,a1-people,0-1k band; noun; a1-people; closed set
-noun-ouder,ouder,noun,A1,0-1k,a1-people,0-1k band; noun; a1-people; closed set
-noun-meisje,meisje,noun,A1,0-1k,a1-people,0-1k band; noun; a1-people
-noun-zus,zus,noun,A1,1-2k,a1-people,1-2k band; noun; a1-people; closed set
-noun-vriendin,vriendin,noun,A1,1-2k,a1-people,1-2k band; noun; a1-people
-noun-oom,oom,noun,A1,2-3k,a1-people,2-3k band; noun; a1-people; closed set
-noun-baby,baby,noun,A1,2-3k,a1-people,2-3k band; noun; a1-people
-noun-tante,tante,noun,A1,2-3k,a1-people,2-3k band; noun; a1-people; closed set
-noun-oma,oma,noun,A1,2-3k,a1-people,2-3k band; noun; a1-people; closed set
-verb-wonen,wonen,verb,A1,0-1k,a1-home,0-1k band; verb; a1-home
-noun-huis,huis,noun,A1,0-1k,a1-home,0-1k band; noun; a1-home
-noun-kamer,kamer,noun,A1,0-1k,a1-home,0-1k band; noun; a1-home
-noun-deur,deur,noun,A1,0-1k,a1-home,0-1k band; noun; a1-home
-noun-tuin,tuin,noun,A1,1-2k,a1-home,1-2k band; noun; a1-home
-noun-bed,bed,noun,A1,1-2k,a1-home,1-2k band; noun; a1-home
-noun-tafel,tafel,noun,A1,1-2k,a1-home,1-2k band; noun; a1-home
-noun-keuken,keuken,noun,A1,2-3k,a1-home,2-3k band; noun; a1-home
-noun-raam,raam,noun,A1,2-3k,a1-home,2-3k band; noun; a1-home
-noun-kast,kast,noun,A1,2-3k,a1-home,2-3k band; noun; a1-home
-verb-eten,eten,verb,A1,0-1k,a1-food,0-1k band; verb; a1-food
-noun-water,water,noun,A1,0-1k,a1-food,0-1k band; noun; a1-food
-adj-lekker,lekker,adj,A1,0-1k,a1-food,0-1k band; adjective; a1-food
-verb-drinken,drinken,verb,A1,1-2k,a1-food,1-2k band; verb; a1-food
-noun-glas,glas,noun,A1,1-2k,a1-food,1-2k band; noun; a1-food
-noun-vlees,vlees,noun,A1,2-3k,a1-food,2-3k band; noun; a1-food
-noun-vis,vis,noun,A1,2-3k,a1-food,2-3k band; noun; a1-food
-noun-brood,brood,noun,A1,2-3k,a1-food,2-3k band; noun; a1-food
-verb-koken,koken,verb,A1,2-3k,a1-food,2-3k band; verb; a1-food
-noun-koffie,koffie,noun,A1,2-3k,a1-food,2-3k band; noun; a1-food
-noun-kaas,kaas,noun,A1,2-3k,a1-food,2-3k band; noun; a1-food
-noun-jaar,jaar,noun,A1,0-1k,a1-time,0-1k band; noun; a1-time
-adj-laat,laat,adj,A1,0-1k,a1-time,0-1k band; adjective; a1-time
-noun-tijd,tijd,noun,A1,0-1k,a1-time,0-1k band; noun; a1-time
-noun-dag,dag,noun,A1,0-1k,a1-time,0-1k band; noun; a1-time
-noun-uur,uur,noun,A1,0-1k,a1-time,0-1k band; noun; a1-time
-noun-maand,maand,noun,A1,0-1k,a1-time,0-1k band; noun; a1-time
-noun-week,week,noun,A1,0-1k,a1-time,0-1k band; noun; a1-time
-adj-vroeg,vroeg,adj,A1,0-1k,a1-time,0-1k band; adjective; a1-time
-noun-minuut,minuut,noun,A1,0-1k,a1-time,0-1k band; noun; a1-time
-noun-nacht,nacht,noun,A1,0-1k,a1-time,0-1k band; noun; a1-time
-noun-avond,avond,noun,A1,0-1k,a1-time,0-1k band; noun; a1-time
-noun-weekend,weekend,noun,A1,0-1k,a1-time,0-1k band; noun; a1-time
-noun-zomer,zomer,noun,A1,1-2k,a1-time,1-2k band; noun; a1-time; closed set
-noun-winter,winter,noun,A1,1-2k,a1-time,1-2k band; noun; a1-time; closed set
-noun-ochtend,ochtend,noun,A1,1-2k,a1-time,1-2k band; noun; a1-time
-noun-verjaardag,verjaardag,noun,A1,1-2k,a1-time,1-2k band; noun; a1-time
-noun-middag,middag,noun,A1,2-3k,a1-time,2-3k band; noun; a1-time
-verb-werken,werken,verb,A1,0-1k,a1-school-work,0-1k band; verb; a1-school-work
-noun-werk,werk,noun,A1,0-1k,a1-school-work,0-1k band; noun; a1-school-work
-verb-schrijven,schrijven,verb,A1,0-1k,a1-school-work,0-1k band; verb; a1-school-work
-verb-lezen,lezen,verb,A1,0-1k,a1-school-work,0-1k band; verb; a1-school-work
-verb-leren,leren,verb,A1,0-1k,a1-school-work,0-1k band; verb; a1-school-work
-noun-school,school,noun,A1,0-1k,a1-school-work,0-1k band; noun; a1-school-work
-noun-les,les,noun,A1,1-2k,a1-school-work,1-2k band; noun; a1-school-work
-noun-leraar,leraar,noun,A1,1-2k,a1-school-work,1-2k band; noun; a1-school-work
-noun-klas,klas,noun,A1,1-2k,a1-school-work,1-2k band; noun; a1-school-work
-noun-computer,computer,noun,A1,2-3k,a1-school-work,2-3k band; noun; a1-school-work
-noun-stad,stad,noun,A1,0-1k,a1-city-travel,0-1k band; noun; a1-city-travel
-noun-weg,weg,noun,A1,0-1k,a1-city-travel,0-1k band; noun; a1-city-travel
-noun-land,land,noun,A1,0-1k,a1-city-travel,0-1k band; noun; a1-city-travel
-noun-auto,auto,noun,A1,0-1k,a1-city-travel,0-1k band; noun; a1-city-travel
-verb-rijden,rijden,verb,A1,0-1k,a1-city-travel,0-1k band; verb; a1-city-travel
-noun-straat,straat,noun,A1,0-1k,a1-city-travel,0-1k band; noun; a1-city-travel
-noun-station,station,noun,A1,0-1k,a1-city-travel,0-1k band; noun; a1-city-travel
-adj-rechts,rechts,adj,A1,0-1k,a1-city-travel,0-1k band; adjective; a1-city-travel
-noun-park,park,noun,A1,0-1k,a1-city-travel,0-1k band; noun; a1-city-travel
-adj-links,links,adj,A1,0-1k,a1-city-travel,0-1k band; adjective; a1-city-travel
-noun-trein,trein,noun,A1,0-1k,a1-city-travel,0-1k band; noun; a1-city-travel
-noun-bus,bus,noun,A1,1-2k,a1-city-travel,1-2k band; noun; a1-city-travel
-noun-fiets,fiets,noun,A1,1-2k,a1-city-travel,1-2k band; noun; a1-city-travel
-noun-haar,haar,noun,A1,0-1k,a1-body-health,0-1k band; noun; a1-body-health; closed set
-noun-hand,hand,noun,A1,0-1k,a1-body-health,0-1k band; noun; a1-body-health; closed set
-noun-hoofd,hoofd,noun,A1,0-1k,a1-body-health,0-1k band; noun; a1-body-health; closed set
-noun-lichaam,lichaam,noun,A1,0-1k,a1-body-health,0-1k band; noun; a1-body-health; closed set
-noun-oog,oog,noun,A1,0-1k,a1-body-health,0-1k band; noun; a1-body-health; closed set
-noun-arm,arm,noun,A1,0-1k,a1-body-health,0-1k band; noun; a1-body-health; closed set
-noun-voet,voet,noun,A1,0-1k,a1-body-health,0-1k band; noun; a1-body-health; closed set
-adj-ziek,ziek,adj,A1,0-1k,a1-body-health,0-1k band; adjective; a1-body-health
-noun-gezicht,gezicht,noun,A1,0-1k,a1-body-health,0-1k band; noun; a1-body-health; closed set
-noun-tand,tand,noun,A1,1-2k,a1-body-health,1-2k band; noun; a1-body-health; closed set
-noun-mond,mond,noun,A1,1-2k,a1-body-health,1-2k band; noun; a1-body-health; closed set
-noun-neus,neus,noun,A1,1-2k,a1-body-health,1-2k band; noun; a1-body-health; closed set
-noun-oor,oor,noun,A1,1-2k,a1-body-health,1-2k band; noun; a1-body-health; closed set
-noun-pijn,pijn,noun,A1,1-2k,a1-body-health,1-2k band; noun; a1-body-health
-noun-been,been,noun,A1,2-3k,a1-body-health,2-3k band; noun; a1-body-health; closed set
-noun-vinger,vinger,noun,A1,2-3k,a1-body-health,2-3k band; noun; a1-body-health; closed set
-noun-teen,teen,noun,A1,2-3k,a1-body-health,2-3k band; noun; a1-body-health; closed set
-noun-buik,buik,noun,A1,2-3k,a1-body-health,2-3k band; noun; a1-body-health; closed set
-noun-schouder,schouder,noun,A1,2-3k,a1-body-health,2-3k band; noun; a1-body-health; closed set
-noun-nek,nek,noun,A1,2-3k,a1-body-health,2-3k band; noun; a1-body-health; closed set
-verb-spelen,spelen,verb,A1,0-1k,a1-free-time,0-1k band; verb; a1-free-time
-noun-film,film,noun,A1,0-1k,a1-free-time,0-1k band; noun; a1-free-time
-noun-muziek,muziek,noun,A1,0-1k,a1-free-time,0-1k band; noun; a1-free-time
-noun-foto,foto,noun,A1,0-1k,a1-free-time,0-1k band; noun; a1-free-time
-noun-televisie,televisie,noun,A1,0-1k,a1-free-time,0-1k band; noun; a1-free-time
-noun-vakantie,vakantie,noun,A1,1-2k,a1-free-time,1-2k band; noun; a1-free-time
-noun-sport,sport,noun,A1,1-2k,a1-free-time,1-2k band; noun; a1-free-time
-noun-voetbal,voetbal,noun,A1,1-2k,a1-free-time,1-2k band; noun; a1-free-time
-verb-zwemmen,zwemmen,verb,A1,2-3k,a1-free-time,2-3k band; verb; a1-free-time
-noun-weer,weer,noun,A1,0-1k,a1-nature,0-1k band; noun; a1-nature
-noun-dier,dier,noun,A1,0-1k,a1-nature,0-1k band; noun; a1-nature
-noun-zee,zee,noun,A1,0-1k,a1-nature,0-1k band; noun; a1-nature
-noun-hond,hond,noun,A1,0-1k,a1-nature,0-1k band; noun; a1-nature
-noun-boom,boom,noun,A1,1-2k,a1-nature,1-2k band; noun; a1-nature
-noun-zon,zon,noun,A1,2-3k,a1-nature,2-3k band; noun; a1-nature
-verb-regenen,regenen,verb,A1,2-3k,a1-nature,2-3k band; verb; a1-nature
-verb-zijn,zijn,verb,A1,0-1k,a1-daily-verbs,0-1k band; verb; a1-daily-verbs
-verb-hebben,hebben,verb,A1,0-1k,a1-daily-verbs,0-1k band; verb; a1-daily-verbs
-verb-kunnen,kunnen,verb,A1,0-1k,a1-daily-verbs,0-1k band; verb; a1-daily-verbs
-verb-gaan,gaan,verb,A1,0-1k,a1-daily-verbs,0-1k band; verb; a1-daily-verbs
-verb-komen,komen,verb,A1,0-1k,a1-daily-verbs,0-1k band; verb; a1-daily-verbs
-verb-moeten,moeten,verb,A1,0-1k,a1-daily-verbs,0-1k band; verb; a1-daily-verbs
-verb-maken,maken,verb,A1,0-1k,a1-daily-verbs,0-1k band; verb; a1-daily-verbs
-verb-zien,zien,verb,A1,0-1k,a1-daily-verbs,0-1k band; verb; a1-daily-verbs
-verb-doen,doen,verb,A1,0-1k,a1-daily-verbs,0-1k band; verb; a1-daily-verbs
-verb-krijgen,krijgen,verb,A1,0-1k,a1-daily-verbs,0-1k band; verb; a1-daily-verbs
-verb-wassen,wassen,verb,A1,0-1k,a1-daily-verbs,0-1k band; verb; a1-daily-verbs
-verb-staan,staan,verb,A1,0-1k,a1-daily-verbs,0-1k band; verb; a1-daily-verbs
-verb-vinden,vinden,verb,A1,0-1k,a1-daily-verbs,0-1k band; verb; a1-daily-verbs
-verb-nemen,nemen,verb,A1,0-1k,a1-daily-verbs,0-1k band; verb; a1-daily-verbs
-verb-geven,geven,verb,A1,0-1k,a1-daily-verbs,0-1k band; verb; a1-daily-verbs
-verb-willen,willen,verb,A1,0-1k,a1-daily-verbs,0-1k band; verb; a1-daily-verbs
-verb-liggen,liggen,verb,A1,0-1k,a1-daily-verbs,0-1k band; verb; a1-daily-verbs
-verb-beginnen,beginnen,verb,A1,0-1k,a1-daily-verbs,0-1k band; verb; a1-daily-verbs
-verb-mogen,mogen,verb,A1,0-1k,a1-daily-verbs,0-1k band; verb; a1-daily-verbs
-verb-denken,denken,verb,A1,0-1k,a1-daily-verbs,0-1k band; verb; a1-daily-verbs
-verb-zitten,zitten,verb,A1,0-1k,a1-daily-verbs,0-1k band; verb; a1-daily-verbs
-verb-brengen,brengen,verb,A1,0-1k,a1-daily-verbs,0-1k band; verb; a1-daily-verbs
-verb-lopen,lopen,verb,A1,0-1k,a1-daily-verbs,0-1k band; verb; a1-daily-verbs
-verb-weten,weten,verb,A1,0-1k,a1-daily-verbs,0-1k band; verb; a1-daily-verbs
-verb-kijken,kijken,verb,A1,0-1k,a1-daily-verbs,0-1k band; verb; a1-daily-verbs
-verb-openen,openen,verb,A1,0-1k,a1-daily-verbs,0-1k band; verb; a1-daily-verbs
-verb-horen,horen,verb,A1,0-1k,a1-daily-verbs,0-1k band; verb; a1-daily-verbs
-verb-helpen,helpen,verb,A1,0-1k,a1-daily-verbs,0-1k band; verb; a1-daily-verbs
-verb-sluiten,sluiten,verb,A1,0-1k,a1-daily-verbs,0-1k band; verb; a1-daily-verbs
-verb-zoeken,zoeken,verb,A1,0-1k,a1-daily-verbs,0-1k band; verb; a1-daily-verbs
-verb-wachten,wachten,verb,A1,0-1k,a1-daily-verbs,0-1k band; verb; a1-daily-verbs
-verb-slapen,slapen,verb,A1,1-2k,a1-daily-verbs,1-2k band; verb; a1-daily-verbs
-adj-moe,moe,adj,A1,0-1k,a1-feelings,0-1k band; adjective; a1-feelings
-adj-gelukkig,gelukkig,adj,A1,0-1k,a1-feelings,0-1k band; adjective; a1-feelings
-adj-bang,bang,adj,A1,0-1k,a1-feelings,0-1k band; adjective; a1-feelings
-adj-boos,boos,adj,A1,1-2k,a1-feelings,1-2k band; adjective; a1-feelings
-adj-ander,ander,adj,A1,0-1k,a1-describing,0-1k band; adjective; a1-describing
-adj-groot,groot,adj,A1,0-1k,a1-describing,0-1k band; adjective; a1-describing
-adj-nieuw,nieuw,adj,A1,0-1k,a1-describing,0-1k band; adjective; a1-describing
-adj-lang,lang,adj,A1,0-1k,a1-describing,0-1k band; adjective; a1-describing
-adj-goed,goed,adj,A1,0-1k,a1-describing,0-1k band; adjective; a1-describing
-adj-ver,ver,adj,A1,0-1k,a1-describing,0-1k band; adjective; a1-describing
-adj-klein,klein,adj,A1,0-1k,a1-describing,0-1k band; adjective; a1-describing
-adj-hoog,hoog,adj,A1,0-1k,a1-describing,0-1k band; adjective; a1-describing
-adj-oud,oud,adj,A1,0-1k,a1-describing,0-1k band; adjective; a1-describing
-adj-snel,snel,adj,A1,0-1k,a1-describing,0-1k band; adjective; a1-describing
-adj-mooi,mooi,adj,A1,0-1k,a1-describing,0-1k band; adjective; a1-describing
-adj-jong,jong,adj,A1,0-1k,a1-describing,0-1k band; adjective; a1-describing
-adj-rood,rood,adj,A1,0-1k,a1-describing,0-1k band; adjective; a1-describing; closed set
-adj-moeilijk,moeilijk,adj,A1,0-1k,a1-describing,0-1k band; adjective; a1-describing
-adj-kort,kort,adj,A1,0-1k,a1-describing,0-1k band; adjective; a1-describing
-adj-laag,laag,adj,A1,0-1k,a1-describing,0-1k band; adjective; a1-describing
-adj-zwart,zwart,adj,A1,0-1k,a1-describing,0-1k band; adjective; a1-describing; closed set
-adj-leuk,leuk,adj,A1,0-1k,a1-describing,0-1k band; adjective; a1-describing
-adj-slecht,slecht,adj,A1,0-1k,a1-describing,0-1k band; adjective; a1-describing
-adj-groen,groen,adj,A1,0-1k,a1-describing,0-1k band; adjective; a1-describing; closed set
-adj-makkelijk,makkelijk,adj,A1,0-1k,a1-describing,0-1k band; adjective; a1-describing
-adj-wit,wit,adj,A1,0-1k,a1-describing,0-1k band; adjective; a1-describing; closed set
-noun-kleur,kleur,noun,A1,0-1k,a1-describing,0-1k band; noun; a1-describing
-adj-dik,dik,adj,A1,0-1k,a1-describing,0-1k band; adjective; a1-describing
-adj-geel,geel,adj,A1,0-1k,a1-describing,0-1k band; adjective; a1-describing; closed set
-adj-oranje,oranje,adj,A1,1-2k,a1-describing,1-2k band; adjective; a1-describing; closed set
-adj-langzaam,langzaam,adj,A1,1-2k,a1-describing,1-2k band; adjective; a1-describing
-adj-warm,warm,adj,A1,1-2k,a1-describing,1-2k band; adjective; a1-describing
-adj-blauw,blauw,adj,A1,1-2k,a1-describing,1-2k band; adjective; a1-describing; closed set
-adj-bruin,bruin,adj,A1,1-2k,a1-describing,1-2k band; adjective; a1-describing; closed set
-adj-heet,heet,adj,A1,1-2k,a1-describing,1-2k band; adjective; a1-describing
-adj-grijs,grijs,adj,A1,1-2k,a1-describing,1-2k band; adjective; a1-describing; closed set
-adj-schoon,schoon,adj,A1,2-3k,a1-describing,2-3k band; adjective; a1-describing
-adj-koud,koud,adj,A1,2-3k,a1-describing,2-3k band; adjective; a1-describing
-verb-zeggen,zeggen,verb,A1,0-1k,a1-communication,0-1k band; verb; a1-communication
-verb-vragen,vragen,verb,A1,0-1k,a1-communication,0-1k band; verb; a1-communication
-verb-spreken,spreken,verb,A1,0-1k,a1-communication,0-1k band; verb; a1-communication
-noun-nummer,nummer,noun,A1,0-1k,a1-communication,0-1k band; noun; a1-communication
-noun-woord,woord,noun,A1,0-1k,a1-communication,0-1k band; noun; a1-communication
-noun-vraag,vraag,noun,A1,0-1k,a1-communication,0-1k band; noun; a1-communication
-verb-begrijpen,begrijpen,verb,A1,0-1k,a1-communication,0-1k band; verb; a1-communication
-verb-heten,heten,verb,A1,0-1k,a1-communication,0-1k band; verb; a1-communication
-noun-taal,taal,noun,A1,0-1k,a1-communication,0-1k band; noun; a1-communication
-verb-praten,praten,verb,A1,0-1k,a1-communication,0-1k band; verb; a1-communication
-noun-telefoon,telefoon,noun,A1,1-2k,a1-communication,1-2k band; noun; a1-communication
-verb-luisteren,luisteren,verb,A1,1-2k,a1-communication,1-2k band; verb; a1-communication
-verb-antwoorden,antwoorden,verb,A1,1-2k,a1-communication,1-2k band; verb; a1-communication
-verb-bellen,bellen,verb,A1,1-2k,a1-communication,1-2k band; verb; a1-communication
-noun-antwoord,antwoord,noun,A1,1-2k,a1-communication,1-2k band; noun; a1-communication
-noun-adres,adres,noun,A1,2-3k,a1-communication,2-3k band; noun; a1-communication
-noun-euro,euro,noun,A1,0-1k,a1-shopping,0-1k band; noun; a1-shopping
-verb-betalen,betalen,verb,A1,0-1k,a1-shopping,0-1k band; verb; a1-shopping
-noun-geld,geld,noun,A1,0-1k,a1-shopping,0-1k band; noun; a1-shopping
-verb-kopen,kopen,verb,A1,0-1k,a1-shopping,0-1k band; verb; a1-shopping
-noun-markt,markt,noun,A1,0-1k,a1-shopping,0-1k band; noun; a1-shopping
-adj-duur,duur,adj,A1,0-1k,a1-shopping,0-1k band; adjective; a1-shopping
-noun-winkel,winkel,noun,A1,0-1k,a1-shopping,0-1k band; noun; a1-shopping
-noun-prijs,prijs,noun,A1,0-1k,a1-shopping,0-1k band; noun; a1-shopping
-noun-supermarkt,supermarkt,noun,A1,1-2k,a1-shopping,1-2k band; noun; a1-shopping
-adj-goedkoop,goedkoop,adj,A1,1-2k,a1-shopping,1-2k band; adjective; a1-shopping
-noun-kleding,kleding,noun,A1,1-2k,a1-clothes,1-2k band; noun; a1-clothes
-noun-broek,broek,noun,A1,2-3k,a1-clothes,2-3k band; noun; a1-clothes
-noun-woning,woning,noun,A2,0-1k,a2-home,0-1k band; noun; a2-home
-noun-buurt,buurt,noun,A2,0-1k,a2-home,0-1k band; noun; a2-home
-noun-muur,muur,noun,A2,0-1k,a2-home,0-1k band; noun; a2-home
-verb-verhuizen,verhuizen,verb,A2,0-1k,a2-home,0-1k band; verb; a2-home
-noun-dak,dak,noun,A2,1-2k,a2-home,1-2k band; noun; a2-home
-noun-apparaat,apparaat,noun,A2,1-2k,a2-home,1-2k band; noun; a2-home
-noun-verdieping,verdieping,noun,A2,1-2k,a2-home,1-2k band; noun; a2-home
-verb-huren,huren,verb,A2,1-2k,a2-home,1-2k band; verb; a2-home
-noun-kussen,kussen,noun,A2,1-2k,a2-home,1-2k band; noun; a2-home
-noun-bord,bord,noun,A2,1-2k,a2-home,1-2k band; noun; a2-home
-noun-appartement,appartement,noun,A2,2-3k,a2-home,2-3k band; noun; a2-home
-noun-mes,mes,noun,A2,2-3k,a2-home,2-3k band; noun; a2-home
-noun-huishouden,huishouden,noun,A2,2-3k,a2-home,2-3k band; noun; a2-home
-noun-trap,trap,noun,A2,2-3k,a2-home,2-3k band; noun; a2-home
-noun-afval,afval,noun,A2,2-3k,a2-home,2-3k band; noun; a2-home
-noun-spiegel,spiegel,noun,A2,2-3k,a2-home,2-3k band; noun; a2-home
-noun-doos,doos,noun,A2,2-3k,a2-home,2-3k band; noun; a2-home
-noun-lamp,lamp,noun,A2,3-5k,a2-home,3-5k band; noun; a2-home
-noun-stoel,stoel,noun,A2,3-5k,a2-home,3-5k band; noun; a2-home
-noun-laken,laken,noun,A2,3-5k,a2-home,3-5k band; noun; a2-home
-noun-pan,pan,noun,A2,3-5k,a2-home,3-5k band; noun; a2-home
-noun-flat,flat,noun,A2,3-5k,a2-home,3-5k band; noun; a2-home
-noun-sleutel,sleutel,noun,A2,3-5k,a2-home,3-5k band; noun; a2-home
-noun-toilet,toilet,noun,A2,3-5k,a2-home,3-5k band; noun; a2-home
-noun-balkon,balkon,noun,A2,3-5k,a2-home,3-5k band; noun; a2-home
-noun-vloer,vloer,noun,A2,3-5k,a2-home,3-5k band; noun; a2-home
-noun-kelder,kelder,noun,A2,3-5k,a2-home,3-5k band; noun; a2-home
-noun-plafond,plafond,noun,A2,3-5k,a2-home,3-5k band; noun; a2-home
-noun-bad,bad,noun,A2,3-5k,a2-home,3-5k band; noun; a2-home
-noun-lift,lift,noun,A2,3-5k,a2-home,3-5k band; noun; a2-home
-noun-slaapkamer,slaapkamer,noun,A2,3-5k,a2-home,3-5k band; noun; a2-home
-noun-zolder,zolder,noun,A2,3-5k,a2-home,3-5k band; noun; a2-home
-verb-opruimen,opruimen,verb,A2,3-5k,a2-home,3-5k band; verb; a2-home
-noun-huur,huur,noun,A2,3-5k,a2-home,3-5k band; noun; a2-home
-noun-restaurant,restaurant,noun,A2,0-1k,a2-food,0-1k band; noun; a2-food
-noun-bier,bier,noun,A2,1-2k,a2-food,1-2k band; noun; a2-food
-verb-bereiden,bereiden,verb,A2,1-2k,a2-food,1-2k band; verb; a2-food
-noun-gerecht,gerecht,noun,A2,1-2k,a2-food,1-2k band; noun; a2-food
-noun-wijn,wijn,noun,A2,1-2k,a2-food,1-2k band; noun; a2-food
-verb-bakken,bakken,verb,A2,2-3k,a2-food,2-3k band; verb; a2-food
-adj-vers,vers,adj,A2,2-3k,a2-food,2-3k band; adjective; a2-food
-noun-drank,drank,noun,A2,2-3k,a2-food,2-3k band; noun; a2-food
-verb-snijden,snijden,verb,A2,2-3k,a2-food,2-3k band; verb; a2-food
-noun-fles,fles,noun,A2,2-3k,a2-food,2-3k band; noun; a2-food
-noun-olie,olie,noun,A2,2-3k,a2-food,2-3k band; noun; a2-food
-adj-zuur,zuur,adj,A2,2-3k,a2-food,2-3k band; adjective; a2-food
-noun-smaak,smaak,noun,A2,3-5k,a2-food,3-5k band; noun; a2-food
-noun-kip,kip,noun,A2,3-5k,a2-food,3-5k band; noun; a2-food
-noun-appel,appel,noun,A2,3-5k,a2-food,3-5k band; noun; a2-food
-noun-groente,groente,noun,A2,3-5k,a2-food,3-5k band; noun; a2-food
-noun-wortel,wortel,noun,A2,3-5k,a2-food,3-5k band; noun; a2-food
-noun-recept,recept,noun,A2,3-5k,a2-food,3-5k band; noun; a2-food
-noun-thee,thee,noun,A2,3-5k,a2-food,3-5k band; noun; a2-food
-noun-suiker,suiker,noun,A2,3-5k,a2-food,3-5k band; noun; a2-food
-noun-ijs,ijs,noun,A2,3-5k,a2-food,3-5k band; noun; a2-food
-noun-pasta,pasta,noun,A2,3-5k,a2-food,3-5k band; noun; a2-food
-noun-aardappel,aardappel,noun,A2,3-5k,a2-food,3-5k band; noun; a2-food
-noun-zout,zout,noun,A2,3-5k,a2-food,3-5k band; noun; a2-food
-verb-overlijden,overlijden,verb,A2,0-1k,a2-health,0-1k band; verb; a2-health
-noun-ziekenhuis,ziekenhuis,noun,A2,0-1k,a2-health,0-1k band; noun; a2-health
-noun-patiënt,patiënt,noun,A2,0-1k,a2-health,0-1k band; noun; a2-health
-noun-ziekte,ziekte,noun,A2,0-1k,a2-health,0-1k band; noun; a2-health
-noun-arts,arts,noun,A2,0-1k,a2-health,0-1k band; noun; a2-health
-noun-gezondheid,gezondheid,noun,A2,1-2k,a2-health,1-2k band; noun; a2-health
-noun-behandeling,behandeling,noun,A2,1-2k,a2-health,1-2k band; noun; a2-health
-noun-klacht,klacht,noun,A2,1-2k,a2-health,1-2k band; noun; a2-health
-noun-ongeluk,ongeluk,noun,A2,1-2k,a2-health,1-2k band; noun; a2-health
-verb-bewegen,bewegen,verb,A2,1-2k,a2-health,1-2k band; verb; a2-health
-noun-griep,griep,noun,A2,1-2k,a2-health,1-2k band; noun; a2-health
-adj-gezond,gezond,adj,A2,1-2k,a2-health,1-2k band; adjective; a2-health
-noun-medicijn,medicijn,noun,A2,1-2k,a2-health,1-2k band; noun; a2-health
-noun-huid,huid,noun,A2,1-2k,a2-health,1-2k band; noun; a2-health
-noun-rust,rust,noun,A2,1-2k,a2-health,1-2k band; noun; a2-health
-verb-bloeden,bloeden,verb,A2,2-3k,a2-health,2-3k band; verb; a2-health
-verb-genezen,genezen,verb,A2,2-3k,a2-health,2-3k band; verb; a2-health
-noun-bloed,bloed,noun,A2,2-3k,a2-health,2-3k band; noun; a2-health
-adj-zwanger,zwanger,adj,A2,2-3k,a2-health,2-3k band; adjective; a2-health
-noun-keel,keel,noun,A2,3-5k,a2-health,3-5k band; noun; a2-health
-verb-roken,roken,verb,A2,3-5k,a2-health,3-5k band; verb; a2-health
-verb-slikken,slikken,verb,A2,3-5k,a2-health,3-5k band; verb; a2-health
-noun-koorts,koorts,noun,A2,3-5k,a2-health,3-5k band; noun; a2-health
-noun-tong,tong,noun,A2,3-5k,a2-health,3-5k band; noun; a2-health
-noun-bijwerking,bijwerking,noun,A2,3-5k,a2-health,3-5k band; noun; a2-health
-noun-stress,stress,noun,A2,3-5k,a2-health,3-5k band; noun; a2-health
-noun-punt,punt,noun,A2,0-1k,a2-work-study,0-1k band; noun; a2-work-study
-noun-bedrijf,bedrijf,noun,A2,0-1k,a2-work-study,0-1k band; noun; a2-work-study
-noun-regel,regel,noun,A2,0-1k,a2-work-study,0-1k band; noun; a2-work-study
-noun-geschiedenis,geschiedenis,noun,A2,0-1k,a2-work-study,0-1k band; noun; a2-work-study
-noun-tekst,tekst,noun,A2,0-1k,a2-work-study,0-1k band; noun; a2-work-study
-noun-cijfer,cijfer,noun,A2,0-1k,a2-work-study,0-1k band; noun; a2-work-study
-noun-universiteit,universiteit,noun,A2,0-1k,a2-work-study,0-1k band; noun; a2-work-study
-noun-voorbeeld,voorbeeld,noun,A2,0-1k,a2-work-study,0-1k band; noun; a2-work-study
-noun-project,project,noun,A2,0-1k,a2-work-study,0-1k band; noun; a2-work-study
-noun-plan,plan,noun,A2,0-1k,a2-work-study,0-1k band; noun; a2-work-study
-noun-fout,fout,noun,A2,0-1k,a2-work-study,0-1k band; noun; a2-work-study
-noun-student,student,noun,A2,0-1k,a2-work-study,0-1k band; noun; a2-work-study
-noun-medewerker,medewerker,noun,A2,0-1k,a2-work-study,0-1k band; noun; a2-work-study
-noun-opdracht,opdracht,noun,A2,0-1k,a2-work-study,0-1k band; noun; a2-work-study
-noun-studie,studie,noun,A2,0-1k,a2-work-study,0-1k band; noun; a2-work-study
-verb-verdienen,verdienen,verb,A2,0-1k,a2-work-study,0-1k band; verb; a2-work-study
-noun-directeur,directeur,noun,A2,0-1k,a2-work-study,0-1k band; noun; a2-work-study
-noun-test,test,noun,A2,0-1k,a2-work-study,0-1k band; noun; a2-work-study
-noun-ervaring,ervaring,noun,A2,0-1k,a2-work-study,0-1k band; noun; a2-work-study
-noun-leerling,leerling,noun,A2,0-1k,a2-work-study,0-1k band; noun; a2-work-study
-verb-slagen,slagen,verb,A2,0-1k,a2-work-study,0-1k band; verb; a2-work-study
-noun-personeel,personeel,noun,A2,0-1k,a2-work-study,0-1k band; noun; a2-work-study
-noun-opleiding,opleiding,noun,A2,0-1k,a2-work-study,0-1k band; noun; a2-work-study
-noun-baan,baan,noun,A2,0-1k,a2-work-study,0-1k band; noun; a2-work-study
-noun-beroep,beroep,noun,A2,0-1k,a2-work-study,0-1k band; noun; a2-work-study
-verb-studeren,studeren,verb,A2,0-1k,a2-work-study,0-1k band; verb; a2-work-study
-noun-afdeling,afdeling,noun,A2,0-1k,a2-work-study,0-1k band; noun; a2-work-study
-noun-ondernemer,ondernemer,noun,A2,0-1k,a2-work-study,0-1k band; noun; a2-work-study
-noun-onderwijs,onderwijs,noun,A2,1-2k,a2-work-study,1-2k band; noun; a2-work-study
-noun-fabriek,fabriek,noun,A2,1-2k,a2-work-study,1-2k band; noun; a2-work-study
-noun-kantoor,kantoor,noun,A2,1-2k,a2-work-study,1-2k band; noun; a2-work-study
-verb-oplossen,oplossen,verb,A2,1-2k,a2-work-study,1-2k band; verb; a2-work-study
-noun-collega,collega,noun,A2,1-2k,a2-work-study,1-2k band; noun; a2-work-study
-noun-pensioen,pensioen,noun,A2,1-2k,a2-work-study,1-2k band; noun; a2-work-study
-noun-werkgever,werkgever,noun,A2,1-2k,a2-work-study,1-2k band; noun; a2-work-study
-noun-papier,papier,noun,A2,1-2k,a2-work-study,1-2k band; noun; a2-work-study
-noun-baas,baas,noun,A2,1-2k,a2-work-study,1-2k band; noun; a2-work-study
-noun-vergadering,vergadering,noun,A2,1-2k,a2-work-study,1-2k band; noun; a2-work-study
-noun-inkomen,inkomen,noun,A2,1-2k,a2-work-study,1-2k band; noun; a2-work-study
-verb-herhalen,herhalen,verb,A2,1-2k,a2-work-study,1-2k band; verb; a2-work-study
-verb-ontslaan,ontslaan,verb,A2,1-2k,a2-work-study,1-2k band; verb; a2-work-study
-noun-manager,manager,noun,A2,1-2k,a2-work-study,1-2k band; noun; a2-work-study
-noun-vrijwilliger,vrijwilliger,noun,A2,1-2k,a2-work-study,1-2k band; noun; a2-work-study
-noun-salaris,salaris,noun,A2,2-3k,a2-work-study,2-3k band; noun; a2-work-study
-noun-vak,vak,noun,A2,2-3k,a2-work-study,2-3k band; noun; a2-work-study
-noun-basisschool,basisschool,noun,A2,2-3k,a2-work-study,2-3k band; noun; a2-work-study
-verb-oefenen,oefenen,verb,A2,2-3k,a2-work-study,2-3k band; verb; a2-work-study
-noun-chauffeur,chauffeur,noun,A2,2-3k,a2-work-study,2-3k band; noun; a2-work-study
-noun-hoofdstuk,hoofdstuk,noun,A2,2-3k,a2-work-study,2-3k band; noun; a2-work-study
-noun-cursus,cursus,noun,A2,3-5k,a2-work-study,3-5k band; noun; a2-work-study
-noun-kok,kok,noun,A2,3-5k,a2-work-study,3-5k band; noun; a2-work-study
-noun-pauze,pauze,noun,A2,3-5k,a2-work-study,3-5k band; noun; a2-work-study
-noun-stage,stage,noun,A2,3-5k,a2-work-study,3-5k band; noun; a2-work-study
-noun-pen,pen,noun,A2,3-5k,a2-work-study,3-5k band; noun; a2-work-study
-noun-wiskunde,wiskunde,noun,A2,3-5k,a2-work-study,3-5k band; noun; a2-work-study
-noun-werkdag,werkdag,noun,A2,3-5k,a2-work-study,3-5k band; noun; a2-work-study
-noun-schrift,schrift,noun,A2,3-5k,a2-work-study,3-5k band; noun; a2-work-study
-noun-gemeente,gemeente,noun,A2,0-1k,a2-services,0-1k band; noun; a2-services
-noun-politie,politie,noun,A2,0-1k,a2-services,0-1k band; noun; a2-services
-noun-dienst,dienst,noun,A2,0-1k,a2-services,0-1k band; noun; a2-services
-noun-bank,bank,noun,A2,0-1k,a2-services,0-1k band; noun; a2-services
-noun-hulp,hulp,noun,A2,0-1k,a2-services,0-1k band; noun; a2-services
-noun-agent,agent,noun,A2,0-1k,a2-services,0-1k band; noun; a2-services
-noun-advocaat,advocaat,noun,A2,0-1k,a2-services,0-1k band; noun; a2-services
-noun-belasting,belasting,noun,A2,1-2k,a2-services,1-2k band; noun; a2-services
-noun-ambtenaar,ambtenaar,noun,A2,1-2k,a2-services,1-2k band; noun; a2-services
-noun-bibliotheek,bibliotheek,noun,A2,1-2k,a2-services,1-2k band; noun; a2-services
-noun-boete,boete,noun,A2,1-2k,a2-services,1-2k band; noun; a2-services
-noun-pakket,pakket,noun,A2,2-3k,a2-services,2-3k band; noun; a2-services
-noun-uitkering,uitkering,noun,A2,2-3k,a2-services,2-3k band; noun; a2-services
-noun-post,post,noun,A2,2-3k,a2-services,2-3k band; noun; a2-services
-noun-paspoort,paspoort,noun,A2,3-5k,a2-services,3-5k band; noun; a2-services
-verb-invullen,invullen,verb,A2,3-5k,a2-services,3-5k band; verb; a2-services
-noun-woonplaats,woonplaats,noun,A2,3-5k,a2-services,3-5k band; noun; a2-services
-verb-inschrijven,inschrijven,verb,A2,3-5k,a2-services,3-5k band; verb; a2-services
-noun-handtekening,handtekening,noun,A2,3-5k,a2-services,3-5k band; noun; a2-services
-noun-kerk,kerk,noun,A2,0-1k,a2-city-transport,0-1k band; noun; a2-city-transport
-noun-gebouw,gebouw,noun,A2,0-1k,a2-city-transport,0-1k band; noun; a2-city-transport
-noun-dorp,dorp,noun,A2,0-1k,a2-city-transport,0-1k band; noun; a2-city-transport
-verb-bereiken,bereiken,verb,A2,0-1k,a2-city-transport,0-1k band; verb; a2-city-transport
-verb-verlaten,verlaten,verb,A2,0-1k,a2-city-transport,0-1k band; verb; a2-city-transport
-noun-kilometer,kilometer,noun,A2,0-1k,a2-city-transport,0-1k band; noun; a2-city-transport
-noun-richting,richting,noun,A2,0-1k,a2-city-transport,0-1k band; noun; a2-city-transport
-noun-centrum,centrum,noun,A2,0-1k,a2-city-transport,0-1k band; noun; a2-city-transport
-noun-brug,brug,noun,A2,0-1k,a2-city-transport,0-1k band; noun; a2-city-transport
-verb-reizen,reizen,verb,A2,0-1k,a2-city-transport,0-1k band; verb; a2-city-transport
-noun-vliegtuig,vliegtuig,noun,A2,0-1k,a2-city-transport,0-1k band; noun; a2-city-transport
-noun-hotel,hotel,noun,A2,0-1k,a2-city-transport,0-1k band; noun; a2-city-transport
-noun-buitenland,buitenland,noun,A2,0-1k,a2-city-transport,0-1k band; noun; a2-city-transport
-noun-grens,grens,noun,A2,1-2k,a2-city-transport,1-2k band; noun; a2-city-transport
-noun-kaart,kaart,noun,A2,1-2k,a2-city-transport,1-2k band; noun; a2-city-transport
-noun-route,route,noun,A2,1-2k,a2-city-transport,1-2k band; noun; a2-city-transport
-noun-reis,reis,noun,A2,1-2k,a2-city-transport,1-2k band; noun; a2-city-transport
-noun-hoofdstad,hoofdstad,noun,A2,1-2k,a2-city-transport,1-2k band; noun; a2-city-transport
-noun-wijk,wijk,noun,A2,1-2k,a2-city-transport,1-2k band; noun; a2-city-transport
-noun-passagier,passagier,noun,A2,1-2k,a2-city-transport,1-2k band; noun; a2-city-transport
-noun-ingang,ingang,noun,A2,1-2k,a2-city-transport,1-2k band; noun; a2-city-transport
-noun-boot,boot,noun,A2,1-2k,a2-city-transport,1-2k band; noun; a2-city-transport
-verb-fietsen,fietsen,verb,A2,1-2k,a2-city-transport,1-2k band; verb; a2-city-transport
-noun-plein,plein,noun,A2,1-2k,a2-city-transport,1-2k band; noun; a2-city-transport
-noun-luchthaven,luchthaven,noun,A2,1-2k,a2-city-transport,1-2k band; noun; a2-city-transport
-verb-aankomen,aankomen,verb,A2,1-2k,a2-city-transport,1-2k band; verb; a2-city-transport
-noun-haven,haven,noun,A2,1-2k,a2-city-transport,1-2k band; noun; a2-city-transport
-noun-tram,tram,noun,A2,1-2k,a2-city-transport,1-2k band; noun; a2-city-transport
-noun-verkeer,verkeer,noun,A2,2-3k,a2-city-transport,2-3k band; noun; a2-city-transport
-noun-file,file,noun,A2,3-5k,a2-city-transport,3-5k band; noun; a2-city-transport
-noun-gracht,gracht,noun,A2,3-5k,a2-city-transport,3-5k band; noun; a2-city-transport
-noun-metro,metro,noun,A2,3-5k,a2-city-transport,3-5k band; noun; a2-city-transport
-verb-parkeren,parkeren,verb,A2,3-5k,a2-city-transport,3-5k band; verb; a2-city-transport
-noun-halte,halte,noun,A2,3-5k,a2-city-transport,3-5k band; noun; a2-city-transport
-noun-benzine,benzine,noun,A2,3-5k,a2-city-transport,3-5k band; noun; a2-city-transport
-noun-garage,garage,noun,A2,3-5k,a2-city-transport,3-5k band; noun; a2-city-transport
-noun-rijbewijs,rijbewijs,noun,A2,3-5k,a2-city-transport,3-5k band; noun; a2-city-transport
-verb-overstappen,overstappen,verb,A2,3-5k,a2-city-transport,3-5k band; verb; a2-city-transport
-noun-uitgang,uitgang,noun,A2,3-5k,a2-city-transport,3-5k band; noun; a2-city-transport
-noun-koffer,koffer,noun,A2,3-5k,a2-city-transport,3-5k band; noun; a2-city-transport
-noun-procent,procent,noun,A2,0-1k,a2-shopping,0-1k band; noun; a2-shopping
-verb-verkopen,verkopen,verb,A2,0-1k,a2-shopping,0-1k band; verb; a2-shopping
-verb-leveren,leveren,verb,A2,0-1k,a2-shopping,0-1k band; verb; a2-shopping
-verb-kosten,kosten,verb,A2,0-1k,a2-shopping,0-1k band; verb; a2-shopping
-noun-product,product,noun,A2,0-1k,a2-shopping,0-1k band; noun; a2-shopping
-noun-klant,klant,noun,A2,0-1k,a2-shopping,0-1k band; noun; a2-shopping
-noun-keuze,keuze,noun,A2,0-1k,a2-shopping,0-1k band; noun; a2-shopping
-noun-rekening,rekening,noun,A2,0-1k,a2-shopping,0-1k band; noun; a2-shopping
-adj-gratis,gratis,adj,A2,0-1k,a2-shopping,0-1k band; adjective; a2-shopping
-verb-uitgeven,uitgeven,verb,A2,0-1k,a2-shopping,0-1k band; verb; a2-shopping
-noun-boodschap,boodschap,noun,A2,0-1k,a2-shopping,0-1k band; noun; a2-shopping
-verb-winkelen,winkelen,verb,A2,1-2k,a2-shopping,1-2k band; verb; a2-shopping
-verb-bestellen,bestellen,verb,A2,1-2k,a2-shopping,1-2k band; verb; a2-shopping
-noun-zak,zak,noun,A2,2-3k,a2-shopping,2-3k band; noun; a2-shopping
-noun-reclame,reclame,noun,A2,2-3k,a2-shopping,2-3k band; noun; a2-shopping
-verb-sparen,sparen,verb,A2,2-3k,a2-shopping,2-3k band; verb; a2-shopping
-verb-lenen,lenen,verb,A2,2-3k,a2-shopping,2-3k band; verb; a2-shopping
-noun-cent,cent,noun,A2,2-3k,a2-shopping,2-3k band; noun; a2-shopping
-noun-bakker,bakker,noun,A2,3-5k,a2-shopping,3-5k band; noun; a2-shopping
-noun-cadeau,cadeau,noun,A2,3-5k,a2-shopping,3-5k band; noun; a2-shopping
-noun-kassa,kassa,noun,A2,3-5k,a2-shopping,3-5k band; noun; a2-shopping
-noun-verkoper,verkoper,noun,A2,3-5k,a2-shopping,3-5k band; noun; a2-shopping
-verb-dragen,dragen,verb,A2,0-1k,a2-clothes,0-1k band; verb; a2-clothes
-verb-passen,passen,verb,A2,0-1k,a2-clothes,0-1k band; verb; a2-clothes
-noun-maat,maat,noun,A2,1-2k,a2-clothes,1-2k band; noun; a2-clothes
-noun-ring,ring,noun,A2,1-2k,a2-clothes,1-2k band; noun; a2-clothes
-noun-bril,bril,noun,A2,3-5k,a2-clothes,3-5k band; noun; a2-clothes
-noun-handschoen,handschoen,noun,A2,3-5k,a2-clothes,3-5k band; noun; a2-clothes
-noun-riem,riem,noun,A2,3-5k,a2-clothes,3-5k band; noun; a2-clothes
-noun-jas,jas,noun,A2,3-5k,a2-clothes,3-5k band; noun; a2-clothes
-noun-inwoner,inwoner,noun,A2,0-1k,a2-people,0-1k band; noun; a2-people
-noun-leven,leven,noun,A2,0-1k,a2-people,0-1k band; noun; a2-people
-noun-persoon,persoon,noun,A2,0-1k,a2-people,0-1k band; noun; a2-people
-noun-lid,lid,noun,A2,0-1k,a2-people,0-1k band; noun; a2-people
-noun-leeftijd,leeftijd,noun,A2,0-1k,a2-people,0-1k band; noun; a2-people
-verb-trouwen,trouwen,verb,A2,0-1k,a2-people,0-1k band; verb; a2-people
-noun-relatie,relatie,noun,A2,0-1k,a2-people,0-1k band; noun; a2-people
-adj-persoonlijk,persoonlijk,adj,A2,0-1k,a2-people,0-1k band; adjective; a2-people
-noun-huwelijk,huwelijk,noun,A2,0-1k,a2-people,0-1k band; noun; a2-people
-noun-dame,dame,noun,A2,1-2k,a2-people,1-2k band; noun; a2-people
-verb-ontmoeten,ontmoeten,verb,A2,1-2k,a2-people,1-2k band; verb; a2-people
-noun-jeugd,jeugd,noun,A2,1-2k,a2-people,1-2k band; noun; a2-people
-verb-scheiden,scheiden,verb,A2,1-2k,a2-people,1-2k band; verb; a2-people
-noun-meneer,meneer,noun,A2,1-2k,a2-people,1-2k band; noun; a2-people
-noun-mevrouw,mevrouw,noun,A2,1-2k,a2-people,1-2k band; noun; a2-people
-noun-gast,gast,noun,A2,1-2k,a2-people,1-2k band; noun; a2-people
-noun-buur,buur,noun,A2,2-3k,a2-people,2-3k band; noun; a2-people
-noun-geboorte,geboorte,noun,A2,2-3k,a2-people,2-3k band; noun; a2-people
-noun-neef,neef,noun,A2,2-3k,a2-people,2-3k band; noun; a2-people; closed set
-noun-volwassene,volwassene,noun,A2,2-3k,a2-people,2-3k band; noun; a2-people
-noun-opa,opa,noun,A2,3-5k,a2-people,3-5k band; noun; a2-people; closed set
-noun-mama,mama,noun,A2,3-5k,a2-people,3-5k band; noun; a2-people; closed set
-noun-bruiloft,bruiloft,noun,A2,3-5k,a2-people,3-5k band; noun; a2-people
-noun-papa,papa,noun,A2,3-5k,a2-people,3-5k band; noun; a2-people; closed set
-noun-nicht,nicht,noun,A2,3-5k,a2-people,3-5k band; noun; a2-people; closed set
-verb-winnen,winnen,verb,A2,0-1k,a2-free-time,0-1k band; verb; a2-free-time
-noun-wedstrijd,wedstrijd,noun,A2,0-1k,a2-free-time,0-1k band; noun; a2-free-time
-noun-club,club,noun,A2,0-1k,a2-free-time,0-1k band; noun; a2-free-time
-noun-spel,spel,noun,A2,0-1k,a2-free-time,0-1k band; noun; a2-free-time
-noun-museum,museum,noun,A2,0-1k,a2-free-time,0-1k band; noun; a2-free-time
-verb-tekenen,tekenen,verb,A2,0-1k,a2-free-time,0-1k band; verb; a2-free-time
-verb-zingen,zingen,verb,A2,0-1k,a2-free-time,0-1k band; verb; a2-free-time
-noun-kunst,kunst,noun,A2,0-1k,a2-free-time,0-1k band; noun; a2-free-time
-noun-radio,radio,noun,A2,1-2k,a2-free-time,1-2k band; noun; a2-free-time
-noun-café,café,noun,A2,1-2k,a2-free-time,1-2k band; noun; a2-free-time
-noun-feest,feest,noun,A2,1-2k,a2-free-time,1-2k band; noun; a2-free-time
-verb-sporten,sporten,verb,A2,1-2k,a2-free-time,1-2k band; verb; a2-free-time
-noun-toerist,toerist,noun,A2,1-2k,a2-free-time,1-2k band; noun; a2-free-time
-verb-vissen,vissen,verb,A2,2-3k,a2-free-time,2-3k band; verb; a2-free-time
-noun-strand,strand,noun,A2,2-3k,a2-free-time,2-3k band; noun; a2-free-time
-noun-zwembad,zwembad,noun,A2,2-3k,a2-free-time,2-3k band; noun; a2-free-time
-verb-dansen,dansen,verb,A2,2-3k,a2-free-time,2-3k band; verb; a2-free-time
-noun-verrassing,verrassing,noun,A2,3-5k,a2-free-time,3-5k band; noun; a2-free-time
-verb-uitgaan,uitgaan,verb,A2,3-5k,a2-free-time,3-5k band; verb; a2-free-time
-noun-camping,camping,noun,A2,3-5k,a2-free-time,3-5k band; noun; a2-free-time
-verb-reserveren,reserveren,verb,A2,3-5k,a2-free-time,3-5k band; verb; a2-free-time
-noun-hobby,hobby,noun,A2,3-5k,a2-free-time,3-5k band; noun; a2-free-time
-noun-sportschool,sportschool,noun,A2,3-5k,a2-free-time,3-5k band; noun; a2-free-time
-noun-eiland,eiland,noun,A2,0-1k,a2-nature-weather,0-1k band; noun; a2-nature-weather
-noun-bos,bos,noun,A2,0-1k,a2-nature-weather,0-1k band; noun; a2-nature-weather
-noun-rivier,rivier,noun,A2,0-1k,a2-nature-weather,0-1k band; noun; a2-nature-weather
-noun-noorden,noorden,noun,A2,0-1k,a2-nature-weather,0-1k band; noun; a2-nature-weather
-noun-vogel,vogel,noun,A2,0-1k,a2-nature-weather,0-1k band; noun; a2-nature-weather
-noun-natuur,natuur,noun,A2,1-2k,a2-nature-weather,1-2k band; noun; a2-nature-weather
-noun-paard,paard,noun,A2,1-2k,a2-nature-weather,1-2k band; noun; a2-nature-weather
-noun-lucht,lucht,noun,A2,1-2k,a2-nature-weather,1-2k band; noun; a2-nature-weather
-noun-bloem,bloem,noun,A2,1-2k,a2-nature-weather,1-2k band; noun; a2-nature-weather
-noun-berg,berg,noun,A2,1-2k,a2-nature-weather,1-2k band; noun; a2-nature-weather
-verb-planten,planten,verb,A2,1-2k,a2-nature-weather,1-2k band; verb; a2-nature-weather
-noun-dijk,dijk,noun,A2,1-2k,a2-nature-weather,1-2k band; noun; a2-nature-weather
-noun-plant,plant,noun,A2,1-2k,a2-nature-weather,1-2k band; noun; a2-nature-weather
-noun-wind,wind,noun,A2,2-3k,a2-nature-weather,2-3k band; noun; a2-nature-weather
-noun-zand,zand,noun,A2,2-3k,a2-nature-weather,2-3k band; noun; a2-nature-weather
-adj-nat,nat,adj,A2,2-3k,a2-nature-weather,2-3k band; adjective; a2-nature-weather
-verb-vriezen,vriezen,verb,A2,2-3k,a2-nature-weather,2-3k band; verb; a2-nature-weather
-noun-storm,storm,noun,A2,2-3k,a2-nature-weather,2-3k band; noun; a2-nature-weather
-noun-gras,gras,noun,A2,2-3k,a2-nature-weather,2-3k band; noun; a2-nature-weather
-noun-koe,koe,noun,A2,3-5k,a2-nature-weather,3-5k band; noun; a2-nature-weather
-noun-poes,poes,noun,A2,3-5k,a2-nature-weather,3-5k band; noun; a2-nature-weather
-noun-kou,kou,noun,A2,3-5k,a2-nature-weather,3-5k band; noun; a2-nature-weather
-noun-maan,maan,noun,A2,3-5k,a2-nature-weather,3-5k band; noun; a2-nature-weather
-noun-muis,muis,noun,A2,3-5k,a2-nature-weather,3-5k band; noun; a2-nature-weather
-noun-duin,duin,noun,A2,3-5k,a2-nature-weather,3-5k band; noun; a2-nature-weather
-verb-waaien,waaien,verb,A2,3-5k,a2-nature-weather,3-5k band; verb; a2-nature-weather
-noun-wolk,wolk,noun,A2,3-5k,a2-nature-weather,3-5k band; noun; a2-nature-weather
-verb-sneeuwen,sneeuwen,verb,A2,3-5k,a2-nature-weather,3-5k band; verb; a2-nature-weather
-adj-zonnig,zonnig,adj,A2,3-5k,a2-nature-weather,3-5k band; adjective; a2-nature-weather
-noun-sneeuw,sneeuw,noun,A2,3-5k,a2-nature-weather,3-5k band; noun; a2-nature-weather
-noun-mist,mist,noun,A2,3-5k,a2-nature-weather,3-5k band; noun; a2-nature-weather
-noun-regen,regen,noun,A2,3-5k,a2-nature-weather,3-5k band; noun; a2-nature-weather
-noun-huisdier,huisdier,noun,A2,3-5k,a2-nature-weather,3-5k band; noun; a2-nature-weather
-adj-alleen,alleen,adj,A2,0-1k,a2-feelings,0-1k band; adjective; a2-feelings
-adj-lief,lief,adj,A2,0-1k,a2-feelings,0-1k band; adjective; a2-feelings
-verb-voelen,voelen,verb,A2,0-1k,a2-feelings,0-1k band; verb; a2-feelings
-verb-hopen,hopen,verb,A2,0-1k,a2-feelings,0-1k band; verb; a2-feelings
-verb-missen,missen,verb,A2,1-2k,a2-feelings,1-2k band; verb; a2-feelings
-noun-liefde,liefde,noun,A2,1-2k,a2-feelings,1-2k band; noun; a2-feelings
-noun-angst,angst,noun,A2,1-2k,a2-feelings,1-2k band; noun; a2-feelings
-verb-lachen,lachen,verb,A2,1-2k,a2-feelings,1-2k band; verb; a2-feelings
-adj-trots,trots,adj,A2,1-2k,a2-feelings,1-2k band; adjective; a2-feelings
-noun-geluk,geluk,noun,A2,2-3k,a2-feelings,2-3k band; noun; a2-feelings
-adj-gevoelig,gevoelig,adj,A2,2-3k,a2-feelings,2-3k band; adjective; a2-feelings
-noun-plezier,plezier,noun,A2,2-3k,a2-feelings,2-3k band; noun; a2-feelings
-adj-gezellig,gezellig,adj,A2,2-3k,a2-feelings,2-3k band; adjective; a2-feelings
-adj-vrolijk,vrolijk,adj,A2,2-3k,a2-feelings,2-3k band; adjective; a2-feelings
-noun-droom,droom,noun,A2,2-3k,a2-feelings,2-3k band; noun; a2-feelings
-noun-vriendschap,vriendschap,noun,A2,3-5k,a2-feelings,3-5k band; noun; a2-feelings
-verb-huilen,huilen,verb,A2,3-5k,a2-feelings,3-5k band; verb; a2-feelings
-adj-spannend,spannend,adj,A2,3-5k,a2-feelings,3-5k band; adjective; a2-feelings
-adj-verliefd,verliefd,adj,A2,3-5k,a2-feelings,3-5k band; adjective; a2-feelings
-adj-eenzaam,eenzaam,adj,A2,3-5k,a2-feelings,3-5k band; adjective; a2-feelings
-verb-vervelen,vervelen,verb,A2,3-5k,a2-feelings,3-5k band; verb; a2-feelings
-noun-verdriet,verdriet,noun,A2,3-5k,a2-feelings,3-5k band; noun; a2-feelings
-adj-bezorgd,bezorgd,adj,A2,3-5k,a2-feelings,3-5k band; adjective; a2-feelings
-adj-ongelukkig,ongelukkig,adj,A2,3-5k,a2-feelings,3-5k band; adjective; a2-feelings
-adj-dankbaar,dankbaar,adj,A2,3-5k,a2-feelings,3-5k band; adjective; a2-feelings
-adj-saai,saai,adj,A2,3-5k,a2-feelings,3-5k band; adjective; a2-feelings
-noun-pech,pech,noun,A2,3-5k,a2-feelings,3-5k band; noun; a2-feelings
-adj-jaloers,jaloers,adj,A2,3-5k,a2-feelings,3-5k band; adjective; a2-feelings
-adj-echt,echt,adj,A2,0-1k,a2-describing,0-1k band; adjective; a2-describing
-adj-waar,waar,adj,A2,0-1k,a2-describing,0-1k band; adjective; a2-describing
-adj-mogelijk,mogelijk,adj,A2,0-1k,a2-describing,0-1k band; adjective; a2-describing
-adj-verschillend,verschillend,adj,A2,0-1k,a2-describing,0-1k band; adjective; a2-describing
-adj-nodig,nodig,adj,A2,0-1k,a2-describing,0-1k band; adjective; a2-describing
-adj-belangrijk,belangrijk,adj,A2,0-1k,a2-describing,0-1k band; adjective; a2-describing
-adj-zeker,zeker,adj,A2,0-1k,a2-describing,0-1k band; adjective; a2-describing
-adj-eigen,eigen,adj,A2,0-1k,a2-describing,0-1k band; adjective; a2-describing
-adj-duidelijk,duidelijk,adj,A2,0-1k,a2-describing,0-1k band; adjective; a2-describing
-adj-erg,erg,adj,A2,0-1k,a2-describing,0-1k band; adjective; a2-describing
-adj-natuurlijk,natuurlijk,adj,A2,0-1k,a2-describing,0-1k band; adjective; a2-describing
-adj-bekend,bekend,adj,A2,0-1k,a2-describing,0-1k band; adjective; a2-describing
-adj-juist,juist,adj,A2,0-1k,a2-describing,0-1k band; adjective; a2-describing
-adj-zwaar,zwaar,adj,A2,0-1k,a2-describing,0-1k band; adjective; a2-describing
-adj-vol,vol,adj,A2,0-1k,a2-describing,0-1k band; adjective; a2-describing
-adj-bijzonder,bijzonder,adj,A2,0-1k,a2-describing,0-1k band; adjective; a2-describing
-adj-vrij,vrij,adj,A2,0-1k,a2-describing,0-1k band; adjective; a2-describing
-adj-sterk,sterk,adj,A2,0-1k,a2-describing,0-1k band; adjective; a2-describing
-adj-open,open,adj,A2,0-1k,a2-describing,0-1k band; adjective; a2-describing
-adj-druk,druk,adj,A2,0-1k,a2-describing,0-1k band; adjective; a2-describing
-adj-veilig,veilig,adj,A2,0-1k,a2-describing,0-1k band; adjective; a2-describing
-adj-klaar,klaar,adj,A2,0-1k,a2-describing,0-1k band; adjective; a2-describing
-adj-hard,hard,adj,A2,0-1k,a2-describing,0-1k band; adjective; a2-describing
-adj-stil,stil,adj,A2,0-1k,a2-describing,0-1k band; adjective; a2-describing
-adj-leeg,leeg,adj,A2,0-1k,a2-describing,0-1k band; adjective; a2-describing
-adj-dicht,dicht,adj,A2,0-1k,a2-describing,0-1k band; adjective; a2-describing
-adj-donker,donker,adj,A2,0-1k,a2-describing,0-1k band; adjective; a2-describing
-adj-gevaarlijk,gevaarlijk,adj,A2,1-2k,a2-describing,1-2k band; adjective; a2-describing
-adj-rustig,rustig,adj,A2,1-2k,a2-describing,1-2k band; adjective; a2-describing
-adj-fijn,fijn,adj,A2,1-2k,a2-describing,1-2k band; adjective; a2-describing
-adj-interessant,interessant,adj,A2,1-2k,a2-describing,1-2k band; adjective; a2-describing
-adj-eerlijk,eerlijk,adj,A2,1-2k,a2-describing,1-2k band; adjective; a2-describing
-adj-vreemd,vreemd,adj,A2,1-2k,a2-describing,1-2k band; adjective; a2-describing
-adj-geweldig,geweldig,adj,A2,1-2k,a2-describing,1-2k band; adjective; a2-describing
-adj-handig,handig,adj,A2,1-2k,a2-describing,1-2k band; adjective; a2-describing
-adj-kapot,kapot,adj,A2,1-2k,a2-describing,1-2k band; adjective; a2-describing
-adj-verkeerd,verkeerd,adj,A2,1-2k,a2-describing,1-2k band; adjective; a2-describing
-adj-aardig,aardig,adj,A2,1-2k,a2-describing,1-2k band; adjective; a2-describing
-adj-zacht,zacht,adj,A2,1-2k,a2-describing,1-2k band; adjective; a2-describing
-adj-grappig,grappig,adj,A2,2-3k,a2-describing,2-3k band; adjective; a2-describing
-adj-droog,droog,adj,A2,2-3k,a2-describing,2-3k band; adjective; a2-describing
-adj-dun,dun,adj,A2,3-5k,a2-describing,3-5k band; adjective; a2-describing
-adj-vies,vies,adj,A2,3-5k,a2-describing,3-5k band; adjective; a2-describing
-adj-ingewikkeld,ingewikkeld,adj,A2,3-5k,a2-describing,3-5k band; adjective; a2-describing
-adj-lelijk,lelijk,adj,A2,3-5k,a2-describing,3-5k band; adjective; a2-describing
-noun-probleem,probleem,noun,A2,0-1k,a2-communication,0-1k band; noun; a2-communication
-verb-vertellen,vertellen,verb,A2,0-1k,a2-communication,0-1k band; verb; a2-communication
-verb-beschrijven,beschrijven,verb,A2,0-1k,a2-communication,0-1k band; verb; a2-communication
-verb-betekenen,betekenen,verb,A2,0-1k,a2-communication,0-1k band; verb; a2-communication
-noun-idee,idee,noun,A2,0-1k,a2-communication,0-1k band; noun; a2-communication
-verb-ontvangen,ontvangen,verb,A2,0-1k,a2-communication,0-1k band; verb; a2-communication
-verb-sturen,sturen,verb,A2,0-1k,a2-communication,0-1k band; verb; a2-communication
-noun-informatie,informatie,noun,A2,0-1k,a2-communication,0-1k band; noun; a2-communication
-noun-verhaal,verhaal,noun,A2,0-1k,a2-communication,0-1k band; noun; a2-communication
-noun-reden,reden,noun,A2,0-1k,a2-communication,0-1k band; noun; a2-communication
-noun-reactie,reactie,noun,A2,0-1k,a2-communication,0-1k band; noun; a2-communication
-verb-reageren,reageren,verb,A2,0-1k,a2-communication,0-1k band; verb; a2-communication
-noun-stem,stem,noun,A2,0-1k,a2-communication,0-1k band; noun; a2-communication
-noun-gesprek,gesprek,noun,A2,0-1k,a2-communication,0-1k band; noun; a2-communication
-noun-krant,krant,noun,A2,0-1k,a2-communication,0-1k band; noun; a2-communication
-noun-website,website,noun,A2,0-1k,a2-communication,0-1k band; noun; a2-communication
-noun-advies,advies,noun,A2,0-1k,a2-communication,0-1k band; noun; a2-communication
-noun-discussie,discussie,noun,A2,0-1k,a2-communication,0-1k band; noun; a2-communication
-noun-zin,zin,noun,A2,1-2k,a2-communication,1-2k band; noun; a2-communication
-noun-brief,brief,noun,A2,1-2k,a2-communication,1-2k band; noun; a2-communication
-verb-uitspreken,uitspreken,verb,A2,1-2k,a2-communication,1-2k band; verb; a2-communication
-verb-beloven,beloven,verb,A2,1-2k,a2-communication,1-2k band; verb; a2-communication
-noun-bericht,bericht,noun,A2,1-2k,a2-communication,1-2k band; noun; a2-communication
-verb-vertalen,vertalen,verb,A2,1-2k,a2-communication,1-2k band; verb; a2-communication
-noun-waarheid,waarheid,noun,A2,1-2k,a2-communication,1-2k band; noun; a2-communication
-verb-voorstellen,voorstellen,verb,A2,1-2k,a2-communication,1-2k band; verb; a2-communication
-verb-bespreken,bespreken,verb,A2,1-2k,a2-communication,1-2k band; verb; a2-communication
-verb-afspreken,afspreken,verb,A2,1-2k,a2-communication,1-2k band; verb; a2-communication
-noun-afspraak,afspraak,noun,A2,1-2k,a2-communication,1-2k band; noun; a2-communication
-noun-afscheid,afscheid,noun,A2,1-2k,a2-communication,1-2k band; noun; a2-communication
-verb-klagen,klagen,verb,A2,1-2k,a2-communication,1-2k band; verb; a2-communication
-adj-welkom,welkom,adj,A2,1-2k,a2-communication,1-2k band; adjective; a2-communication
-noun-internet,internet,noun,A2,2-3k,a2-communication,2-3k band; noun; a2-communication
-verb-bedanken,bedanken,verb,A2,2-3k,a2-communication,2-3k band; verb; a2-communication
-verb-uitnodigen,uitnodigen,verb,A2,2-3k,a2-communication,2-3k band; verb; a2-communication
-verb-liegen,liegen,verb,A2,2-3k,a2-communication,2-3k band; verb; a2-communication
-verb-informeren,informeren,verb,A2,2-3k,a2-communication,2-3k band; verb; a2-communication
-verb-uitleggen,uitleggen,verb,A2,2-3k,a2-communication,2-3k band; verb; a2-communication
-noun-ruzie,ruzie,noun,A2,2-3k,a2-communication,2-3k band; noun; a2-communication
-verb-schreeuwen,schreeuwen,verb,A2,3-5k,a2-communication,3-5k band; verb; a2-communication
-verb-mailen,mailen,verb,A2,3-5k,a2-communication,3-5k band; verb; a2-communication
-verb-worden,worden,verb,A2,0-1k,a2-daily-verbs,0-1k band; verb; a2-daily-verbs
-verb-blijven,blijven,verb,A2,0-1k,a2-daily-verbs,0-1k band; verb; a2-daily-verbs
-verb-houden,houden,verb,A2,0-1k,a2-daily-verbs,0-1k band; verb; a2-daily-verbs
-verb-laten,laten,verb,A2,0-1k,a2-daily-verbs,0-1k band; verb; a2-daily-verbs
-verb-tellen,tellen,verb,A2,0-1k,a2-daily-verbs,0-1k band; verb; a2-daily-verbs
-verb-gebruiken,gebruiken,verb,A2,0-1k,a2-daily-verbs,0-1k band; verb; a2-daily-verbs
-verb-vallen,vallen,verb,A2,0-1k,a2-daily-verbs,0-1k band; verb; a2-daily-verbs
-verb-volgen,volgen,verb,A2,0-1k,a2-daily-verbs,0-1k band; verb; a2-daily-verbs
-verb-delen,delen,verb,A2,0-1k,a2-daily-verbs,0-1k band; verb; a2-daily-verbs
-verb-lijken,lijken,verb,A2,0-1k,a2-daily-verbs,0-1k band; verb; a2-daily-verbs
-verb-halen,halen,verb,A2,0-1k,a2-daily-verbs,0-1k band; verb; a2-daily-verbs
-verb-zorgen,zorgen,verb,A2,0-1k,a2-daily-verbs,0-1k band; verb; a2-daily-verbs
-verb-gebeuren,gebeuren,verb,A2,0-1k,a2-daily-verbs,0-1k band; verb; a2-daily-verbs
-verb-verliezen,verliezen,verb,A2,0-1k,a2-daily-verbs,0-1k band; verb; a2-daily-verbs
-verb-proberen,proberen,verb,A2,0-1k,a2-daily-verbs,0-1k band; verb; a2-daily-verbs
-verb-zetten,zetten,verb,A2,0-1k,a2-daily-verbs,0-1k band; verb; a2-daily-verbs
-verb-verschijnen,verschijnen,verb,A2,0-1k,a2-daily-verbs,0-1k band; verb; a2-daily-verbs
-verb-kiezen,kiezen,verb,A2,0-1k,a2-daily-verbs,0-1k band; verb; a2-daily-verbs
-verb-besluiten,besluiten,verb,A2,0-1k,a2-daily-verbs,0-1k band; verb; a2-daily-verbs
-verb-veranderen,veranderen,verb,A2,0-1k,a2-daily-verbs,0-1k band; verb; a2-daily-verbs
-verb-trekken,trekken,verb,A2,0-1k,a2-daily-verbs,0-1k band; verb; a2-daily-verbs
-verb-slaan,slaan,verb,A2,0-1k,a2-daily-verbs,0-1k band; verb; a2-daily-verbs
-verb-verdwijnen,verdwijnen,verb,A2,0-1k,a2-daily-verbs,0-1k band; verb; a2-daily-verbs
-verb-stoppen,stoppen,verb,A2,0-1k,a2-daily-verbs,0-1k band; verb; a2-daily-verbs
-verb-bezoeken,bezoeken,verb,A2,0-1k,a2-daily-verbs,0-1k band; verb; a2-daily-verbs
-verb-gooien,gooien,verb,A2,0-1k,a2-daily-verbs,0-1k band; verb; a2-daily-verbs
-verb-herstellen,herstellen,verb,A2,0-1k,a2-daily-verbs,0-1k band; verb; a2-daily-verbs
-verb-pakken,pakken,verb,A2,0-1k,a2-daily-verbs,0-1k band; verb; a2-daily-verbs
-verb-lukken,lukken,verb,A2,0-1k,a2-daily-verbs,0-1k band; verb; a2-daily-verbs
-verb-vergeten,vergeten,verb,A2,0-1k,a2-daily-verbs,0-1k band; verb; a2-daily-verbs
-verb-regelen,regelen,verb,A2,1-2k,a2-daily-verbs,1-2k band; verb; a2-daily-verbs
-verb-controleren,controleren,verb,A2,1-2k,a2-daily-verbs,1-2k band; verb; a2-daily-verbs
-verb-herinneren,herinneren,verb,A2,1-2k,a2-daily-verbs,1-2k band; verb; a2-daily-verbs
-verb-meenemen,meenemen,verb,A2,1-2k,a2-daily-verbs,1-2k band; verb; a2-daily-verbs
-verb-verbergen,verbergen,verb,A2,2-3k,a2-daily-verbs,2-3k band; verb; a2-daily-verbs
-verb-storen,storen,verb,A2,2-3k,a2-daily-verbs,2-3k band; verb; a2-daily-verbs
-verb-wennen,wennen,verb,A2,2-3k,a2-daily-verbs,2-3k band; verb; a2-daily-verbs
-verb-rennen,rennen,verb,A2,2-3k,a2-daily-verbs,2-3k band; verb; a2-daily-verbs
-verb-terugkomen,terugkomen,verb,A2,3-5k,a2-daily-verbs,3-5k band; verb; a2-daily-verbs
-noun-seizoen,seizoen,noun,A2,0-1k,a2-time,0-1k band; noun; a2-time
-noun-keer,keer,noun,A2,0-1k,a2-time,0-1k band; noun; a2-time
-noun-moment,moment,noun,A2,0-1k,a2-time,0-1k band; noun; a2-time
-adj-vorig,vorig,adj,A2,0-1k,a2-time,0-1k band; adjective; a2-time
-noun-periode,periode,noun,A2,0-1k,a2-time,0-1k band; noun; a2-time
-verb-duren,duren,verb,A2,0-1k,a2-time,0-1k band; verb; a2-time
-noun-toekomst,toekomst,noun,A2,0-1k,a2-time,0-1k band; noun; a2-time
-adj-dagelijks,dagelijks,adj,A2,0-1k,a2-time,0-1k band; adjective; a2-time
-noun-datum,datum,noun,A2,0-1k,a2-time,0-1k band; noun; a2-time
-noun-voorjaar,voorjaar,noun,A2,1-2k,a2-time,1-2k band; noun; a2-time; closed set
-noun-kwart,kwart,noun,A2,2-3k,a2-time,2-3k band; noun; a2-time
-noun-agenda,agenda,noun,A2,2-3k,a2-time,2-3k band; noun; a2-time
-noun-kerst,kerst,noun,A2,2-3k,a2-time,2-3k band; noun; a2-time
-noun-feestdag,feestdag,noun,A2,3-5k,a2-time,3-5k band; noun; a2-time
-noun-herfst,herfst,noun,A2,3-5k,a2-time,3-5k band; noun; a2-time; closed set
-noun-kalender,kalender,noun,A2,3-5k,a2-time,3-5k band; noun; a2-time
+noun-mens,mens,noun,A1,0-1k,a1-people,0-1k; noun; a1-people
+noun-naam,naam,noun,A1,0-1k,a1-people,0-1k; noun; a1-people
+noun-inwoner,inwoner,noun,A1,0-1k,a1-people,0-1k; noun; a1-people; A1 floor (K11)
+noun-man,man,noun,A1,0-1k,a1-people,0-1k; noun; a1-people
+noun-leven,leven,noun,A1,0-1k,a1-people,0-1k; noun; a1-people; A1 floor (K11)
+noun-vrouw,vrouw,noun,A1,0-1k,a1-people,0-1k; noun; a1-people
+noun-kind,kind,noun,A1,0-1k,a1-people,0-1k; noun; a1-people
+noun-familie,familie,noun,A1,0-1k,a1-people,0-1k; noun; a1-people
+noun-zoon,zoon,noun,A1,0-1k,a1-people,0-1k; noun; a1-people; closed set
+noun-vader,vader,noun,A1,0-1k,a1-people,0-1k; noun; a1-people; closed set
+noun-persoon,persoon,noun,A1,0-1k,a1-people,0-1k; noun; a1-people; A1 floor (K11)
+noun-jongen,jongen,noun,A1,0-1k,a1-people,0-1k; noun; a1-people
+noun-lid,lid,noun,A1,0-1k,a1-people,0-1k; noun; a1-people; A1 floor (K11)
+noun-leeftijd,leeftijd,noun,A1,0-1k,a1-people,0-1k; noun; a1-people; A1 floor (K11)
+noun-moeder,moeder,noun,A1,0-1k,a1-people,0-1k; noun; a1-people; closed set
+noun-vriend,vriend,noun,A1,0-1k,a1-people,0-1k; noun; a1-people
+noun-dochter,dochter,noun,A1,0-1k,a1-people,0-1k; noun; a1-people; closed set
+noun-broer,broer,noun,A1,0-1k,a1-people,0-1k; noun; a1-people; closed set
+verb-trouwen,trouwen,verb,A1,0-1k,a1-people,0-1k; verb; a1-people; A1 floor (K11)
+noun-ouder,ouder,noun,A1,0-1k,a1-people,0-1k; noun; a1-people; closed set
+noun-relatie,relatie,noun,A1,0-1k,a1-people,0-1k; noun; a1-people; A1 floor (K11)
+adj-persoonlijk,persoonlijk,adj,A1,0-1k,a1-people,0-1k; adjective; a1-people; A1 floor (K11)
+noun-huwelijk,huwelijk,noun,A1,0-1k,a1-people,0-1k; noun; a1-people; A1 floor (K11)
+noun-meisje,meisje,noun,A1,0-1k,a1-people,0-1k; noun; a1-people
+noun-dame,dame,noun,A1,1-2k,a1-people,1-2k; noun; a1-people; A1 floor (K11)
+noun-zus,zus,noun,A1,1-2k,a1-people,1-2k; noun; a1-people; closed set
+verb-ontmoeten,ontmoeten,verb,A1,1-2k,a1-people,1-2k; verb; a1-people; A1 floor (K11)
+noun-jeugd,jeugd,noun,A1,1-2k,a1-people,1-2k; noun; a1-people; A1 floor (K11)
+noun-vriendin,vriendin,noun,A1,1-2k,a1-people,1-2k; noun; a1-people
+verb-scheiden,scheiden,verb,A1,1-2k,a1-people,1-2k; verb; a1-people; A1 floor (K11)
+noun-meneer,meneer,noun,A1,1-2k,a1-people,1-2k; noun; a1-people; A1 floor (K11)
+noun-mevrouw,mevrouw,noun,A1,1-2k,a1-people,1-2k; noun; a1-people; A1 floor (K11)
+noun-gast,gast,noun,A1,1-2k,a1-people,1-2k; noun; a1-people; A1 floor (K11)
+noun-oom,oom,noun,A1,2-3k,a1-people,2-3k; noun; a1-people; closed set
+noun-baby,baby,noun,A1,2-3k,a1-people,2-3k; noun; a1-people
+noun-buur,buur,noun,A1,2-3k,a1-people,2-3k; noun; a1-people; A1 floor (K11)
+noun-geboorte,geboorte,noun,A1,2-3k,a1-people,2-3k; noun; a1-people; A1 floor (K11)
+noun-neef,neef,noun,A1,2-3k,a1-people,2-3k; noun; a1-people; closed set; A1 floor (K11)
+noun-ontmoeting,ontmoeting,noun,A1,2-3k,a1-people,2-3k; noun; a1-people; A1 floor (K11)
+noun-volwassene,volwassene,noun,A1,2-3k,a1-people,2-3k; noun; a1-people; A1 floor (K11)
+noun-tante,tante,noun,A1,2-3k,a1-people,2-3k; noun; a1-people; closed set
+noun-oma,oma,noun,A1,2-3k,a1-people,2-3k; noun; a1-people; closed set
+noun-opa,opa,noun,A1,3-5k,a1-people,3-5k; noun; a1-people; closed set
+noun-mama,mama,noun,A1,3-5k,a1-people,3-5k; noun; a1-people; closed set; A1 floor (K11)
+verb-wonen,wonen,verb,A1,0-1k,a1-home,0-1k; verb; a1-home
+noun-huis,huis,noun,A1,0-1k,a1-home,0-1k; noun; a1-home
+noun-kamer,kamer,noun,A1,0-1k,a1-home,0-1k; noun; a1-home
+noun-woning,woning,noun,A1,0-1k,a1-home,0-1k; noun; a1-home; A1 floor (K11)
+noun-deur,deur,noun,A1,0-1k,a1-home,0-1k; noun; a1-home
+noun-buurt,buurt,noun,A1,0-1k,a1-home,0-1k; noun; a1-home; A1 floor (K11)
+noun-muur,muur,noun,A1,0-1k,a1-home,0-1k; noun; a1-home; A1 floor (K11)
+verb-verhuizen,verhuizen,verb,A1,0-1k,a1-home,0-1k; verb; a1-home; A1 floor (K11)
+noun-tuin,tuin,noun,A1,1-2k,a1-home,1-2k; noun; a1-home
+noun-bed,bed,noun,A1,1-2k,a1-home,1-2k; noun; a1-home
+noun-dak,dak,noun,A1,1-2k,a1-home,1-2k; noun; a1-home; A1 floor (K11)
+noun-apparaat,apparaat,noun,A1,1-2k,a1-home,1-2k; noun; a1-home; A1 floor (K11)
+noun-verdieping,verdieping,noun,A1,1-2k,a1-home,1-2k; noun; a1-home; A1 floor (K11)
+verb-huren,huren,verb,A1,1-2k,a1-home,1-2k; verb; a1-home; A1 floor (K11)
+noun-kussen,kussen,noun,A1,1-2k,a1-home,1-2k; noun; a1-home; A1 floor (K11)
+noun-tafel,tafel,noun,A1,1-2k,a1-home,1-2k; noun; a1-home
+noun-bord,bord,noun,A1,1-2k,a1-home,1-2k; noun; a1-home; A1 floor (K11)
+noun-appartement,appartement,noun,A1,2-3k,a1-home,2-3k; noun; a1-home; A1 floor (K11)
+noun-mes,mes,noun,A1,2-3k,a1-home,2-3k; noun; a1-home; A1 floor (K11)
+noun-huishouden,huishouden,noun,A1,2-3k,a1-home,2-3k; noun; a1-home; A1 floor (K11)
+noun-keuken,keuken,noun,A1,2-3k,a1-home,2-3k; noun; a1-home
+noun-raam,raam,noun,A1,2-3k,a1-home,2-3k; noun; a1-home
+noun-trap,trap,noun,A1,2-3k,a1-home,2-3k; noun; a1-home; A1 floor (K11)
+noun-afval,afval,noun,A1,2-3k,a1-home,2-3k; noun; a1-home; A1 floor (K11)
+noun-kast,kast,noun,A1,2-3k,a1-home,2-3k; noun; a1-home
+noun-spiegel,spiegel,noun,A1,2-3k,a1-home,2-3k; noun; a1-home; A1 floor (K11)
+noun-doos,doos,noun,A1,2-3k,a1-home,2-3k; noun; a1-home; A1 floor (K11)
+noun-lamp,lamp,noun,A1,3-5k,a1-home,3-5k; noun; a1-home; A1 floor (K11)
+noun-stoel,stoel,noun,A1,3-5k,a1-home,3-5k; noun; a1-home; A1 floor (K11)
+noun-laken,laken,noun,A1,3-5k,a1-home,3-5k; noun; a1-home; A1 floor (K11)
+noun-pan,pan,noun,A1,3-5k,a1-home,3-5k; noun; a1-home; A1 floor (K11)
+noun-flat,flat,noun,A1,3-5k,a1-home,3-5k; noun; a1-home; A1 floor (K11)
+noun-sleutel,sleutel,noun,A1,3-5k,a1-home,3-5k; noun; a1-home; A1 floor (K11)
+noun-toilet,toilet,noun,A1,3-5k,a1-home,3-5k; noun; a1-home; A1 floor (K11)
+noun-balkon,balkon,noun,A1,3-5k,a1-home,3-5k; noun; a1-home; A1 floor (K11)
+verb-eten,eten,verb,A1,0-1k,a1-food,0-1k; verb; a1-food
+noun-water,water,noun,A1,0-1k,a1-food,0-1k; noun; a1-food
+adj-lekker,lekker,adj,A1,0-1k,a1-food,0-1k; adjective; a1-food
+noun-restaurant,restaurant,noun,A1,0-1k,a1-food,0-1k; noun; a1-food; A1 floor (K11)
+verb-drinken,drinken,verb,A1,1-2k,a1-food,1-2k; verb; a1-food
+noun-bier,bier,noun,A1,1-2k,a1-food,1-2k; noun; a1-food; A1 floor (K11)
+verb-bereiden,bereiden,verb,A1,1-2k,a1-food,1-2k; verb; a1-food; A1 floor (K11)
+noun-glas,glas,noun,A1,1-2k,a1-food,1-2k; noun; a1-food
+noun-gerecht,gerecht,noun,A1,1-2k,a1-food,1-2k; noun; a1-food; A1 floor (K11)
+noun-wijn,wijn,noun,A1,1-2k,a1-food,1-2k; noun; a1-food; A1 floor (K11)
+noun-vlees,vlees,noun,A1,2-3k,a1-food,2-3k; noun; a1-food
+verb-bakken,bakken,verb,A1,2-3k,a1-food,2-3k; verb; a1-food; A1 floor (K11)
+noun-vis,vis,noun,A1,2-3k,a1-food,2-3k; noun; a1-food
+noun-brood,brood,noun,A1,2-3k,a1-food,2-3k; noun; a1-food
+adj-vers,vers,adj,A1,2-3k,a1-food,2-3k; adjective; a1-food; A1 floor (K11)
+noun-drank,drank,noun,A1,2-3k,a1-food,2-3k; noun; a1-food; A1 floor (K11)
+verb-snijden,snijden,verb,A1,2-3k,a1-food,2-3k; verb; a1-food; A1 floor (K11)
+noun-fles,fles,noun,A1,2-3k,a1-food,2-3k; noun; a1-food; A1 floor (K11)
+verb-koken,koken,verb,A1,2-3k,a1-food,2-3k; verb; a1-food
+noun-koffie,koffie,noun,A1,2-3k,a1-food,2-3k; noun; a1-food
+noun-olie,olie,noun,A1,2-3k,a1-food,2-3k; noun; a1-food; A1 floor (K11)
+adj-zuur,zuur,adj,A1,2-3k,a1-food,2-3k; adjective; a1-food; A1 floor (K11)
+noun-kaas,kaas,noun,A1,2-3k,a1-food,2-3k; noun; a1-food
+noun-smaak,smaak,noun,A1,3-5k,a1-food,3-5k; noun; a1-food; A1 floor (K11)
+noun-kip,kip,noun,A1,3-5k,a1-food,3-5k; noun; a1-food; A1 floor (K11)
+noun-appel,appel,noun,A1,3-5k,a1-food,3-5k; noun; a1-food; A1 floor (K11)
+noun-groente,groente,noun,A1,3-5k,a1-food,3-5k; noun; a1-food; A1 floor (K11)
+noun-wortel,wortel,noun,A1,3-5k,a1-food,3-5k; noun; a1-food; A1 floor (K11)
+noun-recept,recept,noun,A1,3-5k,a1-food,3-5k; noun; a1-food; A1 floor (K11)
+noun-jaar,jaar,noun,A1,0-1k,a1-time,0-1k; noun; a1-time
+adj-laat,laat,adj,A1,0-1k,a1-time,0-1k; adjective; a1-time
+noun-tijd,tijd,noun,A1,0-1k,a1-time,0-1k; noun; a1-time
+noun-dag,dag,noun,A1,0-1k,a1-time,0-1k; noun; a1-time
+noun-seizoen,seizoen,noun,A1,0-1k,a1-time,0-1k; noun; a1-time; A1 floor (K11)
+noun-uur,uur,noun,A1,0-1k,a1-time,0-1k; noun; a1-time
+noun-keer,keer,noun,A1,0-1k,a1-time,0-1k; noun; a1-time; A1 floor (K11)
+noun-moment,moment,noun,A1,0-1k,a1-time,0-1k; noun; a1-time; A1 floor (K11)
+noun-maand,maand,noun,A1,0-1k,a1-time,0-1k; noun; a1-time
+adj-vorig,vorig,adj,A1,0-1k,a1-time,0-1k; adjective; a1-time; A1 floor (K11)
+noun-periode,periode,noun,A1,0-1k,a1-time,0-1k; noun; a1-time; A1 floor (K11)
+noun-week,week,noun,A1,0-1k,a1-time,0-1k; noun; a1-time
+adj-vroeg,vroeg,adj,A1,0-1k,a1-time,0-1k; adjective; a1-time
+verb-duren,duren,verb,A1,0-1k,a1-time,0-1k; verb; a1-time; A1 floor (K11)
+noun-minuut,minuut,noun,A1,0-1k,a1-time,0-1k; noun; a1-time
+noun-nacht,nacht,noun,A1,0-1k,a1-time,0-1k; noun; a1-time
+noun-toekomst,toekomst,noun,A1,0-1k,a1-time,0-1k; noun; a1-time; A1 floor (K11)
+adj-dagelijks,dagelijks,adj,A1,0-1k,a1-time,0-1k; adjective; a1-time; A1 floor (K11)
+noun-datum,datum,noun,A1,0-1k,a1-time,0-1k; noun; a1-time; A1 floor (K11)
+noun-avond,avond,noun,A1,0-1k,a1-time,0-1k; noun; a1-time
+noun-weekend,weekend,noun,A1,0-1k,a1-time,0-1k; noun; a1-time
+noun-zomer,zomer,noun,A1,1-2k,a1-time,1-2k; noun; a1-time; closed set
+noun-winter,winter,noun,A1,1-2k,a1-time,1-2k; noun; a1-time; closed set
+noun-ochtend,ochtend,noun,A1,1-2k,a1-time,1-2k; noun; a1-time
+noun-voorjaar,voorjaar,noun,A1,1-2k,a1-time,1-2k; noun; a1-time; closed set; A1 floor (K11)
+noun-verjaardag,verjaardag,noun,A1,1-2k,a1-time,1-2k; noun; a1-time
+noun-kwart,kwart,noun,A1,2-3k,a1-time,2-3k; noun; a1-time; A1 floor (K11)
+noun-agenda,agenda,noun,A1,2-3k,a1-time,2-3k; noun; a1-time; A1 floor (K11)
+noun-middag,middag,noun,A1,2-3k,a1-time,2-3k; noun; a1-time
+noun-kerst,kerst,noun,A1,2-3k,a1-time,2-3k; noun; a1-time; A1 floor (K11)
+noun-feestdag,feestdag,noun,A1,3-5k,a1-time,3-5k; noun; a1-time; A1 floor (K11)
+noun-herfst,herfst,noun,A1,3-5k,a1-time,3-5k; noun; a1-time; closed set
+noun-kalender,kalender,noun,A1,3-5k,a1-time,3-5k; noun; a1-time; A1 floor (K11)
+verb-werken,werken,verb,A1,0-1k,a1-school-work,0-1k; verb; a1-school-work
+noun-werk,werk,noun,A1,0-1k,a1-school-work,0-1k; noun; a1-school-work
+verb-schrijven,schrijven,verb,A1,0-1k,a1-school-work,0-1k; verb; a1-school-work
+verb-lezen,lezen,verb,A1,0-1k,a1-school-work,0-1k; verb; a1-school-work
+verb-leren,leren,verb,A1,0-1k,a1-school-work,0-1k; verb; a1-school-work
+noun-school,school,noun,A1,0-1k,a1-school-work,0-1k; noun; a1-school-work
+noun-les,les,noun,A1,1-2k,a1-school-work,1-2k; noun; a1-school-work
+noun-leraar,leraar,noun,A1,1-2k,a1-school-work,1-2k; noun; a1-school-work
+noun-klas,klas,noun,A1,1-2k,a1-school-work,1-2k; noun; a1-school-work
+noun-computer,computer,noun,A1,2-3k,a1-school-work,2-3k; noun; a1-school-work
+noun-stad,stad,noun,A1,0-1k,a1-city-travel,0-1k; noun; a1-city-travel
+noun-weg,weg,noun,A1,0-1k,a1-city-travel,0-1k; noun; a1-city-travel
+noun-land,land,noun,A1,0-1k,a1-city-travel,0-1k; noun; a1-city-travel
+noun-auto,auto,noun,A1,0-1k,a1-city-travel,0-1k; noun; a1-city-travel
+verb-rijden,rijden,verb,A1,0-1k,a1-city-travel,0-1k; verb; a1-city-travel
+noun-straat,straat,noun,A1,0-1k,a1-city-travel,0-1k; noun; a1-city-travel
+noun-station,station,noun,A1,0-1k,a1-city-travel,0-1k; noun; a1-city-travel
+adj-rechts,rechts,adj,A1,0-1k,a1-city-travel,0-1k; adjective; a1-city-travel
+noun-park,park,noun,A1,0-1k,a1-city-travel,0-1k; noun; a1-city-travel
+adj-links,links,adj,A1,0-1k,a1-city-travel,0-1k; adjective; a1-city-travel
+noun-trein,trein,noun,A1,0-1k,a1-city-travel,0-1k; noun; a1-city-travel
+noun-bus,bus,noun,A1,1-2k,a1-city-travel,1-2k; noun; a1-city-travel
+noun-fiets,fiets,noun,A1,1-2k,a1-city-travel,1-2k; noun; a1-city-travel
+noun-haar,haar,noun,A1,0-1k,a1-body-health,0-1k; noun; a1-body-health; closed set
+noun-hand,hand,noun,A1,0-1k,a1-body-health,0-1k; noun; a1-body-health; closed set
+verb-overlijden,overlijden,verb,A1,0-1k,a1-body-health,0-1k; verb; a1-body-health; A1 floor (K11)
+noun-ziekenhuis,ziekenhuis,noun,A1,0-1k,a1-body-health,0-1k; noun; a1-body-health; A1 floor (K11)
+noun-hoofd,hoofd,noun,A1,0-1k,a1-body-health,0-1k; noun; a1-body-health; closed set
+noun-patiënt,patiënt,noun,A1,0-1k,a1-body-health,0-1k; noun; a1-body-health; A1 floor (K11)
+noun-lichaam,lichaam,noun,A1,0-1k,a1-body-health,0-1k; noun; a1-body-health; closed set
+noun-oog,oog,noun,A1,0-1k,a1-body-health,0-1k; noun; a1-body-health; closed set
+noun-ziekte,ziekte,noun,A1,0-1k,a1-body-health,0-1k; noun; a1-body-health; A1 floor (K11)
+noun-arm,arm,noun,A1,0-1k,a1-body-health,0-1k; noun; a1-body-health; closed set
+noun-voet,voet,noun,A1,0-1k,a1-body-health,0-1k; noun; a1-body-health; closed set
+adj-ziek,ziek,adj,A1,0-1k,a1-body-health,0-1k; adjective; a1-body-health
+noun-arts,arts,noun,A1,0-1k,a1-body-health,0-1k; noun; a1-body-health; A1 floor (K11)
+noun-gezicht,gezicht,noun,A1,0-1k,a1-body-health,0-1k; noun; a1-body-health; closed set
+noun-gezondheid,gezondheid,noun,A1,1-2k,a1-body-health,1-2k; noun; a1-body-health; A1 floor (K11)
+noun-behandeling,behandeling,noun,A1,1-2k,a1-body-health,1-2k; noun; a1-body-health; A1 floor (K11)
+noun-klacht,klacht,noun,A1,1-2k,a1-body-health,1-2k; noun; a1-body-health; A1 floor (K11)
+noun-ongeluk,ongeluk,noun,A1,1-2k,a1-body-health,1-2k; noun; a1-body-health; A1 floor (K11)
+verb-bewegen,bewegen,verb,A1,1-2k,a1-body-health,1-2k; verb; a1-body-health; A1 floor (K11)
+noun-tand,tand,noun,A1,1-2k,a1-body-health,1-2k; noun; a1-body-health; closed set
+noun-griep,griep,noun,A1,1-2k,a1-body-health,1-2k; noun; a1-body-health; A1 floor (K11)
+noun-mond,mond,noun,A1,1-2k,a1-body-health,1-2k; noun; a1-body-health; closed set
+adj-gezond,gezond,adj,A1,1-2k,a1-body-health,1-2k; adjective; a1-body-health; A1 floor (K11)
+noun-neus,neus,noun,A1,1-2k,a1-body-health,1-2k; noun; a1-body-health; closed set
+noun-oor,oor,noun,A1,1-2k,a1-body-health,1-2k; noun; a1-body-health; closed set
+noun-pijn,pijn,noun,A1,1-2k,a1-body-health,1-2k; noun; a1-body-health
+noun-medicijn,medicijn,noun,A1,1-2k,a1-body-health,1-2k; noun; a1-body-health; A1 floor (K11)
+noun-huid,huid,noun,A1,1-2k,a1-body-health,1-2k; noun; a1-body-health
+noun-rust,rust,noun,A1,1-2k,a1-body-health,1-2k; noun; a1-body-health; A1 floor (K11)
+noun-been,been,noun,A1,2-3k,a1-body-health,2-3k; noun; a1-body-health; closed set
+noun-vinger,vinger,noun,A1,2-3k,a1-body-health,2-3k; noun; a1-body-health; closed set
+verb-bloeden,bloeden,verb,A1,2-3k,a1-body-health,2-3k; verb; a1-body-health; A1 floor (K11)
+noun-teen,teen,noun,A1,2-3k,a1-body-health,2-3k; noun; a1-body-health; closed set
+noun-buik,buik,noun,A1,2-3k,a1-body-health,2-3k; noun; a1-body-health; closed set
+verb-genezen,genezen,verb,A1,2-3k,a1-body-health,2-3k; verb; a1-body-health; A1 floor (K11)
+noun-bloed,bloed,noun,A1,2-3k,a1-body-health,2-3k; noun; a1-body-health; A1 floor (K11)
+noun-schouder,schouder,noun,A1,2-3k,a1-body-health,2-3k; noun; a1-body-health; closed set
+adj-zwanger,zwanger,adj,A1,2-3k,a1-body-health,2-3k; adjective; a1-body-health; A1 floor (K11)
+noun-nek,nek,noun,A1,2-3k,a1-body-health,2-3k; noun; a1-body-health; closed set
+noun-keel,keel,noun,A1,3-5k,a1-body-health,3-5k; noun; a1-body-health
+verb-roken,roken,verb,A1,3-5k,a1-body-health,3-5k; verb; a1-body-health; A1 floor (K11)
+noun-tong,tong,noun,A1,3-5k,a1-body-health,3-5k; noun; a1-body-health
+verb-spelen,spelen,verb,A1,0-1k,a1-free-time,0-1k; verb; a1-free-time
+noun-film,film,noun,A1,0-1k,a1-free-time,0-1k; noun; a1-free-time
+noun-muziek,muziek,noun,A1,0-1k,a1-free-time,0-1k; noun; a1-free-time
+noun-foto,foto,noun,A1,0-1k,a1-free-time,0-1k; noun; a1-free-time
+noun-televisie,televisie,noun,A1,0-1k,a1-free-time,0-1k; noun; a1-free-time
+noun-vakantie,vakantie,noun,A1,1-2k,a1-free-time,1-2k; noun; a1-free-time
+noun-sport,sport,noun,A1,1-2k,a1-free-time,1-2k; noun; a1-free-time
+noun-voetbal,voetbal,noun,A1,1-2k,a1-free-time,1-2k; noun; a1-free-time
+verb-zwemmen,zwemmen,verb,A1,2-3k,a1-free-time,2-3k; verb; a1-free-time
+noun-weer,weer,noun,A1,0-1k,a1-nature,0-1k; noun; a1-nature
+noun-dier,dier,noun,A1,0-1k,a1-nature,0-1k; noun; a1-nature
+noun-zee,zee,noun,A1,0-1k,a1-nature,0-1k; noun; a1-nature
+noun-hond,hond,noun,A1,0-1k,a1-nature,0-1k; noun; a1-nature
+noun-boom,boom,noun,A1,1-2k,a1-nature,1-2k; noun; a1-nature
+noun-zon,zon,noun,A1,2-3k,a1-nature,2-3k; noun; a1-nature
+verb-regenen,regenen,verb,A1,2-3k,a1-nature,2-3k; verb; a1-nature
+verb-zijn,zijn,verb,A1,0-1k,a1-daily-verbs,0-1k; verb; a1-daily-verbs
+verb-hebben,hebben,verb,A1,0-1k,a1-daily-verbs,0-1k; verb; a1-daily-verbs
+verb-kunnen,kunnen,verb,A1,0-1k,a1-daily-verbs,0-1k; verb; a1-daily-verbs
+verb-gaan,gaan,verb,A1,0-1k,a1-daily-verbs,0-1k; verb; a1-daily-verbs
+verb-komen,komen,verb,A1,0-1k,a1-daily-verbs,0-1k; verb; a1-daily-verbs
+verb-moeten,moeten,verb,A1,0-1k,a1-daily-verbs,0-1k; verb; a1-daily-verbs
+verb-maken,maken,verb,A1,0-1k,a1-daily-verbs,0-1k; verb; a1-daily-verbs
+verb-zien,zien,verb,A1,0-1k,a1-daily-verbs,0-1k; verb; a1-daily-verbs
+verb-doen,doen,verb,A1,0-1k,a1-daily-verbs,0-1k; verb; a1-daily-verbs
+verb-krijgen,krijgen,verb,A1,0-1k,a1-daily-verbs,0-1k; verb; a1-daily-verbs
+verb-wassen,wassen,verb,A1,0-1k,a1-daily-verbs,0-1k; verb; a1-daily-verbs
+verb-staan,staan,verb,A1,0-1k,a1-daily-verbs,0-1k; verb; a1-daily-verbs
+verb-vinden,vinden,verb,A1,0-1k,a1-daily-verbs,0-1k; verb; a1-daily-verbs
+verb-nemen,nemen,verb,A1,0-1k,a1-daily-verbs,0-1k; verb; a1-daily-verbs
+verb-geven,geven,verb,A1,0-1k,a1-daily-verbs,0-1k; verb; a1-daily-verbs
+verb-willen,willen,verb,A1,0-1k,a1-daily-verbs,0-1k; verb; a1-daily-verbs
+verb-liggen,liggen,verb,A1,0-1k,a1-daily-verbs,0-1k; verb; a1-daily-verbs
+verb-beginnen,beginnen,verb,A1,0-1k,a1-daily-verbs,0-1k; verb; a1-daily-verbs
+verb-mogen,mogen,verb,A1,0-1k,a1-daily-verbs,0-1k; verb; a1-daily-verbs
+verb-denken,denken,verb,A1,0-1k,a1-daily-verbs,0-1k; verb; a1-daily-verbs
+verb-zitten,zitten,verb,A1,0-1k,a1-daily-verbs,0-1k; verb; a1-daily-verbs
+verb-brengen,brengen,verb,A1,0-1k,a1-daily-verbs,0-1k; verb; a1-daily-verbs
+verb-lopen,lopen,verb,A1,0-1k,a1-daily-verbs,0-1k; verb; a1-daily-verbs
+verb-weten,weten,verb,A1,0-1k,a1-daily-verbs,0-1k; verb; a1-daily-verbs
+verb-kijken,kijken,verb,A1,0-1k,a1-daily-verbs,0-1k; verb; a1-daily-verbs
+verb-openen,openen,verb,A1,0-1k,a1-daily-verbs,0-1k; verb; a1-daily-verbs
+verb-horen,horen,verb,A1,0-1k,a1-daily-verbs,0-1k; verb; a1-daily-verbs
+verb-helpen,helpen,verb,A1,0-1k,a1-daily-verbs,0-1k; verb; a1-daily-verbs
+verb-sluiten,sluiten,verb,A1,0-1k,a1-daily-verbs,0-1k; verb; a1-daily-verbs
+verb-zoeken,zoeken,verb,A1,0-1k,a1-daily-verbs,0-1k; verb; a1-daily-verbs
+verb-wachten,wachten,verb,A1,0-1k,a1-daily-verbs,0-1k; verb; a1-daily-verbs
+verb-slapen,slapen,verb,A1,1-2k,a1-daily-verbs,1-2k; verb; a1-daily-verbs
+adj-moe,moe,adj,A1,0-1k,a1-feelings,0-1k; adjective; a1-feelings
+adj-gelukkig,gelukkig,adj,A1,0-1k,a1-feelings,0-1k; adjective; a1-feelings
+adj-bang,bang,adj,A1,0-1k,a1-feelings,0-1k; adjective; a1-feelings
+adj-boos,boos,adj,A1,1-2k,a1-feelings,1-2k; adjective; a1-feelings
+adj-ander,ander,adj,A1,0-1k,a1-describing,0-1k; adjective; a1-describing
+adj-groot,groot,adj,A1,0-1k,a1-describing,0-1k; adjective; a1-describing
+adj-nieuw,nieuw,adj,A1,0-1k,a1-describing,0-1k; adjective; a1-describing
+adj-lang,lang,adj,A1,0-1k,a1-describing,0-1k; adjective; a1-describing
+adj-goed,goed,adj,A1,0-1k,a1-describing,0-1k; adjective; a1-describing
+adj-ver,ver,adj,A1,0-1k,a1-describing,0-1k; adjective; a1-describing
+adj-klein,klein,adj,A1,0-1k,a1-describing,0-1k; adjective; a1-describing
+adj-hoog,hoog,adj,A1,0-1k,a1-describing,0-1k; adjective; a1-describing
+adj-oud,oud,adj,A1,0-1k,a1-describing,0-1k; adjective; a1-describing
+adj-snel,snel,adj,A1,0-1k,a1-describing,0-1k; adjective; a1-describing
+adj-mooi,mooi,adj,A1,0-1k,a1-describing,0-1k; adjective; a1-describing
+adj-jong,jong,adj,A1,0-1k,a1-describing,0-1k; adjective; a1-describing
+adj-rood,rood,adj,A1,0-1k,a1-describing,0-1k; adjective; a1-describing; closed set
+adj-moeilijk,moeilijk,adj,A1,0-1k,a1-describing,0-1k; adjective; a1-describing
+adj-kort,kort,adj,A1,0-1k,a1-describing,0-1k; adjective; a1-describing
+adj-laag,laag,adj,A1,0-1k,a1-describing,0-1k; adjective; a1-describing
+adj-zwart,zwart,adj,A1,0-1k,a1-describing,0-1k; adjective; a1-describing; closed set
+adj-leuk,leuk,adj,A1,0-1k,a1-describing,0-1k; adjective; a1-describing
+adj-slecht,slecht,adj,A1,0-1k,a1-describing,0-1k; adjective; a1-describing
+adj-groen,groen,adj,A1,0-1k,a1-describing,0-1k; adjective; a1-describing; closed set
+adj-makkelijk,makkelijk,adj,A1,0-1k,a1-describing,0-1k; adjective; a1-describing
+adj-wit,wit,adj,A1,0-1k,a1-describing,0-1k; adjective; a1-describing; closed set
+noun-kleur,kleur,noun,A1,0-1k,a1-describing,0-1k; noun; a1-describing
+adj-dik,dik,adj,A1,0-1k,a1-describing,0-1k; adjective; a1-describing
+adj-geel,geel,adj,A1,0-1k,a1-describing,0-1k; adjective; a1-describing; closed set
+adj-oranje,oranje,adj,A1,1-2k,a1-describing,1-2k; adjective; a1-describing; closed set
+adj-langzaam,langzaam,adj,A1,1-2k,a1-describing,1-2k; adjective; a1-describing
+adj-warm,warm,adj,A1,1-2k,a1-describing,1-2k; adjective; a1-describing
+adj-blauw,blauw,adj,A1,1-2k,a1-describing,1-2k; adjective; a1-describing; closed set
+adj-bruin,bruin,adj,A1,1-2k,a1-describing,1-2k; adjective; a1-describing; closed set
+adj-heet,heet,adj,A1,1-2k,a1-describing,1-2k; adjective; a1-describing
+adj-grijs,grijs,adj,A1,1-2k,a1-describing,1-2k; adjective; a1-describing; closed set
+adj-schoon,schoon,adj,A1,2-3k,a1-describing,2-3k; adjective; a1-describing
+adj-koud,koud,adj,A1,2-3k,a1-describing,2-3k; adjective; a1-describing
+verb-zeggen,zeggen,verb,A1,0-1k,a1-communication,0-1k; verb; a1-communication
+verb-vragen,vragen,verb,A1,0-1k,a1-communication,0-1k; verb; a1-communication
+verb-spreken,spreken,verb,A1,0-1k,a1-communication,0-1k; verb; a1-communication
+noun-nummer,nummer,noun,A1,0-1k,a1-communication,0-1k; noun; a1-communication
+noun-woord,woord,noun,A1,0-1k,a1-communication,0-1k; noun; a1-communication
+noun-vraag,vraag,noun,A1,0-1k,a1-communication,0-1k; noun; a1-communication
+verb-begrijpen,begrijpen,verb,A1,0-1k,a1-communication,0-1k; verb; a1-communication
+verb-heten,heten,verb,A1,0-1k,a1-communication,0-1k; verb; a1-communication
+noun-taal,taal,noun,A1,0-1k,a1-communication,0-1k; noun; a1-communication
+verb-praten,praten,verb,A1,0-1k,a1-communication,0-1k; verb; a1-communication
+noun-telefoon,telefoon,noun,A1,1-2k,a1-communication,1-2k; noun; a1-communication
+verb-luisteren,luisteren,verb,A1,1-2k,a1-communication,1-2k; verb; a1-communication
+verb-antwoorden,antwoorden,verb,A1,1-2k,a1-communication,1-2k; verb; a1-communication
+verb-bellen,bellen,verb,A1,1-2k,a1-communication,1-2k; verb; a1-communication
+noun-antwoord,antwoord,noun,A1,1-2k,a1-communication,1-2k; noun; a1-communication
+noun-adres,adres,noun,A1,2-3k,a1-communication,2-3k; noun; a1-communication
+noun-euro,euro,noun,A1,0-1k,a1-shopping,0-1k; noun; a1-shopping
+verb-betalen,betalen,verb,A1,0-1k,a1-shopping,0-1k; verb; a1-shopping
+noun-geld,geld,noun,A1,0-1k,a1-shopping,0-1k; noun; a1-shopping
+verb-kopen,kopen,verb,A1,0-1k,a1-shopping,0-1k; verb; a1-shopping
+noun-markt,markt,noun,A1,0-1k,a1-shopping,0-1k; noun; a1-shopping
+adj-duur,duur,adj,A1,0-1k,a1-shopping,0-1k; adjective; a1-shopping
+noun-winkel,winkel,noun,A1,0-1k,a1-shopping,0-1k; noun; a1-shopping
+noun-prijs,prijs,noun,A1,0-1k,a1-shopping,0-1k; noun; a1-shopping
+noun-supermarkt,supermarkt,noun,A1,1-2k,a1-shopping,1-2k; noun; a1-shopping
+adj-goedkoop,goedkoop,adj,A1,1-2k,a1-shopping,1-2k; adjective; a1-shopping
+verb-dragen,dragen,verb,A1,0-1k,a1-clothes,0-1k; verb; a1-clothes; A1 floor (K11)
+verb-passen,passen,verb,A1,0-1k,a1-clothes,0-1k; verb; a1-clothes; A1 floor (K11)
+noun-maat,maat,noun,A1,1-2k,a1-clothes,1-2k; noun; a1-clothes; A1 floor (K11)
+noun-ring,ring,noun,A1,1-2k,a1-clothes,1-2k; noun; a1-clothes; A1 floor (K11)
+noun-kleding,kleding,noun,A1,1-2k,a1-clothes,1-2k; noun; a1-clothes
+noun-mondmasker,mondmasker,noun,A1,1-2k,a1-clothes,1-2k; noun; a1-clothes; A1 floor (K11)
+noun-broek,broek,noun,A1,2-3k,a1-clothes,2-3k; noun; a1-clothes
+noun-bril,bril,noun,A1,3-5k,a1-clothes,3-5k; noun; a1-clothes; A1 floor (K11)
+noun-vloer,vloer,noun,A2,3-5k,a2-home,3-5k; noun; a2-home
+noun-kelder,kelder,noun,A2,3-5k,a2-home,3-5k; noun; a2-home
+noun-plafond,plafond,noun,A2,3-5k,a2-home,3-5k; noun; a2-home
+noun-bad,bad,noun,A2,3-5k,a2-home,3-5k; noun; a2-home
+noun-lift,lift,noun,A2,3-5k,a2-home,3-5k; noun; a2-home
+noun-slaapkamer,slaapkamer,noun,A2,3-5k,a2-home,3-5k; noun; a2-home
+noun-zolder,zolder,noun,A2,3-5k,a2-home,3-5k; noun; a2-home
+verb-opruimen,opruimen,verb,A2,3-5k,a2-home,3-5k; verb; a2-home
+noun-huur,huur,noun,A2,3-5k,a2-home,3-5k; noun; a2-home
+noun-oven,oven,noun,A2,5-10k,a2-home,5-10k; noun; a2-home
+verb-verwarmen,verwarmen,verb,A2,5-10k,a2-home,5-10k; verb; a2-home
+noun-kist,kist,noun,A2,5-10k,a2-home,5-10k; noun; a2-home
+noun-meubel,meubel,noun,A2,5-10k,a2-home,5-10k; noun; a2-home
+noun-bak,bak,noun,A2,5-10k,a2-home,5-10k; noun; a2-home
+noun-woonkamer,woonkamer,noun,A2,5-10k,a2-home,5-10k; noun; a2-home
+noun-makelaar,makelaar,noun,A2,5-10k,a2-home,5-10k; noun; a2-home
+noun-kam,kam,noun,A2,5-10k,a2-home,5-10k; noun; a2-home
+verb-poetsen,poetsen,verb,A2,5-10k,a2-home,5-10k; verb; a2-home
+noun-deken,deken,noun,A2,5-10k,a2-home,5-10k; noun; a2-home
+verb-douchen,douchen,verb,A2,5-10k,a2-home,5-10k; verb; a2-home
+noun-haard,haard,noun,A2,5-10k,a2-home,5-10k; noun; a2-home
+noun-badkamer,badkamer,noun,A2,5-10k,a2-home,5-10k; noun; a2-home
+noun-gordijn,gordijn,noun,A2,5-10k,a2-home,5-10k; noun; a2-home
+verb-logeren,logeren,verb,A2,5-10k,a2-home,5-10k; verb; a2-home
+noun-verwarming,verwarming,noun,A2,5-10k,a2-home,5-10k; noun; a2-home
+verb-schoonmaken,schoonmaken,verb,A2,5-10k,a2-home,5-10k; verb; a2-home
+noun-handdoek,handdoek,noun,A2,5-10k,a2-home,5-10k; noun; a2-home
+noun-kachel,kachel,noun,A2,5-10k,a2-home,5-10k; noun; a2-home
+noun-thee,thee,noun,A2,3-5k,a2-food,3-5k; noun; a2-food
+noun-suiker,suiker,noun,A2,3-5k,a2-food,3-5k; noun; a2-food
+noun-ijs,ijs,noun,A2,3-5k,a2-food,3-5k; noun; a2-food
+noun-pasta,pasta,noun,A2,3-5k,a2-food,3-5k; noun; a2-food
+noun-aardappel,aardappel,noun,A2,3-5k,a2-food,3-5k; noun; a2-food
+noun-zout,zout,noun,A2,3-5k,a2-food,3-5k; noun; a2-food
+noun-druif,druif,noun,A2,5-10k,a2-food,5-10k; noun; a2-food
+noun-ingrediënt,ingrediënt,noun,A2,5-10k,a2-food,5-10k; noun; a2-food
+noun-ham,ham,noun,A2,5-10k,a2-food,5-10k; noun; a2-food
+noun-kool,kool,noun,A2,5-10k,a2-food,5-10k; noun; a2-food
+noun-boon,boon,noun,A2,5-10k,a2-food,5-10k; noun; a2-food
+noun-maaltijd,maaltijd,noun,A2,5-10k,a2-food,5-10k; noun; a2-food
+noun-soep,soep,noun,A2,5-10k,a2-food,5-10k; noun; a2-food
+noun-fruit,fruit,noun,A2,5-10k,a2-food,5-10k; noun; a2-food
+noun-melk,melk,noun,A2,5-10k,a2-food,5-10k; noun; a2-food
+noun-worst,worst,noun,A2,5-10k,a2-food,5-10k; noun; a2-food
+noun-koek,koek,noun,A2,5-10k,a2-food,5-10k; noun; a2-food
+noun-taart,taart,noun,A2,5-10k,a2-food,5-10k; noun; a2-food
+noun-pizza,pizza,noun,A2,5-10k,a2-food,5-10k; noun; a2-food
+noun-boter,boter,noun,A2,5-10k,a2-food,5-10k; noun; a2-food
+noun-kopje,kopje,noun,A2,5-10k,a2-food,5-10k; noun; a2-food
+noun-champagne,champagne,noun,A2,5-10k,a2-food,5-10k; noun; a2-food
+noun-honing,honing,noun,A2,5-10k,a2-food,5-10k; noun; a2-food
+noun-rijst,rijst,noun,A2,5-10k,a2-food,5-10k; noun; a2-food
+noun-biet,biet,noun,A2,5-10k,a2-food,5-10k; noun; a2-food
+noun-room,room,noun,A2,5-10k,a2-food,5-10k; noun; a2-food
+noun-witlof,witlof,noun,A2,5-10k,a2-food,5-10k; noun; a2-food
+noun-sla,sla,noun,A2,5-10k,a2-food,5-10k; noun; a2-food
+noun-hamburger,hamburger,noun,A2,5-10k,a2-food,5-10k; noun; a2-food
+noun-lunch,lunch,noun,A2,5-10k,a2-food,5-10k; noun; a2-food
+noun-sap,sap,noun,A2,5-10k,a2-food,5-10k; noun; a2-food
+noun-boterham,boterham,noun,A2,5-10k,a2-food,5-10k; noun; a2-food
+noun-vork,vork,noun,A2,5-10k,a2-food,5-10k; noun; a2-food
+noun-haring,haring,noun,A2,5-10k,a2-food,5-10k; noun; a2-food
+noun-mossel,mossel,noun,A2,5-10k,a2-food,5-10k; noun; a2-food
+noun-schotel,schotel,noun,A2,5-10k,a2-food,5-10k; noun; a2-food
+noun-lepel,lepel,noun,A2,5-10k,a2-food,5-10k; noun; a2-food
+verb-ontbijten,ontbijten,verb,A2,5-10k,a2-food,5-10k; verb; a2-food
+noun-peper,peper,noun,A2,5-10k,a2-food,5-10k; noun; a2-food
+noun-garnaal,garnaal,noun,A2,5-10k,a2-food,5-10k; noun; a2-food
+verb-slikken,slikken,verb,A2,3-5k,a2-health,3-5k; verb; a2-health
+noun-koorts,koorts,noun,A2,3-5k,a2-health,3-5k; noun; a2-health
+noun-bijwerking,bijwerking,noun,A2,3-5k,a2-health,3-5k; noun; a2-health
+noun-stress,stress,noun,A2,3-5k,a2-health,3-5k; noun; a2-health
+verb-hoesten,hoesten,verb,A2,5-10k,a2-health,5-10k; verb; a2-health
+noun-baard,baard,noun,A2,5-10k,a2-health,5-10k; noun; a2-health
+noun-maag,maag,noun,A2,5-10k,a2-health,5-10k; noun; a2-health
+noun-apotheker,apotheker,noun,A2,5-10k,a2-health,5-10k; noun; a2-health
+noun-apotheek,apotheek,noun,A2,5-10k,a2-health,5-10k; noun; a2-health
+noun-kaak,kaak,noun,A2,5-10k,a2-health,5-10k; noun; a2-health
+verb-braken,braken,verb,A2,5-10k,a2-health,5-10k; verb; a2-health
+noun-voorhoofd,voorhoofd,noun,A2,5-10k,a2-health,5-10k; noun; a2-health
+verb-spugen,spugen,verb,A2,5-10k,a2-health,5-10k; verb; a2-health
+adj-ongezond,ongezond,adj,A2,5-10k,a2-health,5-10k; adjective; a2-health
+noun-hoofdpijn,hoofdpijn,noun,A2,5-10k,a2-health,5-10k; noun; a2-health
+noun-honger,honger,noun,A2,5-10k,a2-health,5-10k; noun; a2-health
+noun-pink,pink,noun,A2,5-10k,a2-health,5-10k; noun; a2-health
+verb-afvallen,afvallen,verb,A2,5-10k,a2-health,5-10k; verb; a2-health
+noun-kin,kin,noun,A2,5-10k,a2-health,5-10k; noun; a2-health
+noun-verpleger,verpleger,noun,A2,5-10k,a2-health,5-10k; noun; a2-health
+noun-wond,wond,noun,A2,5-10k,a2-health,5-10k; noun; a2-health
+noun-hiel,hiel,noun,A2,5-10k,a2-health,5-10k; noun; a2-health
+noun-ademhaling,ademhaling,noun,A2,5-10k,a2-health,5-10k; noun; a2-health
+noun-wenkbrauw,wenkbrauw,noun,A2,5-10k,a2-health,5-10k; noun; a2-health
+noun-lever,lever,noun,A2,5-10k,a2-health,5-10k; noun; a2-health
+noun-onderarm,onderarm,noun,A2,5-10k,a2-health,5-10k; noun; a2-health
+noun-punt,punt,noun,A2,0-1k,a2-work-study,0-1k; noun; a2-work-study
+noun-bedrijf,bedrijf,noun,A2,0-1k,a2-work-study,0-1k; noun; a2-work-study
+noun-regel,regel,noun,A2,0-1k,a2-work-study,0-1k; noun; a2-work-study
+noun-geschiedenis,geschiedenis,noun,A2,0-1k,a2-work-study,0-1k; noun; a2-work-study
+noun-tekst,tekst,noun,A2,0-1k,a2-work-study,0-1k; noun; a2-work-study
+noun-cijfer,cijfer,noun,A2,0-1k,a2-work-study,0-1k; noun; a2-work-study
+noun-universiteit,universiteit,noun,A2,0-1k,a2-work-study,0-1k; noun; a2-work-study
+noun-voorbeeld,voorbeeld,noun,A2,0-1k,a2-work-study,0-1k; noun; a2-work-study
+noun-project,project,noun,A2,0-1k,a2-work-study,0-1k; noun; a2-work-study
+noun-plan,plan,noun,A2,0-1k,a2-work-study,0-1k; noun; a2-work-study
+noun-fout,fout,noun,A2,0-1k,a2-work-study,0-1k; noun; a2-work-study
+noun-student,student,noun,A2,0-1k,a2-work-study,0-1k; noun; a2-work-study
+noun-medewerker,medewerker,noun,A2,0-1k,a2-work-study,0-1k; noun; a2-work-study
+noun-opdracht,opdracht,noun,A2,0-1k,a2-work-study,0-1k; noun; a2-work-study
+noun-studie,studie,noun,A2,0-1k,a2-work-study,0-1k; noun; a2-work-study
+verb-verdienen,verdienen,verb,A2,0-1k,a2-work-study,0-1k; verb; a2-work-study
+noun-directeur,directeur,noun,A2,0-1k,a2-work-study,0-1k; noun; a2-work-study
+noun-test,test,noun,A2,0-1k,a2-work-study,0-1k; noun; a2-work-study
+noun-ervaring,ervaring,noun,A2,0-1k,a2-work-study,0-1k; noun; a2-work-study
+noun-leerling,leerling,noun,A2,0-1k,a2-work-study,0-1k; noun; a2-work-study
+verb-slagen,slagen,verb,A2,0-1k,a2-work-study,0-1k; verb; a2-work-study
+noun-personeel,personeel,noun,A2,0-1k,a2-work-study,0-1k; noun; a2-work-study
+noun-opleiding,opleiding,noun,A2,0-1k,a2-work-study,0-1k; noun; a2-work-study
+noun-baan,baan,noun,A2,0-1k,a2-work-study,0-1k; noun; a2-work-study
+noun-beroep,beroep,noun,A2,0-1k,a2-work-study,0-1k; noun; a2-work-study
+verb-studeren,studeren,verb,A2,0-1k,a2-work-study,0-1k; verb; a2-work-study
+noun-afdeling,afdeling,noun,A2,0-1k,a2-work-study,0-1k; noun; a2-work-study
+noun-ondernemer,ondernemer,noun,A2,0-1k,a2-work-study,0-1k; noun; a2-work-study
+noun-onderwijs,onderwijs,noun,A2,1-2k,a2-work-study,1-2k; noun; a2-work-study
+noun-fabriek,fabriek,noun,A2,1-2k,a2-work-study,1-2k; noun; a2-work-study
+noun-kantoor,kantoor,noun,A2,1-2k,a2-work-study,1-2k; noun; a2-work-study
+verb-oplossen,oplossen,verb,A2,1-2k,a2-work-study,1-2k; verb; a2-work-study
+noun-collega,collega,noun,A2,1-2k,a2-work-study,1-2k; noun; a2-work-study
+noun-pensioen,pensioen,noun,A2,1-2k,a2-work-study,1-2k; noun; a2-work-study
+noun-werkgever,werkgever,noun,A2,1-2k,a2-work-study,1-2k; noun; a2-work-study
+noun-papier,papier,noun,A2,1-2k,a2-work-study,1-2k; noun; a2-work-study
+noun-baas,baas,noun,A2,1-2k,a2-work-study,1-2k; noun; a2-work-study
+noun-vergadering,vergadering,noun,A2,1-2k,a2-work-study,1-2k; noun; a2-work-study
+noun-inkomen,inkomen,noun,A2,1-2k,a2-work-study,1-2k; noun; a2-work-study
+verb-herhalen,herhalen,verb,A2,1-2k,a2-work-study,1-2k; verb; a2-work-study
+verb-ontslaan,ontslaan,verb,A2,1-2k,a2-work-study,1-2k; verb; a2-work-study
+noun-manager,manager,noun,A2,1-2k,a2-work-study,1-2k; noun; a2-work-study
+noun-vrijwilliger,vrijwilliger,noun,A2,1-2k,a2-work-study,1-2k; noun; a2-work-study
+noun-salaris,salaris,noun,A2,2-3k,a2-work-study,2-3k; noun; a2-work-study
+noun-vak,vak,noun,A2,2-3k,a2-work-study,2-3k; noun; a2-work-study
+noun-basisschool,basisschool,noun,A2,2-3k,a2-work-study,2-3k; noun; a2-work-study
+verb-oefenen,oefenen,verb,A2,2-3k,a2-work-study,2-3k; verb; a2-work-study
+noun-chauffeur,chauffeur,noun,A2,2-3k,a2-work-study,2-3k; noun; a2-work-study
+noun-hoofdstuk,hoofdstuk,noun,A2,2-3k,a2-work-study,2-3k; noun; a2-work-study
+noun-cursus,cursus,noun,A2,3-5k,a2-work-study,3-5k; noun; a2-work-study
+noun-kok,kok,noun,A2,3-5k,a2-work-study,3-5k; noun; a2-work-study
+noun-pauze,pauze,noun,A2,3-5k,a2-work-study,3-5k; noun; a2-work-study
+noun-stage,stage,noun,A2,3-5k,a2-work-study,3-5k; noun; a2-work-study
+noun-pen,pen,noun,A2,3-5k,a2-work-study,3-5k; noun; a2-work-study
+noun-wiskunde,wiskunde,noun,A2,3-5k,a2-work-study,3-5k; noun; a2-work-study
+noun-werkdag,werkdag,noun,A2,3-5k,a2-work-study,3-5k; noun; a2-work-study
+noun-schrift,schrift,noun,A2,3-5k,a2-work-study,3-5k; noun; a2-work-study
+noun-werkplek,werkplek,noun,A2,5-10k,a2-work-study,5-10k; noun; a2-work-study
+noun-map,map,noun,A2,5-10k,a2-work-study,5-10k; noun; a2-work-study
+noun-woordenboek,woordenboek,noun,A2,5-10k,a2-work-study,5-10k; noun; a2-work-study
+noun-natuurkunde,natuurkunde,noun,A2,5-10k,a2-work-study,5-10k; noun; a2-work-study
+verb-printen,printen,verb,A2,5-10k,a2-work-study,5-10k; verb; a2-work-study
+noun-huiswerk,huiswerk,noun,A2,5-10k,a2-work-study,5-10k; noun; a2-work-study
+verb-solliciteren,solliciteren,verb,A2,5-10k,a2-work-study,5-10k; verb; a2-work-study
+noun-potlood,potlood,noun,A2,5-10k,a2-work-study,5-10k; noun; a2-work-study
+noun-schoolplein,schoolplein,noun,A2,5-10k,a2-work-study,5-10k; noun; a2-work-study
+noun-gemeente,gemeente,noun,A2,0-1k,a2-services,0-1k; noun; a2-services
+noun-politie,politie,noun,A2,0-1k,a2-services,0-1k; noun; a2-services
+noun-dienst,dienst,noun,A2,0-1k,a2-services,0-1k; noun; a2-services
+noun-bank,bank,noun,A2,0-1k,a2-services,0-1k; noun; a2-services
+noun-hulp,hulp,noun,A2,0-1k,a2-services,0-1k; noun; a2-services
+noun-agent,agent,noun,A2,0-1k,a2-services,0-1k; noun; a2-services
+noun-advocaat,advocaat,noun,A2,0-1k,a2-services,0-1k; noun; a2-services
+noun-belasting,belasting,noun,A2,1-2k,a2-services,1-2k; noun; a2-services
+noun-ambtenaar,ambtenaar,noun,A2,1-2k,a2-services,1-2k; noun; a2-services
+noun-bibliotheek,bibliotheek,noun,A2,1-2k,a2-services,1-2k; noun; a2-services
+noun-boete,boete,noun,A2,1-2k,a2-services,1-2k; noun; a2-services
+noun-pakket,pakket,noun,A2,2-3k,a2-services,2-3k; noun; a2-services
+noun-uitkering,uitkering,noun,A2,2-3k,a2-services,2-3k; noun; a2-services
+noun-post,post,noun,A2,2-3k,a2-services,2-3k; noun; a2-services
+noun-paspoort,paspoort,noun,A2,3-5k,a2-services,3-5k; noun; a2-services
+verb-invullen,invullen,verb,A2,3-5k,a2-services,3-5k; verb; a2-services
+noun-woonplaats,woonplaats,noun,A2,3-5k,a2-services,3-5k; noun; a2-services
+verb-inschrijven,inschrijven,verb,A2,3-5k,a2-services,3-5k; verb; a2-services
+noun-handtekening,handtekening,noun,A2,3-5k,a2-services,3-5k; noun; a2-services
+noun-kinderopvang,kinderopvang,noun,A2,5-10k,a2-services,5-10k; noun; a2-services
+noun-formulier,formulier,noun,A2,5-10k,a2-services,5-10k; noun; a2-services
+noun-loket,loket,noun,A2,5-10k,a2-services,5-10k; noun; a2-services
+noun-postkantoor,postkantoor,noun,A2,5-10k,a2-services,5-10k; noun; a2-services
+noun-postbode,postbode,noun,A2,5-10k,a2-services,5-10k; noun; a2-services
+noun-kerk,kerk,noun,A2,0-1k,a2-city-transport,0-1k; noun; a2-city-transport
+noun-gebouw,gebouw,noun,A2,0-1k,a2-city-transport,0-1k; noun; a2-city-transport
+noun-dorp,dorp,noun,A2,0-1k,a2-city-transport,0-1k; noun; a2-city-transport
+verb-bereiken,bereiken,verb,A2,0-1k,a2-city-transport,0-1k; verb; a2-city-transport
+verb-verlaten,verlaten,verb,A2,0-1k,a2-city-transport,0-1k; verb; a2-city-transport
+noun-kilometer,kilometer,noun,A2,0-1k,a2-city-transport,0-1k; noun; a2-city-transport
+noun-richting,richting,noun,A2,0-1k,a2-city-transport,0-1k; noun; a2-city-transport
+noun-centrum,centrum,noun,A2,0-1k,a2-city-transport,0-1k; noun; a2-city-transport
+noun-brug,brug,noun,A2,0-1k,a2-city-transport,0-1k; noun; a2-city-transport
+verb-reizen,reizen,verb,A2,0-1k,a2-city-transport,0-1k; verb; a2-city-transport
+noun-vliegtuig,vliegtuig,noun,A2,0-1k,a2-city-transport,0-1k; noun; a2-city-transport
+noun-hotel,hotel,noun,A2,0-1k,a2-city-transport,0-1k; noun; a2-city-transport
+noun-buitenland,buitenland,noun,A2,0-1k,a2-city-transport,0-1k; noun; a2-city-transport
+noun-grens,grens,noun,A2,1-2k,a2-city-transport,1-2k; noun; a2-city-transport
+noun-kaart,kaart,noun,A2,1-2k,a2-city-transport,1-2k; noun; a2-city-transport
+noun-route,route,noun,A2,1-2k,a2-city-transport,1-2k; noun; a2-city-transport
+noun-reis,reis,noun,A2,1-2k,a2-city-transport,1-2k; noun; a2-city-transport
+noun-hoofdstad,hoofdstad,noun,A2,1-2k,a2-city-transport,1-2k; noun; a2-city-transport
+noun-wijk,wijk,noun,A2,1-2k,a2-city-transport,1-2k; noun; a2-city-transport
+noun-passagier,passagier,noun,A2,1-2k,a2-city-transport,1-2k; noun; a2-city-transport
+noun-ingang,ingang,noun,A2,1-2k,a2-city-transport,1-2k; noun; a2-city-transport
+noun-boot,boot,noun,A2,1-2k,a2-city-transport,1-2k; noun; a2-city-transport
+noun-vertrek,vertrek,noun,A2,1-2k,a2-city-transport,1-2k; noun; a2-city-transport
+verb-fietsen,fietsen,verb,A2,1-2k,a2-city-transport,1-2k; verb; a2-city-transport
+noun-plein,plein,noun,A2,1-2k,a2-city-transport,1-2k; noun; a2-city-transport
+noun-luchthaven,luchthaven,noun,A2,1-2k,a2-city-transport,1-2k; noun; a2-city-transport
+verb-aankomen,aankomen,verb,A2,1-2k,a2-city-transport,1-2k; verb; a2-city-transport
+noun-haven,haven,noun,A2,1-2k,a2-city-transport,1-2k; noun; a2-city-transport
+noun-tram,tram,noun,A2,1-2k,a2-city-transport,1-2k; noun; a2-city-transport
+noun-verkeer,verkeer,noun,A2,2-3k,a2-city-transport,2-3k; noun; a2-city-transport
+noun-aankomst,aankomst,noun,A2,2-3k,a2-city-transport,2-3k; noun; a2-city-transport
+noun-file,file,noun,A2,3-5k,a2-city-transport,3-5k; noun; a2-city-transport
+noun-gracht,gracht,noun,A2,3-5k,a2-city-transport,3-5k; noun; a2-city-transport
+noun-metro,metro,noun,A2,3-5k,a2-city-transport,3-5k; noun; a2-city-transport
+verb-parkeren,parkeren,verb,A2,3-5k,a2-city-transport,3-5k; verb; a2-city-transport
+noun-halte,halte,noun,A2,3-5k,a2-city-transport,3-5k; noun; a2-city-transport
+noun-benzine,benzine,noun,A2,3-5k,a2-city-transport,3-5k; noun; a2-city-transport
+noun-garage,garage,noun,A2,3-5k,a2-city-transport,3-5k; noun; a2-city-transport
+noun-rijbewijs,rijbewijs,noun,A2,3-5k,a2-city-transport,3-5k; noun; a2-city-transport
+verb-overstappen,overstappen,verb,A2,3-5k,a2-city-transport,3-5k; verb; a2-city-transport
+noun-uitgang,uitgang,noun,A2,3-5k,a2-city-transport,3-5k; noun; a2-city-transport
+noun-koffer,koffer,noun,A2,3-5k,a2-city-transport,3-5k; noun; a2-city-transport
+noun-taxi,taxi,noun,A2,5-10k,a2-city-transport,5-10k; noun; a2-city-transport
+noun-douane,douane,noun,A2,5-10k,a2-city-transport,5-10k; noun; a2-city-transport
+noun-stoep,stoep,noun,A2,5-10k,a2-city-transport,5-10k; noun; a2-city-transport
+verb-uitstappen,uitstappen,verb,A2,5-10k,a2-city-transport,5-10k; verb; a2-city-transport
+noun-bagage,bagage,noun,A2,5-10k,a2-city-transport,5-10k; noun; a2-city-transport
+noun-hoofdstraat,hoofdstraat,noun,A2,5-10k,a2-city-transport,5-10k; noun; a2-city-transport
+noun-procent,procent,noun,A2,0-1k,a2-shopping,0-1k; noun; a2-shopping
+verb-verkopen,verkopen,verb,A2,0-1k,a2-shopping,0-1k; verb; a2-shopping
+verb-leveren,leveren,verb,A2,0-1k,a2-shopping,0-1k; verb; a2-shopping
+verb-kosten,kosten,verb,A2,0-1k,a2-shopping,0-1k; verb; a2-shopping
+noun-product,product,noun,A2,0-1k,a2-shopping,0-1k; noun; a2-shopping
+noun-klant,klant,noun,A2,0-1k,a2-shopping,0-1k; noun; a2-shopping
+noun-keuze,keuze,noun,A2,0-1k,a2-shopping,0-1k; noun; a2-shopping
+noun-rekening,rekening,noun,A2,0-1k,a2-shopping,0-1k; noun; a2-shopping
+adj-gratis,gratis,adj,A2,0-1k,a2-shopping,0-1k; adjective; a2-shopping
+verb-uitgeven,uitgeven,verb,A2,0-1k,a2-shopping,0-1k; verb; a2-shopping
+noun-boodschap,boodschap,noun,A2,0-1k,a2-shopping,0-1k; noun; a2-shopping
+verb-winkelen,winkelen,verb,A2,1-2k,a2-shopping,1-2k; verb; a2-shopping
+verb-bestellen,bestellen,verb,A2,1-2k,a2-shopping,1-2k; verb; a2-shopping
+noun-zak,zak,noun,A2,2-3k,a2-shopping,2-3k; noun; a2-shopping
+noun-reclame,reclame,noun,A2,2-3k,a2-shopping,2-3k; noun; a2-shopping
+verb-sparen,sparen,verb,A2,2-3k,a2-shopping,2-3k; verb; a2-shopping
+verb-lenen,lenen,verb,A2,2-3k,a2-shopping,2-3k; verb; a2-shopping
+noun-cent,cent,noun,A2,2-3k,a2-shopping,2-3k; noun; a2-shopping
+noun-bakker,bakker,noun,A2,3-5k,a2-shopping,3-5k; noun; a2-shopping
+noun-cadeau,cadeau,noun,A2,3-5k,a2-shopping,3-5k; noun; a2-shopping
+noun-bestelling,bestelling,noun,A2,3-5k,a2-shopping,3-5k; noun; a2-shopping
+noun-kassa,kassa,noun,A2,3-5k,a2-shopping,3-5k; noun; a2-shopping
+noun-verkoper,verkoper,noun,A2,3-5k,a2-shopping,3-5k; noun; a2-shopping
+noun-portemonnee,portemonnee,noun,A2,5-10k,a2-shopping,5-10k; noun; a2-shopping
+noun-webwinkel,webwinkel,noun,A2,5-10k,a2-shopping,5-10k; noun; a2-shopping
+noun-warenhuis,warenhuis,noun,A2,5-10k,a2-shopping,5-10k; noun; a2-shopping
+noun-uniform,uniform,noun,A2,3-5k,a2-clothes,3-5k; noun; a2-clothes
+noun-handschoen,handschoen,noun,A2,3-5k,a2-clothes,3-5k; noun; a2-clothes
+noun-riem,riem,noun,A2,3-5k,a2-clothes,3-5k; noun; a2-clothes
+noun-jas,jas,noun,A2,3-5k,a2-clothes,3-5k; noun; a2-clothes
+noun-kostuum,kostuum,noun,A2,3-5k,a2-clothes,3-5k; noun; a2-clothes
+noun-horloge,horloge,noun,A2,5-10k,a2-clothes,5-10k; noun; a2-clothes
+noun-jurk,jurk,noun,A2,5-10k,a2-clothes,5-10k; noun; a2-clothes
+noun-schort,schort,noun,A2,5-10k,a2-clothes,5-10k; noun; a2-clothes
+noun-onderbroek,onderbroek,noun,A2,5-10k,a2-clothes,5-10k; noun; a2-clothes
+noun-sok,sok,noun,A2,5-10k,a2-clothes,5-10k; noun; a2-clothes
+noun-wol,wol,noun,A2,5-10k,a2-clothes,5-10k; noun; a2-clothes
+noun-muts,muts,noun,A2,5-10k,a2-clothes,5-10k; noun; a2-clothes
+noun-hemd,hemd,noun,A2,5-10k,a2-clothes,5-10k; noun; a2-clothes
+noun-vest,vest,noun,A2,5-10k,a2-clothes,5-10k; noun; a2-clothes
+noun-kraag,kraag,noun,A2,5-10k,a2-clothes,5-10k; noun; a2-clothes
+noun-armband,armband,noun,A2,5-10k,a2-clothes,5-10k; noun; a2-clothes
+noun-sjaal,sjaal,noun,A2,5-10k,a2-clothes,5-10k; noun; a2-clothes
+noun-kous,kous,noun,A2,5-10k,a2-clothes,5-10k; noun; a2-clothes
+noun-bruiloft,bruiloft,noun,A2,3-5k,a2-people,3-5k; noun; a2-people
+noun-papa,papa,noun,A2,3-5k,a2-people,3-5k; noun; a2-people; closed set
+noun-nicht,nicht,noun,A2,3-5k,a2-people,3-5k; noun; a2-people; closed set
+adj-beleefd,beleefd,adj,A2,5-10k,a2-people,5-10k; adjective; a2-people
+noun-geliefde,geliefde,noun,A2,5-10k,a2-people,5-10k; noun; a2-people
+noun-bruid,bruid,noun,A2,5-10k,a2-people,5-10k; noun; a2-people
+noun-huisvrouw,huisvrouw,noun,A2,5-10k,a2-people,5-10k; noun; a2-people
+verb-winnen,winnen,verb,A2,0-1k,a2-free-time,0-1k; verb; a2-free-time
+noun-wedstrijd,wedstrijd,noun,A2,0-1k,a2-free-time,0-1k; noun; a2-free-time
+noun-club,club,noun,A2,0-1k,a2-free-time,0-1k; noun; a2-free-time
+noun-spel,spel,noun,A2,0-1k,a2-free-time,0-1k; noun; a2-free-time
+noun-museum,museum,noun,A2,0-1k,a2-free-time,0-1k; noun; a2-free-time
+verb-tekenen,tekenen,verb,A2,0-1k,a2-free-time,0-1k; verb; a2-free-time
+verb-zingen,zingen,verb,A2,0-1k,a2-free-time,0-1k; verb; a2-free-time
+noun-kunst,kunst,noun,A2,0-1k,a2-free-time,0-1k; noun; a2-free-time
+noun-radio,radio,noun,A2,1-2k,a2-free-time,1-2k; noun; a2-free-time
+noun-bezoek,bezoek,noun,A2,1-2k,a2-free-time,1-2k; noun; a2-free-time
+noun-café,café,noun,A2,1-2k,a2-free-time,1-2k; noun; a2-free-time
+noun-feest,feest,noun,A2,1-2k,a2-free-time,1-2k; noun; a2-free-time
+verb-sporten,sporten,verb,A2,1-2k,a2-free-time,1-2k; verb; a2-free-time
+noun-toerist,toerist,noun,A2,1-2k,a2-free-time,1-2k; noun; a2-free-time
+verb-vissen,vissen,verb,A2,2-3k,a2-free-time,2-3k; verb; a2-free-time
+noun-strand,strand,noun,A2,2-3k,a2-free-time,2-3k; noun; a2-free-time
+noun-zwembad,zwembad,noun,A2,2-3k,a2-free-time,2-3k; noun; a2-free-time
+verb-dansen,dansen,verb,A2,2-3k,a2-free-time,2-3k; verb; a2-free-time
+noun-verrassing,verrassing,noun,A2,3-5k,a2-free-time,3-5k; noun; a2-free-time
+verb-uitgaan,uitgaan,verb,A2,3-5k,a2-free-time,3-5k; verb; a2-free-time
+noun-dans,dans,noun,A2,3-5k,a2-free-time,3-5k; noun; a2-free-time
+noun-camping,camping,noun,A2,3-5k,a2-free-time,3-5k; noun; a2-free-time
+verb-reserveren,reserveren,verb,A2,3-5k,a2-free-time,3-5k; verb; a2-free-time
+noun-wandeling,wandeling,noun,A2,3-5k,a2-free-time,3-5k; noun; a2-free-time
+noun-hobby,hobby,noun,A2,3-5k,a2-free-time,3-5k; noun; a2-free-time
+noun-sportschool,sportschool,noun,A2,3-5k,a2-free-time,3-5k; noun; a2-free-time
+noun-speelgoed,speelgoed,noun,A2,5-10k,a2-free-time,5-10k; noun; a2-free-time
+verb-schaatsen,schaatsen,verb,A2,5-10k,a2-free-time,5-10k; verb; a2-free-time
+noun-tennis,tennis,noun,A2,5-10k,a2-free-time,5-10k; noun; a2-free-time
+verb-schaken,schaken,verb,A2,5-10k,a2-free-time,5-10k; verb; a2-free-time
+verb-hardlopen,hardlopen,verb,A2,5-10k,a2-free-time,5-10k; verb; a2-free-time
+noun-tekenfilm,tekenfilm,noun,A2,5-10k,a2-free-time,5-10k; noun; a2-free-time
+verb-knutselen,knutselen,verb,A2,5-10k,a2-free-time,5-10k; verb; a2-free-time
+noun-eiland,eiland,noun,A2,0-1k,a2-nature-weather,0-1k; noun; a2-nature-weather
+noun-bos,bos,noun,A2,0-1k,a2-nature-weather,0-1k; noun; a2-nature-weather
+noun-rivier,rivier,noun,A2,0-1k,a2-nature-weather,0-1k; noun; a2-nature-weather
+noun-noorden,noorden,noun,A2,0-1k,a2-nature-weather,0-1k; noun; a2-nature-weather
+noun-vogel,vogel,noun,A2,0-1k,a2-nature-weather,0-1k; noun; a2-nature-weather
+noun-natuur,natuur,noun,A2,1-2k,a2-nature-weather,1-2k; noun; a2-nature-weather
+noun-paard,paard,noun,A2,1-2k,a2-nature-weather,1-2k; noun; a2-nature-weather
+noun-lucht,lucht,noun,A2,1-2k,a2-nature-weather,1-2k; noun; a2-nature-weather
+noun-bloem,bloem,noun,A2,1-2k,a2-nature-weather,1-2k; noun; a2-nature-weather
+noun-berg,berg,noun,A2,1-2k,a2-nature-weather,1-2k; noun; a2-nature-weather
+verb-planten,planten,verb,A2,1-2k,a2-nature-weather,1-2k; verb; a2-nature-weather
+noun-dijk,dijk,noun,A2,1-2k,a2-nature-weather,1-2k; noun; a2-nature-weather
+noun-plant,plant,noun,A2,1-2k,a2-nature-weather,1-2k; noun; a2-nature-weather
+noun-wind,wind,noun,A2,2-3k,a2-nature-weather,2-3k; noun; a2-nature-weather
+noun-zand,zand,noun,A2,2-3k,a2-nature-weather,2-3k; noun; a2-nature-weather
+adj-nat,nat,adj,A2,2-3k,a2-nature-weather,2-3k; adjective; a2-nature-weather
+verb-vriezen,vriezen,verb,A2,2-3k,a2-nature-weather,2-3k; verb; a2-nature-weather
+noun-storm,storm,noun,A2,2-3k,a2-nature-weather,2-3k; noun; a2-nature-weather
+noun-gras,gras,noun,A2,2-3k,a2-nature-weather,2-3k; noun; a2-nature-weather
+noun-koe,koe,noun,A2,3-5k,a2-nature-weather,3-5k; noun; a2-nature-weather
+noun-poes,poes,noun,A2,3-5k,a2-nature-weather,3-5k; noun; a2-nature-weather
+noun-kou,kou,noun,A2,3-5k,a2-nature-weather,3-5k; noun; a2-nature-weather
+noun-maan,maan,noun,A2,3-5k,a2-nature-weather,3-5k; noun; a2-nature-weather
+noun-muis,muis,noun,A2,3-5k,a2-nature-weather,3-5k; noun; a2-nature-weather
+noun-duin,duin,noun,A2,3-5k,a2-nature-weather,3-5k; noun; a2-nature-weather
+verb-waaien,waaien,verb,A2,3-5k,a2-nature-weather,3-5k; verb; a2-nature-weather
+noun-wolk,wolk,noun,A2,3-5k,a2-nature-weather,3-5k; noun; a2-nature-weather
+verb-sneeuwen,sneeuwen,verb,A2,3-5k,a2-nature-weather,3-5k; verb; a2-nature-weather
+adj-zonnig,zonnig,adj,A2,3-5k,a2-nature-weather,3-5k; adjective; a2-nature-weather
+noun-sneeuw,sneeuw,noun,A2,3-5k,a2-nature-weather,3-5k; noun; a2-nature-weather
+noun-mist,mist,noun,A2,3-5k,a2-nature-weather,3-5k; noun; a2-nature-weather
+noun-regen,regen,noun,A2,3-5k,a2-nature-weather,3-5k; noun; a2-nature-weather
+noun-huisdier,huisdier,noun,A2,3-5k,a2-nature-weather,3-5k; noun; a2-nature-weather
+noun-vos,vos,noun,A2,5-10k,a2-nature-weather,5-10k; noun; a2-nature-weather
+noun-haas,haas,noun,A2,5-10k,a2-nature-weather,5-10k; noun; a2-nature-weather
+noun-konijn,konijn,noun,A2,5-10k,a2-nature-weather,5-10k; noun; a2-nature-weather
+noun-zwaan,zwaan,noun,A2,5-10k,a2-nature-weather,5-10k; noun; a2-nature-weather
+noun-haai,haai,noun,A2,5-10k,a2-nature-weather,5-10k; noun; a2-nature-weather
+noun-gans,gans,noun,A2,5-10k,a2-nature-weather,5-10k; noun; a2-nature-weather
+noun-dolfijn,dolfijn,noun,A2,5-10k,a2-nature-weather,5-10k; noun; a2-nature-weather
+noun-ezel,ezel,noun,A2,5-10k,a2-nature-weather,5-10k; noun; a2-nature-weather
+noun-mug,mug,noun,A2,5-10k,a2-nature-weather,5-10k; noun; a2-nature-weather
+noun-paddenstoel,paddenstoel,noun,A2,5-10k,a2-nature-weather,5-10k; noun; a2-nature-weather
+noun-slak,slak,noun,A2,5-10k,a2-nature-weather,5-10k; noun; a2-nature-weather
+noun-walvis,walvis,noun,A2,5-10k,a2-nature-weather,5-10k; noun; a2-nature-weather
+noun-rook,rook,noun,A2,5-10k,a2-nature-weather,5-10k; noun; a2-nature-weather
+noun-uil,uil,noun,A2,5-10k,a2-nature-weather,5-10k; noun; a2-nature-weather
+noun-regenboog,regenboog,noun,A2,5-10k,a2-nature-weather,5-10k; noun; a2-nature-weather
+noun-paraplu,paraplu,noun,A2,5-10k,a2-nature-weather,5-10k; noun; a2-nature-weather
+adj-alleen,alleen,adj,A2,0-1k,a2-feelings,0-1k; adjective; a2-feelings
+adj-lief,lief,adj,A2,0-1k,a2-feelings,0-1k; adjective; a2-feelings
+verb-voelen,voelen,verb,A2,0-1k,a2-feelings,0-1k; verb; a2-feelings
+verb-hopen,hopen,verb,A2,0-1k,a2-feelings,0-1k; verb; a2-feelings
+verb-missen,missen,verb,A2,1-2k,a2-feelings,1-2k; verb; a2-feelings
+noun-liefde,liefde,noun,A2,1-2k,a2-feelings,1-2k; noun; a2-feelings
+noun-angst,angst,noun,A2,1-2k,a2-feelings,1-2k; noun; a2-feelings
+verb-lachen,lachen,verb,A2,1-2k,a2-feelings,1-2k; verb; a2-feelings
+adj-trots,trots,adj,A2,1-2k,a2-feelings,1-2k; adjective; a2-feelings
+noun-geluk,geluk,noun,A2,2-3k,a2-feelings,2-3k; noun; a2-feelings
+adj-gevoelig,gevoelig,adj,A2,2-3k,a2-feelings,2-3k; adjective; a2-feelings
+noun-plezier,plezier,noun,A2,2-3k,a2-feelings,2-3k; noun; a2-feelings
+adj-gezellig,gezellig,adj,A2,2-3k,a2-feelings,2-3k; adjective; a2-feelings
+adj-vrolijk,vrolijk,adj,A2,2-3k,a2-feelings,2-3k; adjective; a2-feelings
+noun-droom,droom,noun,A2,2-3k,a2-feelings,2-3k; noun; a2-feelings
+noun-vriendschap,vriendschap,noun,A2,3-5k,a2-feelings,3-5k; noun; a2-feelings
+verb-huilen,huilen,verb,A2,3-5k,a2-feelings,3-5k; verb; a2-feelings
+adj-spannend,spannend,adj,A2,3-5k,a2-feelings,3-5k; adjective; a2-feelings
+adj-verliefd,verliefd,adj,A2,3-5k,a2-feelings,3-5k; adjective; a2-feelings
+adj-eenzaam,eenzaam,adj,A2,3-5k,a2-feelings,3-5k; adjective; a2-feelings
+verb-vervelen,vervelen,verb,A2,3-5k,a2-feelings,3-5k; verb; a2-feelings
+noun-verdriet,verdriet,noun,A2,3-5k,a2-feelings,3-5k; noun; a2-feelings
+adj-bezorgd,bezorgd,adj,A2,3-5k,a2-feelings,3-5k; adjective; a2-feelings
+adj-ongelukkig,ongelukkig,adj,A2,3-5k,a2-feelings,3-5k; adjective; a2-feelings
+adj-dankbaar,dankbaar,adj,A2,3-5k,a2-feelings,3-5k; adjective; a2-feelings
+adj-saai,saai,adj,A2,3-5k,a2-feelings,3-5k; adjective; a2-feelings
+noun-pech,pech,noun,A2,3-5k,a2-feelings,3-5k; noun; a2-feelings
+adj-jaloers,jaloers,adj,A2,3-5k,a2-feelings,3-5k; adjective; a2-feelings
+verb-ontspannen,ontspannen,verb,A2,5-10k,a2-feelings,5-10k; verb; a2-feelings
+adj-verdrietig,verdrietig,adj,A2,5-10k,a2-feelings,5-10k; adjective; a2-feelings
+adj-verbaasd,verbaasd,adj,A2,5-10k,a2-feelings,5-10k; adjective; a2-feelings
+noun-kus,kus,noun,A2,5-10k,a2-feelings,5-10k; noun; a2-feelings
+adj-nieuwsgierig,nieuwsgierig,adj,A2,5-10k,a2-feelings,5-10k; adjective; a2-feelings
+noun-lach,lach,noun,A2,5-10k,a2-feelings,5-10k; noun; a2-feelings
+adj-nerveus,nerveus,adj,A2,5-10k,a2-feelings,5-10k; adjective; a2-feelings
+verb-zuchten,zuchten,verb,A2,5-10k,a2-feelings,5-10k; verb; a2-feelings
+adj-echt,echt,adj,A2,0-1k,a2-describing,0-1k; adjective; a2-describing
+adj-waar,waar,adj,A2,0-1k,a2-describing,0-1k; adjective; a2-describing
+adj-mogelijk,mogelijk,adj,A2,0-1k,a2-describing,0-1k; adjective; a2-describing
+adj-verschillend,verschillend,adj,A2,0-1k,a2-describing,0-1k; adjective; a2-describing
+adj-nodig,nodig,adj,A2,0-1k,a2-describing,0-1k; adjective; a2-describing
+adj-belangrijk,belangrijk,adj,A2,0-1k,a2-describing,0-1k; adjective; a2-describing
+adj-zeker,zeker,adj,A2,0-1k,a2-describing,0-1k; adjective; a2-describing
+adj-eigen,eigen,adj,A2,0-1k,a2-describing,0-1k; adjective; a2-describing
+adj-duidelijk,duidelijk,adj,A2,0-1k,a2-describing,0-1k; adjective; a2-describing
+adj-erg,erg,adj,A2,0-1k,a2-describing,0-1k; adjective; a2-describing
+adj-natuurlijk,natuurlijk,adj,A2,0-1k,a2-describing,0-1k; adjective; a2-describing
+adj-bekend,bekend,adj,A2,0-1k,a2-describing,0-1k; adjective; a2-describing
+adj-juist,juist,adj,A2,0-1k,a2-describing,0-1k; adjective; a2-describing
+adj-zwaar,zwaar,adj,A2,0-1k,a2-describing,0-1k; adjective; a2-describing
+adj-vol,vol,adj,A2,0-1k,a2-describing,0-1k; adjective; a2-describing
+adj-bijzonder,bijzonder,adj,A2,0-1k,a2-describing,0-1k; adjective; a2-describing
+adj-vrij,vrij,adj,A2,0-1k,a2-describing,0-1k; adjective; a2-describing
+adj-sterk,sterk,adj,A2,0-1k,a2-describing,0-1k; adjective; a2-describing
+adj-open,open,adj,A2,0-1k,a2-describing,0-1k; adjective; a2-describing
+adj-druk,druk,adj,A2,0-1k,a2-describing,0-1k; adjective; a2-describing
+adj-veilig,veilig,adj,A2,0-1k,a2-describing,0-1k; adjective; a2-describing
+adj-klaar,klaar,adj,A2,0-1k,a2-describing,0-1k; adjective; a2-describing
+adj-hard,hard,adj,A2,0-1k,a2-describing,0-1k; adjective; a2-describing
+adj-stil,stil,adj,A2,0-1k,a2-describing,0-1k; adjective; a2-describing
+adj-leeg,leeg,adj,A2,0-1k,a2-describing,0-1k; adjective; a2-describing
+adj-dicht,dicht,adj,A2,0-1k,a2-describing,0-1k; adjective; a2-describing
+adj-donker,donker,adj,A2,0-1k,a2-describing,0-1k; adjective; a2-describing
+adj-gevaarlijk,gevaarlijk,adj,A2,1-2k,a2-describing,1-2k; adjective; a2-describing
+adj-rustig,rustig,adj,A2,1-2k,a2-describing,1-2k; adjective; a2-describing
+adj-fijn,fijn,adj,A2,1-2k,a2-describing,1-2k; adjective; a2-describing
+adj-interessant,interessant,adj,A2,1-2k,a2-describing,1-2k; adjective; a2-describing
+adj-eerlijk,eerlijk,adj,A2,1-2k,a2-describing,1-2k; adjective; a2-describing
+adj-vreemd,vreemd,adj,A2,1-2k,a2-describing,1-2k; adjective; a2-describing
+adj-geweldig,geweldig,adj,A2,1-2k,a2-describing,1-2k; adjective; a2-describing
+adj-handig,handig,adj,A2,1-2k,a2-describing,1-2k; adjective; a2-describing
+adj-kapot,kapot,adj,A2,1-2k,a2-describing,1-2k; adjective; a2-describing
+adj-verkeerd,verkeerd,adj,A2,1-2k,a2-describing,1-2k; adjective; a2-describing
+adj-aardig,aardig,adj,A2,1-2k,a2-describing,1-2k; adjective; a2-describing
+adj-zacht,zacht,adj,A2,1-2k,a2-describing,1-2k; adjective; a2-describing
+adj-grappig,grappig,adj,A2,2-3k,a2-describing,2-3k; adjective; a2-describing
+adj-droog,droog,adj,A2,2-3k,a2-describing,2-3k; adjective; a2-describing
+adj-dun,dun,adj,A2,3-5k,a2-describing,3-5k; adjective; a2-describing
+adj-vies,vies,adj,A2,3-5k,a2-describing,3-5k; adjective; a2-describing
+adj-ingewikkeld,ingewikkeld,adj,A2,3-5k,a2-describing,3-5k; adjective; a2-describing
+adj-lelijk,lelijk,adj,A2,3-5k,a2-describing,3-5k; adjective; a2-describing
+noun-probleem,probleem,noun,A2,0-1k,a2-communication,0-1k; noun; a2-communication
+verb-vertellen,vertellen,verb,A2,0-1k,a2-communication,0-1k; verb; a2-communication
+verb-beschrijven,beschrijven,verb,A2,0-1k,a2-communication,0-1k; verb; a2-communication
+verb-betekenen,betekenen,verb,A2,0-1k,a2-communication,0-1k; verb; a2-communication
+noun-idee,idee,noun,A2,0-1k,a2-communication,0-1k; noun; a2-communication
+verb-ontvangen,ontvangen,verb,A2,0-1k,a2-communication,0-1k; verb; a2-communication
+verb-sturen,sturen,verb,A2,0-1k,a2-communication,0-1k; verb; a2-communication
+noun-informatie,informatie,noun,A2,0-1k,a2-communication,0-1k; noun; a2-communication
+noun-verhaal,verhaal,noun,A2,0-1k,a2-communication,0-1k; noun; a2-communication
+noun-reden,reden,noun,A2,0-1k,a2-communication,0-1k; noun; a2-communication
+noun-reactie,reactie,noun,A2,0-1k,a2-communication,0-1k; noun; a2-communication
+verb-reageren,reageren,verb,A2,0-1k,a2-communication,0-1k; verb; a2-communication
+noun-stem,stem,noun,A2,0-1k,a2-communication,0-1k; noun; a2-communication
+noun-gesprek,gesprek,noun,A2,0-1k,a2-communication,0-1k; noun; a2-communication
+noun-krant,krant,noun,A2,0-1k,a2-communication,0-1k; noun; a2-communication
+noun-website,website,noun,A2,0-1k,a2-communication,0-1k; noun; a2-communication
+noun-advies,advies,noun,A2,0-1k,a2-communication,0-1k; noun; a2-communication
+noun-discussie,discussie,noun,A2,0-1k,a2-communication,0-1k; noun; a2-communication
+noun-zin,zin,noun,A2,1-2k,a2-communication,1-2k; noun; a2-communication
+noun-brief,brief,noun,A2,1-2k,a2-communication,1-2k; noun; a2-communication
+verb-uitspreken,uitspreken,verb,A2,1-2k,a2-communication,1-2k; verb; a2-communication
+verb-beloven,beloven,verb,A2,1-2k,a2-communication,1-2k; verb; a2-communication
+noun-bericht,bericht,noun,A2,1-2k,a2-communication,1-2k; noun; a2-communication
+verb-vertalen,vertalen,verb,A2,1-2k,a2-communication,1-2k; verb; a2-communication
+noun-waarheid,waarheid,noun,A2,1-2k,a2-communication,1-2k; noun; a2-communication
+verb-voorstellen,voorstellen,verb,A2,1-2k,a2-communication,1-2k; verb; a2-communication
+verb-bespreken,bespreken,verb,A2,1-2k,a2-communication,1-2k; verb; a2-communication
+verb-afspreken,afspreken,verb,A2,1-2k,a2-communication,1-2k; verb; a2-communication
+noun-afspraak,afspraak,noun,A2,1-2k,a2-communication,1-2k; noun; a2-communication
+noun-afscheid,afscheid,noun,A2,1-2k,a2-communication,1-2k; noun; a2-communication
+verb-klagen,klagen,verb,A2,1-2k,a2-communication,1-2k; verb; a2-communication
+adj-welkom,welkom,adj,A2,1-2k,a2-communication,1-2k; adjective; a2-communication
+noun-internet,internet,noun,A2,2-3k,a2-communication,2-3k; noun; a2-communication
+verb-bedanken,bedanken,verb,A2,2-3k,a2-communication,2-3k; verb; a2-communication
+verb-uitnodigen,uitnodigen,verb,A2,2-3k,a2-communication,2-3k; verb; a2-communication
+verb-liegen,liegen,verb,A2,2-3k,a2-communication,2-3k; verb; a2-communication
+verb-informeren,informeren,verb,A2,2-3k,a2-communication,2-3k; verb; a2-communication
+noun-leugen,leugen,noun,A2,2-3k,a2-communication,2-3k; noun; a2-communication
+verb-uitleggen,uitleggen,verb,A2,2-3k,a2-communication,2-3k; verb; a2-communication
+noun-ruzie,ruzie,noun,A2,2-3k,a2-communication,2-3k; noun; a2-communication
+verb-schreeuwen,schreeuwen,verb,A2,3-5k,a2-communication,3-5k; verb; a2-communication
+noun-uitnodiging,uitnodiging,noun,A2,3-5k,a2-communication,3-5k; noun; a2-communication
+verb-mailen,mailen,verb,A2,3-5k,a2-communication,3-5k; verb; a2-communication
+verb-feliciteren,feliciteren,verb,A2,5-10k,a2-communication,5-10k; verb; a2-communication
+noun-envelop,envelop,noun,A2,5-10k,a2-communication,5-10k; noun; a2-communication
+verb-groeten,groeten,verb,A2,5-10k,a2-communication,5-10k; verb; a2-communication
+verb-chatten,chatten,verb,A2,5-10k,a2-communication,5-10k; verb; a2-communication
+noun-moedertaal,moedertaal,noun,A2,5-10k,a2-communication,5-10k; noun; a2-communication
+verb-worden,worden,verb,A2,0-1k,a2-daily-verbs,0-1k; verb; a2-daily-verbs
+verb-blijven,blijven,verb,A2,0-1k,a2-daily-verbs,0-1k; verb; a2-daily-verbs
+verb-houden,houden,verb,A2,0-1k,a2-daily-verbs,0-1k; verb; a2-daily-verbs
+verb-laten,laten,verb,A2,0-1k,a2-daily-verbs,0-1k; verb; a2-daily-verbs
+verb-tellen,tellen,verb,A2,0-1k,a2-daily-verbs,0-1k; verb; a2-daily-verbs
+verb-gebruiken,gebruiken,verb,A2,0-1k,a2-daily-verbs,0-1k; verb; a2-daily-verbs
+verb-vallen,vallen,verb,A2,0-1k,a2-daily-verbs,0-1k; verb; a2-daily-verbs
+verb-volgen,volgen,verb,A2,0-1k,a2-daily-verbs,0-1k; verb; a2-daily-verbs
+verb-delen,delen,verb,A2,0-1k,a2-daily-verbs,0-1k; verb; a2-daily-verbs
+verb-lijken,lijken,verb,A2,0-1k,a2-daily-verbs,0-1k; verb; a2-daily-verbs
+verb-halen,halen,verb,A2,0-1k,a2-daily-verbs,0-1k; verb; a2-daily-verbs
+verb-zorgen,zorgen,verb,A2,0-1k,a2-daily-verbs,0-1k; verb; a2-daily-verbs
+verb-gebeuren,gebeuren,verb,A2,0-1k,a2-daily-verbs,0-1k; verb; a2-daily-verbs
+verb-verliezen,verliezen,verb,A2,0-1k,a2-daily-verbs,0-1k; verb; a2-daily-verbs
+verb-proberen,proberen,verb,A2,0-1k,a2-daily-verbs,0-1k; verb; a2-daily-verbs
+verb-zetten,zetten,verb,A2,0-1k,a2-daily-verbs,0-1k; verb; a2-daily-verbs
+verb-verschijnen,verschijnen,verb,A2,0-1k,a2-daily-verbs,0-1k; verb; a2-daily-verbs
+verb-kiezen,kiezen,verb,A2,0-1k,a2-daily-verbs,0-1k; verb; a2-daily-verbs
+verb-besluiten,besluiten,verb,A2,0-1k,a2-daily-verbs,0-1k; verb; a2-daily-verbs
+verb-veranderen,veranderen,verb,A2,0-1k,a2-daily-verbs,0-1k; verb; a2-daily-verbs
+verb-trekken,trekken,verb,A2,0-1k,a2-daily-verbs,0-1k; verb; a2-daily-verbs
+verb-slaan,slaan,verb,A2,0-1k,a2-daily-verbs,0-1k; verb; a2-daily-verbs
+verb-verdwijnen,verdwijnen,verb,A2,0-1k,a2-daily-verbs,0-1k; verb; a2-daily-verbs
+verb-stoppen,stoppen,verb,A2,0-1k,a2-daily-verbs,0-1k; verb; a2-daily-verbs
+verb-bezoeken,bezoeken,verb,A2,0-1k,a2-daily-verbs,0-1k; verb; a2-daily-verbs
+verb-gooien,gooien,verb,A2,0-1k,a2-daily-verbs,0-1k; verb; a2-daily-verbs
+verb-herstellen,herstellen,verb,A2,0-1k,a2-daily-verbs,0-1k; verb; a2-daily-verbs
+verb-pakken,pakken,verb,A2,0-1k,a2-daily-verbs,0-1k; verb; a2-daily-verbs
+verb-lukken,lukken,verb,A2,0-1k,a2-daily-verbs,0-1k; verb; a2-daily-verbs
+verb-vergeten,vergeten,verb,A2,0-1k,a2-daily-verbs,0-1k; verb; a2-daily-verbs
+verb-regelen,regelen,verb,A2,1-2k,a2-daily-verbs,1-2k; verb; a2-daily-verbs
+verb-controleren,controleren,verb,A2,1-2k,a2-daily-verbs,1-2k; verb; a2-daily-verbs
+verb-herinneren,herinneren,verb,A2,1-2k,a2-daily-verbs,1-2k; verb; a2-daily-verbs
+verb-meenemen,meenemen,verb,A2,1-2k,a2-daily-verbs,1-2k; verb; a2-daily-verbs
+verb-verbergen,verbergen,verb,A2,2-3k,a2-daily-verbs,2-3k; verb; a2-daily-verbs
+verb-storen,storen,verb,A2,2-3k,a2-daily-verbs,2-3k; verb; a2-daily-verbs
+verb-wennen,wennen,verb,A2,2-3k,a2-daily-verbs,2-3k; verb; a2-daily-verbs
+verb-rennen,rennen,verb,A2,2-3k,a2-daily-verbs,2-3k; verb; a2-daily-verbs
+verb-terugkomen,terugkomen,verb,A2,3-5k,a2-daily-verbs,3-5k; verb; a2-daily-verbs
+verb-likken,likken,verb,A2,5-10k,a2-daily-verbs,5-10k; verb; a2-daily-verbs
+verb-opstaan,opstaan,verb,A2,5-10k,a2-daily-verbs,5-10k; verb; a2-daily-verbs
+verb-wegleggen,wegleggen,verb,A2,5-10k,a2-daily-verbs,5-10k; verb; a2-daily-verbs
+verb-omdraaien,omdraaien,verb,A2,5-10k,a2-daily-verbs,5-10k; verb; a2-daily-verbs
+verb-teruggeven,teruggeven,verb,A2,5-10k,a2-daily-verbs,5-10k; verb; a2-daily-verbs
+verb-knijpen,knijpen,verb,A2,5-10k,a2-daily-verbs,5-10k; verb; a2-daily-verbs
+verb-wrijven,wrijven,verb,A2,5-10k,a2-daily-verbs,5-10k; verb; a2-daily-verbs
+verb-teruggaan,teruggaan,verb,A2,5-10k,a2-daily-verbs,5-10k; verb; a2-daily-verbs
+verb-thuiskomen,thuiskomen,verb,A2,5-10k,a2-daily-verbs,5-10k; verb; a2-daily-verbs
