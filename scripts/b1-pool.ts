@@ -8,6 +8,10 @@ export const B2_BAND = { min: 10000, max: 20000 } as const;
 export const A1A2_BAND = { min: 1, max: 5000 } as const;
 /** E2: A1 extras stop at lemma rank 3,000. */
 export const A1_MAX_RANK = 3000;
+/** Criterion K2 (amended 2026-10-28): the core pool band is lemma rank 1-10,000. */
+export const CORE_BAND = { min: 1, max: 10000 } as const;
+/** K2 (amended 2026-10-28): core A1 words stop at lemma rank 5,000. */
+export const CORE_A1_MAX_RANK = 5000;
 /** Criterion E7 (amended 2026-10-23): the A1 closed set of cardinal numbers. */
 export const CARDINALS = ['nul', 'een', 'twee', 'drie', 'vier', 'vijf', 'zes', 'zeven', 'acht', 'negen', 'tien', 'elf', 'twaalf', 'dertien', 'veertien', 'vijftien', 'zestien', 'zeventien', 'achttien', 'negentien', 'twintig', 'dertig', 'veertig', 'vijftig', 'zestig', 'zeventig', 'tachtig', 'negentig', 'honderd', 'duizend', 'miljoen', 'miljard'] as const;
 
@@ -410,13 +414,16 @@ export function takenLemmas(
 
 /** A1 words first, then A2; one lemma may not appear twice across both lists. */
 export function selectLevels(pool: PoolRow[], sel: { A1: string[]; A2: string[] }, stageName: 'a1a2' | 'core'): Word[] {
+  const a1Max = stageName === 'core' ? CORE_A1_MAX_RANK : A1_MAX_RANK;
   for (const key of ['A1', 'A2'] as const) {
     if (!Array.isArray(sel[key])) throw new Error(`data/${stageName}/selection.json needs an "${key}" list of ids`);
   }
   const byId = new Map(pool.map((r) => [r.id, r]));
   for (const id of sel.A1) {
     const row = byId.get(id);
-    if (row && row.rank > A1_MAX_RANK) throw new Error(`A1 word outside lemma rank 1-3,000: ${id} (rank ${row.rank})`);
+    if (row && row.rank > a1Max) {
+      throw new Error(`A1 word outside lemma rank 1-${a1Max.toLocaleString('en-US')}: ${id} (rank ${row.rank})`);
+    }
   }
   const lemmas = new Set<string>();
   return [...selectWords(pool, sel.A1, 'A1', stageName, lemmas), ...selectWords(pool, sel.A2, 'A2', stageName, lemmas)];

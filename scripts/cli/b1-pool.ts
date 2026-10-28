@@ -8,6 +8,7 @@ import { pipeline } from 'node:stream/promises';
 
 import {
   A1A2_BAND,
+  CORE_BAND,
   A1A2_RULES,
   addCardinals,
   B1_BAND,
@@ -145,7 +146,7 @@ async function build() {
             ].map((w) => w.lemma_nl),
           ),
         )
-      : buildPool(ranks, index, openTaal, live, a1a2 ? A1A2_BAND : B1_BAND, a1a2 ? A1A2_RULES : B1_RULES);
+      : buildPool(ranks, index, openTaal, live, core ? CORE_BAND : a1a2 ? A1A2_BAND : B1_BAND, a1a2 ? A1A2_RULES : B1_RULES);
   writeFileSync(poolFile(), JSON.stringify(pool, null, 2) + '\n');
 
   const stats = poolCounts(pool, a1a2 ? rankBandA1A2 : rankBand);
