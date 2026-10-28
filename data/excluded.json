@@ -2782,5 +2782,373 @@
   {
     "id": "noun-blijde",
     "reason": "inflected adjective form (blij)"
+  },
+  {
+    "id": "adj-eerste",
+    "reason": "ordinal number"
+  },
+  {
+    "id": "noun-doen",
+    "reason": "verb tagged as a noun"
+  },
+  {
+    "id": "adj-tweede",
+    "reason": "ordinal number"
+  },
+  {
+    "id": "adj-stads",
+    "reason": "inflected form (stad)"
+  },
+  {
+    "id": "adj-derde",
+    "reason": "ordinal number"
+  },
+  {
+    "id": "noun-derde",
+    "reason": "ordinal number"
+  },
+  {
+    "id": "adj-nederlands",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-europees",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "verb-bedrijven",
+    "reason": "inflected form (bedrijf)"
+  },
+  {
+    "id": "adj-amerikaans",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-frans",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-duits",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "noun-nederlander",
+    "reason": "demonym"
+  },
+  {
+    "id": "adj-vijfde",
+    "reason": "ordinal number"
+  },
+  {
+    "id": "adj-twintigste",
+    "reason": "ordinal number"
+  },
+  {
+    "id": "adj-negentiende",
+    "reason": "ordinal number"
+  },
+  {
+    "id": "adj-vierde",
+    "reason": "ordinal number"
+  },
+  {
+    "id": "noun-vierde",
+    "reason": "ordinal number"
+  },
+  {
+    "id": "adj-russisch",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-brits",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-chinees",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-parijs",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-vlaams",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "noun-duitser",
+    "reason": "demonym"
+  },
+  {
+    "id": "adj-engels",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-zesde",
+    "reason": "ordinal number"
+  },
+  {
+    "id": "noun-amerikaan",
+    "reason": "demonym"
+  },
+  {
+    "id": "adj-spaans",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-italiaans",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "noun-zweed",
+    "reason": "demonym"
+  },
+  {
+    "id": "noun-brit",
+    "reason": "demonym"
+  },
+  {
+    "id": "adj-achttiende",
+    "reason": "ordinal number"
+  },
+  {
+    "id": "adj-zeventiende",
+    "reason": "ordinal number"
+  },
+  {
+    "id": "adj-zevende",
+    "reason": "ordinal number"
+  },
+  {
+    "id": "adj-achtste",
+    "reason": "ordinal number"
+  },
+  {
+    "id": "adj-zestiende",
+    "reason": "ordinal number"
+  },
+  {
+    "id": "adj-japans",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-amsterdammer",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-surinaams",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-grieks",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-arabisch",
+    "reason": "adjective from a people name"
+  },
+  {
+    "id": "adj-turks",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-afrikaans",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-dertiende",
+    "reason": "ordinal number"
+  },
+  {
+    "id": "adj-vijftiende",
+    "reason": "ordinal number"
+  },
+  {
+    "id": "adj-tiende",
+    "reason": "ordinal number"
+  },
+  {
+    "id": "noun-tiende",
+    "reason": "ordinal number"
+  },
+  {
+    "id": "adj-veertiende",
+    "reason": "ordinal number"
+  },
+  {
+    "id": "adj-twaalfde",
+    "reason": "ordinal number"
+  },
+  {
+    "id": "adj-negende",
+    "reason": "ordinal number"
+  },
+  {
+    "id": "adj-elfde",
+    "reason": "ordinal number"
+  },
+  {
+    "id": "noun-fransman",
+    "reason": "demonym"
+  },
+  {
+    "id": "noun-belg",
+    "reason": "demonym"
+  },
+  {
+    "id": "noun-rus",
+    "reason": "demonym"
+  },
+  {
+    "id": "adj-amsterdams",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "noun-italiaan",
+    "reason": "demonym"
+  },
+  {
+    "id": "noun-spanjaard",
+    "reason": "demonym"
+  },
+  {
+    "id": "noun-marokkaan",
+    "reason": "demonym"
+  },
+  {
+    "id": "noun-turk",
+    "reason": "demonym"
+  },
+  {
+    "id": "adj-zweeds",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-leids",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-portugees",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-fries",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "noun-engelsman",
+    "reason": "demonym"
+  },
+  {
+    "id": "adj-canadees",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "noun-canadees",
+    "reason": "demonym"
+  },
+  {
+    "id": "adj-pools",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-deens",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-hollander",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "noun-hollander",
+    "reason": "demonym"
+  },
+  {
+    "id": "noun-griek",
+    "reason": "demonym"
+  },
+  {
+    "id": "noun-romein",
+    "reason": "people name"
+  },
+  {
+    "id": "noun-surinamer",
+    "reason": "demonym"
+  },
+  {
+    "id": "noun-japanner",
+    "reason": "demonym"
+  },
+  {
+    "id": "noun-europeaan",
+    "reason": "demonym"
+  },
+  {
+    "id": "adj-australisch",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-zwitsers",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-brussels",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-oostenrijks",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-haags",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-hollands",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-hongaars",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-rotterdams",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-noors",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-limburgs",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-marokkaans",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-aziatisch",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "noun-lul",
+    "reason": "vulgar"
+  },
+  {
+    "id": "adj-iraans",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-gelders",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "adj-zeeuws",
+    "reason": "adjective from a place name"
+  },
+  {
+    "id": "verb-zeiken",
+    "reason": "vulgar"
   }
 ]
