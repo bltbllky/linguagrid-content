@@ -569,7 +569,7 @@ describe('core pool profile (ADR-022)', () => {
       { id: 'noun-huis', lemma_nl: 'huis', pos: 'noun', cefr: 'A1', source: 'own' },
       { id: 'verb-lopen', lemma_nl: 'lopen', pos: 'verb', cefr: 'A2', source: 'own' },
     ]);
-    assert.throws(() => selectCore(pool, { A1: ['verb-lopen'] } as never), /A1 word outside lemma rank 1-3,000/);
+    assert.throws(() => selectCore(pool, { A1: ['verb-lopen'], A2: [] }), /A1 word outside lemma rank 1-3,000/);
     assert.throws(() => selectCore(pool, { A1: ['noun-huis'] } as never), /data\/core\/selection.json needs an "A2" list/);
     assert.throws(() => selectLevels(pool, { A1: [] } as never, 'a1a2'), /data\/a1a2\/selection.json needs an "A2" list/);
   });
