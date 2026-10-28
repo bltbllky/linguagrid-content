@@ -28,7 +28,7 @@ export interface Stage {
 }
 
 export function loadStage(name: string = 'b1', root = ROOT): Stage {
-  if (!Object.hasOwn(STAGES, name)) throw new Error(`Unknown stage "${name}"; staged: b1, a1a2, b2, core`);
+  if (!Object.hasOwn(STAGES, name)) throw new Error(`Unknown stage "${name}"; staged: b1, a1a2, b2`);
   const dir = join(root, 'data', name);
   const read = (file: string) => JSON.parse(readFileSync(join(dir, file), 'utf8'));
   const readIfPresent = <T>(file: string): T | undefined => (existsSync(join(dir, file)) ? read(file) : undefined);
