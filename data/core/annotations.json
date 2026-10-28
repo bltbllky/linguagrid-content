@@ -4979,5 +4979,725 @@
     "article": null,
     "category_id": "a1-time",
     "reviewed": false
+  },
+  {
+    "word_id": "noun-inwoner",
+    "article": "de",
+    "category_id": "a1-people",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-persoonlijk",
+    "article": null,
+    "category_id": "a1-people",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-dame",
+    "article": "de",
+    "category_id": "a1-people",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-jeugd",
+    "article": "de",
+    "category_id": "a1-people",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-buur",
+    "article": "de",
+    "category_id": "a1-people",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-mama",
+    "article": "de",
+    "category_id": "a1-people",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-bereiden",
+    "article": null,
+    "category_id": "a1-food",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-periode",
+    "article": "de",
+    "category_id": "a1-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-voorjaar",
+    "article": "het",
+    "category_id": "a1-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-behandeling",
+    "article": "de",
+    "category_id": "a1-body-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-rust",
+    "article": "de",
+    "category_id": "a1-body-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-makkelijk",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-mondmasker",
+    "article": "het",
+    "category_id": "a1-clothes",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-kist",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bak",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-haard",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-kachel",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-kopje",
+    "article": "het",
+    "category_id": "a2-food",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-champagne",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-biet",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-room",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-witlof",
+    "article": "het",
+    "category_id": "a2-food",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-sap",
+    "article": "het",
+    "category_id": "a2-food",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-mossel",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-schotel",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-garnaal",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-baard",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-kaak",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-braken",
+    "article": null,
+    "category_id": "a2-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-voorhoofd",
+    "article": "het",
+    "category_id": "a2-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-spugen",
+    "article": null,
+    "category_id": "a2-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-pink",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-kin",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-verpleger",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-hiel",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-ademhaling",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-wenkbrauw",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-lever",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-onderarm",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-punt",
+    "article": "het",
+    "category_id": "a2-work-study",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-test",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-baan",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-ondernemer",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-onderwijs",
+    "article": "het",
+    "category_id": "a2-work-study",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-pensioen",
+    "article": "het",
+    "category_id": "a2-work-study",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-inkomen",
+    "article": "het",
+    "category_id": "a2-work-study",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-vrijwilliger",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-map",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-printen",
+    "article": null,
+    "category_id": "a2-work-study",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-schoolplein",
+    "article": "het",
+    "category_id": "a2-work-study",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-dienst",
+    "article": "de",
+    "category_id": "a2-services",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-agent",
+    "article": "de",
+    "category_id": "a2-services",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-advocaat",
+    "article": "de",
+    "category_id": "a2-services",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-ambtenaar",
+    "article": "de",
+    "category_id": "a2-services",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-uitkering",
+    "article": "de",
+    "category_id": "a2-services",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-postkantoor",
+    "article": "het",
+    "category_id": "a2-services",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-bereiken",
+    "article": null,
+    "category_id": "a2-city-transport",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-verlaten",
+    "article": null,
+    "category_id": "a2-city-transport",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-luchthaven",
+    "article": "de",
+    "category_id": "a2-city-transport",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-hoofdstraat",
+    "article": "de",
+    "category_id": "a2-city-transport",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-procent",
+    "article": "het",
+    "category_id": "a2-shopping",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-leveren",
+    "article": null,
+    "category_id": "a2-shopping",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-keuze",
+    "article": "de",
+    "category_id": "a2-shopping",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-reclame",
+    "article": "de",
+    "category_id": "a2-shopping",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-warenhuis",
+    "article": "het",
+    "category_id": "a2-shopping",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-kostuum",
+    "article": "het",
+    "category_id": "a2-clothes",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-schort",
+    "article": "het",
+    "category_id": "a2-clothes",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-onderbroek",
+    "article": "de",
+    "category_id": "a2-clothes",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-sok",
+    "article": "de",
+    "category_id": "a2-clothes",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-wol",
+    "article": "de",
+    "category_id": "a2-clothes",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-hemd",
+    "article": "het",
+    "category_id": "a2-clothes",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-kraag",
+    "article": "de",
+    "category_id": "a2-clothes",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-armband",
+    "article": "de",
+    "category_id": "a2-clothes",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-papa",
+    "article": "de",
+    "category_id": "a2-people",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-geliefde",
+    "article": "de",
+    "category_id": "a2-people",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-huisvrouw",
+    "article": "de",
+    "category_id": "a2-people",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-vissen",
+    "article": null,
+    "category_id": "a2-free-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-schaken",
+    "article": null,
+    "category_id": "a2-free-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-tekenfilm",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-knutselen",
+    "article": null,
+    "category_id": "a2-free-time",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-planten",
+    "article": null,
+    "category_id": "a2-nature-weather",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-poes",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-vos",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-haas",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-zwaan",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-haai",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-gans",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-dolfijn",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-ezel",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-mug",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-paddenstoel",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-slak",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-walvis",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-rook",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-uil",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-regenboog",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-alleen",
+    "article": null,
+    "category_id": "a2-feelings",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-gevoelig",
+    "article": null,
+    "category_id": "a2-feelings",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-lach",
+    "article": "de",
+    "category_id": "a2-feelings",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-zuchten",
+    "article": null,
+    "category_id": "a2-feelings",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-natuurlijk",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-juist",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-rustig",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-reactie",
+    "article": "de",
+    "category_id": "a2-communication",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-discussie",
+    "article": "de",
+    "category_id": "a2-communication",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-waarheid",
+    "article": "de",
+    "category_id": "a2-communication",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-chatten",
+    "article": null,
+    "category_id": "a2-communication",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-verschijnen",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-besluiten",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-slaan",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-verdwijnen",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-herstellen",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-verbergen",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-likken",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-wegleggen",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-omdraaien",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-teruggeven",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-knijpen",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-wrijven",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-teruggaan",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": false
   }
 ]
