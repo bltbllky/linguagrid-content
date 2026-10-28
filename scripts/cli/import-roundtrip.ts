@@ -12,7 +12,7 @@ const langAt = args.indexOf('--lang');
 const lang = langAt >= 0 ? args.splice(langAt, 2)[1] : 'tr';
 const stage = takeStage(args);
 const file = args[0];
-if (!file) throw new Error('Usage: npm run import-roundtrip -- [--lang en] [--stage b1|a1a2|b2] review/roundtrip/result.csv');
+if (!file) throw new Error('Usage: npm run import-roundtrip -- [--lang en] [--stage b1|a1a2|b2|core] review/roundtrip/result.csv');
 if (stage && !stage.translations[lang]) throw new Error(`No staged ${lang} file: create data/${stage.name}/translations/${lang}.json first`);
 
 const { content, summary } = applyRoundtrip(

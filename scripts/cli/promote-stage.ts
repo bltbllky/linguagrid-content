@@ -13,8 +13,8 @@ const fail = (message: string): never => {
   return process.exit(1);
 };
 
-if (!name) fail('Usage: npm run promote-stage -- a1a2|b1');
-if (name !== 'a1a2' && name !== 'b1') fail('Only a1a2 and b1 are promoted here; B2 is released by its US-033 task');
+if (!name) fail('Usage: npm run promote-stage -- a1a2|b1|core');
+if (name !== 'a1a2' && name !== 'b1' && name !== 'core') fail('Only a1a2, b1 and core are promoted here; B2 is released by its US-033 task');
 const stage = loadStage(name);
 const live = loadContent();
 const others = (Object.keys(STAGES) as StageName[]).filter((n) => n !== stage.name).map((n) => loadStage(n));
@@ -47,4 +47,6 @@ for (const [path, value] of Object.entries(files)) {
   writeFileSync(join(root, path), JSON.stringify(value, null, 2) + '\n');
 }
 for (const path of remove) rmSync(join(root, path), { recursive: true, force: true });
-console.log(`Promoted ${stage.words.length} ${stage.name.toUpperCase()} words to data/words-own.json`);
+console.log(
+  `Promoted ${stage.words.length} ${stage.name.toUpperCase()} words to data/words-own.json` + (stage.name === 'core' ? '; data/words.json is empty' : ''),
+);

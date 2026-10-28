@@ -1,11 +1,13 @@
 import { createHash } from 'node:crypto';
 
-import { withLegacyTurkish } from './validate.ts';
+import { NT2LEX_RETIRED, withLegacyTurkish } from './validate.ts';
 import type { Content, Manifest } from './validate.ts';
 
 export interface ReleaseOptions {
   minimums: Partial<Record<string, number>>;
   allowPartial: boolean;
+  /** ADR-022: refuse any NT2Lex-derived word; defaults to `NT2LEX_RETIRED`. */
+  nt2lexRetired?: boolean;
 }
 
 export interface Release {
@@ -36,7 +38,9 @@ function shortfalls(words: Content['words'], minimums: ReleaseOptions['minimums'
  * Turkish and the other languages alike, but a language with no reviewed translation never ships.
  * The app downloads these files when the manifest's content_version is newer than its own.
  */
-export function buildRelease(content: Content, { minimums, allowPartial }: ReleaseOptions): Release {
+export function buildRelease(content: Content, { minimums, allowPartial, nt2lexRetired = NT2LEX_RETIRED }: ReleaseOptions): Release {
+  const nt2lex = content.words.filter((w) => w.source === 'nt2lex');
+  if (nt2lexRetired && nt2lex.length) throw new Error(`Release blocked — ${nt2lex.length} NT2Lex-derived words (US-023)`);
   const unreleased = content.words.filter((w) => !RELEASED_LEVELS.includes(w.cefr));
   if (unreleased.length) {
     const levels = [...new Set(unreleased.map((w) => w.cefr))].join('/');
