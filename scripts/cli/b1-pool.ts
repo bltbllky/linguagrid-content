@@ -30,8 +30,10 @@ import {
   rankBandA1A2,
   rankBandB2,
   selectA1A2,
+  selectCore,
   selectWords,
   sourceDrift,
+  takenLemmas,
   type PoolRow,
 } from '../b1-pool.ts';
 import type { Annotation, Word } from '../validate.ts';
@@ -92,18 +94,17 @@ function findWordsFile(name: string): string {
   throw new Error(`Missing ${name}-words.txt in .cache/b1; run --fetch`);
 }
 
-type Level = 'b1' | 'a1a2' | 'b2';
+type Level = 'b1' | 'a1a2' | 'b2' | 'core';
 let level: Level = 'b1';
 const poolFile = () => join(cache, level === 'b1' ? 'pool.json' : `pool-${level}.json`);
 const readIfThere = <T>(path: string): T[] => (existsSync(path) ? readJson<T[]>(path) : []);
 
-/** Live words plus every staged stage, so no level repeats a lemma of another (D3, E3). */
-function liveWords(): Word[] {
-  return [
-    ...readJson<Word[]>(join(root, 'data', 'words.json')),
-    ...readIfThere<Word>(join(root, 'data', 'words-own.json')),
-    ...['b1', 'a1a2', 'b2'].filter((stage) => stage !== level).flatMap((stage) => readIfThere<Word>(join(root, 'data', stage, 'words.json'))),
-  ];
+/** Lemmas of every other level, live or staged, so no level repeats one (D3, E3). The core pool never reads the launch words (ADR-022). */
+function liveWords(): Set<string> {
+  const stages: Record<string, Word[]> = {};
+  for (const stage of ['b1', 'a1a2', 'b2', 'core']) stages[stage] = readIfThere<Word>(join(root, 'data', stage, 'words.json'));
+  const launch = level === 'core' ? [] : readJson<Word[]>(join(root, 'data', 'words.json'));
+  return takenLemmas(level, { launch, own: readIfThere<Word>(join(root, 'data', 'words-own.json')), stages });
 }
 
 async function build() {
@@ -122,15 +123,14 @@ async function build() {
   const openTaal = new Set(
     readFileSync(join(cache, 'wordlist.txt'), 'utf8').split('\n').map((l) => l.trim().normalize('NFC').toLowerCase()),
   );
-  const words = readJson<Word[]>(join(root, 'data', 'words.json'));
   const excluded = readJson<{ id: string; reason: string }[]>(join(root, 'data', 'excluded.json'));
   const counts = lemmaCounts(forms, index);
   const ranks = lemmaRanks(counts);
-  const a1a2 = level === 'a1a2';
-  const added = a1a2 ? addCardinals(index, forms, counts, ranks) : [];
+  const core = level === 'core';
+  const a1a2 = level === 'a1a2' || core;
+  const added = level === 'a1a2' ? addCardinals(index, forms, counts, ranks) : [];
   // The extras and B2 must not repeat a lemma of any other level, live or staged (E3, D3).
-  const taken = liveWords();
-  const live = { lemmas: new Set(taken.map((w) => w.lemma_nl)), excludedIds: excludedIdsFor(level, excluded) };
+  const live = { lemmas: liveWords(), excludedIds: excludedIdsFor(level, excluded) };
   const pool =
     level === 'b2'
       ? buildB2Pool(
@@ -157,7 +157,7 @@ async function build() {
   console.log(
     `Pool: ${pool.length} rows, ${stats.lemmas} lemmas (${stats.twoPos} with two parts of speech) (${poolFile().replace(root + '/', '')})`,
   );
-  if (a1a2) console.log(`Cardinal numbers added as noun rows (E7): ${added.join(', ') || 'none'}`);
+  if (level === 'a1a2') console.log(`Cardinal numbers added as noun rows (E7): ${added.join(', ') || 'none'}`);
   console.log('Per part of speech:', stats.pos);
   console.log('Per rank band:', stats.band);
   if (level === 'b2') {
@@ -166,18 +166,21 @@ async function build() {
     const found = back.filter((e) => pool.some((r) => r.id === e.id)).map((e) => e.id);
     console.log(`B2 candidates from the exclusion list: ${found.length} (${found.join(', ') || 'none'})`);
   }
-  console.log('Calibration of our live words on the lemma rank (C2, information only):');
-  console.table(calibration(ranks, words));
+  if (!core) {
+    // The calibration reads the launch words; the blind core pool never does (ADR-022).
+    console.log('Calibration of our live words on the lemma rank (C2, information only):');
+    console.table(calibration(ranks, readJson<Word[]>(join(root, 'data', 'words.json'))));
+  }
 }
 
 function write() {
-  if (level === 'a1a2') {
+  if (level === 'a1a2' || level === 'core') {
     const pool = readJson<PoolRow[]>(poolFile());
-    const sel = readJson<{ A1: string[]; A2: string[] }>(join(root, 'data', 'a1a2', 'selection.json'));
-    const out = selectA1A2(pool, sel);
-    mkdirSync(join(root, 'data', 'a1a2'), { recursive: true });
-    writeFileSync(join(root, 'data', 'a1a2', 'words.json'), JSON.stringify(out, null, 2) + '\n');
-    console.log(`Wrote ${out.length} words to data/a1a2/words.json`);
+    const sel = readJson<{ A1: string[]; A2: string[] }>(join(root, 'data', level, 'selection.json'));
+    const out = (level === 'core' ? selectCore : selectA1A2)(pool, sel);
+    mkdirSync(join(root, 'data', level), { recursive: true });
+    writeFileSync(join(root, 'data', level, 'words.json'), JSON.stringify(out, null, 2) + '\n');
+    console.log(`Wrote ${out.length} words to data/${level}/words.json`);
     return;
   }
   const pool = readJson<PoolRow[]>(poolFile());
@@ -211,12 +214,12 @@ function checkArticles() {
 }
 
 const modes = { '--fetch': fetchAll, '--build': build, '--write': write, '--check-articles': checkArticles };
-const usage = 'Usage: npm run b1-pool -- --fetch | --build | --write | --check-articles [--level b1|a1a2|b2]';
+const usage = 'Usage: npm run b1-pool -- --fetch | --build | --write | --check-articles [--level b1|a1a2|b2|core]';
 const args = process.argv.slice(2);
 const at = args.indexOf('--level');
 if (at >= 0) {
   const value = args[at + 1];
-  if (value !== 'b1' && value !== 'a1a2' && value !== 'b2') {
+  if (value !== 'b1' && value !== 'a1a2' && value !== 'b2' && value !== 'core') {
     console.error(usage);
     process.exit(1);
   }

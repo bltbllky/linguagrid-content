@@ -266,7 +266,7 @@ export function longShare(pool: PoolRow[]): number {
 }
 
 /** Ids the pool must skip. For B2 an id whose reason starts with "level B2" stays a candidate (PM decision 2026-10-25). */
-export function excludedIdsFor(level: 'b1' | 'a1a2' | 'b2', excluded: { id: string; reason: string }[]): Set<string> {
+export function excludedIdsFor(level: 'b1' | 'a1a2' | 'b2' | 'core', excluded: { id: string; reason: string }[]): Set<string> {
   return new Set(excluded.filter((e) => !(level === 'b2' && e.reason.startsWith('level B2'))).map((e) => e.id));
 }
 
@@ -395,10 +395,23 @@ export function selectB1(pool: PoolRow[], ids: string[]): Word[] {
   return selectWords(pool, ids, 'B1', 'B1');
 }
 
+/**
+ * Lemmas a pool must not repeat. The `core` pool is blind (ADR-022): it never counts the launch words, only `own`
+ * and the other stages. Every other level counts `launch`, `own` and every stage but its own.
+ */
+export function takenLemmas(
+  level: string,
+  files: { launch: Word[]; own: Word[]; stages: Record<string, Word[]> },
+): Set<string> {
+  const others = Object.entries(files.stages).filter(([name]) => name !== level).flatMap(([, words]) => words);
+  const words = [...(level === 'core' ? [] : files.launch), ...files.own, ...others];
+  return new Set(words.map((w) => w.lemma_nl));
+}
+
 /** A1 words first, then A2; one lemma may not appear twice across both lists. */
-export function selectA1A2(pool: PoolRow[], sel: { A1: string[]; A2: string[] }): Word[] {
+export function selectLevels(pool: PoolRow[], sel: { A1: string[]; A2: string[] }, stageName: 'a1a2' | 'core'): Word[] {
   for (const key of ['A1', 'A2'] as const) {
-    if (!Array.isArray(sel[key])) throw new Error(`data/a1a2/selection.json needs an "${key}" list of ids`);
+    if (!Array.isArray(sel[key])) throw new Error(`data/${stageName}/selection.json needs an "${key}" list of ids`);
   }
   const byId = new Map(pool.map((r) => [r.id, r]));
   for (const id of sel.A1) {
@@ -406,5 +419,8 @@ export function selectA1A2(pool: PoolRow[], sel: { A1: string[]; A2: string[] })
     if (row && row.rank > A1_MAX_RANK) throw new Error(`A1 word outside lemma rank 1-3,000: ${id} (rank ${row.rank})`);
   }
   const lemmas = new Set<string>();
-  return [...selectWords(pool, sel.A1, 'A1', 'a1a2', lemmas), ...selectWords(pool, sel.A2, 'A2', 'a1a2', lemmas)];
+  return [...selectWords(pool, sel.A1, 'A1', stageName, lemmas), ...selectWords(pool, sel.A2, 'A2', stageName, lemmas)];
 }
+
+export const selectA1A2 = (pool: PoolRow[], sel: { A1: string[]; A2: string[] }): Word[] => selectLevels(pool, sel, 'a1a2');
+export const selectCore = (pool: PoolRow[], sel: { A1: string[]; A2: string[] }): Word[] => selectLevels(pool, sel, 'core');
