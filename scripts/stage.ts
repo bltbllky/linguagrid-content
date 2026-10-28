@@ -6,13 +6,14 @@ import type { Annotation, Category, Content, TranslationFile, Word } from './val
 
 const ROOT = join(import.meta.dirname, '..');
 
-export type StageName = 'b1' | 'a1a2' | 'b2';
+export type StageName = 'b1' | 'a1a2' | 'b2' | 'core';
 
 /** Per stage: the levels its words may have, and whether it brings its own categories or uses live ones. */
 export const STAGES: Record<StageName, { levels: readonly Word['cefr'][]; ownCategories: boolean }> = {
   b1: { levels: ['B1'], ownCategories: true },
   a1a2: { levels: ['A1', 'A2'], ownCategories: false },
   b2: { levels: ['B2'], ownCategories: true },
+  core: { levels: ['A1', 'A2'], ownCategories: false },
 };
 
 const label = (s: Stage) => s.name.toUpperCase();
@@ -47,7 +48,7 @@ export function takeStage(args: string[], root = ROOT): Stage | undefined {
   const at = args.indexOf('--stage');
   if (at < 0) return undefined;
   const name = args.splice(at, 2)[1];
-  if (!name) throw new Error('Usage: --stage b1|a1a2|b2');
+  if (!name) throw new Error('Usage: --stage b1|a1a2|b2|core');
   return loadStage(name, root);
 }
 
@@ -70,7 +71,22 @@ export function mergeStage(live: Content, stage: Stage): Content {
   };
 }
 
-export function validateStage(live: Content, stage: Stage, others: Stage[] = []): { errors: string[]; incomplete: string[] } {
+/** The live content without its NT2Lex words, their annotations and texts (ADR-022); categories and titles stay. */
+export function withoutNt2lex(c: Content): Content {
+  const ids = new Set(c.words.filter((w) => w.source !== 'nt2lex').map((w) => w.id));
+  return {
+    ...c,
+    words: c.words.filter((w) => ids.has(w.id)),
+    annotations: c.annotations.filter((a) => ids.has(a.word_id)),
+    translations: Object.fromEntries(
+      Object.entries(c.translations).map(([lang, f]) => [lang, { ...f!, words: f!.words.filter((t) => ids.has(t.word_id)) }]),
+    ) as Content['translations'],
+  };
+}
+
+export function validateStage(liveContent: Content, stage: Stage, others: Stage[] = []): { errors: string[]; incomplete: string[] } {
+  // A core word replaces the NT2Lex launch words, so it may reuse their ids and lemmas (ADR-022).
+  const live = stage.name === 'core' ? withoutNt2lex(liveContent) : liveContent;
   const errors: string[] = [];
   const incomplete: string[] = [];
   const L = label(stage);
