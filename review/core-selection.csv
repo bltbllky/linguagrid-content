@@ -379,9 +379,9 @@ noun-kerk,kerk,noun,A2,0-1k,a2-city-transport,0-1k band; noun; a2-city-transport
 noun-gebouw,gebouw,noun,A2,0-1k,a2-city-transport,0-1k band; noun; a2-city-transport
 noun-dorp,dorp,noun,A2,0-1k,a2-city-transport,0-1k band; noun; a2-city-transport
 verb-bereiken,bereiken,verb,A2,0-1k,a2-city-transport,0-1k band; verb; a2-city-transport
+verb-verlaten,verlaten,verb,A2,0-1k,a2-city-transport,0-1k band; verb; a2-city-transport
 noun-kilometer,kilometer,noun,A2,0-1k,a2-city-transport,0-1k band; noun; a2-city-transport
 noun-richting,richting,noun,A2,0-1k,a2-city-transport,0-1k band; noun; a2-city-transport
-verb-vertrekken,vertrekken,verb,A2,0-1k,a2-city-transport,0-1k band; verb; a2-city-transport
 noun-centrum,centrum,noun,A2,0-1k,a2-city-transport,0-1k band; noun; a2-city-transport
 noun-brug,brug,noun,A2,0-1k,a2-city-transport,0-1k band; noun; a2-city-transport
 verb-reizen,reizen,verb,A2,0-1k,a2-city-transport,0-1k band; verb; a2-city-transport
@@ -688,10 +688,10 @@ verb-duren,duren,verb,A2,0-1k,a2-time,0-1k band; verb; a2-time
 noun-toekomst,toekomst,noun,A2,0-1k,a2-time,0-1k band; noun; a2-time
 adj-dagelijks,dagelijks,adj,A2,0-1k,a2-time,0-1k band; adjective; a2-time
 noun-datum,datum,noun,A2,0-1k,a2-time,0-1k band; noun; a2-time
+noun-voorjaar,voorjaar,noun,A2,1-2k,a2-time,1-2k band; noun; a2-time; closed set
 noun-kwart,kwart,noun,A2,2-3k,a2-time,2-3k band; noun; a2-time
 noun-agenda,agenda,noun,A2,2-3k,a2-time,2-3k band; noun; a2-time
 noun-kerst,kerst,noun,A2,2-3k,a2-time,2-3k band; noun; a2-time
 noun-feestdag,feestdag,noun,A2,3-5k,a2-time,3-5k band; noun; a2-time
 noun-herfst,herfst,noun,A2,3-5k,a2-time,3-5k band; noun; a2-time; closed set
-noun-lente,lente,noun,A2,3-5k,a2-time,3-5k band; noun; a2-time; closed set
 noun-kalender,kalender,noun,A2,3-5k,a2-time,3-5k band; noun; a2-time
