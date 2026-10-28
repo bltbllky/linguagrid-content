@@ -203,6 +203,8 @@ export function promoteStage(liveContent: Content, liveOwn: Word[], stage: Stage
       ...(ownCategories ? { categories: [...(current?.categories ?? []), ...staged!.categories] } : {}),
     };
   }
+  // A live language the core stage lacks is rewritten without its NT2Lex texts, so none stays on disk.
+  if (core) for (const [lang, file] of Object.entries(live.translations)) files[`data/translations/${lang}.json`] ??= file;
   // The app still reads the deprecated text_tr / title_tr (T-034): write them for the promoted rows too.
   const legacy = withLegacyTurkish({
     ...live,

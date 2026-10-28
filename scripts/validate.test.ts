@@ -345,7 +345,7 @@ describe('data/words-own.json (T-153)', () => {
       ids.map((id) => `data/words.json: ${id} is NT2Lex-derived; NT2Lex is retired (US-023, ADR-022)`),
     );
     assert.deepEqual(fileSourceIssues(root, false), []);
-    assert.equal(NT2LEX_RETIRED, false);
+    assert.equal(NT2LEX_RETIRED, false); // T-226 flips the flag and updates this assertion
   });
 
   it('fileSourceIssues rejects an own row in words.json', () => {

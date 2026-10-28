@@ -494,6 +494,16 @@ describe('core stage (ADR-022)', () => {
       assert.equal('data/categories.json' in files, false);
     });
 
+    it('rewrites a live language the stage lacks without its NT2Lex texts', () => {
+      const live = validContent();
+      live.translations.en = partialEnglish();
+      const { files } = promoteStage(live, [], promoted());
+      const en = files['data/translations/en.json'] as TranslationFile;
+      assert.equal(en.lang, 'en');
+      assert.deepEqual(en.words, []);
+      assert.deepEqual(en.categories, live.translations.en!.categories);
+    });
+
     it('leaves a valid merged result', () => {
       const live = validContent();
       const { files } = promoteStage(live, [], promoted());
