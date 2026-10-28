@@ -36,3 +36,5 @@ category, "closed set" or "A1 floor (K11)".
 Amended 2026-10-28 (owner, option a): for the core profile the pool band is lemma rank 1-10,000 and A1 words stop at
 rank 5,000; B1 lemmas stay excluded by K3. Reason: the first blind run gave A1 300 and A2 480 under the 3,000/5,000
 bands (pool counts only; no launch word read).
+Amended 2026-10-28 (owner, option a): K9's A2 target of 630 is not reached under K1–K11 with the amended bands; A2 takes
+every word that passes (542). Pool counts only; no launch word read.
