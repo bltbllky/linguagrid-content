@@ -1,0 +1,543 @@
+id,dutch,article,turkish,category,decision
+noun-vloer,vloer,de,zemin,Ev ve yaşam,
+noun-kelder,kelder,de,bodrum,Ev ve yaşam,OK
+noun-plafond,plafond,het,tavan,Ev ve yaşam,OK
+noun-bad,bad,het,küvet,Ev ve yaşam,OK
+noun-lift,lift,de,asansör,Ev ve yaşam,OK
+noun-slaapkamer,slaapkamer,de,yatak odası,Ev ve yaşam,
+noun-zolder,zolder,de,çatı katı,Ev ve yaşam,OK
+verb-opruimen,opruimen,,toparlamak,Ev ve yaşam,OK
+noun-huur,huur,de,kira,Ev ve yaşam,OK
+noun-oven,oven,de,fırın,Ev ve yaşam,OK
+verb-verwarmen,verwarmen,,ısıtmak,Ev ve yaşam,OK
+noun-kist,kist,de,sandık,Ev ve yaşam,
+noun-meubel,meubel,het,mobilya,Ev ve yaşam,OK
+noun-bak,bak,de,kap,Ev ve yaşam,
+noun-woonkamer,woonkamer,de,oturma odası,Ev ve yaşam,
+noun-makelaar,makelaar,de,emlakçı,Ev ve yaşam,
+noun-kam,kam,de,tarak,Ev ve yaşam,
+verb-poetsen,poetsen,,fırçalamak,Ev ve yaşam,
+noun-deken,deken,de,battaniye,Ev ve yaşam,OK
+verb-douchen,douchen,,duş almak,Ev ve yaşam,OK
+noun-haard,haard,de,şömine,Ev ve yaşam,
+noun-badkamer,badkamer,de,banyo,Ev ve yaşam,
+noun-gordijn,gordijn,het,perde,Ev ve yaşam,OK
+verb-logeren,logeren,,misafir kalmak,Günlük fiiller,OK
+noun-verwarming,verwarming,de,kalorifer,Ev ve yaşam,OK
+verb-schoonmaken,schoonmaken,,temizlemek,Ev ve yaşam,
+noun-handdoek,handdoek,de,havlu,Ev ve yaşam,OK
+noun-kachel,kachel,de,soba,Ev ve yaşam,
+noun-thee,thee,de,çay,Yemek ve mutfak,
+noun-suiker,suiker,de,şeker,Yemek ve mutfak,OK
+noun-ijs,ijs,het,"buz, dondurma",Doğa ve hava,OK
+noun-pasta,pasta,de,makarna,Yemek ve mutfak,OK
+noun-aardappel,aardappel,de,patates,Yemek ve mutfak,
+noun-zout,zout,het,tuz,Yemek ve mutfak,OK
+noun-druif,druif,de,üzüm,Yemek ve mutfak,OK
+noun-ingrediënt,ingrediënt,het,malzeme (yemek),Yemek ve mutfak,OK
+noun-ham,ham,de,jambon,Yemek ve mutfak,OK
+noun-kool,kool,de,lahana,Yemek ve mutfak,OK
+noun-boon,boon,de,fasulye,Yemek ve mutfak,OK
+noun-maaltijd,maaltijd,de,öğün,Yemek ve mutfak,OK
+noun-soep,soep,de,çorba,Yemek ve mutfak,OK
+noun-fruit,fruit,het,meyve,Yemek ve mutfak,
+noun-melk,melk,de,süt,Yemek ve mutfak,
+noun-worst,worst,de,sosis,Yemek ve mutfak,OK
+noun-koek,koek,de,kurabiye,Yemek ve mutfak,
+noun-taart,taart,de,pasta,Yemek ve mutfak,
+noun-pizza,pizza,de,pizza,Yemek ve mutfak,
+noun-boter,boter,de,tereyağı,Yemek ve mutfak,OK
+noun-kopje,kopje,het,fincan,Yemek ve mutfak,
+noun-champagne,champagne,de,şampanya,Yemek ve mutfak,
+noun-honing,honing,de,bal,Yemek ve mutfak,OK
+noun-rijst,rijst,de,pirinç,Yemek ve mutfak,OK
+noun-biet,biet,de,pancar,Yemek ve mutfak,
+noun-room,room,de,krema,Yemek ve mutfak,
+noun-witlof,witlof,het,hindiba,Yemek ve mutfak,
+noun-sla,sla,de,marul,Yemek ve mutfak,OK
+noun-hamburger,hamburger,de,hamburger,Yemek ve mutfak,
+noun-lunch,lunch,de,öğle yemeği,Yemek ve mutfak,OK
+noun-sap,sap,het,meyve suyu,Yemek ve mutfak,
+noun-boterham,boterham,de,ekmek dilimi,Yemek ve mutfak,
+noun-vork,vork,de,çatal,Ev ve yaşam,OK
+noun-haring,haring,de,ringa balığı,Yemek ve mutfak,OK
+noun-mossel,mossel,de,midye,Yemek ve mutfak,
+noun-schotel,schotel,de,fincan tabağı,Yemek ve mutfak,
+noun-lepel,lepel,de,kaşık,Ev ve yaşam,OK
+verb-ontbijten,ontbijten,,kahvaltı etmek,Yemek ve mutfak,OK
+noun-peper,peper,de,karabiber,Yemek ve mutfak,OK
+noun-garnaal,garnaal,de,karides,Yemek ve mutfak,
+verb-slikken,slikken,,yutmak,Sağlık ve vücut,OK
+noun-koorts,koorts,de,ateş (hastalık),Sağlık ve vücut,OK
+noun-bijwerking,bijwerking,de,yan etki,Sağlık ve vücut,OK
+noun-stress,stress,de,stres,Duygular ve karakter,OK
+verb-hoesten,hoesten,,öksürmek,Sağlık ve vücut,OK
+noun-baard,baard,de,sakal,Sağlık ve vücut,
+noun-maag,maag,de,mide,Sağlık ve vücut,OK
+noun-apotheker,apotheker,de,eczacı,Sağlık ve vücut,OK
+noun-apotheek,apotheek,de,eczane,Sağlık ve vücut,OK
+noun-kaak,kaak,de,çene kemiği,Sağlık ve vücut,
+verb-braken,braken,,kusmak,Sağlık ve vücut,
+noun-voorhoofd,voorhoofd,het,alın,Sağlık ve vücut,
+verb-spugen,spugen,,tükürmek,Sağlık ve vücut,
+adj-ongezond,ongezond,,sağlıksız,Sağlık ve vücut,OK
+noun-hoofdpijn,hoofdpijn,de,baş ağrısı,Sağlık ve vücut,OK
+noun-honger,honger,de,açlık,Sağlık ve vücut,
+noun-pink,pink,de,serçe parmak,Sağlık ve vücut,
+verb-afvallen,afvallen,,kilo vermek,Sağlık ve vücut,
+noun-kin,kin,de,çene (ucu),Sağlık ve vücut,
+noun-verpleger,verpleger,de,erkek hemşire,Sağlık ve vücut,
+noun-wond,wond,de,yara,Sağlık ve vücut,OK
+noun-hiel,hiel,de,topuk,Sağlık ve vücut,
+noun-ademhaling,ademhaling,de,"nefes alma, solunum",Sağlık ve vücut,
+noun-wenkbrauw,wenkbrauw,de,kaş,Sağlık ve vücut,
+noun-lever,lever,de,karaciğer,Sağlık ve vücut,
+noun-onderarm,onderarm,de,ön kol,Sağlık ve vücut,
+noun-punt,punt,het,"puan, nokta",İş ve eğitim,
+noun-bedrijf,bedrijf,het,şirket,İş ve eğitim,OK
+noun-regel,regel,de,kural,Resmî işler ve hizmetler,OK
+noun-geschiedenis,geschiedenis,de,tarih (ders),İş ve eğitim,
+noun-tekst,tekst,de,metin,İş ve eğitim,OK
+noun-cijfer,cijfer,het,not (puan),İş ve eğitim,OK
+noun-universiteit,universiteit,de,üniversite,İş ve eğitim,OK
+noun-voorbeeld,voorbeeld,het,örnek,İletişim,OK
+noun-project,project,het,proje,İş ve eğitim,
+noun-plan,plan,het,plan,İş ve eğitim,
+noun-fout,fout,de,hata,Tanımlama,OK
+noun-student,student,de,üniversite öğrencisi,İş ve eğitim,OK
+noun-medewerker,medewerker,de,çalışan,İş ve eğitim,OK
+noun-opdracht,opdracht,de,görev,İş ve eğitim,OK
+noun-studie,studie,de,öğrenim,İş ve eğitim,OK
+verb-verdienen,verdienen,,para kazanmak,Günlük fiiller,OK
+noun-directeur,directeur,de,müdür,İş ve eğitim,OK
+noun-test,test,de,test,İş ve eğitim,
+noun-ervaring,ervaring,de,deneyim,İş ve eğitim,OK
+noun-leerling,leerling,de,öğrenci,İş ve eğitim,
+verb-slagen,slagen,,(sınavı) geçmek,İş ve eğitim,OK
+noun-personeel,personeel,het,personel,İş ve eğitim,OK
+noun-opleiding,opleiding,de,eğitim,İş ve eğitim,OK
+noun-baan,baan,de,iş (pozisyon),İş ve eğitim,
+noun-beroep,beroep,het,meslek,İş ve eğitim,OK
+verb-studeren,studeren,,öğrenim görmek,İş ve eğitim,
+noun-afdeling,afdeling,de,departman,İş ve eğitim,OK
+noun-ondernemer,ondernemer,de,girişimci,İş ve eğitim,
+noun-onderwijs,onderwijs,het,"eğitim, öğretim",İş ve eğitim,
+noun-fabriek,fabriek,de,fabrika,İş ve eğitim,
+noun-kantoor,kantoor,het,ofis,İş ve eğitim,
+verb-oplossen,oplossen,,çözmek,Günlük fiiller,OK
+noun-collega,collega,de,meslektaş,İş ve eğitim,
+noun-pensioen,pensioen,het,"emeklilik, emekli maaşı",İş ve eğitim,
+noun-werkgever,werkgever,de,işveren,İş ve eğitim,OK
+noun-papier,papier,het,kâğıt,İş ve eğitim,
+noun-baas,baas,de,patron,İş ve eğitim,
+noun-vergadering,vergadering,de,toplantı,İş ve eğitim,OK
+noun-inkomen,inkomen,het,gelir,İş ve eğitim,
+verb-herhalen,herhalen,,tekrarlamak,İletişim,OK
+verb-ontslaan,ontslaan,,işten çıkarmak,İş ve eğitim,OK
+noun-manager,manager,de,yönetici,İş ve eğitim,OK
+noun-vrijwilliger,vrijwilliger,de,gönüllü,İş ve eğitim,
+noun-salaris,salaris,het,maaş,İş ve eğitim,OK
+noun-vak,vak,het,okul dersi (branş),İş ve eğitim,
+noun-basisschool,basisschool,de,ilkokul,İş ve eğitim,OK
+verb-oefenen,oefenen,,alıştırma yapmak,İş ve eğitim,OK
+noun-chauffeur,chauffeur,de,şoför,İş ve eğitim,
+noun-hoofdstuk,hoofdstuk,het,bölüm (kitap),İş ve eğitim,
+noun-cursus,cursus,de,kurs,İş ve eğitim,OK
+noun-kok,kok,de,aşçı,Yemek ve mutfak,OK
+noun-pauze,pauze,de,mola,İş ve eğitim,OK
+noun-stage,stage,de,staj,İş ve eğitim,OK
+noun-pen,pen,de,tükenmez kalem,İş ve eğitim,OK
+noun-wiskunde,wiskunde,de,matematik,İş ve eğitim,
+noun-werkdag,werkdag,de,iş günü,İş ve eğitim,OK
+noun-schrift,schrift,het,defter,İş ve eğitim,OK
+noun-werkplek,werkplek,de,çalışma yeri,İş ve eğitim,OK
+noun-map,map,de,"dosya, klasör",İş ve eğitim,
+noun-woordenboek,woordenboek,het,sözlük,İş ve eğitim,OK
+noun-natuurkunde,natuurkunde,de,fizik,İş ve eğitim,
+verb-printen,printen,,çıktı almak,İş ve eğitim,
+noun-huiswerk,huiswerk,het,ev ödevi,İş ve eğitim,OK
+verb-solliciteren,solliciteren,,iş başvurusu yapmak,İş ve eğitim,OK
+noun-potlood,potlood,het,kurşun kalem,İş ve eğitim,OK
+noun-schoolplein,schoolplein,het,okul bahçesi,İş ve eğitim,
+noun-gemeente,gemeente,de,belediye,Resmî işler ve hizmetler,OK
+noun-politie,politie,de,polis,Resmî işler ve hizmetler,OK
+noun-dienst,dienst,de,hizmet,Resmî işler ve hizmetler,
+noun-bank,bank,de,koltuk,Resmî işler ve hizmetler,
+noun-hulp,hulp,de,yardım,Resmî işler ve hizmetler,
+noun-agent,agent,de,polis memuru,Resmî işler ve hizmetler,
+noun-advocaat,advocaat,de,avukat,Resmî işler ve hizmetler,
+noun-belasting,belasting,de,vergi,Resmî işler ve hizmetler,OK
+noun-ambtenaar,ambtenaar,de,memur,Resmî işler ve hizmetler,
+noun-bibliotheek,bibliotheek,de,kütüphane,Resmî işler ve hizmetler,OK
+noun-boete,boete,de,para cezası,Resmî işler ve hizmetler,OK
+noun-pakket,pakket,het,paket,Resmî işler ve hizmetler,OK
+noun-uitkering,uitkering,de,"ödenek, yardım parası",Resmî işler ve hizmetler,
+noun-post,post,de,posta,Resmî işler ve hizmetler,OK
+noun-paspoort,paspoort,het,pasaport,Resmî işler ve hizmetler,OK
+verb-invullen,invullen,,form doldurmak,Resmî işler ve hizmetler,OK
+noun-woonplaats,woonplaats,de,ikamet yeri,Ev ve yaşam,OK
+verb-inschrijven,inschrijven,,kaydolmak,İş ve eğitim,OK
+noun-handtekening,handtekening,de,imza,Resmî işler ve hizmetler,OK
+noun-kinderopvang,kinderopvang,de,kreş,İnsanlar ve ilişkiler,OK
+noun-formulier,formulier,het,form,Resmî işler ve hizmetler,OK
+noun-loket,loket,het,gişe,Resmî işler ve hizmetler,OK
+noun-postkantoor,postkantoor,het,postane,Resmî işler ve hizmetler,
+noun-postbode,postbode,de,postacı,Resmî işler ve hizmetler,OK
+noun-kerk,kerk,de,kilise,Şehir ve ulaşım,
+noun-gebouw,gebouw,het,bina,Şehir ve ulaşım,OK
+noun-dorp,dorp,het,köy,Şehir ve ulaşım,
+verb-bereiken,bereiken,,"ulaşmak, varmak",Şehir ve ulaşım,
+verb-verlaten,verlaten,,"terk etmek, ayrılmak",Şehir ve ulaşım,
+noun-kilometer,kilometer,de,kilometre,Şehir ve ulaşım,
+noun-richting,richting,de,yön,Şehir ve ulaşım,OK
+noun-centrum,centrum,het,merkez,Şehir ve ulaşım,
+noun-brug,brug,de,köprü,Şehir ve ulaşım,OK
+verb-reizen,reizen,,seyahat etmek,Günlük fiiller,OK
+noun-vliegtuig,vliegtuig,het,uçak,Şehir ve ulaşım,
+noun-hotel,hotel,het,otel,Şehir ve ulaşım,OK
+noun-buitenland,buitenland,het,yurt dışı,Şehir ve ulaşım,OK
+noun-grens,grens,de,sınır,Şehir ve ulaşım,OK
+noun-kaart,kaart,de,harita,Şehir ve ulaşım,
+noun-route,route,de,güzergâh,Şehir ve ulaşım,
+noun-reis,reis,de,yolculuk,Şehir ve ulaşım,
+noun-hoofdstad,hoofdstad,de,başkent,Şehir ve ulaşım,OK
+noun-wijk,wijk,de,semt,Şehir ve ulaşım,OK
+noun-passagier,passagier,de,yolcu,Şehir ve ulaşım,OK
+noun-ingang,ingang,de,giriş,Resmî işler ve hizmetler,OK
+noun-boot,boot,de,tekne,Şehir ve ulaşım,
+noun-vertrek,vertrek,het,kalkış,Şehir ve ulaşım,OK
+verb-fietsen,fietsen,,bisiklete binmek,Şehir ve ulaşım,
+noun-plein,plein,het,meydan,Şehir ve ulaşım,OK
+noun-luchthaven,luchthaven,de,havalimanı,Şehir ve ulaşım,
+verb-aankomen,aankomen,,varmak,Şehir ve ulaşım,OK
+noun-haven,haven,de,liman,Şehir ve ulaşım,
+noun-tram,tram,de,tramvay,Şehir ve ulaşım,
+noun-verkeer,verkeer,het,trafik,Şehir ve ulaşım,OK
+noun-aankomst,aankomst,de,varış,Şehir ve ulaşım,OK
+noun-file,file,de,trafik sıkışıklığı,Şehir ve ulaşım,
+noun-gracht,gracht,de,kanal,Şehir ve ulaşım,OK
+noun-metro,metro,de,metro,Şehir ve ulaşım,
+verb-parkeren,parkeren,,park etmek,Şehir ve ulaşım,OK
+noun-halte,halte,de,durak,Şehir ve ulaşım,OK
+noun-benzine,benzine,de,benzin,Şehir ve ulaşım,
+noun-garage,garage,de,garaj,Şehir ve ulaşım,
+noun-rijbewijs,rijbewijs,het,ehliyet,Resmî işler ve hizmetler,OK
+verb-overstappen,overstappen,,aktarma yapmak,Şehir ve ulaşım,
+noun-uitgang,uitgang,de,çıkış,Resmî işler ve hizmetler,OK
+noun-koffer,koffer,de,bavul,Şehir ve ulaşım,OK
+noun-taxi,taxi,de,taksi,Şehir ve ulaşım,
+noun-douane,douane,de,gümrük,Resmî işler ve hizmetler,OK
+noun-stoep,stoep,de,kaldırım,Şehir ve ulaşım,OK
+verb-uitstappen,uitstappen,,(araçtan) inmek,Şehir ve ulaşım,OK
+noun-bagage,bagage,de,bagaj,Şehir ve ulaşım,OK
+noun-hoofdstraat,hoofdstraat,de,ana cadde,Şehir ve ulaşım,
+noun-procent,procent,het,yüzde,Alışveriş ve para,
+verb-verkopen,verkopen,,satmak,Alışveriş ve para,
+verb-leveren,leveren,,teslim etmek,Alışveriş ve para,
+verb-kosten,kosten,,(fiyatı) tutmak,Alışveriş ve para,
+noun-product,product,het,ürün,Alışveriş ve para,
+noun-klant,klant,de,müşteri,Alışveriş ve para,
+noun-keuze,keuze,de,"seçim, tercih",Alışveriş ve para,
+noun-rekening,rekening,de,fatura,Resmî işler ve hizmetler,OK
+adj-gratis,gratis,,ücretsiz,Alışveriş ve para,OK
+verb-uitgeven,uitgeven,,harcamak,Alışveriş ve para,OK
+noun-boodschap,boodschap,de,mesaj,Alışveriş ve para,
+verb-winkelen,winkelen,,alışverişe çıkmak,Alışveriş ve para,OK
+verb-bestellen,bestellen,,sipariş vermek,Yemek ve mutfak,OK
+noun-zak,zak,de,poşet,Alışveriş ve para,OK
+noun-reclame,reclame,de,reklam,Alışveriş ve para,
+verb-sparen,sparen,,biriktirmek,Alışveriş ve para,OK
+verb-lenen,lenen,,ödünç almak,Alışveriş ve para,OK
+noun-cent,cent,de,sent,Alışveriş ve para,OK
+noun-bakker,bakker,de,fırıncı,Yemek ve mutfak,OK
+noun-cadeau,cadeau,het,hediye,Alışveriş ve para,
+noun-bestelling,bestelling,de,sipariş,Yemek ve mutfak,OK
+noun-kassa,kassa,de,kasa,Alışveriş ve para,OK
+noun-verkoper,verkoper,de,satıcı,Alışveriş ve para,OK
+noun-portemonnee,portemonnee,de,cüzdan,Alışveriş ve para,OK
+noun-webwinkel,webwinkel,de,internet mağazası,Alışveriş ve para,
+noun-warenhuis,warenhuis,het,büyük mağaza,Alışveriş ve para,
+noun-uniform,uniform,het,üniforma,Giyim ve aksesuar,
+noun-handschoen,handschoen,de,eldiven,Giyim ve aksesuar,OK
+noun-riem,riem,de,kemer,Giyim ve aksesuar,
+noun-jas,jas,de,mont,Giyim ve aksesuar,
+noun-kostuum,kostuum,het,"kostüm, takım elbise",Giyim ve aksesuar,
+noun-horloge,horloge,het,kol saati,Giyim ve aksesuar,
+noun-jurk,jurk,de,elbise,Giyim ve aksesuar,OK
+noun-schort,schort,het,önlük,Giyim ve aksesuar,
+noun-onderbroek,onderbroek,de,külot,Giyim ve aksesuar,
+noun-sok,sok,de,kısa çorap,Giyim ve aksesuar,
+noun-wol,wol,de,yün,Giyim ve aksesuar,
+noun-muts,muts,de,bere,Giyim ve aksesuar,OK
+noun-hemd,hemd,het,"atlet, iç gömleği",Giyim ve aksesuar,
+noun-vest,vest,het,hırka,Giyim ve aksesuar,OK
+noun-kraag,kraag,de,yaka,Giyim ve aksesuar,
+noun-armband,armband,de,bilezik,Giyim ve aksesuar,
+noun-sjaal,sjaal,de,atkı,Giyim ve aksesuar,OK
+noun-kous,kous,de,çorap,Giyim ve aksesuar,OK
+noun-bruiloft,bruiloft,de,düğün,İnsanlar ve ilişkiler,OK
+noun-papa,papa,de,baba (samimi),İnsanlar ve ilişkiler,
+noun-nicht,nicht,de,"kuzen, yeğen (kız)",İnsanlar ve ilişkiler,OK
+adj-beleefd,beleefd,,kibar,İletişim,OK
+noun-geliefde,geliefde,de,sevgili,İnsanlar ve ilişkiler,
+noun-bruid,bruid,de,gelin,İnsanlar ve ilişkiler,OK
+noun-huisvrouw,huisvrouw,de,ev hanımı,İnsanlar ve ilişkiler,
+verb-winnen,winnen,,kazanmak,Boş zaman ve kültür,OK
+noun-wedstrijd,wedstrijd,de,maç,Boş zaman ve kültür,OK
+noun-club,club,de,kulüp,Boş zaman ve kültür,OK
+noun-spel,spel,het,oyun,Boş zaman ve kültür,OK
+noun-museum,museum,het,müze,Boş zaman ve kültür,OK
+verb-tekenen,tekenen,,çizmek,Boş zaman ve kültür,OK
+verb-zingen,zingen,,şarkı söylemek,Günlük fiiller,OK
+noun-kunst,kunst,de,sanat,Boş zaman ve kültür,OK
+noun-radio,radio,de,radyo,Boş zaman ve kültür,
+noun-bezoek,bezoek,het,ziyaret,Günlük fiiller,OK
+noun-café,café,het,kafe,Boş zaman ve kültür,
+noun-feest,feest,het,parti,Boş zaman ve kültür,
+verb-sporten,sporten,,spor yapmak,Boş zaman ve kültür,OK
+noun-toerist,toerist,de,turist,Şehir ve ulaşım,OK
+verb-vissen,vissen,,balık tutmak,Boş zaman ve kültür,
+noun-strand,strand,het,plaj,Boş zaman ve kültür,
+noun-zwembad,zwembad,het,yüzme havuzu,Boş zaman ve kültür,
+verb-dansen,dansen,,dans etmek,Boş zaman ve kültür,
+noun-verrassing,verrassing,de,sürpriz,Duygular ve karakter,OK
+verb-uitgaan,uitgaan,,dışarı çıkmak,Boş zaman ve kültür,OK
+noun-dans,dans,de,dans,Boş zaman ve kültür,OK
+noun-camping,camping,de,kamp alanı,Şehir ve ulaşım,OK
+verb-reserveren,reserveren,,rezervasyon yapmak,Resmî işler ve hizmetler,OK
+noun-wandeling,wandeling,de,yürüyüş,Boş zaman ve kültür,OK
+noun-hobby,hobby,de,hobi,Boş zaman ve kültür,
+noun-sportschool,sportschool,de,spor salonu,Boş zaman ve kültür,
+noun-speelgoed,speelgoed,het,oyuncak,Boş zaman ve kültür,OK
+verb-schaatsen,schaatsen,,paten kaymak,Boş zaman ve kültür,OK
+noun-tennis,tennis,het,tenis,Boş zaman ve kültür,
+verb-schaken,schaken,,satranç oynamak,Boş zaman ve kültür,
+verb-hardlopen,hardlopen,,koşu yapmak,Boş zaman ve kültür,OK
+noun-tekenfilm,tekenfilm,de,çizgi film,Boş zaman ve kültür,
+verb-knutselen,knutselen,,el işi yapmak,Boş zaman ve kültür,
+noun-eiland,eiland,het,ada,Doğa ve hava,
+noun-bos,bos,het,orman,Doğa ve hava,OK
+noun-rivier,rivier,de,nehir,Doğa ve hava,OK
+noun-noorden,noorden,het,kuzey,Doğa ve hava,
+noun-vogel,vogel,de,kuş,Doğa ve hava,OK
+noun-natuur,natuur,de,doğa,Doğa ve hava,OK
+noun-paard,paard,het,at,Doğa ve hava,OK
+noun-lucht,lucht,de,"gökyüzü, hava",Doğa ve hava,OK
+noun-bloem,bloem,de,çiçek,Doğa ve hava,OK
+noun-berg,berg,de,dağ,Doğa ve hava,OK
+verb-planten,planten,,dikmek (bitki),Doğa ve hava,
+noun-dijk,dijk,de,"set, bent",Doğa ve hava,OK
+noun-plant,plant,de,bitki,Doğa ve hava,OK
+noun-wind,wind,de,rüzgâr,Doğa ve hava,OK
+noun-zand,zand,het,kum,Doğa ve hava,OK
+adj-nat,nat,,ıslak,Doğa ve hava,OK
+verb-vriezen,vriezen,,donmak,Doğa ve hava,OK
+noun-storm,storm,de,fırtına,Doğa ve hava,OK
+noun-gras,gras,het,çimen,Doğa ve hava,OK
+noun-koe,koe,de,inek,Doğa ve hava,OK
+noun-poes,poes,de,kedi,Doğa ve hava,
+noun-kou,kou,de,soğuk hava,Doğa ve hava,OK
+noun-maan,maan,de,ay (gökyüzü),Doğa ve hava,OK
+noun-muis,muis,de,fare,Doğa ve hava,OK
+noun-duin,duin,het,kum tepesi,Doğa ve hava,OK
+verb-waaien,waaien,,(rüzgâr) esmek,Doğa ve hava,OK
+noun-wolk,wolk,de,bulut,Doğa ve hava,OK
+verb-sneeuwen,sneeuwen,,kar yağmak,Doğa ve hava,OK
+adj-zonnig,zonnig,,güneşli,Doğa ve hava,OK
+noun-sneeuw,sneeuw,de,kar,Doğa ve hava,OK
+noun-mist,mist,de,sis,Doğa ve hava,OK
+noun-regen,regen,de,yağmur,Doğa ve hava,OK
+noun-huisdier,huisdier,het,evcil hayvan,Doğa ve hava,OK
+noun-vos,vos,de,tilki,Doğa ve hava,
+noun-haas,haas,de,yabani tavşan,Doğa ve hava,
+noun-konijn,konijn,het,tavşan,Doğa ve hava,OK
+noun-zwaan,zwaan,de,kuğu,Doğa ve hava,
+noun-haai,haai,de,köpek balığı,Doğa ve hava,
+noun-gans,gans,de,kaz,Doğa ve hava,
+noun-dolfijn,dolfijn,de,yunus,Doğa ve hava,
+noun-ezel,ezel,de,eşek,Doğa ve hava,
+noun-mug,mug,de,sivrisinek,Doğa ve hava,
+noun-paddenstoel,paddenstoel,de,mantar,Doğa ve hava,
+noun-slak,slak,de,salyangoz,Doğa ve hava,
+noun-walvis,walvis,de,balina,Doğa ve hava,
+noun-rook,rook,de,duman,Doğa ve hava,
+noun-uil,uil,de,baykuş,Doğa ve hava,
+noun-regenboog,regenboog,de,gökkuşağı,Doğa ve hava,
+noun-paraplu,paraplu,de,şemsiye,Giyim ve aksesuar,OK
+adj-alleen,alleen,,"tek başına, yalnız",Duygular ve karakter,
+adj-lief,lief,,sevimli,Duygular ve karakter,
+verb-voelen,voelen,,hissetmek,Günlük fiiller,OK
+verb-hopen,hopen,,ummak,Duygular ve karakter,OK
+verb-missen,missen,,özlemek,Günlük fiiller,OK
+noun-liefde,liefde,de,aşk,Duygular ve karakter,OK
+noun-angst,angst,de,korku,Duygular ve karakter,OK
+verb-lachen,lachen,,gülmek,Duygular ve karakter,
+adj-trots,trots,,gururlu,Duygular ve karakter,OK
+noun-geluk,geluk,het,"şans, mutluluk",Duygular ve karakter,OK
+adj-gevoelig,gevoelig,,"hassas, duyarlı",Duygular ve karakter,
+noun-plezier,plezier,het,keyif,Duygular ve karakter,
+adj-gezellig,gezellig,,samimi ve keyifli,Duygular ve karakter,OK
+adj-vrolijk,vrolijk,,neşeli,Duygular ve karakter,OK
+noun-droom,droom,de,rüya,Duygular ve karakter,OK
+noun-vriendschap,vriendschap,de,arkadaşlık,İnsanlar ve ilişkiler,OK
+verb-huilen,huilen,,ağlamak,Duygular ve karakter,
+adj-spannend,spannend,,heyecan verici,Duygular ve karakter,OK
+adj-verliefd,verliefd,,âşık,Duygular ve karakter,OK
+adj-eenzaam,eenzaam,,yalnız,Duygular ve karakter,
+verb-vervelen,vervelen,,sıkılmak,Duygular ve karakter,OK
+noun-verdriet,verdriet,het,keder,Duygular ve karakter,OK
+adj-bezorgd,bezorgd,,kaygılı,Duygular ve karakter,OK
+adj-ongelukkig,ongelukkig,,mutsuz,Duygular ve karakter,
+adj-dankbaar,dankbaar,,minnettar,Duygular ve karakter,OK
+adj-saai,saai,,sıkıcı,Duygular ve karakter,OK
+noun-pech,pech,de,aksilik,Şehir ve ulaşım,OK
+adj-jaloers,jaloers,,kıskanç,Duygular ve karakter,OK
+verb-ontspannen,ontspannen,,gevşemek,Boş zaman ve kültür,OK
+adj-verdrietig,verdrietig,,üzgün,Duygular ve karakter,
+adj-verbaasd,verbaasd,,şaşkın,Duygular ve karakter,
+noun-kus,kus,de,öpücük,Duygular ve karakter,
+adj-nieuwsgierig,nieuwsgierig,,meraklı,Duygular ve karakter,OK
+noun-lach,lach,de,"gülüş, kahkaha",Duygular ve karakter,
+adj-nerveus,nerveus,,gergin,Duygular ve karakter,
+verb-zuchten,zuchten,,iç çekmek,Duygular ve karakter,
+adj-echt,echt,,gerçek,Tanımlama,
+adj-waar,waar,,doğru,Tanımlama,
+adj-mogelijk,mogelijk,,mümkün,Tanımlama,OK
+adj-verschillend,verschillend,,farklı,Tanımlama,OK
+adj-nodig,nodig,,gerekli,Tanımlama,
+adj-belangrijk,belangrijk,,önemli,Tanımlama,
+adj-zeker,zeker,,emin,Tanımlama,OK
+adj-eigen,eigen,,kendi,Tanımlama,
+adj-duidelijk,duidelijk,,"net, anlaşılır",Tanımlama,OK
+adj-erg,erg,,"çok kötü, berbat",Tanımlama,
+adj-natuurlijk,natuurlijk,,doğal,Tanımlama,
+adj-bekend,bekend,,tanınmış,Tanımlama,OK
+adj-juist,juist,,"doğru, tam",Tanımlama,
+adj-zwaar,zwaar,,ağır,Tanımlama,OK
+adj-vol,vol,,dolu,Tanımlama,OK
+adj-bijzonder,bijzonder,,özel,Tanımlama,
+adj-vrij,vrij,,"serbest, izinli",Tanımlama,OK
+adj-sterk,sterk,,güçlü,Tanımlama,OK
+adj-open,open,,açık,Tanımlama,
+adj-druk,druk,,yoğun,Tanımlama,
+adj-veilig,veilig,,güvenli,Tanımlama,OK
+adj-klaar,klaar,,hazır,Tanımlama,
+adj-hard,hard,,sert,Tanımlama,
+adj-stil,stil,,sessiz,Tanımlama,
+adj-leeg,leeg,,boş,Tanımlama,
+adj-dicht,dicht,,kapalı,Tanımlama,
+adj-donker,donker,,karanlık,Tanımlama,OK
+adj-gevaarlijk,gevaarlijk,,tehlikeli,Tanımlama,OK
+adj-rustig,rustig,,sakin,Tanımlama,
+adj-fijn,fijn,,hoş,Tanımlama,
+adj-interessant,interessant,,ilginç,Tanımlama,
+adj-eerlijk,eerlijk,,dürüst,Duygular ve karakter,OK
+adj-vreemd,vreemd,,tuhaf,Tanımlama,
+adj-geweldig,geweldig,,harika,Tanımlama,OK
+adj-handig,handig,,kullanışlı,Tanımlama,OK
+adj-kapot,kapot,,bozuk,Tanımlama,OK
+adj-verkeerd,verkeerd,,yanlış,Tanımlama,OK
+adj-aardig,aardig,,nazik,Tanımlama,
+adj-zacht,zacht,,yumuşak,Tanımlama,
+adj-grappig,grappig,,komik,Duygular ve karakter,OK
+adj-droog,droog,,kuru,Doğa ve hava,OK
+adj-dun,dun,,ince,Tanımlama,OK
+adj-vies,vies,,kirli,Tanımlama,
+adj-ingewikkeld,ingewikkeld,,karmaşık,Tanımlama,OK
+adj-lelijk,lelijk,,çirkin,Tanımlama,OK
+noun-probleem,probleem,het,sorun,İletişim,
+verb-vertellen,vertellen,,anlatmak,İletişim,
+verb-beschrijven,beschrijven,,tarif etmek,İletişim,OK
+verb-betekenen,betekenen,,anlamına gelmek,İş ve eğitim,OK
+noun-idee,idee,het,fikir,İletişim,
+verb-ontvangen,ontvangen,,teslim almak,Günlük fiiller,OK
+verb-sturen,sturen,,göndermek,İletişim,
+noun-informatie,informatie,de,bilgi,İletişim,
+noun-verhaal,verhaal,het,hikâye,İletişim,OK
+noun-reden,reden,de,neden,İletişim,OK
+noun-reactie,reactie,de,"tepki, yanıt",İletişim,
+verb-reageren,reageren,,tepki vermek,İletişim,OK
+noun-stem,stem,de,ses (insan sesi),İletişim,
+noun-gesprek,gesprek,het,konuşma,İletişim,OK
+noun-krant,krant,de,gazete,Boş zaman ve kültür,OK
+noun-website,website,de,web sitesi,İletişim,
+noun-advies,advies,het,tavsiye,İletişim,OK
+noun-discussie,discussie,de,tartışma,İletişim,
+noun-zin,zin,de,cümle,İş ve eğitim,OK
+noun-brief,brief,de,mektup,İletişim,
+verb-uitspreken,uitspreken,,telaffuz etmek,İletişim,OK
+verb-beloven,beloven,,söz vermek,İletişim,OK
+noun-bericht,bericht,het,mesaj,Resmî işler ve hizmetler,OK
+verb-vertalen,vertalen,,çevirmek,İş ve eğitim,OK
+noun-waarheid,waarheid,de,"gerçek, hakikat",İletişim,
+verb-voorstellen,voorstellen,,tanıştırmak,İletişim,OK
+verb-bespreken,bespreken,,görüşmek,İletişim,OK
+verb-afspreken,afspreken,,buluşmak için sözleşmek,İletişim,OK
+noun-afspraak,afspraak,de,randevu,İletişim,
+noun-afscheid,afscheid,het,veda,İletişim,
+verb-klagen,klagen,,şikâyet etmek,İletişim,OK
+adj-welkom,welkom,,hoş geldin,İletişim,
+noun-internet,internet,het,internet,İletişim,
+verb-bedanken,bedanken,,teşekkür etmek,İletişim,
+verb-uitnodigen,uitnodigen,,davet etmek,İletişim,OK
+verb-liegen,liegen,,yalan söylemek,İletişim,OK
+verb-informeren,informeren,,bilgi vermek,İletişim,OK
+noun-leugen,leugen,de,yalan,İletişim,OK
+verb-uitleggen,uitleggen,,açıklamak,İş ve eğitim,OK
+noun-ruzie,ruzie,de,kavga,İletişim,OK
+verb-schreeuwen,schreeuwen,,bağırmak,İletişim,
+noun-uitnodiging,uitnodiging,de,davet,İletişim,OK
+verb-mailen,mailen,,e-posta göndermek,Resmî işler ve hizmetler,OK
+verb-feliciteren,feliciteren,,tebrik etmek,İletişim,
+noun-envelop,envelop,de,zarf,Resmî işler ve hizmetler,OK
+verb-groeten,groeten,,selam vermek,İletişim,OK
+verb-chatten,chatten,,mesajlaşmak,İletişim,
+noun-moedertaal,moedertaal,de,ana dil,İş ve eğitim,OK
+verb-worden,worden,,haline gelmek,Günlük fiiller,
+verb-blijven,blijven,,kalmak,Günlük fiiller,
+verb-houden,houden,,tutmak,Günlük fiiller,
+verb-laten,laten,,bırakmak,Günlük fiiller,
+verb-tellen,tellen,,saymak,İletişim,OK
+verb-gebruiken,gebruiken,,kullanmak,Günlük fiiller,
+verb-vallen,vallen,,düşmek,Günlük fiiller,
+verb-volgen,volgen,,takip etmek,Günlük fiiller,
+verb-delen,delen,,paylaşmak,Günlük fiiller,OK
+verb-lijken,lijken,,benzemek,Günlük fiiller,
+verb-halen,halen,,gidip almak,Günlük fiiller,OK
+verb-zorgen,zorgen,,ilgilenmek,Günlük fiiller,OK
+verb-gebeuren,gebeuren,,meydana gelmek,Günlük fiiller,OK
+verb-verliezen,verliezen,,kaybetmek,Boş zaman ve kültür,OK
+verb-proberen,proberen,,denemek,Günlük fiiller,OK
+verb-zetten,zetten,,koymak (dik),Günlük fiiller,
+verb-verschijnen,verschijnen,,"ortaya çıkmak, görünmek",Günlük fiiller,
+verb-kiezen,kiezen,,seçmek,Günlük fiiller,OK
+verb-besluiten,besluiten,,karar vermek,Günlük fiiller,
+verb-veranderen,veranderen,,değişmek,Günlük fiiller,OK
+verb-trekken,trekken,,çekmek,Günlük fiiller,
+verb-slaan,slaan,,vurmak,Günlük fiiller,
+verb-verdwijnen,verdwijnen,,"yok olmak, kaybolmak",Günlük fiiller,
+verb-stoppen,stoppen,,durmak,Günlük fiiller,
+verb-bezoeken,bezoeken,,ziyaret etmek,Günlük fiiller,OK
+verb-gooien,gooien,,atmak,Günlük fiiller,
+verb-herstellen,herstellen,,"onarmak, düzeltmek",Günlük fiiller,
+verb-pakken,pakken,,eline almak,Günlük fiiller,
+verb-lukken,lukken,,(bir işi) başarmak,Günlük fiiller,OK
+verb-vergeten,vergeten,,unutmak,İletişim,OK
+verb-regelen,regelen,,halletmek,Günlük fiiller,OK
+verb-controleren,controleren,,kontrol etmek,Günlük fiiller,
+verb-herinneren,herinneren,,hatırlamak,Günlük fiiller,OK
+verb-meenemen,meenemen,,yanında götürmek,Günlük fiiller,OK
+verb-verbergen,verbergen,,"gizlemek, saklamak",Günlük fiiller,
+verb-storen,storen,,rahatsız etmek,Günlük fiiller,OK
+verb-wennen,wennen,,alışmak,Günlük fiiller,OK
+verb-rennen,rennen,,koşmak,Günlük fiiller,
+verb-terugkomen,terugkomen,,geri gelmek,Günlük fiiller,OK
+verb-likken,likken,,yalamak,Günlük fiiller,
+verb-opstaan,opstaan,,(yataktan) kalkmak,Günlük fiiller,OK
+verb-wegleggen,wegleggen,,bir kenara koymak,Günlük fiiller,
+verb-omdraaien,omdraaien,,"ters çevirmek, arkasını dönmek",Günlük fiiller,
+verb-teruggeven,teruggeven,,geri vermek,Günlük fiiller,
+verb-knijpen,knijpen,,"sıkmak, çimdiklemek",Günlük fiiller,
+verb-wrijven,wrijven,,"ovmak, sürtmek",Günlük fiiller,
+verb-teruggaan,teruggaan,,geri dönmek,Günlük fiiller,
+verb-thuiskomen,thuiskomen,,eve gelmek,Günlük fiiller,OK

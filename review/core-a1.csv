@@ -1,0 +1,327 @@
+id,dutch,article,turkish,category,decision
+noun-mens,mens,de,insan,İnsanlar ve aile,OK
+noun-naam,naam,de,isim,İletişim,OK
+noun-inwoner,inwoner,de,sakin (bir yerde oturan),İnsanlar ve aile,
+noun-man,man,de,adam,İnsanlar ve aile,OK
+noun-leven,leven,het,hayat,İnsanlar ve aile,OK
+noun-vrouw,vrouw,de,kadın,İnsanlar ve aile,OK
+noun-kind,kind,het,çocuk,İnsanlar ve aile,OK
+noun-familie,familie,de,aile,İnsanlar ve aile,OK
+noun-zoon,zoon,de,oğul,İnsanlar ve aile,OK
+noun-vader,vader,de,baba,İnsanlar ve aile,OK
+noun-persoon,persoon,de,kişi,İnsanlar ve aile,
+noun-jongen,jongen,de,erkek çocuk,İnsanlar ve aile,
+noun-lid,lid,het,üye,İnsanlar ve aile,
+noun-leeftijd,leeftijd,de,yaş,İnsanlar ve aile,
+noun-moeder,moeder,de,anne,İnsanlar ve aile,OK
+noun-vriend,vriend,de,arkadaş,İnsanlar ve aile,OK
+noun-dochter,dochter,de,kız evlat,İnsanlar ve aile,OK
+noun-broer,broer,de,erkek kardeş,İnsanlar ve aile,OK
+verb-trouwen,trouwen,,evlenmek,İnsanlar ve aile,OK
+noun-ouder,ouder,de,ebeveyn,İnsanlar ve aile,OK
+noun-relatie,relatie,de,ilişki,İnsanlar ve aile,OK
+adj-persoonlijk,persoonlijk,,kişisel,İnsanlar ve aile,
+noun-huwelijk,huwelijk,het,evlilik,İnsanlar ve aile,
+noun-meisje,meisje,het,kız,İnsanlar ve aile,OK
+noun-dame,dame,de,"hanım, bayan",İnsanlar ve aile,
+noun-zus,zus,de,kız kardeş,İnsanlar ve aile,OK
+verb-ontmoeten,ontmoeten,,tanışmak,İnsanlar ve aile,OK
+noun-jeugd,jeugd,de,gençlik,İnsanlar ve aile,
+noun-vriendin,vriendin,de,kız arkadaş,İnsanlar ve aile,OK
+verb-scheiden,scheiden,,boşanmak,İnsanlar ve aile,
+noun-meneer,meneer,de,beyefendi,İnsanlar ve aile,OK
+noun-mevrouw,mevrouw,de,hanımefendi,İnsanlar ve aile,OK
+noun-gast,gast,de,misafir,İnsanlar ve aile,
+noun-oom,oom,de,"amca, dayı",İnsanlar ve aile,
+noun-baby,baby,de,bebek,İnsanlar ve aile,
+noun-buur,buur,de,komşu,İnsanlar ve aile,
+noun-geboorte,geboorte,de,doğum,İnsanlar ve aile,
+noun-neef,neef,de,"kuzen, yeğen (erkek)",İnsanlar ve aile,
+noun-ontmoeting,ontmoeting,de,buluşma,İnsanlar ve aile,
+noun-volwassene,volwassene,de,yetişkin,İnsanlar ve aile,
+noun-tante,tante,de,"teyze, hala",İnsanlar ve aile,
+noun-oma,oma,de,büyükanne,İnsanlar ve aile,OK
+noun-opa,opa,de,dede,İnsanlar ve aile,
+noun-mama,mama,de,anne (samimi),İnsanlar ve aile,
+verb-wonen,wonen,,bir yerde yaşamak,Ev,OK
+noun-huis,huis,het,ev,Ev,OK
+noun-kamer,kamer,de,oda,Ev,OK
+noun-woning,woning,de,konut,Ev,OK
+noun-deur,deur,de,kapı,Ev,OK
+noun-buurt,buurt,de,mahalle,Ev,
+noun-muur,muur,de,duvar,Ev,
+verb-verhuizen,verhuizen,,taşınmak,Ev,OK
+noun-tuin,tuin,de,bahçe,Ev,OK
+noun-bed,bed,het,yatak,Ev,OK
+noun-dak,dak,het,çatı,Ev,
+noun-apparaat,apparaat,het,cihaz,Ev,
+noun-verdieping,verdieping,de,kat (bina),Ev,OK
+verb-huren,huren,,kiralamak,Ev,
+noun-kussen,kussen,het,yastık,Ev,
+noun-tafel,tafel,de,masa,Ev,OK
+noun-bord,bord,het,tabak,Yiyecek ve içecek,OK
+noun-appartement,appartement,het,daire,Ev,OK
+noun-mes,mes,het,bıçak,Ev,
+noun-huishouden,huishouden,het,ev işleri,Ev,OK
+noun-keuken,keuken,de,mutfak,Ev,OK
+noun-raam,raam,het,pencere,Ev,OK
+noun-trap,trap,de,merdiven,Ev,
+noun-afval,afval,het,çöp,Ev,
+noun-kast,kast,de,dolap,Ev,OK
+noun-spiegel,spiegel,de,ayna,Ev,
+noun-doos,doos,de,kutu,Ev,
+noun-lamp,lamp,de,lamba,Ev,
+noun-stoel,stoel,de,sandalye,Ev,
+noun-laken,laken,het,çarşaf,Ev,
+noun-pan,pan,de,tencere,Ev,
+noun-flat,flat,de,apartman,Ev,OK
+noun-sleutel,sleutel,de,anahtar,Ev,
+noun-toilet,toilet,het,tuvalet,Ev,OK
+noun-balkon,balkon,het,balkon,Ev,OK
+verb-eten,eten,,yemek yemek,Yiyecek ve içecek,OK
+noun-water,water,het,su,Yiyecek ve içecek,OK
+adj-lekker,lekker,,lezzetli,Yiyecek ve içecek,OK
+noun-restaurant,restaurant,het,restoran,Yiyecek ve içecek,OK
+verb-drinken,drinken,,içmek,Yiyecek ve içecek,OK
+noun-bier,bier,het,bira,Yiyecek ve içecek,OK
+verb-bereiden,bereiden,,hazırlamak (yemek),Yiyecek ve içecek,
+noun-glas,glas,het,bardak,Yiyecek ve içecek,
+noun-gerecht,gerecht,het,yemek çeşidi,Yiyecek ve içecek,
+noun-wijn,wijn,de,şarap,Yiyecek ve içecek,
+noun-vlees,vlees,het,et,Yiyecek ve içecek,OK
+verb-bakken,bakken,,fırında pişirmek,Yiyecek ve içecek,
+noun-vis,vis,de,balık,Yiyecek ve içecek,
+noun-brood,brood,het,ekmek,Yiyecek ve içecek,
+adj-vers,vers,,taze,Yiyecek ve içecek,
+noun-drank,drank,de,içecek,Yiyecek ve içecek,
+verb-snijden,snijden,,kesmek,Yiyecek ve içecek,
+noun-fles,fles,de,şişe,Yiyecek ve içecek,OK
+verb-koken,koken,,yemek pişirmek,Yiyecek ve içecek,
+noun-koffie,koffie,de,kahve,Yiyecek ve içecek,OK
+noun-olie,olie,de,yağ,Yiyecek ve içecek,
+adj-zuur,zuur,,ekşi,Yiyecek ve içecek,
+noun-kaas,kaas,de,peynir,Yiyecek ve içecek,
+noun-smaak,smaak,de,tat,Yiyecek ve içecek,
+noun-kip,kip,de,tavuk,Yiyecek ve içecek,
+noun-appel,appel,de,elma,Yiyecek ve içecek,OK
+noun-groente,groente,de,sebze,Yiyecek ve içecek,OK
+noun-wortel,wortel,de,havuç,Yiyecek ve içecek,
+noun-recept,recept,het,reçete,Yiyecek ve içecek,
+noun-jaar,jaar,het,yıl,Zaman,OK
+adj-laat,laat,,geç,Zaman,OK
+noun-tijd,tijd,de,zaman,Zaman,
+noun-dag,dag,de,gün,Zaman,OK
+noun-seizoen,seizoen,het,mevsim,Zaman,
+noun-uur,uur,het,saat (süre),Zaman,OK
+noun-keer,keer,de,kez,Zaman,OK
+noun-moment,moment,het,an,Zaman,
+noun-maand,maand,de,ay,Zaman,OK
+adj-vorig,vorig,,geçen,Zaman,
+noun-periode,periode,de,"dönem, süre",Zaman,
+noun-week,week,de,hafta,Zaman,OK
+adj-vroeg,vroeg,,erken,Zaman,OK
+verb-duren,duren,,(zaman) sürmek,Zaman,OK
+noun-minuut,minuut,de,dakika,Zaman,OK
+noun-nacht,nacht,de,gece,Zaman,
+noun-toekomst,toekomst,de,gelecek,Zaman,
+adj-dagelijks,dagelijks,,günlük,Zaman,
+noun-datum,datum,de,tarih (gün),Zaman,
+noun-avond,avond,de,akşam,Zaman,OK
+noun-weekend,weekend,het,hafta sonu,Zaman,OK
+noun-zomer,zomer,de,yaz,Zaman,OK
+noun-winter,winter,de,kış,Zaman,OK
+noun-ochtend,ochtend,de,sabah,Zaman,OK
+noun-voorjaar,voorjaar,het,"bahar, ilkbahar",Zaman,
+noun-verjaardag,verjaardag,de,doğum günü,İnsanlar ve aile,OK
+noun-kwart,kwart,het,çeyrek,Zaman,OK
+noun-agenda,agenda,de,ajanda,Zaman,
+noun-middag,middag,de,öğleden sonra,Zaman,
+noun-kerst,kerst,de,Noel,Zaman,
+noun-feestdag,feestdag,de,resmî tatil günü,Zaman,
+noun-herfst,herfst,de,sonbahar,Zaman,
+noun-kalender,kalender,de,takvim,Zaman,OK
+verb-werken,werken,,çalışmak,Okul ve iş,OK
+noun-werk,werk,het,iş,Okul ve iş,OK
+verb-schrijven,schrijven,,yazmak,Okul ve iş,OK
+verb-lezen,lezen,,okumak,Okul ve iş,OK
+verb-leren,leren,,öğrenmek,Okul ve iş,OK
+noun-school,school,de,okul,Okul ve iş,OK
+noun-les,les,de,ders,Okul ve iş,OK
+noun-leraar,leraar,de,öğretmen,Okul ve iş,OK
+noun-klas,klas,de,sınıf,Okul ve iş,OK
+noun-computer,computer,de,bilgisayar,Okul ve iş,OK
+noun-stad,stad,de,şehir,Şehir ve ulaşım,OK
+noun-weg,weg,de,yol,Şehir ve ulaşım,OK
+noun-land,land,het,ülke,Doğa ve hava,OK
+noun-auto,auto,de,araba,Şehir ve ulaşım,OK
+verb-rijden,rijden,,araç sürmek,Şehir ve ulaşım,OK
+noun-straat,straat,de,sokak,Şehir ve ulaşım,OK
+noun-station,station,het,istasyon,Şehir ve ulaşım,OK
+adj-rechts,rechts,,sağ,Şehir ve ulaşım,OK
+noun-park,park,het,park,Şehir ve ulaşım,OK
+adj-links,links,,sol,Şehir ve ulaşım,OK
+noun-trein,trein,de,tren,Şehir ve ulaşım,OK
+noun-bus,bus,de,otobüs,Şehir ve ulaşım,OK
+noun-fiets,fiets,de,bisiklet,Şehir ve ulaşım,OK
+noun-haar,haar,het,saç,Vücut ve sağlık,OK
+noun-hand,hand,de,el,Vücut ve sağlık,
+verb-overlijden,overlijden,,vefat etmek,Vücut ve sağlık,
+noun-ziekenhuis,ziekenhuis,het,hastane,Vücut ve sağlık,OK
+noun-hoofd,hoofd,het,kafa,Vücut ve sağlık,
+noun-patiënt,patiënt,de,hasta (kişi),Vücut ve sağlık,
+noun-lichaam,lichaam,het,vücut,Vücut ve sağlık,
+noun-oog,oog,het,göz,Vücut ve sağlık,OK
+noun-ziekte,ziekte,de,hastalık,Vücut ve sağlık,
+noun-arm,arm,de,kol,Vücut ve sağlık,
+noun-voet,voet,de,ayak,Vücut ve sağlık,OK
+adj-ziek,ziek,,hasta,Vücut ve sağlık,OK
+noun-arts,arts,de,hekim,Vücut ve sağlık,
+noun-gezicht,gezicht,het,yüz,Vücut ve sağlık,
+noun-gezondheid,gezondheid,de,sağlık,Vücut ve sağlık,
+noun-behandeling,behandeling,de,tedavi,Vücut ve sağlık,
+noun-klacht,klacht,de,şikâyet,Vücut ve sağlık,
+noun-ongeluk,ongeluk,het,kaza,Vücut ve sağlık,
+verb-bewegen,bewegen,,hareket etmek,Vücut ve sağlık,
+noun-tand,tand,de,diş,Vücut ve sağlık,
+noun-griep,griep,de,grip,Vücut ve sağlık,
+noun-mond,mond,de,ağız,Vücut ve sağlık,
+adj-gezond,gezond,,sağlıklı,Vücut ve sağlık,OK
+noun-neus,neus,de,burun,Vücut ve sağlık,
+noun-oor,oor,het,kulak,Vücut ve sağlık,
+noun-pijn,pijn,de,ağrı,Vücut ve sağlık,
+noun-medicijn,medicijn,het,ilaç,Vücut ve sağlık,
+noun-huid,huid,de,cilt,Vücut ve sağlık,
+noun-rust,rust,de,"dinlenme, huzur",Vücut ve sağlık,
+noun-been,been,het,bacak,Vücut ve sağlık,
+noun-vinger,vinger,de,parmak,Vücut ve sağlık,
+verb-bloeden,bloeden,,kanamak,Vücut ve sağlık,
+noun-teen,teen,de,ayak parmağı,Vücut ve sağlık,
+noun-buik,buik,de,karın,Vücut ve sağlık,
+verb-genezen,genezen,,iyileşmek,Vücut ve sağlık,
+noun-bloed,bloed,het,kan,Vücut ve sağlık,
+noun-schouder,schouder,de,omuz,Vücut ve sağlık,
+adj-zwanger,zwanger,,hamile,Vücut ve sağlık,
+noun-nek,nek,de,ense,Vücut ve sağlık,
+noun-keel,keel,de,boğaz,Vücut ve sağlık,
+verb-roken,roken,,sigara içmek,Vücut ve sağlık,
+noun-tong,tong,de,dil (organ),Vücut ve sağlık,
+verb-spelen,spelen,,oynamak,Boş zaman,OK
+noun-film,film,de,film,Boş zaman,
+noun-muziek,muziek,de,müzik,Boş zaman,OK
+noun-foto,foto,de,fotoğraf,Boş zaman,OK
+noun-televisie,televisie,de,televizyon,Boş zaman,OK
+noun-vakantie,vakantie,de,tatil,Boş zaman,OK
+noun-sport,sport,de,spor,Boş zaman,OK
+noun-voetbal,voetbal,het,futbol,Boş zaman,OK
+verb-zwemmen,zwemmen,,yüzmek,Boş zaman,OK
+noun-weer,weer,het,hava durumu,Doğa ve hava,
+noun-dier,dier,het,hayvan,Doğa ve hava,
+noun-zee,zee,de,deniz,Doğa ve hava,OK
+noun-hond,hond,de,köpek,Doğa ve hava,OK
+noun-boom,boom,de,ağaç,Doğa ve hava,
+noun-zon,zon,de,güneş,Doğa ve hava,OK
+verb-regenen,regenen,,yağmur yağmak,Doğa ve hava,OK
+verb-zijn,zijn,,olmak,Günlük fiiller,OK
+verb-hebben,hebben,,sahip olmak,Günlük fiiller,OK
+verb-kunnen,kunnen,,yapabilmek,Günlük fiiller,OK
+verb-gaan,gaan,,gitmek,Günlük fiiller,OK
+verb-komen,komen,,gelmek,Günlük fiiller,OK
+verb-moeten,moeten,,zorunda olmak,Günlük fiiller,OK
+verb-maken,maken,,yapmak (üretmek),Günlük fiiller,OK
+verb-zien,zien,,görmek,Günlük fiiller,OK
+verb-doen,doen,,yapmak,Günlük fiiller,OK
+verb-krijgen,krijgen,,(birinden) almak,Günlük fiiller,OK
+verb-wassen,wassen,,yıkamak,Ev,OK
+verb-staan,staan,,ayakta durmak,Günlük fiiller,OK
+verb-vinden,vinden,,bulmak,Günlük fiiller,OK
+verb-nemen,nemen,,almak,Günlük fiiller,OK
+verb-geven,geven,,vermek,Günlük fiiller,OK
+verb-willen,willen,,istemek,Günlük fiiller,OK
+verb-liggen,liggen,,uzanmak,Günlük fiiller,OK
+verb-beginnen,beginnen,,başlamak,Günlük fiiller,OK
+verb-mogen,mogen,,izni olmak,Günlük fiiller,OK
+verb-denken,denken,,düşünmek,Günlük fiiller,OK
+verb-zitten,zitten,,oturmak,Günlük fiiller,OK
+verb-brengen,brengen,,getirmek,Günlük fiiller,OK
+verb-lopen,lopen,,yürümek,Günlük fiiller,OK
+verb-weten,weten,,bilmek,Günlük fiiller,OK
+verb-kijken,kijken,,bakmak,Günlük fiiller,OK
+verb-openen,openen,,açmak,Günlük fiiller,
+verb-horen,horen,,duymak,Vücut ve sağlık,OK
+verb-helpen,helpen,,yardım etmek,Günlük fiiller,OK
+verb-sluiten,sluiten,,kapatmak,Günlük fiiller,
+verb-zoeken,zoeken,,aramak,Günlük fiiller,OK
+verb-wachten,wachten,,beklemek,Günlük fiiller,OK
+verb-slapen,slapen,,uyumak,Ev,OK
+adj-moe,moe,,yorgun,Vücut ve sağlık,OK
+adj-gelukkig,gelukkig,,mutlu,Duygular,OK
+adj-bang,bang,,korkmuş,Duygular,OK
+adj-boos,boos,,kızgın,Duygular,OK
+adj-ander,ander,,başka,Tanımlama,OK
+adj-groot,groot,,büyük,Tanımlama,OK
+adj-nieuw,nieuw,,yeni,Tanımlama,OK
+adj-lang,lang,,uzun,Tanımlama,OK
+adj-goed,goed,,iyi,Tanımlama,OK
+adj-ver,ver,,uzak,Şehir ve ulaşım,OK
+adj-klein,klein,,küçük,Tanımlama,OK
+adj-hoog,hoog,,yüksek,Tanımlama,
+adj-oud,oud,,"yaşlı, eski",Tanımlama,OK
+adj-snel,snel,,hızlı,Tanımlama,OK
+adj-mooi,mooi,,güzel,Tanımlama,OK
+adj-jong,jong,,genç,Tanımlama,OK
+adj-rood,rood,,kırmızı,Tanımlama,OK
+adj-moeilijk,moeilijk,,zor,Tanımlama,OK
+adj-kort,kort,,kısa,Tanımlama,OK
+adj-laag,laag,,alçak,Tanımlama,
+adj-zwart,zwart,,siyah,Tanımlama,
+adj-leuk,leuk,,"eğlenceli, hoş",Duygular,OK
+adj-slecht,slecht,,kötü,Tanımlama,
+adj-groen,groen,,yeşil,Tanımlama,
+adj-makkelijk,makkelijk,,kolay,Tanımlama,
+adj-wit,wit,,beyaz,Tanımlama,OK
+noun-kleur,kleur,de,renk,Tanımlama,OK
+adj-dik,dik,,şişman,Vücut ve sağlık,OK
+adj-geel,geel,,sarı,Tanımlama,OK
+adj-oranje,oranje,,turuncu,Tanımlama,
+adj-langzaam,langzaam,,yavaş,Tanımlama,
+adj-warm,warm,,sıcak,Tanımlama,
+adj-blauw,blauw,,mavi,Tanımlama,OK
+adj-bruin,bruin,,kahverengi,Tanımlama,OK
+adj-heet,heet,,çok sıcak,Tanımlama,
+adj-grijs,grijs,,gri,Tanımlama,OK
+adj-schoon,schoon,,temiz,Ev,OK
+adj-koud,koud,,soğuk,Doğa ve hava,OK
+verb-zeggen,zeggen,,söylemek,İletişim,OK
+verb-vragen,vragen,,sormak,İletişim,OK
+verb-spreken,spreken,,konuşmak,İletişim,OK
+noun-nummer,nummer,het,numara,İletişim,
+noun-woord,woord,het,kelime,İletişim,
+noun-vraag,vraag,de,soru,İletişim,OK
+verb-begrijpen,begrijpen,,anlamak,İletişim,OK
+verb-heten,heten,,adı … olmak,İletişim,OK
+noun-taal,taal,de,dil (lisan),İletişim,OK
+verb-praten,praten,,sohbet etmek,İletişim,OK
+noun-telefoon,telefoon,de,telefon,İletişim,OK
+verb-luisteren,luisteren,,dinlemek,İletişim,OK
+verb-antwoorden,antwoorden,,cevap vermek,İletişim,OK
+verb-bellen,bellen,,telefon etmek,İletişim,OK
+noun-antwoord,antwoord,het,cevap,İletişim,OK
+noun-adres,adres,het,adres,İletişim,OK
+noun-euro,euro,de,avro,Alışveriş ve para,OK
+verb-betalen,betalen,,ödemek,Alışveriş ve para,OK
+noun-geld,geld,het,para,Alışveriş ve para,OK
+verb-kopen,kopen,,satın almak,Alışveriş ve para,OK
+noun-markt,markt,de,pazar,Alışveriş ve para,
+adj-duur,duur,,pahalı,Alışveriş ve para,OK
+noun-winkel,winkel,de,dükkân,Alışveriş ve para,OK
+noun-prijs,prijs,de,fiyat,Alışveriş ve para,OK
+noun-supermarkt,supermarkt,de,süpermarket,Alışveriş ve para,OK
+adj-goedkoop,goedkoop,,ucuz,Alışveriş ve para,
+verb-dragen,dragen,,taşımak,Günlük fiiller,OK
+verb-passen,passen,,uymak (beden),Giyim,OK
+noun-maat,maat,de,beden,Giyim,
+noun-ring,ring,de,yüzük,Giyim,
+noun-kleding,kleding,de,giysi,Giyim,
+noun-mondmasker,mondmasker,het,maske (ağız-burun),Giyim,
+noun-broek,broek,de,pantolon,Giyim,
+noun-bril,bril,de,gözlük,Giyim,
