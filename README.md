@@ -53,6 +53,8 @@ Review sheets for B1: `npm run export-review -- [--lang en] --stage b1 b1`; impo
 
 The A1/A2 extras are staged in `data/a1a2/` and use the live categories. When they are reviewed, `npm run promote-stage -- a1a2` moves them into the live files: the words into `data/words-own.json` (own selection, never written by `npm run extract`), annotations and texts into the existing own-data files. `data/words.json` holds only NT2Lex-derived words.
 
+The A1/A2 core words that replace the NT2Lex launch words (US-023, ADR-022) are staged in `data/core/` under `data/core/selection-criteria.md`: `npm run b1-pool -- --build --level core` (never reads `data/words.json`), `--write --level core`, then after the selection is merged `npm run core -- --overlap` and `--carry`. `npm run promote-stage -- core` empties `data/words.json`; from then on `NT2LEX_RETIRED` in `scripts/validate.ts` is true and no NT2Lex row can return (`npm run validate` and the release build refuse one).
+
 ## B1 pool tool
 
 `npm run b1-pool -- --fetch` downloads the open sources into `.cache/b1/` (never committed): the Leipzig Corpora Collection word counts (CC BY), the Wiktionary Dutch extract of kaikki.org (CC BY-SA 4.0) and the OpenTaal wordlist (BSD-3 or CC BY 3.0). `--build` writes the candidate pool, `--write` turns `data/b1/selection.json` into `data/b1/words.json`, and `--check-articles` compares our de/het articles with Wiktionary. Wiktionary is used to check only: none of its text is copied into this repository. The selection criteria are in `data/b1/selection-criteria.md`.

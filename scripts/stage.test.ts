@@ -11,7 +11,7 @@ import { partialEnglish, validContent } from './fixtures/valid.ts';
 import { loadStage, mergeStage, promoteStage, stageFiles, stageReport, takeStage, validateStage, withoutNt2lex } from './stage.ts';
 import type { Stage } from './stage.ts';
 import { loadContent, validateContent } from './validate.ts';
-import type { Annotation, TranslationFile, Word } from './validate.ts';
+import type { Annotation, Content, TranslationFile, Word } from './validate.ts';
 
 function stage(): Stage {
   return {
@@ -146,7 +146,7 @@ describe('mergeStage and loadStage', () => {
     const dir = root(true);
     assert.ok(!loadContent(dir).words.some((w) => w.id === 'noun-gemeente'));
     assert.ok(loadStage('b1', dir).words.some((w) => w.id === 'noun-gemeente'));
-    assert.throws(() => loadStage('c1', dir), /Unknown stage "c1"; staged: b1, a1a2, b2/);
+    assert.throws(() => loadStage('c1', dir), /Unknown stage "c1"; staged: b1, a1a2, b2, core/);
   });
 
   it('returns an empty stage without data/b1', () => {
@@ -366,7 +366,7 @@ describe('promoteStage (T-153)', () => {
   });
 
   it('refuses B2', () => {
-    assert.throws(() => promoteStage(validContent(), [], { ...stage(), name: 'b2' }), /Only a1a2 and b1 are promoted here/);
+    assert.throws(() => promoteStage(validContent(), [], { ...stage(), name: 'b2' }), /Only a1a2, b1 and core are promoted here/);
   });
 
   describe('B1 (T-197)', () => {
@@ -463,5 +463,47 @@ describe('core stage (ADR-022)', () => {
 
   it('is a stage name that loadStage knows', () => {
     assert.equal(loadStage('core').name, 'core');
+  });
+
+  it('mergeStage does not duplicate a kept launch id', () => {
+    const ids = mergeStage(validContent(), core()).words.map((w) => w.id);
+    assert.equal(ids.filter((id) => id === 'noun-tandarts').length, 1);
+  });
+
+  describe('promoteStage', () => {
+    /** Keeps `noun-tandarts` (launch, now own), adds `noun-fiets`; `verb-lopen` is retired. */
+    function promoted(): Stage {
+      const c = core();
+      c.words.push({ id: 'noun-fiets', lemma_nl: 'fiets', pos: 'noun', cefr: 'A2', source: 'own' });
+      c.annotations!.push({ word_id: 'noun-fiets', article: 'de', category_id: 'health', reviewed: true, review_source: 'owner' });
+      c.translations.tr!.words.push({ word_id: 'noun-fiets', text: 'bisiklet', reviewed: true, review_source: 'owner' });
+      return c;
+    }
+
+    it('empties data/words.json, drops every nt2lex id and appends the core rows', () => {
+      const live = validContent();
+      const { files, remove } = promoteStage(live, [], promoted());
+      assert.deepEqual(files['data/words.json'], []);
+      assert.deepEqual((files['data/words-own.json'] as Word[]).map((w) => w.id), ['noun-tandarts', 'noun-fiets']);
+      assert.deepEqual((files['data/annotations.json'] as Annotation[]).map((a) => a.word_id), ['noun-tandarts', 'noun-fiets']);
+      const tr = files['data/translations/tr.json'] as TranslationFile;
+      assert.deepEqual(tr.words.map((t) => t.word_id), ['noun-tandarts', 'noun-fiets']);
+      assert.equal((files['data/annotations.json'] as Annotation[])[1].text_tr, 'bisiklet');
+      assert.deepEqual(tr.categories, live.translations.tr.categories);
+      assert.ok(remove.includes('data/a2-selection.json') && remove.includes('data/core/words.json'));
+      assert.equal('data/categories.json' in files, false);
+    });
+
+    it('leaves a valid merged result', () => {
+      const live = validContent();
+      const { files } = promoteStage(live, [], promoted());
+      const merged: Content = {
+        ...live,
+        words: [...(files['data/words.json'] as Word[]), ...(files['data/words-own.json'] as Word[])],
+        annotations: files['data/annotations.json'] as Annotation[],
+        translations: { ...live.translations, tr: files['data/translations/tr.json'] as TranslationFile },
+      };
+      assert.deepEqual(validateContent(merged), []);
+    });
   });
 });

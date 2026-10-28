@@ -31,6 +31,13 @@ function b1Content() {
 }
 
 describe('buildRelease', () => {
+  it('blocks NT2Lex-derived words once NT2Lex is retired, and only then (US-023)', () => {
+    const opts = { minimums: {}, allowPartial: true };
+    assert.throws(() => buildRelease(validContent(), { ...opts, nt2lexRetired: true }), /Release blocked — 2 NT2Lex-derived words \(US-023\)/);
+    assert.doesNotThrow(() => buildRelease(validContent(), { ...opts, nt2lexRetired: false }));
+    assert.doesNotThrow(() => buildRelease(validContent(), opts));
+  });
+
   it('blocks a live B2 word, with or without --allow-partial', () => {
     const content = validContent();
     content.words[0].cefr = 'B2';

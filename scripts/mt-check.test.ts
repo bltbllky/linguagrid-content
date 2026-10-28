@@ -152,7 +152,7 @@ describe('loadStageRelease', () => {
   });
 
   it('rejects an unknown stage', () => {
-    assert.throws(() => loadStageRelease(stageFixture(), 'c1'), { message: 'Unknown stage "c1"; staged: b1, a1a2, b2' });
+    assert.throws(() => loadStageRelease(stageFixture(), 'c1'), { message: 'Unknown stage "c1"; staged: b1, a1a2, b2, core' });
   });
 
   it('reads the other stages, an absent folder being empty', () => {

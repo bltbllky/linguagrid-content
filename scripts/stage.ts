@@ -28,7 +28,7 @@ export interface Stage {
 }
 
 export function loadStage(name: string = 'b1', root = ROOT): Stage {
-  if (!Object.hasOwn(STAGES, name)) throw new Error(`Unknown stage "${name}"; staged: b1, a1a2, b2`);
+  if (!Object.hasOwn(STAGES, name)) throw new Error(`Unknown stage "${name}"; staged: b1, a1a2, b2, core`);
   const dir = join(root, 'data', name);
   const read = (file: string) => JSON.parse(readFileSync(join(dir, file), 'utf8'));
   const readIfPresent = <T>(file: string): T | undefined => (existsSync(join(dir, file)) ? read(file) : undefined);
@@ -53,7 +53,9 @@ export function takeStage(args: string[], root = ROOT): Stage | undefined {
 }
 
 /** The live content followed by the staged content, so every live rule can run on both. */
-export function mergeStage(live: Content, stage: Stage): Content {
+export function mergeStage(liveContent: Content, stage: Stage): Content {
+  // Core replaces the NT2Lex launch words, so it merges over the live content without them (ADR-022).
+  const live = stage.name === 'core' ? withoutNt2lex(liveContent) : liveContent;
   const langs = new Set([...Object.keys(live.translations), ...Object.keys(stage.translations)]);
   const translations = Object.fromEntries(
     [...langs].map((lang) => {
@@ -85,7 +87,7 @@ export function withoutNt2lex(c: Content): Content {
 }
 
 export function validateStage(liveContent: Content, stage: Stage, others: Stage[] = []): { errors: string[]; incomplete: string[] } {
-  // A core word replaces the NT2Lex launch words, so it may reuse their ids and lemmas (ADR-022).
+  // A core word replaces the NT2Lex launch words, so it may reuse their ids and lemmas (ADR-022); mergeStage strips them too.
   const live = stage.name === 'core' ? withoutNt2lex(liveContent) : liveContent;
   const errors: string[] = [];
   const incomplete: string[] = [];
@@ -180,13 +182,19 @@ export function stageReport(live: Content, stage: Stage): string[] {
 
 /**
  * The live files to write when a reviewed stage goes live, keyed by path relative to the repository root, and the staged
- * paths to remove afterwards. Only the A1/A2 extras and B1 are promoted here. The extras use the live categories; B1 brings
+ * paths to remove afterwards. Only the A1/A2 extras, B1 and core are promoted here. Core replaces the NT2Lex words: they and their
+ * annotations and texts leave the live files, `data/words.json` becomes empty (ADR-022). The extras use the live categories; B1 brings
  * its own categories and their titles. A language that the stage has but live lacks becomes a new file.
  */
-export function promoteStage(live: Content, liveOwn: Word[], stage: Stage): { files: Record<string, unknown>; remove: string[] } {
-  if (stage.name !== 'a1a2' && stage.name !== 'b1') throw new Error('Only a1a2 and b1 are promoted here; B2 is released by its US-033 task');
+export function promoteStage(liveContent: Content, liveOwn: Word[], stage: Stage): { files: Record<string, unknown>; remove: string[] } {
+  if (stage.name !== 'a1a2' && stage.name !== 'b1' && stage.name !== 'core') {
+    throw new Error('Only a1a2, b1 and core are promoted here; B2 is released by its US-033 task');
+  }
   const { ownCategories } = STAGES[stage.name];
+  const core = stage.name === 'core';
+  const live = core ? withoutNt2lex(liveContent) : liveContent;
   const files: Record<string, unknown> = { 'data/words-own.json': [...liveOwn, ...stage.words] };
+  if (core) files['data/words.json'] = [];
   for (const [lang, staged] of Object.entries(stage.translations)) {
     const current = live.translations[lang];
     files[`data/translations/${lang}.json`] = {
@@ -205,5 +213,6 @@ export function promoteStage(live: Content, liveOwn: Word[], stage: Stage): { fi
   files['data/annotations.json'] = [...live.annotations, ...legacy.annotations];
   if (ownCategories) files['data/categories.json'] = [...live.categories, ...legacy.categories];
   const dir = `data/${stage.name}`;
-  return { files, remove: [`${dir}/words.json`, ...(ownCategories ? [`${dir}/categories.json`] : []), `${dir}/annotations.json`, `${dir}/translations`] };
+  const staged = [`${dir}/words.json`, ...(ownCategories ? [`${dir}/categories.json`] : []), `${dir}/annotations.json`, `${dir}/translations`];
+  return { files, remove: core ? [...staged, 'data/a2-selection.json'] : staged };
 }

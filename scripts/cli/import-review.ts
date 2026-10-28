@@ -13,7 +13,7 @@ const reviewerAt = args.indexOf('--reviewer');
 const source = reviewerAt >= 0 ? (args.splice(reviewerAt, 1), 'reviewer' as const) : 'owner';
 const stage = takeStage(args);
 const file = args[0];
-if (!file) throw new Error('Usage: npm run import-review -- [--reviewer] [--stage b1|a1a2|b2] review/a1.csv | review/en/a1.csv');
+if (!file) throw new Error('Usage: npm run import-review -- [--reviewer] [--stage b1|a1a2|b2|core] review/a1.csv | review/en/a1.csv');
 // review/<lang>/<level>.csv names its language; review/<level>.csv is Turkish.
 const folder = basename(dirname(file));
 const lang = flag ?? (/^[a-z]{2,3}$/.test(folder) ? folder : 'tr');

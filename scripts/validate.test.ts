@@ -6,7 +6,7 @@ import { describe, it } from 'node:test';
 
 import { CARDINALS } from './b1-pool.ts';
 import { partialEnglish, validContent } from './fixtures/valid.ts';
-import { fileSourceIssues, loadContent, translationReport, validateContent, withLegacyTurkish, wordId } from './validate.ts';
+import { NT2LEX_RETIRED, fileSourceIssues, loadContent, translationReport, validateContent, withLegacyTurkish, wordId } from './validate.ts';
 
 describe('validateContent', () => {
   it('accepts valid content', () => {
@@ -335,6 +335,17 @@ describe('data/words-own.json (T-153)', () => {
   it('fileSourceIssues is empty for clean files, with and without the own file', () => {
     assert.deepEqual(fileSourceIssues(tempRoot()), []);
     assert.deepEqual(fileSourceIssues(tempRoot([ownWord])), []);
+  });
+
+  it('fileSourceIssues refuses every words.json row once NT2Lex is retired (US-023)', () => {
+    const root = tempRoot();
+    const ids = validContent().words.map((w) => w.id);
+    assert.deepEqual(
+      fileSourceIssues(root, true),
+      ids.map((id) => `data/words.json: ${id} is NT2Lex-derived; NT2Lex is retired (US-023, ADR-022)`),
+    );
+    assert.deepEqual(fileSourceIssues(root, false), []);
+    assert.equal(NT2LEX_RETIRED, false);
   });
 
   it('fileSourceIssues rejects an own row in words.json', () => {

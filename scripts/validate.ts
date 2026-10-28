@@ -267,11 +267,18 @@ export function loadContent(root = ROOT): Content {
   };
 }
 
+/** ADR-022: true once the core words replace NT2Lex; no NT2Lex row may return then. */
+export const NT2LEX_RETIRED = false; // ADR-022: set to true by T-226 with release 3
+
 /** Each word file holds one kind of word: NT2Lex-derived rows in `words.json`, our own selection in `words-own.json` (T-153). */
-export function fileSourceIssues(root = ROOT): string[] {
+export function fileSourceIssues(root = ROOT, retired = NT2LEX_RETIRED): string[] {
   const read = (file: string): Word[] => (existsSync(join(root, file)) ? JSON.parse(readFileSync(join(root, file), 'utf8')) : []);
   return [
-    ...read('data/words.json').filter((w) => w.source !== 'nt2lex').map((w) => `data/words.json: ${w.id} has source own (own words belong in data/words-own.json)`),
+    ...read('data/words.json')
+      .filter((w) => retired || w.source !== 'nt2lex')
+      .map((w) =>
+        retired ? `data/words.json: ${w.id} is NT2Lex-derived; NT2Lex is retired (US-023, ADR-022)` : `data/words.json: ${w.id} has source own (own words belong in data/words-own.json)`,
+      ),
     ...read('data/words-own.json').filter((w) => w.source !== 'own').map((w) => `data/words-own.json: ${w.id} has source nt2lex`),
   ];
 }
