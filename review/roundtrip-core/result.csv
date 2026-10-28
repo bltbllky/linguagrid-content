@@ -1,0 +1,376 @@
+id,dutch,en,tr_existing,tr_blind,class,reason,tr_blind_nl,class_nl,article_check,verdict
+adj-aardig,aardig,kind,nazik,nazik,match,same text,nazik,match,,OK
+adj-alleen,alleen,alone,"tek başına, yalnız",yalnız,match,same head word,yalnız,match,,owner
+adj-belangrijk,belangrijk,important,önemli,önemli,match,same text,önemli,match,,OK
+adj-bijzonder,bijzonder,special,özel,özel,match,same text,özel,match,,OK
+adj-dagelijks,dagelijks,daily,günlük,günlük,match,same text,günlük,match,,OK
+adj-dicht,dicht,closed,kapalı,kapalı,match,same text,kapalı,match,,OK
+adj-druk,druk,busy,yoğun,yoğun,match,same text,yoğun,match,,OK
+adj-echt,echt,real,gerçek,gerçek,match,same text,gerçek,match,,OK
+adj-eenzaam,eenzaam,lonely,yalnız,yalnız (kimsesiz),match,same sense,yalnızlık çeken,match,,OK
+adj-eigen,eigen,own,kendi,kendi,match,same text,kendi,match,,OK
+adj-erg,erg,awful,"çok kötü, berbat",kötü,match,"same sense, weaker synonym",kötü [ciddi],match,,OK
+adj-fijn,fijn,lovely,hoş,güzel,match,synonym,hoş,match,,OK
+adj-gevoelig,gevoelig,sensitive,"hassas, duyarlı",hassas,match,same head word,hassas,match,,OK
+adj-goedkoop,goedkoop,cheap,ucuz,ucuz,match,same text,ucuz,match,,OK
+adj-groen,groen,green,yeşil,yeşil,match,same text,yeşil,match,,OK
+adj-hard,hard,hard,sert,sert,match,same text,sert,match,,OK
+adj-heet,heet,hot,çok sıcak,çok sıcak,match,same text,çok sıcak,match,,OK
+adj-hoog,hoog,high,yüksek,yüksek,match,same text,yüksek,match,,OK
+adj-interessant,interessant,interesting,ilginç,ilginç,match,same text,ilginç,match,,OK
+adj-juist,juist,correct,"doğru, tam",doğru,match,same head word,doğru,match,,owner
+adj-klaar,klaar,ready,hazır,hazır,match,same text,hazır,match,,OK
+adj-laag,laag,low,alçak,alçak,match,same text,alçak,match,,OK
+adj-langzaam,langzaam,slow,yavaş,yavaş,match,same text,yavaş,match,,OK
+adj-leeg,leeg,empty,boş,boş,match,same text,boş,match,,OK
+adj-lief,lief,sweet,sevimli,tatlı,match,synonym,sevimli,match,,OK
+adj-makkelijk,makkelijk,easy,kolay,kolay,match,same text,kolay,match,,OK
+adj-natuurlijk,natuurlijk,natural,doğal,doğal,match,"NL: ""tabii"" is the adverb sense ""of course""",tabii,mismatch,,owner
+adj-nerveus,nerveus,nervous,gergin,gergin,match,same text,gergin,match,,OK
+adj-nodig,nodig,necessary,gerekli,gerekli,match,same text,gerekli,match,,OK
+adj-ongelukkig,ongelukkig,unhappy,mutsuz,mutsuz,match,same text,mutsuz,match,,OK
+adj-open,open,open,açık,açık,match,same text,açık,match,,OK
+adj-oranje,oranje,orange (colour),turuncu,turuncu,match,same text,turuncu,match,,OK
+adj-persoonlijk,persoonlijk,personal,kişisel,kişisel,match,same text; EN pass not independent (T-220 author saw the EN prompt),kişisel,match,,owner
+adj-rustig,rustig,calm,sakin,sakin,match,same text,sakin,match,,OK
+adj-slecht,slecht,bad,kötü,kötü,match,same text,kötü,match,,OK
+adj-stil,stil,quiet,sessiz,sessiz,match,same text,sessiz,match,,OK
+adj-verbaasd,verbaasd,surprised,şaşkın,şaşkın,match,same sense,şaşırmış,match,,OK
+adj-verdrietig,verdrietig,sad,üzgün,üzgün,match,same text,üzgün,match,,OK
+adj-vers,vers,fresh,taze,taze,match,same text,taze,match,,OK
+adj-vies,vies,dirty,kirli,kirli,match,same text,kirli,match,,OK
+adj-vorig,vorig,previous,geçen,geçen,match,same text,geçen,match,,OK
+adj-vreemd,vreemd,strange,tuhaf,garip,match,synonym,garip,match,,OK
+adj-waar,waar,true,doğru,doğru (gerçek),match,same head word,doğru [gerçek],match,,OK
+adj-warm,warm,warm,sıcak,sıcak,match,same text,sıcak,match,,OK
+adj-welkom,welkom,welcome,hoş geldin,hoş geldin,match,same sense (plural form),hoş geldiniz,match,,OK
+adj-zacht,zacht,soft,yumuşak,yumuşak,match,same text,yumuşak,match,,OK
+adj-zuur,zuur,sour,ekşi,ekşi,match,same text,ekşi,match,,OK
+adj-zwanger,zwanger,pregnant,hamile,hamile,match,same text,hamile,match,,OK
+adj-zwart,zwart,black,siyah,siyah,match,same text,siyah,match,,OK
+noun-aardappel,aardappel,potato,patates,patates,match,same text,patates,match,match,OK
+noun-ademhaling,ademhaling,breathing,"nefes alma, solunum",nefes alma,match,same head word,nefes alma,match,match,OK
+noun-advocaat,advocaat,lawyer,avukat,avukat,match,same text,avukat,match,match,OK
+noun-afscheid,afscheid,farewell,veda,veda,match,same text,veda,match,match,OK
+noun-afspraak,afspraak,appointment,randevu,randevu,match,same text,randevu,match,match,OK
+noun-afval,afval,rubbish,çöp,çöp,match,same text,çöp,match,match,OK
+noun-agenda,agenda,diary,ajanda,ajanda,match,same text,ajanda,match,match,OK
+noun-agent,agent,police officer,polis memuru,polis memuru,match,same text,polis memuru,match,match,OK
+noun-ambtenaar,ambtenaar,civil servant,memur,memur,match,same text,memur,match,match,OK
+noun-apparaat,apparaat,appliance,cihaz,cihaz,match,same text,cihaz,match,match,OK
+noun-arm,arm,arm,kol,kol,match,same text,kol,match,match,OK
+noun-armband,armband,bracelet,bilezik,bilezik,match,same text,bilezik,match,match,OK
+noun-arts,arts,doctor (physician),hekim,doktor,match,synonym (doktor),doktor,match,match,OK
+noun-baan,baan,job,iş (pozisyon),iş,match,same head word,iş,match,match,OK
+noun-baard,baard,beard,sakal,sakal,match,same text,sakal,match,match,OK
+noun-baas,baas,boss,patron,patron,match,same text,patron,match,match,OK
+noun-baby,baby,baby,bebek,bebek,match,same text,bebek,match,match,OK
+noun-badkamer,badkamer,bathroom,banyo,banyo,match,same text,banyo,match,match,OK
+noun-bak,bak,tub (container),kap,kap (kutu),match,same head word,kap [kutu],match,match,OK
+noun-bank,bank,couch,koltuk,kanepe,match,synonym (kanepe),kanepe,match,match,owner
+noun-been,been,leg,bacak,bacak,match,same text,bacak,match,match,OK
+noun-behandeling,behandeling,treatment,tedavi,tedavi,match,same text,tedavi,match,match,owner
+noun-benzine,benzine,petrol,benzin,benzin,match,same text,benzin,match,match,OK
+noun-biet,biet,beetroot,pancar,pancar,match,same text,pancar,match,match,OK
+noun-bloed,bloed,blood,kan,kan,match,same text,kan,match,match,OK
+noun-boodschap,boodschap,groceries,mesaj,alışveriş (market),mismatch,both readers: shopping sense,alışveriş [market],mismatch,match,owner
+noun-boom,boom,tree,ağaç,ağaç,match,same text,ağaç,match,match,OK
+noun-boot,boot,boat,tekne,tekne,match,same text,tekne,match,match,OK
+noun-boterham,boterham,slice of bread,ekmek dilimi,sandviç (ekmek dilimi),match,same sense,ekmek dilimi [sandviç],match,match,OK
+noun-brief,brief,letter,mektup,mektup,match,same text,mektup,match,match,OK
+noun-bril,bril,glasses,gözlük,gözlük,match,same text,gözlük,match,match,OK
+noun-broek,broek,trousers,pantolon,pantolon,match,same text,pantolon,match,match,OK
+noun-brood,brood,bread,ekmek,ekmek,match,same text,ekmek,match,match,OK
+noun-buik,buik,belly,karın,karın,match,same text,karın,match,match,OK
+noun-buur,buur,neighbour,komşu,komşu,match,same text; EN pass not independent (T-220 author saw the EN prompt),komşu,match,match,owner
+noun-buurt,buurt,neighbourhood,mahalle,mahalle,match,same text,mahalle,match,match,OK
+noun-cadeau,cadeau,present,hediye,hediye,match,same text,hediye,match,match,OK
+noun-café,café,café,kafe,kafe,match,same text,kafe,match,match,OK
+noun-centrum,centrum,centre,merkez,merkez,match,same text,merkez,match,match,OK
+noun-champagne,champagne,champagne,şampanya,şampanya,match,same text,şampanya,match,match,OK
+noun-chauffeur,chauffeur,driver,şoför,şoför,match,same text,şoför,match,match,OK
+noun-collega,collega,colleague,meslektaş,iş arkadaşı,match,synonym,iş arkadaşı,match,match,OK
+noun-dak,dak,roof,çatı,çatı,match,same text,çatı,match,match,OK
+noun-dame,dame,lady,"hanım, bayan",hanımefendi,match,synonym; EN pass not independent (T-220 author saw the EN prompt),bayan,match,match,owner
+noun-datum,datum,date,tarih (gün),tarih,match,same head word,tarih [gün],match,match,OK
+noun-dienst,dienst,service,hizmet,hizmet,match,same text,hizmet,match,match,OK
+noun-dier,dier,animal,hayvan,hayvan,match,same text,hayvan,match,match,OK
+noun-discussie,discussie,discussion (debate),tartışma,tartışma,match,same text,tartışma,match,match,OK
+noun-dolfijn,dolfijn,dolphin,yunus,yunus,match,same text,yunus,match,match,OK
+noun-doos,doos,box,kutu,kutu,match,same text,kutu,match,match,OK
+noun-dorp,dorp,village,köy,köy,match,same text,köy,match,match,OK
+noun-drank,drank,drink,içecek,içecek,match,same text,içecek,match,match,OK
+noun-eiland,eiland,island,ada,ada,match,same text,ada,match,match,OK
+noun-ezel,ezel,donkey,eşek,eşek,match,same text,eşek,match,match,OK
+noun-fabriek,fabriek,factory,fabrika,fabrika,match,same text,fabrika,match,match,OK
+noun-feest,feest,party,parti,parti,match,same text,parti,match,match,OK
+noun-feestdag,feestdag,public holiday,resmî tatil günü,resmi tatil,match,same sense,bayram [resmi tatil],match,match,OK
+noun-file,file,traffic jam,trafik sıkışıklığı,trafik sıkışıklığı,match,same text,trafik sıkışıklığı,match,match,OK
+noun-film,film,film,film,film,match,same text,film,match,match,OK
+noun-fruit,fruit,fruit,meyve,meyve,match,same text,meyve,match,match,OK
+noun-gans,gans,goose,kaz,kaz,match,same text,kaz,match,match,OK
+noun-garage,garage,garage,garaj,garaj,match,same text,garaj,match,match,OK
+noun-garnaal,garnaal,shrimp,karides,karides,match,same text,karides,match,match,OK
+noun-gast,gast,guest,misafir,misafir,match,same text,misafir,match,match,OK
+noun-geboorte,geboorte,birth,doğum,doğum,match,same text,doğum,match,match,OK
+noun-geliefde,geliefde,loved one (partner),sevgili,sevgili,match,same text,sevgili,match,match,OK
+noun-gerecht,gerecht,dish,yemek çeşidi,yemek (tabak),match,same sense,yemek [tabak],match,match,OK
+noun-geschiedenis,geschiedenis,history,tarih (ders),tarih,match,same head word,tarih [geçmiş],match,match,OK
+noun-gezicht,gezicht,face,yüz,yüz,match,same text,yüz,match,match,OK
+noun-gezondheid,gezondheid,health,sağlık,sağlık,match,same text,sağlık,match,match,OK
+noun-glas,glas,glass,bardak,bardak,match,same text,bardak,match,match,OK
+noun-griep,griep,flu,grip,grip,match,same text,grip,match,match,OK
+noun-haai,haai,shark,köpek balığı,köpekbalığı,match,spelling variant,köpekbalığı,match,match,OK
+noun-haard,haard,fireplace,şömine,şömine,match,same text,şömine,match,match,OK
+noun-haas,haas,hare,yabani tavşan,tavşan,close,"""tavşan"" is the wider word; current ""yabani tavşan"" is the precise hare; close/close kept by the content editor",tavşan,close,match,OK
+noun-hamburger,hamburger,hamburger,hamburger,hamburger,match,same text,hamburger,match,match,OK
+noun-hand,hand,hand,el,el,match,same text,el,match,match,OK
+noun-haven,haven,harbour,liman,liman,match,same text,liman,match,match,OK
+noun-hemd,hemd,vest,"atlet, iç gömleği",atlet,match,"NL: ""gömlek"" is the shirt sense (BE); current is the NL undershirt sense",gömlek,close,match,OK
+noun-herfst,herfst,autumn,sonbahar,sonbahar,match,same text,sonbahar,match,match,OK
+noun-hiel,hiel,heel,topuk,topuk,match,same text,topuk,match,match,OK
+noun-hobby,hobby,hobby,hobi,hobi,match,same text,hobi,match,match,OK
+noun-honger,honger,hunger,açlık,açlık,match,same text,açlık,match,match,OK
+noun-hoofd,hoofd,head,kafa,baş,match,synonym,baş,match,match,OK
+noun-hoofdstraat,hoofdstraat,main street,ana cadde,ana cadde,match,same text,ana cadde,match,match,OK
+noun-hoofdstuk,hoofdstuk,chapter,bölüm (kitap),bölüm,match,same head word,bölüm,match,match,OK
+noun-horloge,horloge,watch,kol saati,kol saati,match,same text,kol saati,match,match,OK
+noun-huid,huid,skin,cilt,cilt,match,same text,cilt,match,match,OK
+noun-huisvrouw,huisvrouw,housewife,ev hanımı,ev hanımı,match,same text,ev hanımı,match,match,OK
+noun-hulp,hulp,help,yardım,yardım,match,same text,yardım,match,match,OK
+noun-huwelijk,huwelijk,marriage,evlilik,evlilik,match,same text,evlilik,match,match,OK
+noun-idee,idee,idea,fikir,fikir,match,same text,fikir,match,match,OK
+noun-informatie,informatie,information,bilgi,bilgi,match,same text,bilgi,match,match,OK
+noun-inkomen,inkomen,income,gelir,gelir,match,same text,gelir,match,match,OK
+noun-internet,internet,internet,internet,internet,match,same text,internet,match,match,OK
+noun-inwoner,inwoner,inhabitant,sakin (bir yerde oturan),sakin,match,same head word; EN pass not independent (T-220 author saw the EN prompt),sakin [şehir sakini],match,match,owner
+noun-jas,jas,coat,mont,mont,match,same text,mont,match,match,OK
+noun-jeugd,jeugd,youth,gençlik,gençlik,match,same text; EN pass not independent (T-220 author saw the EN prompt),gençlik,match,match,owner
+noun-jongen,jongen,boy,erkek çocuk,erkek çocuk,match,same text,erkek çocuk,match,match,OK
+noun-kaak,kaak,jaw,çene kemiği,çene (çene kemiği),match,same sense,çene kemiği,match,match,OK
+noun-kaart,kaart,map,harita,harita,match,"NL: card sense first, map as hint",kart [harita],close,match,OK
+noun-kaas,kaas,cheese,peynir,peynir,match,same text,peynir,match,match,OK
+noun-kachel,kachel,stove,soba,soba,match,same text,soba,match,match,OK
+noun-kam,kam,comb,tarak,tarak,match,same text,tarak,match,match,OK
+noun-kantoor,kantoor,office,ofis,ofis,match,same text,ofis,match,match,OK
+noun-keel,keel,throat,boğaz,boğaz,match,same text,boğaz,match,match,OK
+noun-kerk,kerk,church,kilise,kilise,match,same text,kilise,match,match,OK
+noun-kerst,kerst,Christmas,Noel,Noel,match,same text,Noel,match,match,OK
+noun-keuze,keuze,choice,"seçim, tercih",seçim,match,same head word,seçim,match,match,OK
+noun-kilometer,kilometer,kilometre,kilometre,kilometre,match,same text,kilometre,match,match,OK
+noun-kin,kin,chin,çene (ucu),çene,match,same head word,çene,match,match,OK
+noun-kip,kip,chicken,tavuk,tavuk,match,same text,tavuk,match,match,OK
+noun-kist,kist,chest (box),sandık,sandık,match,same text,sandık,match,match,OK
+noun-klacht,klacht,complaint,şikâyet,şikayet,match,spelling variant,şikayet,match,match,OK
+noun-klant,klant,customer,müşteri,müşteri,match,same text,müşteri,match,match,OK
+noun-kleding,kleding,clothing,giysi,giysi,match,same text,giysi,match,match,OK
+noun-koek,koek,biscuit,kurabiye,bisküvi,match,synonym,kurabiye,match,match,OK
+noun-kopje,kopje,cup,fincan,fincan,match,same text,fincan,match,match,owner
+noun-kostuum,kostuum,suit (formal),"kostüm, takım elbise",takım elbise,match,same head word,takım elbise,match,match,owner
+noun-kraag,kraag,collar,yaka,yaka,match,same text,yaka,match,match,OK
+noun-kus,kus,kiss,öpücük,öpücük,match,same text,öpücük,match,match,OK
+noun-kussen,kussen,pillow,yastık,yastık,match,same text,yastık,match,match,OK
+noun-lach,lach,laugh,"gülüş, kahkaha",gülüş,match,same head word,gülüş,match,match,OK
+noun-laken,laken,bed sheet,çarşaf,çarşaf,match,same text,çarşaf,match,match,OK
+noun-lamp,lamp,lamp,lamba,lamba,match,same text,lamba,match,match,OK
+noun-leeftijd,leeftijd,age,yaş,yaş,match,same text,yaş,match,match,OK
+noun-leerling,leerling,pupil,öğrenci,öğrenci,match,same text,öğrenci,match,match,OK
+noun-lever,lever,liver,karaciğer,karaciğer,match,same text,karaciğer,match,match,OK
+noun-lichaam,lichaam,body,vücut,vücut,match,same text,vücut,match,match,OK
+noun-lid,lid,member,üye,üye,match,same text,üye,match,match,OK
+noun-luchthaven,luchthaven,airport,havalimanı,havalimanı,match,same text,havalimanı,match,match,OK
+noun-maat,maat,size,beden,beden,match,same head word,beden [ölçü],match,match,OK
+noun-makelaar,makelaar,estate agent,emlakçı,emlakçı,match,same text,emlakçı,match,match,OK
+noun-mama,mama,mum,anne (samimi),anne,match,same head word,anne,match,match,owner
+noun-map,map,folder,"dosya, klasör",dosya,match,same head word,dosya,match,match,OK
+noun-markt,markt,market,pazar,pazar,match,same text,pazar,match,match,OK
+noun-medicijn,medicijn,medicine,ilaç,ilaç,match,same text,ilaç,match,match,OK
+noun-melk,melk,milk,süt,süt,match,same text,süt,match,match,OK
+noun-mes,mes,knife,bıçak,bıçak,match,same text,bıçak,match,match,OK
+noun-metro,metro,metro,metro,metro,match,same text,metro,match,match,OK
+noun-middag,middag,afternoon,öğleden sonra,öğleden sonra,match,same text,öğleden sonra,match,match,OK
+noun-moment,moment,moment,an,an,match,same text,an,match,match,OK
+noun-mond,mond,mouth,ağız,ağız,match,same text,ağız,match,match,OK
+noun-mondmasker,mondmasker,face mask (for the mouth),maske (ağız-burun),maske,match,same sense,ağız maskesi,match,match,owner
+noun-mossel,mossel,mussel,midye,midye,match,same text,midye,match,match,OK
+noun-mug,mug,mosquito,sivrisinek,sivrisinek,match,same text,sivrisinek,match,match,OK
+noun-muur,muur,wall,duvar,duvar,match,same text,duvar,match,match,OK
+noun-nacht,nacht,night,gece,gece,match,same text,gece,match,match,OK
+noun-natuurkunde,natuurkunde,physics,fizik,fizik,match,same text,fizik,match,match,OK
+noun-neef,neef,cousin (male),"kuzen, yeğen (erkek)",kuzen (erkek),match,same head word,kuzen [erkek],match,match,OK
+noun-nek,nek,neck,ense,boyun,close,"EN: ""boyun"" (whole neck) vs ""ense"" (nape)",ense,match,match,OK
+noun-neus,neus,nose,burun,burun,match,same text,burun,match,match,OK
+noun-noorden,noorden,north,kuzey,kuzey,match,same text,kuzey,match,match,OK
+noun-nummer,nummer,number,numara,numara,match,same text,numara,match,match,OK
+noun-olie,olie,oil,yağ,yağ,match,same text,yağ,match,match,OK
+noun-onderarm,onderarm,forearm,ön kol,ön kol,match,same text,ön kol,match,match,OK
+noun-onderbroek,onderbroek,underpants,külot,külot,match,"NL: ""iç çamaşırı"" is wider",iç çamaşırı,close,match,OK
+noun-ondernemer,ondernemer,entrepreneur,girişimci,girişimci,match,same text,girişimci,match,match,OK
+noun-onderwijs,onderwijs,education,"eğitim, öğretim",eğitim,match,same head word,eğitim,match,match,owner
+noun-ongeluk,ongeluk,accident,kaza,kaza,match,same text,kaza,match,match,OK
+noun-ontmoeting,ontmoeting,meeting (with someone),buluşma,buluşma,match,same text,buluşma,match,match,OK
+noun-oom,oom,uncle,"amca, dayı",amca,match,same head word,amca [dayı],match,match,OK
+noun-oor,oor,ear,kulak,kulak,match,same text,kulak,match,match,OK
+noun-opa,opa,grandpa,dede,dede,match,synonym,büyükbaba,match,match,OK
+noun-paddenstoel,paddenstoel,mushroom,mantar,mantar,match,same text,mantar,match,match,OK
+noun-pan,pan,pan,tencere,tencere,match,same text,tencere,match,match,OK
+noun-papa,papa,dad,baba (samimi),baba,match,same head word,baba,match,match,owner
+noun-papier,papier,paper,kâğıt,kağıt,match,spelling variant,kağıt,match,match,OK
+noun-patiënt,patiënt,patient,hasta (kişi),hasta,match,same head word,hasta,match,match,OK
+noun-pensioen,pensioen,pension,"emeklilik, emekli maaşı",emeklilik,match,same head word,emeklilik,match,match,OK
+noun-periode,periode,period,"dönem, süre",dönem,match,same head word; EN pass not independent (T-220 author saw the EN prompt),dönem,match,match,owner
+noun-persoon,persoon,person,kişi,kişi,match,same text,kişi,match,match,OK
+noun-pijn,pijn,pain,ağrı,ağrı,match,same text,ağrı,match,match,OK
+noun-pink,pink,little finger,serçe parmak,serçe parmak,match,same text,serçe parmak,match,match,OK
+noun-pizza,pizza,pizza,pizza,pizza,match,same text,pizza,match,match,OK
+noun-plan,plan,plan,plan,plan,match,same text,plan,match,match,OK
+noun-plezier,plezier,fun,keyif,eğlence,match,synonym,eğlence,match,match,OK
+noun-poes,poes,cat,kedi,kedi,match,same text,kedi,match,match,owner
+noun-postkantoor,postkantoor,post office,postane,postane,match,same text,postane,match,match,OK
+noun-probleem,probleem,problem,sorun,sorun,match,same text,sorun,match,match,OK
+noun-procent,procent,per cent,yüzde,yüzde,match,same text,yüzde,match,match,OK
+noun-product,product,product,ürün,ürün,match,same text,ürün,match,match,OK
+noun-project,project,project,proje,proje,match,same text,proje,match,match,OK
+noun-punt,punt,point,"puan, nokta",nokta,match,same head word,nokta,match,match,owner
+noun-radio,radio,radio,radyo,radyo,match,same text,radyo,match,match,OK
+noun-reactie,reactie,reaction,"tepki, yanıt",tepki,match,same head word,tepki,match,match,OK
+noun-recept,recept,prescription,reçete,reçete,match,"NL: ""tarif"" is the recipe sense",tarif,mismatch,match,owner
+noun-reclame,reclame,advertising,reklam,reklam,match,same text,reklam,match,match,OK
+noun-regenboog,regenboog,rainbow,gökkuşağı,gökkuşağı,match,same text,gökkuşağı,match,match,OK
+noun-reis,reis,journey,yolculuk,yolculuk,match,same text,yolculuk,match,match,OK
+noun-riem,riem,belt,kemer,kemer,match,same text,kemer,match,match,OK
+noun-ring,ring,ring,yüzük,yüzük,match,same text,yüzük,match,match,OK
+noun-rook,rook,smoke,duman,duman,match,same text,duman,match,match,OK
+noun-room,room,cream,krema,krema,match,same text,krema,match,match,OK
+noun-route,route,route,güzergâh,rota,match,synonym,güzergah,match,match,OK
+noun-rust,rust,rest,"dinlenme, huzur",dinlenme,match,same head word,dinlenme,match,match,OK
+noun-sap,sap,juice,meyve suyu,meyve suyu,match,same text,meyve suyu,match,match,OK
+noun-schoolplein,schoolplein,school playground,okul bahçesi,okul bahçesi,match,same text,okul bahçesi,match,match,OK
+noun-schort,schort,apron,önlük,önlük,match,"same text; article: de and het both valid (nl.wiktionary), stored het kept",önlük,match,match,owner
+noun-schotel,schotel,saucer,fincan tabağı,fincan tabağı,match,"NL: ""tabak"" is the wider dish sense",tabak [servis tabağı],close,match,OK
+noun-schouder,schouder,shoulder,omuz,omuz,match,same text,omuz,match,match,OK
+noun-seizoen,seizoen,season,mevsim,mevsim,match,same text,mevsim,match,match,OK
+noun-slaapkamer,slaapkamer,bedroom,yatak odası,yatak odası,match,same text,yatak odası,match,match,OK
+noun-slak,slak,snail,salyangoz,salyangoz,match,same text,salyangoz,match,match,OK
+noun-sleutel,sleutel,key,anahtar,anahtar,match,same text,anahtar,match,match,OK
+noun-smaak,smaak,taste,tat,tat,match,same text,tat,match,match,OK
+noun-sok,sok,sock,kısa çorap,çorap,match,"same sense; current adds ""kısa""",çorap,match,match,owner
+noun-spiegel,spiegel,mirror,ayna,ayna,match,same text,ayna,match,match,OK
+noun-sportschool,sportschool,gym,spor salonu,spor salonu,match,same text,spor salonu,match,match,OK
+noun-stem,stem,voice,ses (insan sesi),ses,match,same head word,ses,match,match,OK
+noun-stoel,stoel,chair,sandalye,sandalye,match,same text,sandalye,match,match,OK
+noun-strand,strand,beach,plaj,plaj,match,same text,plaj,match,match,OK
+noun-taart,taart,cake,pasta,pasta,match,same text,pasta,match,match,OK
+noun-tand,tand,tooth,diş,diş,match,same text,diş,match,match,OK
+noun-tante,tante,aunt,"teyze, hala",teyze,match,same head word,teyze [hala],match,match,OK
+noun-taxi,taxi,taxi,taksi,taksi,match,same text,taksi,match,match,OK
+noun-teen,teen,toe,ayak parmağı,ayak parmağı,match,same text,ayak parmağı,match,match,OK
+noun-tekenfilm,tekenfilm,cartoon,çizgi film,çizgi film,match,same text,çizgi film,match,match,OK
+noun-tennis,tennis,tennis,tenis,tenis,match,same text,tenis,match,match,OK
+noun-test,test,test,test,test,match,same text,test,match,match,OK
+noun-thee,thee,tea,çay,çay,match,same text,çay,match,match,OK
+noun-tijd,tijd,time,zaman,zaman,match,same text,zaman,match,match,OK
+noun-toekomst,toekomst,future,gelecek,gelecek,match,same text,gelecek,match,match,OK
+noun-tong,tong,tongue,dil (organ),dil,match,same head word,dil,match,match,OK
+noun-tram,tram,tram,tramvay,tramvay,match,same text,tramvay,match,match,OK
+noun-trap,trap,stairs,merdiven,merdiven,match,same text,merdiven,match,match,OK
+noun-uil,uil,owl,baykuş,baykuş,match,same text,baykuş,match,match,OK
+noun-uitkering,uitkering,benefit (payment),"ödenek, yardım parası",sosyal yardım,match,same sense,sosyal yardım,match,match,OK
+noun-uniform,uniform,uniform,üniforma,üniforma,match,same text,üniforma,match,match,OK
+noun-vak,vak,school subject,okul dersi (branş),ders,match,same sense,ders [meslek],match,match,OK
+noun-verpleger,verpleger,nurse (male),erkek hemşire,hemşire (erkek),match,NL: male hint dropped,hemşire,close,match,OK
+noun-vinger,vinger,finger,parmak,parmak,match,same text,parmak,match,match,OK
+noun-vis,vis,fish,balık,balık,match,same text,balık,match,match,OK
+noun-vliegtuig,vliegtuig,aeroplane,uçak,uçak,match,same text,uçak,match,match,OK
+noun-vloer,vloer,floor,zemin,zemin,match,same text,zemin,match,match,OK
+noun-volwassene,volwassene,adult,yetişkin,yetişkin,match,same text,yetişkin,match,match,OK
+noun-voorhoofd,voorhoofd,forehead,alın,alın,match,same text,alın,match,match,OK
+noun-voorjaar,voorjaar,spring,"bahar, ilkbahar",ilkbahar,match,same head word; EN pass not independent (T-220 author saw the EN prompt),ilkbahar,match,match,owner
+noun-vos,vos,fox,tilki,tilki,match,same text,tilki,match,match,OK
+noun-vrijwilliger,vrijwilliger,volunteer,gönüllü,gönüllü,match,same text,gönüllü,match,match,OK
+noun-waarheid,waarheid,truth,"gerçek, hakikat",gerçek,match,same head word,gerçek [doğru],match,match,OK
+noun-walvis,walvis,whale,balina,balina,match,same text,balina,match,match,OK
+noun-warenhuis,warenhuis,department store,büyük mağaza,büyük mağaza,match,same text,büyük mağaza,match,match,OK
+noun-website,website,website,web sitesi,web sitesi,match,same text,web sitesi,match,match,OK
+noun-webwinkel,webwinkel,online shop,internet mağazası,online mağaza,match,synonym,internet mağazası,match,match,OK
+noun-weer,weer,weather,hava durumu,hava,match,same sense,hava durumu,match,match,OK
+noun-wenkbrauw,wenkbrauw,eyebrow,kaş,kaş,match,same text,kaş,match,match,OK
+noun-wijn,wijn,wine,şarap,şarap,match,same text,şarap,match,match,OK
+noun-wiskunde,wiskunde,maths,matematik,matematik,match,same text,matematik,match,match,OK
+noun-witlof,witlof,chicory,hindiba,hindiba,match,"same text; article: NL guess de, stored het (nl.wiktionary: het)",hindiba,match,mismatch,owner
+noun-wol,wol,wool,yün,yün,match,same text,yün,match,match,OK
+noun-woonkamer,woonkamer,living room,oturma odası,oturma odası,match,same text,oturma odası,match,match,OK
+noun-woord,woord,word,kelime,kelime,match,same text,kelime,match,match,OK
+noun-wortel,wortel,carrot,havuç,havuç,match,same text,havuç,match,match,OK
+noun-ziekte,ziekte,illness,hastalık,hastalık,match,same text,hastalık,match,match,OK
+noun-zwaan,zwaan,swan,kuğu,kuğu,match,same text,kuğu,match,match,OK
+noun-zwembad,zwembad,swimming pool,yüzme havuzu,yüzme havuzu,match,same text,yüzme havuzu,match,match,OK
+verb-afvallen,afvallen,to lose weight,kilo vermek,kilo vermek,match,same text,kilo vermek,match,,OK
+verb-bakken,bakken,to bake,fırında pişirmek,pişirmek (fırında),match,NL: frying sense first,kızartmak [pişirmek],close,,OK
+verb-bedanken,bedanken,to thank,teşekkür etmek,teşekkür etmek,match,same text,teşekkür etmek,match,,OK
+verb-bereiden,bereiden,to prepare (food),hazırlamak (yemek),hazırlamak (yemek),match,same head word; EN pass not independent (T-220 author saw the EN prompt),hazırlamak,match,,owner
+verb-bereiken,bereiken,to reach,"ulaşmak, varmak",ulaşmak,match,same head word,ulaşmak,match,,owner
+verb-besluiten,besluiten,to decide,karar vermek,karar vermek,match,same text,karar vermek,match,,OK
+verb-bewegen,bewegen,to move,hareket etmek,hareket etmek,match,same text,hareket etmek,match,,OK
+verb-blijven,blijven,to stay,kalmak,kalmak,match,same text,kalmak,match,,OK
+verb-bloeden,bloeden,to bleed,kanamak,kanamak,match,same text,kanamak,match,,OK
+verb-braken,braken,to vomit,kusmak,kusmak,match,same text,kusmak,match,,OK
+verb-chatten,chatten,to chat (online),mesajlaşmak,sohbet etmek (online),match,same sense,sohbet etmek [internette],match,,OK
+verb-controleren,controleren,to check,kontrol etmek,kontrol etmek,match,same text,kontrol etmek,match,,OK
+verb-dansen,dansen,to dance,dans etmek,dans etmek,match,same text,dans etmek,match,,OK
+verb-feliciteren,feliciteren,to congratulate,tebrik etmek,tebrik etmek,match,same text,tebrik etmek,match,,OK
+verb-fietsen,fietsen,to cycle,bisiklete binmek,bisiklete binmek,match,same text,bisiklete binmek,match,,OK
+verb-gebruiken,gebruiken,to use,kullanmak,kullanmak,match,same text,kullanmak,match,,OK
+verb-genezen,genezen,to heal,iyileşmek,iyileşmek,match,same text,iyileşmek,match,,OK
+verb-gooien,gooien,to throw,atmak,atmak,match,same text,atmak,match,,OK
+verb-herstellen,herstellen,to recover,"onarmak, düzeltmek",toparlanmak,mismatch,"EN: ""toparlanmak"" (recover) vs current repair sense",onarmak [iyileşmek],match,,owner
+verb-houden,houden,to hold,tutmak,tutmak,match,same text,tutmak,match,,OK
+verb-huilen,huilen,to cry,ağlamak,ağlamak,match,same text,ağlamak,match,,OK
+verb-huren,huren,to rent,kiralamak,kiralamak,match,same text,kiralamak,match,,OK
+verb-knijpen,knijpen,to pinch,"sıkmak, çimdiklemek",çimdiklemek,match,same head word,çimdiklemek [sıkmak],match,,OK
+verb-knutselen,knutselen,to do crafts,el işi yapmak,el işi yapmak,match,spelling variant,elişi yapmak,match,,OK
+verb-koken,koken,to cook,yemek pişirmek,pişirmek,match,NL: boiling sense first,kaynatmak [pişirmek],close,,OK
+verb-kosten,kosten,to cost,(fiyatı) tutmak,mal olmak,match,synonym,mal olmak,match,,OK
+verb-lachen,lachen,to laugh,gülmek,gülmek,match,same text,gülmek,match,,OK
+verb-laten,laten,to let,bırakmak,izin vermek,match,same sense,bırakmak [izin vermek],match,,OK
+verb-leveren,leveren,to deliver,teslim etmek,teslim etmek,match,same text,teslim etmek,match,,OK
+verb-lijken,lijken,to look like,benzemek,benzemek,match,same head word,benzemek [gibi görünmek],match,,OK
+verb-likken,likken,to lick,yalamak,yalamak,match,same text,yalamak,match,,OK
+verb-omdraaien,omdraaien,to turn around,"ters çevirmek, arkasını dönmek",geri dönmek,close,readers chose one of the two senses in current; close/close kept by the content editor,çevirmek,close,,OK
+verb-openen,openen,to open,açmak,açmak,match,same text,açmak,match,,OK
+verb-overlijden,overlijden,to pass away,vefat etmek,vefat etmek,match,synonym,hayatını kaybetmek,match,,OK
+verb-overstappen,overstappen,to change trains,aktarma yapmak,aktarma yapmak,match,same text,aktarma yapmak,match,,OK
+verb-pakken,pakken,to grab,eline almak,kapmak,match,synonym,almak [kapmak],match,,OK
+verb-planten,planten,to plant,dikmek (bitki),dikmek,match,same head word,dikmek,match,,OK
+verb-poetsen,poetsen,to brush (teeth),fırçalamak,fırçalamak (diş),match,NL: cleaning sense first,temizlemek [diş fırçalamak],close,,OK
+verb-printen,printen,to print (informal),çıktı almak,yazdırmak,match,synonym,yazdırmak,match,,OK
+verb-rennen,rennen,to run,koşmak,koşmak,match,same text,koşmak,match,,OK
+verb-roken,roken,to smoke,sigara içmek,sigara içmek,match,same text,sigara içmek,match,,OK
+verb-schaken,schaken,to play chess,satranç oynamak,satranç oynamak,match,same text,satranç oynamak,match,,OK
+verb-scheiden,scheiden,to divorce,boşanmak,boşanmak,match,"NL: ""ayrılmak"" (separate) is wider",ayrılmak,close,,OK
+verb-schoonmaken,schoonmaken,to clean,temizlemek,temizlemek,match,same text,temizlemek,match,,OK
+verb-schreeuwen,schreeuwen,to shout,bağırmak,bağırmak,match,same text,bağırmak,match,,OK
+verb-slaan,slaan,to hit,vurmak,vurmak,match,same text,vurmak,match,,OK
+verb-sluiten,sluiten,to close,kapatmak,kapatmak,match,same text,kapatmak,match,,OK
+verb-snijden,snijden,to cut,kesmek,kesmek,match,same text,kesmek,match,,OK
+verb-spugen,spugen,to spit,tükürmek,tükürmek,match,same text,tükürmek,match,,OK
+verb-stoppen,stoppen,to stop,durmak,durmak,match,same head word,durmak [durdurmak],match,,OK
+verb-studeren,studeren,to study,öğrenim görmek,okumak (üniversite),match,same sense,üniversitede okumak,match,,OK
+verb-sturen,sturen,to send,göndermek,göndermek,match,same text,göndermek,match,,OK
+verb-teruggaan,teruggaan,to go back,geri dönmek,geri gitmek,match,synonym,geri dönmek,match,,OK
+verb-teruggeven,teruggeven,to give back,geri vermek,geri vermek,match,same text,geri vermek,match,,OK
+verb-trekken,trekken,to pull,çekmek,çekmek,match,same text,çekmek,match,,OK
+verb-vallen,vallen,to fall,düşmek,düşmek,match,same text,düşmek,match,,OK
+verb-verbergen,verbergen,to hide,"gizlemek, saklamak",saklamak,match,same head word,saklamak,match,,OK
+verb-verdwijnen,verdwijnen,to disappear,"yok olmak, kaybolmak",kaybolmak,match,same head word,kaybolmak,match,,OK
+verb-verkopen,verkopen,to sell,satmak,satmak,match,same text,satmak,match,,OK
+verb-verlaten,verlaten,to leave,"terk etmek, ayrılmak",terk etmek,match,same head word,terk etmek,match,,OK
+verb-verschijnen,verschijnen,to appear,"ortaya çıkmak, görünmek",ortaya çıkmak,match,same head word,ortaya çıkmak,match,,OK
+verb-vertellen,vertellen,to tell,anlatmak,anlatmak,match,same text,anlatmak,match,,OK
+verb-vissen,vissen,to fish,balık tutmak,balık tutmak,match,same text,balık tutmak,match,,OK
+verb-volgen,volgen,to follow,takip etmek,takip etmek,match,same text,takip etmek,match,,OK
+verb-wegleggen,wegleggen,to put away,bir kenara koymak,kaldırmak,match,synonym,kaldırmak [bir kenara koymak],match,,OK
+verb-worden,worden,to become,haline gelmek,olmak,match,same sense,olmak,match,,OK
+verb-wrijven,wrijven,to rub,"ovmak, sürtmek",ovmak,match,same head word,ovmak,match,,OK
+verb-zetten,zetten,to put,koymak (dik),koymak,match,same head word,koymak,match,,OK
+verb-zuchten,zuchten,to sigh,iç çekmek,iç çekmek,match,same text,iç çekmek,match,,OK
