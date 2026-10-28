@@ -1,0 +1,19 @@
+id,dutch,field,current,suggestion,reason,severity
+noun-boodschap,boodschap,text,mesaj,alışveriş (günlük ihtiyaç),"Category a2-shopping and EN ""groceries"" take the shopping sense (mostly plural: boodschappen doen); ""mesaj"" is the message sense and is also the exact text of noun-bericht (A2).",wrong
+noun-bank,bank,category,a2-services,a2-home,"The text ""koltuk"" (EN ""couch"") is the sofa sense; a2-services implies the financial sense ""banka"". Either move the category or change both texts to ""banka"".",wrong
+noun-recept,recept,category,a1-food,a1-body-health,"The text ""reçete"" (EN ""prescription"") is the medical sense; in a1-food the sense is ""yemek tarifi"". Either move the category or change both texts to ""yemek tarifi"".",wrong
+noun-mondmasker,mondmasker,level,A1,"remove, or keep one of the pair","Same sense as the A1/A2 extra noun-mondkap (A2, ""maske (ağız)"", owner-reviewed): one of a pair (K10); A1 is also high for this word. Text and article (het) are right.",unsure
+noun-behandeling,behandeling,level,A1,A2,"Abstract derived noun (behandelen + -ing); not a closed-set or most-basic word (K7: when in doubt, A2).",unsure
+noun-papa,papa,level,A2,A1,"noun-mama is A1 with the parallel text ""anne (samimi)""; the pair should share a level (or move mama to A2).",unsure
+noun-mama,mama,level,A1,Decide with noun-papa,Same question as noun-papa.,unsure
+adj-juist,juist,text,"doğru, tam",tam doğru,"adj-waar is ""doğru""; both A2 a2-describing, so a learner can meet ""doğru"" and ""doğru, tam"" in one grid.",unsure
+adj-alleen,alleen,text,"tek başına, yalnız",tek başına,"adj-eenzaam is ""yalnız""; both A2 a2-feelings, so the shared head word can meet in one grid.",unsure
+verb-bereiken,bereiken,text,"ulaşmak, varmak",ulaşmak,"verb-aankomen (kept, A2) is ""varmak""; both a2-city-transport.",unsure
+noun-onderwijs,onderwijs,text,"eğitim, öğretim",öğretim,"noun-opleiding (kept, A2, owner) is ""eğitim""; both a2-work-study.",unsure
+noun-punt,punt,text,"puan, nokta",puan,"het punt = score/point; ""nokta"" also reads as the full stop/tip, which is de punt in NL. ""puan"" matches the stored article and the category.",unsure
+noun-kostuum,kostuum,text,"kostüm, takım elbise",takım elbise,"""kostüm"" is the costume sense; EN ""suit (formal)"" and the everyday sense are the suit.",unsure
+verb-herstellen,herstellen,text,"onarmak, düzeltmek","onarmak, düzeltmek (keep)","TR carries the repair sense, EN ""to recover"" the healing sense; one sense for both languages. ""iyileşmek"" is taken by verb-genezen (A1), so the repair sense is suggested; the EN change is T-223's.",unsure
+noun-sok,sok,text,kısa çorap,kısa çorap (keep),"noun-kous (kept, A2, a2-clothes) holds ""çorap"", so the plain word is taken; ""kısa çorap"" is natural and keeps the two apart.",unsure
+noun-poes,poes,text,kedi,kedi (keep),Sensitive: poes is also vulgar slang; the everyday sense is cat and kat is not in the core set. Keep or replace with kat.,unsure
+noun-kopje,kopje,text,fincan,fincan (keep),"Diminutive of kop; lexicalised for ""cup"" (een kopje koffie) and kop is not in the core set. Released: three readers agree (ADR-019).",unsure
+noun-schort,schort,article,het,keep het,"b1-pool differ (Wiktionary: de); nl.wiktionary.org/wiki/schort gives de (m/v) and het (o), so the stored article is right.",unsure
