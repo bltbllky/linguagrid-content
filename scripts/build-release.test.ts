@@ -38,7 +38,7 @@ describe('buildRelease', () => {
     const opts = { minimums: {}, allowPartial: true };
     assert.throws(() => buildRelease(validContent(), { ...opts, nt2lexRetired: true }), /Release blocked — 2 NT2Lex-derived words \(US-023\)/);
     assert.doesNotThrow(() => buildRelease(validContent(), { ...opts, nt2lexRetired: false }));
-    assert.doesNotThrow(() => buildRelease(validContent(), opts));
+    assert.throws(() => buildRelease(validContent(), opts), /Release blocked — 2 NT2Lex-derived words/); // retired by default since release 3
   });
 
   it('blocks a live B2 word, with or without --allow-partial', () => {

@@ -268,7 +268,7 @@ export function loadContent(root = ROOT): Content {
 }
 
 /** ADR-022: true once the core words replace NT2Lex; no NT2Lex row may return then. */
-export const NT2LEX_RETIRED = false; // ADR-022: set to true by T-226 with release 3
+export const NT2LEX_RETIRED = true; // ADR-022: set by T-226 with release 3
 
 /** Each word file holds one kind of word: NT2Lex-derived rows in `words.json`, our own selection in `words-own.json` (T-153). */
 export function fileSourceIssues(root = ROOT, retired = NT2LEX_RETIRED): string[] {
