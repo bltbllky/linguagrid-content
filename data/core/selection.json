@@ -179,7 +179,6 @@
     "noun-arts",
     "noun-gezicht",
     "noun-gezondheid",
-    "noun-behandeling",
     "noun-klacht",
     "noun-ongeluk",
     "verb-bewegen",
@@ -323,7 +322,6 @@
     "noun-maat",
     "noun-ring",
     "noun-kleding",
-    "noun-mondmasker",
     "noun-broek",
     "noun-bril"
   ],
@@ -590,7 +588,6 @@
     "noun-handschoen",
     "noun-riem",
     "noun-jas",
-    "noun-kostuum",
     "noun-horloge",
     "noun-jurk",
     "noun-schort",
@@ -869,6 +866,7 @@
     "verb-knijpen",
     "verb-wrijven",
     "verb-teruggaan",
-    "verb-thuiskomen"
+    "verb-thuiskomen",
+    "noun-behandeling"
   ]
 }
