@@ -24,6 +24,9 @@ function bilingual(englishReviewed: string[]): Content {
 }
 const both = ['noun-tandarts', 'verb-lopen'];
 
+/** The fixtures are NT2Lex rows, so these tests build with the block off; the block itself is tested first. */
+const build: typeof buildRelease = (content, options) => buildRelease(content, { nt2lexRetired: false, ...options });
+
 function b1Content() {
   const content = validContent();
   content.words[0].cefr = 'B1';
@@ -42,30 +45,30 @@ describe('buildRelease', () => {
     const content = validContent();
     content.words[0].cefr = 'B2';
     for (const allowPartial of [false, true]) {
-      assert.throws(() => buildRelease(content, { minimums: {}, allowPartial }), /live word files hold B2 words \(1\)/);
+      assert.throws(() => build(content, { minimums: {}, allowPartial }), /live word files hold B2 words \(1\)/);
     }
   });
 
   it('releases a reviewed B1 word (US-022)', () => {
-    const release = buildRelease(b1Content(), { minimums: { A1: 0, A2: 0, B1: 1 }, allowPartial: false });
+    const release = build(b1Content(), { minimums: { A1: 0, A2: 0, B1: 1 }, allowPartial: false });
     assert.ok(JSON.parse(release.files['words.json']).some((w: { id: string }) => w.id === 'noun-tandarts'));
   });
 
   it('stops under the B1 minimum unless --allow-partial', () => {
-    assert.throws(() => buildRelease(b1Content(), { minimums: { B1: 2 }, allowPartial: false }), /B1: 1 reviewed words \(minimum 2\)/);
-    assert.doesNotThrow(() => buildRelease(b1Content(), { minimums: { B1: 2 }, allowPartial: true }));
+    assert.throws(() => build(b1Content(), { minimums: { B1: 2 }, allowPartial: false }), /B1: 1 reviewed words \(minimum 2\)/);
+    assert.doesNotThrow(() => build(b1Content(), { minimums: { B1: 2 }, allowPartial: true }));
   });
 
   it('leaves out a language whose B1 text is not reviewed', () => {
     const content = b1Content();
     content.translations.en = { ...partialEnglish(), words: [{ word_id: 'noun-tandarts', text: 'dentist', reviewed: false }] };
-    const release = buildRelease(content, { minimums: { B1: 1 }, allowPartial: false });
+    const release = build(content, { minimums: { B1: 1 }, allowPartial: false });
     assert.equal(release.excluded.filter((e) => e.startsWith('en:')).length, 1);
     assert.deepEqual(release.manifest.languages, ['tr']);
   });
 
   it('includes only reviewed words and bumps the content version', () => {
-    const release = buildRelease(validContent(), { minimums: {}, allowPartial: false });
+    const release = build(validContent(), { minimums: {}, allowPartial: false });
     assert.equal(release.manifest.content_version, 2);
     assert.deepEqual(
       JSON.parse(release.files['words.json']).map((w: { id: string }) => w.id),
@@ -75,7 +78,7 @@ describe('buildRelease', () => {
   });
 
   it('lists every file with its sha256 under the versioned release path', () => {
-    const release = buildRelease(validContent(), { minimums: {}, allowPartial: false });
+    const release = build(validContent(), { minimums: {}, allowPartial: false });
     assert.deepEqual(
       release.manifest.files.map((f) => f.path),
       ['release/2/words.json', 'release/2/annotations.json', 'release/2/categories.json', 'release/2/translations-tr.json'],
@@ -85,11 +88,11 @@ describe('buildRelease', () => {
 
   it('ships the pre-T-029 shape with Turkish texts and needs a reviewed Turkish translation', () => {
     const content = validContent();
-    const release = buildRelease(content, { minimums: {}, allowPartial: false });
+    const release = build(content, { minimums: {}, allowPartial: false });
     assert.equal(release.files['annotations.json'], JSON.stringify([{ ...withLegacyTurkish(content).annotations[0], review_source: undefined }], null, 2) + '\n');
     assert.deepEqual(JSON.parse(release.files['categories.json']), [{ id: 'health', title_tr: 'Sağlık', cefr: 'A1', order: 1 }]);
     content.translations.tr.words[0].reviewed = false;
-    assert.equal(buildRelease(content, { minimums: {}, allowPartial: false }).files['words.json'], '[]\n');
+    assert.equal(build(content, { minimums: {}, allowPartial: false }).files['words.json'], '[]\n');
   });
 
   it('never ships review_source', () => {
@@ -97,7 +100,7 @@ describe('buildRelease', () => {
     content.annotations[1].reviewed = true;
     content.annotations[1].review_source = 'roundtrip';
     content.translations.tr.words[1].review_source = 'roundtrip';
-    const release = buildRelease(content, { minimums: {}, allowPartial: false });
+    const release = build(content, { minimums: {}, allowPartial: false });
     assert.equal(Object.keys(release.files).length, 5);
     assert.ok(!Object.values(release.files).some((body) => body.includes('review_source')));
   });
@@ -105,20 +108,20 @@ describe('buildRelease', () => {
   it('keeps min_app_version untouched', () => {
     const content = validContent();
     content.manifest.min_app_version = { ios: '1.2.0', android: '1.3.0' };
-    const release = buildRelease(content, { minimums: {}, allowPartial: false });
+    const release = build(content, { minimums: {}, allowPartial: false });
     assert.deepEqual(release.manifest.min_app_version, { ios: '1.2.0', android: '1.3.0' });
   });
 
   it('fails below the minimum reviewed words per level unless partial releases are allowed', () => {
     const options = { minimums: { A1: 400 }, allowPartial: false };
-    assert.throws(() => buildRelease(validContent(), options), /A1: 1 reviewed words \(minimum 400\)/);
-    assert.doesNotThrow(() => buildRelease(validContent(), { ...options, allowPartial: true }));
+    assert.throws(() => build(validContent(), options), /A1: 1 reviewed words \(minimum 400\)/);
+    assert.doesNotThrow(() => build(validContent(), { ...options, allowPartial: true }));
   });
 
   it('writes one translation file per language with reviewed texts of released words only', () => {
     const content = bilingual(both);
     content.annotations[1].reviewed = false; // verb-lopen is not released, so no language ships it
-    const release = buildRelease(content, { minimums: { A1: 1 }, allowPartial: false });
+    const release = build(content, { minimums: { A1: 1 }, allowPartial: false });
     assert.deepEqual(JSON.parse(release.files['translations-tr.json']), {
       lang: 'tr',
       words: [{ word_id: 'noun-tandarts', text: 'diş hekimi' }],
@@ -132,7 +135,7 @@ describe('buildRelease', () => {
   });
 
   it('lists a fully reviewed language in the manifest with a checksum for every file', () => {
-    const release = buildRelease(bilingual(both), { minimums: { A1: 2 }, allowPartial: false });
+    const release = build(bilingual(both), { minimums: { A1: 2 }, allowPartial: false });
     assert.deepEqual(release.manifest.languages, ['tr', 'en']);
     assert.deepEqual(release.excluded, []);
     assert.deepEqual(Object.keys(release.files), [
@@ -146,25 +149,25 @@ describe('buildRelease', () => {
   });
 
   it('leaves out a partly reviewed language unless partial releases are allowed', () => {
-    const strict = buildRelease(bilingual(['noun-tandarts']), { minimums: { A1: 2 }, allowPartial: false });
+    const strict = build(bilingual(['noun-tandarts']), { minimums: { A1: 2 }, allowPartial: false });
     assert.deepEqual(strict.manifest.languages, ['tr']);
     assert.equal(strict.files['translations-en.json'], undefined);
     assert.deepEqual(strict.excluded, ['en: A1: 1 reviewed translations (minimum 2)']);
     assert.ok(strict.manifest.files.every((f) => !f.path.includes('translations-en')));
 
-    const partial = buildRelease(bilingual(['noun-tandarts']), { minimums: { A1: 2 }, allowPartial: true });
+    const partial = build(bilingual(['noun-tandarts']), { minimums: { A1: 2 }, allowPartial: true });
     assert.deepEqual(partial.manifest.languages, ['tr', 'en']);
     assert.equal(JSON.parse(partial.files['translations-en.json']).words.length, 1);
   });
 
   it('never ships a language without any reviewed translation, even for partial releases', () => {
-    const release = buildRelease(bilingual([]), { minimums: { A1: 2 }, allowPartial: true });
+    const release = build(bilingual([]), { minimums: { A1: 2 }, allowPartial: true });
     assert.deepEqual(release.manifest.languages, ['tr']);
     assert.deepEqual(release.excluded, ['en: A1: 0 reviewed translations (minimum 2)']);
   });
 
   it('ships Turkish only when no other language file exists', () => {
-    const release = buildRelease(validContent(), { minimums: { A1: 1 }, allowPartial: false });
+    const release = build(validContent(), { minimums: { A1: 1 }, allowPartial: false });
     assert.deepEqual(release.manifest.languages, ['tr']);
     assert.deepEqual(release.excluded, []);
   });

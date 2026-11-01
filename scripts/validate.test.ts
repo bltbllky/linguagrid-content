@@ -333,8 +333,8 @@ describe('data/words-own.json (T-153)', () => {
   });
 
   it('fileSourceIssues is empty for clean files, with and without the own file', () => {
-    assert.deepEqual(fileSourceIssues(tempRoot()), []);
-    assert.deepEqual(fileSourceIssues(tempRoot([ownWord])), []);
+    assert.deepEqual(fileSourceIssues(tempRoot(), false), []);
+    assert.deepEqual(fileSourceIssues(tempRoot([ownWord]), false), []);
   });
 
   it('fileSourceIssues refuses every words.json row once NT2Lex is retired (US-023)', () => {
@@ -352,12 +352,12 @@ describe('data/words-own.json (T-153)', () => {
     const root = tempRoot();
     const words = [...validContent().words, ownWord];
     writeFileSync(join(root, 'data', 'words.json'), JSON.stringify(words));
-    assert.deepEqual(fileSourceIssues(root), ['data/words.json: noun-dinsdag has source own (own words belong in data/words-own.json)']);
+    assert.deepEqual(fileSourceIssues(root, false), ['data/words.json: noun-dinsdag has source own (own words belong in data/words-own.json)']);
   });
 
   it('fileSourceIssues rejects an nt2lex row in words-own.json', () => {
     const root = tempRoot([{ ...ownWord, source: 'nt2lex' }]);
-    assert.deepEqual(fileSourceIssues(root), ['data/words-own.json: noun-dinsdag has source nt2lex']);
+    assert.deepEqual(fileSourceIssues(root, false), ['data/words-own.json: noun-dinsdag has source nt2lex']);
   });
 });
 
