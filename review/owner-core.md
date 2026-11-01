@@ -75,26 +75,26 @@ Check the Turkish and the article. Pool: 348 words with verdict `OK` in `review/
 
 | # | Dutch | Turkish | Decision |
 |---|---|---|---|
-| C1 | de baard | sakal | |
-| C2 | de chauffeur | şoför | |
-| C3 | oranje | turuncu | |
-| C4 | laag | alçak | |
-| C5 | de tekenfilm | çizgi film | |
-| C6 | de reactie | tepki, yanıt | |
-| C7 | open | açık | |
-| C8 | wrijven | ovmak, sürtmek | |
-| C9 | planten | dikmek (bitki) | |
-| C10 | stoppen | durmak | |
-| C11 | aardig | nazik | |
-| C12 | de tante | teyze, hala | |
-| C13 | de kraag | yaka | |
-| C14 | warm | sıcak | |
-| C15 | het hoofdstuk | bölüm (kitap) | |
-| C16 | de vloer | zemin | |
-| C17 | de pan | tencere | |
-| C18 | rustig | sakin | |
-| C19 | de ziekte | hastalık | |
-| C20 | de drank | içecek | |
+| C1 | de baard | sakal | ✓ |
+| C2 | de chauffeur | şoför | ✓ |
+| C3 | oranje | turuncu | ✓ |
+| C4 | laag | alçak | ✓ |
+| C5 | de tekenfilm | çizgi film | ✓ |
+| C6 | de reactie | tepki, yanıt | ✓ |
+| C7 | open | açık | ✓ |
+| C8 | wrijven | ovmak, sürtmek | ✓ |
+| C9 | planten | dikmek (bitki) | ✓ |
+| C10 | stoppen | durmak | ✓ |
+| C11 | aardig | nazik | ✓ |
+| C12 | de tante | teyze, hala | ✓ |
+| C13 | de kraag | yaka | ✓ |
+| C14 | warm | sıcak | ✓ |
+| C15 | het hoofdstuk | bölüm (kitap) | ✓ |
+| C16 | de vloer | zemin | ✓ |
+| C17 | de pan | tencere | ✓ |
+| C18 | rustig | sakin | ✓ |
+| C19 | de ziekte | hastalık | ✓ |
+| C20 | de drank | içecek | ✓ |
 
 Extension, only if Part C has exactly 1 error (30 ids, same draw, seed 20261028):
 verb-koken, verb-rennen, adj-welkom, adj-zacht, noun-bak, noun-zwaan, noun-agenda, noun-bloed, adj-vers, noun-afspraak, noun-hiel, adj-druk, verb-verdwijnen, adj-langzaam, verb-feliciteren, noun-kin, noun-rust, noun-papier, noun-jas, noun-jongen, noun-dak, noun-dolfijn, noun-hulp, verb-huilen, noun-natuurkunde, verb-bloeden, noun-wiskunde, adj-waar, noun-schoolplein, adj-klaar
@@ -104,26 +104,26 @@ Check the English. Pool: 364 words with verdict `OK` in `review/roundtrip-core-e
 
 | # | Dutch | English | Decision |
 |---|---|---|---|
-| D1 | noorden | north | |
-| D2 | ongelukkig | unhappy | |
-| D3 | product | product | |
-| D4 | warenhuis | department store | |
-| D5 | roken | to smoke | |
-| D6 | plan | plan | |
-| D7 | mossel | mussel | |
-| D8 | herfst | autumn | |
-| D9 | natuurlijk | natural | |
-| D10 | gast | guest | |
-| D11 | afvallen | to lose weight | |
-| D12 | maat | size | |
-| D13 | echt | real | |
-| D14 | oranje | orange (colour) | |
-| D15 | opa | grandpa | |
-| D16 | film | film | |
-| D17 | reis | journey | |
-| D18 | zwaan | swan | |
-| D19 | sportschool | gym | |
-| D20 | stoppen | to stop | |
+| D1 | noorden | north | ✓ |
+| D2 | ongelukkig | unhappy | ✓ |
+| D3 | product | product | ✓ |
+| D4 | warenhuis | department store | ✓ |
+| D5 | roken | to smoke | ✓ |
+| D6 | plan | plan | ✓ |
+| D7 | mossel | mussel | ✓ |
+| D8 | herfst | autumn | ✓ |
+| D9 | natuurlijk | natural | ✓ |
+| D10 | gast | guest | ✓ |
+| D11 | afvallen | to lose weight | ✓ |
+| D12 | maat | size | ✓ |
+| D13 | echt | real | ✓ |
+| D14 | oranje | orange (colour) | ✓ |
+| D15 | opa | grandpa | ✓ |
+| D16 | film | film | ✓ |
+| D17 | reis | journey | ✓ |
+| D18 | zwaan | swan | ✓ |
+| D19 | sportschool | gym | ✓ |
+| D20 | stoppen | to stop | ✓ |
 
 Extension, only if Part D has exactly 1 error (30 ids, same draw, seed 20261029):
 verb-knijpen, noun-feest, noun-webwinkel, noun-dorp, noun-discussie, noun-lid, noun-buurt, noun-trap, noun-patiënt, adj-vies, noun-toekomst, noun-afspraak, noun-walvis, verb-koken, noun-dier, noun-voorhoofd, noun-teen, noun-kerst, noun-bloed, noun-armband, adj-goedkoop, noun-baby, noun-kussen, verb-spugen, noun-reclame, noun-bak, verb-trekken, adj-zwanger, noun-idee, noun-tekenfilm
@@ -135,7 +135,7 @@ The cardinal numbers among the A1 extras have unreviewed annotations in `data/a1
 
 | # | Dutch | Turkish | English | Suggested | Decision |
 |---|---|---|---|---|---|
-| G0 | 29 cardinal numbers |  |  | yes: category a1-time (Zaman), no article (all 29) | |
+| G0 | 29 cardinal numbers |  |  | yes: category a1-time (Zaman), no article (all 29) | evet |
 
 The 29 numbers:
 
