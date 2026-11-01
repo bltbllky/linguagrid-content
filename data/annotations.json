@@ -16238,5 +16238,4245 @@
     "category_id": "a2-daily-verbs",
     "reviewed": true,
     "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-geboren",
+    "text_tr": "doğmuş",
+    "article": null,
+    "category_id": "a1-people",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-getrouwd",
+    "text_tr": "evli",
+    "article": null,
+    "category_id": "a1-people",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-echtgenoot",
+    "text_tr": "eş (erkek)",
+    "article": "de",
+    "category_id": "a1-people",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-echtgenote",
+    "text_tr": "eş (kadın)",
+    "article": "de",
+    "category_id": "a1-people",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-wakker",
+    "text_tr": "uyanık",
+    "article": null,
+    "category_id": "a1-home",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-twee",
+    "text_tr": "iki",
+    "article": null,
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-drie",
+    "text_tr": "üç",
+    "article": null,
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-miljoen",
+    "text_tr": "milyon",
+    "article": null,
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-januari",
+    "text_tr": "ocak (ay)",
+    "article": "de",
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vijf",
+    "text_tr": "beş",
+    "article": null,
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-mei",
+    "text_tr": "mayıs",
+    "article": "de",
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-juni",
+    "text_tr": "haziran",
+    "article": "de",
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-september",
+    "text_tr": "eylül",
+    "article": "de",
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-april",
+    "text_tr": "nisan",
+    "article": "de",
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-oktober",
+    "text_tr": "ekim",
+    "article": "de",
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-december",
+    "text_tr": "aralık",
+    "article": "de",
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-juli",
+    "text_tr": "temmuz",
+    "article": "de",
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-zes",
+    "text_tr": "altı",
+    "article": null,
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-november",
+    "text_tr": "kasım",
+    "article": "de",
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-augustus",
+    "text_tr": "ağustos",
+    "article": "de",
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tien",
+    "text_tr": "on",
+    "article": null,
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "adj-half",
+    "text_tr": "yarım",
+    "article": null,
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-februari",
+    "text_tr": "şubat",
+    "article": "de",
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-miljard",
+    "text_tr": "milyar",
+    "article": null,
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-vier",
+    "text_tr": "dört",
+    "article": null,
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-maart",
+    "text_tr": "mart",
+    "article": "de",
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vrijdag",
+    "text_tr": "cuma",
+    "article": "de",
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-zondag",
+    "text_tr": "pazar (gün)",
+    "article": "de",
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-maandag",
+    "text_tr": "pazartesi",
+    "article": "de",
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-zaterdag",
+    "text_tr": "cumartesi",
+    "article": "de",
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-honderd",
+    "text_tr": "yüz (sayı)",
+    "article": null,
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-donderdag",
+    "text_tr": "perşembe",
+    "article": "de",
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-woensdag",
+    "text_tr": "çarşamba",
+    "article": "de",
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-dinsdag",
+    "text_tr": "salı",
+    "article": "de",
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-duizend",
+    "text_tr": "bin",
+    "article": null,
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-twintig",
+    "text_tr": "yirmi",
+    "article": null,
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-seconde",
+    "text_tr": "saniye",
+    "article": "de",
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-zeven",
+    "text_tr": "yedi",
+    "article": null,
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-acht",
+    "text_tr": "sekiz",
+    "article": null,
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-twaalf",
+    "text_tr": "on iki",
+    "article": null,
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-dertig",
+    "text_tr": "otuz",
+    "article": null,
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-elf",
+    "text_tr": "on bir",
+    "article": null,
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-vijftien",
+    "text_tr": "on beş",
+    "article": null,
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-vijftig",
+    "text_tr": "elli",
+    "article": null,
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-negen",
+    "text_tr": "dokuz",
+    "article": null,
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-zestig",
+    "text_tr": "altmış",
+    "article": null,
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-veertien",
+    "text_tr": "on dört",
+    "article": null,
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-zestien",
+    "text_tr": "on altı",
+    "article": null,
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-tachtig",
+    "text_tr": "seksen",
+    "article": null,
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-dertien",
+    "text_tr": "on üç",
+    "article": null,
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-zeventig",
+    "text_tr": "yetmiş",
+    "article": null,
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-veertig",
+    "text_tr": "kırk",
+    "article": null,
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-nul",
+    "text_tr": "sıfır",
+    "article": null,
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-negentig",
+    "text_tr": "doksan",
+    "article": null,
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-achttien",
+    "text_tr": "on sekiz",
+    "article": null,
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-vliegen",
+    "text_tr": "uçmak",
+    "article": null,
+    "category_id": "a1-city-travel",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-hart",
+    "text_tr": "kalp",
+    "article": "het",
+    "category_id": "a1-body-health",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-rusten",
+    "text_tr": "dinlenmek",
+    "article": null,
+    "category_id": "a1-body-health",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-borst",
+    "text_tr": "göğüs",
+    "article": "de",
+    "category_id": "a1-body-health",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-duim",
+    "text_tr": "başparmak",
+    "article": "de",
+    "category_id": "a1-body-health",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-bot",
+    "text_tr": "kemik",
+    "article": "het",
+    "category_id": "a2-health",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-long",
+    "text_tr": "akciğer",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-knie",
+    "text_tr": "diz",
+    "article": "de",
+    "category_id": "a1-body-health",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-zuiden",
+    "text_tr": "güney",
+    "article": "het",
+    "category_id": "a1-nature",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-westen",
+    "text_tr": "batı",
+    "article": "het",
+    "category_id": "a1-nature",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-oosten",
+    "text_tr": "doğu",
+    "article": "het",
+    "category_id": "a1-nature",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-bouwen",
+    "text_tr": "inşa etmek",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-groeien",
+    "text_tr": "büyümek",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-drukken",
+    "text_tr": "basmak (düğmeye)",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-draaien",
+    "text_tr": "dönmek, döndürmek",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-hoeven",
+    "text_tr": "gerekmek",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-roepen",
+    "text_tr": "seslenmek",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-hangen",
+    "text_tr": "asılı durmak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-breken",
+    "text_tr": "kırmak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-springen",
+    "text_tr": "zıplamak",
+    "article": null,
+    "category_id": "a1-daily-verbs",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-rond",
+    "text_tr": "yuvarlak",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-bezig",
+    "text_tr": "meşgul",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-rijk",
+    "text_tr": "zengin",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-diep",
+    "text_tr": "derin",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-prima",
+    "text_tr": "gayet iyi",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-gek",
+    "text_tr": "deli",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-paars",
+    "text_tr": "mor",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-roze",
+    "text_tr": "pembe",
+    "article": null,
+    "category_id": "a1-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-schoen",
+    "text_tr": "ayakkabı",
+    "article": "de",
+    "category_id": "a1-clothes",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-licht",
+    "text_tr": "ışık",
+    "article": "het",
+    "category_id": "a2-home",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-elektrisch",
+    "text_tr": "elektrikli",
+    "article": null,
+    "category_id": "a2-home",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-bewaren",
+    "text_tr": "saklamak (korumak)",
+    "article": null,
+    "category_id": "a2-home",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-eigenaar",
+    "text_tr": "sahip",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-branden",
+    "text_tr": "yanmak",
+    "article": null,
+    "category_id": "a2-home",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-gang",
+    "text_tr": "koridor",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-gat",
+    "text_tr": "delik",
+    "article": "het",
+    "category_id": "a2-home",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-energie",
+    "text_tr": "enerji",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-slot",
+    "text_tr": "kilit",
+    "article": "het",
+    "category_id": "a2-home",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-houten",
+    "text_tr": "ahşap",
+    "article": null,
+    "category_id": "a2-home",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-waslijn",
+    "text_tr": "çamaşır ipi",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-geluid",
+    "text_tr": "ses",
+    "article": "het",
+    "category_id": "a2-home",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-legen",
+    "text_tr": "boşaltmak",
+    "article": null,
+    "category_id": "a2-home",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-voorwerp",
+    "text_tr": "nesne",
+    "article": "het",
+    "category_id": "a2-home",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-inrichten",
+    "text_tr": "döşemek",
+    "article": null,
+    "category_id": "a2-home",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verbouwen",
+    "text_tr": "tadilat yapmak",
+    "article": null,
+    "category_id": "a2-home",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-spul",
+    "text_tr": "eşya",
+    "article": "het",
+    "category_id": "a2-home",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-drogen",
+    "text_tr": "kurutmak",
+    "article": null,
+    "category_id": "a2-home",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-plastic",
+    "text_tr": "plastik",
+    "article": "het",
+    "category_id": "a2-home",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-knop",
+    "text_tr": "düğme",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-bel",
+    "text_tr": "zil",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-stroom",
+    "text_tr": "elektrik akımı",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-hal",
+    "text_tr": "hol (giriş)",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-doek",
+    "text_tr": "bez",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-klok",
+    "text_tr": "duvar saati",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-metaal",
+    "text_tr": "metal",
+    "article": "het",
+    "category_id": "a2-home",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verhuren",
+    "text_tr": "kiraya vermek",
+    "article": null,
+    "category_id": "a2-home",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-batterij",
+    "text_tr": "pil (batarya)",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-gas",
+    "text_tr": "gaz",
+    "article": "het",
+    "category_id": "a2-home",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tegel",
+    "text_tr": "fayans",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-draad",
+    "text_tr": "tel",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-zaag",
+    "text_tr": "testere",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-hek",
+    "text_tr": "çit",
+    "article": "het",
+    "category_id": "a2-home",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-beker",
+    "text_tr": "bardak (kupa)",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-hoes",
+    "text_tr": "kılıf",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-zeef",
+    "text_tr": "süzgeç",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-bedienen",
+    "text_tr": "müşteriye hizmet etmek",
+    "article": null,
+    "category_id": "a2-food",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-alcohol",
+    "text_tr": "alkol",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vet",
+    "text_tr": "katı yağ",
+    "article": "het",
+    "category_id": "a2-food",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pot",
+    "text_tr": "kavanoz",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-koelen",
+    "text_tr": "soğutmak",
+    "article": null,
+    "category_id": "a2-food",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-dood",
+    "text_tr": "ölü",
+    "article": null,
+    "category_id": "a2-health",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-virus",
+    "text_tr": "virüs",
+    "article": "het",
+    "category_id": "a2-health",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-testen",
+    "text_tr": "test etmek",
+    "article": null,
+    "category_id": "a2-health",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-ernstig",
+    "text_tr": "ağır (hastalık)",
+    "article": null,
+    "category_id": "a2-health",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-controle",
+    "text_tr": "kontrol",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vaccin",
+    "text_tr": "aşı",
+    "article": "het",
+    "category_id": "a2-health",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-meten",
+    "text_tr": "ölçmek",
+    "article": null,
+    "category_id": "a2-health",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-behandelen",
+    "text_tr": "tedavi etmek",
+    "article": null,
+    "category_id": "a2-health",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-bleek",
+    "text_tr": "solgun",
+    "article": null,
+    "category_id": "a2-health",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-gewicht",
+    "text_tr": "ağırlık",
+    "article": "het",
+    "category_id": "a2-health",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-operatie",
+    "text_tr": "ameliyat",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verzorgen",
+    "text_tr": "bakımını yapmak",
+    "article": null,
+    "category_id": "a2-health",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-mondkap",
+    "text_tr": "maske (ağız)",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-buigen",
+    "text_tr": "eğilmek",
+    "article": null,
+    "category_id": "a2-health",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-symptoom",
+    "text_tr": "belirti",
+    "article": "het",
+    "category_id": "a2-health",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "adj-levend",
+    "text_tr": "yaşayan",
+    "article": null,
+    "category_id": "a2-health",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-huisarts",
+    "text_tr": "aile hekimi",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-innemen",
+    "text_tr": "(ilaç) almak",
+    "article": null,
+    "category_id": "a2-health",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-blind",
+    "text_tr": "kör",
+    "article": null,
+    "category_id": "a2-health",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-opereren",
+    "text_tr": "ameliyat etmek",
+    "article": null,
+    "category_id": "a2-health",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-slaap",
+    "text_tr": "uyku",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-pijnlijk",
+    "text_tr": "ağrılı",
+    "article": null,
+    "category_id": "a2-health",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-blessure",
+    "text_tr": "sakatlık",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-lip",
+    "text_tr": "dudak",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-rib",
+    "text_tr": "kaburga",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pil",
+    "text_tr": "hap",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-organiseren",
+    "text_tr": "organize etmek",
+    "article": null,
+    "category_id": "a2-work-study",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-aanwezig",
+    "text_tr": "mevcut",
+    "article": null,
+    "category_id": "a2-work-study",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-lijst",
+    "text_tr": "liste",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-tijdelijk",
+    "text_tr": "geçici",
+    "article": null,
+    "category_id": "a2-work-study",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-contract",
+    "text_tr": "sözleşme",
+    "article": "het",
+    "category_id": "a2-work-study",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-rekenen",
+    "text_tr": "hesaplamak",
+    "article": null,
+    "category_id": "a2-work-study",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verbeteren",
+    "text_tr": "iyileştirmek",
+    "article": null,
+    "category_id": "a2-work-study",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-doel",
+    "text_tr": "amaç",
+    "article": "het",
+    "category_id": "a2-work-study",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-taak",
+    "text_tr": "yapılacak iş",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-zakken",
+    "text_tr": "(sınavda) kalmak",
+    "article": null,
+    "category_id": "a2-work-study",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-zelfstandig",
+    "text_tr": "bağımsız",
+    "article": null,
+    "category_id": "a2-work-study",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-journalist",
+    "text_tr": "gazeteci",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-machine",
+    "text_tr": "makine",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-rapport",
+    "text_tr": "karne",
+    "article": "het",
+    "category_id": "a2-work-study",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-meester",
+    "text_tr": "ilkokul öğretmeni",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-typen",
+    "text_tr": "yazmak (klavyeyle)",
+    "article": null,
+    "category_id": "a2-work-study",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-getal",
+    "text_tr": "sayı",
+    "article": "het",
+    "category_id": "a2-work-study",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-overleggen",
+    "text_tr": "danışmak",
+    "article": null,
+    "category_id": "a2-work-study",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-samenwerken",
+    "text_tr": "işbirliği yapmak",
+    "article": null,
+    "category_id": "a2-work-study",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pagina",
+    "text_tr": "sayfa (web)",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-opslaan",
+    "text_tr": "kaydetmek",
+    "article": null,
+    "category_id": "a2-work-study",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-som",
+    "text_tr": "hesap problemi",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-geldig",
+    "text_tr": "geçerli",
+    "article": null,
+    "category_id": "a2-services",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-brand",
+    "text_tr": "yangın",
+    "article": "de",
+    "category_id": "a2-services",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-verplicht",
+    "text_tr": "zorunlu",
+    "article": null,
+    "category_id": "a2-services",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-document",
+    "text_tr": "belge",
+    "article": "het",
+    "category_id": "a2-services",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verlengen",
+    "text_tr": "uzatmak",
+    "article": null,
+    "category_id": "a2-services",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-code",
+    "text_tr": "kod",
+    "article": "de",
+    "category_id": "a2-services",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-brandweer",
+    "text_tr": "itfaiye",
+    "article": "de",
+    "category_id": "a2-services",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-aanvragen",
+    "text_tr": "başvurmak",
+    "article": null,
+    "category_id": "a2-services",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-plaats",
+    "text_tr": "yer",
+    "article": "de",
+    "category_id": "a2-city-transport",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-meter",
+    "text_tr": "metre",
+    "article": "de",
+    "category_id": "a2-city-transport",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-afstand",
+    "text_tr": "mesafe",
+    "article": "de",
+    "category_id": "a2-city-transport",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-toren",
+    "text_tr": "kule",
+    "article": "de",
+    "category_id": "a2-city-transport",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-schip",
+    "text_tr": "gemi",
+    "article": "het",
+    "category_id": "a2-city-transport",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-motor",
+    "text_tr": "motor",
+    "article": "de",
+    "category_id": "a2-city-transport",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-snelheid",
+    "text_tr": "hız",
+    "article": "de",
+    "category_id": "a2-city-transport",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-hoek",
+    "text_tr": "köşe",
+    "article": "de",
+    "category_id": "a2-city-transport",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-kanaal",
+    "text_tr": "kanal (gemi yolu)",
+    "article": "het",
+    "category_id": "a2-city-transport",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-stuur",
+    "text_tr": "direksiyon, gidon",
+    "article": "het",
+    "category_id": "a2-city-transport",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tunnel",
+    "text_tr": "tünel",
+    "article": "de",
+    "category_id": "a2-city-transport",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vlucht",
+    "text_tr": "uçuş",
+    "article": "de",
+    "category_id": "a2-city-transport",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-snelweg",
+    "text_tr": "otoyol",
+    "article": "de",
+    "category_id": "a2-city-transport",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vrachtwagen",
+    "text_tr": "yük kamyonu",
+    "article": "de",
+    "category_id": "a2-city-transport",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-bestemming",
+    "text_tr": "varış yeri",
+    "article": "de",
+    "category_id": "a2-city-transport",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-bocht",
+    "text_tr": "viraj",
+    "article": "de",
+    "category_id": "a2-city-transport",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-dichtbij",
+    "text_tr": "yakın",
+    "article": null,
+    "category_id": "a2-city-transport",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vertraging",
+    "text_tr": "gecikme",
+    "article": "de",
+    "category_id": "a2-city-transport",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-piloot",
+    "text_tr": "pilot",
+    "article": "de",
+    "category_id": "a2-city-transport",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-perron",
+    "text_tr": "tren peronu",
+    "article": "het",
+    "category_id": "a2-city-transport",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-ticket",
+    "text_tr": "bilet",
+    "article": "het",
+    "category_id": "a2-city-transport",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-rit",
+    "text_tr": "kısa yolculuk",
+    "article": "de",
+    "category_id": "a2-city-transport",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pijl",
+    "text_tr": "ok (işaret)",
+    "article": "de",
+    "category_id": "a2-city-transport",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-kruispunt",
+    "text_tr": "kavşak",
+    "article": "het",
+    "category_id": "a2-city-transport",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-laan",
+    "text_tr": "bulvar",
+    "article": "de",
+    "category_id": "a2-city-transport",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-kade",
+    "text_tr": "rıhtım",
+    "article": "de",
+    "category_id": "a2-city-transport",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-rem",
+    "text_tr": "fren",
+    "article": "de",
+    "category_id": "a2-city-transport",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-straatnaam",
+    "text_tr": "sokak adı",
+    "article": "de",
+    "category_id": "a2-city-transport",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-stuk",
+    "text_tr": "parça",
+    "article": "het",
+    "category_id": "a2-shopping",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-helft",
+    "text_tr": "yarı",
+    "article": "de",
+    "category_id": "a2-shopping",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-bedrag",
+    "text_tr": "tutar",
+    "article": "het",
+    "category_id": "a2-shopping",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-aanbieden",
+    "text_tr": "teklif etmek",
+    "article": null,
+    "category_id": "a2-shopping",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-goud",
+    "text_tr": "altın",
+    "article": "het",
+    "category_id": "a2-shopping",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-centimeter",
+    "text_tr": "santimetre",
+    "article": "de",
+    "category_id": "a2-shopping",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-merk",
+    "text_tr": "marka",
+    "article": "het",
+    "category_id": "a2-shopping",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-kilogram",
+    "text_tr": "kilogram",
+    "article": "de",
+    "category_id": "a2-shopping",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-rij",
+    "text_tr": "sıra",
+    "article": "de",
+    "category_id": "a2-shopping",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-lening",
+    "text_tr": "borç (para)",
+    "article": "de",
+    "category_id": "a2-shopping",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-millimeter",
+    "text_tr": "milimetre",
+    "article": "de",
+    "category_id": "a2-shopping",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-gram",
+    "text_tr": "gram",
+    "article": "de",
+    "category_id": "a2-shopping",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-liter",
+    "text_tr": "litre",
+    "article": "de",
+    "category_id": "a2-shopping",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-betaling",
+    "text_tr": "ödeme",
+    "article": "de",
+    "category_id": "a2-shopping",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-zilver",
+    "text_tr": "gümüş",
+    "article": "het",
+    "category_id": "a2-shopping",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-aankoop",
+    "text_tr": "satın alma",
+    "article": "de",
+    "category_id": "a2-shopping",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-luxe",
+    "text_tr": "lüks (konfor)",
+    "article": "de",
+    "category_id": "a2-shopping",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pond",
+    "text_tr": "yarım kilo",
+    "article": "het",
+    "category_id": "a2-shopping",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-bon",
+    "text_tr": "fiş",
+    "article": "de",
+    "category_id": "a2-shopping",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-automaat",
+    "text_tr": "otomat",
+    "article": "de",
+    "category_id": "a2-shopping",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pak",
+    "text_tr": "takım elbise",
+    "article": "het",
+    "category_id": "a2-clothes",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vlek",
+    "text_tr": "leke",
+    "article": "de",
+    "category_id": "a2-clothes",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-das",
+    "text_tr": "kravat",
+    "article": "de",
+    "category_id": "a2-clothes",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pet",
+    "text_tr": "kasket",
+    "article": "de",
+    "category_id": "a2-clothes",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-groep",
+    "text_tr": "grup",
+    "article": "de",
+    "category_id": "a2-people",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-lengte",
+    "text_tr": "boy",
+    "article": "de",
+    "category_id": "a2-people",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-bezoeker",
+    "text_tr": "ziyaretçi",
+    "article": "de",
+    "category_id": "a2-people",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-partner",
+    "text_tr": "partner",
+    "article": "de",
+    "category_id": "a2-people",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-bijnaam",
+    "text_tr": "takma ad",
+    "article": "de",
+    "category_id": "a2-people",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-echtpaar",
+    "text_tr": "evli çift",
+    "article": "het",
+    "category_id": "a2-people",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-weduwe",
+    "text_tr": "dul kadın",
+    "article": "de",
+    "category_id": "a2-people",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tiener",
+    "text_tr": "yeniyetme",
+    "article": "de",
+    "category_id": "a2-people",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-vieren",
+    "text_tr": "kutlamak",
+    "article": null,
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-team",
+    "text_tr": "takım",
+    "article": "het",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-speler",
+    "text_tr": "oyuncu",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-serie",
+    "text_tr": "dizi",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-programma",
+    "text_tr": "program",
+    "article": "het",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-kasteel",
+    "text_tr": "kale (şato)",
+    "article": "het",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-scoren",
+    "text_tr": "gol atmak",
+    "article": null,
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-kampioen",
+    "text_tr": "şampiyon",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-medaille",
+    "text_tr": "madalya",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-finale",
+    "text_tr": "final",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-lied",
+    "text_tr": "şarkı",
+    "article": "het",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verzamelen",
+    "text_tr": "toplamak (koleksiyon)",
+    "article": null,
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-raden",
+    "text_tr": "tahmin etmek (cevabı)",
+    "article": null,
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-winnaar",
+    "text_tr": "kazanan",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-fan",
+    "text_tr": "hayran",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-video",
+    "text_tr": "video",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-schilderij",
+    "text_tr": "tablo (resim)",
+    "article": "het",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-stadion",
+    "text_tr": "stadyum",
+    "article": "het",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-festival",
+    "text_tr": "festival",
+    "article": "het",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-kunstenaar",
+    "text_tr": "sanatçı",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-doelpunt",
+    "text_tr": "gol",
+    "article": "het",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vlag",
+    "text_tr": "bayrak",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-acteur",
+    "text_tr": "aktör",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-schilderen",
+    "text_tr": "resim yapmak",
+    "article": null,
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-concert",
+    "text_tr": "konser",
+    "article": "het",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-klassiek",
+    "text_tr": "klasik",
+    "article": null,
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-schrijver",
+    "text_tr": "yazar",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tijdschrift",
+    "text_tr": "dergi (yayın)",
+    "article": "het",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-theater",
+    "text_tr": "tiyatro (bina)",
+    "article": "het",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-roman",
+    "text_tr": "roman",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-beurt",
+    "text_tr": "sıra (oyunda)",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-voetballen",
+    "text_tr": "futbol oynamak",
+    "article": null,
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-zanger",
+    "text_tr": "şarkıcı",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-trainer",
+    "text_tr": "antrenör",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-training",
+    "text_tr": "antrenman",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-camera",
+    "text_tr": "kamera",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-duiken",
+    "text_tr": "dalmak",
+    "article": null,
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-instrument",
+    "text_tr": "enstrüman",
+    "article": "het",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tekening",
+    "text_tr": "çizim",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-gedicht",
+    "text_tr": "şiir (metin)",
+    "article": "het",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vuurwerk",
+    "text_tr": "havai fişek",
+    "article": "het",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-meedoen",
+    "text_tr": "katılmak",
+    "article": null,
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-bal",
+    "text_tr": "top",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-feesten",
+    "text_tr": "parti yapmak",
+    "article": null,
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-klappen",
+    "text_tr": "alkışlamak",
+    "article": null,
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-documentaire",
+    "text_tr": "belgesel",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-muzikant",
+    "text_tr": "müzisyen",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-piano",
+    "text_tr": "piyano",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-gitaar",
+    "text_tr": "gitar",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-kunstwerk",
+    "text_tr": "sanat eseri",
+    "article": "het",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-zaal",
+    "text_tr": "salon",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-bar",
+    "text_tr": "bar",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-voetballer",
+    "text_tr": "futbolcu",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-avontuur",
+    "text_tr": "macera",
+    "article": "het",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-bioscoop",
+    "text_tr": "sinema",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-klimmen",
+    "text_tr": "tırmanmak (spor)",
+    "article": null,
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-interesse",
+    "text_tr": "ilgi",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tocht",
+    "text_tr": "gezi (doğada)",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-versieren",
+    "text_tr": "süslemek",
+    "article": null,
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-attractie",
+    "text_tr": "eğlence aracı",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-circus",
+    "text_tr": "sirk",
+    "article": "het",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pop",
+    "text_tr": "oyuncak bebek",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-drum",
+    "text_tr": "davul",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-clown",
+    "text_tr": "palyaço",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-ballet",
+    "text_tr": "bale",
+    "article": "het",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-roeien",
+    "text_tr": "kürek çekmek",
+    "article": null,
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-wereld",
+    "text_tr": "dünya",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vuur",
+    "text_tr": "ateş (alev)",
+    "article": "het",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-grond",
+    "text_tr": "yer (zemin)",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-wild",
+    "text_tr": "vahşi",
+    "article": null,
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-steen",
+    "text_tr": "taş",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-veld",
+    "text_tr": "tarla",
+    "article": "het",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-ster",
+    "text_tr": "yıldız",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-molen",
+    "text_tr": "değirmen",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-blad",
+    "text_tr": "yaprak",
+    "article": "het",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tak",
+    "text_tr": "dal",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-aarde",
+    "text_tr": "toprak",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-boerderij",
+    "text_tr": "çiftlik",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-boer",
+    "text_tr": "çiftçi",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-hout",
+    "text_tr": "tahta (malzeme)",
+    "article": "het",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-landschap",
+    "text_tr": "manzara (doğa)",
+    "article": "het",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-hert",
+    "text_tr": "geyik",
+    "article": "het",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pad",
+    "text_tr": "patika",
+    "article": "het",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-schaduw",
+    "text_tr": "gölge",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-sloot",
+    "text_tr": "hendek",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-temperatuur",
+    "text_tr": "sıcaklık",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-heuvel",
+    "text_tr": "tepe",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-leeuw",
+    "text_tr": "aslan",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-staart",
+    "text_tr": "kuyruk",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vlieg",
+    "text_tr": "sinek",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-nest",
+    "text_tr": "yuva",
+    "article": "het",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-wolf",
+    "text_tr": "kurt",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-kust",
+    "text_tr": "kıyı",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-golf",
+    "text_tr": "dalga",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-dal",
+    "text_tr": "vadi",
+    "article": "het",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-oceaan",
+    "text_tr": "okyanus",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-slang",
+    "text_tr": "yılan",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-rat",
+    "text_tr": "sıçan",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-grot",
+    "text_tr": "mağara",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-insect",
+    "text_tr": "böcek",
+    "article": "het",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-poot",
+    "text_tr": "pati",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-polder",
+    "text_tr": "polder",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-aap",
+    "text_tr": "maymun",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-bui",
+    "text_tr": "kısa sağanak",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-ijzer",
+    "text_tr": "demir",
+    "article": "het",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-hitte",
+    "text_tr": "aşırı sıcak",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-schelp",
+    "text_tr": "deniz kabuğu",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-geloven",
+    "text_tr": "inanmak",
+    "article": null,
+    "category_id": "a2-feelings",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-durven",
+    "text_tr": "cesaret etmek",
+    "article": null,
+    "category_id": "a2-feelings",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-genieten",
+    "text_tr": "keyif almak",
+    "article": null,
+    "category_id": "a2-feelings",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-gevoel",
+    "text_tr": "his",
+    "article": "het",
+    "category_id": "a2-feelings",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-twijfelen",
+    "text_tr": "kararsız kalmak",
+    "article": null,
+    "category_id": "a2-feelings",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-herinnering",
+    "text_tr": "anı",
+    "article": "de",
+    "category_id": "a2-feelings",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verrassen",
+    "text_tr": "sürpriz yapmak",
+    "article": null,
+    "category_id": "a2-feelings",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-sfeer",
+    "text_tr": "ortam, atmosfer",
+    "article": "de",
+    "category_id": "a2-feelings",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-dromen",
+    "text_tr": "rüya görmek",
+    "article": null,
+    "category_id": "a2-feelings",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-jammer",
+    "text_tr": "yazık",
+    "article": null,
+    "category_id": "a2-feelings",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-onzeker",
+    "text_tr": "emin olmayan",
+    "article": null,
+    "category_id": "a2-feelings",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-schrikken",
+    "text_tr": "irkilmek",
+    "article": null,
+    "category_id": "a2-feelings",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-schelen",
+    "text_tr": "umurunda olmak",
+    "article": null,
+    "category_id": "a2-feelings",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-emotie",
+    "text_tr": "duygu",
+    "article": "de",
+    "category_id": "a2-feelings",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-humor",
+    "text_tr": "mizah",
+    "article": "de",
+    "category_id": "a2-feelings",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-haten",
+    "text_tr": "nefret etmek",
+    "article": null,
+    "category_id": "a2-feelings",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-vreselijk",
+    "text_tr": "korkunç",
+    "article": null,
+    "category_id": "a2-feelings",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-eng",
+    "text_tr": "korkutucu",
+    "article": null,
+    "category_id": "a2-feelings",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-actief",
+    "text_tr": "aktif",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-enorm",
+    "text_tr": "kocaman",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-hoogte",
+    "text_tr": "yükseklik",
+    "article": "de",
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-breed",
+    "text_tr": "geniş (enine)",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-vlak",
+    "text_tr": "düz (yassı)",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-midden",
+    "text_tr": "orta",
+    "article": "het",
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-kant",
+    "text_tr": "taraf",
+    "article": "de",
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-gemiddeld",
+    "text_tr": "ortalama",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-gelijk",
+    "text_tr": "eşit",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-verschil",
+    "text_tr": "fark",
+    "article": "het",
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-serieus",
+    "text_tr": "ciddi",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-gevaar",
+    "text_tr": "tehlike",
+    "article": "het",
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-los",
+    "text_tr": "gevşek (bağsız)",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-dubbel",
+    "text_tr": "iki kat",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-onbekend",
+    "text_tr": "bilinmeyen",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-streng",
+    "text_tr": "sert (kişi)",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-redelijk",
+    "text_tr": "makul",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-automatisch",
+    "text_tr": "otomatik",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-stevig",
+    "text_tr": "sağlam",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-uniek",
+    "text_tr": "eşsiz",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-typisch",
+    "text_tr": "tipik",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-slim",
+    "text_tr": "akıllı",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-zwak",
+    "text_tr": "güçsüz",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-dom",
+    "text_tr": "aptal",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-vierkant",
+    "text_tr": "kare",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-logisch",
+    "text_tr": "mantıklı",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-praktisch",
+    "text_tr": "pratik",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-helder",
+    "text_tr": "berrak",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-smal",
+    "text_tr": "dar",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-streep",
+    "text_tr": "çizgi",
+    "article": "de",
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-vals",
+    "text_tr": "sahte",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-apart",
+    "text_tr": "ayrı",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-beroemd",
+    "text_tr": "ünlü",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-toevallig",
+    "text_tr": "tesadüfi",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-voorzichtig",
+    "text_tr": "dikkatli",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-kwijt",
+    "text_tr": "kaybolmuş (eşya)",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-betrouwbaar",
+    "text_tr": "güvenilir",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-uitstekend",
+    "text_tr": "çok iyi",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-creatief",
+    "text_tr": "yaratıcı",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-scherp",
+    "text_tr": "keskin",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-achterkant",
+    "text_tr": "arka taraf",
+    "article": "de",
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-breedte",
+    "text_tr": "genişlik",
+    "article": "de",
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-verstandig",
+    "text_tr": "akıllıca",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-agressief",
+    "text_tr": "saldırgan",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-onderkant",
+    "text_tr": "alt taraf",
+    "article": "de",
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-stiekem",
+    "text_tr": "gizlice",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "adj-belachelijk",
+    "text_tr": "gülünç",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-voorkant",
+    "text_tr": "ön taraf",
+    "article": "de",
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-bovenkant",
+    "text_tr": "üst taraf",
+    "article": "de",
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-lui",
+    "text_tr": "tembel",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-buitenkant",
+    "text_tr": "dış taraf",
+    "article": "de",
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-binnenkant",
+    "text_tr": "iç taraf",
+    "article": "de",
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-cirkel",
+    "text_tr": "çember",
+    "article": "de",
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-keurig",
+    "text_tr": "düzgün",
+    "article": null,
+    "category_id": "a2-describing",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-noemen",
+    "text_tr": "adlandırmak",
+    "article": null,
+    "category_id": "a2-communication",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-opnemen",
+    "text_tr": "(telefonu) açmak",
+    "article": null,
+    "category_id": "a2-communication",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-tonen",
+    "text_tr": "göstermek",
+    "article": null,
+    "category_id": "a2-communication",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-contact",
+    "text_tr": "iletişim",
+    "article": "het",
+    "category_id": "a2-communication",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-mening",
+    "text_tr": "kişisel görüş",
+    "article": "de",
+    "category_id": "a2-communication",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-wijzen",
+    "text_tr": "işaret etmek",
+    "article": null,
+    "category_id": "a2-communication",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-weigeren",
+    "text_tr": "reddetmek",
+    "article": null,
+    "category_id": "a2-communication",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-klinken",
+    "text_tr": "kulağa gelmek",
+    "article": null,
+    "category_id": "a2-communication",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-link",
+    "text_tr": "bağlantı (internet)",
+    "article": "de",
+    "category_id": "a2-communication",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-app",
+    "text_tr": "uygulama (telefon)",
+    "article": "de",
+    "category_id": "a2-communication",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-spellen",
+    "text_tr": "harf harf söylemek",
+    "article": null,
+    "category_id": "a2-communication",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-nieuws",
+    "text_tr": "haber",
+    "article": "het",
+    "category_id": "a2-communication",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-waarschuwen",
+    "text_tr": "uyarmak",
+    "article": null,
+    "category_id": "a2-communication",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-uitspraak",
+    "text_tr": "telaffuz",
+    "article": "de",
+    "category_id": "a2-communication",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-geheim",
+    "text_tr": "sır",
+    "article": "het",
+    "category_id": "a2-communication",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verbieden",
+    "text_tr": "yasaklamak",
+    "article": null,
+    "category_id": "a2-communication",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-wensen",
+    "text_tr": "dilemek",
+    "article": null,
+    "category_id": "a2-communication",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-appen",
+    "text_tr": "mesaj atmak",
+    "article": null,
+    "category_id": "a2-communication",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-accepteren",
+    "text_tr": "kabul etmek",
+    "article": null,
+    "category_id": "a2-communication",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-letter",
+    "text_tr": "harf",
+    "article": "de",
+    "category_id": "a2-communication",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-onzin",
+    "text_tr": "saçmalık",
+    "article": "de",
+    "category_id": "a2-communication",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-excuus",
+    "text_tr": "özür",
+    "article": "het",
+    "category_id": "a2-communication",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-scherm",
+    "text_tr": "ekran (telefon)",
+    "article": "het",
+    "category_id": "a2-communication",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tip",
+    "text_tr": "ipucu",
+    "article": "de",
+    "category_id": "a2-communication",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-grap",
+    "text_tr": "şaka",
+    "article": "de",
+    "category_id": "a2-communication",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-internetten",
+    "text_tr": "internette gezinmek",
+    "article": null,
+    "category_id": "a2-communication",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-opmerking",
+    "text_tr": "yorum",
+    "article": "de",
+    "category_id": "a2-communication",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-negeren",
+    "text_tr": "görmezden gelmek",
+    "article": null,
+    "category_id": "a2-communication",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-wens",
+    "text_tr": "dilek",
+    "article": "de",
+    "category_id": "a2-communication",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-belofte",
+    "text_tr": "söz (vaat)",
+    "article": "de",
+    "category_id": "a2-communication",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-posten",
+    "text_tr": "paylaşım yapmak",
+    "article": null,
+    "category_id": "a2-communication",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verzinnen",
+    "text_tr": "uydurmak",
+    "article": null,
+    "category_id": "a2-communication",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-updaten",
+    "text_tr": "güncellemek",
+    "article": null,
+    "category_id": "a2-communication",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-eindigen",
+    "text_tr": "bitmek",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verwachten",
+    "text_tr": "beklemek (olmasını)",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-vervangen",
+    "text_tr": "yerine koymak",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-ontdekken",
+    "text_tr": "keşfetmek",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-redden",
+    "text_tr": "kurtarmak",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-beschermen",
+    "text_tr": "korumak (zarardan)",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-merken",
+    "text_tr": "fark etmek",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-bekijken",
+    "text_tr": "incelemek",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verdelen",
+    "text_tr": "bölüştürmek",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-vergelijken",
+    "text_tr": "karşılaştırmak",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-stap",
+    "text_tr": "adım",
+    "article": "de",
+    "category_id": "a2-city-transport",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-bedenken",
+    "text_tr": "düşünüp bulmak",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-kloppen",
+    "text_tr": "kapıyı çalmak, doğru olmak",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-stelen",
+    "text_tr": "çalmak (hırsızlık)",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-vechten",
+    "text_tr": "dövüşmek",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verplaatsen",
+    "text_tr": "yerini değiştirmek",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-ontsnappen",
+    "text_tr": "kaçmak",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-herkennen",
+    "text_tr": "görünce tanımak",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-grijpen",
+    "text_tr": "kapmak",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-doorgaan",
+    "text_tr": "devam etmek",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-vullen",
+    "text_tr": "doldurmak",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-toevoegen",
+    "text_tr": "eklemek",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-oppakken",
+    "text_tr": "yerden almak",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-trappen",
+    "text_tr": "tekme atmak",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-vangen",
+    "text_tr": "yakalamak",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-schuiven",
+    "text_tr": "itip kaydırmak",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-opgeven",
+    "text_tr": "vazgeçmek",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-meemaken",
+    "text_tr": "başından geçmek",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-nadenken",
+    "text_tr": "düşünüp taşınmak",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-afzetten",
+    "text_tr": "(arabayla) bırakmak",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-mislukken",
+    "text_tr": "boşa çıkmak",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-duwen",
+    "text_tr": "itmek",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-letten",
+    "text_tr": "özen göstermek",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-ruiken",
+    "text_tr": "koklamak, kokmak",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-kruipen",
+    "text_tr": "sürünmek",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-stoten",
+    "text_tr": "çarpmak",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-gieten",
+    "text_tr": "dökmek",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-afgeven",
+    "text_tr": "elden vermek",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-opblazen",
+    "text_tr": "şişirmek",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-eeuw",
+    "text_tr": "yüzyıl",
+    "article": "de",
+    "category_id": "a2-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-volgend",
+    "text_tr": "sonraki",
+    "article": null,
+    "category_id": "a2-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-jaarlijks",
+    "text_tr": "yıllık",
+    "article": null,
+    "category_id": "a2-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-regelmatig",
+    "text_tr": "düzenli",
+    "article": null,
+    "category_id": "a2-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-verleden",
+    "text_tr": "geçmiş",
+    "article": "het",
+    "category_id": "a2-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-uitstellen",
+    "text_tr": "ertelemek",
+    "article": null,
+    "category_id": "a2-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-wekelijks",
+    "text_tr": "haftalık",
+    "article": null,
+    "category_id": "a2-time",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-zeventien",
+    "text_tr": "on yedi",
+    "article": null,
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-negentien",
+    "text_tr": "on dokuz",
+    "article": null,
+    "category_id": "a1-time",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-koelkast",
+    "text_tr": "buzdolabı",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-douche",
+    "text_tr": "duş",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-wekker",
+    "text_tr": "çalar saat",
+    "article": "de",
+    "category_id": "a2-home",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-huisnummer",
+    "text_tr": "kapı numarası",
+    "article": "het",
+    "category_id": "a2-services",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-postcode",
+    "text_tr": "posta kodu",
+    "article": "de",
+    "category_id": "a2-services",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-kapper",
+    "text_tr": "kuaför",
+    "article": "de",
+    "category_id": "a2-services",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-tandarts",
+    "text_tr": "diş hekimi",
+    "article": "de",
+    "category_id": "a2-health",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-bladzijde",
+    "text_tr": "sayfa",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-laptop",
+    "text_tr": "dizüstü bilgisayar",
+    "article": "de",
+    "category_id": "a2-work-study",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-dierentuin",
+    "text_tr": "hayvanat bahçesi",
+    "article": "de",
+    "category_id": "a2-free-time",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-achternaam",
+    "text_tr": "soyadı",
+    "article": "de",
+    "category_id": "a2-people",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-voornaam",
+    "text_tr": "ön ad",
+    "article": "de",
+    "category_id": "a2-people",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-kleinkind",
+    "text_tr": "torun",
+    "article": "het",
+    "category_id": "a2-people",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-banaan",
+    "text_tr": "muz",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-peer",
+    "text_tr": "armut",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-broodje",
+    "text_tr": "sandviç",
+    "article": "het",
+    "category_id": "a2-food",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-tomaat",
+    "text_tr": "domates",
+    "article": "de",
+    "category_id": "a2-food",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-koekje",
+    "text_tr": "bisküvi",
+    "article": "het",
+    "category_id": "a2-food",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-trui",
+    "text_tr": "kazak",
+    "article": "de",
+    "category_id": "a2-clothes",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-hoed",
+    "text_tr": "şapka",
+    "article": "de",
+    "category_id": "a2-clothes",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-schaap",
+    "text_tr": "koyun",
+    "article": "het",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-varken",
+    "text_tr": "domuz",
+    "article": "het",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-olifant",
+    "text_tr": "fil",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-eend",
+    "text_tr": "ördek",
+    "article": "de",
+    "category_id": "a2-nature-weather",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-binnenkomen",
+    "text_tr": "içeri girmek",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-thuisblijven",
+    "text_tr": "evde kalmak",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-weggooien",
+    "text_tr": "çöpe atmak",
+    "article": null,
+    "category_id": "a2-daily-verbs",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "adj-vriendelijk",
+    "text_tr": "güler yüzlü",
+    "article": null,
+    "category_id": "a2-feelings",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "adj-vervelend",
+    "text_tr": "can sıkıcı",
+    "article": null,
+    "category_id": "a2-feelings",
+    "reviewed": true,
+    "review_source": "owner"
   }
 ]
