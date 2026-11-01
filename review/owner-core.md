@@ -199,5 +199,5 @@ Decision F2: ____
 Turkish: noun-kopje. English: none. Three readers (the current text, both blind passes and DeepL) share a head word and no other question touches the row. To pull one back, write its id in the merge report.
 
 ## Spot-check result (T-225)
-- Part C (20 Turkish words, text and article): ____ errors. Extension (30 words) needed: ____
-- Part D (20 English words): ____ errors. Extension (30 words) needed: ____
+- Part C (20 Turkish words, text and article): 0 errors (owner approval in chat 2026-11-01, all "✓"). Extension (30 words) needed: no
+- Part D (20 English words): 0 errors (owner approval in chat 2026-11-01, all "✓"). Extension (30 words) needed: no
