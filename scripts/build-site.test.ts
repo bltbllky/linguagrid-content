@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { existsSync, mkdirSync, mkdtempSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, mkdtempSync, readFileSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { describe, it } from 'node:test';
@@ -32,5 +32,16 @@ describe('buildSite', () => {
     assert.deepEqual(buildSite(root, out), ['index.html', 'manifest.json', 'support']);
     assert.ok(existsSync(join(out, 'index.html')));
     assert.ok(existsSync(join(out, 'support', 'en.html')));
+  });
+
+  it('publishes the privacy redirect pages unchanged', () => {
+    const root = mkdtempSync(join(tmpdir(), 'lgc-'));
+    mkdirSync(join(root, 'privacy'));
+    const redirect = '<meta http-equiv="refresh" content="0; url=https://ugeb.nl/linguagrid/privacy/tr.html">';
+    writeFileSync(join(root, 'privacy', 'tr.html'), redirect);
+    const out = join(root, 'public');
+
+    assert.deepEqual(buildSite(root, out), ['privacy']);
+    assert.equal(readFileSync(join(out, 'privacy', 'tr.html'), 'utf8'), redirect);
   });
 });
