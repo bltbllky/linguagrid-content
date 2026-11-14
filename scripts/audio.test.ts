@@ -4,11 +4,13 @@ import { test } from 'node:test';
 import {
   audioFileName,
   buildIndex,
+  generate,
   pickSample,
   readWav,
   spokenText,
   trimAndNormalise,
   writeWav,
+  type Runner,
   type SourceWord,
 } from './audio.ts';
 
@@ -108,4 +110,73 @@ test('pickSample is seeded, covers the mix and skips unusable ids', () => {
   assert.ok(a.filter((w) => w.pos === 'verb').length >= 2);
   assert.ok(a.filter((w) => w.lemma_nl.length >= 12).length >= 2);
   assert.deepEqual(new Set(a.map((w) => w.cefr)), new Set(['A1', 'A2', 'B1']));
+});
+
+test('generate drives piper and afconvert through the runner', () => {
+  const calls: { cmd: string; args: string[]; input?: string }[] = [];
+  const files = new Map<string, Buffer>();
+  const run: Runner = (cmd, args, input) => {
+    calls.push({ cmd, args, input });
+    if (cmd === 'piper') files.set(args[args.indexOf('-f') + 1], writeWav(Int16Array.from([0, 0, 900, -900, 0]), RATE));
+    else files.set(args[args.length - 1], Buffer.from('m4a:' + args[args.length - 1]));
+  };
+  const written = new Map<string, Buffer>();
+  const result = generate(
+    { words: WORDS, ids: ['noun-w1', 'noun-w2'], out: '/out', model: '/m/alex.onnx', bitrate: 32000, overrides: { 'noun-w2': 'twee!' } },
+    { run, exists: (p) => written.has(p), readFile: (p) => written.get(p) ?? files.get(p) ?? Buffer.from('model'), writeFile: (p, b) => void written.set(p, Buffer.from(b)), mkdirs: () => {}, tmpDir: '/tmp/x' },
+  );
+  const piper = calls.filter((c) => c.cmd === 'piper');
+  const aff = calls.filter((c) => c.cmd === 'afconvert');
+  assert.equal(piper.length, 2);
+  assert.deepEqual(piper[0].args, ['-m', '/m/alex.onnx', '-f', '/tmp/x/noun-w1.wav']);
+  assert.equal(piper[0].input, 'het w1');
+  assert.equal(piper[1].input, 'twee!');
+  assert.deepEqual(aff[0].args, ['-f', 'm4af', '-d', 'aac', '-b', '32000', '-c', '1', '/tmp/x/noun-w1.wav', '/out/noun-w1.m4a']);
+  assert.deepEqual(result.sizes.files, 2);
+  assert.equal(result.index.words.length, 2);
+  assert.ok(written.has('/out/sizes.json') && written.has('/out/index.json'));
+});
+
+function harness() {
+  const files = new Map<string, Buffer>();
+  const written = new Map<string, Buffer>();
+  const run: Runner = (cmd, args) => {
+    if (cmd === 'piper') files.set(args[args.indexOf('-f') + 1], writeWav(Int16Array.from([0, 900, -900, 0]), RATE));
+    else files.set(args[args.length - 1], Buffer.from('m4a:' + args[args.length - 1]));
+  };
+  const deps = {
+    run,
+    exists: (p: string) => written.has(p),
+    readFile: (p: string) => written.get(p) ?? files.get(p) ?? Buffer.from('model'),
+    writeFile: (p: string, b: Buffer | string) => void written.set(p, Buffer.from(b)),
+    mkdirs: () => {},
+    tmpDir: '/tmp/x',
+  };
+  return { deps, written };
+}
+const base = { words: WORDS, out: '/out', model: '/m/alex.onnx', bitrate: 48000, overrides: {} };
+
+test('a partial run merges into the existing index and sizes by id', () => {
+  const { deps, written } = harness();
+  generate({ ...base, ids: ['noun-w1', 'noun-w2'] }, deps);
+  const second = generate({ ...base, ids: ['noun-w2', 'noun-café'], overrides: { 'noun-w2': 'twee!' } }, deps);
+  assert.deepEqual(second.index.words.map((w) => w.id), ['noun-café', 'noun-w1', 'noun-w2']);
+  assert.equal(second.index.words.find((w) => w.id === 'noun-w2')!.text, 'twee!');
+  assert.equal(second.index.words.find((w) => w.id === 'noun-café')!.file, 'noun-cafe.m4a');
+  assert.equal(second.sizes.files, 3);
+  assert.equal(JSON.parse(written.get('/out/sizes.json')!.toString()).files, 3);
+});
+
+test('generate refuses ids that fold to one file name', () => {
+  const { deps } = harness();
+  const clash = [...WORDS, { ...CAFE, id: 'noun-cafe' }];
+  assert.throws(() => generate({ ...base, words: clash }, deps), /both map to noun-cafe.m4a/);
+  generate({ ...base, ids: ['noun-café'] }, deps);
+  assert.throws(() => generate({ ...base, words: clash, ids: ['noun-cafe'] }, deps), /overwrite/);
+});
+
+test('generate rejects a blank override and unknown ids', () => {
+  const { deps } = harness();
+  assert.throws(() => generate({ ...base, overrides: { 'noun-w1': '  ' } }, deps), /blank override/);
+  assert.throws(() => generate({ ...base, ids: ['nope'] }, deps), /unknown word id/);
 });

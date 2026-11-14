@@ -1,3 +1,5 @@
+import { createHash } from 'node:crypto';
+
 import { mulberry32, shuffle } from './spot-check.ts';
 
 export type Article = 'de' | 'het' | null;
@@ -139,4 +141,80 @@ function usableId(id: string): boolean {
   } catch {
     return false;
   }
+}
+
+export type Runner = (cmd: string, args: string[], input?: string) => void;
+
+export interface Deps {
+  run: Runner;
+  readFile: (path: string) => Buffer;
+  exists: (path: string) => boolean;
+  writeFile: (path: string, data: Buffer | string) => void;
+  mkdirs: (...dirs: string[]) => void;
+  tmpDir: string;
+}
+
+export interface GenerateOptions {
+  words: SourceWord[];
+  /** Restrict to these ids; unknown ids are an error. */
+  ids?: string[];
+  out: string;
+  model: string;
+  bitrate: number;
+  overrides: Record<string, string>;
+}
+
+const sha256 = (b: Buffer | string) => createHash('sha256').update(b).digest('hex');
+
+/** Piper (text on stdin), our trim and normalise, then `afconvert` to AAC; writes `sizes.json` and `index.json`. */
+export function generate(opts: GenerateOptions, deps: Deps) {
+  for (const [id, text] of Object.entries(opts.overrides)) {
+    if (!text.trim()) throw new Error(`blank override for ${id}`);
+  }
+  const byId = new Map(opts.words.map((w) => [w.id, w]));
+  const chosen = opts.ids ? opts.ids.map((id) => byId.get(id) ?? fail(`unknown word id ${id}`)) : opts.words;
+  const names = new Map<string, string>();
+  for (const w of opts.ids ? chosen : opts.words) {
+    const file = audioFileName(w.id);
+    const other = names.get(file);
+    if (other && other !== w.id) throw new Error(`${other} and ${w.id} both map to ${file}`);
+    names.set(file, w.id);
+  }
+  const indexPath = `${opts.out}/index.json`;
+  const previous: IndexEntry[] = deps.exists(indexPath) ? (JSON.parse(deps.readFile(indexPath).toString()) as AudioIndex).words : [];
+  for (const e of previous) {
+    const other = names.get(e.file);
+    if (other && other !== e.id) throw new Error(`${other} would overwrite ${e.file} of ${e.id}`);
+  }
+  deps.mkdirs(opts.out, deps.tmpDir);
+  const entries: IndexEntry[] = [];
+  for (const w of chosen) {
+    const file = audioFileName(w.id);
+    const target = `${opts.out}/${file}`;
+    const wav = `${deps.tmpDir}/${w.id}.wav`;
+    const text = spokenText(w.id, w.lemma_nl, w.article, opts.overrides);
+    deps.run('piper', ['-m', opts.model, '-f', wav], text);
+    const { pcm, rate } = readWav(deps.readFile(wav));
+    deps.writeFile(wav, writeWav(trimAndNormalise(pcm, rate), rate));
+    deps.run('afconvert', ['-f', 'm4af', '-d', 'aac', '-b', String(opts.bitrate), '-c', '1', wav, target]);
+    const m4a = deps.readFile(target);
+    entries.push({ id: w.id, file, text, bytes: m4a.length, sha256: sha256(m4a) });
+  }
+  const fresh = new Set(entries.map((e) => e.id));
+  const merged = [...previous.filter((e) => !fresh.has(e.id)), ...entries];
+  const index = buildIndex(merged, {
+    voice: opts.model.split('/').pop()!.replace(/\.onnx$/, ''),
+    modelSha256: sha256(deps.readFile(opts.model)),
+    format: 'm4a-aac',
+    bitrate: opts.bitrate,
+  });
+  const perFile = Object.fromEntries(index.words.map((e) => [e.id, e.bytes]));
+  const sizes = { files: merged.length, totalBytes: merged.reduce((s, e) => s + e.bytes, 0), perFile };
+  deps.writeFile(`${opts.out}/sizes.json`, JSON.stringify(sizes, null, 2) + '\n');
+  deps.writeFile(indexPath, JSON.stringify(index, null, 2) + '\n');
+  return { sizes, index };
+}
+
+function fail(message: string): never {
+  throw new Error(message);
 }
