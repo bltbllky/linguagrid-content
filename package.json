@@ -17,8 +17,7 @@
     "b1-pool": "tsx scripts/cli/b1-pool.ts",
     "core": "tsx scripts/cli/core.ts",
     "promote-stage": "tsx scripts/cli/promote-stage.ts",
-    "release": "tsx scripts/cli/build-release.ts",
-    "generate-audio": "tsx scripts/cli/generate-audio.ts"
+    "release": "tsx scripts/cli/build-release.ts"
   },
   "repository": {
     "type": "git",
