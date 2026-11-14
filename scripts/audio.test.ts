@@ -25,7 +25,9 @@ test('spokenText: override, article, bare lemma', () => {
 test('audioFileName accepts [a-z0-9-] only', () => {
   assert.equal(audioFileName('noun-huis'), 'noun-huis.m4a');
   assert.throws(() => audioFileName('Noun/Huis'));
-  assert.throws(() => audioFileName('noun-café'));
+  assert.equal(audioFileName('noun-café'), 'noun-cafe.m4a');
+  assert.equal(audioFileName('noun-hygiëne'), 'noun-hygiene.m4a');
+  assert.throws(() => audioFileName('noun-€'));
 });
 
 function tone(ms: number, amp: number): number[] {
@@ -51,8 +53,9 @@ test('trimAndNormalise leaves silence alone', () => {
 });
 
 test('trimAndNormalise keeps short silences as they are', () => {
-  const input = Int16Array.from([...silence(10), ...tone(100, 100), ...silence(10)]);
-  assert.equal(trimAndNormalise(input, RATE).length, input.length);
+  const input = Int16Array.from([...silence(10), ...tone(100, 1000), ...silence(10)]);
+  const out = trimAndNormalise(input, RATE);
+  assert.equal(out.length, input.length);
 });
 
 test('writeWav then readWav round-trips', () => {
@@ -71,7 +74,7 @@ test('readWav finds data after extra chunks', () => {
 
 test('buildIndex sorts by id and carries the meta', () => {
   const meta = { voice: 'alex', modelSha256: 'ff', format: 'm4a', bitrate: 48000 };
-  const e = (id: string) => ({ id, text: id, bytes: 1, sha256: 'ab' });
+  const e = (id: string) => ({ id, file: `${id}.m4a`, text: id, bytes: 1, sha256: 'ab' });
   const index = buildIndex([e('c'), e('a'), e('b')], meta);
   assert.deepEqual(index.words.map((w) => w.id), ['a', 'b', 'c']);
   assert.deepEqual(
@@ -93,15 +96,17 @@ const WORDS: SourceWord[] = lemmas.map(([id, lemma_nl, article, cefr]) => ({
   cefr,
   article,
 }));
-WORDS.push({ id: 'noun-café', lemma_nl: 'café', pos: 'noun', cefr: 'A1', article: 'het' });
+// Adjectives without an article, so the "no article" group is not satisfied by verbs.
+for (const id of ['adj-a1', 'adj-a2']) WORDS.push({ id, lemma_nl: id.slice(4), pos: 'adj', cefr: 'A2', article: null });
+const CAFE = { id: 'noun-café', lemma_nl: 'café', pos: 'noun', cefr: 'A1', article: 'het' as const };
+WORDS.push(CAFE);
 
 test('pickSample is seeded, covers the mix and skips unusable ids', () => {
   const a = pickSample(WORDS, 20, 7);
   assert.deepEqual(pickSample(WORDS, 20, 7), a);
   assert.equal(a.length, 20);
-  assert.ok(!a.some((w) => w.id === 'noun-café'));
-  assert.ok(a.filter((w) => w.article === 'het').length >= 2);
-  assert.ok(a.filter((w) => w.article === null && w.pos !== 'verb').length + a.filter((w) => w.article === null).length >= 2);
+    assert.ok(a.filter((w) => w.article === 'het').length >= 2);
+  assert.ok(a.filter((w) => w.article === null && w.pos !== 'verb').length >= 2);
   assert.ok(a.filter((w) => w.pos === 'verb').length >= 2);
   assert.ok(a.filter((w) => w.lemma_nl.length >= 12).length >= 2);
   assert.deepEqual(new Set(a.map((w) => w.cefr)), new Set(['A1', 'A2', 'B1']));
@@ -118,7 +123,7 @@ test('generate drives piper and afconvert through the runner', () => {
   const written = new Map<string, Buffer>();
   const result = generate(
     { words: WORDS, ids: ['noun-w1', 'noun-w2'], out: '/out', model: '/m/alex.onnx', bitrate: 32000, overrides: { 'noun-w2': 'twee!' } },
-    { run, readFile: (p) => files.get(p) ?? Buffer.from('model'), writeFile: (p, b) => void written.set(p, Buffer.from(b)), mkdirs: () => {}, tmpDir: '/tmp/x' },
+    { run, exists: (p) => written.has(p), readFile: (p) => written.get(p) ?? files.get(p) ?? Buffer.from('model'), writeFile: (p, b) => void written.set(p, Buffer.from(b)), mkdirs: () => {}, tmpDir: '/tmp/x' },
   );
   const piper = calls.filter((c) => c.cmd === 'piper');
   const aff = calls.filter((c) => c.cmd === 'afconvert');
@@ -130,4 +135,48 @@ test('generate drives piper and afconvert through the runner', () => {
   assert.deepEqual(result.sizes.files, 2);
   assert.equal(result.index.words.length, 2);
   assert.ok(written.has('/out/sizes.json') && written.has('/out/index.json'));
+});
+
+function harness() {
+  const files = new Map<string, Buffer>();
+  const written = new Map<string, Buffer>();
+  const run: Runner = (cmd, args) => {
+    if (cmd === 'piper') files.set(args[args.indexOf('-f') + 1], writeWav(Int16Array.from([0, 900, -900, 0]), RATE));
+    else files.set(args[args.length - 1], Buffer.from('m4a:' + args[args.length - 1]));
+  };
+  const deps = {
+    run,
+    exists: (p: string) => written.has(p),
+    readFile: (p: string) => written.get(p) ?? files.get(p) ?? Buffer.from('model'),
+    writeFile: (p: string, b: Buffer | string) => void written.set(p, Buffer.from(b)),
+    mkdirs: () => {},
+    tmpDir: '/tmp/x',
+  };
+  return { deps, written };
+}
+const base = { words: WORDS, out: '/out', model: '/m/alex.onnx', bitrate: 48000, overrides: {} };
+
+test('a partial run merges into the existing index and sizes by id', () => {
+  const { deps, written } = harness();
+  generate({ ...base, ids: ['noun-w1', 'noun-w2'] }, deps);
+  const second = generate({ ...base, ids: ['noun-w2', 'noun-café'], overrides: { 'noun-w2': 'twee!' } }, deps);
+  assert.deepEqual(second.index.words.map((w) => w.id), ['noun-café', 'noun-w1', 'noun-w2']);
+  assert.equal(second.index.words.find((w) => w.id === 'noun-w2')!.text, 'twee!');
+  assert.equal(second.index.words.find((w) => w.id === 'noun-café')!.file, 'noun-cafe.m4a');
+  assert.equal(second.sizes.files, 3);
+  assert.equal(JSON.parse(written.get('/out/sizes.json')!.toString()).files, 3);
+});
+
+test('generate refuses ids that fold to one file name', () => {
+  const { deps } = harness();
+  const clash = [...WORDS, { ...CAFE, id: 'noun-cafe' }];
+  assert.throws(() => generate({ ...base, words: clash }, deps), /both map to noun-cafe.m4a/);
+  generate({ ...base, ids: ['noun-café'] }, deps);
+  assert.throws(() => generate({ ...base, words: clash, ids: ['noun-cafe'] }, deps), /overwrite/);
+});
+
+test('generate rejects a blank override and unknown ids', () => {
+  const { deps } = harness();
+  assert.throws(() => generate({ ...base, overrides: { 'noun-w1': '  ' } }, deps), /blank override/);
+  assert.throws(() => generate({ ...base, ids: ['nope'] }, deps), /unknown word id/);
 });

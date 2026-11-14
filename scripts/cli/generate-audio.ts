@@ -1,5 +1,5 @@
 import { spawnSync } from 'node:child_process';
-import { existsSync, mkdirSync, mkdtempSync, readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join, resolve } from 'node:path';
 
@@ -13,10 +13,14 @@ const USAGE =
 const args = process.argv.slice(2);
 const flag = (name: string): string | undefined => {
   const at = args.indexOf(`--${name}`);
-  return at >= 0 ? args.splice(at, 2)[1] : undefined;
+  if (at < 0) return undefined;
+  const value = args.splice(at, 2)[1];
+  if (value === undefined || value.startsWith('--')) throw new Error(USAGE);
+  return value;
 };
 const read = <T>(file: string): T => JSON.parse(readFileSync(file, 'utf8')) as T;
 
+const tmp = mkdtempSync(join(tmpdir(), 'lg-audio-'));
 try {
   const out = flag('out');
   const model = flag('model');
@@ -26,18 +30,19 @@ try {
   const bitrate = Number(flag('bitrate') ?? 48000);
   const seed = Number(flag('seed') ?? 20261114);
   const overridesFile = flag('overrides');
+  if (args.length) throw new Error(USAGE);
+  if (ids && !ids.length) throw new Error('--ids is empty: nothing to do');
+  if (sample && Number(sample) < 1) throw new Error('--sample must be at least 1: nothing to do');
   if (!Number.isInteger(bitrate) || !Number.isInteger(seed) || (sample && !Number.isInteger(Number(sample)))) throw new Error(USAGE);
 
   type Row = { id: string; lemma_nl: string; pos: string; cefr: string };
   const rows = ['words.json', 'words-own.json'].flatMap((f) => (existsSync(join(root, 'data', f)) ? read<Row[]>(join(root, 'data', f)) : []));
   const articles = new Map(read<{ word_id: string; article: 'de' | 'het' | null }[]>(join(root, 'data', 'annotations.json')).map((a) => [a.word_id, a.article]));
   const words: SourceWord[] = rows.map((r) => ({ ...r, article: articles.get(r.id) ?? null }));
-  const usable = words.filter((w) => /^[a-z0-9-]+$/.test(w.id));
-  if (usable.length < words.length) console.warn(`skipping ${words.length - usable.length} ids outside [a-z0-9-]`);
 
   const { sizes } = generate(
     {
-      words: sample ? pickSample(usable, Number(sample), seed) : usable,
+      words: sample ? pickSample(words, Number(sample), seed) : words,
       ids,
       out: resolve(out),
       model: resolve(model),
@@ -50,13 +55,16 @@ try {
         if (r.status !== 0) throw new Error(`${cmd} failed (${r.error?.message ?? `exit ${r.status}`})`);
       },
       readFile: (p) => readFileSync(p),
+      exists: existsSync,
       writeFile: (p, d) => writeFileSync(p, d),
       mkdirs: (...dirs) => dirs.forEach((d) => mkdirSync(d, { recursive: true })),
-      tmpDir: mkdtempSync(join(tmpdir(), 'lg-audio-')),
+      tmpDir: tmp,
     },
   );
   console.log(`wrote ${sizes.files} files, ${sizes.totalBytes} bytes to ${out}`);
 } catch (e) {
   console.error((e as Error).message);
-  process.exit(1);
+  process.exitCode = 1;
+} finally {
+  rmSync(tmp, { recursive: true, force: true });
 }

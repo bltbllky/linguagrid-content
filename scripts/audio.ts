@@ -14,6 +14,8 @@ export interface SourceWord {
 
 export interface IndexEntry {
   id: string;
+  /** File name inside the audio folder (the id with diacritics folded to ASCII). */
+  file: string;
   text: string;
   bytes: number;
   sha256: string;
@@ -37,9 +39,11 @@ export function spokenText(id: string, lemma: string, article: Article, override
 
 const FILE_ID = /^[a-z0-9-]+$/;
 
+/** Diacritics are folded to ASCII (`café` becomes `cafe`) before the [a-z0-9-] check. */
 export function audioFileName(id: string): string {
-  if (!FILE_ID.test(id)) throw new Error(`audio id "${id}" has a character outside [a-z0-9-]`);
-  return `${id}.m4a`;
+  const base = id.normalize('NFD').replace(/\p{M}/gu, '');
+  if (!FILE_ID.test(base)) throw new Error(`audio id "${id}" has a character outside [a-z0-9-]`);
+  return `${base}.m4a`;
 }
 
 /** Trims silence (samples under 1% of full scale) down to `maxSilenceMs` at each end, then scales the peak to `peakDb` dBFS. */
@@ -107,7 +111,7 @@ export function buildIndex(entries: IndexEntry[], meta: IndexMeta): AudioIndex {
 /** A seeded sample over A1, A2 and B1 that always holds `het`, article-less, verb and 12+ letter words. */
 export function pickSample(words: SourceWord[], n: number, seed: number): SourceWord[] {
   const pool = shuffle(
-    words.filter((w) => FILE_ID.test(w.id) && ['A1', 'A2', 'B1'].includes(w.cefr)),
+    words.filter((w) => usableId(w.id) && ['A1', 'A2', 'B1'].includes(w.cefr)),
     mulberry32(seed),
   );
   const picked: SourceWord[] = [];
@@ -130,11 +134,21 @@ export function pickSample(words: SourceWord[], n: number, seed: number): Source
   return picked.sort((a, b) => (a.id < b.id ? -1 : 1));
 }
 
+function usableId(id: string): boolean {
+  try {
+    audioFileName(id);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
 export type Runner = (cmd: string, args: string[], input?: string) => void;
 
 export interface Deps {
   run: Runner;
   readFile: (path: string) => Buffer;
+  exists: (path: string) => boolean;
   writeFile: (path: string, data: Buffer | string) => void;
   mkdirs: (...dirs: string[]) => void;
   tmpDir: string;
@@ -154,12 +168,29 @@ const sha256 = (b: Buffer | string) => createHash('sha256').update(b).digest('he
 
 /** Piper (text on stdin), our trim and normalise, then `afconvert` to AAC; writes `sizes.json` and `index.json`. */
 export function generate(opts: GenerateOptions, deps: Deps) {
+  for (const [id, text] of Object.entries(opts.overrides)) {
+    if (!text.trim()) throw new Error(`blank override for ${id}`);
+  }
   const byId = new Map(opts.words.map((w) => [w.id, w]));
   const chosen = opts.ids ? opts.ids.map((id) => byId.get(id) ?? fail(`unknown word id ${id}`)) : opts.words;
+  const names = new Map<string, string>();
+  for (const w of opts.ids ? chosen : opts.words) {
+    const file = audioFileName(w.id);
+    const other = names.get(file);
+    if (other && other !== w.id) throw new Error(`${other} and ${w.id} both map to ${file}`);
+    names.set(file, w.id);
+  }
+  const indexPath = `${opts.out}/index.json`;
+  const previous: IndexEntry[] = deps.exists(indexPath) ? (JSON.parse(deps.readFile(indexPath).toString()) as AudioIndex).words : [];
+  for (const e of previous) {
+    const other = names.get(e.file);
+    if (other && other !== e.id) throw new Error(`${other} would overwrite ${e.file} of ${e.id}`);
+  }
   deps.mkdirs(opts.out, deps.tmpDir);
   const entries: IndexEntry[] = [];
   for (const w of chosen) {
-    const target = `${opts.out}/${audioFileName(w.id)}`;
+    const file = audioFileName(w.id);
+    const target = `${opts.out}/${file}`;
     const wav = `${deps.tmpDir}/${w.id}.wav`;
     const text = spokenText(w.id, w.lemma_nl, w.article, opts.overrides);
     deps.run('piper', ['-m', opts.model, '-f', wav], text);
@@ -167,18 +198,20 @@ export function generate(opts: GenerateOptions, deps: Deps) {
     deps.writeFile(wav, writeWav(trimAndNormalise(pcm, rate), rate));
     deps.run('afconvert', ['-f', 'm4af', '-d', 'aac', '-b', String(opts.bitrate), '-c', '1', wav, target]);
     const m4a = deps.readFile(target);
-    entries.push({ id: w.id, text, bytes: m4a.length, sha256: sha256(m4a) });
+    entries.push({ id: w.id, file, text, bytes: m4a.length, sha256: sha256(m4a) });
   }
-  const index = buildIndex(entries, {
+  const fresh = new Set(entries.map((e) => e.id));
+  const merged = [...previous.filter((e) => !fresh.has(e.id)), ...entries];
+  const index = buildIndex(merged, {
     voice: opts.model.split('/').pop()!.replace(/\.onnx$/, ''),
     modelSha256: sha256(deps.readFile(opts.model)),
     format: 'm4a-aac',
     bitrate: opts.bitrate,
   });
   const perFile = Object.fromEntries(index.words.map((e) => [e.id, e.bytes]));
-  const sizes = { files: entries.length, totalBytes: entries.reduce((s, e) => s + e.bytes, 0), perFile };
+  const sizes = { files: merged.length, totalBytes: merged.reduce((s, e) => s + e.bytes, 0), perFile };
   deps.writeFile(`${opts.out}/sizes.json`, JSON.stringify(sizes, null, 2) + '\n');
-  deps.writeFile(`${opts.out}/index.json`, JSON.stringify(index, null, 2) + '\n');
+  deps.writeFile(indexPath, JSON.stringify(index, null, 2) + '\n');
   return { sizes, index };
 }
 
