@@ -3,17 +3,16 @@ import { test } from 'node:test';
 
 import {
   audioFileName,
-  buildIndex,
   generate,
   pickSample,
   readWav,
-  stripFreeAtoms,
   spokenText,
   trimAndNormalise,
   writeWav,
   type Runner,
   type SourceWord,
 } from './audio.ts';
+import { atom, fakeM4a } from './fixtures/fake-m4a.ts';
 
 const RATE = 22050;
 
@@ -73,17 +72,6 @@ test('readWav finds data after extra chunks', () => {
   assert.deepEqual(readWav(extra).pcm, Int16Array.from([5, 6]));
 });
 
-test('buildIndex sorts by id and carries the meta', () => {
-  const meta = { voice: 'alex', modelSha256: 'ff', format: 'm4a', bitrate: 48000 };
-  const e = (id: string) => ({ id, file: `${id}.m4a`, text: id, bytes: 1, sha256: 'ab' });
-  const index = buildIndex([e('c'), e('a'), e('b')], meta);
-  assert.deepEqual(index.words.map((w) => w.id), ['a', 'b', 'c']);
-  assert.deepEqual(
-    { voice: index.voice, modelSha256: index.modelSha256, format: index.format, bitrate: index.bitrate },
-    meta,
-  );
-});
-
 const lemmas: [string, string, 'de' | 'het' | null, string][] = [];
 for (let i = 0; i < 40; i++) {
   const pos = i % 3 === 0 ? 'verb' : 'noun';
@@ -132,10 +120,13 @@ test('generate drives piper and afconvert through the runner', () => {
   assert.deepEqual(piper[0].args, ['-m', '/m/alex.onnx', '-f', '/tmp/x/noun-w1.wav']);
   assert.equal(piper[0].input, 'het w1');
   assert.equal(piper[1].input, 'twee!');
-  assert.deepEqual(aff[0].args, ['-f', 'm4af', '-d', 'aac', '-b', '32000', '-c', '1', '/tmp/x/noun-w1.wav', '/out/noun-w1.m4a']);
+  assert.deepEqual(aff[0].args, ['-f', 'm4af', '-d', 'aac', '-b', '32000', '-c', '1', '/tmp/x/noun-w1.wav', '/out/A2/noun-w1.m4a']);
   assert.deepEqual(result.sizes.files, 2);
-  assert.equal(result.index.words.length, 2);
-  assert.ok(written.has('/out/sizes.json') && written.has('/out/index.json'));
+  assert.deepEqual(Object.keys(result.levels), ['A2', 'B1']);
+  assert.equal(result.levels.A2.files['noun-w1'].text, 'het w1');
+  assert.deepEqual(result.sizes.perLevel, { A2: { files: 1, bytes: result.sizes.perFile['noun-w1'] }, B1: { files: 1, bytes: result.sizes.perFile['noun-w2'] } });
+  for (const p of ['/out/sizes.json', '/out/index.json', '/out/A2/index.json', '/out/B1/index.json']) assert.ok(written.has(p), p);
+  assert.equal(JSON.parse(written.get('/out/index.json')!.toString()).levels.A2.files, 1);
 });
 
 function harness() {
@@ -161,9 +152,11 @@ test('a partial run merges into the existing index and sizes by id', () => {
   const { deps, written } = harness();
   generate({ ...base, ids: ['noun-w1', 'noun-w2'] }, deps);
   const second = generate({ ...base, ids: ['noun-w2', 'noun-café'], overrides: { 'noun-w2': 'twee!' } }, deps);
-  assert.deepEqual(second.index.words.map((w) => w.id), ['noun-café', 'noun-w1', 'noun-w2']);
-  assert.equal(second.index.words.find((w) => w.id === 'noun-w2')!.text, 'twee!');
-  assert.equal(second.index.words.find((w) => w.id === 'noun-café')!.file, 'noun-cafe.m4a');
+  assert.deepEqual(Object.keys(second.sizes.perFile), ['noun-café', 'noun-w1', 'noun-w2']);
+  assert.equal(second.levels.B1.files['noun-w2'].text, 'twee!');
+  assert.ok(written.has('/out/A1/noun-cafe.m4a'));
+  assert.equal(second.root.levels.A2.version, 1);
+  assert.equal(second.root.levels.B1.version, 2);
   assert.equal(second.sizes.files, 3);
   assert.equal(JSON.parse(written.get('/out/sizes.json')!.toString()).files, 3);
 });
@@ -171,7 +164,7 @@ test('a partial run merges into the existing index and sizes by id', () => {
 test('generate refuses ids that fold to one file name', () => {
   const { deps } = harness();
   const clash = [...WORDS, { ...CAFE, id: 'noun-cafe' }];
-  assert.throws(() => generate({ ...base, words: clash }, deps), /both map to noun-cafe.m4a/);
+  assert.throws(() => generate({ ...base, words: clash }, deps), /both map to A1\/noun-cafe.m4a/);
   generate({ ...base, ids: ['noun-café'] }, deps);
   assert.throws(() => generate({ ...base, words: clash, ids: ['noun-cafe'] }, deps), /overwrite/);
 });
@@ -180,54 +173,6 @@ test('generate rejects a blank override and unknown ids', () => {
   const { deps } = harness();
   assert.throws(() => generate({ ...base, overrides: { 'noun-w1': '  ' } }, deps), /blank override/);
   assert.throws(() => generate({ ...base, ids: ['nope'] }, deps), /unknown word id/);
-});
-
-function atom(name: string, body: Buffer = Buffer.alloc(0)): Buffer {
-  const head = Buffer.alloc(8);
-  head.writeUInt32BE(8 + body.length, 0);
-  head.write(name, 4, 'ascii');
-  return Buffer.concat([head, body]);
-}
-
-/** ftyp, moov (one stco entry for `chunkAt`), `padding` free atoms, then mdat; offsets computed like afconvert's layout. */
-function fakeM4a(padding: number, wide = false): Buffer {
-  const build = (chunkAt: number) => {
-    const table = Buffer.alloc(wide ? 16 : 12);
-    table.writeUInt32BE(1, 4);
-    if (wide) table.writeBigUInt64BE(BigInt(chunkAt), 8);
-    else table.writeUInt32BE(chunkAt, 8);
-    const stbl = atom('stbl', atom(wide ? 'co64' : 'stco', table));
-    return atom('moov', atom('trak', atom('mdia', atom('minf', stbl))));
-  };
-  const front = Buffer.concat([atom('ftyp', Buffer.from('M4A ')), build(0)]);
-  const free = padding ? atom('free', Buffer.alloc(padding - 8)) : Buffer.alloc(0);
-  return Buffer.concat([
-    atom('ftyp', Buffer.from('M4A ')),
-    build(front.length + free.length + 8),
-    free,
-    atom('mdat', Buffer.from('AUDIO')),
-  ]);
-}
-
-function chunkOffset(m4a: Buffer): number {
-  const at = Math.max(m4a.indexOf('stco'), m4a.indexOf('co64'));
-  return m4a.toString('ascii', at, at + 4) === 'co64' ? Number(m4a.readBigUInt64BE(at + 12)) : m4a.readUInt32BE(at + 12);
-}
-
-for (const wide of [false, true]) {
-  test(`stripFreeAtoms drops the padding and moves the ${wide ? 'co64' : 'stco'} offset`, () => {
-    const before = fakeM4a(3170, wide);
-    const after = stripFreeAtoms(before);
-    assert.equal(after.length, before.length - 3170);
-    assert.equal(after.indexOf('free'), -1);
-    assert.equal(after.toString('ascii', chunkOffset(after) - 8, chunkOffset(after) + 5), '\0\0\0\rmdatAUDIO');
-  });
-}
-
-test('stripFreeAtoms leaves a file without padding alone and rejects a broken one', () => {
-  const clean = fakeM4a(0);
-  assert.deepEqual(stripFreeAtoms(clean), clean);
-  assert.throws(() => stripFreeAtoms(Buffer.from('not an m4a file')), /bad atom size/);
 });
 
 test('generate stores the file without its free padding', () => {
@@ -245,7 +190,7 @@ test('generate stores the file without its free padding', () => {
     mkdirs: () => {},
     tmpDir: '/tmp/x',
   };
-  const { index } = generate({ ...base, ids: ['noun-w1'] }, deps);
-  assert.equal(index.words[0].bytes, fakeM4a(3170).length - 3170);
-  assert.equal(written.get('/out/noun-w1.m4a')!.indexOf('free'), -1);
+  const { levels } = generate({ ...base, ids: ['noun-w1'] }, deps);
+  assert.equal(levels.A2.files['noun-w1'].bytes, fakeM4a(3170).length - 3170);
+  assert.equal(written.get('/out/A2/noun-w1.m4a')!.indexOf('free'), -1);
 });

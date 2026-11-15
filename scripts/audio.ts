@@ -1,5 +1,4 @@
-import { createHash } from 'node:crypto';
-
+import { buildIndexes, stripFree, type LevelIndex, type RootIndex } from './audio-layout.ts';
 import { mulberry32, shuffle } from './spot-check.ts';
 
 export type Article = 'de' | 'het' | null;
@@ -10,26 +9,6 @@ export interface SourceWord {
   pos: string;
   cefr: string;
   article: Article;
-}
-
-export interface IndexEntry {
-  id: string;
-  /** File name inside the audio folder (the id with diacritics folded to ASCII). */
-  file: string;
-  text: string;
-  bytes: number;
-  sha256: string;
-}
-
-export interface IndexMeta {
-  voice: string;
-  modelSha256: string;
-  format: string;
-  bitrate: number;
-}
-
-export interface AudioIndex extends IndexMeta {
-  words: IndexEntry[];
 }
 
 /** The override wins, else the article plus the lemma (as the app's `wordLabel`), else the bare lemma. */
@@ -104,55 +83,6 @@ export function writeWav(pcm: Int16Array, rate: number): Buffer {
   return Buffer.concat([header, body]);
 }
 
-const CONTAINERS = new Set(['moov', 'trak', 'mdia', 'minf', 'stbl']);
-
-/**
- * Removes the top-level `free` padding atoms `afconvert` writes before `mdat` (about 3.15 KB a file) and shifts the
- * `stco`/`co64` chunk offsets that point behind them, so the file stays playable. Lossless: no audio byte changes.
- */
-export function stripFreeAtoms(m4a: Buffer): Buffer {
-  const free: { at: number; size: number }[] = [];
-  for (let at = 0; at + 8 <= m4a.length; ) {
-    const size = m4a.readUInt32BE(at);
-    if (size < 8 || at + size > m4a.length) throw new Error(`bad atom size at ${at}`);
-    if (m4a.toString('ascii', at + 4, at + 8) === 'free') free.push({ at, size });
-    at += size;
-  }
-  if (!free.length) return m4a;
-  const out = Buffer.from(m4a);
-  const shift = (offset: number) => offset - free.filter((f) => f.at < offset).reduce((n, f) => n + f.size, 0);
-  const patch = (start: number, end: number) => {
-    for (let at = start; at + 8 <= end; ) {
-      const size = out.readUInt32BE(at);
-      const name = out.toString('ascii', at + 4, at + 8);
-      if (CONTAINERS.has(name)) patch(at + 8, at + size);
-      else if (name === 'stco' || name === 'co64') {
-        const wide = name === 'co64';
-        const count = out.readUInt32BE(at + 12);
-        for (let i = 0; i < count; i++) {
-          const pos = at + 16 + i * (wide ? 8 : 4);
-          if (wide) out.writeBigUInt64BE(BigInt(shift(Number(out.readBigUInt64BE(pos)))), pos);
-          else out.writeUInt32BE(shift(out.readUInt32BE(pos)), pos);
-        }
-      }
-      at += size;
-    }
-  };
-  patch(0, out.length);
-  const parts: Buffer[] = [];
-  let from = 0;
-  for (const f of free) {
-    parts.push(out.subarray(from, f.at));
-    from = f.at + f.size;
-  }
-  parts.push(out.subarray(from));
-  return Buffer.concat(parts);
-}
-
-export function buildIndex(entries: IndexEntry[], meta: IndexMeta): AudioIndex {
-  return { ...meta, words: entries.map((e) => ({ ...e })).sort((a, b) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0)) };
-}
-
 /** A seeded sample over A1, A2 and B1 that always holds `het`, article-less, verb and 12+ letter words. */
 export function pickSample(words: SourceWord[], n: number, seed: number): SourceWord[] {
   const pool = shuffle(
@@ -209,8 +139,6 @@ export interface GenerateOptions {
   overrides: Record<string, string>;
 }
 
-const sha256 = (b: Buffer | string) => createHash('sha256').update(b).digest('hex');
-
 /** Piper (text on stdin), our trim and normalise, then `afconvert` to AAC; writes `sizes.json` and `index.json`. */
 export function generate(opts: GenerateOptions, deps: Deps) {
   for (const [id, text] of Object.entries(opts.overrides)) {
@@ -220,45 +148,44 @@ export function generate(opts: GenerateOptions, deps: Deps) {
   const chosen = opts.ids ? opts.ids.map((id) => byId.get(id) ?? fail(`unknown word id ${id}`)) : opts.words;
   const names = new Map<string, string>();
   for (const w of opts.ids ? chosen : opts.words) {
-    const file = audioFileName(w.id);
+    const file = `${w.cefr}/${audioFileName(w.id)}`;
     const other = names.get(file);
     if (other && other !== w.id) throw new Error(`${other} and ${w.id} both map to ${file}`);
     names.set(file, w.id);
   }
-  const indexPath = `${opts.out}/index.json`;
-  const previous: IndexEntry[] = deps.exists(indexPath) ? (JSON.parse(deps.readFile(indexPath).toString()) as AudioIndex).words : [];
-  for (const e of previous) {
-    const other = names.get(e.file);
-    if (other && other !== e.id) throw new Error(`${other} would overwrite ${e.file} of ${e.id}`);
+  const rootPath = `${opts.out}/index.json`;
+  const previousRoot: RootIndex | null = deps.exists(rootPath) ? (JSON.parse(deps.readFile(rootPath).toString()) as RootIndex) : null;
+  const files = new Map<string, { level: string; text: string; bytes: Buffer }>();
+  const fresh = new Set(chosen.map((w) => w.id));
+  for (const level of Object.keys(previousRoot?.levels ?? {})) {
+    const levelIndex = JSON.parse(deps.readFile(`${opts.out}/${level}/index.json`).toString()) as LevelIndex;
+    for (const [id, f] of Object.entries(levelIndex.files)) {
+      const file = `${level}/${audioFileName(id)}`;
+      const other = names.get(file);
+      if (other && other !== id) throw new Error(`${other} would overwrite ${file} of ${id}`);
+      if (!fresh.has(id)) files.set(id, { level, text: f.text, bytes: deps.readFile(`${opts.out}/${file}`) });
+    }
   }
-  deps.mkdirs(opts.out, deps.tmpDir);
-  const entries: IndexEntry[] = [];
+  deps.mkdirs(opts.out, deps.tmpDir, ...new Set(chosen.map((w) => `${opts.out}/${w.cefr}`)));
   for (const w of chosen) {
-    const file = audioFileName(w.id);
-    const target = `${opts.out}/${file}`;
+    const target = `${opts.out}/${w.cefr}/${audioFileName(w.id)}`;
     const wav = `${deps.tmpDir}/${w.id}.wav`;
     const text = spokenText(w.id, w.lemma_nl, w.article, opts.overrides);
     deps.run('piper', ['-m', opts.model, '-f', wav], text);
     const { pcm, rate } = readWav(deps.readFile(wav));
     deps.writeFile(wav, writeWav(trimAndNormalise(pcm, rate), rate));
     deps.run('afconvert', ['-f', 'm4af', '-d', 'aac', '-b', String(opts.bitrate), '-c', '1', wav, target]);
-    deps.writeFile(target, stripFreeAtoms(deps.readFile(target)));
-    const m4a = deps.readFile(target);
-    entries.push({ id: w.id, file, text, bytes: m4a.length, sha256: sha256(m4a) });
+    deps.writeFile(target, stripFree(deps.readFile(target)));
+    files.set(w.id, { level: w.cefr, text, bytes: deps.readFile(target) });
   }
-  const fresh = new Set(entries.map((e) => e.id));
-  const merged = [...previous.filter((e) => !fresh.has(e.id)), ...entries];
-  const index = buildIndex(merged, {
-    voice: opts.model.split('/').pop()!.replace(/\.onnx$/, ''),
-    modelSha256: sha256(deps.readFile(opts.model)),
-    format: 'm4a-aac',
-    bitrate: opts.bitrate,
-  });
-  const perFile = Object.fromEntries(index.words.map((e) => [e.id, e.bytes]));
-  const sizes = { files: merged.length, totalBytes: merged.reduce((s, e) => s + e.bytes, 0), perFile };
+  const { root, levels, serialized } = buildIndexes(files, previousRoot);
+  for (const level of Object.keys(levels)) deps.writeFile(`${opts.out}/${level}/index.json`, serialized[level]);
+  deps.writeFile(rootPath, serialized.root);
+  const perFile = Object.fromEntries([...files].sort(([a], [b]) => (a < b ? -1 : 1)).map(([id, f]) => [id, f.bytes.length]));
+  const perLevel = Object.fromEntries(Object.entries(root.levels).map(([l, v]) => [l, { files: v.files, bytes: v.bytes }]));
+  const sizes = { files: files.size, totalBytes: Object.values(perFile).reduce((s, n) => s + n, 0), perLevel, perFile };
   deps.writeFile(`${opts.out}/sizes.json`, JSON.stringify(sizes, null, 2) + '\n');
-  deps.writeFile(indexPath, JSON.stringify(index, null, 2) + '\n');
-  return { sizes, index };
+  return { sizes, root, levels };
 }
 
 function fail(message: string): never {

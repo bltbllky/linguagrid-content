@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "levels": {
+    "A1": {
+      "files": 408,
+      "bytes": 1529520,
+      "index_sha256": "e0197b03073aab04a64942c624853365b944acb4442d7e5a01bf5738f5684ff5",
+      "version": 1
+    },
+    "A2": {
+      "files": 988,
+      "bytes": 3931304,
+      "index_sha256": "9acf70882a1148dc975f398bd1033d1523dfb945479cb816147a79ade481eec7",
+      "version": 1
+    },
+    "B1": {
+      "files": 1164,
+      "bytes": 5085501,
+      "index_sha256": "095dc2f17b58ef66349edb56c33a0e86952dd90c1444b9a387ec8f35e7027941",
+      "version": 1
+    }
+  }
+}
