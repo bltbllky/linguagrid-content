@@ -11,11 +11,8 @@ plan (ADR-025), so each level can be published and downloaded on its own.
   that level's index changes.
 - `overrides.json`: `{ "<word id>": "respelled text" }` for a word that sounds wrong; the displayed word never changes.
   Regenerate only those ids after editing it.
-- Caps per level (checked by `npm run validate`): A1 3 MB, A2 6 MB, B1 7 MB. Validation also checks files, hashes, the root
+- Caps per level (ADR-025, proposed; checked by `npm run validate`): A1 3 MB, A2 6 MB, B1 7 MB. Validation also checks files, hashes, the root
   index, top-level `free` boxes and the licence file.
-
-Regenerate only those ids after editing it.
-- Size cap: 12 MB for all files (ADR-024 rule 4). `npm run validate` checks files, index, hashes, the cap and the licence file.
 
 Regenerate (macOS, `piper-tts` 1.5 or higher in a venv, the model files with the SHA-256 values in `AUDIO-LICENCE.md`):
 

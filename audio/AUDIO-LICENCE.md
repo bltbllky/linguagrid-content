@@ -20,8 +20,6 @@ licence of the audio is the chain below, and the data licences do not apply to i
 | `nl_NL-alex-medium.onnx.json` | `886f7c17c6bf4e81818c76d349cbaa447f5f87e06e7c60f714bd37612c11bc3c` |
 | `MODEL_CARD` | `07138cae7ed81849738f51254f648438f2f3e00bf3133d3b3024de2d04140bdb` |
 
-The model hash is also stored in `index.json` (`modelSha256`).
-
 Model card of `alex`, accessed 2026-11-14 and verified byte for byte against the hash above on 2026-11-15:
 
 ```
