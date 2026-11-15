@@ -7,3 +7,4 @@ public/
 .env.*
 # DeepL readings stay local (ADR-015 rule 6)
 review/mt-check/
+audio/sizes.json
