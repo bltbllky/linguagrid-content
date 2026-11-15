@@ -7,6 +7,7 @@ import {
   generate,
   pickSample,
   readWav,
+  stripFreeAtoms,
   spokenText,
   trimAndNormalise,
   writeWav,
@@ -118,7 +119,7 @@ test('generate drives piper and afconvert through the runner', () => {
   const run: Runner = (cmd, args, input) => {
     calls.push({ cmd, args, input });
     if (cmd === 'piper') files.set(args[args.indexOf('-f') + 1], writeWav(Int16Array.from([0, 0, 900, -900, 0]), RATE));
-    else files.set(args[args.length - 1], Buffer.from('m4a:' + args[args.length - 1]));
+    else files.set(args[args.length - 1], atom('ftyp', Buffer.from(args[args.length - 1])));
   };
   const written = new Map<string, Buffer>();
   const result = generate(
@@ -142,7 +143,7 @@ function harness() {
   const written = new Map<string, Buffer>();
   const run: Runner = (cmd, args) => {
     if (cmd === 'piper') files.set(args[args.indexOf('-f') + 1], writeWav(Int16Array.from([0, 900, -900, 0]), RATE));
-    else files.set(args[args.length - 1], Buffer.from('m4a:' + args[args.length - 1]));
+    else files.set(args[args.length - 1], atom('ftyp', Buffer.from(args[args.length - 1])));
   };
   const deps = {
     run,
@@ -179,4 +180,72 @@ test('generate rejects a blank override and unknown ids', () => {
   const { deps } = harness();
   assert.throws(() => generate({ ...base, overrides: { 'noun-w1': '  ' } }, deps), /blank override/);
   assert.throws(() => generate({ ...base, ids: ['nope'] }, deps), /unknown word id/);
+});
+
+function atom(name: string, body: Buffer = Buffer.alloc(0)): Buffer {
+  const head = Buffer.alloc(8);
+  head.writeUInt32BE(8 + body.length, 0);
+  head.write(name, 4, 'ascii');
+  return Buffer.concat([head, body]);
+}
+
+/** ftyp, moov (one stco entry for `chunkAt`), `padding` free atoms, then mdat; offsets computed like afconvert's layout. */
+function fakeM4a(padding: number, wide = false): Buffer {
+  const build = (chunkAt: number) => {
+    const table = Buffer.alloc(wide ? 16 : 12);
+    table.writeUInt32BE(1, 4);
+    if (wide) table.writeBigUInt64BE(BigInt(chunkAt), 8);
+    else table.writeUInt32BE(chunkAt, 8);
+    const stbl = atom('stbl', atom(wide ? 'co64' : 'stco', table));
+    return atom('moov', atom('trak', atom('mdia', atom('minf', stbl))));
+  };
+  const front = Buffer.concat([atom('ftyp', Buffer.from('M4A ')), build(0)]);
+  const free = padding ? atom('free', Buffer.alloc(padding - 8)) : Buffer.alloc(0);
+  return Buffer.concat([
+    atom('ftyp', Buffer.from('M4A ')),
+    build(front.length + free.length + 8),
+    free,
+    atom('mdat', Buffer.from('AUDIO')),
+  ]);
+}
+
+function chunkOffset(m4a: Buffer): number {
+  const at = Math.max(m4a.indexOf('stco'), m4a.indexOf('co64'));
+  return m4a.toString('ascii', at, at + 4) === 'co64' ? Number(m4a.readBigUInt64BE(at + 12)) : m4a.readUInt32BE(at + 12);
+}
+
+for (const wide of [false, true]) {
+  test(`stripFreeAtoms drops the padding and moves the ${wide ? 'co64' : 'stco'} offset`, () => {
+    const before = fakeM4a(3170, wide);
+    const after = stripFreeAtoms(before);
+    assert.equal(after.length, before.length - 3170);
+    assert.equal(after.indexOf('free'), -1);
+    assert.equal(after.toString('ascii', chunkOffset(after) - 8, chunkOffset(after) + 5), '\0\0\0\rmdatAUDIO');
+  });
+}
+
+test('stripFreeAtoms leaves a file without padding alone and rejects a broken one', () => {
+  const clean = fakeM4a(0);
+  assert.deepEqual(stripFreeAtoms(clean), clean);
+  assert.throws(() => stripFreeAtoms(Buffer.from('not an m4a file')), /bad atom size/);
+});
+
+test('generate stores the file without its free padding', () => {
+  const files = new Map<string, Buffer>();
+  const written = new Map<string, Buffer>();
+  const run: Runner = (cmd, args) => {
+    if (cmd === 'piper') files.set(args[args.indexOf('-f') + 1], writeWav(Int16Array.from([0, 900, -900, 0]), RATE));
+    else files.set(args[args.length - 1], fakeM4a(3170));
+  };
+  const deps = {
+    run,
+    exists: (p: string) => written.has(p),
+    readFile: (p: string) => written.get(p) ?? files.get(p) ?? Buffer.from('model'),
+    writeFile: (p: string, b: Buffer | string) => void written.set(p, Buffer.from(b)),
+    mkdirs: () => {},
+    tmpDir: '/tmp/x',
+  };
+  const { index } = generate({ ...base, ids: ['noun-w1'] }, deps);
+  assert.equal(index.words[0].bytes, fakeM4a(3170).length - 3170);
+  assert.equal(written.get('/out/noun-w1.m4a')!.indexOf('free'), -1);
 });

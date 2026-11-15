@@ -104,6 +104,51 @@ export function writeWav(pcm: Int16Array, rate: number): Buffer {
   return Buffer.concat([header, body]);
 }
 
+const CONTAINERS = new Set(['moov', 'trak', 'mdia', 'minf', 'stbl']);
+
+/**
+ * Removes the top-level `free` padding atoms `afconvert` writes before `mdat` (about 3.15 KB a file) and shifts the
+ * `stco`/`co64` chunk offsets that point behind them, so the file stays playable. Lossless: no audio byte changes.
+ */
+export function stripFreeAtoms(m4a: Buffer): Buffer {
+  const free: { at: number; size: number }[] = [];
+  for (let at = 0; at + 8 <= m4a.length; ) {
+    const size = m4a.readUInt32BE(at);
+    if (size < 8 || at + size > m4a.length) throw new Error(`bad atom size at ${at}`);
+    if (m4a.toString('ascii', at + 4, at + 8) === 'free') free.push({ at, size });
+    at += size;
+  }
+  if (!free.length) return m4a;
+  const out = Buffer.from(m4a);
+  const shift = (offset: number) => offset - free.filter((f) => f.at < offset).reduce((n, f) => n + f.size, 0);
+  const patch = (start: number, end: number) => {
+    for (let at = start; at + 8 <= end; ) {
+      const size = out.readUInt32BE(at);
+      const name = out.toString('ascii', at + 4, at + 8);
+      if (CONTAINERS.has(name)) patch(at + 8, at + size);
+      else if (name === 'stco' || name === 'co64') {
+        const wide = name === 'co64';
+        const count = out.readUInt32BE(at + 12);
+        for (let i = 0; i < count; i++) {
+          const pos = at + 16 + i * (wide ? 8 : 4);
+          if (wide) out.writeBigUInt64BE(BigInt(shift(Number(out.readBigUInt64BE(pos)))), pos);
+          else out.writeUInt32BE(shift(out.readUInt32BE(pos)), pos);
+        }
+      }
+      at += size;
+    }
+  };
+  patch(0, out.length);
+  const parts: Buffer[] = [];
+  let from = 0;
+  for (const f of free) {
+    parts.push(out.subarray(from, f.at));
+    from = f.at + f.size;
+  }
+  parts.push(out.subarray(from));
+  return Buffer.concat(parts);
+}
+
 export function buildIndex(entries: IndexEntry[], meta: IndexMeta): AudioIndex {
   return { ...meta, words: entries.map((e) => ({ ...e })).sort((a, b) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0)) };
 }
@@ -197,6 +242,7 @@ export function generate(opts: GenerateOptions, deps: Deps) {
     const { pcm, rate } = readWav(deps.readFile(wav));
     deps.writeFile(wav, writeWav(trimAndNormalise(pcm, rate), rate));
     deps.run('afconvert', ['-f', 'm4af', '-d', 'aac', '-b', String(opts.bitrate), '-c', '1', wav, target]);
+    deps.writeFile(target, stripFreeAtoms(deps.readFile(target)));
     const m4a = deps.readFile(target);
     entries.push({ id: w.id, file, text, bytes: m4a.length, sha256: sha256(m4a) });
   }
