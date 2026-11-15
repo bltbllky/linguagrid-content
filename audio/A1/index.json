@@ -1,0 +1,2045 @@
+{
+  "level": "A1",
+  "files": {
+    "adj-ander": {
+      "text": "ander",
+      "bytes": 3508,
+      "sha256": "2a6d8d6f667bc184109041d58aa77da7b271f6f05c188f02ed0a2ac9061b7a92"
+    },
+    "adj-bang": {
+      "text": "bang",
+      "bytes": 2613,
+      "sha256": "0660836a6184e7ffa002ad6c455e6aca32237ce2ed37779d7deaf308d2cbafd2"
+    },
+    "adj-bezig": {
+      "text": "bezig",
+      "bytes": 3765,
+      "sha256": "f7246a5de5974e9f651ddc71ce7f98aba5a19c2dc212a6129cfa5275b19424da"
+    },
+    "adj-blauw": {
+      "text": "blauw",
+      "bytes": 2997,
+      "sha256": "75359fd8c752d95e6113dcb98c3e746f0b3d1848f9fc1a3aeec50ebf2aec4e91"
+    },
+    "adj-boos": {
+      "text": "boos",
+      "bytes": 3404,
+      "sha256": "e91e9cf636c49558bc6c46fe19e8c2d225ee37d48ab3a899a9c786319002e639"
+    },
+    "adj-bruin": {
+      "text": "bruin",
+      "bytes": 3411,
+      "sha256": "97cc3ad574fc9e8edd003afe488eea5eae7aed1fde463db6da996b0775fd38ba"
+    },
+    "adj-dagelijks": {
+      "text": "dagelijks",
+      "bytes": 4369,
+      "sha256": "93df8b81f8f646e1dfb00f4473aa5747a2c88c857964113a9cc6869638ecb9bd"
+    },
+    "adj-diep": {
+      "text": "diep",
+      "bytes": 2484,
+      "sha256": "b28f4139f11ef9ab0163850bcd15001d2574a01bec629999e7385fc59969d043"
+    },
+    "adj-dik": {
+      "text": "dik",
+      "bytes": 2614,
+      "sha256": "ecab73c516decfe108c1b71016d771811ca15c508a731e174c512730e1e6bc47"
+    },
+    "adj-duur": {
+      "text": "duur",
+      "bytes": 2966,
+      "sha256": "a1548e2e16bda868ff5c009e8d8cb0f530c6c2ab6863b32a85b540a6a28fb7a0"
+    },
+    "adj-geboren": {
+      "text": "geboren",
+      "bytes": 4321,
+      "sha256": "4c2fc1d0db8a7b01fe2726bb1ade16213b19acc288e6ddc065e0d6726afe0cc5"
+    },
+    "adj-geel": {
+      "text": "geel",
+      "bytes": 2669,
+      "sha256": "1ae88b30a9a84303a69b86e7798b6e3bd9567be6d4ef71625ef0792f626d4e8b"
+    },
+    "adj-gek": {
+      "text": "gek",
+      "bytes": 2520,
+      "sha256": "72f3cd1c637acd7c4b9f84dad1226c713235f822c677eeb539fcd1a38ec15929"
+    },
+    "adj-gelukkig": {
+      "text": "gelukkig",
+      "bytes": 3969,
+      "sha256": "b21bf7f2e57f251ea8da0bfb9700c83d4f64d39de8686a6df2137c41981787bb"
+    },
+    "adj-getrouwd": {
+      "text": "getrouwd",
+      "bytes": 4432,
+      "sha256": "9d403b70e472c02c442d4bf63a5193f1623833f11459243f11c2d965ccc80f43"
+    },
+    "adj-gezond": {
+      "text": "gezond",
+      "bytes": 3993,
+      "sha256": "81fb2c910dea5cdb8ebd85da245f0ce7416c9e1c17ae758931938228ea188760"
+    },
+    "adj-goed": {
+      "text": "goed",
+      "bytes": 3783,
+      "sha256": "aa9ca36042348f31bb8325f654513edb70963ca35bc2b46edc1beb11df3c38e4"
+    },
+    "adj-goedkoop": {
+      "text": "goedkoop",
+      "bytes": 4002,
+      "sha256": "93d6ef4ad1ba4ab17b0c618d7d5015b9cfa9b575f21f8fa890131a270f83d009"
+    },
+    "adj-grijs": {
+      "text": "grijs",
+      "bytes": 4025,
+      "sha256": "be3da6582d93ddf2bea66335dd797f4fd585829571e914ea0178ac61380d0cfe"
+    },
+    "adj-groen": {
+      "text": "groen",
+      "bytes": 3321,
+      "sha256": "ac555b7d8afe2233607fcea4896a101ded17325bdffcddea5ba1066e5a68721b"
+    },
+    "adj-groot": {
+      "text": "groot",
+      "bytes": 4004,
+      "sha256": "dfc58c0f0032bd4fe100a3c40aecae5752325b0e23efd7e4f715d20536cc1909"
+    },
+    "adj-half": {
+      "text": "half",
+      "bytes": 3025,
+      "sha256": "e5829ce09d1514f34ccbd84bb2d2c40287515fb769a1052e0e6341d9121af38d"
+    },
+    "adj-heet": {
+      "text": "heet",
+      "bytes": 3625,
+      "sha256": "d34373d44a285b1ac2e8923c568b814212a2c25526ecc973523d0546d1ae3afa"
+    },
+    "adj-hoog": {
+      "text": "hoog",
+      "bytes": 2767,
+      "sha256": "86a69c1f2889c19058464252f763f4596b16cb6630fb00ffe8af9ec7c0785fb8"
+    },
+    "adj-jong": {
+      "text": "jong",
+      "bytes": 2907,
+      "sha256": "6589b3d4a8b95660e654903ecbb71b8f96b0e058eff234cb83482430eba10ff9"
+    },
+    "adj-klein": {
+      "text": "klein",
+      "bytes": 3067,
+      "sha256": "424116f2042fece2688bc2ccc0038201bbe35f87075a55bab591c8f523832217"
+    },
+    "adj-kort": {
+      "text": "kort",
+      "bytes": 2647,
+      "sha256": "53f41c652737fde228d8974e66483549f1aa5e07689d31b398e4c3363d61a894"
+    },
+    "adj-koud": {
+      "text": "koud",
+      "bytes": 3043,
+      "sha256": "7063e7ccf343e9be0112691db0a8f8850cfbaf216981cd7144bd46e57d3b6244"
+    },
+    "adj-laag": {
+      "text": "laag",
+      "bytes": 3856,
+      "sha256": "a2e2df4a07374a25192259be67a0099651fd0ff3b607778265f40f3403e8bd88"
+    },
+    "adj-laat": {
+      "text": "laat",
+      "bytes": 3955,
+      "sha256": "be8d750a15029fb896ac6a9778ce27a230feebe1e2c5982fccf16f471887e7de"
+    },
+    "adj-lang": {
+      "text": "lang",
+      "bytes": 2863,
+      "sha256": "cff59d795bd2bc861c71199710a36e32de1577060936273766b173a2f77ff337"
+    },
+    "adj-langzaam": {
+      "text": "langzaam",
+      "bytes": 4031,
+      "sha256": "15d511949d364036004c1391c1b02a531e0a40bc6299f07d40b1587cbd52869f"
+    },
+    "adj-lekker": {
+      "text": "lekker",
+      "bytes": 3560,
+      "sha256": "7c4d61911e7c3d7118da2bd0dae6d9fec94f586c914efbd692507676947bb3e5"
+    },
+    "adj-leuk": {
+      "text": "leuk",
+      "bytes": 2842,
+      "sha256": "b799971ba4f898a51dc54bfc4a5420e34519eee98d53c2e69464b3dda1abf967"
+    },
+    "adj-links": {
+      "text": "links",
+      "bytes": 3604,
+      "sha256": "048f0b77e476bc3af8a9aeae27f64028c5fd6e7081c6e50c3d6d545f9091b776"
+    },
+    "adj-makkelijk": {
+      "text": "makkelijk",
+      "bytes": 3829,
+      "sha256": "c1d6510de3a223e1576d63c3fb1a981a1ef6b422be0dfb50369a2046db51837b"
+    },
+    "adj-moe": {
+      "text": "moe",
+      "bytes": 2891,
+      "sha256": "dc98a7d45823c4e043b180c0a63f5d0a4838925cbad2f5c3c5663fe49da50490"
+    },
+    "adj-moeilijk": {
+      "text": "moeilijk",
+      "bytes": 3630,
+      "sha256": "3aa40bda7b19399ec32229fadcb65d7231650a19d2c14c6a18a933a48c8bc6ec"
+    },
+    "adj-mooi": {
+      "text": "mooi",
+      "bytes": 3165,
+      "sha256": "f9aa8d04fcc0bd6519b94a22eac1fea7c29c98b258eccdf768ef00c1f5e2efb7"
+    },
+    "adj-nieuw": {
+      "text": "nieuw",
+      "bytes": 3111,
+      "sha256": "85608ee92574ecd9cd22971acc74b1c17f8d25824a8ce0bdd945cc2590bb6a69"
+    },
+    "adj-oranje": {
+      "text": "oranje",
+      "bytes": 3525,
+      "sha256": "8316dbacd87bb38d3f3708ca7ade55b98447f054bdb691306e51521940fb964f"
+    },
+    "adj-oud": {
+      "text": "oud",
+      "bytes": 2869,
+      "sha256": "5f8c47be2df9b71136f69bf35903f30c1eff73e20376dfc1cc2cf02a1f9e7586"
+    },
+    "adj-paars": {
+      "text": "paars",
+      "bytes": 3132,
+      "sha256": "fcd1d03d430c72e5e8c245200e149c368cd0f51014b1e269eee049b8ff774f0c"
+    },
+    "adj-persoonlijk": {
+      "text": "persoonlijk",
+      "bytes": 3708,
+      "sha256": "fc29a703526d2c8b524d40c076126658bb598602106e235826f63a77c068559d"
+    },
+    "adj-prima": {
+      "text": "prima",
+      "bytes": 3214,
+      "sha256": "dd65800eddb103ba2d77fbb5d5a3145387fa2230c3728e9585127f5d1f06c345"
+    },
+    "adj-rechts": {
+      "text": "rechts",
+      "bytes": 3765,
+      "sha256": "b3c218cfae5d83c9bea9e02c07cfc2e69a875826ac369f89bf0adff17cffda8b"
+    },
+    "adj-rijk": {
+      "text": "rijk",
+      "bytes": 3329,
+      "sha256": "5a857aad700f92c84a2b3af9bc177c188051fb795a8e7e8e693849aa12509ccc"
+    },
+    "adj-rond": {
+      "text": "rond",
+      "bytes": 3340,
+      "sha256": "0eef5681a1d1c8bebe7637480f62e832c796b879afbe132287819222a12f320f"
+    },
+    "adj-rood": {
+      "text": "rood",
+      "bytes": 3197,
+      "sha256": "a2edd74794ab84a3b2b6f0288c8eb332dce2d927f32e3ec5e0c7aabaf1170fe9"
+    },
+    "adj-roze": {
+      "text": "roze",
+      "bytes": 3468,
+      "sha256": "c2dcf735fc725cf585702cf2bdbda3f3fa0dd3c7a3d4bb511283b7bd49d19e66"
+    },
+    "adj-schoon": {
+      "text": "schoon",
+      "bytes": 3105,
+      "sha256": "d7804a9a7d3bd803b4171a14a664889233a0ada5d583501ffc228d4ef16fc63a"
+    },
+    "adj-slecht": {
+      "text": "slecht",
+      "bytes": 3565,
+      "sha256": "e978ef90d86374458a0a5943d589c987196d9efed65dfd003df2bd076efc4d7b"
+    },
+    "adj-snel": {
+      "text": "snel",
+      "bytes": 3161,
+      "sha256": "ad4fcd940dab60f92be8c5a886064436176bdd80e28db639728f309b15c94531"
+    },
+    "adj-ver": {
+      "text": "ver",
+      "bytes": 3307,
+      "sha256": "645dac221282bf5f8076292c476b752b1955691d156ff7222e5891215b95e7fb"
+    },
+    "adj-vers": {
+      "text": "vers",
+      "bytes": 3464,
+      "sha256": "124ce458cd55e5e9805b43e91c1fc7eb9c7e2846e7283ebb9c60ed9ea4eaa39f"
+    },
+    "adj-vorig": {
+      "text": "vorig",
+      "bytes": 3373,
+      "sha256": "838d9726ddf1e0143785c9901f49dd94dc0007590624425a9402845401876cf4"
+    },
+    "adj-vroeg": {
+      "text": "vroeg",
+      "bytes": 3051,
+      "sha256": "c2faa6a03132405ecbefd8d6eed1085e184fb078b4ca6ae46c77eed9685d8f25"
+    },
+    "adj-wakker": {
+      "text": "wakker",
+      "bytes": 3234,
+      "sha256": "1e8fe87c689b4770c248aee9d55df601e6ec39d54caa5d07ff099344c323e585"
+    },
+    "adj-warm": {
+      "text": "warm",
+      "bytes": 3371,
+      "sha256": "e79bd01499fd88fc1d5fcb3319ba55b623668f1c26b3accf263da92e53f5323c"
+    },
+    "adj-wit": {
+      "text": "wit",
+      "bytes": 3083,
+      "sha256": "f40cdf9d96a433f43197000840568776ae94cdf7d9fc82ca29a634f6c5ae652f"
+    },
+    "adj-ziek": {
+      "text": "ziek",
+      "bytes": 3139,
+      "sha256": "b96deead267f66cda9ba717e5bb4e5e0abd0d3a1d065208f3f83101a9e72b250"
+    },
+    "adj-zuur": {
+      "text": "zuur",
+      "bytes": 3374,
+      "sha256": "84823e3b094b5d4edac9aff4d60764862ff1d3db1c6d99c87c990ccc81cf2154"
+    },
+    "adj-zwanger": {
+      "text": "zwanger",
+      "bytes": 3654,
+      "sha256": "70913c3e2dfa30cdbcf657ec686e64a105505ebc30b3820bc70086155c0fc6bd"
+    },
+    "adj-zwart": {
+      "text": "zwart",
+      "bytes": 3219,
+      "sha256": "5f66422fd1cb7a269a85d192b03e8563ee98e29bb706bf4a1876c29a59942b7b"
+    },
+    "noun-acht": {
+      "text": "acht",
+      "bytes": 3008,
+      "sha256": "e1018a7824416e0069f24b43655d5a0c48f5f5d097bd945fc5fed424936e5248"
+    },
+    "noun-achttien": {
+      "text": "achttien",
+      "bytes": 3243,
+      "sha256": "626ba2ab352c94d2f3e84249e7eb1a086b4ce06716d8aeb605ac836d05035e5e"
+    },
+    "noun-adres": {
+      "text": "het adres",
+      "bytes": 4874,
+      "sha256": "2e5dc3bd7f75fd9369d3bc9c37e964790b7f0c97776e18e1e25515da90ab51fd"
+    },
+    "noun-afval": {
+      "text": "het afval",
+      "bytes": 4142,
+      "sha256": "31aa8ebdb3dbb95db7ee8cadd0353adf6095b93263184c2ab199bc5d94b233ce"
+    },
+    "noun-agenda": {
+      "text": "de agenda",
+      "bytes": 4026,
+      "sha256": "632f51781c8eb79ef480013d22cf8074fe063e38b94aa2f6a757491fe43d1ec9"
+    },
+    "noun-antwoord": {
+      "text": "het antwoord",
+      "bytes": 4746,
+      "sha256": "39997e2e2eba3af894ae65e43eddf8034c5427c91456c254703b600c210b7741"
+    },
+    "noun-apparaat": {
+      "text": "het apparaat",
+      "bytes": 4749,
+      "sha256": "2cca36dd70d0ddef6a9c4021a78d2a45b6b2b887008faef9ce8d22a9ac927d76"
+    },
+    "noun-appartement": {
+      "text": "het appartement",
+      "bytes": 5547,
+      "sha256": "cb6bbb8d6490ca137a3e4a8db8276f12e64de1af24af9a8fa6be8074a489fb4c"
+    },
+    "noun-appel": {
+      "text": "de appel",
+      "bytes": 3757,
+      "sha256": "f6e2bbe9d573cf84e35087f4ffb388b8517042686137ab7fd80020069e47f0f5"
+    },
+    "noun-april": {
+      "text": "de april",
+      "bytes": 3967,
+      "sha256": "4cd4f2e63cc53cce4347ecda447493a364492f2faae7e8373dc4ee7fc4682e6b"
+    },
+    "noun-arm": {
+      "text": "de arm",
+      "bytes": 3140,
+      "sha256": "6f054bd60257e924e5130e414f43cc5641a1521f02998ff39faad13a30a23475"
+    },
+    "noun-arts": {
+      "text": "de arts",
+      "bytes": 4041,
+      "sha256": "5f2ffbf207b6f7b9953c4c5f530516f0d2a45b6a5fa78b7f8601415a979cab1e"
+    },
+    "noun-augustus": {
+      "text": "de augustus",
+      "bytes": 5131,
+      "sha256": "52e6da20650dd7e31dcfda047a90677334106d46ada5df2803f0c61181fea2e8"
+    },
+    "noun-auto": {
+      "text": "de auto",
+      "bytes": 3852,
+      "sha256": "54c25b5b54543de0f4f388fcaf558916792db2474c262be278ccbab5435f99f4"
+    },
+    "noun-avond": {
+      "text": "de avond",
+      "bytes": 4115,
+      "sha256": "e47cd87dc4558227f100c77c1b5104999e81b87c907c935f01312b4e633cb340"
+    },
+    "noun-baby": {
+      "text": "de baby",
+      "bytes": 3697,
+      "sha256": "c48eb040cbb60145917a10c811920d8fbf09fe55275476566f886f5fc6e5a0e8"
+    },
+    "noun-balkon": {
+      "text": "het balkon",
+      "bytes": 3953,
+      "sha256": "0c6b1420bcb265a74b3c6e5fdaecfbe5d0a1239257f18a7a39a8114dd6408396"
+    },
+    "noun-bed": {
+      "text": "het bed",
+      "bytes": 4406,
+      "sha256": "009afaa1778504811615c5f80cccbd0a9ea3c7f1e2a81f744cfa699e640f785d"
+    },
+    "noun-been": {
+      "text": "het been",
+      "bytes": 3603,
+      "sha256": "98619387e63a5645d72cca50ecaa037c69a7da541b9b68644de493294603e2b0"
+    },
+    "noun-bier": {
+      "text": "het bier",
+      "bytes": 3802,
+      "sha256": "4bfdc4896982cc7d2fc66d81b117f16bbee17e3683359e562365e13a95c3bb45"
+    },
+    "noun-bloed": {
+      "text": "het bloed",
+      "bytes": 3959,
+      "sha256": "d230897d35c6e49f63c8bd4055dd3fb0f46ca4d32ba134f03c9b51e88062cce6"
+    },
+    "noun-boom": {
+      "text": "de boom",
+      "bytes": 3034,
+      "sha256": "1b79be37ab9f5a460512e4e537025c99b5b090f5dc467a63e1ae2ab211d9f090"
+    },
+    "noun-bord": {
+      "text": "het bord",
+      "bytes": 3827,
+      "sha256": "9a5982132391d15f085a62450696bb8453900488b92bd1343175118d58fedaeb"
+    },
+    "noun-borst": {
+      "text": "de borst",
+      "bytes": 3639,
+      "sha256": "b559b4aff257730fea6ccd9519f34f44c57aba0ccf70803bd6a51c3b46f390fa"
+    },
+    "noun-bril": {
+      "text": "de bril",
+      "bytes": 3665,
+      "sha256": "e06e444e258acf713ca5579daefcdba45d998a57b9a776faef3be0b331cb8beb"
+    },
+    "noun-broek": {
+      "text": "de broek",
+      "bytes": 3563,
+      "sha256": "a22a32530cb78a992739dcbc72db95ac7cd83d89d744469f2671cf5c08d6f748"
+    },
+    "noun-broer": {
+      "text": "de broer",
+      "bytes": 3531,
+      "sha256": "6671ec8598fd5dd8db1c64999aa4ce82b5c7aa9aa6daa922a3cfaf7f3310acf6"
+    },
+    "noun-brood": {
+      "text": "het brood",
+      "bytes": 4270,
+      "sha256": "582ef1e726745780e0bf70924e482dc3e5c7a0eda9549566dd9ddec42264b964"
+    },
+    "noun-buik": {
+      "text": "de buik",
+      "bytes": 2968,
+      "sha256": "cc0e3fd8860e15a96477a3d80dcc91b0d483aa421b5f78dfc7de72d8c8b6a86c"
+    },
+    "noun-bus": {
+      "text": "de bus",
+      "bytes": 3344,
+      "sha256": "1eaa9e3c6482dcd2dcdb7b382f9b50a01c38cd59accc01ae53bc73650ad35e9e"
+    },
+    "noun-buur": {
+      "text": "de buur",
+      "bytes": 3194,
+      "sha256": "56add5f5f209615504e814d9eb5a6e9b038ae58f863ea7e04279690a42712bf9"
+    },
+    "noun-buurt": {
+      "text": "de buurt",
+      "bytes": 3705,
+      "sha256": "ddd9babd8344964b4fedcac06cb9328223639bc04b7b45d36a7f24a6396c6231"
+    },
+    "noun-computer": {
+      "text": "de computer",
+      "bytes": 4652,
+      "sha256": "214c2354bcee701f898506e53f076de6fa60fb0b929111b15c9abef781b41842"
+    },
+    "noun-dag": {
+      "text": "de dag",
+      "bytes": 3586,
+      "sha256": "4cf77ba294a4873f99dcc6f194fbe9e3d364946f1899548995c2d26d840c72d7"
+    },
+    "noun-dak": {
+      "text": "het dak",
+      "bytes": 3595,
+      "sha256": "c6ac36416d1369712a53ae0fe7cbab2f682f65d3445ddb9d824cfe9b26746628"
+    },
+    "noun-dame": {
+      "text": "de dame",
+      "bytes": 3199,
+      "sha256": "0e8796f426fadfe2960475e6add3d255a0f4d8d1ce200d5feef95d5f8beae216"
+    },
+    "noun-datum": {
+      "text": "de datum",
+      "bytes": 4002,
+      "sha256": "6ce46c427020e75ca74c2f01f2fbea4680e363cc5abaff9e2a5f61fe022d3ff5"
+    },
+    "noun-december": {
+      "text": "de december",
+      "bytes": 4554,
+      "sha256": "feba986b73fb3aa358c4c8fc0f66acf701d33669983b84e80a81b7883905ef15"
+    },
+    "noun-dertien": {
+      "text": "dertien",
+      "bytes": 3701,
+      "sha256": "64eba5c0a7c283286ef1ec3501fa956dd8d31d8bb6759b0336aeba19edbcc35e"
+    },
+    "noun-dertig": {
+      "text": "dertig",
+      "bytes": 3478,
+      "sha256": "59d88bcc71839242e00fe346acdc96ea875ee2ce555fbf8236497f300a8d11ad"
+    },
+    "noun-deur": {
+      "text": "de deur",
+      "bytes": 3141,
+      "sha256": "02d89f7a67374879474513ff71bc3f46ca95c3f5b7f389ec37c9dbfc2f4c8167"
+    },
+    "noun-dier": {
+      "text": "het dier",
+      "bytes": 3507,
+      "sha256": "1310d0c0d9f256e8a403efa0d5869cc8e16944b81acd982b46d741f6af72c21e"
+    },
+    "noun-dinsdag": {
+      "text": "de dinsdag",
+      "bytes": 4751,
+      "sha256": "9eaab40637f03d323e1d7b6daabb4b675891451189f9913d365aef85c8d9fff5"
+    },
+    "noun-dochter": {
+      "text": "de dochter",
+      "bytes": 3955,
+      "sha256": "d47420e3bc33c159b649ba7bfdc4e33e0b82ce6010e4d07300f0e48ec49e371d"
+    },
+    "noun-donderdag": {
+      "text": "de donderdag",
+      "bytes": 4514,
+      "sha256": "9070764e909d1e001f1255a3196190625406dd29d9cf1ee4fc46c733eb1ad59f"
+    },
+    "noun-doos": {
+      "text": "de doos",
+      "bytes": 3640,
+      "sha256": "c7156eea31bb3816303ab86cb9687b7efc9d70324fd01043a955389340b39bab"
+    },
+    "noun-drank": {
+      "text": "de drank",
+      "bytes": 3029,
+      "sha256": "d3ee1b993fe9dd308dc65e9a3cbe29104aa1c14eff68785743da7d8e71e78962"
+    },
+    "noun-drie": {
+      "text": "drie",
+      "bytes": 3137,
+      "sha256": "91a116da3be92a26b0c8a6df588fc1af3a01f61954a8fb7f64cc92ccc217bdf5"
+    },
+    "noun-duim": {
+      "text": "de duim",
+      "bytes": 3131,
+      "sha256": "28a2decd8c84690ced6e20deb1c95c41572b696fcdc7ef758ff15b89399a79ef"
+    },
+    "noun-duizend": {
+      "text": "duizend",
+      "bytes": 3803,
+      "sha256": "1bfe6c5b47e9dd6545a23a4d88cef0c33a702a4f7cbc92c1e8ca299dd4bc6cc1"
+    },
+    "noun-echtgenoot": {
+      "text": "de echtgenoot",
+      "bytes": 4854,
+      "sha256": "150203890af160f10d65b427aa3aec639479f18c8b5a5a71c61ba28af0136fa1"
+    },
+    "noun-echtgenote": {
+      "text": "de echtgenote",
+      "bytes": 5187,
+      "sha256": "a376f06dcaf2f8d08829703111e95d55d2b806821abacf86a4fea39dbc148d4e"
+    },
+    "noun-elf": {
+      "text": "elf",
+      "bytes": 3162,
+      "sha256": "0a4640db7c7cc578c07e807a232e7d0187cbef0850e26a6be984d342d1e6bb70"
+    },
+    "noun-euro": {
+      "text": "de euro",
+      "bytes": 3693,
+      "sha256": "10a7fb26e840ee290be1c348367ba65083ab3b9964aa0e5c0a0433186a5707be"
+    },
+    "noun-familie": {
+      "text": "de familie",
+      "bytes": 3998,
+      "sha256": "00457c603703c456b4fd991caaf7f77ebb480d697a5b4af164333200f5f1ec40"
+    },
+    "noun-februari": {
+      "text": "de februari",
+      "bytes": 4581,
+      "sha256": "2845e00b22c4ff901f1cdd68f30c9a1e9e346358eaef7009f4e20714e2437393"
+    },
+    "noun-feestdag": {
+      "text": "de feestdag",
+      "bytes": 4917,
+      "sha256": "72699b7cbcb7363617e7c583b1557f370f71c6a8e6d30b30868bf75dc64cef9c"
+    },
+    "noun-fiets": {
+      "text": "de fiets",
+      "bytes": 4143,
+      "sha256": "f123421048dd773235598ea059e33781331820f858397dbb368cb7509e44b85c"
+    },
+    "noun-film": {
+      "text": "de film",
+      "bytes": 3371,
+      "sha256": "f1efc3c086792584d59dbb1ef8d4b0c259424acd55dcfcc2dbff9913f9a174df"
+    },
+    "noun-flat": {
+      "text": "de flat",
+      "bytes": 3839,
+      "sha256": "0108cec264569e6d1c589b6e561385f0637cf3b6207f08c73a9a1daf91b9b14f"
+    },
+    "noun-fles": {
+      "text": "de fles",
+      "bytes": 3957,
+      "sha256": "36caa2a1f3cb31f897023a31c2f9c444d796b08f9cd39463c388e959476d292c"
+    },
+    "noun-foto": {
+      "text": "de foto",
+      "bytes": 4070,
+      "sha256": "613eeeb2d118c8e54650358093f6a237b6b65a870c159e4bf4d3fcdf9970f707"
+    },
+    "noun-gast": {
+      "text": "de gast",
+      "bytes": 4097,
+      "sha256": "905fad683563d846d3042e36b0ca61691161c255beeb12137924bcb610c8da55"
+    },
+    "noun-geboorte": {
+      "text": "de geboorte",
+      "bytes": 4452,
+      "sha256": "652f893b4efadb9d0538d86481dbc9a79febdc3b5dae9e5568deb9b0bf61cfbe"
+    },
+    "noun-geld": {
+      "text": "het geld",
+      "bytes": 4004,
+      "sha256": "cd02f3347658639cb77ef85ccac8b45fc39d3e2430be8a6b65168388219279d8"
+    },
+    "noun-gerecht": {
+      "text": "het gerecht",
+      "bytes": 4580,
+      "sha256": "641c5a60fe7870ab5bd0107fac9664cf6ec4d6c0cb164bb5b0c1b3db25c33b21"
+    },
+    "noun-gezicht": {
+      "text": "het gezicht",
+      "bytes": 4888,
+      "sha256": "8fa384f226153a7d0947a8555b388b528d001bccb4aa1bad06a1fba5776b7661"
+    },
+    "noun-gezondheid": {
+      "text": "de gezondheid",
+      "bytes": 5311,
+      "sha256": "8209958e2e5f7f750d46ddb37c09fc61c822020272919f3ad4bb857aca0b430f"
+    },
+    "noun-glas": {
+      "text": "het glas",
+      "bytes": 4203,
+      "sha256": "a9ec79b14fdb41492c2badb887b1be4bd231db2b737725c0daf75778b9012d70"
+    },
+    "noun-griep": {
+      "text": "de griep",
+      "bytes": 3200,
+      "sha256": "6ec0fa721edaa7e101fcea49584abed0296f54d005d5f45dd242c4a669ea43d7"
+    },
+    "noun-groente": {
+      "text": "de groente",
+      "bytes": 3923,
+      "sha256": "42356553bce140667b655bcdaca48e5ac6319db5770f9c5d58db43b2159aabe5"
+    },
+    "noun-haar": {
+      "text": "het haar",
+      "bytes": 3774,
+      "sha256": "1258388ec6c412f687f11c6611110285d4cdc94224d8e3ccf668841440881144"
+    },
+    "noun-hand": {
+      "text": "de hand",
+      "bytes": 3331,
+      "sha256": "ed233d2f5a76311455a67d27bac1ed30a0c91a842c78e8c79510911c7471dd75"
+    },
+    "noun-hart": {
+      "text": "het hart",
+      "bytes": 4168,
+      "sha256": "f344ebb27dc3adec671c55336571704952c3573e3d359db3c93760f984e3bfa0"
+    },
+    "noun-herfst": {
+      "text": "de herfst",
+      "bytes": 4114,
+      "sha256": "acc55ed8e1b4a21ade44b6ef1f928f5720603dfc9e87c6fc52bb1a94aa21e915"
+    },
+    "noun-hond": {
+      "text": "de hond",
+      "bytes": 3161,
+      "sha256": "a028635d8771f015a166c78206b38a10ee5ed33cd758e72908cb3d66b1fee07c"
+    },
+    "noun-honderd": {
+      "text": "honderd",
+      "bytes": 3477,
+      "sha256": "16d2e3d372c4aef351e746fb7985a7ede008ccac25d318422863681d0c356ab6"
+    },
+    "noun-hoofd": {
+      "text": "het hoofd",
+      "bytes": 4016,
+      "sha256": "2ec6a02b2d83fda0d0d65477c60aa743f93da36088825e855f6968a32cf45f1b"
+    },
+    "noun-huid": {
+      "text": "de huid",
+      "bytes": 3219,
+      "sha256": "e82233c3fc88a37f80cf5b16b80004b0cdd79d395cfbebe8dcea7dc8da32d9a0"
+    },
+    "noun-huis": {
+      "text": "het huis",
+      "bytes": 3872,
+      "sha256": "9c719ffe0d03fc7f32d394506895ebff62df7d67ba7856c77350fa375f5b93c6"
+    },
+    "noun-huishouden": {
+      "text": "het huishouden",
+      "bytes": 5030,
+      "sha256": "afa7db668a72a957db1a3c2084003722fe87a39bf4ae0e159458f1ae04f8b6c7"
+    },
+    "noun-huwelijk": {
+      "text": "het huwelijk",
+      "bytes": 4291,
+      "sha256": "220843a06299c2696cffe8d434117ae40f87e38b29fb3db87436c63fcdea38c9"
+    },
+    "noun-inwoner": {
+      "text": "de inwoner",
+      "bytes": 4092,
+      "sha256": "db0b4384d402bfa9543e7e3ee4d8f8d622e0419b0ed0999504e878bebbd3d46a"
+    },
+    "noun-jaar": {
+      "text": "het jaar",
+      "bytes": 3643,
+      "sha256": "2747c96a1e1840846ba01c156581e2b4a9fd42247450373ed4a2740a881eebad"
+    },
+    "noun-januari": {
+      "text": "de januari",
+      "bytes": 4415,
+      "sha256": "05be45911856fcd6a57e7902c7a9a66a517ff2f0dddc1e8f40dc99f62d55d624"
+    },
+    "noun-jeugd": {
+      "text": "de jeugd",
+      "bytes": 3717,
+      "sha256": "fc0d0e558fd460c291ecbe4f02a87a0972f9f57e3cbffc1fa41ad8dc3e8e0a7e"
+    },
+    "noun-jongen": {
+      "text": "de jongen",
+      "bytes": 3268,
+      "sha256": "c27a0e99154b47c7e749d7d88464088cb4e6e658de66a8ebffdb4ecfd024d1f3"
+    },
+    "noun-juli": {
+      "text": "de juli",
+      "bytes": 3184,
+      "sha256": "3f459e1c3a4dfd8fdaed4bc41e7f477e2999c46aeb2c19ed629a4e9925b79e62"
+    },
+    "noun-juni": {
+      "text": "de juni",
+      "bytes": 3023,
+      "sha256": "f9f0fb28785b7d9f17aeb21ae718afa557f63d498b1e205224e0a260311951e8"
+    },
+    "noun-kaas": {
+      "text": "de kaas",
+      "bytes": 3907,
+      "sha256": "d5dacf649cda5fe771484609f2570e55528abc46569341e925d06be04a694d0e"
+    },
+    "noun-kalender": {
+      "text": "de kalender",
+      "bytes": 4029,
+      "sha256": "008a69a42a44b6190fe931d299f4a52040d72fc80dee617589f55c784c6cd26c"
+    },
+    "noun-kamer": {
+      "text": "de kamer",
+      "bytes": 3496,
+      "sha256": "e481498196cdb19e5a3d19a5eab164359e325c16cb7c0a8cb24461d64729f4dc"
+    },
+    "noun-kast": {
+      "text": "de kast",
+      "bytes": 4102,
+      "sha256": "dad4b4daa6565ec7274d51ae947f3f795234547ed41a637b45bbdd9285d8c8b3"
+    },
+    "noun-keel": {
+      "text": "de keel",
+      "bytes": 3524,
+      "sha256": "cd9c3b3c183b49b1557fb00a622d784bb2e0a1039cbd11cc022a0f41c24f6934"
+    },
+    "noun-keer": {
+      "text": "de keer",
+      "bytes": 3449,
+      "sha256": "eb2881adf7a60f2cadade1e8c4e397efb7ce895ddcd73ea007c1d7528a912dbd"
+    },
+    "noun-kerst": {
+      "text": "de kerst",
+      "bytes": 3482,
+      "sha256": "e2cb7aeb91dd1749bf69110f642e87123ee134eb3e459d77c891803e6e62afac"
+    },
+    "noun-keuken": {
+      "text": "de keuken",
+      "bytes": 3827,
+      "sha256": "bf7bd8384b7913b6ffc4dea41a64c39565785a382f06823fd669faaf1bf927f5"
+    },
+    "noun-kind": {
+      "text": "het kind",
+      "bytes": 4326,
+      "sha256": "0e54a76d437a875a6f265f3bd7b2b675b062fdc413ee3298dc3b196e9ac207d6"
+    },
+    "noun-kip": {
+      "text": "de kip",
+      "bytes": 3317,
+      "sha256": "035308cdedcb58011971b987ce2b8e6810100d813fe06d5a3da98b0653f1104d"
+    },
+    "noun-klacht": {
+      "text": "de klacht",
+      "bytes": 4150,
+      "sha256": "f233262656ce65dc78b2b1bcffac18f1d037d3bac702d4960a550280f62c2573"
+    },
+    "noun-klas": {
+      "text": "de klas",
+      "bytes": 3953,
+      "sha256": "fa1eb6e8e01dd9a87de45e8d059c60b61da8d3ef6c45fe017b3de641616501d2"
+    },
+    "noun-kleding": {
+      "text": "de kleding",
+      "bytes": 4309,
+      "sha256": "35aa77cd85468d7e93614ced44e4e302910384e39b6e246298af646380a35d82"
+    },
+    "noun-kleur": {
+      "text": "de kleur",
+      "bytes": 3268,
+      "sha256": "f5aa1c7503f9ce5a0b66d427799542f38b344389984efb1a6ad1a45ae365ec20"
+    },
+    "noun-knie": {
+      "text": "de knie",
+      "bytes": 3450,
+      "sha256": "58d6ee7439cbc3d04de7a8cd12a6fb35c848d18bef258c831ae71092165c7305"
+    },
+    "noun-koffie": {
+      "text": "de koffie",
+      "bytes": 4025,
+      "sha256": "b65708e2a29c1579c8ec55d68b0b26ecc840ba12e751421984ab106c3a39ce7e"
+    },
+    "noun-kussen": {
+      "text": "het kussen",
+      "bytes": 4858,
+      "sha256": "bc2ba57e0a3cd33466f2b19fd918b6e92c13ae6458c3616957ce3a25e7d52d6c"
+    },
+    "noun-kwart": {
+      "text": "het kwart",
+      "bytes": 3971,
+      "sha256": "b87b036940a121f3aa8de26573a584e388813fe90d67aff616e4692de93cf812"
+    },
+    "noun-laken": {
+      "text": "het laken",
+      "bytes": 4454,
+      "sha256": "201003c62206f42485a48f5a8112dddd362bc23e315a4fb966db7f9e4686a6c1"
+    },
+    "noun-lamp": {
+      "text": "de lamp",
+      "bytes": 3058,
+      "sha256": "23be1be864db75e0d5830f28f16ac35240d176bf9aa4615a777efedf47b6c55f"
+    },
+    "noun-land": {
+      "text": "het land",
+      "bytes": 3827,
+      "sha256": "13f002f18fca333c345ba75a122326314f6035c5d0f098f6f6ffcf2849ca69e9"
+    },
+    "noun-leeftijd": {
+      "text": "de leeftijd",
+      "bytes": 4549,
+      "sha256": "821bb5abf29a475d31fe0c10408806f63aa395e8262a98ca35b31501f7a94626"
+    },
+    "noun-leraar": {
+      "text": "de leraar",
+      "bytes": 3351,
+      "sha256": "bfa23002253f7e2fe67fe2c896b479943a8f8d0053e4b68c31e370589f507f60"
+    },
+    "noun-les": {
+      "text": "de les",
+      "bytes": 3548,
+      "sha256": "0a3314ddad4afaff0679fe1da6e28fad3d59cdaa842cd36e686dad84d1187c7e"
+    },
+    "noun-leven": {
+      "text": "het leven",
+      "bytes": 4401,
+      "sha256": "bf7cd84e9228369fbd84448e12152e4977b14a60cf56310b93da3d4c58ddec0a"
+    },
+    "noun-lichaam": {
+      "text": "het lichaam",
+      "bytes": 4132,
+      "sha256": "62546f27637c2e72016228069f574d17352c02e0d83c8254e3fa8734ea2ed83a"
+    },
+    "noun-lid": {
+      "text": "het lid",
+      "bytes": 4019,
+      "sha256": "50ce11aa6f572d8e8961e1c9a07868eaff9e21ac081d81bf9227651b628608a9"
+    },
+    "noun-maand": {
+      "text": "de maand",
+      "bytes": 3225,
+      "sha256": "9627ea1b8581d5ac132895121437f0dc277981c2d5ba2c4fdc4ac7a997f8bbe4"
+    },
+    "noun-maandag": {
+      "text": "de maandag",
+      "bytes": 4093,
+      "sha256": "38abc518031072e201c173f1dcfb6333430fab79b8c6c4d41feaba4efe08dc7f"
+    },
+    "noun-maart": {
+      "text": "de maart",
+      "bytes": 3668,
+      "sha256": "1f8b4832e5ae040be2bdb9ad9822d1992c75b4c898c29efa4e7e18e511d3dd4e"
+    },
+    "noun-maat": {
+      "text": "de maat",
+      "bytes": 3413,
+      "sha256": "68994fc7f13eaf9f2c68888df2a7519b9f194e86da30515187daf1b6ecbbac91"
+    },
+    "noun-mama": {
+      "text": "de mama",
+      "bytes": 3120,
+      "sha256": "68a15ebe5a1915a92a474d993ed8e21139527ed1342c53f69215cc915a1a2dcc"
+    },
+    "noun-man": {
+      "text": "de man",
+      "bytes": 2894,
+      "sha256": "e3809b230a62a353d5e537d243c5a633bc84d290b07ff65f581faee8b4c969d4"
+    },
+    "noun-markt": {
+      "text": "de markt",
+      "bytes": 3821,
+      "sha256": "1258fa393ec90387386587ec4edc6e6d0c0490e1a04ae4891644a5530b3e70d4"
+    },
+    "noun-medicijn": {
+      "text": "het medicijn",
+      "bytes": 4821,
+      "sha256": "de028d4b633e11683f190b73b514eafd78c6ad6e3b45d4f9bd3cc5b3efec1204"
+    },
+    "noun-mei": {
+      "text": "de mei",
+      "bytes": 3305,
+      "sha256": "aeec2bb794edcfdde6737430d09b5dee6edc2301c74466768d0bfa8bd5312f35"
+    },
+    "noun-meisje": {
+      "text": "het meisje",
+      "bytes": 3919,
+      "sha256": "8d64dada28fafa54b1b28c5fd29662dfd526fa93c97a659a9eb2619ae3ff5b96"
+    },
+    "noun-meneer": {
+      "text": "de meneer",
+      "bytes": 3686,
+      "sha256": "4656f392fbe8c449cd6aa12680fbfe746018bda54144667ad6d44c482a2d8dc9"
+    },
+    "noun-mens": {
+      "text": "de mens",
+      "bytes": 3752,
+      "sha256": "374baec2bb5557ddff1f76896b28197618d541e25bf340bf9f98558e41d3857f"
+    },
+    "noun-mes": {
+      "text": "het mes",
+      "bytes": 4182,
+      "sha256": "6fa318805b283a773ff97c55aae14e37e170dff16ac7d2938b53bf5692dab732"
+    },
+    "noun-mevrouw": {
+      "text": "de mevrouw",
+      "bytes": 4131,
+      "sha256": "db5a2ee35d6e0cbbd82e396d4ceedc0849ae23cf4ac78eef04d11b364a7ae984"
+    },
+    "noun-middag": {
+      "text": "de middag",
+      "bytes": 3850,
+      "sha256": "7cd5efe00b29484436ecf7a8dc96ed494704c239cc82caa1d047298cd3fd714a"
+    },
+    "noun-miljard": {
+      "text": "miljard",
+      "bytes": 3861,
+      "sha256": "62b03c5b06e666cd786c4303c9cc4f7419626ec1c6e33b96b7b0d7f48dcd875a"
+    },
+    "noun-miljoen": {
+      "text": "miljoen",
+      "bytes": 3578,
+      "sha256": "cc1bd748a7b0c7cfa3a0ac7bc262f06ff509ac4a3a45510ba52be81ad3cb1d42"
+    },
+    "noun-minuut": {
+      "text": "de minuut",
+      "bytes": 3899,
+      "sha256": "3e9bfd8b8f46f513b351e63b90b4e6f6ff65c4973062ffabe46a1bc54fcb3d6a"
+    },
+    "noun-moeder": {
+      "text": "de moeder",
+      "bytes": 3454,
+      "sha256": "77896df089ae2ef203073f10f827ce3600932ea60324954b74dfc10981ff7812"
+    },
+    "noun-moment": {
+      "text": "het moment",
+      "bytes": 4331,
+      "sha256": "49eb1c9b5fe0c6a13a4960e0e891702fefc5b4bcd836ee2b9df223d1b4c9a664"
+    },
+    "noun-mond": {
+      "text": "de mond",
+      "bytes": 3587,
+      "sha256": "c01fdbbea5b9abb6dbddf868b996aba4c1da87c77586cbbec30a7b8574b6870d"
+    },
+    "noun-muur": {
+      "text": "de muur",
+      "bytes": 2906,
+      "sha256": "315abeb1991dd9a3f968ff86cfbb501361db94344a20d2d325030faeeeaa36f6"
+    },
+    "noun-muziek": {
+      "text": "de muziek",
+      "bytes": 3350,
+      "sha256": "f5b3030d59af3fe8f6061b91741be5b15bc05aa3bcef8c329ca4fb1d371755b4"
+    },
+    "noun-naam": {
+      "text": "de naam",
+      "bytes": 3054,
+      "sha256": "8b6a7498965117632be9328b89d602cb525dc6bbd4089db6b30908c306a8bf47"
+    },
+    "noun-nacht": {
+      "text": "de nacht",
+      "bytes": 4051,
+      "sha256": "328c4d6ee5e5abb236a5d57f96ae115ff26570d7c958b708099a4f37baac3b84"
+    },
+    "noun-neef": {
+      "text": "de neef",
+      "bytes": 3496,
+      "sha256": "ce840f9d89e03056bce60283c4795e1d825a95b10bf3c3426a64db5a6c08b691"
+    },
+    "noun-negen": {
+      "text": "negen",
+      "bytes": 3935,
+      "sha256": "540215e62edea6df05f26ce6419960b6f4097107f962262666084b4b6a682452"
+    },
+    "noun-negentien": {
+      "text": "negentien",
+      "bytes": 4636,
+      "sha256": "17b1d2cf88f4b1bea009fe6d2e93e177c3fd6be76b4f2398b4c3a45cdd01c8a5"
+    },
+    "noun-negentig": {
+      "text": "negentig",
+      "bytes": 4774,
+      "sha256": "f12e9de90c555573fae14b1e08dc0f4318bba4a6f75e1dc6e4cf4679cec5c022"
+    },
+    "noun-nek": {
+      "text": "de nek",
+      "bytes": 2804,
+      "sha256": "a57beca7e03f4a13664a000f5596191e3256cbf26030b3a4f237d7fd281ab307"
+    },
+    "noun-neus": {
+      "text": "de neus",
+      "bytes": 3629,
+      "sha256": "bf0baf20df5bfb7323416250755de512f764a1fa2b2bd332ccbcb301c6c21274"
+    },
+    "noun-november": {
+      "text": "de november",
+      "bytes": 4797,
+      "sha256": "172489c9cba5e6e307a89e12792863dd1d8a7e00d8b4d7369cdc3627163378f6"
+    },
+    "noun-nul": {
+      "text": "nul",
+      "bytes": 3078,
+      "sha256": "f70833e6a1ff238425886b2220d6f3c221ab3f7e11e8eb1c5cfa06eab48a3c23"
+    },
+    "noun-nummer": {
+      "text": "het nummer",
+      "bytes": 4113,
+      "sha256": "377e33f5248a8d4af3c82dea29788cf8b25ec305098f1525a0a2da494b3a77ee"
+    },
+    "noun-ochtend": {
+      "text": "de ochtend",
+      "bytes": 4315,
+      "sha256": "8ebd124504582942e6736f3ddb75aaa925579800849dc91228b2ed2bb9037631"
+    },
+    "noun-oktober": {
+      "text": "de oktober",
+      "bytes": 4641,
+      "sha256": "933324ea8d706586e83f15891c319c958d85a123106f188de97dfbe53d15a817"
+    },
+    "noun-olie": {
+      "text": "de olie",
+      "bytes": 3491,
+      "sha256": "64d44e1e1c5af8da1cf3fc42c9190a6135949dade37c2818911dcddea363010d"
+    },
+    "noun-oma": {
+      "text": "de oma",
+      "bytes": 3248,
+      "sha256": "7847bfe9c25db102761ce4631b79cbbe45d728141baeb156b2c070196e491530"
+    },
+    "noun-ongeluk": {
+      "text": "het ongeluk",
+      "bytes": 5051,
+      "sha256": "26177ae3f3baf65afccf2a8fe0a883c195fe2984299d8b25a27dea38c69e976e"
+    },
+    "noun-ontmoeting": {
+      "text": "de ontmoeting",
+      "bytes": 4383,
+      "sha256": "0c2edc946de98fe95490e6fc67f2571890a47307808ee5999a0805f6224522fe"
+    },
+    "noun-oog": {
+      "text": "het oog",
+      "bytes": 3716,
+      "sha256": "a79828aacea0e7c3ec79f3a201da24f52139a3b82d672837f04a5b579e0490af"
+    },
+    "noun-oom": {
+      "text": "de oom",
+      "bytes": 2850,
+      "sha256": "d8ce5cd7e058b104eafc1075a1c5b44f10963fa0a2bca8f3a7d8546381910829"
+    },
+    "noun-oor": {
+      "text": "het oor",
+      "bytes": 3471,
+      "sha256": "fcde35ae97e5c13877e496afa80b69a625e0961a141186d2fd1062962537ea0f"
+    },
+    "noun-oosten": {
+      "text": "het oosten",
+      "bytes": 4740,
+      "sha256": "e8cfd52135004d60facb40abb2d9d241c12a0110d726cd1387757d38519cae0f"
+    },
+    "noun-opa": {
+      "text": "de opa",
+      "bytes": 3781,
+      "sha256": "b290a5253bbb7c1a01fd3746c3c5784b3af390f2efc7983356985eea0bfa1c0a"
+    },
+    "noun-ouder": {
+      "text": "de ouder",
+      "bytes": 3643,
+      "sha256": "b0d898b602eb4b1225a58721583b559d78ec97dde0c4074712f7ea6243efea89"
+    },
+    "noun-pan": {
+      "text": "de pan",
+      "bytes": 3049,
+      "sha256": "9d975f56855f576101f4efcf772cf38df76f52a80a2e13c05576e77e2e80685c"
+    },
+    "noun-park": {
+      "text": "het park",
+      "bytes": 3726,
+      "sha256": "68bd3a79edf10318f77b6ff25a11e30aee6e44986633017c680a66282677a514"
+    },
+    "noun-patiënt": {
+      "text": "de patiënt",
+      "bytes": 4300,
+      "sha256": "93629d91dd4b3bcf918090099ad0c34adbbaf368f0c67dbb591b1c48ebe25f21"
+    },
+    "noun-periode": {
+      "text": "de periode",
+      "bytes": 4678,
+      "sha256": "e3b2f6ae1c7914ee4640c797bdac8c0cd2a6c09426b27d066b705d4f11de8fca"
+    },
+    "noun-persoon": {
+      "text": "de persoon",
+      "bytes": 3956,
+      "sha256": "c0f5056fe259060288d6c0327872aa3eb41169e0cf4e8efd2be250baaaa86f84"
+    },
+    "noun-pijn": {
+      "text": "de pijn",
+      "bytes": 3390,
+      "sha256": "d534c3e0232467791d7133ac14f44b703ad98993944ed89d82fcbca83a5fe294"
+    },
+    "noun-prijs": {
+      "text": "de prijs",
+      "bytes": 4152,
+      "sha256": "955d51a22b692e0de4b5c910311b4aa66a2b12c18bcb08a22059d5ac1f64290f"
+    },
+    "noun-raam": {
+      "text": "het raam",
+      "bytes": 4049,
+      "sha256": "804981f4b89c45f4e1de5f48258638ac89d178b2906baadc0995f2439f834348"
+    },
+    "noun-recept": {
+      "text": "het recept",
+      "bytes": 4484,
+      "sha256": "db9aad3b64afa6116fa9a6ce5cd6c716bbc850f7f5bb225d82792514a49498a8"
+    },
+    "noun-relatie": {
+      "text": "de relatie",
+      "bytes": 4369,
+      "sha256": "acad7c50086575180c8adb04d924c31fe9c8e672cac561aea92fa556cf91229b"
+    },
+    "noun-restaurant": {
+      "text": "het restaurant",
+      "bytes": 5469,
+      "sha256": "3eca407984a11007a29a630efd9fc368ed67a60333b4751d7c95ddabb89c7e75"
+    },
+    "noun-ring": {
+      "text": "de ring",
+      "bytes": 3046,
+      "sha256": "2157017446d25ad63af6bf65b7f2e13f789834a60ddb84d31e7c0b6ad9ce02f0"
+    },
+    "noun-rust": {
+      "text": "de rust",
+      "bytes": 3827,
+      "sha256": "2e7197410001f923fcc6345b3bcccd28026954f90d0544085ca58fc0b57e0707"
+    },
+    "noun-schoen": {
+      "text": "de schoen",
+      "bytes": 3251,
+      "sha256": "1b97335db0c90645642eed610f64fd5e4c4740fbf6147e7b9c3c5d182fb0066b"
+    },
+    "noun-school": {
+      "text": "de school",
+      "bytes": 3442,
+      "sha256": "1aad7b8e2135a9ce8283cf1c52f580d8b2993832abea63a6bb2b0443e1bf9b0d"
+    },
+    "noun-schouder": {
+      "text": "de schouder",
+      "bytes": 4359,
+      "sha256": "cd7088814861226e19d7da25a9ad0f0735efa36c1e6879b498d502420247b1b3"
+    },
+    "noun-seconde": {
+      "text": "de seconde",
+      "bytes": 4486,
+      "sha256": "461de52daffaeb112593c4c718f0cbcc064cb24734f1fa4b3024dbfadd325ac9"
+    },
+    "noun-seizoen": {
+      "text": "het seizoen",
+      "bytes": 4494,
+      "sha256": "f9b87042e6901132d8282fb8e75dc9ba9958d8332010eb828b21fb8e0c9195d5"
+    },
+    "noun-september": {
+      "text": "de september",
+      "bytes": 4303,
+      "sha256": "54a907bde63c4da3f72a250b229acd080bdacdcfec49f2ad7400039891df5cff"
+    },
+    "noun-sleutel": {
+      "text": "de sleutel",
+      "bytes": 4229,
+      "sha256": "0d4860260a329522b3fc020457c9b382cc2beb03a3877015123d6e38f0f3d0e5"
+    },
+    "noun-smaak": {
+      "text": "de smaak",
+      "bytes": 3340,
+      "sha256": "833a6ef7f7cef8b96f3437aec5af17d26fb84477c15f31c4f794e341d1999f96"
+    },
+    "noun-spiegel": {
+      "text": "de spiegel",
+      "bytes": 4247,
+      "sha256": "22c52af92e0e0ae881a5b1f79e5f58b21681acec5590db040da4230007d8dc7a"
+    },
+    "noun-sport": {
+      "text": "de sport",
+      "bytes": 3624,
+      "sha256": "434a835a2ee12b9468e43494c585c9531388086eff666196a296ac7886658247"
+    },
+    "noun-stad": {
+      "text": "de stad",
+      "bytes": 4145,
+      "sha256": "0e8f1b8e3e115b8074c341d427120c80cd24101f0c4d03a0dab31d059abfb07a"
+    },
+    "noun-station": {
+      "text": "het station",
+      "bytes": 4488,
+      "sha256": "dd155e86d472d97201372338c584336f253471e8fb109ce34d1cc76728b2640b"
+    },
+    "noun-stoel": {
+      "text": "de stoel",
+      "bytes": 3605,
+      "sha256": "ddcdb6b10efbe58b758b59a3544c7182d25d9b7b134f35c225435621e545dca7"
+    },
+    "noun-straat": {
+      "text": "de straat",
+      "bytes": 4131,
+      "sha256": "eb6fecedd4c78dc19e3eb34222f4dcac542c105333d1c472dc21a02e1cb0a7ce"
+    },
+    "noun-supermarkt": {
+      "text": "de supermarkt",
+      "bytes": 4795,
+      "sha256": "f8e7c2778726460758ff99489fdc16583d61e57607bbcb70d82b2a3793aba64b"
+    },
+    "noun-taal": {
+      "text": "de taal",
+      "bytes": 3147,
+      "sha256": "8da2af856838501cf7f4e652561fb3a44b3a28bc45c303d5a6d3172b981407f4"
+    },
+    "noun-tachtig": {
+      "text": "tachtig",
+      "bytes": 3398,
+      "sha256": "c3b57bf01f23f31de722ca5b09913af2bfbbf499a573b18c8fd03828ba5c5727"
+    },
+    "noun-tafel": {
+      "text": "de tafel",
+      "bytes": 3986,
+      "sha256": "6b5080d9dcb348eddf9a84062fb4c1cfc0913e3972b68a19c89ecf731482520a"
+    },
+    "noun-tand": {
+      "text": "de tand",
+      "bytes": 3776,
+      "sha256": "9b501feae8eb4950d6f62f092502d8756c2d76a9d2051d005bfbe86b714df294"
+    },
+    "noun-tante": {
+      "text": "de tante",
+      "bytes": 4159,
+      "sha256": "2fc2c8c6293cd9ad5f357c282d43076de385312eeb5a846d6bc4ec369dc91b6d"
+    },
+    "noun-teen": {
+      "text": "de teen",
+      "bytes": 3367,
+      "sha256": "1edc53817f533f31b7b4a055384b2a91d815f86db7798d2e6fcbd064d65f50db"
+    },
+    "noun-telefoon": {
+      "text": "de telefoon",
+      "bytes": 4214,
+      "sha256": "70f04a76899b763194d574ade2919bc4b6081a7cc1ebf2159189fa2d55931f41"
+    },
+    "noun-televisie": {
+      "text": "de televisie",
+      "bytes": 4861,
+      "sha256": "75f1064c66e9ff160edc07555348feeee14e4d4fdb73cba7395ef07e4baeee3d"
+    },
+    "noun-tien": {
+      "text": "tien",
+      "bytes": 2496,
+      "sha256": "993043e42fb8543d76f2d4ef05a5e6450f9aaec95a863804d94054948c0acb01"
+    },
+    "noun-tijd": {
+      "text": "de tijd",
+      "bytes": 3552,
+      "sha256": "63a31c57d5089a121b1b815fba5a996be3b8339e14b76b89bcb09ccfb5399b91"
+    },
+    "noun-toekomst": {
+      "text": "de toekomst",
+      "bytes": 4685,
+      "sha256": "963c26b60d782e1e5df3d3d3bbddcad0d8a5db1047304382a4b83ddcbe4ddcbf"
+    },
+    "noun-toilet": {
+      "text": "het toilet",
+      "bytes": 4482,
+      "sha256": "7a1a1078eec4841ff2687aac51f568e09e31715b09a7bec89c64044115b94e7a"
+    },
+    "noun-tong": {
+      "text": "de tong",
+      "bytes": 3202,
+      "sha256": "eceb3a7c5309e7c239387a50715ee3a1c2accf5ab7008f53294692819cca1c53"
+    },
+    "noun-trap": {
+      "text": "de trap",
+      "bytes": 3469,
+      "sha256": "ee1bcde40703aa806c4c2747494f295ceeb8e6317142e98348c4ac3972228cac"
+    },
+    "noun-trein": {
+      "text": "de trein",
+      "bytes": 3953,
+      "sha256": "4c44dbe83619c49feaba3811ff9cac6a5ab4c3d9254080cf9424cf69551cf5d4"
+    },
+    "noun-tuin": {
+      "text": "de tuin",
+      "bytes": 3348,
+      "sha256": "7832cfcea227ecc7e99a2fdd0beaeb9cb0a16bed96cbee99a7db8c5cdf8416ce"
+    },
+    "noun-twaalf": {
+      "text": "twaalf",
+      "bytes": 3318,
+      "sha256": "8fdceb29e89cd9431656ca145e330ee1e341dd08d66347627ba45c576e3730ad"
+    },
+    "noun-twee": {
+      "text": "twee",
+      "bytes": 2824,
+      "sha256": "6405de86672285bafda89c33602d433ceebc19cfdbff8f625a345e823f9869f7"
+    },
+    "noun-twintig": {
+      "text": "twintig",
+      "bytes": 3759,
+      "sha256": "7e967fe058774f9b9f684abd23040ae37d2bb95f7d74800844b7a65589b8f5c6"
+    },
+    "noun-uur": {
+      "text": "het uur",
+      "bytes": 3705,
+      "sha256": "c807aaa7e27ae633dc02eaea2603e5cfe626882a7b3abbf2647a9f3d7ce20035"
+    },
+    "noun-vader": {
+      "text": "de vader",
+      "bytes": 3314,
+      "sha256": "072d5308081888231e5a7a3b7f352246823710fad0089407ab96c68d08de141c"
+    },
+    "noun-vakantie": {
+      "text": "de vakantie",
+      "bytes": 4691,
+      "sha256": "e7cba02aa820fe4365317e3e98415878dcc660e29d5974c7566428c78e9d33c8"
+    },
+    "noun-veertien": {
+      "text": "veertien",
+      "bytes": 3588,
+      "sha256": "330a2879c01c19b55df008dfbdee414f0be08239045b5bc0648b88fc12cc1ee0"
+    },
+    "noun-veertig": {
+      "text": "veertig",
+      "bytes": 3951,
+      "sha256": "d6df40ea878d5c434059baa4b8efcbad8d7e765c96d43f4e0e9f71378db4dd19"
+    },
+    "noun-verdieping": {
+      "text": "de verdieping",
+      "bytes": 4672,
+      "sha256": "237a146bd3bf2b60113bf5a876c852856f96d9602a9ace758f9f82d82b9ec52c"
+    },
+    "noun-verjaardag": {
+      "text": "de verjaardag",
+      "bytes": 4599,
+      "sha256": "923ca083666619df665aa532d213f8fcccd6ba357ab602949fcc11883aa432fc"
+    },
+    "noun-vier": {
+      "text": "vier",
+      "bytes": 3249,
+      "sha256": "550fab990b936fceffbf19a129af5d9b5048c83b40e543e3c5ab9a4b9000d471"
+    },
+    "noun-vijf": {
+      "text": "vijf",
+      "bytes": 3373,
+      "sha256": "d541745e2b5d91991eef366b86d0771e79b4c558c221953c456d46d73d65e3a7"
+    },
+    "noun-vijftien": {
+      "text": "vijftien",
+      "bytes": 3924,
+      "sha256": "09fb37ef6b0379d84f35456b0cc3ce34185ac4cea93b5bb5dcf8659f9b57e513"
+    },
+    "noun-vijftig": {
+      "text": "vijftig",
+      "bytes": 3983,
+      "sha256": "993f4e1f91ae6b22bef879ed128d3b10e1ace56906e9ff44a3e944d2b3863eea"
+    },
+    "noun-vinger": {
+      "text": "de vinger",
+      "bytes": 3315,
+      "sha256": "5076892f5dc8731610a743d03a553f2c810dc35cda2618f0a6ae349acfa5fc4b"
+    },
+    "noun-vis": {
+      "text": "de vis",
+      "bytes": 3391,
+      "sha256": "6430e3893dfe53dded5225ea407ed0738b4383be6c8f6d627965e3b631094edf"
+    },
+    "noun-vlees": {
+      "text": "het vlees",
+      "bytes": 4465,
+      "sha256": "809b71d39532c2032fa3f5a86e86de9e37d05b035302d137509723fcff28a68c"
+    },
+    "noun-voet": {
+      "text": "de voet",
+      "bytes": 3728,
+      "sha256": "41b4992f079e9465c5d45d74158b37a450e8126b6ed163f10b936d24070c1304"
+    },
+    "noun-voetbal": {
+      "text": "het voetbal",
+      "bytes": 4135,
+      "sha256": "15a77b20c584e3f4a29868aab0bfa89cbcba4fa70adf79baa503228b7eeb531f"
+    },
+    "noun-volwassene": {
+      "text": "de volwassene",
+      "bytes": 4493,
+      "sha256": "ad956b34e12ed4bcc69974959b77e2d49660d7a71b9d21f41345cae9555edce5"
+    },
+    "noun-voorjaar": {
+      "text": "het voorjaar",
+      "bytes": 4414,
+      "sha256": "8b254086ed822a352b078f62f5f7fa3761e913de7594d46df9066fabfe4952de"
+    },
+    "noun-vraag": {
+      "text": "de vraag",
+      "bytes": 3665,
+      "sha256": "a3e6a3e9db38079abfd7ed5529277e515f21b718498416256e74d69c0d1f3668"
+    },
+    "noun-vriend": {
+      "text": "de vriend",
+      "bytes": 3694,
+      "sha256": "e4bfe248a8b5bcb85601f824a39f83995e8c9adb070aba27b53762f6396db25d"
+    },
+    "noun-vriendin": {
+      "text": "de vriendin",
+      "bytes": 3894,
+      "sha256": "6091619cbdd5f6d32f360a90f3330aaa2925d08037ac95af25dbb720b675c354"
+    },
+    "noun-vrijdag": {
+      "text": "de vrijdag",
+      "bytes": 4445,
+      "sha256": "240dd3e898e099353aed292630d51d935f5163a0fec5886de916839af62df138"
+    },
+    "noun-vrouw": {
+      "text": "de vrouw",
+      "bytes": 3187,
+      "sha256": "cc41f4f9134f6862bbedd3ac95d11cbd19451248e0c8b894d6882917e8ac8397"
+    },
+    "noun-water": {
+      "text": "het water",
+      "bytes": 4407,
+      "sha256": "9c1d80e1d6a7ea2a42b973a399fff4c5e164fc20d8d58ecb209a4e3d2d889d1a"
+    },
+    "noun-week": {
+      "text": "de week",
+      "bytes": 2928,
+      "sha256": "06dbfeb4c0a3687af304f57ad7f9170c4e11a76fc9d643082cb049ff194c045d"
+    },
+    "noun-weekend": {
+      "text": "het weekend",
+      "bytes": 5017,
+      "sha256": "d4fd57719ea14d16364fd15458be32dceb2a95b6c53c060a16898cc067accf6c"
+    },
+    "noun-weer": {
+      "text": "het weer",
+      "bytes": 3931,
+      "sha256": "0b96566ec2cda1ad48f14592bea8a20fb28d1bae4ee1c8c038a27ca70bcbcb62"
+    },
+    "noun-weg": {
+      "text": "de weg",
+      "bytes": 3418,
+      "sha256": "91d00bdd80bb4044cc4058401953abdbeb477c3b4f94cdb0424e0677aa0ab42a"
+    },
+    "noun-werk": {
+      "text": "het werk",
+      "bytes": 3713,
+      "sha256": "da31f46c1dbd07b50f546c70138dbaa7de7c412eb5cf1af67485de9aa54eb1a5"
+    },
+    "noun-westen": {
+      "text": "het westen",
+      "bytes": 4738,
+      "sha256": "cbd5767306d232976cfc7b8a949ceb32632c2a9cbe46335088e701d5320cea95"
+    },
+    "noun-wijn": {
+      "text": "de wijn",
+      "bytes": 3201,
+      "sha256": "f1bfb1f8de0234071f53c436611fbcbc4216c5b34890688677ad78e666746739"
+    },
+    "noun-winkel": {
+      "text": "de winkel",
+      "bytes": 3889,
+      "sha256": "42078139849f537693145dce9ab53c2f68cfcf1bad861e4821d0e52043f67f02"
+    },
+    "noun-winter": {
+      "text": "de winter",
+      "bytes": 4138,
+      "sha256": "be5918fd55a4f322c0512cbef0bf4bb0d3d7942807d9d0b08f1bf46b1c89d665"
+    },
+    "noun-woensdag": {
+      "text": "de woensdag",
+      "bytes": 4334,
+      "sha256": "e029824e5617a206a7f2a955c39ea22b30a9d249f03fd6f42c5f9482bdb560e8"
+    },
+    "noun-woning": {
+      "text": "de woning",
+      "bytes": 3329,
+      "sha256": "972ce1c59ad3640bea1bbf58a2d7eb57c90dc9fc6d6d2d624403cdcc1859e1fe"
+    },
+    "noun-woord": {
+      "text": "het woord",
+      "bytes": 3902,
+      "sha256": "42c1a448fffafc25c419b5ca130a113b237f87d79abe04f1252609fd8dcc814e"
+    },
+    "noun-wortel": {
+      "text": "de wortel",
+      "bytes": 3879,
+      "sha256": "2b5ed94dc643a4fa18147dd617f4e2bad769a2a854de97c6220b724908eaa141"
+    },
+    "noun-zaterdag": {
+      "text": "de zaterdag",
+      "bytes": 5020,
+      "sha256": "e3e2a8f19d928590e58ac1cc2f2fbd742840aa36e45d746839511b6103af8951"
+    },
+    "noun-zee": {
+      "text": "de zee",
+      "bytes": 3247,
+      "sha256": "979631a45575da7114da3c8992e193dcd555f77e3c32436657528e15304c9bd4"
+    },
+    "noun-zes": {
+      "text": "zes",
+      "bytes": 3286,
+      "sha256": "6f2c99e0830990c84bc22d02415f41efa01293ba7ba05752082d202c31492f2c"
+    },
+    "noun-zestien": {
+      "text": "zestien",
+      "bytes": 3469,
+      "sha256": "8a48dbe67b7b9f6556c9ab865d3d988a1535d8b5ed5290fba11e10e49b8b4108"
+    },
+    "noun-zestig": {
+      "text": "zestig",
+      "bytes": 3886,
+      "sha256": "2bf5aadacadecc18da11e1ab4d01dd1107f47339c04eadcc7e74abddcbc20be5"
+    },
+    "noun-zeven": {
+      "text": "zeven",
+      "bytes": 3652,
+      "sha256": "9429dcc5b3cc537bfae2a1174b69baa71b8afdbf9c8dab4c826f0169dc6da5e3"
+    },
+    "noun-zeventien": {
+      "text": "zeventien",
+      "bytes": 4470,
+      "sha256": "a21de9492cd5a4a587fa8cb023aa82ed4b314d3a85cfd7b9f4a5ef3269f9c674"
+    },
+    "noun-zeventig": {
+      "text": "zeventig",
+      "bytes": 4674,
+      "sha256": "59bf2b6ead3c14f07ffbfe2684871a1dc2ee7ab699bc315643ed415e86a85677"
+    },
+    "noun-ziekenhuis": {
+      "text": "het ziekenhuis",
+      "bytes": 5416,
+      "sha256": "973ccdbc6db9c5c03b071920f5528bc5e797f0dafc33fc90abae8115ef9f786f"
+    },
+    "noun-ziekte": {
+      "text": "de ziekte",
+      "bytes": 4329,
+      "sha256": "e33a79c766708449ada84dd81febc363e96882124710aad6d458b88dbc5c156e"
+    },
+    "noun-zomer": {
+      "text": "de zomer",
+      "bytes": 3469,
+      "sha256": "bc3bb0067af06bcd8916364ed4ddfd53a4ec1b0159c26bbf295ac3f04269d54c"
+    },
+    "noun-zon": {
+      "text": "de zon",
+      "bytes": 3041,
+      "sha256": "16d545cd4d510ff27ee2daee389f42f3d8f795e2e44f483554e679f86ffaffee"
+    },
+    "noun-zondag": {
+      "text": "de zondag",
+      "bytes": 3990,
+      "sha256": "e66e1ddee3939243320f781962226cf992798b6a70b5a7453a888aabb9f54c1c"
+    },
+    "noun-zoon": {
+      "text": "de zoon",
+      "bytes": 3251,
+      "sha256": "ef1fa17e9a30f21c2c743f9a544c439f1542c997c27f2ceda76cfccffa18853d"
+    },
+    "noun-zuiden": {
+      "text": "het zuiden",
+      "bytes": 4452,
+      "sha256": "7eaa7ef04485627ed244e67d959400f31425b1236e5a1a8ff90dc545223f6121"
+    },
+    "noun-zus": {
+      "text": "de zus",
+      "bytes": 3506,
+      "sha256": "728838b137606047dd4e0e2498e65e0aad0cc37d3006cd8e3be45e142b0e13d3"
+    },
+    "verb-antwoorden": {
+      "text": "antwoorden",
+      "bytes": 4531,
+      "sha256": "a5883a4e4728017cc7a939059d806bdf8838e5d85ecadfc51be1a0aacdcf1677"
+    },
+    "verb-bakken": {
+      "text": "bakken",
+      "bytes": 3175,
+      "sha256": "e48d78bf1e44e106def0d707619fa77da2bd5516fe7ccfec5e8d013faa673d99"
+    },
+    "verb-beginnen": {
+      "text": "beginnen",
+      "bytes": 3294,
+      "sha256": "58396326751e8efe76f7fae3a460383b404488a5625a09fa63dd2a1e4146af06"
+    },
+    "verb-begrijpen": {
+      "text": "begrijpen",
+      "bytes": 4197,
+      "sha256": "672244ef8ac95ceb410722c33e4e0bffe1f9f10f77109882ed969173528e6684"
+    },
+    "verb-bellen": {
+      "text": "bellen",
+      "bytes": 3276,
+      "sha256": "d3dda96fada97a03f6b18aca4fe095817cfa1bd6c96f4de99993323836cf82c3"
+    },
+    "verb-bereiden": {
+      "text": "bereiden",
+      "bytes": 4044,
+      "sha256": "bb437edbe4d6012ed99e3efc9eea5a00025bc2b782d7b97928e2e1098bae2977"
+    },
+    "verb-betalen": {
+      "text": "betalen",
+      "bytes": 3741,
+      "sha256": "72561c7d19a86d5d094a38e53bc080ec607caab2b58c985ee072021aad521477"
+    },
+    "verb-bewegen": {
+      "text": "bewegen",
+      "bytes": 3862,
+      "sha256": "28ee02b86d2628449fa9ffb9dc290e525025943c38ac10359bbed10f5289317f"
+    },
+    "verb-bloeden": {
+      "text": "bloeden",
+      "bytes": 3470,
+      "sha256": "49569557b5a7b90de23c49b6fd6679fac929dfcd01568808082f08ce381e4110"
+    },
+    "verb-bouwen": {
+      "text": "bouwen",
+      "bytes": 3077,
+      "sha256": "a2f686509db554a732d43f216e71b7eb18a5614005575337fff04d1b37f60fce"
+    },
+    "verb-breken": {
+      "text": "breken",
+      "bytes": 3895,
+      "sha256": "f8dbc74eeb510fdcea1d27cde14d30b8679ac66c6240ad8e2432ab9ea58d4a7c"
+    },
+    "verb-brengen": {
+      "text": "brengen",
+      "bytes": 3549,
+      "sha256": "96a8b9fb70f319ea7a59a8463c3bcf25089b3ce7d6d5294d43c1c05464db6f8d"
+    },
+    "verb-denken": {
+      "text": "denken",
+      "bytes": 3149,
+      "sha256": "52d93b6381ce174bf5c3d7573b61575756cf3b20a1f14ae0ae83e4492cddd448"
+    },
+    "verb-doen": {
+      "text": "doen",
+      "bytes": 2449,
+      "sha256": "ca1abd85b08307d6967f40a59dd3076481b2d700f8151cd430055ea6de5c5006"
+    },
+    "verb-draaien": {
+      "text": "draaien",
+      "bytes": 3458,
+      "sha256": "919d1ea3be436b105780e3e2e95a02255d4f2d5338c337e245dc2b7a45f32ca5"
+    },
+    "verb-dragen": {
+      "text": "dragen",
+      "bytes": 3839,
+      "sha256": "d4051e22247476f83b4280f0e88736947956e284be46a62160219cc1e07d8a94"
+    },
+    "verb-drinken": {
+      "text": "drinken",
+      "bytes": 3715,
+      "sha256": "9a8290ee48ba29aa80bb2fd089dc16e5220a16696514c430b4ac33db1ec25ae1"
+    },
+    "verb-drukken": {
+      "text": "drukken",
+      "bytes": 3645,
+      "sha256": "dd23a415397f6c226ce873070f22a373290c9d557918be01ddcceca7ed047150"
+    },
+    "verb-duren": {
+      "text": "duren",
+      "bytes": 3641,
+      "sha256": "d54da89e19bb3f33dad26e0b4b8c35990c34b02302e0bc1f9ef1b42497356974"
+    },
+    "verb-eten": {
+      "text": "eten",
+      "bytes": 3479,
+      "sha256": "f0eddd69d0c398f6038c52a0225d23bc1faac1ec65e5fe810a9dbdd48a4f117f"
+    },
+    "verb-gaan": {
+      "text": "gaan",
+      "bytes": 2599,
+      "sha256": "ca693e13ceffd501811c5147115dec18330dc3a3a41b93f0987a7a62af3c685d"
+    },
+    "verb-genezen": {
+      "text": "genezen",
+      "bytes": 4860,
+      "sha256": "df345b372a23c604fc8026b9601b645bd04afb0cebc0d7105d2021cc680260d8"
+    },
+    "verb-geven": {
+      "text": "geven",
+      "bytes": 3703,
+      "sha256": "dd51d4b5f0a596473b7b33da6470c6307b68916ec0a2209600900c14fe8d4457"
+    },
+    "verb-groeien": {
+      "text": "groeien",
+      "bytes": 4044,
+      "sha256": "e204b2fb0e902bff72a34684c50e4d09ec9e575ae9ff14589d83a05002769baf"
+    },
+    "verb-hangen": {
+      "text": "hangen",
+      "bytes": 3240,
+      "sha256": "5276e11bf8c745d0a1cb7f680763fd0d7a67b8e605c59bd982e8e83f80476e63"
+    },
+    "verb-hebben": {
+      "text": "hebben",
+      "bytes": 3143,
+      "sha256": "068a491bf67aeeef916528f55a25110da4ef26cffa7ef5bee3cda2e2f67bdf5a"
+    },
+    "verb-helpen": {
+      "text": "helpen",
+      "bytes": 3501,
+      "sha256": "d0f60fb2f5e3b81278711cfb826e1161eb8081d03f5504bee08d2a01bc67b08a"
+    },
+    "verb-heten": {
+      "text": "heten",
+      "bytes": 3851,
+      "sha256": "c9330df44eb4126b304be5738363c6df017640695128e7bafe41444401989d68"
+    },
+    "verb-hoeven": {
+      "text": "hoeven",
+      "bytes": 3369,
+      "sha256": "50214b745d21492de8ddea22353fb30eb8034112fe5fe83f3c03f53c8cdbffe3"
+    },
+    "verb-horen": {
+      "text": "horen",
+      "bytes": 3758,
+      "sha256": "826b3aa1bb582d68c28e14911195b268f3044cb41a3f85a017903fbbeee49865"
+    },
+    "verb-huren": {
+      "text": "huren",
+      "bytes": 3942,
+      "sha256": "0e651e5e660e819cfa8bd16ac28e57c7df35cdbffb1f02bbbddf89754ea1a85f"
+    },
+    "verb-kijken": {
+      "text": "kijken",
+      "bytes": 3319,
+      "sha256": "d6492caa2a6a927d88ee6a7ef9e0df997336f365e66842733a7038418475e19c"
+    },
+    "verb-koken": {
+      "text": "koken",
+      "bytes": 3057,
+      "sha256": "b4f97ba1fa077dc659ac29eafc635763a158ffd6a6881ebc141f4c3c1bafbc47"
+    },
+    "verb-komen": {
+      "text": "komen",
+      "bytes": 2977,
+      "sha256": "ab7734d76015e1eca4e7b487af2955120831f4a38cefafb91206809c5b401e6e"
+    },
+    "verb-kopen": {
+      "text": "kopen",
+      "bytes": 3100,
+      "sha256": "56ca7b507f312d9425dbe29bc924c8094d2edbaaf8d9c6bd71d5cce437aedabb"
+    },
+    "verb-krijgen": {
+      "text": "krijgen",
+      "bytes": 3437,
+      "sha256": "55805fd2ad55e2b0d40ff3bbf2dbdc62f6e7f146475339d9833769b9f66623af"
+    },
+    "verb-kunnen": {
+      "text": "kunnen",
+      "bytes": 3256,
+      "sha256": "d2f4fe367ac313d81a0dd586a893b8d3eabc526c3bdd3dd45f74bffc94cdcf32"
+    },
+    "verb-leren": {
+      "text": "leren",
+      "bytes": 3866,
+      "sha256": "7b9990bc0dc3aac04d00e2795eea6cc00cdb46ba2b49e84328e6dbbcbc7fc271"
+    },
+    "verb-lezen": {
+      "text": "lezen",
+      "bytes": 4356,
+      "sha256": "5d981ae9dc2afd1957bc64ba6e314a183ef92ea5d0d9fd110e031f55771f4e10"
+    },
+    "verb-liggen": {
+      "text": "liggen",
+      "bytes": 3670,
+      "sha256": "5fb1ec63bad71ebc37f7e0af1c624c892fc087704cb75e4f6969d6b5ade35e15"
+    },
+    "verb-lopen": {
+      "text": "lopen",
+      "bytes": 3664,
+      "sha256": "d200ff89ad9f7fda4ea17df15181a5fafc1489544ab79fca361d2a05417a7b25"
+    },
+    "verb-luisteren": {
+      "text": "luisteren",
+      "bytes": 4634,
+      "sha256": "f5b425ac269d7817c7633bafe2525b9b42f261841ae1adfb070611507eb2c52c"
+    },
+    "verb-maken": {
+      "text": "maken",
+      "bytes": 3417,
+      "sha256": "81593a3098bb3b6a8e8a093e28dcc56a5e59f613fa1c5f85c0cf896b19985cb4"
+    },
+    "verb-moeten": {
+      "text": "moeten",
+      "bytes": 3844,
+      "sha256": "8375f64209d96a4786a423d15f1d629eaba379c3d6cf96149c6bd4a4807279de"
+    },
+    "verb-mogen": {
+      "text": "mogen",
+      "bytes": 3678,
+      "sha256": "c86dfd7af11ae448b142cc8b41835cdae7d246ee7be3dce397291a6ddbdb9745"
+    },
+    "verb-nemen": {
+      "text": "nemen",
+      "bytes": 3527,
+      "sha256": "bc1108dc7cb96d7150b658c00a2cada9170bd725c7bb661bcc07730100d3270d"
+    },
+    "verb-ontmoeten": {
+      "text": "ontmoeten",
+      "bytes": 3641,
+      "sha256": "8a20847253049af3475328b9d5fa6a2a5024bfbdb9b29c07cc7a47b858dd257b"
+    },
+    "verb-openen": {
+      "text": "openen",
+      "bytes": 3785,
+      "sha256": "a6f051551772bfaa5bcf1c50e3aeb4bf5f1d1963c2bd19c50cc3bdb9b8fd3f27"
+    },
+    "verb-overlijden": {
+      "text": "overlijden",
+      "bytes": 4507,
+      "sha256": "5178670b90a5f756b6b76506f6df72ac3cf8c8c35b5109e6f1a0f1be76f16023"
+    },
+    "verb-passen": {
+      "text": "passen",
+      "bytes": 2923,
+      "sha256": "24e951869efe2d1cb37b3de1934ef76689811f26b2a00418d0a91b7bf2788709"
+    },
+    "verb-praten": {
+      "text": "praten",
+      "bytes": 3285,
+      "sha256": "c63c416b80f7f59eb0f1d751869dbfed16c3572dd6ce84fb9a4f3698d988b742"
+    },
+    "verb-regenen": {
+      "text": "regenen",
+      "bytes": 4225,
+      "sha256": "359c527c481db21adeb52185bb97bdf6598115dc50a4421daa2c5ace89ab9d79"
+    },
+    "verb-rijden": {
+      "text": "rijden",
+      "bytes": 4276,
+      "sha256": "d49c88179cecdddf6c52dc08e4c9bf7d5d222afefd3353aa5bf1e3471e133bcb"
+    },
+    "verb-roepen": {
+      "text": "roepen",
+      "bytes": 3117,
+      "sha256": "75680302761384dac3aca90ba899dc4c2b9f19b8f1760f6eccb8fd5f9edfc8b2"
+    },
+    "verb-roken": {
+      "text": "roken",
+      "bytes": 3224,
+      "sha256": "02220e51569fbeb3028bfaaac02db3774df13e84bbf29a63336f4ebf3fc5e833"
+    },
+    "verb-rusten": {
+      "text": "rusten",
+      "bytes": 4328,
+      "sha256": "5d538582668e9febe3c75665915cc4169bb9f72322816b5e5ab6d2ec416f0149"
+    },
+    "verb-scheiden": {
+      "text": "scheiden",
+      "bytes": 3771,
+      "sha256": "d85d7c8b1ec2c7c053cb8bb995d80ab104bcde7cc177ac7b59a8e4bda376dd09"
+    },
+    "verb-schrijven": {
+      "text": "schrijven",
+      "bytes": 3914,
+      "sha256": "8fe3f78cf49ac594e7b175c36cc31b94bfcdf7caef3f7d031f5d697bf3a89c9b"
+    },
+    "verb-slapen": {
+      "text": "slapen",
+      "bytes": 3503,
+      "sha256": "6c8c5191e9b1b6d2830ed9df15c334975c02270cba9183c2cb5446e7c91d5d75"
+    },
+    "verb-sluiten": {
+      "text": "sluiten",
+      "bytes": 3868,
+      "sha256": "0b2f13acd8591a87de975aaf739d414906cc850393e662fea741999e46d86dcc"
+    },
+    "verb-snijden": {
+      "text": "snijden",
+      "bytes": 4047,
+      "sha256": "a3ba320b55dc7bc399a02ef994369d0ca94d7b7ade9632302efeedff8b42460d"
+    },
+    "verb-spelen": {
+      "text": "spelen",
+      "bytes": 3776,
+      "sha256": "c33708e598208960e50eb200131cf13a9c918af98253f0565ed22cca9ee3f173"
+    },
+    "verb-spreken": {
+      "text": "spreken",
+      "bytes": 4002,
+      "sha256": "20b3d631f596e1dd11dc06061e28bfb1cf75440546aca37d2f8796226a5ab949"
+    },
+    "verb-springen": {
+      "text": "springen",
+      "bytes": 3403,
+      "sha256": "5bc411136d61c55a046086bd5d60642305a9d65c9affb76b5977443f30ba80be"
+    },
+    "verb-staan": {
+      "text": "staan",
+      "bytes": 3449,
+      "sha256": "50aa33ee8061f5344beb56a98141175a4220a9dec3a881def72d7f808407520c"
+    },
+    "verb-trouwen": {
+      "text": "trouwen",
+      "bytes": 2903,
+      "sha256": "2fcbbd7d62da7c026e81a7072ecaa6efdae7921329978fa94c917de68d1457f0"
+    },
+    "verb-verhuizen": {
+      "text": "verhuizen",
+      "bytes": 3731,
+      "sha256": "8696587f2efdbe6ea60fea3d1ecbf4a8d37afd389633b8fdf705ea11b52b9373"
+    },
+    "verb-vinden": {
+      "text": "vinden",
+      "bytes": 3455,
+      "sha256": "a672a8917494c375e60266030accb7233af33c34d6f9f3d8b3306bafb10bee73"
+    },
+    "verb-vliegen": {
+      "text": "vliegen",
+      "bytes": 4055,
+      "sha256": "374a7c2fd9c9312b07d13e4182c8e4138a54993d88d9b88075ff2c5d0cbf7cd1"
+    },
+    "verb-vragen": {
+      "text": "vragen",
+      "bytes": 3734,
+      "sha256": "9c5da4c1b2a328a4a46b6633062f740746b0885f6f5572156c91230655f81a6b"
+    },
+    "verb-wachten": {
+      "text": "wachten",
+      "bytes": 3567,
+      "sha256": "01be874966d26a2ed5afeef5db32b069941bd4b13385b0dd371d1e38cc6e6f16"
+    },
+    "verb-wassen": {
+      "text": "wassen",
+      "bytes": 3345,
+      "sha256": "88c5c33e54d8a918963613cceb041888948998e62d7f2f5c8cd7c70e997bce40"
+    },
+    "verb-werken": {
+      "text": "werken",
+      "bytes": 3449,
+      "sha256": "679ee1ec223f9f2dfab002377b410d5b5886a45da85944baba238d395f100682"
+    },
+    "verb-weten": {
+      "text": "weten",
+      "bytes": 3872,
+      "sha256": "f131a59f2dcd5b22ae67d9a0cabfba478dff862c082dce8c44121cca148b9cc7"
+    },
+    "verb-willen": {
+      "text": "willen",
+      "bytes": 3291,
+      "sha256": "f67c666865749b5eb2297f821988766d856d80c155a73d02b8d674a4ba59aab3"
+    },
+    "verb-wonen": {
+      "text": "wonen",
+      "bytes": 3363,
+      "sha256": "f71a516f3f3e24476caffcfe43038da632cdcfbb1da413896416b6b1c07122b5"
+    },
+    "verb-zeggen": {
+      "text": "zeggen",
+      "bytes": 3585,
+      "sha256": "24db0a60ca00c8d71c46bf0c30ac5674788d61dbe04790f098b53a16dae2380d"
+    },
+    "verb-zien": {
+      "text": "zien",
+      "bytes": 3168,
+      "sha256": "eb3db6470980ce89a50822d1302aad9807ee889ec4c6a131af691ca7072a0263"
+    },
+    "verb-zijn": {
+      "text": "zijn",
+      "bytes": 3130,
+      "sha256": "57847a9f3dbda83ad2b7dc0e52ae1507f7636e7e1df67a42844a2ba8ed8157a4"
+    },
+    "verb-zitten": {
+      "text": "zitten",
+      "bytes": 3628,
+      "sha256": "f25fcf8979bad5aa0dc4b45a7e56ccd4eca368bf1a081c71c9783f8238794736"
+    },
+    "verb-zoeken": {
+      "text": "zoeken",
+      "bytes": 3566,
+      "sha256": "b75b117bb5a99df4b7003558e6e9f68963bdb397a3a26c7fd6759d6f0d4d8734"
+    },
+    "verb-zwemmen": {
+      "text": "zwemmen",
+      "bytes": 3391,
+      "sha256": "3a57ae845f201d0d4ded2338610696d79cfd2a8edcba250c78b66983217c6917"
+    }
+  }
+}
