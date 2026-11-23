@@ -2,12 +2,17 @@ import assert from 'node:assert/strict';
 import { describe, it } from 'node:test';
 
 import { makeInflected, tokenize } from './inflection.ts';
+import type { Pos } from './validate.ts';
 
-const LEMMAS = new Set(['huis', 'wonen', 'man', 'boom', 'werken', 'groot', 'stoppen', 'gaan', 'bellen', 'opbellen', 'foto', 'doos', 'brief', 'kind', 'lezen']);
+const LEMMAS = new Map<string, Set<Pos>>();
+const add = (pos: Pos, ...lemmas: string[]) => lemmas.forEach((l) => LEMMAS.set(l, (LEMMAS.get(l) ?? new Set()).add(pos)));
+add('noun', 'huis', 'man', 'boom', 'foto', 'doos', 'brief', 'kind', 'bak', 'kam', 'ei', 'weg', 'werk');
+add('verb', 'wonen', 'werken', 'stoppen', 'gaan', 'bellen', 'opbellen', 'lezen');
+add('adj', 'groot');
 const OPENTAAL = new Set([
   'huis', 'huizen', 'woon', 'woont', 'woonde', 'gewoond', 'mannen', 'bomen', 'boompje', 'huisje', 'werkt', 'gewerkt', 'grote',
   'stop', 'gestopt', 'gaat', 'foto’s', "foto's", 'dozen', 'brieven', 'kinderen', 'lees', 'leest', 'gelezen', 'opgebeld', 'kantoor',
-  'werk', 'ik', 'vergadering', 'doelstelling', 'presentatie', 'werkend', 'mannetje', 'zxqv',
+  'werk', 'ik', 'vergadering', 'doelstelling', 'presentatie', 'werkend', 'mannetje', 'zxqv', 'groter', 'grootste', 'bakker', 'kamer', 'eis', 'weger', 'wegen', 'kamers', 'huizes',
 ]);
 const inflected = makeInflected(OPENTAAL, LEMMAS);
 
@@ -52,6 +57,12 @@ describe('the inflection rules', () => {
   });
   it('adjective forms', () => {
     assert.equal(via('grote'), 'groot');
+    assert.equal(via('groter'), 'groot');
+    assert.equal(via('grootste'), 'groot');
+  });
+  it('suffix rules respect the part of speech: bakker, kamer, eis and weger are not forms of bak, kam, ei and weg', () => {
+    for (const t of ['bakker', 'kamer', 'eis', 'weger']) assert.equal(via(t), null, t);
+    assert.equal(via('wegen'), 'weg');
   });
   it('a form of no live word, or not in the wordlist, stays unresolved', () => {
     assert.equal(via('zxqv'), null);

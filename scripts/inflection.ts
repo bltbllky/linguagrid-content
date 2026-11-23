@@ -1,3 +1,5 @@
+import type { Pos } from './validate.ts';
+
 export type Inflected = (token: string, prefer?: string) => string | null;
 
 /** Lowercase, split on spaces, strip a final `.` or `?` (and a comma after a word); hyphens and apostrophes stay inside a token. */
@@ -47,22 +49,29 @@ function infinitives(stem: string): string[] {
   return out;
 }
 
-/** Every lemma a surface form could have by the spelling rules; the caller keeps those that are words. */
-export function lemmaCandidates(token: string): string[] {
-  const out = new Set<string>();
-  const nouns = (stem: string) => baseVariants(stem).forEach((b) => out.add(b));
-  const verbs = (stem: string) => infinitives(stem).forEach((b) => out.add(b));
+/** Every lemma a surface form could have by the spelling rules, per part of speech; the caller keeps those that are words of that part of speech. */
+export function lemmaCandidates(token: string): Record<Pos, string[]> {
+  const out: Record<Pos, Set<string>> = { noun: new Set(), adj: new Set(), verb: new Set() };
+  const base = (pos: 'noun' | 'adj', stem: string) => baseVariants(stem).forEach((b) => out[pos].add(b));
   const strip = (suffix: string) => (token.length > suffix.length + 1 && token.endsWith(suffix) ? token.slice(0, -suffix.length) : null);
 
-  for (const [suffix, extra] of [['en', ''], ['eren', ''], ['s', ''], ["'s", ''], ['’s', ''], ['je', ''], ['tje', ''], ['etje', ''], ['pje', ''], ['kje', 'ing'],
-    ['e', ''], ['er', ''], ['ere', ''], ['st', ''], ['ste', '']] as const) {
+  // nouns: plural and diminutive. A bare -s plural follows an unstressed ending (-el -er -em -en -aar -e); -'s follows anything.
+  for (const [suffix, extra] of [['en', ''], ['eren', ''], ["'s", ''], ['’s', ''], ['je', ''], ['tje', ''], ['etje', ''], ['pje', ''], ['kje', 'ing']] as const) {
     const s = strip(suffix);
-    if (s !== null) nouns(s + extra);
+    if (s !== null) base('noun', s + extra);
   }
+  const plural = strip('s');
+  if (plural !== null && /(el|er|em|en|aar|e)$/.test(plural)) base('noun', plural);
   const heden = strip('heden');
-  if (heden !== null) out.add(heden + 'heid');
+  if (heden !== null) out.noun.add(heden + 'heid');
 
-  // verb: stem, stem+t, stem+te(n), stem+de(n), present participle, participle with or without ge-
+  // adjectives: -e, comparative -er/-ere, superlative -st/-ste
+  for (const suffix of ['e', 'er', 'ere', 'st', 'ste']) {
+    const s = strip(suffix);
+    if (s !== null) base('adj', s);
+  }
+
+  // verbs: stem, stem+t, stem+te(n), stem+de(n), present participle, participle with or without ge-
   const stems = new Set<string>([token]);
   for (const suffix of ['t', 'te', 'ten', 'de', 'den', 'end', 'ende']) {
     const s = strip(suffix);
@@ -74,21 +83,22 @@ export function lemmaCandidates(token: string): string[] {
   for (const s of [...stems]) {
     if (/[td]$/.test(s) && s.length > 2) stems.add(s.slice(0, -1));
   }
-  stems.forEach(verbs);
-  for (const s of stems) if (s.endsWith('en')) out.add(s); // strong participle: gelezen -> lezen
-  out.delete(token);
-  return [...out];
+  stems.forEach((stem) => infinitives(stem).forEach((b) => out.verb.add(b)));
+  for (const s of stems) if (s.endsWith('en')) out.verb.add(s); // strong participle: gelezen -> lezen
+  return { noun: [...out.noun], adj: [...out.adj], verb: [...out.verb] };
 }
 
 /**
- * The inflection check of ADR-026 rule 2(b): `token` must be in the OpenTaal wordlist and the spelling rules
- * (plural -en/-s/-'s/-eren, diminutive -je/-tje/-etje/-pje/-kje, verb stem/-t/-te/-de/ge-...-t/-d/-end, adjective -e/-er/-st,
- * with undoubling, vowel lengthening, z/s and f/v) must lead to a lemma in `lemmas`. Irregular forms (ging, zag, kwam ...) are not matched.
+ * The inflection check of ADR-026 rule 2(b): `token` must be in the OpenTaal wordlist and the spelling rules must lead to a
+ * lemma of the right part of speech in `lemmas` (lemma -> its parts of speech). Nouns: plural -en/-s/-'s/-eren/-heden,
+ * diminutive -je/-tje/-etje/-pje/-kje. Adjectives: -e/-er/-ere/-st/-ste. Verbs: stem/-t/-te/-de/ge-...-t/-d/-end.
+ * Spelling: undoubling, lengthening, z/s and f/v. Irregular forms (ging, zag, kwam ...) are not matched.
  */
-export function makeInflected(openTaal: ReadonlySet<string>, lemmas: ReadonlySet<string>): Inflected {
+export function makeInflected(openTaal: ReadonlySet<string>, lemmas: ReadonlyMap<string, ReadonlySet<Pos>>): Inflected {
   return (token, prefer) => {
     if (!openTaal.has(token)) return null;
-    const found = lemmaCandidates(token).filter((c) => lemmas.has(c));
+    const cands = lemmaCandidates(token);
+    const found = (Object.keys(cands) as Pos[]).flatMap((pos) => cands[pos].filter((c) => c !== token && lemmas.get(c)?.has(pos)));
     if (prefer !== undefined && found.includes(prefer)) return prefer;
     return found[0] ?? null;
   };
