@@ -13,7 +13,7 @@ export type Pos = 'noun' | 'verb' | 'adj';
 export type ReviewSource = 'roundtrip' | 'owner' | 'reviewer';
 
 /** A `reviewed` entry needs a `review_source`, and a source needs `reviewed`. */
-function sourceIssue(e: { reviewed: boolean; review_source?: ReviewSource }): string | null {
+export function sourceIssue(e: { reviewed: boolean; review_source?: ReviewSource }): string | null {
   if (e.reviewed && !e.review_source) return 'reviewed without review_source';
   if (!e.reviewed && e.review_source) return 'review_source without reviewed';
   return null;

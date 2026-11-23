@@ -1,0 +1,16 @@
+{
+  "$id": "sentence-translations",
+  "description": "Staged sentence translations: data/sentences/translations/<lang>.json (ADR-026)",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["word_id", "text", "reviewed"],
+    "properties": {
+      "word_id": { "type": "string" },
+      "text": { "type": "string" },
+      "reviewed": { "type": "boolean" },
+      "review_source": { "enum": ["roundtrip", "owner", "reviewer"] }
+    }
+  }
+}

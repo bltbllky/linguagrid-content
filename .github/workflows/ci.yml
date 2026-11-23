@@ -21,3 +21,4 @@ jobs:
       - run: npm run validate -- --stage b1
       - run: npm run validate -- --stage a1a2
       - run: npm run validate -- --stage b2
+      - run: npx tsx scripts/cli/validate.ts --stage sentences

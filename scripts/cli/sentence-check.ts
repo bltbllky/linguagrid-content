@@ -1,7 +1,7 @@
 import { existsSync, readFileSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 
-import { makeInflected } from '../inflection.ts';
+import { loadIrregularForms, makeInflected } from '../inflection.ts';
 import { checkRows, lemmaPos, loadFunctionWords } from '../sentence-check.ts';
 import type { SentenceRow } from '../sentence-check.ts';
 import { STAGES, loadStage } from '../stage.ts';
@@ -43,7 +43,7 @@ try {
 const { lines, failed } = checkRows(rows, {
   words,
   annotations,
-  inflected: makeInflected(openTaal, lemmaPos(words)),
+  inflected: makeInflected(openTaal, lemmaPos(words), loadIrregularForms()),
   functionWords: loadFunctionWords(),
 });
 for (const line of lines) (line.startsWith('✔') ? console.log : console.error)(line);
