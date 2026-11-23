@@ -4,7 +4,7 @@ import { join } from 'node:path';
 import { describe, it } from 'node:test';
 
 import { makeInflected } from './inflection.ts';
-import { checkRows, checkSentence, loadFunctionWords, makeLevelOf } from './sentence-check.ts';
+import { checkRows, checkSentence, lemmaPos, loadFunctionWords, makeLevelOf } from './sentence-check.ts';
 import type { SentenceContext, SentenceRow } from './sentence-check.ts';
 import type { Annotation, Pos, Word } from './validate.ts';
 
@@ -21,10 +21,10 @@ const WORDS = [
 const OPENTAAL = new Set([
   'huis', 'huizen', 'woon', 'woont', 'woonde', 'gewoond', 'mannen', 'bomen', 'boompje', 'huisje', 'werkt', 'gewerkt', 'grote',
   'stop', 'gestopt', 'gaat', 'foto’s', "foto's", 'dozen', 'brieven', 'kinderen', 'lees', 'leest', 'gelezen', 'opgebeld', 'kantoor',
-  'werk', 'ik', 'vergadering', 'doelstelling', 'presentatie', 'werkend', 'mannetje', 'zxqv',
+  'werk', 'ik', 'vergadering', 'doelstelling', 'presentatie', 'werkend', 'mannetje', 'zxqv', 'auto’s', "auto's",
 ]);
 const levelOf = makeLevelOf(WORDS);
-const inflected = makeInflected(OPENTAAL, new Set(WORDS.map((x) => x.lemma_nl)));
+const inflected = makeInflected(OPENTAAL, lemmaPos(WORDS));
 const functionWords = loadFunctionWords();
 const ctxFor = (id: string, article: Annotation['article'] = null): SentenceContext => {
   const word = WORDS.find((x) => x.id === id)!;
@@ -92,6 +92,17 @@ describe('checkSentence', () => {
     assert.deepEqual(checkSentence(row('noun-huis', 'Ik woon in het huis.', 'huis'), ctxFor('noun-huis', 'het')), []);
     // plural of a het noun takes "de"
     assert.deepEqual(checkSentence(row('noun-huis', 'Ik woon bij de huizen.', 'huizen'), ctxFor('noun-huis', 'het')), []);
+  });
+
+  it('the article may stand before an adjective', () => {
+    assert.ok(checkSentence(row('noun-huis', 'Ik woon in het grote huis.', 'huis'), ctxFor('noun-huis', 'de')).includes('article_mismatch het'));
+    assert.deepEqual(checkSentence(row('noun-huis', 'Ik woon in het grote huis.', 'huis'), ctxFor('noun-huis', 'het')), []);
+    assert.deepEqual(checkSentence(row('noun-huis', 'Ik woon in een grote huis.', 'huis'), ctxFor('noun-huis', 'de')), []);
+  });
+
+  it('a curly apostrophe in a plural is not a quotation mark', () => {
+    assert.deepEqual(checkSentence(row('noun-foto', 'Ik woon bij de foto’s van een man.', 'foto’s'), ctxFor('noun-foto')), []);
+    assert.ok(codes(row('noun-huis', 'Ik woon in ‘een’ huis.', 'huis'), ctxFor('noun-huis')).includes('quotation_mark'));
   });
 
   it('a hyphenated token is accepted when every part is', () => {

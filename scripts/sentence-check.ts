@@ -3,7 +3,7 @@ import { join } from 'node:path';
 
 import { makeInflected, tokenize } from './inflection.ts';
 import type { Inflected } from './inflection.ts';
-import type { Annotation, Word } from './validate.ts';
+import type { Annotation, Pos, Word } from './validate.ts';
 
 /** One row of `data/sentences/sentences.json` (the file schema is T-376's). */
 export interface SentenceRow {
@@ -28,7 +28,7 @@ export const MAX_TOKENS = 9;
 export const MAX_CHARS = 70;
 const LEVELS = ['A1', 'A2', 'B1', 'B2'];
 const rank = (level: string) => LEVELS.indexOf(level);
-const DOUBLE_QUOTES = /["“”„‟«»‘’‚]/;
+const DOUBLE_QUOTES = /["“”„‟«»‘‚]/; // ’ is the apostrophe of auto’s
 const FUNCTION_WORDS = join(import.meta.dirname, '..', 'data', 'sentences', 'function-words.json');
 
 
@@ -60,8 +60,8 @@ export function makeLevelOf(words: readonly Word[]): (token: string) => string |
 export function checkSentence(row: SentenceRow, ctx: SentenceContext): string[] {
   const failures: string[] = [];
   const nl = row.nl.normalize('NFC');
-  const form = row.form.normalize('NFC').toLowerCase();
-  const tokens = tokenize(nl);
+  const form = row.form.normalize('NFC').toLowerCase().replace(/’/g, "'");
+  const tokens = tokenize(nl).map((t) => t.replace(/’/g, "'"));
   const lemma = ctx.word.lemma_nl.normalize('NFC').toLowerCase();
 
   if (tokens.length < MIN_TOKENS) failures.push('too_few_tokens');
@@ -92,11 +92,24 @@ export function checkSentence(row: SentenceRow, ctx: SentenceContext): string[] 
   });
 
   const article = ctx.annotation?.article;
-  const before = at > 0 ? tokens[at - 1] : undefined;
-  if (ctx.word.pos === 'noun' && article && form === lemma && (before === 'de' || before === 'het') && before !== article) {
-    failures.push(`article_mismatch ${before}`);
+  // the article may stand one adjective away: "het grote huis"
+  const isArticle = (t: string | undefined) => (t === 'de' || t === 'het' ? t : undefined);
+  const prev = tokens[at - 1];
+  const articleToken = isArticle(prev) ?? (prev && !ctx.functionWords.has(prev) ? isArticle(tokens[at - 2]) : undefined);
+  if (ctx.word.pos === 'noun' && article && form === lemma && at > 0 && articleToken && articleToken !== article) {
+    failures.push(`article_mismatch ${articleToken}`);
   }
   return failures;
+}
+
+/** Lemma -> its parts of speech over the words, the shape `makeInflected` wants. */
+export function lemmaPos(words: readonly Word[]): Map<string, Set<Pos>> {
+  const map = new Map<string, Set<Pos>>();
+  for (const w of words) {
+    const lemma = w.lemma_nl.normalize('NFC').toLowerCase();
+    map.set(lemma, (map.get(lemma) ?? new Set()).add(w.pos));
+  }
+  return map;
 }
 
 export interface CheckEnv {

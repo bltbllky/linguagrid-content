@@ -1,8 +1,8 @@
 import { existsSync, readFileSync } from 'node:fs';
-import { join } from 'node:path';
+import { join, resolve } from 'node:path';
 
 import { makeInflected } from '../inflection.ts';
-import { checkRows, loadFunctionWords } from '../sentence-check.ts';
+import { checkRows, lemmaPos, loadFunctionWords } from '../sentence-check.ts';
 import type { SentenceRow } from '../sentence-check.ts';
 import { STAGES, loadStage } from '../stage.ts';
 import type { StageName } from '../stage.ts';
@@ -27,12 +27,23 @@ const live = loadContent();
 const staged = (Object.keys(STAGES) as StageName[]).map((n) => loadStage(n));
 const words = [...live.words, ...staged.flatMap((s) => s.words)];
 const annotations = [...live.annotations, ...staged.flatMap((s) => s.annotations ?? [])];
-const rows = JSON.parse(readFileSync(join(root, file), 'utf8')) as SentenceRow[];
+const fail = (message: string): never => {
+  console.error(message);
+  return process.exit(2);
+};
+let rows: SentenceRow[] = [];
+try {
+  const parsed: unknown = JSON.parse(readFileSync(resolve(root, file), 'utf8'));
+  if (!Array.isArray(parsed)) fail(`${file} must hold a JSON array of sentence rows`);
+  rows = parsed as SentenceRow[];
+} catch (e) {
+  fail(`Cannot read ${file}: ${(e as Error).message}`);
+}
 
 const { lines, failed } = checkRows(rows, {
   words,
   annotations,
-  inflected: makeInflected(openTaal, new Set(words.map((w) => w.lemma_nl.normalize('NFC').toLowerCase()))),
+  inflected: makeInflected(openTaal, lemmaPos(words)),
   functionWords: loadFunctionWords(),
 });
 for (const line of lines) (line.startsWith('✔') ? console.log : console.error)(line);
