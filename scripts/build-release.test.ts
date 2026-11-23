@@ -3,7 +3,7 @@ import { createHash } from 'node:crypto';
 import { describe, it } from 'node:test';
 
 import { partialEnglish, validContent } from './fixtures/valid.ts';
-import { buildRelease } from './build-release.ts';
+import { RELEASED_LEVELS, RELEASE_MINIMUMS, buildRelease } from './build-release.ts';
 import { validateContent, withLegacyTurkish } from './validate.ts';
 import type { Content } from './validate.ts';
 
@@ -50,6 +50,11 @@ describe('buildRelease', () => {
   });
 
   describe('B2 (T-359)', () => {
+    it('pins the released levels and the real minimums', () => {
+      assert.deepEqual(RELEASED_LEVELS, ['A1', 'A2', 'B1', 'B2']);
+      assert.deepEqual(RELEASE_MINIMUMS, { A1: 400, A2: 600, B1: 600, B2: 1000 });
+    });
+
     const b2Content = () => {
       const content = validContent();
       content.words[0].cefr = 'B2';

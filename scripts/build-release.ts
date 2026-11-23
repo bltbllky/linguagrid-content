@@ -20,6 +20,9 @@ export interface Release {
 /** Levels the app can show (US-022 adds B1, US-033 adds B2). */
 export const RELEASED_LEVELS: readonly string[] = ['A1', 'A2', 'B1', 'B2'];
 
+/** Reviewed words per level that `npm run release` requires (B2: 1000 is an owner rule, US-033). */
+export const RELEASE_MINIMUMS = { A1: 400, A2: 600, B1: 600, B2: 1000 } as const;
+
 const json = (value: unknown) => JSON.stringify(value, null, 2) + '\n';
 
 /** Words below `minimums` per level, as "A1: 12 reviewed <noun> (minimum 400)". */
