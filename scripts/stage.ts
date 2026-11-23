@@ -2,6 +2,7 @@ import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 import { translationReport, validateContent, withLegacyTurkish } from './validate.ts';
+import type { SentenceStage } from './sentence-stage.ts';
 import type { Annotation, Category, Content, TranslationFile, Word } from './validate.ts';
 
 const ROOT = join(import.meta.dirname, '..');
@@ -217,4 +218,31 @@ export function promoteStage(liveContent: Content, liveOwn: Word[], stage: Stage
   const dir = `data/${stage.name}`;
   const staged = [`${dir}/words.json`, ...(ownCategories ? [`${dir}/categories.json`] : []), `${dir}/annotations.json`, `${dir}/translations`];
   return { files, remove: core ? [...staged, 'data/a2-selection.json'] : staged };
+}
+
+/** Live `data/sentences.json` and `data/sentence-translations/<lang>.json` (bare arrays, same row shapes as the stage); undefined when there is no live sentence file. */
+export function loadLiveSentences(root = ROOT): SentenceStage | undefined {
+  const file = join(root, 'data', 'sentences.json');
+  if (!existsSync(file)) return undefined;
+  const folder = join(root, 'data', 'sentence-translations');
+  const langs = existsSync(folder) ? readdirSync(folder).filter((f) => f.endsWith('.json')).sort() : [];
+  return {
+    rows: JSON.parse(readFileSync(file, 'utf8')),
+    translations: Object.fromEntries(langs.map((f) => [f.replace(/\.json$/, ''), JSON.parse(readFileSync(join(folder, f), 'utf8'))])),
+  };
+}
+
+/**
+ * The live files to write when the staged sentences go live, and the staged paths to remove afterwards (ADR-026). The staged
+ * `sentences.json` is emptied, not removed; a word that already has a live sentence is refused.
+ */
+export function promoteSentences(live: SentenceStage, staged: SentenceStage): { files: Record<string, unknown>; remove: string[] } {
+  const have = new Set(live.rows.map((r) => r.word_id));
+  const twice = staged.rows.find((r) => have.has(r.word_id));
+  if (twice) throw new Error(`${twice.word_id}: sentence is already live`);
+  const files: Record<string, unknown> = { 'data/sentences.json': [...live.rows, ...staged.rows], 'data/sentences/sentences.json': [] };
+  for (const lang of new Set([...Object.keys(live.translations), ...Object.keys(staged.translations)])) {
+    files[`data/sentence-translations/${lang}.json`] = [...(live.translations[lang] ?? []), ...(staged.translations[lang] ?? [])];
+  }
+  return { files, remove: ['data/sentences/translations'] };
 }

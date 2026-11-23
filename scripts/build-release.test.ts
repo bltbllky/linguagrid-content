@@ -253,7 +253,7 @@ describe('sentences (T-377)', () => {
       const entry = r.manifest.files.find((f) => f.path.endsWith(`/${name}`));
       assert.equal(entry?.sha256, createHash('sha256').update(r.files[name]).digest('hex'));
     }
-    assert.equal(r.manifest.min_app_version, validContent().manifest.min_app_version);
+    assert.deepEqual(r.manifest.min_app_version, validContent().manifest.min_app_version);
     assert.deepEqual(r.sentenceNotes, []);
   });
 
