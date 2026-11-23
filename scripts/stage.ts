@@ -182,13 +182,13 @@ export function stageReport(live: Content, stage: Stage): string[] {
 
 /**
  * The live files to write when a reviewed stage goes live, keyed by path relative to the repository root, and the staged
- * paths to remove afterwards. Only the A1/A2 extras, B1 and core are promoted here. Core replaces the NT2Lex words: they and their
- * annotations and texts leave the live files, `data/words.json` becomes empty (ADR-022). The extras use the live categories; B1 brings
- * its own categories and their titles. A language that the stage has but live lacks becomes a new file.
+ * paths to remove afterwards. Only the A1/A2 extras, B1, B2 and core are promoted here. Core replaces the NT2Lex words: they and their
+ * annotations and texts leave the live files, `data/words.json` becomes empty (ADR-022). The extras use the live categories; B1 and B2 bring
+ * their own categories and their titles. A language that the stage has but live lacks becomes a new file.
  */
 export function promoteStage(liveContent: Content, liveOwn: Word[], stage: Stage): { files: Record<string, unknown>; remove: string[] } {
-  if (stage.name !== 'a1a2' && stage.name !== 'b1' && stage.name !== 'core') {
-    throw new Error('Only a1a2, b1 and core are promoted here; B2 is released by its US-033 task');
+  if (stage.name !== 'a1a2' && stage.name !== 'b1' && stage.name !== 'b2' && stage.name !== 'core') {
+    throw new Error('Only a1a2, b1, b2 and core are promoted here');
   }
   const { ownCategories } = STAGES[stage.name];
   const core = stage.name === 'core';
