@@ -2,7 +2,8 @@ import assert from 'node:assert/strict';
 import { describe, it } from 'node:test';
 
 import { partialEnglish, validContent } from './fixtures/valid.ts';
-import { exportReview, reviewColumns } from './export-review.ts';
+import { exportReview, reviewColumns, sentenceBlindSheets, sentenceOwnerSheet } from './export-review.ts';
+import type { SentenceStage } from './sentence-stage.ts';
 
 describe('exportReview', () => {
   it('lists the words of one level with article, translation, category and decision', () => {
@@ -69,5 +70,35 @@ describe('exportReview for another language', () => {
     assert.deepEqual(reviewColumns('ar'), ['id', 'dutch', 'article', 'turkish', 'arabic', 'category', 'decision']);
     assert.equal(reviewColumns('xx')[4], 'xx');
     assert.deepEqual(reviewColumns('tr'), ['id', 'dutch', 'article', 'turkish', 'category', 'decision']);
+  });
+});
+
+describe('sentence sheets', () => {
+  const stage: SentenceStage = {
+    rows: [
+      { word_id: 'noun-huis', nl: 'Ik woon in een huis.', form: 'huis', distractors: ['a', 'b', 'c'], reviewed: false },
+      { word_id: 'noun-vergadering', nl: 'De vergadering is lang.', form: 'vergadering', distractors: ['a', 'b', 'c'], reviewed: false },
+    ],
+    translations: {
+      tr: [{ word_id: 'noun-huis', text: 'Bir evde oturuyorum.', reviewed: false }],
+      en: [{ word_id: 'noun-huis', text: 'I live in a house.', reviewed: false }],
+    },
+  };
+  const levelOf = (id: string) => (id === 'noun-huis' ? 'A1' : 'B1');
+
+  it('blind sheets show the Dutch sentence and only the pivot text, never the text under test', () => {
+    const tr = sentenceBlindSheets(stage, 'A1', 'tr', levelOf);
+    assert.equal(tr.dutch, 'id,dutch\nnoun-huis,Ik woon in een huis.\n');
+    assert.equal(tr.pivot, 'id,dutch,english\nnoun-huis,Ik woon in een huis.,I live in a house.\n');
+    const en = sentenceBlindSheets(stage, 'A1', 'en', levelOf);
+    assert.equal(en.pivot, 'id,dutch,turkish\nnoun-huis,Ik woon in een huis.,Bir evde oturuyorum.\n');
+  });
+
+  it('the owner sheet lists only the flagged rows of each language, keyed by word id', () => {
+    const csv = sentenceOwnerSheet(stage, 'A1', levelOf, { tr: new Set(['noun-huis']), en: new Set() });
+    assert.equal(
+      csv,
+      'id,lang,dutch,turkish,english,decision\nnoun-huis,tr,Ik woon in een huis.,Bir evde oturuyorum.,I live in a house.,\n',
+    );
   });
 });

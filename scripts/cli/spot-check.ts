@@ -2,12 +2,15 @@ import { existsSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 import { parseCsv } from '../import-review.ts';
-import { drawSpotCheck, parseTally, tallyStatus } from '../spot-check.ts';
+import { loadSentenceStage } from '../sentence-stage.ts';
+import { drawSentenceSpotCheck, drawSpotCheck, parseTally, sentenceSpotStatus, tallyStatus } from '../spot-check.ts';
+import { loadContent } from '../validate.ts';
 
 const root = join(import.meta.dirname, '..', '..');
 const USAGE =
   'Usage: npm run spot-check -- draw --lang tr --seed 20261204 --result review/roundtrip-b2/result.csv [--exclude a.csv,b.csv] [--tally review/spot-check-tally.csv]\n' +
-  '       npm run spot-check -- tally [--tally review/spot-check-tally.csv]';
+  '       npm run spot-check -- tally [--tally review/spot-check-tally.csv]\n' +
+  '       npm run spot-check -- draw|tally --stage sentences --lang tr --level A1 --seed 20261204';
 
 const args = process.argv.slice(2);
 const command = args.shift();
@@ -25,7 +28,22 @@ function column(file: string, name: string): { rows: string[][]; at: number } {
 }
 
 try {
-  if (command === 'tally') {
+  if (flag('stage') === 'sentences') {
+    // draw|tally --stage sentences --lang tr --level A1 [--seed n]; tally sheet names are sentences-<level>.
+    const lang = flag('lang');
+    const level = flag('level');
+    if (!lang || !level) throw new Error(USAGE);
+    const status = sentenceSpotStatus(tallyRows, lang, level);
+    if (command === 'tally') console.log(`${lang} ${level}: ${status}`);
+    else if (command === 'draw') {
+      const seed = Number(flag('seed'));
+      if (!Number.isInteger(seed)) throw new Error(USAGE);
+      if (status === 'fail') throw new Error(`${lang} ${level}: two errors, the import stays stopped`);
+      const levels = new Map(loadContent().words.map((w) => [w.id, w.cefr]));
+      const { initial, extension } = drawSentenceSpotCheck(loadSentenceStage(), lang, level, (id) => levels.get(id), seed);
+      console.log(`Seed: ${seed}\n\nInitial (${initial.length}):\n${list(initial)}\n\nExtension (${extension.length}, after one error):\n${list(extension)}`);
+    } else throw new Error(USAGE);
+  } else if (command === 'tally') {
     for (const lang of ['tr', 'en']) {
       const { words, errors, full } = tallyStatus(tallyRows, lang);
       console.log(`${lang}: ${words} words, ${errors} errors, next sheet: ${full ? 50 : 20} words`);

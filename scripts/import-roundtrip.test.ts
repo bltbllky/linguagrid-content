@@ -2,7 +2,8 @@ import assert from 'node:assert/strict';
 import { describe, it } from 'node:test';
 
 import { partialEnglish, validContent } from './fixtures/valid.ts';
-import { applyRoundtrip } from './import-roundtrip.ts';
+import { applyRoundtrip, applySentenceRoundtrip } from './import-roundtrip.ts';
+import type { SentenceStage } from './sentence-stage.ts';
 import type { Content } from './validate.ts';
 
 /** The fixture with nothing reviewed yet. */
@@ -85,5 +86,39 @@ describe('applyRoundtrip', () => {
     const csv = sheet('noun-tandarts,OK,match', 'verb-lopen,OK,');
     const once = applyRoundtrip(fresh(), csv).content;
     assert.deepEqual(applyRoundtrip(once, csv).content, once);
+  });
+});
+
+describe('applySentenceRoundtrip', () => {
+  const stage = (): SentenceStage => ({
+    rows: [],
+    translations: { tr: [
+      { word_id: 'a', text: 'x', reviewed: false },
+      { word_id: 'b', text: 'y', reviewed: true, review_source: 'owner' },
+      { word_id: 'c', text: 'z', reviewed: false },
+    ] },
+  });
+  const csv = (...rows: string[]) => ['id,class,class_nl,verdict', ...rows].join('\n') + '\n';
+
+  it('accepts when both passes accept; a one-pass reject leaves the flag false', () => {
+    const { stage: out, summary } = applySentenceRoundtrip(stage(), csv('a,match,close,OK', 'c,match,mismatch,OK'), 'tr');
+    assert.deepEqual(out.translations.tr?.[0], { word_id: 'a', text: 'x', reviewed: true, review_source: 'roundtrip' });
+    assert.equal(out.translations.tr?.[2].reviewed, false);
+    assert.deepEqual(summary, { accepted: 1, human: 0, left: 1 });
+  });
+
+  it('a row that is not OK stays false, and an owner decision is never overwritten', () => {
+    const { stage: out, summary } = applySentenceRoundtrip(stage(), csv('a,match,match,owner', 'b,match,match,OK'), 'tr');
+    assert.equal(out.translations.tr?.[0].reviewed, false);
+    assert.deepEqual(out.translations.tr?.[1], { word_id: 'b', text: 'y', reviewed: true, review_source: 'owner' });
+    assert.deepEqual(summary, { accepted: 0, human: 1, left: 1 });
+  });
+
+  it('rejects two close passes, unknown ids and foreign sheets, and does not mutate its input', () => {
+    const input = stage();
+    assert.equal(applySentenceRoundtrip(input, csv('a,close,close,OK'), 'tr').summary.accepted, 0);
+    assert.throws(() => applySentenceRoundtrip(input, csv('zzz,match,match,OK'), 'tr'), /no tr text to accept/);
+    assert.throws(() => applySentenceRoundtrip(input, 'id,x\na,1\n', 'tr'), /Not a round-trip sheet/);
+    assert.deepEqual(input, stage());
   });
 });

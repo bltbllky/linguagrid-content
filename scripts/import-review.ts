@@ -1,5 +1,6 @@
 import { reviewColumns } from './export-review.ts';
 import { type Content, withLegacyTurkish } from './validate.ts';
+import type { SentenceStage } from './sentence-stage.ts';
 
 export interface ReviewResult {
   content: Content;
@@ -138,4 +139,33 @@ export function changedFiles(content: Content, lang: string): Record<string, unk
   };
   for (const [code, file] of Object.entries(content.translations)) files[`data/translations/${code}.json`] = file;
   return files;
+}
+
+/**
+ * Applies the owner's sheet of flagged sentence rows (`sentenceOwnerSheet`) to the translations of `lang`: `OK` marks the text
+ * reviewed by `owner`, any other decision replaces the text and marks it `owner` (ADR-026 rule 6); empty stays pending. Rows of
+ * another language are skipped.
+ */
+export function applySentenceReview(
+  stage: SentenceStage,
+  csv: string,
+  lang: string,
+): { stage: SentenceStage; summary: { ok: number; corrected: number; pending: number } } {
+  const [header, ...rows] = parseCsv(csv.replace(/^﻿/, ''));
+  const [idCol, langCol, decisionCol] = ['id', 'lang', 'decision'].map((c) => header.indexOf(c));
+  if (idCol < 0 || langCol < 0 || decisionCol < 0) throw new Error('Not a sentence review sheet; expected columns id, lang and decision');
+  const texts = new Map((stage.translations[lang] ?? []).map((t) => [t.word_id, { ...t }]));
+  const summary = { ok: 0, corrected: 0, pending: 0 };
+  for (const row of rows.filter((r) => r[langCol] === lang)) {
+    const text = texts.get(row[idCol]);
+    if (!text) throw new Error(`Unknown sentence id in review: ${row[idCol]}`);
+    const decision = (row[decisionCol] ?? '').trim();
+    if (!decision) summary.pending++;
+    else {
+      if (decision.toUpperCase() === 'OK') summary.ok++;
+      else (text.text = decision.normalize('NFC')), summary.corrected++;
+      (text.reviewed = true), (text.review_source = 'owner');
+    }
+  }
+  return { stage: { ...stage, translations: { ...stage.translations, [lang]: [...texts.values()] } }, summary };
 }

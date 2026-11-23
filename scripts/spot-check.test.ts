@@ -1,7 +1,8 @@
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
 
-import { drawSpotCheck, judge, mulberry32, parseTally, shuffle, tallyStatus } from './spot-check.ts';
+import { drawSentenceSpotCheck, drawSpotCheck, judge, mulberry32, parseTally, sentenceSpotStatus, shuffle, tallyStatus } from './spot-check.ts';
+import type { SentenceStage } from './sentence-stage.ts';
 
 const TALLY = `date,sheet,lang,words,errors,seed,note
 2026-10-17,launch,tr,50,1,20261017,
@@ -82,4 +83,38 @@ test('tallyStatus on the committed history', () => {
 test('tallyStatus takes the newest whole entries up to 200 words', () => {
   const row = (errors: number) => ({ date: 'd', sheet: 's', lang: 'tr', words: 50, errors, seed: '', note: '' });
   assert.deepEqual(tallyStatus([row(9), row(0), row(0), row(0), row(5)], 'tr'), { words: 200, errors: 5, full: true });
+});
+
+const ids = Array.from({ length: 60 }, (_, i) => `w${String(i).padStart(2, '0')}`);
+const spotStage = (): SentenceStage => ({
+  rows: [],
+  translations: {
+    tr: ids.map((word_id, i) => ({ word_id, text: 't', reviewed: i < 55, review_source: i < 52 ? 'roundtrip' : 'owner' })),
+  },
+});
+const lvl = (id: string) => (id < 'w56' ? 'A1' : 'A2');
+
+test('drawSentenceSpotCheck samples 20 then 30 more from the roundtrip-accepted rows of one level, with a fixed seed', () => {
+  const { initial, extension } = drawSentenceSpotCheck(spotStage(), 'tr', 'A1', lvl, 20261204);
+  assert.equal(initial.length, 20);
+  assert.equal(extension.length, 30);
+  assert.equal(new Set([...initial, ...extension]).size, 50);
+  assert.equal([...initial, ...extension].every((id) => id < 'w52'), true);
+  assert.deepEqual(drawSentenceSpotCheck(spotStage(), 'tr', 'A1', lvl, 20261204), { initial, extension });
+});
+
+test('drawSentenceSpotCheck refuses a level with fewer than 50 accepted rows', () => {
+  assert.throws(() => drawSentenceSpotCheck(spotStage(), 'tr', 'A2', lvl, 1), /pool has 0 ids, need 50/);
+});
+
+test('sentenceSpotStatus: pass, extend after one error, stop after a second, per language and level', () => {
+  const tally = (...rows: string[]) => parseTally(['date,sheet,lang,words,errors,seed,note', ...rows].join('\n'));
+  assert.equal(sentenceSpotStatus(tally(), 'tr', 'A1'), 'draw');
+  assert.equal(sentenceSpotStatus(tally('d,sentences-a1,tr,20,0,1,'), 'tr', 'A1'), 'pass');
+  assert.equal(sentenceSpotStatus(tally('d,sentences-a1,tr,20,1,1,'), 'tr', 'A1'), 'extend');
+  assert.equal(sentenceSpotStatus(tally('d,sentences-a1,tr,20,2,1,'), 'tr', 'A1'), 'fail');
+  assert.equal(sentenceSpotStatus(tally('d,sentences-a1,tr,20,1,1,', 'd,sentences-a1,tr,30,1,1,'), 'tr', 'A1'), 'fail');
+  assert.equal(sentenceSpotStatus(tally('d,sentences-a1,tr,20,1,1,', 'd,sentences-a1,tr,30,0,1,'), 'tr', 'A1'), 'pass');
+  assert.equal(sentenceSpotStatus(tally('d,sentences-a1,tr,20,2,1,'), 'en', 'A1'), 'draw');
+  assert.equal(sentenceSpotStatus(tally('d,sentences-a1,tr,20,2,1,'), 'tr', 'A2'), 'draw');
 });

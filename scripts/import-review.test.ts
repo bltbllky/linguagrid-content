@@ -2,7 +2,8 @@ import assert from 'node:assert/strict';
 import { describe, it } from 'node:test';
 
 import { partialEnglish, validContent } from './fixtures/valid.ts';
-import { applyReview, changedFiles, parseCsv } from './import-review.ts';
+import { applyReview, applySentenceReview, changedFiles, parseCsv } from './import-review.ts';
+import type { SentenceStage } from './sentence-stage.ts';
 
 const header = 'id,dutch,article,turkish,category,decision';
 
@@ -146,5 +147,35 @@ describe('applyReview for another language', () => {
     assert.throws(() => applyReview(english(), enSheet(['verb-lopen,,,,,,REMOVE']), 'en'), /Turkish sheet/);
     assert.throws(() => applyReview(english(), enSheet(['noun-ghost,,,,,,ghost']), 'en'), /noun-ghost/);
     assert.throws(() => applyReview(english(), `${header}\nverb-lopen,,,,,OK\n`, 'en'), /en review sheet/);
+  });
+});
+
+describe('applySentenceReview', () => {
+  const stage = (): SentenceStage => ({
+    rows: [],
+    translations: { tr: [
+      { word_id: 'a', text: 'x', reviewed: false },
+      { word_id: 'b', text: 'y', reviewed: true, review_source: 'roundtrip' },
+      { word_id: 'c', text: 'z', reviewed: false },
+    ] },
+  });
+  const head = 'id,lang,dutch,turkish,english,decision';
+
+  it('OK marks the text as owner-reviewed, a correction replaces it and marks owner, empty stays pending', () => {
+    const csv = [head, 'a,tr,d,x,e,OK', 'b,tr,d,y,e,düzeltilmiş', 'c,tr,d,z,e,'].join('\n') + '\n';
+    const { stage: out, summary } = applySentenceReview(stage(), csv, 'tr');
+    assert.deepEqual(out.translations.tr, [
+      { word_id: 'a', text: 'x', reviewed: true, review_source: 'owner' },
+      { word_id: 'b', text: 'düzeltilmiş', reviewed: true, review_source: 'owner' },
+      { word_id: 'c', text: 'z', reviewed: false },
+    ]);
+    assert.deepEqual(summary, { ok: 1, corrected: 1, pending: 1 });
+  });
+
+  it('reads only the rows of its language and rejects unknown ids and foreign sheets', () => {
+    const csv = [head, 'a,en,d,x,e,OK'].join('\n') + '\n';
+    assert.deepEqual(applySentenceReview(stage(), csv, 'tr').stage, stage());
+    assert.throws(() => applySentenceReview(stage(), [head, 'zzz,tr,d,x,e,OK'].join('\n'), 'tr'), /Unknown sentence id/);
+    assert.throws(() => applySentenceReview(stage(), 'id,decision\n', 'tr'), /Not a sentence review sheet/);
   });
 });
