@@ -13,7 +13,6 @@ const flag = langAt >= 0 ? args.splice(langAt, 2)[1] : undefined;
 const reviewerAt = args.indexOf('--reviewer');
 const source = reviewerAt >= 0 ? (args.splice(reviewerAt, 1), 'reviewer' as const) : 'owner';
 if (args[args.indexOf('--stage') + 1] === 'sentences') {
-  // Usage: --stage sentences --lang tr review/sentences-a1-owner.csv
   args.splice(args.indexOf('--stage'), 2);
   if (!flag || !args[0]) throw new Error('Usage: npm run import-review -- --stage sentences --lang tr review/sentences-a1-owner.csv');
   const { stage, summary } = applySentenceReview(loadSentenceStage(), readFileSync(args[0], 'utf8'), flag);

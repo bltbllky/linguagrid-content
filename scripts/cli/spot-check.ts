@@ -29,7 +29,6 @@ function column(file: string, name: string): { rows: string[][]; at: number } {
 
 try {
   if (flag('stage') === 'sentences') {
-    // draw|tally --stage sentences --lang tr --level A1 [--seed n]; tally sheet names are sentences-<level>.
     const lang = flag('lang');
     const level = flag('level');
     if (!lang || !level) throw new Error(USAGE);

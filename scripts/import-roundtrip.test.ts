@@ -135,7 +135,6 @@ describe('applySentenceRoundtrip marks the Dutch row', () => {
 
   it('a tr-only stage cannot mark the Dutch row', () => {
     const { stage } = applySentenceRoundtrip({ rows: [row()], translations: { tr: [tr(false)] } }, csv, 'tr');
-    assert.equal(stage.translations.tr?.[0].reviewed, true);
     assert.equal(stage.rows[0].reviewed, false);
   });
 

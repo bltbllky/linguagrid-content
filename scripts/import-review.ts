@@ -169,7 +169,6 @@ export function applySentenceReview(
       decided.add(row[idCol]);
     }
   }
-  // The owner's decision on a sentence also marks its Dutch row as owner-reviewed.
   const sentences = stage.rows.map((r) => (decided.has(r.word_id) ? { ...r, reviewed: true, review_source: 'owner' as const } : r));
   return { stage: { rows: sentences, translations: { ...stage.translations, [lang]: [...texts.values()] } }, summary };
 }

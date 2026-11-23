@@ -13,7 +13,6 @@ const langAt = args.indexOf('--lang');
 const lang = langAt >= 0 ? args.splice(langAt, 2)[1] : 'tr';
 if (!lang) throw new Error('Usage: npm run export-review -- [--lang en] [--stage b1|a1a2|b2|core] a1');
 if (args[args.indexOf('--stage') + 1] === 'sentences') {
-  // Usage: --stage sentences a1 [--result tr=<result.csv> --result en=<result.csv>]; sheets go to review/sentences-<level>-*.csv.
   args.splice(args.indexOf('--stage'), 2);
   const results: Record<string, string> = {};
   for (let at = args.indexOf('--result'); at >= 0; at = args.indexOf('--result')) {
@@ -34,7 +33,6 @@ if (args[args.indexOf('--stage') + 1] === 'sentences') {
     out(`${code}-blind-nl`, sheets.dutch);
     out(`${code}-blind-pivot`, sheets.pivot);
   }
-  // A row is flagged for the owner when its result sheet verdict is not OK (ADR-019 routing).
   const flagged = Object.fromEntries(
     Object.entries(results).map(([code, file]) => {
       const [head, ...rows] = parseCsv(readFileSync(file, 'utf8'));
