@@ -1,7 +1,9 @@
 import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+import { join } from 'node:path';
 import { describe, it } from 'node:test';
 
-import { makeInflected, tokenize } from './inflection.ts';
+import { loadIrregularForms, makeInflected, tokenize } from './inflection.ts';
 import type { Pos } from './validate.ts';
 
 const LEMMAS = new Map<string, Set<Pos>>();
@@ -74,3 +76,38 @@ describe('the inflection rules', () => {
   });
 });
 
+
+describe('irregular forms (T-376)', () => {
+  const irregular = new Map([['ging', 'gaan'], ['gingen', 'gaan'], ['steden', 'stad'], ['zag', 'zien']]);
+  const lemmas = new Map<string, Set<Pos>>([['gaan', new Set<Pos>(['verb'])], ['stad', new Set<Pos>(['noun'])]]);
+  const open = new Set(['ging', 'gingen', 'steden', 'zag']);
+  const via = makeInflected(open, lemmas, irregular);
+
+  it('resolves an irregular past and plural to a live lemma', () => {
+    assert.equal(via('ging'), 'gaan');
+    assert.equal(via('gingen'), 'gaan');
+    assert.equal(via('steden'), 'stad');
+  });
+  it('ignores a form whose lemma is not a live word, and stays off without the list', () => {
+    assert.equal(via('zag'), null);
+    assert.equal(makeInflected(open, lemmas)('ging'), null);
+  });
+  it('still needs the wordlist', () => {
+    assert.equal(makeInflected(new Set(), lemmas, irregular)('ging'), null);
+  });
+  it('the committed list is lowercase, has no self-mapping and its lemmas are live words', () => {
+    const list = loadIrregularForms();
+    const live = new Set<string>();
+    for (const f of ['words.json', 'words-own.json']) {
+      for (const w of JSON.parse(readFileSync(join(import.meta.dirname, '..', 'data', f), 'utf8')) as { lemma_nl: string }[]) live.add(w.lemma_nl);
+    }
+    assert.ok(list.size > 50);
+    for (const [form, lemma] of list) {
+      assert.equal(form, form.toLowerCase());
+      assert.notEqual(form, lemma);
+      assert.ok(live.has(lemma), `${form}: ${lemma} is not a live word`);
+    }
+    assert.equal(list.get('ging'), 'gaan');
+    assert.equal(list.get('steden'), 'stad');
+  });
+});

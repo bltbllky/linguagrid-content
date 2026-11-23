@@ -1,3 +1,6 @@
+import { readFileSync } from 'node:fs';
+import { join } from 'node:path';
+
 import type { Pos } from './validate.ts';
 
 export type Inflected = (token: string, prefer?: string) => string | null;
@@ -10,6 +13,13 @@ export function tokenize(nl: string): string[] {
     .split(/\s+/)
     .filter(Boolean)
     .map((t, i, all) => (i === all.length - 1 ? t.replace(/[.?]$/, '') : t).replace(/,$/, ''));
+}
+
+const IRREGULAR_FORMS = join(import.meta.dirname, '..', 'data', 'sentences', 'irregular-forms.json');
+
+/** The committed list of irregular verb pasts, participles and plurals (form -> lemma) that the spelling rules cannot reach. */
+export function loadIrregularForms(): Map<string, string> {
+  return new Map(Object.entries(JSON.parse(readFileSync(IRREGULAR_FORMS, 'utf8')) as Record<string, string>));
 }
 
 const isVowel = (c: string | undefined) => c !== undefined && 'aeiou'.includes(c);
@@ -92,13 +102,19 @@ export function lemmaCandidates(token: string): Record<Pos, string[]> {
  * The inflection check of ADR-026 rule 2(b): `token` must be in the OpenTaal wordlist and the spelling rules must lead to a
  * lemma of the right part of speech in `lemmas` (lemma -> its parts of speech). Nouns: plural -en/-s/-'s/-eren/-heden,
  * diminutive -je/-tje/-etje/-pje/-kje. Adjectives: -e/-er/-ere/-st/-ste. Verbs: stem/-t/-te/-de/ge-...-t/-d/-end.
- * Spelling: undoubling, lengthening, z/s and f/v. Irregular forms (ging, zag, kwam ...) are not matched.
+ * Spelling: undoubling, lengthening, z/s and f/v. Irregular forms (ging, zag, kwam, steden ...) come from `irregular`, when given (form -> lemma).
  */
-export function makeInflected(openTaal: ReadonlySet<string>, lemmas: ReadonlyMap<string, ReadonlySet<Pos>>): Inflected {
+export function makeInflected(
+  openTaal: ReadonlySet<string>,
+  lemmas: ReadonlyMap<string, ReadonlySet<Pos>>,
+  irregular?: ReadonlyMap<string, string>,
+): Inflected {
   return (token, prefer) => {
     if (!openTaal.has(token)) return null;
     const cands = lemmaCandidates(token);
     const found = (Object.keys(cands) as Pos[]).flatMap((pos) => cands[pos].filter((c) => c !== token && lemmas.get(c)?.has(pos)));
+    const lemma = irregular?.get(token);
+    if (lemma !== undefined && lemmas.has(lemma)) found.push(lemma); // after the rules: only a live lemma counts
     if (prefer !== undefined && found.includes(prefer)) return prefer;
     return found[0] ?? null;
   };
