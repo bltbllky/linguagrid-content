@@ -55,6 +55,18 @@ export function applyRoundtrip(content: Content, csv: string, lang = 'tr'): Roun
 
 const HUMAN = new Set(['owner', 'reviewer']);
 
+/** A Dutch sentence row is reviewed (`roundtrip`) once its translation is reviewed in every shipped language; a human-reviewed row is kept. */
+function withReviewedRows(stage: SentenceStage): SentenceStage {
+  const langs = Object.values(stage.translations);
+  const done = (id: string) => langs.length > 0 && langs.every((rows) => rows?.some((t) => t.word_id === id && t.reviewed));
+  return {
+    ...stage,
+    rows: stage.rows.map((r) =>
+      r.review_source && HUMAN.has(r.review_source) ? r : done(r.word_id) ? { ...r, reviewed: true, review_source: 'roundtrip' } : r,
+    ),
+  };
+}
+
 /**
  * Round-trip result for the sentence translations of `lang` (ADR-026 rule 6). A row is accepted (`reviewed: true`, `roundtrip`) only
  * when its verdict is `OK` and, if the sheet carries the pass classes `class` and `class_nl`, neither is a mismatch and they are not
@@ -82,5 +94,5 @@ export function applySentenceRoundtrip(
     if (text.review_source && HUMAN.has(text.review_source)) summary.human++;
     else (text.reviewed = true), (text.review_source = 'roundtrip'), summary.accepted++;
   }
-  return { stage: { ...stage, translations: { ...stage.translations, [lang]: [...texts.values()] } }, summary };
+  return { stage: withReviewedRows({ ...stage, translations: { ...stage.translations, [lang]: [...texts.values()] } }), summary };
 }

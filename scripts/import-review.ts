@@ -156,6 +156,7 @@ export function applySentenceReview(
   if (idCol < 0 || langCol < 0 || decisionCol < 0) throw new Error('Not a sentence review sheet; expected columns id, lang and decision');
   const texts = new Map((stage.translations[lang] ?? []).map((t) => [t.word_id, { ...t }]));
   const summary = { ok: 0, corrected: 0, pending: 0 };
+  const decided = new Set<string>();
   for (const row of rows.filter((r) => r[langCol] === lang)) {
     const text = texts.get(row[idCol]);
     if (!text) throw new Error(`Unknown sentence id in review: ${row[idCol]}`);
@@ -165,7 +166,10 @@ export function applySentenceReview(
       if (decision.toUpperCase() === 'OK') summary.ok++;
       else (text.text = decision.normalize('NFC')), summary.corrected++;
       (text.reviewed = true), (text.review_source = 'owner');
+      decided.add(row[idCol]);
     }
   }
-  return { stage: { ...stage, translations: { ...stage.translations, [lang]: [...texts.values()] } }, summary };
+  // The owner's decision on a sentence also marks its Dutch row as owner-reviewed.
+  const sentences = stage.rows.map((r) => (decided.has(r.word_id) ? { ...r, reviewed: true, review_source: 'owner' as const } : r));
+  return { stage: { rows: sentences, translations: { ...stage.translations, [lang]: [...texts.values()] } }, summary };
 }

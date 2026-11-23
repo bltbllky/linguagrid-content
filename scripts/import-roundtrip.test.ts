@@ -122,3 +122,22 @@ describe('applySentenceRoundtrip', () => {
     assert.deepEqual(input, stage());
   });
 });
+
+describe('applySentenceRoundtrip marks the Dutch row', () => {
+  const row = (extra = {}) => ({ word_id: 'a', nl: 'Ik woon in een huis.', form: 'huis', distractors: ['x', 'y', 'z'], reviewed: false, ...extra });
+  const tr = (reviewed: boolean) => ({ word_id: 'a', text: 't', reviewed });
+  const csv = 'id,verdict\na,OK\n';
+
+  it('is reviewed by roundtrip when both languages are accepted', () => {
+    const { stage } = applySentenceRoundtrip({ rows: [row()], translations: { tr: [tr(false)], en: [tr(true)] } }, csv, 'tr');
+    assert.deepEqual([stage.rows[0].reviewed, stage.rows[0].review_source], [true, 'roundtrip']);
+  });
+
+  it('stays false while one language is not accepted, and an owner row is kept', () => {
+    const one = applySentenceRoundtrip({ rows: [row()], translations: { tr: [tr(false)], en: [tr(false)] } }, csv, 'tr');
+    assert.equal(one.stage.rows[0].reviewed, false);
+    const owned = row({ reviewed: true, review_source: 'owner' });
+    const kept = applySentenceRoundtrip({ rows: [owned], translations: { tr: [tr(false)] } }, csv, 'tr');
+    assert.deepEqual(kept.stage.rows[0], owned);
+  });
+});

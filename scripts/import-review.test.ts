@@ -179,3 +179,12 @@ describe('applySentenceReview', () => {
     assert.throws(() => applySentenceReview(stage(), 'id,decision\n', 'tr'), /Not a sentence review sheet/);
   });
 });
+
+describe('applySentenceReview marks the Dutch row', () => {
+  it('an owner edit sets the sentence row reviewed with source owner', () => {
+    const row = { word_id: 'a', nl: 'Ik woon in een huis.', form: 'huis', distractors: ['x', 'y', 'z'], reviewed: false };
+    const csv = 'id,lang,dutch,turkish,english,decision\na,tr,d,t,e,yeni metin\n';
+    const { stage } = applySentenceReview({ rows: [row], translations: { tr: [{ word_id: 'a', text: 't', reviewed: false }] } }, csv, 'tr');
+    assert.deepEqual([stage.rows[0].reviewed, stage.rows[0].review_source], [true, 'owner']);
+  });
+});
