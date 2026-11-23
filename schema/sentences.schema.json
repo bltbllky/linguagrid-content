@@ -1,0 +1,18 @@
+{
+  "$id": "sentences",
+  "description": "Staged example sentences: data/sentences/sentences.json (ADR-026)",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["word_id", "nl", "form", "distractors", "reviewed"],
+    "properties": {
+      "word_id": { "type": "string" },
+      "nl": { "type": "string" },
+      "form": { "type": "string" },
+      "distractors": { "type": "array", "items": { "type": "string" } },
+      "reviewed": { "type": "boolean" },
+      "review_source": { "enum": ["roundtrip", "owner", "reviewer"] }
+    }
+  }
+}
