@@ -365,8 +365,28 @@ describe('promoteStage (T-153)', () => {
     }
   });
 
-  it('refuses B2', () => {
-    assert.throws(() => promoteStage(validContent(), [], { ...stage(), name: 'b2' }), /Only a1a2, b1 and core are promoted here/);
+  it('refuses a stage other than a1a2, b1, b2 and core', () => {
+    assert.throws(() => promoteStage(validContent(), [], { ...stage(), name: 'c1' as never }), /Only a1a2, b1, b2 and core are promoted here/);
+  });
+
+  it('promotes B2 with its own categories (T-359)', () => {
+    const live = validContent();
+    const s = stage();
+    s.name = 'b2';
+    s.words = [{ ...s.words[0], id: 'noun-beleid', cefr: 'B2' }];
+    s.categories = [{ id: 'b2-law-administration', cefr: 'B2', order: 40 }];
+    s.annotations = [{ ...s.annotations![0], word_id: 'noun-beleid', category_id: 'b2-law-administration' }];
+    s.translations.tr = {
+      lang: 'tr',
+      words: [{ word_id: 'noun-beleid', text: 'politika', reviewed: false }],
+      categories: [{ category_id: 'b2-law-administration', title: 'Hukuk ve idare' }],
+    };
+    const { files, remove } = promoteStage(live, [], s);
+    assert.deepEqual((files['data/words-own.json'] as Word[]).map((w) => w.id), ['noun-beleid']);
+    assert.equal((files['data/categories.json'] as { id: string }[]).at(-1)!.id, 'b2-law-administration');
+    const tr = files['data/translations/tr.json'] as TranslationFile;
+    assert.deepEqual(tr.categories.at(-1), { category_id: 'b2-law-administration', title: 'Hukuk ve idare' });
+    assert.deepEqual(remove, ['data/b2/words.json', 'data/b2/categories.json', 'data/b2/annotations.json', 'data/b2/translations']);
   });
 
   describe('B1 (T-197)', () => {

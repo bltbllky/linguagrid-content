@@ -17,8 +17,8 @@ export interface Release {
   excluded: string[];
 }
 
-/** Levels the app can show (US-022 adds B1, 2026-10-26). B2 is staged in data/b2 until US-033. */
-export const RELEASED_LEVELS: readonly string[] = ['A1', 'A2', 'B1'];
+/** Levels the app can show (US-022 adds B1, US-033 adds B2). */
+export const RELEASED_LEVELS: readonly string[] = ['A1', 'A2', 'B1', 'B2'];
 
 const json = (value: unknown) => JSON.stringify(value, null, 2) + '\n';
 
@@ -44,7 +44,7 @@ export function buildRelease(content: Content, { minimums, allowPartial, nt2lexR
   const unreleased = content.words.filter((w) => !RELEASED_LEVELS.includes(w.cefr));
   if (unreleased.length) {
     const levels = [...new Set(unreleased.map((w) => w.cefr))].join('/');
-    throw new Error(`Release blocked — the live word files hold ${levels} words (${unreleased.length}); B2 is released by its US-033 task`);
+    throw new Error(`Release blocked — the live word files hold ${levels} words (${unreleased.length}); ${levels} is not a released level`);
   }
   const turkish = new Set(content.translations.tr.words.filter((t) => t.reviewed).map((t) => t.word_id));
   const reviewed = new Set(content.annotations.filter((a) => a.reviewed && turkish.has(a.word_id)).map((a) => a.word_id));

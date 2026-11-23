@@ -13,8 +13,8 @@ const fail = (message: string): never => {
   return process.exit(1);
 };
 
-if (!name) fail('Usage: npm run promote-stage -- a1a2|b1|core');
-if (name !== 'a1a2' && name !== 'b1' && name !== 'core') fail('Only a1a2, b1 and core are promoted here; B2 is released by its US-033 task');
+if (!name) fail('Usage: npm run promote-stage -- a1a2|b1|b2|core');
+if (name !== 'a1a2' && name !== 'b1' && name !== 'b2' && name !== 'core') fail('Only a1a2, b1, b2 and core are promoted here');
 const stage = loadStage(name);
 const live = loadContent();
 const others = (Object.keys(STAGES) as StageName[]).filter((n) => n !== stage.name).map((n) => loadStage(n));

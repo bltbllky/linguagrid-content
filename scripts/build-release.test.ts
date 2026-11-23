@@ -41,12 +41,43 @@ describe('buildRelease', () => {
     assert.throws(() => buildRelease(validContent(), opts), /Release blocked — 2 NT2Lex-derived words/); // retired by default since release 3
   });
 
-  it('blocks a live B2 word, with or without --allow-partial', () => {
+  it('blocks a live C1 word, with or without --allow-partial', () => {
     const content = validContent();
-    content.words[0].cefr = 'B2';
+    content.words[0].cefr = 'C1';
     for (const allowPartial of [false, true]) {
-      assert.throws(() => build(content, { minimums: {}, allowPartial }), /live word files hold B2 words \(1\)/);
+      assert.throws(() => build(content, { minimums: {}, allowPartial }), /live word files hold C1 words \(1\)/);
     }
+  });
+
+  describe('B2 (T-359)', () => {
+    const b2Content = () => {
+      const content = validContent();
+      content.words[0].cefr = 'B2';
+      return content;
+    };
+
+    it('releases a reviewed B2 word', () => {
+      const release = build(b2Content(), { minimums: { A1: 0, A2: 0, B1: 0, B2: 1 }, allowPartial: false });
+      assert.ok(JSON.parse(release.files['words.json']).some((w: { id: string }) => w.id === 'noun-tandarts'));
+    });
+
+    it('stops under the B2 minimum unless --allow-partial', () => {
+      assert.throws(() => build(b2Content(), { minimums: { B2: 2 }, allowPartial: false }), /B2: 1 reviewed words \(minimum 2\)/);
+      assert.doesNotThrow(() => build(b2Content(), { minimums: { B2: 2 }, allowPartial: true }));
+    });
+
+    it('leaves out a language whose B2 text is unreviewed', () => {
+      const content = b2Content();
+      content.translations.en = {
+        lang: 'en',
+        words: [{ word_id: 'noun-tandarts', text: 'dentist', reviewed: false }],
+        categories: [{ category_id: 'health', title: 'Health' }],
+      };
+      const release = build(content, { minimums: { B2: 1 }, allowPartial: false });
+      assert.equal(release.excluded.length, 1);
+      assert.ok(release.excluded[0].startsWith('en:'));
+      assert.deepEqual(release.manifest.languages, ['tr']);
+    });
   });
 
   it('releases a reviewed B1 word (US-022)', () => {

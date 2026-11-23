@@ -142,7 +142,7 @@ async function build() {
           new Set(
             [
               ...readIfThere<Word>(join(root, 'data', 'b1', 'words.json')),
-              ...readIfThere<Word>(join(root, 'data', 'words-own.json')).filter((w) => w.cefr === 'B1'),
+              ...readIfThere<Word>(join(root, 'data', 'words-own.json')).filter((w) => w.cefr === 'B1' || w.cefr === 'B2'),
             ].map((w) => w.lemma_nl),
           ),
         )
