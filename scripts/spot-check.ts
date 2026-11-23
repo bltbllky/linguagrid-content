@@ -1,4 +1,5 @@
 import { parseCsv } from './import-review.ts';
+import type { SentenceStage } from './sentence-stage.ts';
 
 export const SPOT_INITIAL = 20;
 export const SPOT_EXTENSION = 30;
@@ -84,10 +85,34 @@ export function parseTally(csv: string): TallyRow[] {
 export function tallyStatus(rows: readonly TallyRow[], lang: string): { words: number; errors: number; full: boolean } {
   let words = 0;
   let errors = 0;
-  for (const row of rows.filter((r) => r.lang === lang).reverse()) {
+  for (const row of rows.filter((r) => r.lang === lang && !r.sheet.startsWith('sentences-')).reverse()) {
     if (words >= TALLY_WINDOW) break;
     words += row.words;
     errors += row.errors;
   }
   return { words, errors, full: errors > TALLY_ERRORS };
+}
+
+/** Roundtrip-accepted translations of one level and language, as the draw pool for the sentence spot check (ADR-026 rule 6). */
+export function drawSentenceSpotCheck(
+  stage: SentenceStage,
+  lang: string,
+  level: string,
+  levelOf: (wordId: string) => string | undefined,
+  seed: number,
+): { initial: string[]; extension: string[] } {
+  const pool = (stage.translations[lang] ?? [])
+    .filter((t) => t.reviewed && t.review_source === 'roundtrip' && levelOf(t.word_id) === level.toUpperCase())
+    .map((t) => t.word_id);
+  return drawSpotCheck(pool, [], seed);
+}
+
+/**
+ * Where the spot check of one language and level stands, from the tally entries with sheet `sentences-<level>`: `draw` (none yet),
+ * `pass`, `extend` (one error in the first 20: draw 30 more) or `fail` (a second error: stop the import for this language and level).
+ */
+export function sentenceSpotStatus(rows: readonly TallyRow[], lang: string, level: string): 'draw' | 'pass' | 'extend' | 'fail' {
+  const own = rows.filter((r) => r.lang === lang && r.sheet === `sentences-${level.toLowerCase()}`);
+  if (own.length === 0) return 'draw';
+  return judge(own.reduce((n, r) => n + r.errors, 0), own.reduce((n, r) => n + r.words, 0));
 }

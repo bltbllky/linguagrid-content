@@ -1,4 +1,5 @@
 import type { Content } from './validate.ts';
+import type { SentenceStage } from './sentence-stage.ts';
 
 export const REVIEW_COLUMNS = ['id', 'dutch', 'article', 'turkish', 'category', 'decision'] as const;
 
@@ -38,4 +39,38 @@ export function exportReview(content: Content, level: string, lang = 'tr'): stri
       return [...base, other?.text ?? '', category, other?.reviewed ? 'OK' : ''];
     });
   return [reviewColumns(lang), ...rows].map((row) => row.map(quote).join(',')).join('\n') + '\n';
+}
+
+const PIVOT: Record<string, { lang: string; column: string }> = { tr: { lang: 'en', column: 'english' }, en: { lang: 'tr', column: 'turkish' } };
+const csvOf = (rows: string[][]) => rows.map((row) => row.map(quote).join(',')).join('\n') + '\n';
+
+/**
+ * The two blind-pass sheets of ADR-012 for the sentences of one level and language: `dutch` (the Dutch sentence only) and `pivot`
+ * (the Dutch sentence and the other language's text: English for Turkish, Turkish for English). The text under test is never in them.
+ */
+export function sentenceBlindSheets(stage: SentenceStage, level: string, lang: string, levelOf: (wordId: string) => string | undefined) {
+  const pivot = PIVOT[lang];
+  if (!pivot) throw new Error(`No pivot language for ${lang}`);
+  const pivotText = new Map((stage.translations[pivot.lang] ?? []).map((t) => [t.word_id, t.text]));
+  const rows = stage.rows.filter((r) => levelOf(r.word_id) === level.toUpperCase());
+  return {
+    dutch: csvOf([['id', 'dutch'], ...rows.map((r) => [r.word_id, r.nl])]),
+    pivot: csvOf([['id', 'dutch', pivot.column], ...rows.map((r) => [r.word_id, r.nl, pivotText.get(r.word_id) ?? ''])]),
+  };
+}
+
+/** The owner's sheet of flagged sentence rows (ADR-019 routing): one row per flagged word id and language, `decision` is OK or the corrected text. */
+export function sentenceOwnerSheet(
+  stage: SentenceStage,
+  level: string,
+  levelOf: (wordId: string) => string | undefined,
+  flagged: Record<string, ReadonlySet<string>>,
+): string {
+  const text = (lang: string, id: string) => (stage.translations[lang] ?? []).find((t) => t.word_id === id)?.text ?? '';
+  const rows = Object.entries(flagged).flatMap(([lang, ids]) =>
+    stage.rows
+      .filter((r) => ids.has(r.word_id) && levelOf(r.word_id) === level.toUpperCase())
+      .map((r) => [r.word_id, lang, r.nl, text('tr', r.word_id), text('en', r.word_id), '']),
+  );
+  return csvOf([['id', 'lang', 'dutch', 'turkish', 'english', 'decision'], ...rows]);
 }

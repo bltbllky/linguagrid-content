@@ -13,6 +13,8 @@ const ROOT = join(import.meta.dirname, '..');
 /** The first sentence release holds A1 and A2 words only (ADR-026 rule 1). */
 export const SENTENCE_LEVELS: readonly string[] = ['A1', 'A2'];
 export const DISTRACTORS = 3;
+/** The languages every sentence ships in (ADR-026): a Dutch row counts as reviewed only when all of them are. */
+export const SENTENCE_LANGS: readonly string[] = ['tr', 'en'];
 
 export interface SentenceFileRow extends SentenceRow {
   reviewed: boolean;

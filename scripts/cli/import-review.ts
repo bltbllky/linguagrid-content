@@ -1,7 +1,8 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 import { basename, dirname, join } from 'node:path';
 
-import { applyReview, changedFiles } from '../import-review.ts';
+import { applyReview, applySentenceReview, changedFiles } from '../import-review.ts';
+import { loadSentenceStage } from '../sentence-stage.ts';
 import { mergeStage, stageFiles, takeStage } from '../stage.ts';
 import { loadContent } from '../validate.ts';
 
@@ -11,6 +12,14 @@ const langAt = args.indexOf('--lang');
 const flag = langAt >= 0 ? args.splice(langAt, 2)[1] : undefined;
 const reviewerAt = args.indexOf('--reviewer');
 const source = reviewerAt >= 0 ? (args.splice(reviewerAt, 1), 'reviewer' as const) : 'owner';
+if (args[args.indexOf('--stage') + 1] === 'sentences') {
+  args.splice(args.indexOf('--stage'), 2);
+  if (!flag || !args[0]) throw new Error('Usage: npm run import-review -- --stage sentences --lang tr review/sentences-a1-owner.csv');
+  const { stage, summary } = applySentenceReview(loadSentenceStage(), readFileSync(args[0], 'utf8'), flag);
+  writeFileSync(join(root, 'data', 'sentences', 'translations', `${flag}.json`), JSON.stringify(stage.translations[flag], null, 2) + '\n');
+  console.log(flag, summary);
+  process.exit(0);
+}
 const stage = takeStage(args);
 const file = args[0];
 if (!file) throw new Error('Usage: npm run import-review -- [--reviewer] [--stage b1|a1a2|b2|core] review/a1.csv | review/en/a1.csv');
