@@ -18,7 +18,23 @@ jobs:
       - run: npm run typecheck
       - run: npm test
       - run: npm run validate
-      - run: npm run validate -- --stage b1
-      - run: npm run validate -- --stage a1a2
-      - run: npm run validate -- --stage b2
-      - run: npx tsx scripts/cli/validate.ts --stage sentences
+      - name: Validate stage b1
+        run: |
+          set -o pipefail
+          npx tsx scripts/cli/validate.ts --stage b1 | tee stage-b1.log
+          grep -qF "B1 stage is valid" stage-b1.log
+      - name: Validate stage a1a2
+        run: |
+          set -o pipefail
+          npx tsx scripts/cli/validate.ts --stage a1a2 | tee stage-a1a2.log
+          grep -qF "A1A2 stage is valid" stage-a1a2.log
+      - name: Validate stage b2
+        run: |
+          set -o pipefail
+          npx tsx scripts/cli/validate.ts --stage b2 | tee stage-b2.log
+          grep -qF "B2 stage is valid" stage-b2.log
+      - name: Validate stage sentences
+        run: |
+          set -o pipefail
+          npx tsx scripts/cli/validate.ts --stage sentences | tee stage-sentences.log
+          grep -qF "Sentences stage is valid" stage-sentences.log

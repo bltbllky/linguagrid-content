@@ -44,9 +44,11 @@ uses 50 words again.
 
 ## Staged levels (B1)
 
+`npm run validate -- --stage X` does not check a stage. npm appends the arguments to the last command of the script only (`validate.ts && validate-audio.ts`), so the full validation runs and the audio check receives the flag. Use `npx tsx scripts/cli/validate.ts --stage X` (X is `b1`, `a1a2`, `b2` or `sentences`).
+
 B1 words are collected before the app can show them (owner decision 2026-10-18; selected from open sources, owner decision 2026-10-21). They live in `data/b1/` with the same files
 and shapes as the live data, and no release reads them: `npm run release` reads the live files (`data/words.json` and `data/words-own.json`) and refuses any level
-other than A1, A2, B1 and B2 (B1 went live with content release 2, US-022, 2026-10-26). `npm run validate -- --stage b1` checks the staged files against the live ones: B1 level, own source,
+other than A1, A2, B1 and B2 (B1 went live with content release 2, US-022, 2026-10-26). `npx tsx scripts/cli/validate.ts --stage b1` checks the staged files against the live ones: B1 level, own source,
 no lemma that is already an A1, A2 or B1 word, B1-only categories, and every live rule. `npm run promote-stage -- b1` moved the reviewed B1 words, their categories and texts into the live files; `data/b1/` now keeps only `selection-criteria.md` and `selection.json` as the record. B2 stays staged until promoted: `npm run promote-stage -- b2` moves the reviewed B2 words into the live files (content release 4, US-033); `data/b2/` then keeps only `selection-criteria.md` and `selection.json` as the record. The release needs 1,000 reviewed B2 words (and, for a language other than Turkish, 1,000 reviewed B2 texts).
 Review sheets for B1: `npm run export-review -- [--lang en] --stage b1 b1`; imports take `--stage b1` too and write only
 `data/b1/` (a word the owner removes also goes to `data/excluded.json` and leaves `data/b1/selection.json`).
