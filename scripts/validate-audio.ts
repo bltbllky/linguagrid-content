@@ -18,6 +18,9 @@ function hasFreeBox(m4a: Buffer): boolean {
   return false;
 }
 
+/** Byte caps per level, decimal bytes (1 MB = 1,000,000). B2 is 10,000,000 (ADR-028). */
+export const AUDIO_CAPS_BYTES: Record<string, number> = { A1: 3_000_000, A2: 6_000_000, B1: 7_000_000, B2: 10_000_000 };
+
 /**
  * Checks `audio/<LEVEL>/<id>.m4a`, the level indexes and the root index against the words per level and the byte cap per
  * level; returns the error texts, empty when valid.
@@ -34,6 +37,7 @@ export function validateAudio(dir: string, wordsByLevel: Record<string, string[]
     const levelDir = join(dir, level);
     const indexPath = join(levelDir, 'index.json');
     if (!existsSync(indexPath)) {
+      if (!ids.length) continue; // a level without live words (B2 before its release) has no pack yet
       errors.push(`audio/${level}/index.json is missing`);
       continue;
     }

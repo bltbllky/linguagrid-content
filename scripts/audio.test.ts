@@ -2,6 +2,7 @@ import assert from 'node:assert/strict';
 import { test } from 'node:test';
 
 import {
+  AUDIO_LEVELS,
   audioFileName,
   generate,
   pickSample,
@@ -76,7 +77,7 @@ const lemmas: [string, string, 'de' | 'het' | null, string][] = [];
 for (let i = 0; i < 40; i++) {
   const pos = i % 3 === 0 ? 'verb' : 'noun';
   const article = pos === 'verb' ? null : i % 2 ? 'het' : 'de';
-  lemmas.push([`${pos}-w${i}`, `w${i}${i % 7 === 0 ? 'xxxxxxxxxxxx' : ''}`, article, ['A1', 'A2', 'B1'][i % 3]]);
+  lemmas.push([`${pos}-w${i}`, `w${i}${i % 7 === 0 ? 'xxxxxxxxxxxx' : ''}`, article, [...AUDIO_LEVELS][i % 4]]);
 }
 const WORDS: SourceWord[] = lemmas.map(([id, lemma_nl, article, cefr]) => ({
   id,
@@ -98,7 +99,8 @@ test('pickSample is seeded, covers the mix and skips unusable ids', () => {
   assert.ok(a.filter((w) => w.article === null && w.pos !== 'verb').length >= 2);
   assert.ok(a.filter((w) => w.pos === 'verb').length >= 2);
   assert.ok(a.filter((w) => w.lemma_nl.length >= 12).length >= 2);
-  assert.deepEqual(new Set(a.map((w) => w.cefr)), new Set(['A1', 'A2', 'B1']));
+  assert.deepEqual(new Set(a.map((w) => w.cefr)), new Set(AUDIO_LEVELS));
+  assert.deepEqual(AUDIO_LEVELS, ['A1', 'A2', 'B1', 'B2']);
 });
 
 test('generate drives piper and afconvert through the runner', () => {
