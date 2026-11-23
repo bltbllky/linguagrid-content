@@ -121,3 +121,7 @@ test('the cap map has B2 at 10,000,000 bytes (decimal)', () => {
   assert.equal(AUDIO_CAPS_BYTES.B2, 10_000_000);
   assert.equal(AUDIO_CAPS_BYTES.B1, 7_000_000);
 });
+
+test('a missing B1 folder is an error even with no live B1 words (A1, A2, B1 are permanent)', () => {
+  assert.deepEqual(run(fixture(), { ...WORDS, B1: [] }, { ...CAPS, B1: 7 * MB }), ['audio/B1/index.json is missing']);
+});
