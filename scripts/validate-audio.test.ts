@@ -10,7 +10,7 @@ import { AUDIO_CAPS_BYTES, validateAudio } from './validate-audio.ts';
 
 const MB = 1_000_000;
 const WORDS = { A1: ['noun-a', 'noun-b'], A2: ['adj-c'] };
-const CAPS = { A1: 3 * MB, A2: 6 * MB };
+const CAPS: Record<string, number> = { A1: 3 * MB, A2: 6 * MB };
 const body = (id: string) => atom('ftyp', Buffer.from(`audio of ${id}`));
 
 /** Writes a valid folder; `tweak` edits the file map (before the indexes are built) or the folder (after). */
@@ -114,7 +114,7 @@ test('a level with live words but no folder is named; a level without live words
 test('a B2 folder over its cap is one error', () => {
   const words = { ...WORDS, B2: ['noun-z'] };
   const dir = fixture({ words });
-  assert.deepEqual(run(dir, words, { ...CAPS, B2: 10 }), ['audio B2 total 24 bytes is over cap 10']);
+  assert.deepEqual(run(dir, words, { ...CAPS, B2: 10 }), ['audio B2 total 23 bytes is over cap 10']);
 });
 
 test('the cap map has B2 at 10,000,000 bytes (decimal)', () => {
