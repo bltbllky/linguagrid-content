@@ -14,6 +14,7 @@
     "mt-check": "tsx scripts/cli/mt-check.ts",
     "spot-check": "tsx scripts/cli/spot-check.ts",
     "three-readers": "tsx scripts/cli/three-readers.ts",
+    "sentence-check": "tsx scripts/cli/sentence-check.ts",
     "b1-pool": "tsx scripts/cli/b1-pool.ts",
     "core": "tsx scripts/cli/core.ts",
     "promote-stage": "tsx scripts/cli/promote-stage.ts",
