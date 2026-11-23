@@ -260,7 +260,27 @@ describe('sentences (T-377)', () => {
   it('leaves A1 out at 94 of 100 and says so', () => {
     const r = buildRelease(hundred(), { ...opts, sentences: sentences(ids(94)) });
     assert.deepEqual(r.sentenceNotes, ['Sentences: A1 left out (94%)']);
-    assert.ok(!Object.keys(r.files).some((n) => n.startsWith('sentence')));
+    assert.deepEqual(Object.keys(r.files).filter((n) => n.startsWith('sentence')), []);
+  });
+
+  it('leaves A1 out when its sentences have a Turkish text only and English ships (every shipped language)', () => {
+    const s = sentences(ids(100));
+    s.translations.en = [];
+    const r = buildRelease(hundred(), { ...opts, sentences: s });
+    assert.deepEqual(r.sentenceNotes, ['Sentences: A1 left out (0%)']);
+    assert.deepEqual(Object.keys(r.files).filter((n) => n.startsWith('sentence')), []);
+  });
+
+  it('refuses a malformed live row, naming it (a bad file makes every app build reject the update)', () => {
+    const bad = sentences(ids(100));
+    delete (bad.rows[3] as Partial<(typeof bad.rows)[0]>).form;
+    assert.throws(() => buildRelease(hundred(), { ...opts, sentences: bad }), /sentences: noun-w3: form/);
+    const noDistractors = sentences(ids(100));
+    (noDistractors.rows[4] as { distractors: unknown }).distractors = 'a';
+    assert.throws(() => buildRelease(hundred(), { ...opts, sentences: noDistractors }), /sentences: noun-w4: distractors/);
+    const noText = sentences(ids(100));
+    delete (noText.translations.en[5] as Partial<(typeof noText.translations.en)[0]>).text;
+    assert.throws(() => buildRelease(hundred(), { ...opts, sentences: noText }), /sentence-translations-en: noun-w5: text/);
   });
 
   it('an unreviewed English text drops the row from the English file only; no translation drops the sentence', () => {
@@ -270,9 +290,9 @@ describe('sentences (T-377)', () => {
     s.translations.en[1].reviewed = false; // noun-w1 has no reviewed text in any language
     const r = buildRelease(hundred(), { ...opts, sentences: s });
     const rows = parse(r, 'sentence-translations-en.json').rows.map((x: { word_id: string }) => x.word_id);
-    assert.ok(!rows.includes('noun-w0') && !rows.includes('noun-w1'));
-    assert.ok(parse(r, 'sentence-translations-tr.json').rows.some((x: { word_id: string }) => x.word_id === 'noun-w0'));
-    assert.ok(!parse(r, 'sentences.json').some((x: { word_id: string }) => x.word_id === 'noun-w1'));
+    assert.deepEqual(rows.filter((id: string) => id === 'noun-w0' || id === 'noun-w1'), []);
+    assert.equal(parse(r, 'sentence-translations-tr.json').rows.some((x: { word_id: string }) => x.word_id === 'noun-w0'), true);
+    assert.equal(parse(r, 'sentences.json').some((x: { word_id: string }) => x.word_id === 'noun-w1'), false);
     assert.equal(parse(r, 'sentences.json').length, 97);
   });
 
@@ -281,10 +301,10 @@ describe('sentences (T-377)', () => {
     s.rows[0].reviewed = false;
     const r = buildRelease(hundred(), { ...opts, sentences: s });
     const out = parse(r, 'sentences.json').map((x: { word_id: string }) => x.word_id);
-    assert.ok(!out.includes('noun-w0') && !out.includes('noun-elsewhere'));
+    assert.deepEqual(out.filter((id: string) => id === 'noun-w0' || id === 'noun-elsewhere'), []);
     assert.equal(out.length, 96);
     for (const lang of ['tr', 'en']) {
-      assert.ok(!parse(r, `sentence-translations-${lang}.json`).rows.some((x: { word_id: string }) => /w0$|elsewhere/.test(x.word_id)));
+      assert.equal(parse(r, `sentence-translations-${lang}.json`).rows.some((x: { word_id: string }) => /w0$|elsewhere/.test(x.word_id)), false);
     }
   });
 

@@ -119,6 +119,18 @@ export function buildRelease(content: Content, { minimums, allowPartial, nt2lexR
  * `{word_id, nl, form, distractors}` and `{lang, rows: [{word_id, text}]}` and rejects anything else.
  */
 function sentenceFiles(input: SentenceStage, words: Content['words'], languages: string[], notes: string[]): Record<string, string> {
+  // A malformed row would make every app build reject the whole update, so it stops the release here.
+  const str = (v: unknown) => typeof v === 'string' && v !== '';
+  for (const r of input.rows) {
+    const bad = (['word_id', 'nl', 'form'] as const).find((k) => !str(r[k])) ?? (Array.isArray(r.distractors) && r.distractors.every(str) ? undefined : 'distractors');
+    if (bad) throw new Error(`Release blocked — sentences: ${r.word_id}: ${bad} missing or malformed`);
+  }
+  for (const [lang, rows] of Object.entries(input.translations)) {
+    for (const t of rows ?? []) {
+      const bad = (['word_id', 'text'] as const).find((k) => typeof t[k] !== 'string' || (k === 'word_id' && t[k] === ''));
+      if (bad) throw new Error(`Release blocked — sentence-translations-${lang}: ${t.word_id}: ${bad} missing or malformed`);
+    }
+  }
   const level = new Map(words.map((w) => [w.id, w.cefr]));
   const texts = new Map(
     languages.map((lang) => [lang, new Map((input.translations[lang] ?? []).filter((t) => t.reviewed && t.text.trim()).map((t) => [t.word_id, t.text]))]),
