@@ -133,11 +133,17 @@ describe('applySentenceRoundtrip marks the Dutch row', () => {
     assert.deepEqual([stage.rows[0].reviewed, stage.rows[0].review_source], [true, 'roundtrip']);
   });
 
+  it('a tr-only stage cannot mark the Dutch row', () => {
+    const { stage } = applySentenceRoundtrip({ rows: [row()], translations: { tr: [tr(false)] } }, csv, 'tr');
+    assert.equal(stage.translations.tr?.[0].reviewed, true);
+    assert.equal(stage.rows[0].reviewed, false);
+  });
+
   it('stays false while one language is not accepted, and an owner row is kept', () => {
     const one = applySentenceRoundtrip({ rows: [row()], translations: { tr: [tr(false)], en: [tr(false)] } }, csv, 'tr');
     assert.equal(one.stage.rows[0].reviewed, false);
     const owned = row({ reviewed: true, review_source: 'owner' });
-    const kept = applySentenceRoundtrip({ rows: [owned], translations: { tr: [tr(false)] } }, csv, 'tr');
+    const kept = applySentenceRoundtrip({ rows: [owned], translations: { tr: [tr(false)], en: [tr(true)] } }, csv, 'tr');
     assert.deepEqual(kept.stage.rows[0], owned);
   });
 });

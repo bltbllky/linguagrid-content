@@ -85,7 +85,7 @@ export function parseTally(csv: string): TallyRow[] {
 export function tallyStatus(rows: readonly TallyRow[], lang: string): { words: number; errors: number; full: boolean } {
   let words = 0;
   let errors = 0;
-  for (const row of rows.filter((r) => r.lang === lang).reverse()) {
+  for (const row of rows.filter((r) => r.lang === lang && !r.sheet.startsWith('sentences-')).reverse()) {
     if (words >= TALLY_WINDOW) break;
     words += row.words;
     errors += row.errors;

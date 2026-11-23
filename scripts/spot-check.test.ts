@@ -118,3 +118,8 @@ test('sentenceSpotStatus: pass, extend after one error, stop after a second, per
   assert.equal(sentenceSpotStatus(tally('d,sentences-a1,tr,20,2,1,'), 'en', 'A1'), 'draw');
   assert.equal(sentenceSpotStatus(tally('d,sentences-a1,tr,20,2,1,'), 'tr', 'A2'), 'draw');
 });
+
+test('tallyStatus ignores sentence sheets', () => {
+  const row = (sheet: string, errors: number) => ({ date: 'd', sheet, lang: 'tr', words: 50, errors, seed: '', note: '' });
+  assert.deepEqual(tallyStatus([row('b1', 0), row('sentences-a1', 9)], 'tr'), { words: 50, errors: 0, full: false });
+});

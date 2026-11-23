@@ -1,6 +1,6 @@
 import { parseCsv } from './import-review.ts';
 import type { Content } from './validate.ts';
-import type { SentenceStage } from './sentence-stage.ts';
+import { SENTENCE_LANGS, type SentenceStage } from './sentence-stage.ts';
 
 export interface RoundtripResult {
   content: Content;
@@ -57,8 +57,7 @@ const HUMAN = new Set(['owner', 'reviewer']);
 
 /** A Dutch sentence row is reviewed (`roundtrip`) once its translation is reviewed in every shipped language; a human-reviewed row is kept. */
 function withReviewedRows(stage: SentenceStage): SentenceStage {
-  const langs = Object.values(stage.translations);
-  const done = (id: string) => langs.length > 0 && langs.every((rows) => rows?.some((t) => t.word_id === id && t.reviewed));
+  const done = (id: string) => SENTENCE_LANGS.every((l) => stage.translations[l]?.some((t) => t.word_id === id && t.reviewed));
   return {
     ...stage,
     rows: stage.rows.map((r) =>
