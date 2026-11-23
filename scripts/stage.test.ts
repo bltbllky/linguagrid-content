@@ -8,7 +8,7 @@ import { exportReview } from './export-review.ts';
 import { applyReview } from './import-review.ts';
 import { applyRoundtrip } from './import-roundtrip.ts';
 import { partialEnglish, validContent } from './fixtures/valid.ts';
-import { loadStage, mergeStage, promoteStage, stageFiles, stageReport, takeStage, validateStage, withoutNt2lex } from './stage.ts';
+import { loadStage, mergeStage, promoteSentences, promoteStage, stageFiles, stageReport, takeStage, validateStage, withoutNt2lex } from './stage.ts';
 import type { Stage } from './stage.ts';
 import { loadContent, validateContent } from './validate.ts';
 import type { Annotation, Content, TranslationFile, Word } from './validate.ts';
@@ -535,5 +535,26 @@ describe('core stage (ADR-022)', () => {
       };
       assert.deepEqual(validateContent(merged), []);
     });
+  });
+});
+
+describe('promoteSentences (T-377)', () => {
+  const row = (word_id: string) => ({ word_id, nl: 'Zin.', form: 'x', distractors: ['a', 'b', 'c'], reviewed: true });
+  const text = (word_id: string) => ({ word_id, text: 'z', reviewed: true });
+
+  it('appends the staged rows to the live files and empties the stage', () => {
+    const live = { rows: [row('noun-a')], translations: { tr: [text('noun-a')] } };
+    const staged = { rows: [row('noun-b')], translations: { tr: [text('noun-b')], en: [text('noun-b')] } };
+    const { files, remove } = promoteSentences(live, staged);
+    assert.deepEqual(files['data/sentences.json'], [row('noun-a'), row('noun-b')]);
+    assert.deepEqual(files['data/sentence-translations/tr.json'], [text('noun-a'), text('noun-b')]);
+    assert.deepEqual(files['data/sentence-translations/en.json'], [text('noun-b')]);
+    assert.deepEqual(files['data/sentences/sentences.json'], []);
+    assert.deepEqual(remove, ['data/sentences/translations']);
+  });
+
+  it('refuses a word that already has a live sentence', () => {
+    const live = { rows: [row('noun-a')], translations: {} };
+    assert.throws(() => promoteSentences(live, { rows: [row('noun-a')], translations: {} }), /noun-a.*already live/);
   });
 });
