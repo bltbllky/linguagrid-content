@@ -83,10 +83,13 @@ export function writeWav(pcm: Int16Array, rate: number): Buffer {
   return Buffer.concat([header, body]);
 }
 
-/** A seeded sample over A1, A2 and B1 that always holds `het`, article-less, verb and 12+ letter words. */
+/** The levels that get an audio pack (ADR-025, ADR-028). */
+export const AUDIO_LEVELS = ['A1', 'A2', 'B1', 'B2'] as const;
+
+/** A seeded sample over every audio level that always holds `het`, article-less, verb and 12+ letter words. */
 export function pickSample(words: SourceWord[], n: number, seed: number): SourceWord[] {
   const pool = shuffle(
-    words.filter((w) => usableId(w.id) && ['A1', 'A2', 'B1'].includes(w.cefr)),
+    words.filter((w) => usableId(w.id) && (AUDIO_LEVELS as readonly string[]).includes(w.cefr)),
     mulberry32(seed),
   );
   const picked: SourceWord[] = [];
@@ -104,7 +107,7 @@ export function pickSample(words: SourceWord[], n: number, seed: number): Source
   take((w) => w.pos === 'verb', 2);
   take((w) => w.lemma_nl.length >= 12, 2);
   for (let level = 0; picked.length < n && picked.length < pool.length; level++) {
-    take((w) => w.cefr === ['A1', 'A2', 'B1'][level % 3], 1);
+    take((w) => w.cefr === AUDIO_LEVELS[level % AUDIO_LEVELS.length], 1);
   }
   return picked.sort((a, b) => (a.id < b.id ? -1 : 1));
 }

@@ -6,18 +6,18 @@ import { test } from 'node:test';
 
 import { buildIndexes } from './audio-layout.ts';
 import { atom } from './fixtures/fake-m4a.ts';
-import { validateAudio } from './validate-audio.ts';
+import { AUDIO_CAPS_BYTES, validateAudio } from './validate-audio.ts';
 
 const MB = 1_000_000;
 const WORDS = { A1: ['noun-a', 'noun-b'], A2: ['adj-c'] };
-const CAPS = { A1: 3 * MB, A2: 6 * MB };
+const CAPS: Record<string, number> = { A1: 3 * MB, A2: 6 * MB };
 const body = (id: string) => atom('ftyp', Buffer.from(`audio of ${id}`));
 
 /** Writes a valid folder; `tweak` edits the file map (before the indexes are built) or the folder (after). */
-function fixture(opts: { before?: (files: Map<string, { level: string; text: string; bytes: Buffer }>) => void; after?: (dir: string) => void } = {}) {
+function fixture(opts: { words?: Record<string, string[]>; before?: (files: Map<string, { level: string; text: string; bytes: Buffer }>) => void; after?: (dir: string) => void } = {}) {
   const dir = mkdtempSync(join(tmpdir(), 'lg-validate-audio-'));
   const files = new Map<string, { level: string; text: string; bytes: Buffer }>();
-  for (const [level, ids] of Object.entries(WORDS)) {
+  for (const [level, ids] of Object.entries(opts.words ?? WORDS)) {
     mkdirSync(join(dir, level));
     for (const id of ids) {
       files.set(id, { level, text: id, bytes: body(id) });
@@ -103,4 +103,25 @@ test('a missing AUDIO-LICENCE.md, root index or folder is an error', () => {
 test('a word the level index does not list is an error', () => {
   const errors = run(fixture({ before: (files) => files.delete('noun-b') }));
   assert.deepEqual(errors, ['word noun-b is not listed in audio/A1/index.json']);
+});
+
+test('a level with live words but no folder is named; a level without live words is not an error', () => {
+  const live = run(fixture(), { ...WORDS, B2: ['noun-z'] }, { ...CAPS, B2: 10 * MB });
+  assert.deepEqual(live, ['audio/B2/index.json is missing']);
+  assert.deepEqual(run(fixture(), { ...WORDS, B2: [] }, { ...CAPS, B2: 10 * MB }), []);
+});
+
+test('a B2 folder over its cap is one error', () => {
+  const words = { ...WORDS, B2: ['noun-z'] };
+  const dir = fixture({ words });
+  assert.deepEqual(run(dir, words, { ...CAPS, B2: 10 }), ['audio B2 total 23 bytes is over cap 10']);
+});
+
+test('the cap map has B2 at 10,000,000 bytes (decimal)', () => {
+  assert.equal(AUDIO_CAPS_BYTES.B2, 10_000_000);
+  assert.equal(AUDIO_CAPS_BYTES.B1, 7_000_000);
+});
+
+test('a missing B1 folder is an error even with no live B1 words (A1, A2, B1 are permanent)', () => {
+  assert.deepEqual(run(fixture(), { ...WORDS, B1: [] }, { ...CAPS, B1: 7 * MB }), ['audio/B1/index.json is missing']);
 });
