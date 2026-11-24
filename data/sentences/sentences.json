@@ -3276,5 +3276,676 @@
       "fles"
     ],
     "reviewed": false
+  },
+  {
+    "word_id": "verb-trouwen",
+    "nl": "Mijn broer en zijn vriendin gaan trouwen.",
+    "form": "trouwen",
+    "distractors": [
+      "breken",
+      "hangen",
+      "draaien"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-ontmoeten",
+    "nl": "Ik wil jouw moeder graag ontmoeten.",
+    "form": "ontmoeten",
+    "distractors": [
+      "breken",
+      "hangen",
+      "draaien"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-scheiden",
+    "nl": "Mijn buren gaan scheiden.",
+    "form": "scheiden",
+    "distractors": [
+      "breken",
+      "hangen",
+      "draaien"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-verhuizen",
+    "nl": "Wij gaan naar een nieuw huis verhuizen.",
+    "form": "verhuizen",
+    "distractors": [
+      "breken",
+      "hangen",
+      "draaien"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-huren",
+    "nl": "Wij willen een appartement huren.",
+    "form": "huren",
+    "distractors": [
+      "hangen",
+      "draaien",
+      "springen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-bereiden",
+    "nl": "Ik bereid de vis met groente.",
+    "form": "bereid",
+    "distractors": [
+      "zwem",
+      "woon",
+      "spring"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-bakken",
+    "nl": "Mijn oma wil een brood bakken.",
+    "form": "bakken",
+    "distractors": [
+      "roepen",
+      "draaien",
+      "springen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-snijden",
+    "nl": "Mag ik de appel snijden?",
+    "form": "snijden",
+    "distractors": [
+      "roepen",
+      "draaien",
+      "springen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-duren",
+    "nl": "Hoe lang duurt de film?",
+    "form": "duurt",
+    "distractors": [
+      "springt",
+      "hangt",
+      "roept"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-schrijven",
+    "nl": "Ik schrijf mijn naam en mijn adres.",
+    "form": "schrijf",
+    "distractors": [
+      "snijd",
+      "draai",
+      "spring"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-bewegen",
+    "nl": "Een baby kan zijn armen en benen bewegen.",
+    "form": "bewegen",
+    "distractors": [
+      "bakken",
+      "snijden",
+      "hangen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-bloeden",
+    "nl": "Mijn vinger bloedt en doet pijn.",
+    "form": "bloedt",
+    "distractors": [
+      "springt",
+      "hangt",
+      "draait"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-genezen",
+    "nl": "Mijn been moet nog genezen.",
+    "form": "genezen",
+    "distractors": [
+      "bakken",
+      "snijden",
+      "hangen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-roken",
+    "nl": "Hier mag ik niet roken.",
+    "form": "roken",
+    "distractors": [
+      "springen",
+      "hangen",
+      "draaien"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-regenen",
+    "nl": "Het gaat vandaag regenen.",
+    "form": "regenen",
+    "distractors": [
+      "springen",
+      "hangen",
+      "draaien"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-zijn",
+    "nl": "Mijn zus en ik zijn moe.",
+    "form": "zijn",
+    "distractors": [
+      "bouwen",
+      "bakken",
+      "snijden"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-hebben",
+    "nl": "Wij hebben een groot huis.",
+    "form": "hebben",
+    "distractors": [
+      "springen",
+      "draaien",
+      "roepen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-kunnen",
+    "nl": "Ik kan goed zwemmen.",
+    "form": "kan",
+    "distractors": [
+      "zie",
+      "doe",
+      "spreek"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-gaan",
+    "nl": "Wij gaan morgen naar het park.",
+    "form": "gaan",
+    "distractors": [
+      "zien",
+      "hebben",
+      "maken"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-komen",
+    "nl": "Mijn oma komt morgen bij ons.",
+    "form": "komt",
+    "distractors": [
+      "maakt",
+      "ziet",
+      "vraagt"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-moeten",
+    "nl": "Ik moet vandaag naar de winkel.",
+    "form": "moet",
+    "distractors": [
+      "heb",
+      "zie",
+      "maak"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-maken",
+    "nl": "Wij maken koffie in de keuken.",
+    "form": "maken",
+    "distractors": [
+      "springen",
+      "hangen",
+      "roepen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-zien",
+    "nl": "Zie je de bus daar?",
+    "form": "zie",
+    "distractors": [
+      "eet",
+      "drink",
+      "spreek"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-doen",
+    "nl": "Wat doe jij vandaag?",
+    "form": "doe",
+    "distractors": [
+      "woon",
+      "zwem",
+      "spreek"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-krijgen",
+    "nl": "Ik krijg een nieuwe telefoon voor mijn verjaardag.",
+    "form": "krijg",
+    "distractors": [
+      "zwem",
+      "luister",
+      "spreek"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-wassen",
+    "nl": "Ik moet mijn handen wassen.",
+    "form": "wassen",
+    "distractors": [
+      "bouwen",
+      "springen",
+      "roepen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-staan",
+    "nl": "De fles staat op de tafel.",
+    "form": "staat",
+    "distractors": [
+      "spreekt",
+      "werkt",
+      "schrijft"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-vinden",
+    "nl": "Ik kan mijn sleutel niet vinden.",
+    "form": "vinden",
+    "distractors": [
+      "zwemmen",
+      "spelen",
+      "lopen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-nemen",
+    "nl": "Neem een appel uit de doos.",
+    "form": "neem",
+    "distractors": [
+      "zwem",
+      "loop",
+      "spreek"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-geven",
+    "nl": "Ik geef mijn vriend een mooie fiets.",
+    "form": "geef",
+    "distractors": [
+      "loop",
+      "zwem",
+      "spreek"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-willen",
+    "nl": "Wat wil jij eten?",
+    "form": "wil",
+    "distractors": [
+      "zwem",
+      "spreek",
+      "loop"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-liggen",
+    "nl": "De hond ligt in de tuin.",
+    "form": "ligt",
+    "distractors": [
+      "werkt",
+      "schrijft",
+      "bouwt"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-beginnen",
+    "nl": "De film begint over tien minuten.",
+    "form": "begint",
+    "distractors": [
+      "werkt",
+      "bouwt",
+      "schrijft"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-mogen",
+    "nl": "Mag ik hier zitten?",
+    "form": "mag",
+    "distractors": [
+      "zwem",
+      "spreek",
+      "loop"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-denken",
+    "nl": "Ik denk aan mijn familie.",
+    "form": "denk",
+    "distractors": [
+      "zwem",
+      "loop",
+      "bouw"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-zitten",
+    "nl": "Mijn opa zit in de stoel.",
+    "form": "zit",
+    "distractors": [
+      "zwemt",
+      "spreekt",
+      "schrijft"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-brengen",
+    "nl": "Ik breng mijn zoon naar school.",
+    "form": "breng",
+    "distractors": [
+      "zwem",
+      "spreek",
+      "lees"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-lopen",
+    "nl": "Ik loop naar het station.",
+    "form": "loop",
+    "distractors": [
+      "zwem",
+      "eet",
+      "spreek"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-weten",
+    "nl": "Weet jij waar mijn sleutel is?",
+    "form": "weet",
+    "distractors": [
+      "eet",
+      "drink",
+      "spreek"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-openen",
+    "nl": "Kunt u het raam openen?",
+    "form": "openen",
+    "distractors": [
+      "eten",
+      "drinken",
+      "lezen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-horen",
+    "nl": "Ik hoor de bus niet.",
+    "form": "hoor",
+    "distractors": [
+      "eet",
+      "drink",
+      "spreek"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-sluiten",
+    "nl": "Wij sluiten de deur om tien uur.",
+    "form": "sluiten",
+    "distractors": [
+      "eten",
+      "drinken",
+      "lezen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-zeggen",
+    "nl": "Wat wil jij zeggen?",
+    "form": "zeggen",
+    "distractors": [
+      "springen",
+      "hangen",
+      "draaien"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-vragen",
+    "nl": "Wij moeten de weg vragen.",
+    "form": "vragen",
+    "distractors": [
+      "eten",
+      "drinken",
+      "wassen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-spreken",
+    "nl": "De leraar spreekt met de ouders.",
+    "form": "spreekt",
+    "distractors": [
+      "bouwt",
+      "springt",
+      "hangt"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-begrijpen",
+    "nl": "Ik begrijp de vraag niet.",
+    "form": "begrijp",
+    "distractors": [
+      "eet",
+      "drink",
+      "zwem"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-heten",
+    "nl": "Hoe heet dit gerecht?",
+    "form": "heet",
+    "distractors": [
+      "werkt",
+      "woont",
+      "zwemt"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-antwoorden",
+    "nl": "Hij antwoordt niet op mijn vraag.",
+    "form": "antwoordt",
+    "distractors": [
+      "zwemt",
+      "werkt",
+      "woont"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-dragen",
+    "nl": "Mijn zoon draagt een rode broek.",
+    "form": "draagt",
+    "distractors": [
+      "bouwt",
+      "eet",
+      "woont"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-passen",
+    "nl": "Deze schoenen passen niet.",
+    "form": "passen",
+    "distractors": [
+      "wonen",
+      "zwemmen",
+      "spelen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-vliegen",
+    "nl": "Ik wil naar het zuiden vliegen.",
+    "form": "vliegen",
+    "distractors": [
+      "eten",
+      "wonen",
+      "slapen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-rusten",
+    "nl": "Mijn oma moet vandaag rusten.",
+    "form": "rusten",
+    "distractors": [
+      "springen",
+      "roepen",
+      "draaien"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-bouwen",
+    "nl": "Zij bouwen een nieuw huis in de stad.",
+    "form": "bouwen",
+    "distractors": [
+      "eten",
+      "drinken",
+      "lezen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-groeien",
+    "nl": "Mijn zoon groeit snel.",
+    "form": "groeit",
+    "distractors": [
+      "woont",
+      "roept",
+      "hangt"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-drukken",
+    "nl": "Druk hier om de deur te openen.",
+    "form": "druk",
+    "distractors": [
+      "eet",
+      "drink",
+      "spreek"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-draaien",
+    "nl": "Draai de sleutel in de deur.",
+    "form": "draai",
+    "distractors": [
+      "eet",
+      "drink",
+      "lees"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-hoeven",
+    "nl": "Je hoeft niet te wachten.",
+    "form": "hoeft",
+    "distractors": [
+      "eet",
+      "werkt",
+      "spreekt"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-roepen",
+    "nl": "Mijn moeder roept mij naar de keuken.",
+    "form": "roept",
+    "distractors": [
+      "werkt",
+      "eet",
+      "drinkt"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-hangen",
+    "nl": "De lamp hangt boven de tafel.",
+    "form": "hangt",
+    "distractors": [
+      "eet",
+      "werkt",
+      "woont"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-breken",
+    "nl": "Het glas kan breken.",
+    "form": "breken",
+    "distractors": [
+      "eten",
+      "wonen",
+      "lezen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-springen",
+    "nl": "De hond kan hoog springen.",
+    "form": "springen",
+    "distractors": [
+      "eten",
+      "wonen",
+      "lezen"
+    ],
+    "reviewed": false
   }
 ]
