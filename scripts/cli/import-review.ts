@@ -2,11 +2,12 @@ import { readFileSync, writeFileSync } from 'node:fs';
 import { basename, dirname, join } from 'node:path';
 
 import { applyReview, applySentenceReview, changedFiles } from '../import-review.ts';
-import { loadSentenceStage } from '../sentence-stage.ts';
+import { loadSentenceStage, saveSentenceStage } from '../sentence-stage.ts';
 import { mergeStage, stageFiles, takeStage } from '../stage.ts';
 import { loadContent } from '../validate.ts';
 
-const root = join(import.meta.dirname, '..', '..');
+// CONTENT_ROOT lets the CLI tests run against a temporary copy of the data.
+const root = process.env.CONTENT_ROOT ?? join(import.meta.dirname, '..', '..');
 const args = process.argv.slice(2);
 const langAt = args.indexOf('--lang');
 const flag = langAt >= 0 ? args.splice(langAt, 2)[1] : undefined;
@@ -15,8 +16,8 @@ const source = reviewerAt >= 0 ? (args.splice(reviewerAt, 1), 'reviewer' as cons
 if (args[args.indexOf('--stage') + 1] === 'sentences') {
   args.splice(args.indexOf('--stage'), 2);
   if (!flag || !args[0]) throw new Error('Usage: npm run import-review -- --stage sentences --lang tr review/sentences-a1-owner.csv');
-  const { stage, summary } = applySentenceReview(loadSentenceStage(), readFileSync(args[0], 'utf8'), flag);
-  writeFileSync(join(root, 'data', 'sentences', 'translations', `${flag}.json`), JSON.stringify(stage.translations[flag], null, 2) + '\n');
+  const { stage, summary } = applySentenceReview(loadSentenceStage(root), readFileSync(args[0], 'utf8'), flag);
+  saveSentenceStage(stage, flag, root);
   console.log(flag, summary);
   process.exit(0);
 }
