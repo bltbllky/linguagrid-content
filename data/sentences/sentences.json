@@ -10803,7 +10803,7 @@
     "distractors": [
       "duim",
       "bril",
-      "zomer"
+      "les"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -10931,9 +10931,9 @@
     "nl": "Bij de douane laat ik mijn paspoort zien.",
     "form": "paspoort",
     "distractors": [
-      "seizoen",
-      "restaurant",
-      "dier"
+      "westen",
+      "noorden",
+      "seizoen"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -11407,7 +11407,7 @@
     "form": "product",
     "distractors": [
       "jaar",
-      "schaap",
+      "geluid",
       "lichaam"
     ],
     "reviewed": true,
@@ -11799,7 +11799,7 @@
     "nl": "Het kind vindt een schelp op het strand.",
     "form": "schelp",
     "distractors": [
-      "kerk",
+      "minuut",
       "herfst",
       "mond"
     ],
@@ -11883,8 +11883,8 @@
     "nl": "Ik schrijf mijn naam in het schrift.",
     "form": "schrift",
     "distractors": [
-      "appartement",
-      "weer",
+      "geluid",
+      "gat",
       "dier"
     ],
     "reviewed": true,
@@ -12313,9 +12313,9 @@
     "nl": "Er is geen stroom in de keuken.",
     "form": "stroom",
     "distractors": [
-      "boerderij",
+      "leeftijd",
       "nacht",
-      "manager"
+      "geboorte"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -12360,8 +12360,8 @@
     "nl": "Zijn hand ligt op het stuur.",
     "form": "stuur",
     "distractors": [
-      "bier",
-      "medicijn",
+      "geluid",
+      "geluk",
       "weekend"
     ],
     "reviewed": true,
@@ -12396,9 +12396,9 @@
     "nl": "Elk kind heeft een taak in de klas.",
     "form": "taak",
     "distractors": [
-      "naam",
+      "brug",
       "flat",
-      "bezoeker"
+      "snelweg"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -12554,7 +12554,7 @@
     "distractors": [
       "hart",
       "tijdschrift",
-      "werk"
+      "gewicht"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -12684,7 +12684,7 @@
     "distractors": [
       "naam",
       "boom",
-      "advocaat"
+      "toren"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -13039,9 +13039,9 @@
     "nl": "Dit virus maakt mij ziek.",
     "form": "virus",
     "distractors": [
-      "werk",
-      "festival",
-      "oor"
+      "westen",
+      "huisnummer",
+      "midden"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -13101,7 +13101,7 @@
     "distractors": [
       "grot",
       "avond",
-      "kaart"
+      "leeftijd"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -13279,9 +13279,9 @@
     "nl": "Het vuurwerk is erg mooi.",
     "form": "vuurwerk",
     "distractors": [
-      "seizoen",
-      "brood",
-      "woordenboek"
+      "gewicht",
+      "vet",
+      "gevaar"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -13493,9 +13493,9 @@
     "nl": "De wind is vandaag erg koud.",
     "form": "wind",
     "distractors": [
-      "sjaal",
-      "winter",
-      "bibliotheek"
+      "les",
+      "datum",
+      "minuut"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -13673,9 +13673,9 @@
     "nl": "De kinderen spelen met het zand.",
     "form": "zand",
     "distractors": [
-      "werk",
+      "noorden",
       "oor",
-      "hart"
+      "huisnummer"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -14151,7 +14151,7 @@
     "distractors": [
       "pakken",
       "sneeuwen",
-      "opnemen"
+      "krijgen"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -14581,7 +14581,7 @@
     "distractors": [
       "aankomen",
       "vriezen",
-      "overleggen"
+      "zwemmen"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -14698,7 +14698,7 @@
     "form": "koelen",
     "distractors": [
       "groeien",
-      "ontdekken",
+      "fietsen",
       "ontsnappen"
     ],
     "reviewed": true,
@@ -14756,7 +14756,7 @@
     "nl": "Ik moet de doos legen.",
     "form": "legen",
     "distractors": [
-      "negeren",
+      "lopen",
       "vriezen",
       "vliegen"
     ],
@@ -14804,9 +14804,9 @@
     "nl": "Mijn zoon wil niet liegen.",
     "form": "liegen",
     "distractors": [
-      "bewaren",
-      "groeien",
-      "verhuren"
+      "kosten",
+      "lukken",
+      "schelen"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -14841,7 +14841,7 @@
     "form": "logeren",
     "distractors": [
       "wensen",
-      "wennen",
+      "vinden",
       "regenen"
     ],
     "reviewed": true,
@@ -14924,7 +14924,7 @@
     "distractors": [
       "kruipen",
       "regenen",
-      "verliezen"
+      "wonen"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -14970,9 +14970,9 @@
     "nl": "Je mag mij niet negeren.",
     "form": "negeren",
     "distractors": [
-      "lenen",
+      "zwemmen",
       "regenen",
-      "aanbieden"
+      "wachten"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -15018,9 +15018,9 @@
     "nl": "Wij willen buiten ontbijten.",
     "form": "ontbijten",
     "distractors": [
-      "groeien",
-      "posten",
-      "besluiten"
+      "krijgen",
+      "kosten",
+      "vinden"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -15066,9 +15066,9 @@
     "nl": "Na het werk wil ik ontspannen.",
     "form": "ontspannen",
     "distractors": [
-      "toevoegen",
-      "liegen",
-      "groeien"
+      "gebeuren",
+      "duren",
+      "vinden"
     ],
     "reviewed": false
   },
@@ -15112,9 +15112,9 @@
     "nl": "Ik wil niet opgeven.",
     "form": "opgeven",
     "distractors": [
-      "kruipen",
+      "gebeuren",
       "waaien",
-      "merken"
+      "duren"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -15126,7 +15126,7 @@
     "distractors": [
       "waaien",
       "vechten",
-      "opblazen"
+      "slapen"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -15161,7 +15161,7 @@
     "form": "opruimen",
     "distractors": [
       "waaien",
-      "aanvragen",
+      "zwemmen",
       "schaken"
     ],
     "reviewed": true,
@@ -15208,9 +15208,9 @@
     "nl": "Ik moet met mijn baas overleggen.",
     "form": "overleggen",
     "distractors": [
-      "verdelen",
-      "groeien",
-      "klappen"
+      "kosten",
+      "schelen",
+      "lukken"
     ],
     "reviewed": false
   },
@@ -15374,9 +15374,9 @@
     "nl": "De kinderen leren op school rekenen.",
     "form": "rekenen",
     "distractors": [
-      "herstellen",
+      "lijken",
       "bloeden",
-      "beschermen"
+      "schelen"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -15434,9 +15434,9 @@
     "nl": "Wij willen met onze buren samenwerken.",
     "form": "samenwerken",
     "distractors": [
-      "verbeteren",
+      "kosten",
       "bloeden",
-      "veranderen"
+      "schelen"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -15496,7 +15496,7 @@
     "distractors": [
       "zakken",
       "braken",
-      "missen"
+      "lachen"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -15506,8 +15506,8 @@
     "nl": "Je hoeft niet te schreeuwen.",
     "form": "schreeuwen",
     "distractors": [
-      "verzamelen",
-      "braken",
+      "kosten",
+      "lukken",
       "toevoegen"
     ],
     "reviewed": true,
@@ -15577,9 +15577,9 @@
     "nl": "Ik kan dit medicijn niet slikken.",
     "form": "slikken",
     "distractors": [
-      "braken",
+      "werken",
       "mislukken",
-      "oplossen"
+      "rijden"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -15637,9 +15637,9 @@
     "nl": "Mijn dochter wil elke dag sporten.",
     "form": "sporten",
     "distractors": [
-      "planten",
-      "zuchten",
-      "bewaren"
+      "gebeuren",
+      "duren",
+      "kosten"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -15709,9 +15709,9 @@
     "nl": "Mijn broer wil in de stad studeren.",
     "form": "studeren",
     "distractors": [
-      "overleggen",
-      "braken",
-      "zuchten"
+      "gebeuren",
+      "kosten",
+      "lijken"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -15780,7 +15780,7 @@
     "nl": "Wij willen volgend jaar terugkomen.",
     "form": "terugkomen",
     "distractors": [
-      "zuchten",
+      "vinden",
       "legen",
       "leveren"
     ],
@@ -15794,7 +15794,7 @@
     "distractors": [
       "zuchten",
       "betekenen",
-      "uitleggen"
+      "wonen"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -15805,7 +15805,7 @@
     "form": "thuisblijven",
     "distractors": [
       "geven",
-      "hoesten",
+      "brengen",
       "pakken"
     ],
     "reviewed": true,
@@ -15886,7 +15886,7 @@
     "nl": "Ik wil een brief op de computer typen.",
     "form": "typen",
     "distractors": [
-      "organiseren",
+      "lachen",
       "bakken",
       "hoesten"
     ],
@@ -15934,9 +15934,9 @@
     "nl": "Ik wil mijn buren uitnodigen.",
     "form": "uitnodigen",
     "distractors": [
-      "trappen",
+      "wonen",
       "hoesten",
-      "wijzen"
+      "lachen"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -16018,9 +16018,9 @@
     "nl": "De jongens willen niet vechten.",
     "form": "vechten",
     "distractors": [
-      "hoesten",
-      "branden",
-      "appen"
+      "krijgen",
+      "vinden",
+      "brengen"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -16054,9 +16054,9 @@
     "nl": "Ik wil mijn werk verbeteren.",
     "form": "verbeteren",
     "distractors": [
-      "versieren",
+      "fietsen",
       "hoesten",
-      "sturen"
+      "wonen"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -16176,7 +16176,7 @@
     "distractors": [
       "huilen",
       "slikken",
-      "verzinnen"
+      "werken"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -16343,7 +16343,7 @@
     "distractors": [
       "huilen",
       "winkelen",
-      "merken"
+      "zwemmen"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -16511,7 +16511,7 @@
     "distractors": [
       "reizen",
       "spellen",
-      "dromen"
+      "lopen"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -16641,9 +16641,9 @@
     "nl": "Ik zorg voor mijn oma.",
     "form": "zorg",
     "distractors": [
-      "woon",
-      "hoop",
-      "denk"
+      "lijk",
+      "klink",
+      "gebeur"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -16654,8 +16654,8 @@
     "form": "zucht",
     "distractors": [
       "duwt",
-      "groeit",
-      "schrijft"
+      "pakt",
+      "bouwt"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
