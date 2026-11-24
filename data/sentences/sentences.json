@@ -1098,5 +1098,2183 @@
       "bang"
     ],
     "reviewed": false
+  },
+  {
+    "word_id": "noun-mens",
+    "nl": "Elk mens heeft een naam.",
+    "form": "mens",
+    "distractors": [
+      "fles",
+      "bril",
+      "kaas"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-inwoner",
+    "nl": "Deze stad heeft veel inwoners.",
+    "form": "inwoners",
+    "distractors": [
+      "schoenen",
+      "flessen",
+      "brillen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-leven",
+    "nl": "Het leven is niet makkelijk.",
+    "form": "leven",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-vrouw",
+    "nl": "Die vrouw woont in een klein appartement.",
+    "form": "vrouw",
+    "distractors": [
+      "tafel",
+      "fles",
+      "deur"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-familie",
+    "nl": "Mijn familie is groot en gelukkig.",
+    "form": "familie",
+    "distractors": [
+      "kaas",
+      "deur",
+      "fles"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-zoon",
+    "nl": "Mijn zoon speelt voetbal in het park.",
+    "form": "zoon",
+    "distractors": [
+      "tafel",
+      "bril",
+      "kaas"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-vader",
+    "nl": "Mijn vader werkt in een groot restaurant.",
+    "form": "vader",
+    "distractors": [
+      "bril",
+      "fles",
+      "deur"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-persoon",
+    "nl": "Wie is die persoon daar?",
+    "form": "persoon",
+    "distractors": [
+      "tafel",
+      "fles",
+      "bril"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-jongen",
+    "nl": "De jongen eet een appel in de tuin.",
+    "form": "jongen",
+    "distractors": [
+      "tafel",
+      "fles",
+      "deur"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-lid",
+    "nl": "Elk lid van de familie komt vandaag.",
+    "form": "lid",
+    "distractors": [
+      "kaas",
+      "bril",
+      "deur"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-leeftijd",
+    "nl": "Mijn oma heeft een hoge leeftijd.",
+    "form": "leeftijd",
+    "distractors": [
+      "fles",
+      "kaas",
+      "bril"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-dochter",
+    "nl": "Mijn dochter gaat met de fiets naar school.",
+    "form": "dochter",
+    "distractors": [
+      "tafel",
+      "fles",
+      "bril"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-broer",
+    "nl": "Mijn broer woont in een andere stad.",
+    "form": "broer",
+    "distractors": [
+      "tafel",
+      "fles",
+      "deur"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-ouder",
+    "nl": "Elke ouder wil een gezond kind.",
+    "form": "ouder",
+    "distractors": [
+      "bril",
+      "tafel",
+      "kaas"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-relatie",
+    "nl": "Zij hebben een goede relatie met hun buren.",
+    "form": "relatie",
+    "distractors": [
+      "fles",
+      "bril",
+      "kaas"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-huwelijk",
+    "nl": "Hun huwelijk is lang en gelukkig.",
+    "form": "huwelijk",
+    "distractors": [
+      "huis",
+      "bed",
+      "raam"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-dame",
+    "nl": "De dame bij de deur wacht op de bus.",
+    "form": "dame",
+    "distractors": [
+      "tafel",
+      "fles",
+      "bril"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-jeugd",
+    "nl": "In mijn jeugd woonde ik in de stad.",
+    "form": "jeugd",
+    "distractors": [
+      "week",
+      "bril",
+      "fles"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-vriendin",
+    "nl": "Mijn vriendin is vandaag bij haar moeder.",
+    "form": "vriendin",
+    "distractors": [
+      "tafel",
+      "bril",
+      "kaas"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-meneer",
+    "nl": "Meneer, kunt u mij helpen?",
+    "form": "meneer",
+    "distractors": [
+      "fles",
+      "bril",
+      "kaas"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-mevrouw",
+    "nl": "Mevrouw, wat is uw adres?",
+    "form": "mevrouw",
+    "distractors": [
+      "fles",
+      "bril",
+      "kaas"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-gast",
+    "nl": "De gast wacht in de kamer.",
+    "form": "gast",
+    "distractors": [
+      "tafel",
+      "fles",
+      "bril"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-oom",
+    "nl": "Mijn oom woont in het zuiden.",
+    "form": "oom",
+    "distractors": [
+      "bril",
+      "fles",
+      "kaas"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-baby",
+    "nl": "De baby slaapt in het kleine bed.",
+    "form": "baby",
+    "distractors": [
+      "tafel",
+      "fles",
+      "bril"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-geboorte",
+    "nl": "De geboorte van mijn zoon was in mei.",
+    "form": "geboorte",
+    "distractors": [
+      "bril",
+      "fles",
+      "tafel"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-neef",
+    "nl": "Mijn neef speelt graag voetbal met mij.",
+    "form": "neef",
+    "distractors": [
+      "bril",
+      "fles",
+      "kaas"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-ontmoeting",
+    "nl": "De ontmoeting is om twee uur bij het station.",
+    "form": "ontmoeting",
+    "distractors": [
+      "tafel",
+      "fles",
+      "bril"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-volwassene",
+    "nl": "Een volwassene en een kind eten samen.",
+    "form": "volwassene",
+    "distractors": [
+      "kaas",
+      "fles",
+      "bril"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-tante",
+    "nl": "Mijn tante belt mij elke avond.",
+    "form": "tante",
+    "distractors": [
+      "bril",
+      "fles",
+      "kaas"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-oma",
+    "nl": "Mijn oma is oud, maar zij is gezond.",
+    "form": "oma",
+    "distractors": [
+      "bril",
+      "fles",
+      "kaas"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-opa",
+    "nl": "Mijn opa loopt elke dag in het park.",
+    "form": "opa",
+    "distractors": [
+      "bril",
+      "fles",
+      "kaas"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-mama",
+    "nl": "Mama, waar is mijn telefoon?",
+    "form": "mama",
+    "distractors": [
+      "fles",
+      "bril",
+      "kaas"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-woning",
+    "nl": "Zij zoeken een nieuwe woning in de stad.",
+    "form": "woning",
+    "distractors": [
+      "week",
+      "uur",
+      "jaar"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-buurt",
+    "nl": "In onze buurt is een groot park.",
+    "form": "buurt",
+    "distractors": [
+      "fles",
+      "bril",
+      "kaas"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-muur",
+    "nl": "De muur van de kamer is wit.",
+    "form": "muur",
+    "distractors": [
+      "week",
+      "avond",
+      "keer"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-dak",
+    "nl": "Het dak van het huis is rood.",
+    "form": "dak",
+    "distractors": [
+      "uur",
+      "geld",
+      "jaar"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-apparaat",
+    "nl": "Dit apparaat is nieuw en werkt goed.",
+    "form": "apparaat",
+    "distractors": [
+      "brood",
+      "kaas",
+      "appel"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-verdieping",
+    "nl": "Dit huis heeft twee verdiepingen.",
+    "form": "verdiepingen",
+    "distractors": [
+      "weken",
+      "dagen",
+      "maanden"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-kussen",
+    "nl": "Mijn kussen ligt op het bed.",
+    "form": "kussen",
+    "distractors": [
+      "week",
+      "uur",
+      "jaar"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bord",
+    "nl": "Er ligt kip op het bord.",
+    "form": "bord",
+    "distractors": [
+      "avond",
+      "zomer",
+      "nacht"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-appartement",
+    "nl": "Het appartement heeft een balkon en een keuken.",
+    "form": "appartement",
+    "distractors": [
+      "uur",
+      "week",
+      "jaar"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-mes",
+    "nl": "Ik snijd het brood met een mes.",
+    "form": "mes",
+    "distractors": [
+      "bril",
+      "schoen",
+      "week"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-huishouden",
+    "nl": "Ik doe elke dag het huishouden.",
+    "form": "huishouden",
+    "distractors": [
+      "weer",
+      "station",
+      "park"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-trap",
+    "nl": "De trap in ons huis is heel lang.",
+    "form": "trap",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-afval",
+    "nl": "Wij brengen het afval naar buiten.",
+    "form": "afval",
+    "distractors": [
+      "weer",
+      "station",
+      "uur"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-kast",
+    "nl": "De kleding ligt in de kast.",
+    "form": "kast",
+    "distractors": [
+      "week",
+      "maand",
+      "keer"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-spiegel",
+    "nl": "Ik zie mijn gezicht in de spiegel.",
+    "form": "spiegel",
+    "distractors": [
+      "week",
+      "maand",
+      "keer"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-doos",
+    "nl": "Er zit een telefoon in de doos.",
+    "form": "doos",
+    "distractors": [
+      "maand",
+      "keer",
+      "week"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-lamp",
+    "nl": "De lamp in de keuken is nieuw.",
+    "form": "lamp",
+    "distractors": [
+      "winter",
+      "avond",
+      "week"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-laken",
+    "nl": "Mijn bed heeft een schoon laken.",
+    "form": "laken",
+    "distractors": [
+      "uur",
+      "weer",
+      "werk"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-pan",
+    "nl": "Ik kook water in de pan.",
+    "form": "pan",
+    "distractors": [
+      "bril",
+      "schoen",
+      "deur"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-flat",
+    "nl": "Mijn zus woont in een grote flat.",
+    "form": "flat",
+    "distractors": [
+      "week",
+      "bril",
+      "fles"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-toilet",
+    "nl": "Waar is het toilet?",
+    "form": "toilet",
+    "distractors": [
+      "uur",
+      "jaar",
+      "weer"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-balkon",
+    "nl": "Wij eten op het balkon in de zomer.",
+    "form": "balkon",
+    "distractors": [
+      "uur",
+      "jaar",
+      "weer"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-restaurant",
+    "nl": "Dit restaurant heeft goede kip en vis.",
+    "form": "restaurant",
+    "distractors": [
+      "weer",
+      "werk",
+      "jaar"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bier",
+    "nl": "Mijn vader drinkt een koud bier.",
+    "form": "bier",
+    "distractors": [
+      "brood",
+      "appel",
+      "kaas"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-glas",
+    "nl": "Ik drink een glas water in de keuken.",
+    "form": "glas",
+    "distractors": [
+      "bril",
+      "schoen",
+      "week"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-gerecht",
+    "nl": "Dit gerecht is lekker en niet duur.",
+    "form": "gerecht",
+    "distractors": [
+      "week",
+      "bril",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-wijn",
+    "nl": "Mijn buur drinkt graag een glas wijn.",
+    "form": "wijn",
+    "distractors": [
+      "brood",
+      "kaas",
+      "appel"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-vlees",
+    "nl": "Mijn zoon eet geen vlees.",
+    "form": "vlees",
+    "distractors": [
+      "bril",
+      "schoen",
+      "deur"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-vis",
+    "nl": "Wij eten vandaag vis met groente.",
+    "form": "vis",
+    "distractors": [
+      "tafel",
+      "schoen",
+      "bril"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-drank",
+    "nl": "Een koude drank is lekker in de zomer.",
+    "form": "drank",
+    "distractors": [
+      "bril",
+      "deur",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-olie",
+    "nl": "Ik doe olie in de pan.",
+    "form": "olie",
+    "distractors": [
+      "uur",
+      "jaar",
+      "week"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-smaak",
+    "nl": "De smaak van de koffie is goed.",
+    "form": "smaak",
+    "distractors": [
+      "bril",
+      "deur",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-kip",
+    "nl": "Mijn moeder kookt kip met groente.",
+    "form": "kip",
+    "distractors": [
+      "bril",
+      "schoen",
+      "deur"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-groente",
+    "nl": "Ik eet elke dag groente.",
+    "form": "groente",
+    "distractors": [
+      "bril",
+      "schoen",
+      "deur"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-wortel",
+    "nl": "Ik snijd een wortel voor het eten.",
+    "form": "wortel",
+    "distractors": [
+      "week",
+      "jaar",
+      "uur"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-recept",
+    "nl": "Dit recept is makkelijk en snel.",
+    "form": "recept",
+    "distractors": [
+      "week",
+      "bril",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-tijd",
+    "nl": "Het is tijd om te eten.",
+    "form": "tijd",
+    "distractors": [
+      "bril",
+      "schoen",
+      "deur"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-dag",
+    "nl": "Een week heeft zeven dagen.",
+    "form": "dagen",
+    "distractors": [
+      "weken",
+      "maanden",
+      "minuten"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-seizoen",
+    "nl": "De winter is een koud seizoen.",
+    "form": "seizoen",
+    "distractors": [
+      "bril",
+      "deur",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-keer",
+    "nl": "Ik zie mijn oma een keer in de maand.",
+    "form": "keer",
+    "distractors": [
+      "bril",
+      "schoen",
+      "deur"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-moment",
+    "nl": "Een moment, ik kom zo.",
+    "form": "moment",
+    "distractors": [
+      "bril",
+      "schoen",
+      "deur"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-maand",
+    "nl": "Een jaar heeft twaalf maanden.",
+    "form": "maanden",
+    "distractors": [
+      "weken",
+      "dagen",
+      "minuten"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-periode",
+    "nl": "Deze periode duurt een jaar.",
+    "form": "periode",
+    "distractors": [
+      "tafel",
+      "bril",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-minuut",
+    "nl": "Een uur heeft zestig minuten.",
+    "form": "minuten",
+    "distractors": [
+      "weken",
+      "dagen",
+      "maanden"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-nacht",
+    "nl": "Het is nacht en ik ben moe.",
+    "form": "nacht",
+    "distractors": [
+      "bril",
+      "schoen",
+      "deur"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-toekomst",
+    "nl": "Wat doe jij in de toekomst?",
+    "form": "toekomst",
+    "distractors": [
+      "bril",
+      "schoen",
+      "deur"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-datum",
+    "nl": "Wat is de datum van vandaag?",
+    "form": "datum",
+    "distractors": [
+      "bril",
+      "schoen",
+      "tafel"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-weekend",
+    "nl": "In het weekend ben ik thuis.",
+    "form": "weekend",
+    "distractors": [
+      "bril",
+      "schoen",
+      "deur"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-winter",
+    "nl": "In de winter is het koud.",
+    "form": "winter",
+    "distractors": [
+      "bril",
+      "schoen",
+      "deur"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-ochtend",
+    "nl": "Ik drink elke ochtend koffie.",
+    "form": "ochtend",
+    "distractors": [
+      "bril",
+      "schoen",
+      "deur"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-voorjaar",
+    "nl": "In het voorjaar groeien de bomen.",
+    "form": "voorjaar",
+    "distractors": [
+      "bril",
+      "schoen",
+      "deur"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-kwart",
+    "nl": "Het is een kwart over twee.",
+    "form": "kwart",
+    "distractors": [
+      "bril",
+      "schoen",
+      "deur"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-agenda",
+    "nl": "Mijn agenda ligt op de tafel.",
+    "form": "agenda",
+    "distractors": [
+      "week",
+      "uur",
+      "jaar"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-middag",
+    "nl": "In de middag werk ik niet.",
+    "form": "middag",
+    "distractors": [
+      "bril",
+      "schoen",
+      "deur"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-kerst",
+    "nl": "Wij eten met kerst samen.",
+    "form": "kerst",
+    "distractors": [
+      "bril",
+      "schoen",
+      "deur"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-feestdag",
+    "nl": "Vrijdag is een feestdag.",
+    "form": "feestdag",
+    "distractors": [
+      "tafel",
+      "bril",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-herfst",
+    "nl": "In de herfst is het weer vaak slecht.",
+    "form": "herfst",
+    "distractors": [
+      "bril",
+      "schoen",
+      "deur"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-kalender",
+    "nl": "De kalender hangt aan de muur.",
+    "form": "kalender",
+    "distractors": [
+      "week",
+      "uur",
+      "jaar"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-leraar",
+    "nl": "De leraar spreekt langzaam in de klas.",
+    "form": "leraar",
+    "distractors": [
+      "tafel",
+      "bril",
+      "fles"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-klas",
+    "nl": "Er zijn twintig kinderen in de klas.",
+    "form": "klas",
+    "distractors": [
+      "bril",
+      "fles",
+      "kaas"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-stad",
+    "nl": "Ik woon graag in een grote stad.",
+    "form": "stad",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-weg",
+    "nl": "De weg naar het station is lang.",
+    "form": "weg",
+    "distractors": [
+      "bril",
+      "fles",
+      "kaas"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-land",
+    "nl": "Mijn land is groot en mooi.",
+    "form": "land",
+    "distractors": [
+      "week",
+      "uur",
+      "jaar"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-park",
+    "nl": "Wij lopen elke zondag in het park.",
+    "form": "park",
+    "distractors": [
+      "uur",
+      "jaar",
+      "geld"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bus",
+    "nl": "Ik neem de bus naar mijn werk.",
+    "form": "bus",
+    "distractors": [
+      "week",
+      "avond",
+      "zomer"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-haar",
+    "nl": "Mijn zus heeft lang zwart haar.",
+    "form": "haar",
+    "distractors": [
+      "bril",
+      "schoen",
+      "fles"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-patiënt",
+    "nl": "De patiënt ligt in het ziekenhuis.",
+    "form": "patiënt",
+    "distractors": [
+      "tafel",
+      "fles",
+      "bril"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-lichaam",
+    "nl": "Mijn lichaam is moe.",
+    "form": "lichaam",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-ziekte",
+    "nl": "Hij is thuis door een ziekte.",
+    "form": "ziekte",
+    "distractors": [
+      "tafel",
+      "fles",
+      "kaas"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-arm",
+    "nl": "Mijn arm doet pijn.",
+    "form": "arm",
+    "distractors": [
+      "week",
+      "fles",
+      "kaas"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-voet",
+    "nl": "Mijn voet is koud.",
+    "form": "voet",
+    "distractors": [
+      "week",
+      "avond",
+      "keer"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-gezicht",
+    "nl": "Mijn zoon heeft een rond gezicht.",
+    "form": "gezicht",
+    "distractors": [
+      "week",
+      "avond",
+      "keer"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-gezondheid",
+    "nl": "Mijn oma heeft een goede gezondheid.",
+    "form": "gezondheid",
+    "distractors": [
+      "fles",
+      "kaas",
+      "deur"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-klacht",
+    "nl": "Ik heb een klacht over de kamer.",
+    "form": "klacht",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-ongeluk",
+    "nl": "Er is een ongeluk op de weg.",
+    "form": "ongeluk",
+    "distractors": [
+      "week",
+      "avond",
+      "uur"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-tand",
+    "nl": "Mijn tand doet pijn.",
+    "form": "tand",
+    "distractors": [
+      "week",
+      "fles",
+      "kaas"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-griep",
+    "nl": "Mijn zoon is ziek, hij heeft griep.",
+    "form": "griep",
+    "distractors": [
+      "week",
+      "avond",
+      "zomer"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-mond",
+    "nl": "De baby heeft een kleine mond.",
+    "form": "mond",
+    "distractors": [
+      "week",
+      "avond",
+      "keer"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-oor",
+    "nl": "Mijn oor is koud.",
+    "form": "oor",
+    "distractors": [
+      "week",
+      "avond",
+      "keer"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-pijn",
+    "nl": "Ik heb pijn in mijn been.",
+    "form": "pijn",
+    "distractors": [
+      "week",
+      "avond",
+      "keer"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-medicijn",
+    "nl": "Het medicijn staat in de kast.",
+    "form": "medicijn",
+    "distractors": [
+      "week",
+      "uur",
+      "jaar"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-huid",
+    "nl": "Mijn huid is rood van de zon.",
+    "form": "huid",
+    "distractors": [
+      "week",
+      "avond",
+      "keer"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-rust",
+    "nl": "Na het werk wil ik rust.",
+    "form": "rust",
+    "distractors": [
+      "week",
+      "avond",
+      "keer"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-been",
+    "nl": "Zij heeft lange benen.",
+    "form": "benen",
+    "distractors": [
+      "kleuren",
+      "adressen",
+      "talen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-vinger",
+    "nl": "Ik heb een ring om mijn vinger.",
+    "form": "vinger",
+    "distractors": [
+      "week",
+      "avond",
+      "keer"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-teen",
+    "nl": "De baby heeft tien kleine tenen.",
+    "form": "tenen",
+    "distractors": [
+      "buren",
+      "gasten",
+      "ouders"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-buik",
+    "nl": "De baby ligt op zijn buik.",
+    "form": "buik",
+    "distractors": [
+      "week",
+      "avond",
+      "keer"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bloed",
+    "nl": "Er zit bloed op mijn hand.",
+    "form": "bloed",
+    "distractors": [
+      "week",
+      "avond",
+      "keer"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-schouder",
+    "nl": "Zij heeft een hand op mijn schouder.",
+    "form": "schouder",
+    "distractors": [
+      "week",
+      "avond",
+      "keer"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-nek",
+    "nl": "Mijn nek is koud.",
+    "form": "nek",
+    "distractors": [
+      "week",
+      "avond",
+      "keer"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-keel",
+    "nl": "Mijn keel doet pijn.",
+    "form": "keel",
+    "distractors": [
+      "week",
+      "avond",
+      "keer"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-tong",
+    "nl": "Een hond heeft een rode tong.",
+    "form": "tong",
+    "distractors": [
+      "week",
+      "avond",
+      "nacht"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-foto",
+    "nl": "Ik maak een foto van mijn hond.",
+    "form": "foto",
+    "distractors": [
+      "week",
+      "avond",
+      "keer"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-televisie",
+    "nl": "Wij kijken televisie na het eten.",
+    "form": "televisie",
+    "distractors": [
+      "bril",
+      "schoen",
+      "deur"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-sport",
+    "nl": "Zwemmen is een goede sport.",
+    "form": "sport",
+    "distractors": [
+      "bril",
+      "fles",
+      "kaas"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-voetbal",
+    "nl": "Wij kijken zaterdag naar het voetbal.",
+    "form": "voetbal",
+    "distractors": [
+      "week",
+      "uur",
+      "jaar"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-zee",
+    "nl": "De zee is blauw en groot.",
+    "form": "zee",
+    "distractors": [
+      "week",
+      "avond",
+      "keer"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-kleur",
+    "nl": "Welke kleur heeft jouw auto?",
+    "form": "kleur",
+    "distractors": [
+      "week",
+      "avond",
+      "keer"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-nummer",
+    "nl": "Mijn huis heeft nummer twaalf.",
+    "form": "nummer",
+    "distractors": [
+      "week",
+      "avond",
+      "keer"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-vraag",
+    "nl": "Ik heb een vraag voor de leraar.",
+    "form": "vraag",
+    "distractors": [
+      "keer",
+      "week",
+      "avond"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-antwoord",
+    "nl": "Het antwoord is ja of nee.",
+    "form": "antwoord",
+    "distractors": [
+      "bril",
+      "fles",
+      "kaas"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-euro",
+    "nl": "Ik betaal twintig euro voor de bril.",
+    "form": "euro",
+    "distractors": [
+      "week",
+      "uur",
+      "jaar"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-markt",
+    "nl": "Ik koop groente op de markt.",
+    "form": "markt",
+    "distractors": [
+      "bril",
+      "week",
+      "uur"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-supermarkt",
+    "nl": "Wij kopen brood in de supermarkt.",
+    "form": "supermarkt",
+    "distractors": [
+      "bril",
+      "schoen",
+      "week"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-maat",
+    "nl": "Welke maat heeft u?",
+    "form": "maat",
+    "distractors": [
+      "week",
+      "avond",
+      "keer"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-ring",
+    "nl": "Ik koop een ring voor mijn vrouw.",
+    "form": "ring",
+    "distractors": [
+      "week",
+      "avond",
+      "keer"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-kleding",
+    "nl": "Ik koop nieuwe kleding in de winkel.",
+    "form": "kleding",
+    "distractors": [
+      "week",
+      "avond",
+      "keer"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-echtgenoot",
+    "nl": "Mijn echtgenoot werkt in het ziekenhuis.",
+    "form": "echtgenoot",
+    "distractors": [
+      "tafel",
+      "fles",
+      "bril"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-echtgenote",
+    "nl": "Mijn echtgenote werkt op school.",
+    "form": "echtgenote",
+    "distractors": [
+      "tafel",
+      "fles",
+      "bril"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-hart",
+    "nl": "Zij heeft een goed hart.",
+    "form": "hart",
+    "distractors": [
+      "week",
+      "avond",
+      "keer"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-borst",
+    "nl": "De baby ligt op de borst van zijn moeder.",
+    "form": "borst",
+    "distractors": [
+      "week",
+      "avond",
+      "keer"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-duim",
+    "nl": "Mijn duim is rood.",
+    "form": "duim",
+    "distractors": [
+      "week",
+      "avond",
+      "keer"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-knie",
+    "nl": "De baby zit op de knie van zijn opa.",
+    "form": "knie",
+    "distractors": [
+      "week",
+      "avond",
+      "keer"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-zuiden",
+    "nl": "Het is warm in het zuiden.",
+    "form": "zuiden",
+    "distractors": [
+      "uur",
+      "jaar",
+      "geld"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-westen",
+    "nl": "Mijn broer woont in het westen van het land.",
+    "form": "westen",
+    "distractors": [
+      "uur",
+      "jaar",
+      "geld"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-oosten",
+    "nl": "Mijn familie woont in het oosten.",
+    "form": "oosten",
+    "distractors": [
+      "uur",
+      "jaar",
+      "geld"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-seconde",
+    "nl": "Wacht een seconde, ik kom zo.",
+    "form": "seconde",
+    "distractors": [
+      "tafel",
+      "bril",
+      "fles"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-januari",
+    "nl": "In januari is het heel koud.",
+    "form": "januari",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-februari",
+    "nl": "In februari is mijn verjaardag.",
+    "form": "februari",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-maart",
+    "nl": "In maart gaan wij op vakantie.",
+    "form": "maart",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-april",
+    "nl": "In april regent het veel.",
+    "form": "april",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-mei",
+    "nl": "In mei is het weer mooi.",
+    "form": "mei",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-juni",
+    "nl": "In juni heb ik vakantie.",
+    "form": "juni",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-juli",
+    "nl": "In juli is het heet in de stad.",
+    "form": "juli",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-augustus",
+    "nl": "In augustus zwem ik in de zee.",
+    "form": "augustus",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-september",
+    "nl": "In september begint de school.",
+    "form": "september",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-oktober",
+    "nl": "In oktober zijn de bomen geel en rood.",
+    "form": "oktober",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-november",
+    "nl": "In november is het vaak koud.",
+    "form": "november",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-december",
+    "nl": "In december is het kerst.",
+    "form": "december",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-dinsdag",
+    "nl": "Op dinsdag werk ik thuis.",
+    "form": "dinsdag",
+    "distractors": [
+      "bril",
+      "schoen",
+      "fles"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-woensdag",
+    "nl": "Op woensdag heb ik geen school.",
+    "form": "woensdag",
+    "distractors": [
+      "bril",
+      "schoen",
+      "fles"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-donderdag",
+    "nl": "Op donderdag heb ik les.",
+    "form": "donderdag",
+    "distractors": [
+      "bril",
+      "schoen",
+      "fles"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-vrijdag",
+    "nl": "Op vrijdag werk ik tot vier uur.",
+    "form": "vrijdag",
+    "distractors": [
+      "bril",
+      "schoen",
+      "fles"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-zaterdag",
+    "nl": "Op zaterdag ga ik naar de markt.",
+    "form": "zaterdag",
+    "distractors": [
+      "bril",
+      "schoen",
+      "fles"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-zondag",
+    "nl": "Op zondag eten wij bij mijn oma.",
+    "form": "zondag",
+    "distractors": [
+      "bril",
+      "schoen",
+      "fles"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-nul",
+    "nl": "Ik heb nu nul euro.",
+    "form": "nul",
+    "distractors": [
+      "tafel",
+      "bril",
+      "fles"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-twee",
+    "nl": "Wij hebben twee ogen.",
+    "form": "twee",
+    "distractors": [
+      "drie",
+      "vier",
+      "zes"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-drie",
+    "nl": "Mijn zus heeft drie kinderen.",
+    "form": "drie",
+    "distractors": [
+      "tafel",
+      "bril",
+      "fles"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-vier",
+    "nl": "Een jaar heeft vier seizoenen.",
+    "form": "vier",
+    "distractors": [
+      "twee",
+      "drie",
+      "zes"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-vijf",
+    "nl": "Een hand heeft vijf vingers.",
+    "form": "vijf",
+    "distractors": [
+      "twee",
+      "drie",
+      "zes"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-zes",
+    "nl": "Mijn zoon is zes jaar oud.",
+    "form": "zes",
+    "distractors": [
+      "tafel",
+      "bril",
+      "fles"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-zeven",
+    "nl": "Ik ben om zeven uur thuis.",
+    "form": "zeven",
+    "distractors": [
+      "tafel",
+      "bril",
+      "fles"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-acht",
+    "nl": "De les begint om acht uur.",
+    "form": "acht",
+    "distractors": [
+      "tafel",
+      "bril",
+      "fles"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-negen",
+    "nl": "Het is negen uur in de ochtend.",
+    "form": "negen",
+    "distractors": [
+      "tafel",
+      "bril",
+      "fles"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-tien",
+    "nl": "Een mens heeft tien vingers.",
+    "form": "tien",
+    "distractors": [
+      "drie",
+      "vier",
+      "zes"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-elf",
+    "nl": "Mijn broer is elf jaar oud.",
+    "form": "elf",
+    "distractors": [
+      "tafel",
+      "bril",
+      "fles"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-twaalf",
+    "nl": "Om twaalf uur eten wij in de keuken.",
+    "form": "twaalf",
+    "distractors": [
+      "tafel",
+      "bril",
+      "fles"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-dertien",
+    "nl": "Mijn dochter is dertien jaar oud.",
+    "form": "dertien",
+    "distractors": [
+      "tafel",
+      "bril",
+      "fles"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-veertien",
+    "nl": "Mijn neef is veertien jaar oud.",
+    "form": "veertien",
+    "distractors": [
+      "tafel",
+      "bril",
+      "fles"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-vijftien",
+    "nl": "De bus komt over vijftien minuten.",
+    "form": "vijftien",
+    "distractors": [
+      "tafel",
+      "bril",
+      "fles"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-zestien",
+    "nl": "Mijn zus is zestien jaar oud.",
+    "form": "zestien",
+    "distractors": [
+      "tafel",
+      "bril",
+      "fles"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-zeventien",
+    "nl": "Ik woon op nummer zeventien.",
+    "form": "zeventien",
+    "distractors": [
+      "tafel",
+      "bril",
+      "fles"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-achttien",
+    "nl": "Mijn zoon is nu achttien jaar oud.",
+    "form": "achttien",
+    "distractors": [
+      "tafel",
+      "bril",
+      "fles"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-negentien",
+    "nl": "Mijn oma woont op nummer negentien.",
+    "form": "negentien",
+    "distractors": [
+      "tafel",
+      "bril",
+      "fles"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-twintig",
+    "nl": "Er zijn twintig stoelen in de kamer.",
+    "form": "twintig",
+    "distractors": [
+      "tafel",
+      "bril",
+      "fles"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-dertig",
+    "nl": "Wij lopen dertig minuten naar het station.",
+    "form": "dertig",
+    "distractors": [
+      "tafel",
+      "bril",
+      "fles"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-veertig",
+    "nl": "Mijn vader werkt veertig uur in de week.",
+    "form": "veertig",
+    "distractors": [
+      "tafel",
+      "bril",
+      "fles"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-vijftig",
+    "nl": "Mijn oom is vijftig jaar oud.",
+    "form": "vijftig",
+    "distractors": [
+      "tafel",
+      "bril",
+      "fles"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-zestig",
+    "nl": "Mijn opa is zestig jaar oud.",
+    "form": "zestig",
+    "distractors": [
+      "tafel",
+      "bril",
+      "fles"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-zeventig",
+    "nl": "Mijn oma is zeventig jaar oud.",
+    "form": "zeventig",
+    "distractors": [
+      "tafel",
+      "bril",
+      "fles"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-tachtig",
+    "nl": "Dit huis is tachtig jaar oud.",
+    "form": "tachtig",
+    "distractors": [
+      "tafel",
+      "bril",
+      "fles"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-negentig",
+    "nl": "De boom is negentig jaar oud.",
+    "form": "negentig",
+    "distractors": [
+      "tafel",
+      "bril",
+      "fles"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-honderd",
+    "nl": "Ik betaal honderd euro voor de fiets.",
+    "form": "honderd",
+    "distractors": [
+      "tafel",
+      "bril",
+      "fles"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-duizend",
+    "nl": "Ik heb duizend vragen.",
+    "form": "duizend",
+    "distractors": [
+      "tafel",
+      "bril",
+      "fles"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-miljoen",
+    "nl": "Deze stad heeft een miljoen inwoners.",
+    "form": "miljoen",
+    "distractors": [
+      "week",
+      "bril",
+      "fles"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-miljard",
+    "nl": "Een miljard euro is veel geld.",
+    "form": "miljard",
+    "distractors": [
+      "week",
+      "bril",
+      "fles"
+    ],
+    "reviewed": false
   }
 ]
