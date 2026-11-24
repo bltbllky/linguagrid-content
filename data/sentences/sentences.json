@@ -7634,5 +7634,1380 @@
       "ochtend"
     ],
     "reviewed": false
+  },
+  {
+    "word_id": "noun-dierentuin",
+    "nl": "Wij zien een leeuw in de dierentuin.",
+    "form": "dierentuin",
+    "distractors": [
+      "keuken",
+      "badkamer",
+      "kerk"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-dijk",
+    "nl": "De dijk beschermt het land tegen het water.",
+    "form": "dijk",
+    "distractors": [
+      "tafel",
+      "bril",
+      "kaas"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-directeur",
+    "nl": "De directeur van de school is vriendelijk.",
+    "form": "directeur",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-discussie",
+    "nl": "Wij hebben een lange discussie.",
+    "form": "discussie",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-document",
+    "nl": "Ik heb een belangrijk document nodig.",
+    "form": "document",
+    "distractors": [
+      "geboorte",
+      "ziekte",
+      "leeftijd"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-documentaire",
+    "nl": "Wij kijken een documentaire op televisie.",
+    "form": "documentaire",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-doek",
+    "nl": "Ik poets het raam met een doek.",
+    "form": "doek",
+    "distractors": [
+      "kaas",
+      "boom",
+      "stoel"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-doel",
+    "nl": "Mijn doel is een nieuwe baan.",
+    "form": "doel",
+    "distractors": [
+      "brood",
+      "glas",
+      "bed"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-doelpunt",
+    "nl": "De speler maakt een doelpunt.",
+    "form": "doelpunt",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-dolfijn",
+    "nl": "Een dolfijn zwemt in de zee.",
+    "form": "dolfijn",
+    "distractors": [
+      "tafel",
+      "bril",
+      "stoel"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-dorp",
+    "nl": "Ons dorp is klein en rustig.",
+    "form": "dorp",
+    "distractors": [
+      "brood",
+      "glas",
+      "bed"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-douane",
+    "nl": "Bij de douane laat ik mijn paspoort zien.",
+    "form": "douane",
+    "distractors": [
+      "bakker",
+      "kapper",
+      "bioscoop"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-douche",
+    "nl": "Ik neem elke ochtend een douche.",
+    "form": "douche",
+    "distractors": [
+      "griep",
+      "honger",
+      "pijn"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-draad",
+    "nl": "Ik heb een lange draad nodig.",
+    "form": "draad",
+    "distractors": [
+      "griep",
+      "honger",
+      "pijn"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-droom",
+    "nl": "Ik heb een mooie droom.",
+    "form": "droom",
+    "distractors": [
+      "griep",
+      "honger",
+      "pijn"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-druif",
+    "nl": "Een druif is klein en rond.",
+    "form": "druif",
+    "distractors": [
+      "week",
+      "avond",
+      "ochtend"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-drum",
+    "nl": "Mijn zoon speelt op de drum.",
+    "form": "drum",
+    "distractors": [
+      "kaas",
+      "boom",
+      "mond"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-duin",
+    "nl": "Achter het strand ligt een duin.",
+    "form": "duin",
+    "distractors": [
+      "weer",
+      "geluk",
+      "nieuws"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-echtpaar",
+    "nl": "Het echtpaar woont in een klein huis.",
+    "form": "echtpaar",
+    "distractors": [
+      "brood",
+      "glas",
+      "bed"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-eend",
+    "nl": "Een eend zwemt in de sloot.",
+    "form": "eend",
+    "distractors": [
+      "kaas",
+      "boom",
+      "stoel"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-eeuw",
+    "nl": "Een eeuw is honderd jaar.",
+    "form": "eeuw",
+    "distractors": [
+      "week",
+      "avond",
+      "ochtend"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-eigenaar",
+    "nl": "De eigenaar van het hotel woont hier.",
+    "form": "eigenaar",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-eiland",
+    "nl": "Het eiland is klein en mooi.",
+    "form": "eiland",
+    "distractors": [
+      "weer",
+      "geluk",
+      "nieuws"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-emotie",
+    "nl": "Ik zie een sterke emotie op zijn gezicht.",
+    "form": "emotie",
+    "distractors": [
+      "week",
+      "avond",
+      "ochtend"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-energie",
+    "nl": "Ik heb vandaag veel energie.",
+    "form": "energie",
+    "distractors": [
+      "geboorte",
+      "leeftijd",
+      "adres"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-envelop",
+    "nl": "Ik doe de brief in een envelop.",
+    "form": "envelop",
+    "distractors": [
+      "kaas",
+      "boom",
+      "stoel"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-ervaring",
+    "nl": "Ik heb veel ervaring met kinderen.",
+    "form": "ervaring",
+    "distractors": [
+      "geboorte",
+      "leeftijd",
+      "adres"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-excuus",
+    "nl": "Ik krijg een excuus van mijn buur.",
+    "form": "excuus",
+    "distractors": [
+      "weer",
+      "leven",
+      "huwelijk"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-ezel",
+    "nl": "De ezel draagt een zware koffer.",
+    "form": "ezel",
+    "distractors": [
+      "kaas",
+      "boom",
+      "stoel"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-fabriek",
+    "nl": "Mijn vader werkt in een fabriek.",
+    "form": "fabriek",
+    "distractors": [
+      "keel",
+      "neus",
+      "tong"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-fan",
+    "nl": "Mijn zoon is een grote fan van voetbal.",
+    "form": "fan",
+    "distractors": [
+      "kaas",
+      "boom",
+      "stoel"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-feest",
+    "nl": "Wij hebben vandaag een groot feest.",
+    "form": "feest",
+    "distractors": [
+      "weer",
+      "geluk",
+      "voetbal"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-festival",
+    "nl": "Het festival begint morgen.",
+    "form": "festival",
+    "distractors": [
+      "brood",
+      "glas",
+      "bed"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-file",
+    "nl": "Wij staan in de file.",
+    "form": "file",
+    "distractors": [
+      "keel",
+      "neus",
+      "mond"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-finale",
+    "nl": "De finale begint om acht uur.",
+    "form": "finale",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-formulier",
+    "nl": "Ik vul het formulier in.",
+    "form": "formulier",
+    "distractors": [
+      "brood",
+      "glas",
+      "bed"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-fout",
+    "nl": "Ik maak een kleine fout.",
+    "form": "fout",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-fruit",
+    "nl": "Zij eet elke dag fruit.",
+    "form": "fruit",
+    "distractors": [
+      "bed",
+      "glas",
+      "dak"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-gang",
+    "nl": "De gang van het huis is donker.",
+    "form": "gang",
+    "distractors": [
+      "week",
+      "avond",
+      "ochtend"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-gans",
+    "nl": "Een gans zwemt op het water.",
+    "form": "gans",
+    "distractors": [
+      "kaas",
+      "boom",
+      "stoel"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-garage",
+    "nl": "Onze auto staat in de garage.",
+    "form": "garage",
+    "distractors": [
+      "keel",
+      "neus",
+      "mond"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-garnaal",
+    "nl": "Ik eet een garnaal met rijst.",
+    "form": "garnaal",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-gas",
+    "nl": "Wij koken met gas.",
+    "form": "gas",
+    "distractors": [
+      "bed",
+      "glas",
+      "dak"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-gat",
+    "nl": "Er zit een gat in mijn jas.",
+    "form": "gat",
+    "distractors": [
+      "bed",
+      "dak",
+      "raam"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-gebouw",
+    "nl": "Dit gebouw is erg oud.",
+    "form": "gebouw",
+    "distractors": [
+      "weer",
+      "geluk",
+      "hoofd"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-gedicht",
+    "nl": "Ik lees een mooi gedicht.",
+    "form": "gedicht",
+    "distractors": [
+      "brood",
+      "glas",
+      "bed"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-geheim",
+    "nl": "Mijn vriend heeft een groot geheim.",
+    "form": "geheim",
+    "distractors": [
+      "brood",
+      "glas",
+      "bed"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-geliefde",
+    "nl": "Hij schrijft een brief aan zijn geliefde.",
+    "form": "geliefde",
+    "distractors": [
+      "kaas",
+      "boom",
+      "stoel"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-geluid",
+    "nl": "Ik hoor een vreemd geluid.",
+    "form": "geluid",
+    "distractors": [
+      "brood",
+      "glas",
+      "bed"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-geluk",
+    "nl": "Ik wens je veel geluk.",
+    "form": "geluk",
+    "distractors": [
+      "weer",
+      "adres",
+      "voetbal"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-gemeente",
+    "nl": "Ik woon in een kleine gemeente.",
+    "form": "gemeente",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-geschiedenis",
+    "nl": "Ik leer geschiedenis op school.",
+    "form": "geschiedenis",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-gesprek",
+    "nl": "Wij hebben een kort gesprek.",
+    "form": "gesprek",
+    "distractors": [
+      "brood",
+      "glas",
+      "bed"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-getal",
+    "nl": "Tien is een getal.",
+    "form": "getal",
+    "distractors": [
+      "brood",
+      "glas",
+      "bed"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-gevaar",
+    "nl": "Het gevaar is groot hier.",
+    "form": "gevaar",
+    "distractors": [
+      "weer",
+      "geluk",
+      "nieuws"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-gevoel",
+    "nl": "Ik heb een goed gevoel.",
+    "form": "gevoel",
+    "distractors": [
+      "weer",
+      "voetbal",
+      "adres"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-gewicht",
+    "nl": "Het gewicht van de koffer is hoog.",
+    "form": "gewicht",
+    "distractors": [
+      "brood",
+      "glas",
+      "bed"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-gitaar",
+    "nl": "Mijn broer speelt gitaar.",
+    "form": "gitaar",
+    "distractors": [
+      "kaas",
+      "boom",
+      "stoel"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-golf",
+    "nl": "De golf komt op het strand.",
+    "form": "golf",
+    "distractors": [
+      "kaas",
+      "boom",
+      "stoel"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-gordijn",
+    "nl": "Het gordijn voor het raam is blauw.",
+    "form": "gordijn",
+    "distractors": [
+      "brood",
+      "glas",
+      "bed"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-goud",
+    "nl": "Haar ring is van goud.",
+    "form": "goud",
+    "distractors": [
+      "brood",
+      "vlees",
+      "fruit"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-gracht",
+    "nl": "De gracht ligt midden in de stad.",
+    "form": "gracht",
+    "distractors": [
+      "kaas",
+      "boom",
+      "stoel"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-gram",
+    "nl": "Ik koop honderd gram kaas.",
+    "form": "gram",
+    "distractors": [
+      "liter",
+      "meter",
+      "kilometer"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-grap",
+    "nl": "Mijn vader vertelt een grap.",
+    "form": "grap",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-gras",
+    "nl": "De koe eet gras.",
+    "form": "gras",
+    "distractors": [
+      "bed",
+      "glas",
+      "dak"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-grens",
+    "nl": "De grens ligt dicht bij ons huis.",
+    "form": "grens",
+    "distractors": [
+      "week",
+      "avond",
+      "ochtend"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-groep",
+    "nl": "Onze groep is klein.",
+    "form": "groep",
+    "distractors": [
+      "week",
+      "avond",
+      "ochtend"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-grond",
+    "nl": "De bal ligt op de grond.",
+    "form": "grond",
+    "distractors": [
+      "week",
+      "avond",
+      "ochtend"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-grot",
+    "nl": "Wij lopen in een donkere grot.",
+    "form": "grot",
+    "distractors": [
+      "tafel",
+      "bril",
+      "kaas"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-haai",
+    "nl": "Een haai zwemt in de zee.",
+    "form": "haai",
+    "distractors": [
+      "kaas",
+      "boom",
+      "stoel"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-haard",
+    "nl": "Wij zitten bij de haard.",
+    "form": "haard",
+    "distractors": [
+      "kaas",
+      "bril",
+      "fles"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-haas",
+    "nl": "Een haas rent door het veld.",
+    "form": "haas",
+    "distractors": [
+      "kaas",
+      "boom",
+      "stoel"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-hal",
+    "nl": "De fietsen staan in de hal.",
+    "form": "hal",
+    "distractors": [
+      "keel",
+      "neus",
+      "mond"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-halte",
+    "nl": "De bus stopt bij de halte.",
+    "form": "halte",
+    "distractors": [
+      "hand",
+      "neus",
+      "mond"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-ham",
+    "nl": "Ik wil kaas of ham op mijn brood.",
+    "form": "ham",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-hamburger",
+    "nl": "Mijn zoon eet een hamburger.",
+    "form": "hamburger",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-handdoek",
+    "nl": "Na de douche neem ik een handdoek.",
+    "form": "handdoek",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-handschoen",
+    "nl": "In de winter draag ik handschoenen.",
+    "form": "handschoenen",
+    "distractors": [
+      "tafels",
+      "lampen",
+      "stoelen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-handtekening",
+    "nl": "Ik zet mijn handtekening op het papier.",
+    "form": "handtekening",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-haring",
+    "nl": "De haring is een vis uit de zee.",
+    "form": "haring",
+    "distractors": [
+      "tafel",
+      "bril",
+      "kaas"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-haven",
+    "nl": "De boot ligt in de haven.",
+    "form": "haven",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-hek",
+    "nl": "Het hek van de tuin is groen.",
+    "form": "hek",
+    "distractors": [
+      "brood",
+      "glas",
+      "bed"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-helft",
+    "nl": "Ik eet de helft van de appel.",
+    "form": "helft",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-hemd",
+    "nl": "Ik draag een wit hemd onder mijn trui.",
+    "form": "hemd",
+    "distractors": [
+      "brood",
+      "glas",
+      "bed"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-herinnering",
+    "nl": "Ik heb een mooie herinnering aan die dag.",
+    "form": "herinnering",
+    "distractors": [
+      "griep",
+      "honger",
+      "pijn"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-hert",
+    "nl": "Een hert loopt door het bos.",
+    "form": "hert",
+    "distractors": [
+      "brood",
+      "glas",
+      "bed"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-heuvel",
+    "nl": "Het huis staat op een heuvel.",
+    "form": "heuvel",
+    "distractors": [
+      "week",
+      "avond",
+      "ochtend"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-hiel",
+    "nl": "Mijn hiel doet pijn.",
+    "form": "hiel",
+    "distractors": [
+      "week",
+      "avond",
+      "ochtend"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-hitte",
+    "nl": "Bij hitte drink ik veel water.",
+    "form": "hitte",
+    "distractors": [
+      "geluk",
+      "onzin",
+      "humor"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-hobby",
+    "nl": "Mijn hobby is voetbal.",
+    "form": "hobby",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-hoed",
+    "nl": "Hij heeft een hoed op zijn hoofd.",
+    "form": "hoed",
+    "distractors": [
+      "kaas",
+      "boom",
+      "stoel"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-hoek",
+    "nl": "De stoel staat in de hoek.",
+    "form": "hoek",
+    "distractors": [
+      "week",
+      "avond",
+      "ochtend"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-hoes",
+    "nl": "Mijn telefoon heeft een blauwe hoes.",
+    "form": "hoes",
+    "distractors": [
+      "kaas",
+      "boom",
+      "stoel"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-honger",
+    "nl": "De honger in de wereld is een groot probleem.",
+    "form": "honger",
+    "distractors": [
+      "week",
+      "avond",
+      "ochtend"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-honing",
+    "nl": "Ik doe honing in mijn thee.",
+    "form": "honing",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-hoofdpijn",
+    "nl": "Mijn hoofdpijn is vandaag erg sterk.",
+    "form": "hoofdpijn",
+    "distractors": [
+      "week",
+      "avond",
+      "ochtend"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-hoofdstad",
+    "nl": "Mijn zus woont in de hoofdstad.",
+    "form": "hoofdstad",
+    "distractors": [
+      "tafel",
+      "bril",
+      "kaas"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-hoofdstraat",
+    "nl": "Het hotel staat aan de hoofdstraat.",
+    "form": "hoofdstraat",
+    "distractors": [
+      "hand",
+      "neus",
+      "mond"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-hoofdstuk",
+    "nl": "Dit hoofdstuk is erg lang.",
+    "form": "hoofdstuk",
+    "distractors": [
+      "weer",
+      "geluk",
+      "voetbal"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-hoogte",
+    "nl": "De hoogte van de toren is veertig meter.",
+    "form": "hoogte",
+    "distractors": [
+      "hand",
+      "neus",
+      "mond"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-horloge",
+    "nl": "Mijn horloge is kapot.",
+    "form": "horloge",
+    "distractors": [
+      "brood",
+      "glas",
+      "bed"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-hotel",
+    "nl": "Wij slapen in een hotel.",
+    "form": "hotel",
+    "distractors": [
+      "glas",
+      "brood",
+      "dak"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-hout",
+    "nl": "Deze tafel is van hout.",
+    "form": "hout",
+    "distractors": [
+      "brood",
+      "vlees",
+      "fruit"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-huisarts",
+    "nl": "Ik ga naar de huisarts.",
+    "form": "huisarts",
+    "distractors": [
+      "kaas",
+      "boom",
+      "stoel"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-huisdier",
+    "nl": "Een hond is een huisdier.",
+    "form": "huisdier",
+    "distractors": [
+      "brood",
+      "glas",
+      "bed"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-huisnummer",
+    "nl": "Mijn huisnummer is twaalf.",
+    "form": "huisnummer",
+    "distractors": [
+      "brood",
+      "glas",
+      "bed"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-huisvrouw",
+    "nl": "Mijn buur is een huisvrouw.",
+    "form": "huisvrouw",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-huiswerk",
+    "nl": "Mijn zoon maakt zijn huiswerk.",
+    "form": "huiswerk",
+    "distractors": [
+      "weer",
+      "voetbal",
+      "geluk"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-hulp",
+    "nl": "Ik heb hulp nodig.",
+    "form": "hulp",
+    "distractors": [
+      "week",
+      "avond",
+      "ochtend"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-humor",
+    "nl": "Mijn opa heeft veel humor.",
+    "form": "humor",
+    "distractors": [
+      "geboorte",
+      "leeftijd",
+      "adres"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-huur",
+    "nl": "De huur van het huis is hoog.",
+    "form": "huur",
+    "distractors": [
+      "week",
+      "avond",
+      "ochtend"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-idee",
+    "nl": "Dat is een goed idee.",
+    "form": "idee",
+    "distractors": [
+      "adres",
+      "huis",
+      "bed"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-ijs",
+    "nl": "Er ligt ijs op het water.",
+    "form": "ijs",
+    "distractors": [
+      "dak",
+      "raam",
+      "huis"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-ijzer",
+    "nl": "Een mes is van ijzer.",
+    "form": "ijzer",
+    "distractors": [
+      "brood",
+      "vlees",
+      "fruit"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-informatie",
+    "nl": "Ik zoek informatie op internet.",
+    "form": "informatie",
+    "distractors": [
+      "griep",
+      "honger",
+      "pijn"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-ingang",
+    "nl": "De ingang van het hotel is open.",
+    "form": "ingang",
+    "distractors": [
+      "week",
+      "avond",
+      "ochtend"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-ingrediënt",
+    "nl": "Zout is een ingrediënt van soep.",
+    "form": "ingrediënt",
+    "distractors": [
+      "brood",
+      "glas",
+      "bed"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-inkomen",
+    "nl": "Een goed inkomen is belangrijk.",
+    "form": "inkomen",
+    "distractors": [
+      "weer",
+      "adres",
+      "geluk"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-insect",
+    "nl": "Ik zie een insect op de tafel.",
+    "form": "insect",
+    "distractors": [
+      "weer",
+      "geluk",
+      "voetbal"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-instrument",
+    "nl": "Een gitaar is een instrument.",
+    "form": "instrument",
+    "distractors": [
+      "brood",
+      "glas",
+      "bed"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-interesse",
+    "nl": "Ik heb veel interesse in muziek.",
+    "form": "interesse",
+    "distractors": [
+      "week",
+      "avond",
+      "ochtend"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-internet",
+    "nl": "Mijn internet is vandaag erg langzaam.",
+    "form": "internet",
+    "distractors": [
+      "weer",
+      "geluk",
+      "voetbal"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-jas",
+    "nl": "Het is koud, dus ik draag een jas.",
+    "form": "jas",
+    "distractors": [
+      "kaas",
+      "boom",
+      "stoel"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-journalist",
+    "nl": "De journalist schrijft voor een krant.",
+    "form": "journalist",
+    "distractors": [
+      "kaas",
+      "boom",
+      "stoel"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-jurk",
+    "nl": "Zij draagt een mooie jurk.",
+    "form": "jurk",
+    "distractors": [
+      "kaas",
+      "boom",
+      "stoel"
+    ],
+    "reviewed": false
   }
 ]
