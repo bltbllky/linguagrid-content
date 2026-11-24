@@ -12,3 +12,7 @@ Files, all bare JSON arrays, checked by `npm run validate -- --stage sentences` 
 
 The sentences and their translations are our own data, written by Claude and reviewed by the owner or a reviewer. They have the
 same licence as our translations and are kept apart from the word files (ADR-009): no NT2Lex or Tatoeba text is in them.
+
+## Distractors (PM decision 2026-11-24)
+
+Distractors are same-part-of-speech surface forms that are also wrong by meaning in the sentence, not only by grammar.
