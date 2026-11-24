@@ -2483,7 +2483,9 @@
     "nl": "Mijn tand doet pijn.",
     "form": "tand",
     "distractors": [
-      "taal"
+      "taal",
+      "muziek",
+      "sport"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
