@@ -2,7 +2,7 @@
 
 Date 2026-11-24. 494 A2 words have a sentence; every row is `reviewed: false`; nothing is set by hand.
 
-**Split rule:** the A2 words ordered by word id (string order), first 494: 135 adjectives (`adj-aanwezig` to `adj-zwak`) and 359 nouns (`noun-aankomst` to `noun-operatie`). The second half (T-382, 494 words) is the rest of the nouns (`noun-opleiding` on) and all the verbs (about 400), so its writing differs: verbs need separable-verb and participle forms.
+**Split rule:** the A2 words ordered by word id (string order), first 494: 135 adjectives (`adj-aanwezig` to `adj-zwak`) and 359 nouns (`noun-aankomst` to `noun-operatie`). The second half (T-382, 494 words) is the rest of the nouns (252, `noun-opleiding` on) and all 242 verbs, so its writing differs: verbs need separable-verb and participle forms.
 
 | Measure | Value |
 |---|---|
