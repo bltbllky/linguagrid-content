@@ -28,3 +28,7 @@ Caveat for the second half: the 99.6% rate is again a best case. I wrote with th
 ## Not done here
 
 No blind pass, no DeepL reading, no import, no `reviewed` flag: the PM runs those as separate agents. Blind sheets for the round trip are in `review/sentences-a2a-{tr,en}-blind-{nl,pivot}.csv`. No data fix to words, annotations or translations was made.
+
+## Distractor rework (PM decisions 2026-11-24)
+
+Only the distractors of the 494 A2 rows changed; sentences and translations are as before, so the blind sheets stay valid. Noun distractors share the answer's article (0 breaks in A2; plurals use de-plurals), no distractor word appears more than 5 times (max 5), and rows where an old distractor could fit were redone. Residual limits: for "a good/beautiful X" frames with a neuter answer (`idee`, `gevoel`, `inkomen`, `merk`, `onderwijs` and similar) the pool of neuter nouns that are nonsense there is small, so some distractors (`weer`, `geluk`) are only weak misfits; and once the A1/A2 abstract pools ran out, about 130 slots use B1 abstract nouns (`-ing`, `-heid`, `-ie`), which a learner may not know. A1 rows that break the article rule: `review/sentences-a1-article-breaks.csv` (A1 data not edited).
