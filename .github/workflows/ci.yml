@@ -18,6 +18,17 @@ jobs:
       - run: npm run typecheck
       - run: npm test
       - run: npm run validate
+      - name: Cache the OpenTaal wordlist
+        uses: actions/cache@v4
+        with:
+          path: .cache/b1/wordlist.txt
+          key: opentaal-wordlist-v1
+      - name: Fetch the OpenTaal wordlist
+        run: |
+          mkdir -p .cache/b1
+          test -s .cache/b1/wordlist.txt || curl -fsSL -o .cache/b1/wordlist.txt https://raw.githubusercontent.com/OpenTaal/opentaal-wordlist/master/wordlist.txt
+          test -s .cache/b1/wordlist.txt
+          wc -l .cache/b1/wordlist.txt
       - name: Validate stage b1
         run: |
           set -o pipefail

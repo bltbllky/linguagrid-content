@@ -48,12 +48,15 @@ export function validateSentenceStage(stage: SentenceStage, env: CheckEnv): stri
   const ajv = new Ajv({ allErrors: true });
   const schemaOf = (name: string) => JSON.parse(readFileSync(join(ROOT, 'schema', `${name}.schema.json`), 'utf8'));
   const errors: string[] = [];
-  if (!ajv.validate(schemaOf('sentences'), stage.rows)) {
-    for (const e of ajv.errors ?? []) errors.push(`sentences: ${e.instancePath} ${e.message}`);
+  // Compile each schema once: their $id would make a second `ajv.validate(schema)` throw "already exists".
+  const validateRows = ajv.compile(schemaOf('sentences'));
+  const validateTranslations = ajv.compile(schemaOf('sentence-translations'));
+  if (!validateRows(stage.rows)) {
+    for (const e of validateRows.errors ?? []) errors.push(`sentences: ${e.instancePath} ${e.message}`);
   }
   for (const [lang, rows] of Object.entries(stage.translations)) {
-    if (!ajv.validate(schemaOf('sentence-translations'), rows)) {
-      for (const e of ajv.errors ?? []) errors.push(`sentences/translations/${lang}: ${e.instancePath} ${e.message}`);
+    if (!validateTranslations(rows)) {
+      for (const e of validateTranslations.errors ?? []) errors.push(`sentences/translations/${lang}: ${e.instancePath} ${e.message}`);
     }
   }
   if (errors.length) return errors;
