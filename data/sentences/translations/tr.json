@@ -1,0 +1,502 @@
+[
+  {
+    "word_id": "noun-moeder",
+    "text": "Annem mutfakta yemek pişiriyor.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-vriend",
+    "text": "Arkadaşım büyük bir evde oturuyor.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-kind",
+    "text": "Çocuk küçük bir yatakta uyuyor.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-man",
+    "text": "Adam yeni bir araba alıyor.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-zus",
+    "text": "Kız kardeşim bahçede köpekle oynuyor.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-buur",
+    "text": "Komşumun küçük bir köpeği var.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-meisje",
+    "text": "Kız bir bardak su içiyor.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-verjaardag",
+    "text": "Doğum günüm yazın.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-naam",
+    "text": "Adın ne?",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-telefoon",
+    "text": "Telefonum masanın üstünde duruyor.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-taal",
+    "text": "İki dil konuşuyorum.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-woord",
+    "text": "Bu kelimeyi anlamıyorum.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-adres",
+    "text": "Adresin ne?",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-huis",
+    "text": "Evimizin büyük bir bahçesi var.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-keuken",
+    "text": "Mutfak küçük ama temiz.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-deur",
+    "text": "Evin kapısı beyaz.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-tuin",
+    "text": "Bahçede yemek yiyoruz.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bed",
+    "text": "Yatağım odada duruyor.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-tafel",
+    "text": "Mutfaktaki masa yeni.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-raam",
+    "text": "Bahçeyi pencereden görüyorum.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-sleutel",
+    "text": "Anahtarımı ve telefonumu arıyorum.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-stoel",
+    "text": "Masanın yanında bir sandalye var.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-kamer",
+    "text": "Odam küçük ama güzel.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-brood",
+    "text": "Peynirli ekmek yiyorum.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-koffie",
+    "text": "Babam kahve içiyor, ben su içiyorum.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-kaas",
+    "text": "Pazardan peynir alıyoruz.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-appel",
+    "text": "Bir elma yemek istiyorum.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-water",
+    "text": "Bir bardak su ister misin?",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-fles",
+    "text": "Masanın üstünde bir şişe su var.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-week",
+    "text": "Bir haftada yedi gün var.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-maandag",
+    "text": "Pazartesi günleri çalışmıyorum.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-zomer",
+    "text": "Yazın denizde yüzüyorum.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-avond",
+    "text": "Akşam oldu bile.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-uur",
+    "text": "Ders bir saat sürüyor.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-jaar",
+    "text": "Oğlum dört yaşında.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-school",
+    "text": "Oğlum okula gidiyor.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-les",
+    "text": "Ders saat ikide başlıyor.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-werk",
+    "text": "İşime bisikletle gidiyorum.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-computer",
+    "text": "Şimdi bir bilgisayarla çalışıyorum.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-auto",
+    "text": "Babamın yeni bir arabası var.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-trein",
+    "text": "Şehre giden tren geç kaldı.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-fiets",
+    "text": "Bisikletim istasyonun yanında duruyor.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-station",
+    "text": "İstasyon evimden uzak.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-straat",
+    "text": "Uzun bir sokakta oturuyoruz.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-hond",
+    "text": "Köpek yatağımda uyuyor.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-zon",
+    "text": "Güneş sıcak ve hava güzel.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-boom",
+    "text": "Bahçede büyük bir ağaç var.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-dier",
+    "text": "Köpek bir hayvandır.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-weer",
+    "text": "Hava soğuk ama güneş sıcak.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-hand",
+    "text": "Elim ağrıyor.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-hoofd",
+    "text": "Başım ağrıyor.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-oog",
+    "text": "Kızımın mavi gözleri var.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-neus",
+    "text": "Burnum soğuk.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-arts",
+    "text": "Doktora gidiyorum çünkü hastayım.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-ziekenhuis",
+    "text": "Hastanede yatıyor çünkü hasta.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-film",
+    "text": "Arkadaşımla bir film izliyorum.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-muziek",
+    "text": "Kız kardeşim müzik dinlemeyi seviyor.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-vakantie",
+    "text": "Tatile denize gidiyoruz.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-winkel",
+    "text": "Mağazadan ayakkabı alıyorum.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-geld",
+    "text": "Yeni bir araba için param yok.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-prijs",
+    "text": "Ayakkabıların fiyatı düşük.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-broek",
+    "text": "Siyah bir pantolon giyiyorum.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-schoen",
+    "text": "Ayakkabılarım yeni.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bril",
+    "text": "Gözlüğüm olmadan iyi göremiyorum.",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-wonen",
+    "text": "Küçük bir evde oturuyoruz.",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-eten",
+    "text": "Saat altıda yemek yiyoruz.",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-drinken",
+    "text": "Oğlum bir bardak su içiyor.",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-werken",
+    "text": "Pazartesiden cumaya kadar çalışıyorum.",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-lezen",
+    "text": "O soruyu bir kez daha okuyor.",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-leren",
+    "text": "Yeni bir dil öğreniyorum.",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-rijden",
+    "text": "Babam işe arabayla gidiyor.",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-slapen",
+    "text": "Yorgunum ve uyumak istiyorum.",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-kopen",
+    "text": "Yeni bir bisiklet almak istiyorum.",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-spelen",
+    "text": "Çocuklar bahçede oynuyor.",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-zwemmen",
+    "text": "Denizde yüzmeye gidiyoruz.",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-kijken",
+    "text": "Bir film izlemek istiyoruz.",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-wachten",
+    "text": "İstasyonda otobüsü bekliyorum.",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-bellen",
+    "text": "Annemi aramak istiyorum.",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-koken",
+    "text": "Balık ve sebze pişirmek istiyorum.",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-helpen",
+    "text": "Bana işimde yardım edebilir misin?",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-zoeken",
+    "text": "Ucuz bir ev arıyoruz.",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-betalen",
+    "text": "Nerede ödeme yapabilirim?",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-luisteren",
+    "text": "Öğretmeni dinliyoruz.",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-praten",
+    "text": "Sınıfta öğretmenle konuşuyorlar.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-groot",
+    "text": "Dedemin evi büyük.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-klein",
+    "text": "Bu ayakkabılar çok küçük.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-nieuw",
+    "text": "Yeni bir telefonum var.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-oud",
+    "text": "Dedem seksen yaşında.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-lekker",
+    "text": "Kahve lezzetli.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-koud",
+    "text": "Su soğuk.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-warm",
+    "text": "Burası çok sıcak.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-duur",
+    "text": "Bu araba çok pahalı.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-goedkoop",
+    "text": "Ekmek burada ucuz.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-moe",
+    "text": "Yorgunum ve yatmak istiyorum.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-ziek",
+    "text": "Oğlum hasta ve yatakta yatıyor.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-gelukkig",
+    "text": "Evimizde çok mutluyuz.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-snel",
+    "text": "Arkadaşım çok hızlı yürüyor.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-mooi",
+    "text": "Bahçen çok güzel.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-moeilijk",
+    "text": "Bu soru zor.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-schoon",
+    "text": "Bardak temiz.",
+    "reviewed": false
+  }
+]
