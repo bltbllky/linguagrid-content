@@ -53,7 +53,7 @@
     "form": "zus",
     "distractors": [
       "bril",
-      "uur",
+      "klacht",
       "fles"
     ],
     "reviewed": true,
@@ -64,9 +64,9 @@
     "nl": "Mijn buur heeft een kleine hond.",
     "form": "buur",
     "distractors": [
-      "station",
+      "gezondheid",
       "fles",
-      "jaar"
+      "leeftijd"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -114,7 +114,7 @@
     "distractors": [
       "week",
       "kaas",
-      "jaar"
+      "ziekte"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -124,9 +124,9 @@
     "nl": "Ik spreek twee talen.",
     "form": "talen",
     "distractors": [
-      "handen",
+      "feestdag",
       "schoenen",
-      "bomen"
+      "kerst"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -208,9 +208,9 @@
     "nl": "Mijn bed staat in de kamer.",
     "form": "bed",
     "distractors": [
-      "week",
-      "zon",
-      "hand"
+      "moment",
+      "seizoen",
+      "laken"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -280,9 +280,9 @@
     "nl": "Ik eet brood met kaas.",
     "form": "brood",
     "distractors": [
-      "schoen",
-      "bril",
-      "deur"
+      "glas",
+      "mes",
+      "kussen"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -292,7 +292,7 @@
     "nl": "Mijn vader drinkt koffie en ik drink water.",
     "form": "koffie",
     "distractors": [
-      "brood",
+      "voet",
       "hand",
       "fiets"
     ],
@@ -616,9 +616,9 @@
     "nl": "Mijn dochter heeft blauwe ogen.",
     "form": "ogen",
     "distractors": [
-      "schoenen",
-      "tafels",
-      "honden"
+      "vlees",
+      "bier",
+      "nummer"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -749,8 +749,8 @@
     "form": "schoenen",
     "distractors": [
       "tafels",
-      "handen",
-      "weken"
+      "toekomst",
+      "sport"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1217,7 +1217,7 @@
     "form": "inwoners",
     "distractors": [
       "schoenen",
-      "flessen",
+      "rust",
       "brillen"
     ],
     "reviewed": true,
@@ -1228,9 +1228,9 @@
     "nl": "Het leven is niet makkelijk.",
     "form": "leven",
     "distractors": [
-      "bril",
-      "fles",
-      "schoen"
+      "haar",
+      "bord",
+      "vlees"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1312,9 +1312,9 @@
     "nl": "Elk lid van de familie komt vandaag.",
     "form": "lid",
     "distractors": [
-      "kaas",
-      "bril",
-      "deur"
+      "haar",
+      "mes",
+      "bord"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1587,8 +1587,8 @@
     "form": "woning",
     "distractors": [
       "week",
-      "uur",
-      "jaar"
+      "ochtend",
+      "geboorte"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1635,8 +1635,8 @@
     "form": "apparaat",
     "distractors": [
       "brood",
-      "kaas",
-      "appel"
+      "bier",
+      "dak"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1646,9 +1646,9 @@
     "nl": "Dit huis heeft twee verdiepingen.",
     "form": "verdiepingen",
     "distractors": [
-      "weken",
-      "dagen",
-      "maanden"
+      "smaak",
+      "jeugd",
+      "les"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1658,7 +1658,7 @@
     "nl": "Mijn kussen ligt op het bed.",
     "form": "kussen",
     "distractors": [
-      "week",
+      "woord",
       "uur",
       "jaar"
     ],
@@ -1670,9 +1670,9 @@
     "nl": "Er ligt kip op het bord.",
     "form": "bord",
     "distractors": [
-      "avond",
-      "zomer",
-      "nacht"
+      "kwart",
+      "antwoord",
+      "weekend"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1683,7 +1683,7 @@
     "form": "appartement",
     "distractors": [
       "uur",
-      "week",
+      "recept",
       "jaar"
     ],
     "reviewed": true,
@@ -1694,9 +1694,9 @@
     "nl": "Ik snijd het brood met een mes.",
     "form": "mes",
     "distractors": [
-      "bril",
-      "schoen",
-      "week"
+      "glas",
+      "laken",
+      "adres"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1862,8 +1862,8 @@
     "form": "bier",
     "distractors": [
       "brood",
-      "appel",
-      "kaas"
+      "kussen",
+      "mes"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1873,9 +1873,9 @@
     "nl": "Ik drink een glas water in de keuken.",
     "form": "glas",
     "distractors": [
-      "bril",
-      "schoen",
-      "week"
+      "vlees",
+      "kussen",
+      "leven"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1885,9 +1885,9 @@
     "nl": "Dit gerecht is lekker en niet duur.",
     "form": "gerecht",
     "distractors": [
-      "week",
-      "bril",
-      "schoen"
+      "ongeluk",
+      "haar",
+      "glas"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1897,7 +1897,7 @@
     "nl": "Mijn buur drinkt graag een glas wijn.",
     "form": "wijn",
     "distractors": [
-      "brood",
+      "stoel",
       "kaas",
       "appel"
     ],
@@ -1909,9 +1909,9 @@
     "nl": "Mijn zoon eet geen vlees.",
     "form": "vlees",
     "distractors": [
-      "bril",
-      "schoen",
-      "deur"
+      "bier",
+      "dak",
+      "bord"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1945,8 +1945,8 @@
     "nl": "Ik doe olie in de pan.",
     "form": "olie",
     "distractors": [
-      "uur",
-      "jaar",
+      "minuut",
+      "datum",
       "week"
     ],
     "reviewed": true,
@@ -1994,8 +1994,8 @@
     "form": "wortel",
     "distractors": [
       "week",
-      "jaar",
-      "uur"
+      "griep",
+      "middag"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2005,9 +2005,9 @@
     "nl": "Dit recept is makkelijk en snel.",
     "form": "recept",
     "distractors": [
-      "week",
-      "bril",
-      "schoen"
+      "huwelijk",
+      "laken",
+      "glas"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2029,9 +2029,9 @@
     "nl": "Een week heeft zeven dagen.",
     "form": "dagen",
     "distractors": [
-      "weken",
-      "maanden",
-      "minuten"
+      "prijs",
+      "vraag",
+      "herfst"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2041,9 +2041,9 @@
     "nl": "De winter is een koud seizoen.",
     "form": "seizoen",
     "distractors": [
-      "bril",
-      "deur",
-      "schoen"
+      "dak",
+      "mes",
+      "haar"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2065,9 +2065,9 @@
     "nl": "Een moment, ik kom zo.",
     "form": "moment",
     "distractors": [
-      "bril",
-      "schoen",
-      "deur"
+      "bier",
+      "bord",
+      "kussen"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2077,9 +2077,9 @@
     "nl": "Een jaar heeft twaalf maanden.",
     "form": "maanden",
     "distractors": [
-      "weken",
-      "dagen",
-      "minuten"
+      "pijn",
+      "verjaardag",
+      "seconde"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2101,9 +2101,9 @@
     "nl": "Een uur heeft zestig minuten.",
     "form": "minuten",
     "distractors": [
-      "weken",
-      "dagen",
-      "maanden"
+      "relatie",
+      "kleur",
+      "dag"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2149,9 +2149,9 @@
     "nl": "In het weekend ben ik thuis.",
     "form": "weekend",
     "distractors": [
-      "bril",
-      "schoen",
-      "deur"
+      "raam",
+      "vlees",
+      "laken"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2185,9 +2185,9 @@
     "nl": "In het voorjaar groeien de bomen.",
     "form": "voorjaar",
     "distractors": [
-      "bril",
-      "schoen",
-      "deur"
+      "dak",
+      "kussen",
+      "water"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2197,9 +2197,9 @@
     "nl": "Het is een kwart over twee.",
     "form": "kwart",
     "distractors": [
-      "bril",
-      "schoen",
-      "deur"
+      "glas",
+      "mes",
+      "raam"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2210,8 +2210,8 @@
     "form": "agenda",
     "distractors": [
       "week",
-      "uur",
-      "jaar"
+      "relatie",
+      "klacht"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2270,8 +2270,8 @@
     "form": "kalender",
     "distractors": [
       "week",
-      "uur",
-      "jaar"
+      "kleur",
+      "nacht"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2329,7 +2329,7 @@
     "nl": "Mijn land is groot en mooi.",
     "form": "land",
     "distractors": [
-      "week",
+      "voetbal",
       "uur",
       "jaar"
     ],
@@ -2365,9 +2365,9 @@
     "nl": "Mijn zus heeft lang zwart haar.",
     "form": "haar",
     "distractors": [
-      "bril",
-      "schoen",
-      "fles"
+      "bier",
+      "laken",
+      "bord"
     ],
     "reviewed": false
   },
@@ -2388,9 +2388,9 @@
     "nl": "Mijn lichaam is moe.",
     "form": "lichaam",
     "distractors": [
-      "bril",
-      "fles",
-      "schoen"
+      "haar",
+      "vlees",
+      "glas"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2436,9 +2436,9 @@
     "nl": "Mijn zoon heeft een rond gezicht.",
     "form": "gezicht",
     "distractors": [
-      "week",
-      "avond",
-      "keer"
+      "voorjaar",
+      "seizoen",
+      "woord"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2472,8 +2472,8 @@
     "nl": "Er is een ongeluk op de weg.",
     "form": "ongeluk",
     "distractors": [
-      "week",
-      "avond",
+      "nummer",
+      "moment",
       "uur"
     ],
     "reviewed": false
@@ -2519,9 +2519,9 @@
     "nl": "Mijn oor is koud.",
     "form": "oor",
     "distractors": [
-      "week",
-      "avond",
-      "keer"
+      "huwelijk",
+      "voorjaar",
+      "recept"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2543,7 +2543,7 @@
     "nl": "Het medicijn staat in de kast.",
     "form": "medicijn",
     "distractors": [
-      "week",
+      "voetbal",
       "uur",
       "jaar"
     ],
@@ -2579,9 +2579,9 @@
     "nl": "Zij heeft lange benen.",
     "form": "benen",
     "distractors": [
-      "kleuren",
-      "adressen",
-      "talen"
+      "antwoord",
+      "ongeluk",
+      "weekend"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2603,9 +2603,9 @@
     "nl": "De baby heeft tien kleine tenen.",
     "form": "tenen",
     "distractors": [
-      "buren",
-      "gasten",
-      "ouders"
+      "ochtend",
+      "dag",
+      "ziekte"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2627,9 +2627,9 @@
     "nl": "Er zit bloed op mijn hand.",
     "form": "bloed",
     "distractors": [
-      "week",
-      "avond",
-      "keer"
+      "leven",
+      "kwart",
+      "adres"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2722,7 +2722,7 @@
     "nl": "Wij kijken zaterdag naar het voetbal.",
     "form": "voetbal",
     "distractors": [
-      "week",
+      "kwart",
       "uur",
       "jaar"
     ],
@@ -2758,9 +2758,9 @@
     "nl": "Mijn huis heeft nummer twaalf.",
     "form": "nummer",
     "distractors": [
-      "week",
-      "avond",
-      "keer"
+      "voorjaar",
+      "huwelijk",
+      "woord"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2782,9 +2782,9 @@
     "nl": "Het antwoord is ja of nee.",
     "form": "antwoord",
     "distractors": [
-      "bril",
-      "fles",
-      "kaas"
+      "kussen",
+      "dak",
+      "water"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2795,8 +2795,8 @@
     "form": "euro",
     "distractors": [
       "week",
-      "uur",
-      "jaar"
+      "geboorte",
+      "toekomst"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2808,7 +2808,7 @@
     "distractors": [
       "bril",
       "week",
-      "uur"
+      "vraag"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2888,9 +2888,9 @@
     "nl": "Zij heeft een goed hart.",
     "form": "hart",
     "distractors": [
-      "week",
-      "avond",
-      "keer"
+      "weekend",
+      "moment",
+      "adres"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3200,9 +3200,9 @@
     "nl": "Ik heb nu nul euro.",
     "form": "nul",
     "distractors": [
-      "tafel",
-      "bril",
-      "fles"
+      "haar",
+      "raam",
+      "laken"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3224,9 +3224,9 @@
     "nl": "Mijn zus heeft drie kinderen.",
     "form": "drie",
     "distractors": [
-      "tafel",
-      "bril",
-      "fles"
+      "bier",
+      "bord",
+      "vlees"
     ],
     "reviewed": false
   },
@@ -3259,9 +3259,9 @@
     "nl": "Mijn zoon is zes jaar oud.",
     "form": "zes",
     "distractors": [
-      "tafel",
-      "bril",
-      "fles"
+      "mes",
+      "vlees",
+      "glas"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3271,9 +3271,9 @@
     "nl": "Ik ben om zeven uur thuis.",
     "form": "zeven",
     "distractors": [
-      "tafel",
-      "bril",
-      "fles"
+      "kussen",
+      "bord",
+      "laken"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3283,9 +3283,9 @@
     "nl": "De les begint om acht uur.",
     "form": "acht",
     "distractors": [
-      "tafel",
-      "bril",
-      "fles"
+      "raam",
+      "mes",
+      "dak"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3295,9 +3295,9 @@
     "nl": "Het is negen uur in de ochtend.",
     "form": "negen",
     "distractors": [
-      "tafel",
-      "bril",
-      "fles"
+      "bier",
+      "huis",
+      "water"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3319,9 +3319,9 @@
     "nl": "Mijn broer is elf jaar oud.",
     "form": "elf",
     "distractors": [
-      "tafel",
-      "bril",
-      "fles"
+      "haar",
+      "leven",
+      "voetbal"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3331,9 +3331,9 @@
     "nl": "Om twaalf uur eten wij in de keuken.",
     "form": "twaalf",
     "distractors": [
-      "tafel",
-      "bril",
-      "fles"
+      "nummer",
+      "ongeluk",
+      "antwoord"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3343,9 +3343,9 @@
     "nl": "Mijn dochter is dertien jaar oud.",
     "form": "dertien",
     "distractors": [
-      "tafel",
-      "bril",
-      "fles"
+      "seizoen",
+      "recept",
+      "leven"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3355,9 +3355,9 @@
     "nl": "Mijn neef is veertien jaar oud.",
     "form": "veertien",
     "distractors": [
-      "tafel",
-      "bril",
-      "fles"
+      "adres",
+      "weekend",
+      "seizoen"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3367,9 +3367,9 @@
     "nl": "De bus komt over vijftien minuten.",
     "form": "vijftien",
     "distractors": [
-      "tafel",
-      "bril",
-      "fles"
+      "huwelijk",
+      "antwoord",
+      "recept"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3379,9 +3379,9 @@
     "nl": "Mijn zus is zestien jaar oud.",
     "form": "zestien",
     "distractors": [
-      "tafel",
-      "bril",
-      "fles"
+      "woord",
+      "ongeluk",
+      "kwart"
     ],
     "reviewed": false
   },
@@ -3390,9 +3390,9 @@
     "nl": "Ik woon op nummer zeventien.",
     "form": "zeventien",
     "distractors": [
-      "tafel",
-      "bril",
-      "fles"
+      "moment",
+      "voorjaar",
+      "voetbal"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3402,9 +3402,9 @@
     "nl": "Mijn zoon is nu achttien jaar oud.",
     "form": "achttien",
     "distractors": [
-      "tafel",
-      "bril",
-      "fles"
+      "nummer",
+      "recept",
+      "seizoen"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3414,9 +3414,9 @@
     "nl": "Mijn oma woont op nummer negentien.",
     "form": "negentien",
     "distractors": [
-      "tafel",
-      "bril",
-      "fles"
+      "kwart",
+      "huwelijk",
+      "adres"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3426,9 +3426,9 @@
     "nl": "Er zijn twintig stoelen in de kamer.",
     "form": "twintig",
     "distractors": [
-      "tafel",
-      "bril",
-      "fles"
+      "voorjaar",
+      "woord",
+      "ongeluk"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3438,9 +3438,9 @@
     "nl": "Wij lopen dertig minuten naar het station.",
     "form": "dertig",
     "distractors": [
-      "tafel",
-      "bril",
-      "fles"
+      "moment",
+      "nummer",
+      "weekend"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3450,9 +3450,9 @@
     "nl": "Mijn vader werkt veertig uur in de week.",
     "form": "veertig",
     "distractors": [
-      "tafel",
-      "bril",
-      "fles"
+      "antwoord",
+      "voetbal",
+      "leven"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3462,9 +3462,9 @@
     "nl": "Mijn oom is vijftig jaar oud.",
     "form": "vijftig",
     "distractors": [
-      "tafel",
-      "bril",
-      "fles"
+      "woord",
+      "ongeluk",
+      "geld"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3474,9 +3474,9 @@
     "nl": "Mijn opa is zestig jaar oud.",
     "form": "zestig",
     "distractors": [
-      "tafel",
-      "bril",
-      "fles"
+      "huwelijk",
+      "moment",
+      "voorjaar"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3486,9 +3486,9 @@
     "nl": "Mijn oma is zeventig jaar oud.",
     "form": "zeventig",
     "distractors": [
-      "tafel",
-      "bril",
-      "fles"
+      "weekend",
+      "seizoen",
+      "voetbal"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3498,9 +3498,9 @@
     "nl": "Dit huis is tachtig jaar oud.",
     "form": "tachtig",
     "distractors": [
-      "tafel",
-      "bril",
-      "fles"
+      "leven",
+      "recept",
+      "antwoord"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3510,9 +3510,9 @@
     "nl": "De boom is negentig jaar oud.",
     "form": "negentig",
     "distractors": [
-      "tafel",
-      "bril",
-      "fles"
+      "kwart",
+      "adres",
+      "nummer"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3522,9 +3522,9 @@
     "nl": "Ik betaal honderd euro voor de fiets.",
     "form": "honderd",
     "distractors": [
-      "tafel",
-      "bril",
-      "fles"
+      "kwart",
+      "voetbal",
+      "seizoen"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3534,9 +3534,9 @@
     "nl": "Ik heb duizend vragen.",
     "form": "duizend",
     "distractors": [
-      "tafel",
-      "bril",
-      "fles"
+      "voorjaar",
+      "leven",
+      "nummer"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3546,9 +3546,9 @@
     "nl": "Deze stad heeft een miljoen inwoners.",
     "form": "miljoen",
     "distractors": [
-      "week",
-      "bril",
-      "fles"
+      "weekend",
+      "adres",
+      "geld"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3558,9 +3558,9 @@
     "nl": "Een miljard euro is veel geld.",
     "form": "miljard",
     "distractors": [
-      "week",
-      "bril",
-      "fles"
+      "huwelijk",
+      "antwoord",
+      "ongeluk"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -4868,9 +4868,9 @@
     "nl": "Alle leerlingen zijn vandaag aanwezig.",
     "form": "aanwezig",
     "distractors": [
-      "gratis",
-      "oranje",
-      "wekelijks"
+      "rood",
+      "zwart",
+      "blauw"
     ],
     "reviewed": false
   },
@@ -4879,9 +4879,9 @@
     "nl": "Onze buur is erg aardig.",
     "form": "aardig",
     "distractors": [
-      "dubbel",
-      "rood",
-      "vlak"
+      "dagelijks",
+      "paars",
+      "bruin"
     ],
     "reviewed": false
   },
@@ -4890,9 +4890,9 @@
     "nl": "Mijn opa is nog erg actief.",
     "form": "actief",
     "distractors": [
-      "rond",
-      "vers",
-      "wit"
+      "wekelijks",
+      "dicht",
+      "geldig"
     ],
     "reviewed": false
   },
@@ -4901,9 +4901,9 @@
     "nl": "De hond is niet agressief.",
     "form": "agressief",
     "distractors": [
-      "zwart",
-      "groen",
-      "jaarlijks"
+      "roze",
+      "vierkant",
+      "gemiddeld"
     ],
     "reviewed": false
   },
@@ -4912,9 +4912,9 @@
     "nl": "Ik ben vandaag alleen thuis.",
     "form": "alleen",
     "distractors": [
-      "verplicht",
-      "leeg",
-      "geel"
+      "vlak",
+      "oranje",
+      "grijs"
     ],
     "reviewed": false
   },
@@ -4923,9 +4923,9 @@
     "nl": "Wij slapen in een aparte kamer.",
     "form": "aparte",
     "distractors": [
-      "egoïstische",
-      "creatieve",
-      "vrolijke"
+      "boze",
+      "getrouwde",
+      "verstandige"
     ],
     "reviewed": false
   },
@@ -4934,9 +4934,9 @@
     "nl": "De deur gaat automatisch open.",
     "form": "automatisch",
     "distractors": [
-      "bezig",
-      "alleenstaand",
-      "boos"
+      "onzeker",
+      "creatief",
+      "bezig"
     ],
     "reviewed": false
   },
@@ -4945,9 +4945,9 @@
     "nl": "Deze zanger is in ons land bekend.",
     "form": "bekend",
     "distractors": [
-      "bruin",
-      "grijs",
-      "houten"
+      "wit",
+      "gratis",
+      "verplicht"
     ],
     "reviewed": false
   },
@@ -4956,9 +4956,9 @@
     "nl": "Dat idee is echt belachelijk.",
     "form": "belachelijk",
     "distractors": [
-      "onzeker",
-      "dankbaar",
-      "loyaal"
+      "verdrietig",
+      "klassiek",
+      "ongelukkig"
     ],
     "reviewed": false
   },
@@ -4967,9 +4967,9 @@
     "nl": "Mijn gezondheid is heel belangrijk.",
     "form": "belangrijk",
     "distractors": [
-      "zwanger",
-      "lui",
-      "brutaal"
+      "nerveus",
+      "bezorgd",
+      "nieuwsgierig"
     ],
     "reviewed": false
   },
@@ -4978,9 +4978,9 @@
     "nl": "Je moet altijd beleefd zijn.",
     "form": "beleefd",
     "distractors": [
-      "klassiek",
-      "vierkant",
-      "blauw"
+      "elektrisch",
+      "vers",
+      "geel"
     ],
     "reviewed": false
   },
@@ -4989,9 +4989,9 @@
     "nl": "Ik zie een beroemde acteur in de stad.",
     "form": "beroemde",
     "distractors": [
-      "verplichte",
-      "gemiddelde",
-      "automatische"
+      "jaarlijkse",
+      "geldige",
+      "dubbele"
     ],
     "reviewed": false
   },
@@ -5000,9 +5000,9 @@
     "nl": "Mijn collega is eerlijk en betrouwbaar.",
     "form": "betrouwbaar",
     "distractors": [
-      "gemiddeld",
-      "automatisch",
-      "paars"
+      "groen",
+      "houten",
+      "jaarlijks"
     ],
     "reviewed": false
   },
@@ -5011,9 +5011,9 @@
     "nl": "Mijn moeder is bezorgd om mij.",
     "form": "bezorgd",
     "distractors": [
-      "dicht",
-      "dagelijks",
-      "elektrisch"
+      "leeg",
+      "rond",
+      "dubbel"
     ],
     "reviewed": false
   },
@@ -5022,9 +5022,9 @@
     "nl": "Dit cadeau is heel bijzonder.",
     "form": "bijzonder",
     "distractors": [
-      "naïef",
-      "verstandig",
-      "agressief"
+      "vrolijk",
+      "vriendelijk",
+      "getrouwd"
     ],
     "reviewed": false
   },
@@ -5033,9 +5033,9 @@
     "nl": "Je gezicht is erg bleek.",
     "form": "bleek",
     "distractors": [
-      "geldig",
-      "roze",
-      "zwart"
+      "automatisch",
+      "groen",
+      "vers"
     ],
     "reviewed": false
   },
@@ -5044,9 +5044,9 @@
     "nl": "Die oude man is blind.",
     "form": "blind",
     "distractors": [
-      "rood",
-      "paars",
-      "bruin"
+      "oranje",
+      "klassiek",
+      "gratis"
     ],
     "reviewed": false
   },
@@ -5055,9 +5055,9 @@
     "nl": "Deze straat is heel breed.",
     "form": "breed",
     "distractors": [
-      "ziek",
-      "verdrietig",
-      "moe"
+      "dankbaar",
+      "jaloers",
+      "levend"
     ],
     "reviewed": false
   },
@@ -5066,9 +5066,9 @@
     "nl": "Mijn zus is erg creatief.",
     "form": "creatief",
     "distractors": [
+      "geel",
       "elektrisch",
-      "vers",
-      "dicht"
+      "leeg"
     ],
     "reviewed": false
   },
@@ -5077,9 +5077,9 @@
     "nl": "Ik ben je heel dankbaar.",
     "form": "dankbaar",
     "distractors": [
-      "vlak",
-      "dubbel",
-      "verplicht"
+      "blauw",
+      "roze",
+      "dubbel"
     ],
     "reviewed": false
   },
@@ -5088,9 +5088,9 @@
     "nl": "De winkel is op zondag dicht.",
     "form": "dicht",
     "distractors": [
-      "verliefd",
-      "nieuwsgierig",
-      "vrolijk"
+      "zwanger",
+      "agressief",
+      "bang"
     ],
     "reviewed": false
   },
@@ -5099,9 +5099,9 @@
     "nl": "Mijn school is dichtbij.",
     "form": "dichtbij",
     "distractors": [
-      "dapper",
-      "bevriend",
-      "verbaasd"
+      "zelfstandig",
+      "actief",
+      "gelukkig"
     ],
     "reviewed": false
   },
@@ -5111,8 +5111,8 @@
     "form": "domme",
     "distractors": [
       "geboren",
-      "onzekere",
-      "wakkere"
+      "zwangere",
+      "eenzame"
     ],
     "reviewed": false
   },
@@ -5121,9 +5121,9 @@
     "nl": "In de kelder is het erg donker.",
     "form": "donker",
     "distractors": [
-      "eenzaam",
-      "beleefd",
-      "vriendelijk"
+      "ziek",
+      "wakker",
+      "verbaasd"
     ],
     "reviewed": false
   },
@@ -5132,9 +5132,9 @@
     "nl": "De bloem in de tuin is dood.",
     "form": "dood",
     "distractors": [
-      "ongelukkig",
-      "braaf",
-      "tolerant"
+      "beleefd",
+      "verliefd",
+      "trots"
     ],
     "reviewed": false
   },
@@ -5143,9 +5143,9 @@
     "nl": "Mijn handdoek is al droog.",
     "form": "droog",
     "distractors": [
-      "verlegen",
-      "bezorgd",
-      "getrouwd"
+      "eenzaam",
+      "moe",
+      "lui"
     ],
     "reviewed": false
   },
@@ -5154,9 +5154,9 @@
     "nl": "Het is vandaag erg druk in de stad.",
     "form": "druk",
     "distractors": [
-      "optimistisch",
-      "stoer",
-      "creatief"
+      "verstandig",
+      "boos",
+      "actief"
     ],
     "reviewed": false
   },
@@ -5166,8 +5166,8 @@
     "form": "dubbel",
     "distractors": [
       "grijs",
-      "groen",
-      "vierkant"
+      "gemiddeld",
+      "houten"
     ],
     "reviewed": false
   },
@@ -5176,9 +5176,9 @@
     "nl": "Het antwoord is heel duidelijk.",
     "form": "duidelijk",
     "distractors": [
-      "ambitieus",
-      "bang",
-      "wakker"
+      "moe",
+      "onzeker",
+      "nerveus"
     ],
     "reviewed": false
   },
@@ -5187,9 +5187,9 @@
     "nl": "Deze jas is te dun voor de winter.",
     "form": "dun",
     "distractors": [
-      "zelfstandig",
-      "jaloers",
-      "arrogant"
+      "verliefd",
+      "agressief",
+      "trots"
     ],
     "reviewed": false
   },
@@ -5198,9 +5198,9 @@
     "nl": "Dit goud is echt.",
     "form": "echt",
     "distractors": [
-      "actief",
-      "gelukkig",
-      "spontaan"
+      "boos",
+      "dankbaar",
+      "getrouwd"
     ],
     "reviewed": false
   },
@@ -5209,9 +5209,9 @@
     "nl": "De oude vrouw is vaak eenzaam.",
     "form": "eenzaam",
     "distractors": [
-      "rond",
-      "geel",
-      "wekelijks"
+      "bruin",
+      "paars",
+      "rond"
     ],
     "reviewed": false
   },
@@ -5220,9 +5220,9 @@
     "nl": "Mijn leraar is altijd eerlijk.",
     "form": "eerlijk",
     "distractors": [
-      "gratis",
-      "leeg",
-      "geldig"
+      "dicht",
+      "wit",
+      "rood"
     ],
     "reviewed": false
   },
@@ -5231,9 +5231,9 @@
     "nl": "Ik heb een eigen kamer.",
     "form": "eigen",
     "distractors": [
-      "actieve",
-      "jaloerse",
-      "zieke"
+      "trotse",
+      "verliefde",
+      "gelukkige"
     ],
     "reviewed": false
   },
@@ -5242,9 +5242,9 @@
     "nl": "Mijn vader heeft een elektrische fiets.",
     "form": "elektrische",
     "distractors": [
-      "nieuwsgierige",
-      "agressieve",
-      "brave"
+      "nerveuze",
+      "bange",
+      "nieuwsgierige"
     ],
     "reviewed": false
   },
@@ -5253,9 +5253,9 @@
     "nl": "De film is te eng voor kinderen.",
     "form": "eng",
     "distractors": [
-      "trots",
-      "sceptisch",
-      "egoïstisch"
+      "gelukkig",
+      "nieuwsgierig",
+      "beleefd"
     ],
     "reviewed": false
   },
@@ -5264,9 +5264,9 @@
     "nl": "Wij wonen in een enorm huis.",
     "form": "enorm",
     "distractors": [
-      "ontevreden",
-      "levend",
-      "gehuwd"
+      "ongelukkig",
+      "eenzaam",
+      "bezorgd"
     ],
     "reviewed": false
   },
@@ -5275,9 +5275,9 @@
     "nl": "Het is erg voor haar.",
     "form": "erg",
     "distractors": [
-      "nerveus",
-      "verkouden",
-      "sceptisch"
+      "creatief",
+      "jaarlijks",
+      "geboren"
     ],
     "reviewed": false
   },
@@ -5286,9 +5286,9 @@
     "nl": "De ziekte van mijn opa is ernstig.",
     "form": "ernstig",
     "distractors": [
-      "braaf",
-      "verlegen",
-      "verliefd"
+      "bezig",
+      "verplicht",
+      "verstandig"
     ],
     "reviewed": false
   },
@@ -5297,9 +5297,9 @@
     "nl": "Het is fijn om thuis te zijn.",
     "form": "fijn",
     "distractors": [
-      "bevriend",
-      "verbaasd",
-      "bezig"
+      "wekelijks",
+      "automatisch",
+      "verdrietig"
     ],
     "reviewed": false
   },
@@ -5308,9 +5308,9 @@
     "nl": "Mijn paspoort is nog geldig.",
     "form": "geldig",
     "distractors": [
-      "stoer",
-      "agressief",
-      "getrouwd"
+      "verbaasd",
+      "zelfstandig",
+      "dagelijks"
     ],
     "reviewed": false
   },
@@ -5319,9 +5319,9 @@
     "nl": "Alle mensen zijn gelijk.",
     "form": "gelijk",
     "distractors": [
-      "loyaal",
-      "egoïstisch",
-      "ambitieus"
+      "zwanger",
+      "levend",
+      "wakker"
     ],
     "reviewed": false
   },
@@ -5330,9 +5330,9 @@
     "nl": "Mijn gemiddelde cijfer is zeven.",
     "form": "gemiddelde",
     "distractors": [
-      "sceptische",
-      "trotse",
-      "beleefde"
+      "creatieve",
+      "zelfstandige",
+      "agressieve"
     ],
     "reviewed": false
   },
@@ -5341,9 +5341,9 @@
     "nl": "Deze weg is heel gevaarlijk.",
     "form": "gevaarlijk",
     "distractors": [
-      "geboren",
-      "gelukkig",
-      "levend"
+      "bang",
+      "vrolijk",
+      "jaloers"
     ],
     "reviewed": false
   },
@@ -5352,9 +5352,9 @@
     "nl": "Mijn huid is erg gevoelig.",
     "form": "gevoelig",
     "distractors": [
-      "spontaan",
-      "bezorgd",
-      "arrogant"
+      "ziek",
+      "lui",
+      "vriendelijk"
     ],
     "reviewed": false
   },
@@ -5363,9 +5363,9 @@
     "nl": "Wij hadden een geweldige vakantie.",
     "form": "geweldige",
     "distractors": [
-      "dappere",
-      "loyale",
-      "nerveuze"
+      "luie",
+      "actieve",
+      "ongelukkige"
     ],
     "reviewed": false
   },
@@ -5374,9 +5374,9 @@
     "nl": "Ons huis is warm en gezellig.",
     "form": "gezellig",
     "distractors": [
-      "creatief",
-      "dapper",
-      "verstandig"
+      "actief",
+      "ziek",
+      "beleefd"
     ],
     "reviewed": false
   },
@@ -5385,9 +5385,9 @@
     "nl": "Die film is echt grappig.",
     "form": "grappig",
     "distractors": [
-      "beleefd",
-      "dankbaar",
-      "boos"
+      "verstandig",
+      "ongelukkig",
+      "zwanger"
     ],
     "reviewed": false
   },
@@ -5396,9 +5396,9 @@
     "nl": "De koffie is hier gratis.",
     "form": "gratis",
     "distractors": [
-      "ongelukkig",
-      "wakker",
-      "nieuwsgierig"
+      "gelukkig",
+      "geboren",
+      "wakker"
     ],
     "reviewed": false
   },
@@ -5407,9 +5407,9 @@
     "nl": "Een laptop is erg handig.",
     "form": "handig",
     "distractors": [
-      "zelfstandig",
-      "optimistisch",
-      "gehuwd"
+      "verliefd",
+      "eenzaam",
+      "bezig"
     ],
     "reviewed": false
   },
@@ -5418,9 +5418,9 @@
     "nl": "Mijn bed is te hard.",
     "form": "hard",
     "distractors": [
-      "vriendelijk",
-      "vrolijk",
-      "ontevreden"
+      "agressief",
+      "verbaasd",
+      "onzeker"
     ],
     "reviewed": false
   },
@@ -5429,9 +5429,9 @@
     "nl": "De lucht is vandaag helder.",
     "form": "helder",
     "distractors": [
-      "alleenstaand",
-      "nerveus",
-      "actief"
+      "moe",
+      "verdrietig",
+      "dankbaar"
     ],
     "reviewed": false
   },
@@ -5440,9 +5440,9 @@
     "nl": "Wij hebben een houten tafel.",
     "form": "houten",
     "distractors": [
-      "naïef",
-      "brutaal",
-      "jaloers"
+      "creatief",
+      "vrolijk",
+      "getrouwd"
     ],
     "reviewed": false
   },
@@ -5451,9 +5451,9 @@
     "nl": "Deze regel is te ingewikkeld voor mij.",
     "form": "ingewikkeld",
     "distractors": [
-      "eenzaam",
-      "verdrietig",
-      "tolerant"
+      "vlak",
+      "geldig",
+      "vierkant"
     ],
     "reviewed": false
   },
@@ -5462,9 +5462,9 @@
     "nl": "Dit programma is erg interessant.",
     "form": "interessant",
     "distractors": [
-      "lui",
-      "zwanger",
-      "onzeker"
+      "jaloers",
+      "levend",
+      "dagelijks"
     ],
     "reviewed": false
   },
@@ -5473,9 +5473,9 @@
     "nl": "Wij hebben jaarlijks een groot feest.",
     "form": "jaarlijks",
     "distractors": [
-      "houten",
-      "oranje",
-      "gemiddeld"
+      "zwart",
+      "elektrisch",
+      "dicht"
     ],
     "reviewed": false
   },
@@ -5484,9 +5484,9 @@
     "nl": "Mijn broer is vaak jaloers.",
     "form": "jaloers",
     "distractors": [
-      "roze",
-      "wit",
-      "blauw"
+      "geldig",
+      "bruin",
+      "vlak"
     ],
     "reviewed": false
   },
@@ -5495,9 +5495,9 @@
     "nl": "Het is jammer dat het regent.",
     "form": "jammer",
     "distractors": [
-      "ziek",
-      "trots",
-      "moe"
+      "verplicht",
+      "jaarlijks",
+      "nerveus"
     ],
     "reviewed": false
   },
@@ -5506,9 +5506,9 @@
     "nl": "Dat antwoord is juist.",
     "form": "juist",
     "distractors": [
-      "verkouden",
-      "bang",
-      "dapper"
+      "vierkant",
+      "vers",
+      "gemiddeld"
     ],
     "reviewed": false
   },
@@ -5517,9 +5517,9 @@
     "nl": "Mijn telefoon is kapot.",
     "form": "kapot",
     "distractors": [
-      "boos",
-      "gehuwd",
-      "creatief"
+      "bang",
+      "zelfstandig",
+      "boos"
     ],
     "reviewed": false
   },
@@ -5528,9 +5528,9 @@
     "nl": "Mijn kamer is altijd keurig.",
     "form": "keurig",
     "distractors": [
-      "eenzaam",
-      "trots",
-      "egoïstisch"
+      "vriendelijk",
+      "bezorgd",
+      "lui"
     ],
     "reviewed": false
   },
@@ -5539,9 +5539,9 @@
     "nl": "Het eten is nu klaar.",
     "form": "klaar",
     "distractors": [
-      "loyaal",
-      "naïef",
-      "spontaan"
+      "nieuwsgierig",
+      "trots",
+      "levend"
     ],
     "reviewed": false
   },
@@ -5550,9 +5550,9 @@
     "nl": "Wij gaan naar een klassiek concert.",
     "form": "klassiek",
     "distractors": [
-      "wakker",
-      "beleefd",
-      "verdrietig"
+      "moe",
+      "verliefd",
+      "nieuwsgierig"
     ],
     "reviewed": false
   },
@@ -5561,9 +5561,9 @@
     "nl": "Ik ben mijn sleutel kwijt.",
     "form": "kwijt",
     "distractors": [
-      "klassiek",
-      "automatisch",
-      "jaarlijks"
+      "groen",
+      "leeg",
+      "oranje"
     ],
     "reviewed": false
   },
@@ -5572,9 +5572,9 @@
     "nl": "Mijn glas is leeg.",
     "form": "leeg",
     "distractors": [
-      "arrogant",
-      "bezig",
-      "ontevreden"
+      "nerveus",
+      "jaloers",
+      "zelfstandig"
     ],
     "reviewed": false
   },
@@ -5583,9 +5583,9 @@
     "nl": "Die jurk is echt lelijk.",
     "form": "lelijk",
     "distractors": [
-      "braaf",
-      "moe",
-      "actief"
+      "vriendelijk",
+      "actief",
+      "bang"
     ],
     "reviewed": false
   },
@@ -5605,9 +5605,9 @@
     "nl": "Mijn kleine zus is heel lief.",
     "form": "lief",
     "distractors": [
-      "optimistisch",
       "verbaasd",
-      "dankbaar"
+      "getrouwd",
+      "zwanger"
     ],
     "reviewed": false
   },
@@ -5616,9 +5616,9 @@
     "nl": "Deze regel is logisch.",
     "form": "logisch",
     "distractors": [
-      "brutaal",
-      "verliefd",
-      "geboren"
+      "dubbel",
+      "rond",
+      "automatisch"
     ],
     "reviewed": false
   },
@@ -5627,9 +5627,9 @@
     "nl": "De tand van mijn zoon zit los.",
     "form": "los",
     "distractors": [
-      "tolerant",
-      "verkouden",
-      "gelukkig"
+      "lui",
+      "boos",
+      "agressief"
     ],
     "reviewed": false
   },
@@ -5638,9 +5638,9 @@
     "nl": "Mijn broer is vandaag erg lui.",
     "form": "lui",
     "distractors": [
-      "dagelijks",
-      "vers",
-      "elektrisch"
+      "gratis",
+      "rood",
+      "geel"
     ],
     "reviewed": false
   },
@@ -5649,9 +5649,9 @@
     "nl": "Is het mogelijk om morgen te komen?",
     "form": "mogelijk",
     "distractors": [
-      "sceptisch",
-      "nieuwsgierig",
-      "nerveus"
+      "wekelijks",
+      "klassiek",
+      "houten"
     ],
     "reviewed": false
   },
@@ -5660,9 +5660,9 @@
     "nl": "De straat is nat na de regen.",
     "form": "nat",
     "distractors": [
-      "verlegen",
-      "bezorgd",
-      "onzeker"
+      "ongelukkig",
+      "bezig",
+      "geboren"
     ],
     "reviewed": false
   },
@@ -5671,9 +5671,9 @@
     "nl": "Ik koop een natuurlijk product.",
     "form": "natuurlijk",
     "distractors": [
-      "alleenstaand",
-      "zelfstandig",
-      "bang"
+      "trots",
+      "bezorgd",
+      "ziek"
     ],
     "reviewed": false
   },
@@ -5682,9 +5682,9 @@
     "nl": "Ik ben nerveus voor de test.",
     "form": "nerveus",
     "distractors": [
-      "gratis",
-      "gemiddeld",
-      "wekelijks"
+      "roze",
+      "zwart",
+      "paars"
     ],
     "reviewed": false
   },
@@ -5693,9 +5693,9 @@
     "nl": "Mijn zoon is heel nieuwsgierig.",
     "form": "nieuwsgierig",
     "distractors": [
-      "zwart",
-      "leeg",
-      "blauw"
+      "blauw",
+      "wit",
+      "grijs"
     ],
     "reviewed": false
   },
@@ -5704,9 +5704,9 @@
     "nl": "Een paspoort is hier nodig.",
     "form": "nodig",
     "distractors": [
-      "agressief",
-      "ongelukkig",
-      "vrolijk"
+      "jaarlijks",
+      "dankbaar",
+      "gemiddeld"
     ],
     "reviewed": false
   },
@@ -5715,9 +5715,9 @@
     "nl": "Ik zie een onbekende man.",
     "form": "onbekende",
     "distractors": [
-      "vlakke",
-      "dubbele",
-      "dichte"
+      "elektrische",
+      "vierkante",
+      "verplichte"
     ],
     "reviewed": false
   },
@@ -5726,9 +5726,9 @@
     "nl": "Ons kind is ongelukkig.",
     "form": "ongelukkig",
     "distractors": [
-      "geldig",
-      "bruin",
-      "oranje"
+      "wekelijks",
+      "paars",
+      "leeg"
     ],
     "reviewed": false
   },
@@ -5737,9 +5737,9 @@
     "nl": "Veel suiker is ongezond.",
     "form": "ongezond",
     "distractors": [
-      "ziek",
-      "jaloers",
-      "bevriend"
+      "creatief",
+      "vlak",
+      "verstandig"
     ],
     "reviewed": false
   },
@@ -5748,9 +5748,9 @@
     "nl": "Ik ben nog onzeker over het antwoord.",
     "form": "onzeker",
     "distractors": [
-      "houten",
-      "groen",
-      "roze"
+      "gratis",
+      "klassiek",
+      "zwart"
     ],
     "reviewed": false
   },
@@ -5759,9 +5759,9 @@
     "nl": "Het raam is open.",
     "form": "open",
     "distractors": [
-      "stoer",
-      "vriendelijk",
-      "getrouwd"
+      "gelukkig",
+      "wakker",
+      "vrolijk"
     ],
     "reviewed": false
   },
@@ -5770,9 +5770,9 @@
     "nl": "Mijn knie is vandaag pijnlijk.",
     "form": "pijnlijk",
     "distractors": [
-      "zwanger",
-      "ambitieus",
-      "verstandig"
+      "eenzaam",
+      "verdrietig",
+      "onzeker"
     ],
     "reviewed": false
   },
@@ -5781,9 +5781,9 @@
     "nl": "Deze jas is mooi en praktisch.",
     "form": "praktisch",
     "distractors": [
-      "lui",
-      "levend",
-      "gehuwd"
+      "beleefd",
+      "zelfstandig",
+      "verstandig"
     ],
     "reviewed": false
   },
@@ -5792,9 +5792,9 @@
     "nl": "Die prijs is redelijk.",
     "form": "redelijk",
     "distractors": [
-      "zwanger",
-      "boos",
-      "naïef"
+      "rond",
+      "automatisch",
+      "vers"
     ],
     "reviewed": false
   },
@@ -5803,9 +5803,9 @@
     "nl": "Ik ga regelmatig naar de bibliotheek.",
     "form": "regelmatig",
     "distractors": [
-      "rood",
       "vierkant",
-      "wit"
+      "grijs",
+      "rood"
     ],
     "reviewed": false
   },
@@ -5814,9 +5814,9 @@
     "nl": "De baby slaapt rustig.",
     "form": "rustig",
     "distractors": [
-      "grijs",
-      "paars",
-      "rond"
+      "blauw",
+      "verplicht",
+      "dicht"
     ],
     "reviewed": false
   },
@@ -5825,9 +5825,9 @@
     "nl": "Deze les is erg saai.",
     "form": "saai",
     "distractors": [
-      "ziek",
-      "levend",
-      "egoïstisch"
+      "verbaasd",
+      "ongelukkig",
+      "creatief"
     ],
     "reviewed": false
   },
@@ -5836,9 +5836,9 @@
     "nl": "Dit mes is erg scherp.",
     "form": "scherp",
     "distractors": [
-      "dapper",
-      "actief",
-      "agressief"
+      "getrouwd",
+      "jaloers",
+      "bezorgd"
     ],
     "reviewed": false
   },
@@ -5847,9 +5847,9 @@
     "nl": "Mijn baas is altijd erg serieus.",
     "form": "serieus",
     "distractors": [
-      "dubbel",
-      "automatisch",
-      "vlak"
+      "wit",
+      "geldig",
+      "dagelijks"
     ],
     "reviewed": false
   },
@@ -5858,9 +5858,9 @@
     "nl": "Mijn dochter is heel slim.",
     "form": "slim",
     "distractors": [
-      "verplicht",
-      "jaarlijks",
-      "dicht"
+      "houten",
+      "bruin",
+      "groen"
     ],
     "reviewed": false
   },
@@ -5869,9 +5869,9 @@
     "nl": "De trap is smal.",
     "form": "smal",
     "distractors": [
-      "brutaal",
-      "eenzaam",
-      "ongelukkig"
+      "dankbaar",
+      "onzeker",
+      "geboren"
     ],
     "reviewed": false
   },
@@ -5880,9 +5880,9 @@
     "nl": "Dit verhaal is erg spannend.",
     "form": "spannend",
     "distractors": [
-      "ambitieus",
-      "getrouwd",
-      "trots"
+      "elektrisch",
+      "dubbel",
+      "gelukkig"
     ],
     "reviewed": false
   },
@@ -5891,9 +5891,9 @@
     "nl": "Mijn vader is nog erg sterk.",
     "form": "sterk",
     "distractors": [
-      "klassiek",
-      "geel",
-      "dagelijks"
+      "roze",
+      "oranje",
+      "geel"
     ],
     "reviewed": false
   },
@@ -5902,9 +5902,9 @@
     "nl": "Deze stoel is erg stevig.",
     "form": "stevig",
     "distractors": [
-      "stoer",
-      "verlegen",
-      "ontevreden"
+      "nieuwsgierig",
+      "eenzaam",
+      "lui"
     ],
     "reviewed": false
   },
@@ -5913,9 +5913,9 @@
     "nl": "Mijn zoon eet stiekem een koekje.",
     "form": "stiekem",
     "distractors": [
-      "oranje",
       "paars",
-      "zwart"
+      "geldig",
+      "roze"
     ],
     "reviewed": false
   },
@@ -5924,9 +5924,9 @@
     "nl": "Het is in de klas heel stil.",
     "form": "stil",
     "distractors": [
-      "lui",
-      "bang",
-      "gelukkig"
+      "beleefd",
+      "nerveus",
+      "moe"
     ],
     "reviewed": false
   },
@@ -5935,9 +5935,9 @@
     "nl": "Onze leraar is streng.",
     "form": "streng",
     "distractors": [
+      "grijs",
       "vierkant",
-      "vers",
-      "roze"
+      "oranje"
     ],
     "reviewed": false
   },
@@ -5946,9 +5946,9 @@
     "nl": "Dit werk is tijdelijk.",
     "form": "tijdelijk",
     "distractors": [
-      "moe",
-      "verkouden",
-      "bevriend"
+      "gratis",
+      "vers",
+      "actief"
     ],
     "reviewed": false
   },
@@ -5957,9 +5957,9 @@
     "nl": "Ik ontmoet mijn leraar toevallig in de stad.",
     "form": "toevallig",
     "distractors": [
-      "rood",
       "verplicht",
-      "houten"
+      "vlak",
+      "leeg"
     ],
     "reviewed": false
   },
@@ -5968,9 +5968,9 @@
     "nl": "Ik ben trots op mijn zoon.",
     "form": "trots",
     "distractors": [
-      "wekelijks",
-      "geel",
-      "elektrisch"
+      "automatisch",
+      "groen",
+      "dicht"
     ],
     "reviewed": false
   },
@@ -5979,9 +5979,9 @@
     "nl": "Dit eten is typisch voor ons land.",
     "form": "typisch",
     "distractors": [
-      "bezig",
-      "sceptisch",
-      "spontaan"
+      "dubbel",
+      "klassiek",
+      "agressief"
     ],
     "reviewed": false
   },
@@ -5990,9 +5990,9 @@
     "nl": "Het eten is hier uitstekend.",
     "form": "uitstekend",
     "distractors": [
-      "tolerant",
-      "braaf",
-      "onzeker"
+      "bezig",
+      "bang",
+      "boos"
     ],
     "reviewed": false
   },
@@ -6001,9 +6001,9 @@
     "nl": "Elk mens is uniek.",
     "form": "uniek",
     "distractors": [
-      "arrogant",
-      "jaloers",
-      "nieuwsgierig"
+      "zwanger",
+      "dagelijks",
+      "jaarlijks"
     ],
     "reviewed": false
   },
@@ -6012,9 +6012,9 @@
     "nl": "Dit geld is vals.",
     "form": "vals",
     "distractors": [
-      "vriendelijk",
-      "verstandig",
-      "creatief"
+      "wakker",
+      "vrolijk",
+      "verdrietig"
     ],
     "reviewed": false
   },
@@ -6023,9 +6023,9 @@
     "nl": "Het is hier erg veilig.",
     "form": "veilig",
     "distractors": [
-      "zelfstandig",
-      "verliefd",
-      "alleenstaand"
+      "ziek",
+      "levend",
+      "trots"
     ],
     "reviewed": false
   },
@@ -6034,9 +6034,9 @@
     "nl": "Mijn vader is erg verbaasd.",
     "form": "verbaasd",
     "distractors": [
-      "gemiddeld",
-      "dicht",
-      "grijs"
+      "houten",
+      "rond",
+      "wekelijks"
     ],
     "reviewed": false
   },
@@ -6045,9 +6045,9 @@
     "nl": "Het kind is vandaag verdrietig.",
     "form": "verdrietig",
     "distractors": [
-      "groen",
-      "klassiek",
-      "gratis"
+      "wit",
+      "elektrisch",
+      "rood"
     ],
     "reviewed": false
   },
@@ -6056,9 +6056,9 @@
     "nl": "Dit adres is verkeerd.",
     "form": "verkeerd",
     "distractors": [
-      "optimistisch",
-      "vrolijk",
-      "verbaasd"
+      "gemiddeld",
+      "verliefd",
+      "vriendelijk"
     ],
     "reviewed": false
   },
@@ -6067,9 +6067,9 @@
     "nl": "Zij is verliefd op mijn broer.",
     "form": "verliefd",
     "distractors": [
-      "bruin",
-      "wit",
-      "geldig"
+      "geel",
+      "zwart",
+      "bruin"
     ],
     "reviewed": false
   },
@@ -6078,9 +6078,9 @@
     "nl": "Deze cursus is verplicht.",
     "form": "verplicht",
     "distractors": [
-      "loyaal",
-      "beleefd",
-      "verdrietig"
+      "nerveus",
+      "wakker",
+      "automatisch"
     ],
     "reviewed": false
   },
@@ -6089,9 +6089,9 @@
     "nl": "Mijn broer en ik zijn verschillend.",
     "form": "verschillend",
     "distractors": [
-      "rond",
-      "dagelijks",
-      "jaarlijks"
+      "blauw",
+      "vers",
+      "rood"
     ],
     "reviewed": false
   },
@@ -6100,9 +6100,9 @@
     "nl": "Dat is een verstandig idee.",
     "form": "verstandig",
     "distractors": [
-      "dankbaar",
-      "geboren",
-      "wakker"
+      "verplicht",
+      "gelukkig",
+      "moe"
     ],
     "reviewed": false
   },
@@ -6111,9 +6111,9 @@
     "nl": "Die mug is erg vervelend.",
     "form": "vervelend",
     "distractors": [
-      "bezorgd",
-      "nerveus",
-      "brutaal"
+      "verbaasd",
+      "ziek",
+      "creatief"
     ],
     "reviewed": false
   },
@@ -6122,9 +6122,9 @@
     "nl": "Wij hebben een vierkante tafel.",
     "form": "vierkante",
     "distractors": [
-      "verbaasde",
-      "gelukkige",
-      "vriendelijke"
+      "beleefde",
+      "levende",
+      "onzekere"
     ],
     "reviewed": false
   },
@@ -6133,9 +6133,9 @@
     "nl": "De handdoek is vies.",
     "form": "vies",
     "distractors": [
-      "nerveus",
-      "verbaasd",
-      "ongelukkig"
+      "dankbaar",
+      "agressief",
+      "trots"
     ],
     "reviewed": false
   },
@@ -6144,9 +6144,9 @@
     "nl": "Het land is hier heel vlak.",
     "form": "vlak",
     "distractors": [
-      "stoer",
-      "braaf",
-      "jaloers"
+      "bang",
+      "nieuwsgierig",
+      "vrolijk"
     ],
     "reviewed": false
   },
@@ -6155,9 +6155,9 @@
     "nl": "De bus is vandaag vol.",
     "form": "vol",
     "distractors": [
-      "vrolijk",
-      "ambitieus",
-      "geboren"
+      "ongelukkig",
+      "verstandig",
+      "lui"
     ],
     "reviewed": false
   },
@@ -6166,9 +6166,9 @@
     "nl": "De volgende trein komt om vier uur.",
     "form": "volgende",
     "distractors": [
-      "naïeve",
-      "stoere",
-      "brutale"
+      "wakkere",
+      "verbaasde",
+      "vrolijke"
     ],
     "reviewed": false
   },
@@ -6177,9 +6177,9 @@
     "nl": "Mijn moeder rijdt altijd voorzichtig.",
     "form": "voorzichtig",
     "distractors": [
-      "blauw",
-      "leeg",
-      "vlak"
+      "elektrisch",
+      "wit",
+      "gemiddeld"
     ],
     "reviewed": false
   },
@@ -6188,9 +6188,9 @@
     "nl": "Dat geluid is erg vreemd.",
     "form": "vreemd",
     "distractors": [
-      "wakker",
-      "nieuwsgierig",
-      "actief"
+      "eenzaam",
+      "geboren",
+      "verdrietig"
     ],
     "reviewed": false
   },
@@ -6199,9 +6199,9 @@
     "nl": "Het weer is vandaag vreselijk.",
     "form": "vreselijk",
     "distractors": [
-      "verlegen",
-      "spontaan",
-      "trots"
+      "bezorgd",
+      "jaloers",
+      "beleefd"
     ],
     "reviewed": false
   },
@@ -6210,9 +6210,9 @@
     "nl": "De man in de winkel is vriendelijk.",
     "form": "vriendelijk",
     "distractors": [
-      "automatisch",
-      "dubbel",
-      "vers"
+      "geldig",
+      "leeg",
+      "vlak"
     ],
     "reviewed": false
   },
@@ -6221,9 +6221,9 @@
     "nl": "Morgen ben ik vrij.",
     "form": "vrij",
     "distractors": [
-      "rood",
-      "jaarlijks",
-      "zwart"
+      "bruin",
+      "blauw",
+      "dubbel"
     ],
     "reviewed": false
   },
@@ -6232,9 +6232,9 @@
     "nl": "De kinderen zijn vandaag erg vrolijk.",
     "form": "vrolijk",
     "distractors": [
-      "wit",
-      "groen",
-      "geel"
+      "dicht",
+      "klassiek",
+      "oranje"
     ],
     "reviewed": false
   },
@@ -6243,9 +6243,9 @@
     "nl": "Dat is niet waar.",
     "form": "waar",
     "distractors": [
-      "loyaal",
+      "boos",
       "vriendelijk",
-      "gehuwd"
+      "getrouwd"
     ],
     "reviewed": false
   },
@@ -6254,9 +6254,9 @@
     "nl": "Ik bel mijn moeder wekelijks.",
     "form": "wekelijks",
     "distractors": [
-      "leeg",
-      "roze",
-      "bruin"
+      "groen",
+      "zwart",
+      "grijs"
     ],
     "reviewed": false
   },
@@ -6265,9 +6265,9 @@
     "nl": "Je bent altijd welkom hier.",
     "form": "welkom",
     "distractors": [
-      "verplicht",
-      "blauw",
-      "dagelijks"
+      "rond",
+      "houten",
+      "roze"
     ],
     "reviewed": false
   },
@@ -6276,9 +6276,9 @@
     "nl": "Ik zie een wild dier in het bos.",
     "form": "wild",
     "distractors": [
-      "bevriend",
-      "beleefd",
-      "ziek"
+      "onzeker",
+      "actief",
+      "levend"
     ],
     "reviewed": false
   },
@@ -6287,9 +6287,9 @@
     "nl": "Mijn kussen is zacht.",
     "form": "zacht",
     "distractors": [
-      "onzeker",
-      "tolerant",
-      "sceptisch"
+      "zelfstandig",
+      "bezig",
+      "zwanger"
     ],
     "reviewed": false
   },
@@ -6298,9 +6298,9 @@
     "nl": "Ik ben zeker van mijn antwoord.",
     "form": "zeker",
     "distractors": [
-      "rond",
-      "dubbel",
-      "wekelijks"
+      "paars",
+      "jaarlijks",
+      "geel"
     ],
     "reviewed": false
   },
@@ -6309,9 +6309,9 @@
     "nl": "Mijn zoon is al zelfstandig.",
     "form": "zelfstandig",
     "distractors": [
-      "geldig",
-      "grijs",
-      "klassiek"
+      "dagelijks",
+      "vierkant",
+      "wekelijks"
     ],
     "reviewed": false
   },
@@ -6320,9 +6320,9 @@
     "nl": "Het is in de zomer vaak zonnig.",
     "form": "zonnig",
     "distractors": [
-      "dankbaar",
+      "verliefd",
       "gelukkig",
-      "ontevreden"
+      "levend"
     ],
     "reviewed": false
   },
@@ -6331,9 +6331,9 @@
     "nl": "Deze koffer is te zwaar.",
     "form": "zwaar",
     "distractors": [
-      "bang",
-      "eenzaam",
-      "moe"
+      "vriendelijk",
+      "verstandig",
+      "vrolijk"
     ],
     "reviewed": false
   },
@@ -6342,9 +6342,9 @@
     "nl": "Mijn been is nog zwak.",
     "form": "zwak",
     "distractors": [
-      "gemiddeld",
-      "automatisch",
-      "paars"
+      "gratis",
+      "dagelijks",
+      "geel"
     ],
     "reviewed": false
   },
@@ -6375,9 +6375,9 @@
     "nl": "De aap eet een banaan.",
     "form": "aap",
     "distractors": [
-      "kou",
-      "betaling",
-      "stage"
+      "stem",
+      "lening",
+      "letter"
     ],
     "reviewed": false
   },
@@ -6397,9 +6397,9 @@
     "nl": "De bloem groeit in de aarde.",
     "form": "aarde",
     "distractors": [
-      "belofte",
-      "hitte",
-      "reden"
+      "onderkant",
+      "training",
+      "uitspraak"
     ],
     "reviewed": false
   },
@@ -6408,9 +6408,9 @@
     "nl": "De tuin is aan de achterkant van het huis.",
     "form": "achterkant",
     "distractors": [
-      "hoogte",
-      "bovenkant",
-      "opmerking"
+      "serie",
+      "stap",
+      "vlucht"
     ],
     "reviewed": false
   },
@@ -6430,9 +6430,9 @@
     "nl": "De acteur speelt in een film.",
     "form": "acteur",
     "distractors": [
-      "luxe",
-      "cent",
-      "discussie"
+      "boodschap",
+      "lengte",
+      "aankoop"
     ],
     "reviewed": false
   },
@@ -6463,9 +6463,9 @@
     "nl": "De advocaat werkt in een groot kantoor.",
     "form": "advocaat",
     "distractors": [
-      "mening",
-      "taak",
-      "onzin"
+      "temperatuur",
+      "hulp",
+      "werkdag"
     ],
     "reviewed": false
   },
@@ -6474,9 +6474,9 @@
     "nl": "Mijn collega werkt op een andere afdeling.",
     "form": "afdeling",
     "distractors": [
-      "hulp",
-      "humor",
-      "letter"
+      "ervaring",
+      "periode",
+      "leugen"
     ],
     "reviewed": false
   },
@@ -6518,9 +6518,9 @@
     "nl": "De agent staat op de straat.",
     "form": "agent",
     "distractors": [
-      "cirkel",
-      "rit",
-      "lening"
+      "klant",
+      "vriendschap",
+      "kant"
     ],
     "reviewed": false
   },
@@ -6529,9 +6529,9 @@
     "nl": "Mijn vriend drinkt geen alcohol.",
     "form": "alcohol",
     "distractors": [
-      "pauze",
-      "dienst",
-      "stem"
+      "belofte",
+      "buitenkant",
+      "som"
     ],
     "reviewed": false
   },
@@ -6540,9 +6540,9 @@
     "nl": "De ambtenaar werkt op het kantoor.",
     "form": "ambtenaar",
     "distractors": [
-      "lengte",
-      "wandeling",
-      "telefoon"
+      "angst",
+      "reden",
+      "tijd"
     ],
     "reviewed": false
   },
@@ -6562,9 +6562,9 @@
     "nl": "Ik haal mijn medicijnen bij de apotheek.",
     "form": "apotheek",
     "distractors": [
-      "som",
-      "uitkering",
-      "sfeer"
+      "keuze",
+      "rit",
+      "stage"
     ],
     "reviewed": false
   },
@@ -6573,9 +6573,9 @@
     "nl": "De apotheker geeft mij een medicijn.",
     "form": "apotheker",
     "distractors": [
-      "kant",
-      "fout",
-      "tijd"
+      "finale",
+      "discussie",
+      "opmerking"
     ],
     "reviewed": false
   },
@@ -6595,9 +6595,9 @@
     "nl": "Zij draagt een armband om haar arm.",
     "form": "armband",
     "distractors": [
-      "buitenkant",
-      "keuze",
-      "snelheid"
+      "wedstrijd",
+      "rekening",
+      "test"
     ],
     "reviewed": false
   },
@@ -6606,9 +6606,9 @@
     "nl": "Deze attractie is leuk voor kinderen.",
     "form": "attractie",
     "distractors": [
-      "kus",
-      "uitspraak",
-      "richting"
+      "breedte",
+      "betaling",
+      "liefde"
     ],
     "reviewed": false
   },
@@ -6617,9 +6617,9 @@
     "nl": "Ik koop koffie bij de automaat.",
     "form": "automaat",
     "distractors": [
-      "boodschap",
-      "serie",
-      "angst"
+      "tocht",
+      "reis",
+      "emotie"
     ],
     "reviewed": false
   },
@@ -6650,9 +6650,9 @@
     "nl": "Mijn opa heeft een baard en een bril.",
     "form": "baard",
     "distractors": [
-      "stap",
-      "herinnering",
-      "informatie"
+      "dienst",
+      "wens",
+      "uitnodiging"
     ],
     "reviewed": false
   },
@@ -6661,9 +6661,9 @@
     "nl": "Mijn baas is vandaag niet op kantoor.",
     "form": "baas",
     "distractors": [
-      "training",
-      "emotie",
-      "kilogram"
+      "binnenkant",
+      "hitte",
+      "achterkant"
     ],
     "reviewed": false
   },
@@ -6672,9 +6672,9 @@
     "nl": "Het bad in onze badkamer is groot.",
     "form": "bad",
     "distractors": [
-      "gesprek",
-      "inkomen",
-      "cadeau"
+      "probleem",
+      "scherm",
+      "verhaal"
     ],
     "reviewed": false
   },
@@ -6683,9 +6683,9 @@
     "nl": "Mijn badkamer is naast mijn slaapkamer.",
     "form": "badkamer",
     "distractors": [
-      "streep",
-      "onderkant",
-      "periode"
+      "droom",
+      "humor",
+      "plaats"
     ],
     "reviewed": false
   },
@@ -6694,9 +6694,9 @@
     "nl": "Mijn bagage is in de auto.",
     "form": "bagage",
     "distractors": [
-      "achterkant",
-      "vriendschap",
-      "voorkant"
+      "kou",
+      "mening",
+      "regel"
     ],
     "reviewed": false
   },
@@ -6705,9 +6705,9 @@
     "nl": "De bak met water staat op de grond.",
     "form": "bak",
     "distractors": [
-      "vlucht",
-      "leugen",
-      "schaduw"
+      "bovenkant",
+      "belasting",
+      "cirkel"
     ],
     "reviewed": false
   },
@@ -6716,9 +6716,9 @@
     "nl": "Ik koop mijn brood bij de bakker.",
     "form": "bakker",
     "distractors": [
-      "test",
-      "vertraging",
-      "schaduw"
+      "sfeer",
+      "storm",
+      "cent"
     ],
     "reviewed": false
   },
@@ -6738,9 +6738,9 @@
     "nl": "Mijn dochter ziet een ballet in het theater.",
     "form": "ballet",
     "distractors": [
-      "gevoel",
-      "adres",
-      "tennis"
+      "salaris",
+      "nieuws",
+      "cadeau"
     ],
     "reviewed": false
   },
@@ -6749,9 +6749,9 @@
     "nl": "Ik eet een banaan als lunch.",
     "form": "banaan",
     "distractors": [
-      "temperatuur",
-      "onderkant",
-      "informatie"
+      "kilogram",
+      "streep",
+      "uitkering"
     ],
     "reviewed": false
   },
@@ -6760,9 +6760,9 @@
     "nl": "Wij zitten samen op de bank.",
     "form": "bank",
     "distractors": [
-      "tocht",
-      "betaling",
-      "afspraak"
+      "wandeling",
+      "onzin",
+      "vertraging"
     ],
     "reviewed": false
   },
@@ -6771,9 +6771,9 @@
     "nl": "Wij drinken bier in de bar.",
     "form": "bar",
     "distractors": [
-      "keuze",
-      "pauze",
-      "snelheid"
+      "schaduw",
+      "fout",
+      "pauze"
     ],
     "reviewed": false
   },
@@ -6782,9 +6782,9 @@
     "nl": "Mijn zoon gaat naar de basisschool.",
     "form": "basisschool",
     "distractors": [
-      "periode",
-      "binnenkant",
-      "reden"
+      "grap",
+      "telefoon",
+      "lach"
     ],
     "reviewed": false
   },
@@ -6793,9 +6793,9 @@
     "nl": "De batterij van mijn telefoon is leeg.",
     "form": "batterij",
     "distractors": [
-      "streep",
-      "training",
-      "wedstrijd"
+      "herinnering",
+      "naam",
+      "regen"
     ],
     "reviewed": false
   },
@@ -6815,9 +6815,9 @@
     "nl": "Mijn vader werkt bij een groot bedrijf.",
     "form": "bedrijf",
     "distractors": [
-      "rapport",
-      "goud",
-      "warenhuis"
+      "onderwijs",
+      "woord",
+      "merk"
     ],
     "reviewed": false
   },
@@ -6837,9 +6837,9 @@
     "nl": "Ik drink thee uit een beker.",
     "form": "beker",
     "distractors": [
-      "hitte",
-      "fout",
-      "toekomst"
+      "vraag",
+      "toekomst",
+      "hoogte"
     ],
     "reviewed": false
   },
@@ -6848,9 +6848,9 @@
     "nl": "De bel van de deur is kapot.",
     "form": "bel",
     "distractors": [
-      "grap",
-      "herinnering",
-      "geschiedenis"
+      "waarheid",
+      "verrassing",
+      "afspraak"
     ],
     "reviewed": false
   },
@@ -6881,9 +6881,9 @@
     "nl": "Mijn auto rijdt op benzine.",
     "form": "benzine",
     "distractors": [
-      "route",
-      "centimeter",
-      "lach"
+      "taak",
+      "snelheid",
+      "studie"
     ],
     "reviewed": false
   },
@@ -6936,9 +6936,9 @@
     "nl": "Onze bestemming is een klein dorp.",
     "form": "bestemming",
     "distractors": [
-      "studie",
-      "uitkering",
-      "leugen"
+      "millimeter",
+      "luxe",
+      "kus"
     ],
     "reviewed": false
   },
@@ -6980,9 +6980,9 @@
     "nl": "De bezoeker wacht bij de deur.",
     "form": "bezoeker",
     "distractors": [
-      "vlucht",
-      "voorkant",
-      "reis"
+      "boete",
+      "informatie",
+      "route"
     ],
     "reviewed": false
   },
@@ -6991,9 +6991,9 @@
     "nl": "Ik lees een tijdschrift in de bibliotheek.",
     "form": "bibliotheek",
     "distractors": [
-      "cirkel",
-      "uitnodiging",
-      "richting"
+      "groep",
+      "richting",
+      "helft"
     ],
     "reviewed": false
   },
@@ -7002,9 +7002,9 @@
     "nl": "Zij kookt een biet in de pan.",
     "form": "biet",
     "distractors": [
-      "plaats",
-      "taal",
-      "opmerking"
+      "reactie",
+      "voorkant",
+      "tekst"
     ],
     "reviewed": false
   },
@@ -7035,9 +7035,9 @@
     "nl": "Wij zien een film in de bioscoop.",
     "form": "bioscoop",
     "distractors": [
-      "waarheid",
-      "bovenkant",
-      "storm"
+      "dienst",
+      "hitte",
+      "periode"
     ],
     "reviewed": false
   },
@@ -7046,9 +7046,9 @@
     "nl": "Er hangt een blad aan de boom.",
     "form": "blad",
     "distractors": [
-      "cijfer",
-      "verdriet",
-      "afscheid"
+      "voorbeeld",
+      "zilver",
+      "gevoel"
     ],
     "reviewed": false
   },
@@ -7057,9 +7057,9 @@
     "nl": "Ik lees elke bladzijde.",
     "form": "bladzijde",
     "distractors": [
-      "breedte",
-      "cent",
-      "wens"
+      "vriendschap",
+      "wandeling",
+      "reclame"
     ],
     "reviewed": false
   },
@@ -7079,9 +7079,9 @@
     "nl": "Zij koopt een bloem voor haar moeder.",
     "form": "bloem",
     "distractors": [
-      "vriendschap",
-      "verrassing",
-      "ervaring"
+      "afspraak",
+      "snelheid",
+      "hulp"
     ],
     "reviewed": false
   },
@@ -7090,9 +7090,9 @@
     "nl": "De weg maakt hier een scherpe bocht.",
     "form": "bocht",
     "distractors": [
-      "emotie",
-      "uitspraak",
-      "achterkant"
+      "taal",
+      "wiskunde",
+      "vertraging"
     ],
     "reviewed": false
   },
@@ -7101,9 +7101,9 @@
     "nl": "De boer heeft een koe en een paard.",
     "form": "boer",
     "distractors": [
-      "reactie",
-      "onzin",
-      "kant"
+      "naam",
+      "ruzie",
+      "studie"
     ],
     "reviewed": false
   },
@@ -7112,9 +7112,9 @@
     "nl": "Op de boerderij wonen veel dieren.",
     "form": "boerderij",
     "distractors": [
+      "binnenkant",
       "stem",
-      "belasting",
-      "finale"
+      "werkdag"
     ],
     "reviewed": false
   },
@@ -7167,9 +7167,9 @@
     "nl": "Wij gaan met de boot naar het eiland.",
     "form": "boot",
     "distractors": [
-      "discussie",
-      "boodschap",
-      "humor"
+      "liefde",
+      "uitspraak",
+      "onderkant"
     ],
     "reviewed": false
   },
@@ -7179,8 +7179,8 @@
     "form": "bos",
     "distractors": [
       "project",
-      "verhaal",
-      "spel"
+      "contract",
+      "rapport"
     ],
     "reviewed": false
   },
@@ -7189,9 +7189,9 @@
     "nl": "Mijn hond krijgt een bot.",
     "form": "bot",
     "distractors": [
-      "salaris",
-      "onderwijs",
-      "zilver"
+      "idee",
+      "doel",
+      "geheim"
     ],
     "reviewed": false
   },
@@ -7200,9 +7200,9 @@
     "nl": "Ik doe boter op mijn brood.",
     "form": "boter",
     "distractors": [
-      "liefde",
-      "stap",
-      "dienst"
+      "tocht",
+      "droom",
+      "breedte"
     ],
     "reviewed": false
   },
@@ -7211,9 +7211,9 @@
     "nl": "Ik eet een boterham met kaas.",
     "form": "boterham",
     "distractors": [
-      "klant",
-      "regen",
-      "luxe"
+      "wereld",
+      "wolk",
+      "betaling"
     ],
     "reviewed": false
   },
@@ -7222,9 +7222,9 @@
     "nl": "De bovenkant van de tafel is nat.",
     "form": "bovenkant",
     "distractors": [
-      "som",
-      "reclame",
-      "helft"
+      "telefoon",
+      "onzin",
+      "waarheid"
     ],
     "reviewed": false
   },
@@ -7244,9 +7244,9 @@
     "nl": "De brandweer komt snel naar het huis.",
     "form": "brandweer",
     "distractors": [
-      "hulp",
-      "sfeer",
-      "boete"
+      "grap",
+      "belasting",
+      "mist"
     ],
     "reviewed": false
   },
@@ -7266,9 +7266,9 @@
     "nl": "Ik schrijf een brief aan mijn oma.",
     "form": "brief",
     "distractors": [
-      "wolk",
-      "wereld",
-      "serie"
+      "stage",
+      "emotie",
+      "wedstrijd"
     ],
     "reviewed": false
   },
@@ -7277,9 +7277,9 @@
     "nl": "Ik eet een broodje met ham.",
     "form": "broodje",
     "distractors": [
-      "geheim",
-      "procent",
-      "team"
+      "advies",
+      "getal",
+      "spel"
     ],
     "reviewed": false
   },
@@ -7288,9 +7288,9 @@
     "nl": "Wij lopen over de brug.",
     "form": "brug",
     "distractors": [
-      "tijd",
-      "mist",
-      "lening"
+      "lening",
+      "millimeter",
+      "bovenkant"
     ],
     "reviewed": false
   },
@@ -7299,9 +7299,9 @@
     "nl": "De bruid draagt een witte jurk.",
     "form": "bruid",
     "distractors": [
-      "rit",
-      "droom",
-      "millimeter"
+      "boodschap",
+      "taak",
+      "gram"
     ],
     "reviewed": false
   },
@@ -7310,9 +7310,9 @@
     "nl": "Onze bruiloft is in de zomer.",
     "form": "bruiloft",
     "distractors": [
-      "kilogram",
-      "angst",
-      "hoogte"
+      "klant",
+      "verrassing",
+      "herinnering"
     ],
     "reviewed": false
   },
@@ -7332,9 +7332,9 @@
     "nl": "De buitenkant van het huis is wit.",
     "form": "buitenkant",
     "distractors": [
-      "regel",
-      "stage",
-      "naam"
+      "finale",
+      "groep",
+      "opmerking"
     ],
     "reviewed": false
   },
@@ -7343,9 +7343,9 @@
     "nl": "Mijn zus woont in het buitenland.",
     "form": "buitenland",
     "distractors": [
-      "doel",
-      "verschil",
-      "advies"
+      "plezier",
+      "plan",
+      "warenhuis"
     ],
     "reviewed": false
   },
@@ -7354,9 +7354,9 @@
     "nl": "Ik geef mijn moeder een cadeau.",
     "form": "cadeau",
     "distractors": [
-      "werk",
-      "pond",
-      "idee"
+      "excuus",
+      "inkomen",
+      "antwoord"
     ],
     "reviewed": false
   },
@@ -7365,9 +7365,9 @@
     "nl": "Wij drinken koffie in het café.",
     "form": "café",
     "distractors": [
-      "excuus",
-      "contract",
-      "scherm"
+      "afscheid",
+      "werk",
+      "gevaar"
     ],
     "reviewed": false
   },
@@ -7376,9 +7376,9 @@
     "nl": "Mijn telefoon heeft een goede camera.",
     "form": "camera",
     "distractors": [
-      "vertraging",
-      "wandeling",
-      "kou"
+      "stap",
+      "fout",
+      "geschiedenis"
     ],
     "reviewed": false
   },
@@ -7387,9 +7387,9 @@
     "nl": "Wij slapen op een camping.",
     "form": "camping",
     "distractors": [
-      "taak",
-      "werkdag",
-      "mening"
+      "reactie",
+      "tijd",
+      "route"
     ],
     "reviewed": false
   },
@@ -7420,9 +7420,9 @@
     "nl": "Het hotel is in het centrum van de stad.",
     "form": "centrum",
     "distractors": [
-      "plezier",
-      "bedrag",
-      "plan"
+      "team",
+      "pond",
+      "contact"
     ],
     "reviewed": false
   },
@@ -7431,9 +7431,9 @@
     "nl": "Zij drinkt een glas champagne.",
     "form": "champagne",
     "distractors": [
-      "belofte",
-      "groep",
-      "buitenkant"
+      "schaduw",
+      "angst",
+      "achterkant"
     ],
     "reviewed": false
   },
@@ -7442,9 +7442,9 @@
     "nl": "De chauffeur rijdt de bus.",
     "form": "chauffeur",
     "distractors": [
-      "ruzie",
-      "letter",
-      "rekening"
+      "vlucht",
+      "kilogram",
+      "uitkering"
     ],
     "reviewed": false
   },
@@ -7464,9 +7464,9 @@
     "nl": "Wij gaan naar het circus.",
     "form": "circus",
     "distractors": [
-      "gevaar",
-      "contact",
-      "product"
+      "verschil",
+      "bedrag",
+      "adres"
     ],
     "reviewed": false
   },
@@ -7475,9 +7475,9 @@
     "nl": "Een cirkel is rond.",
     "form": "cirkel",
     "distractors": [
-      "tekst",
-      "lengte",
-      "kus"
+      "reden",
+      "kus",
+      "belofte"
     ],
     "reviewed": false
   },
@@ -7486,9 +7486,9 @@
     "nl": "De clown is erg grappig.",
     "form": "clown",
     "distractors": [
-      "telefoon",
-      "gram",
-      "onzin"
+      "som",
+      "letter",
+      "lengte"
     ],
     "reviewed": false
   },
@@ -7497,9 +7497,9 @@
     "nl": "Mijn broer speelt voetbal bij een club.",
     "form": "club",
     "distractors": [
-      "ervaring",
-      "schaduw",
-      "reclame"
+      "lach",
+      "kant",
+      "pauze"
     ],
     "reviewed": false
   },
@@ -7519,9 +7519,9 @@
     "nl": "Mijn collega drinkt koffie met melk.",
     "form": "collega",
     "distractors": [
-      "afspraak",
-      "tekst",
-      "stage"
+      "sfeer",
+      "luxe",
+      "voorkant"
     ],
     "reviewed": false
   },
@@ -7530,9 +7530,9 @@
     "nl": "Wij gaan naar een concert.",
     "form": "concert",
     "distractors": [
-      "voorbeeld",
-      "woord",
-      "stuk"
+      "product",
+      "procent",
+      "verdriet"
     ],
     "reviewed": false
   },
@@ -7585,9 +7585,9 @@
     "nl": "Het dorp ligt in een mooi dal.",
     "form": "dal",
     "distractors": [
-      "probleem",
-      "merk",
-      "plezier"
+      "pensioen",
+      "stuk",
+      "gesprek"
     ],
     "reviewed": false
   },
@@ -7607,9 +7607,9 @@
     "nl": "Mijn vader draagt een rode das.",
     "form": "das",
     "distractors": [
-      "stress",
-      "uitnodiging",
-      "klant"
+      "kou",
+      "reis",
+      "helft"
     ],
     "reviewed": false
   },
@@ -7618,9 +7618,9 @@
     "nl": "Het kind slaapt onder een warme deken.",
     "form": "deken",
     "distractors": [
-      "taak",
-      "sfeer",
-      "keuze"
+      "tekst",
+      "boete",
+      "streep"
     ],
     "reviewed": false
   },
@@ -7640,9 +7640,9 @@
     "nl": "Wij zien een leeuw in de dierentuin.",
     "form": "dierentuin",
     "distractors": [
-      "binnenkant",
-      "werkdag",
-      "reis"
+      "cent",
+      "cirkel",
+      "toekomst"
     ],
     "reviewed": false
   },
@@ -7651,9 +7651,9 @@
     "nl": "De dijk beschermt het land tegen het water.",
     "form": "dijk",
     "distractors": [
-      "toekomst",
-      "cirkel",
-      "wedstrijd"
+      "buitenkant",
+      "informatie",
+      "keuze"
     ],
     "reviewed": false
   },
@@ -7662,9 +7662,9 @@
     "nl": "De directeur van de school is vriendelijk.",
     "form": "directeur",
     "distractors": [
-      "vraag",
-      "pauze",
-      "rit"
+      "humor",
+      "regel",
+      "training"
     ],
     "reviewed": false
   },
@@ -7684,9 +7684,9 @@
     "nl": "Ik heb een belangrijk document nodig.",
     "form": "document",
     "distractors": [
-      "verleden",
-      "verkeer",
-      "afval"
+      "nummer",
+      "water",
+      "verkeer"
     ],
     "reviewed": false
   },
@@ -7695,9 +7695,9 @@
     "nl": "Wij kijken een documentaire op televisie.",
     "form": "documentaire",
     "distractors": [
-      "onderkant",
-      "opmerking",
-      "herinnering"
+      "wens",
+      "regen",
+      "temperatuur"
     ],
     "reviewed": false
   },
@@ -7706,9 +7706,9 @@
     "nl": "Ik poets het raam met een doek.",
     "form": "doek",
     "distractors": [
-      "serie",
-      "vlucht",
-      "periode"
+      "hoogte",
+      "leugen",
+      "mening"
     ],
     "reviewed": false
   },
@@ -7739,9 +7739,9 @@
     "nl": "Een dolfijn zwemt in de zee.",
     "form": "dolfijn",
     "distractors": [
-      "belofte",
-      "belasting",
-      "lening"
+      "plaats",
+      "discussie",
+      "serie"
     ],
     "reviewed": false
   },
@@ -7750,9 +7750,9 @@
     "nl": "Ons dorp is klein en rustig.",
     "form": "dorp",
     "distractors": [
-      "contact",
-      "pond",
-      "merk"
+      "goud",
+      "cijfer",
+      "werk"
     ],
     "reviewed": false
   },
@@ -7761,9 +7761,9 @@
     "nl": "Bij de douane laat ik mijn paspoort zien.",
     "form": "douane",
     "distractors": [
-      "angst",
-      "bovenkant",
-      "mening"
+      "storm",
+      "richting",
+      "ervaring"
     ],
     "reviewed": false
   },
@@ -7785,7 +7785,7 @@
     "distractors": [
       "reden",
       "wedstrijd",
-      "aanbeveling"
+      "kalender"
     ],
     "reviewed": false
   },
@@ -7805,9 +7805,9 @@
     "nl": "Een druif is klein en rond.",
     "form": "druif",
     "distractors": [
-      "hitte",
-      "vriendschap",
-      "lengte"
+      "rit",
+      "uitnodiging",
+      "centimeter"
     ],
     "reviewed": false
   },
@@ -7816,9 +7816,9 @@
     "nl": "Mijn zoon speelt op de drum.",
     "form": "drum",
     "distractors": [
-      "boete",
-      "storm",
-      "studie"
+      "rekening",
+      "uitkering",
+      "schaduw"
     ],
     "reviewed": false
   },
@@ -7827,9 +7827,9 @@
     "nl": "Achter het strand ligt een duin.",
     "form": "duin",
     "distractors": [
-      "spel",
-      "salaris",
-      "zilver"
+      "gevaar",
+      "stuk",
+      "rapport"
     ],
     "reviewed": false
   },
@@ -7838,9 +7838,9 @@
     "nl": "Het echtpaar woont in een klein huis.",
     "form": "echtpaar",
     "distractors": [
-      "scherm",
-      "plan",
-      "product"
+      "procent",
+      "goud",
+      "bedrag"
     ],
     "reviewed": false
   },
@@ -7849,9 +7849,9 @@
     "nl": "Een eend zwemt in de sloot.",
     "form": "eend",
     "distractors": [
-      "reactie",
-      "route",
-      "hulp"
+      "stap",
+      "tekst",
+      "onzin"
     ],
     "reviewed": false
   },
@@ -7871,9 +7871,9 @@
     "nl": "De eigenaar van het hotel woont hier.",
     "form": "eigenaar",
     "distractors": [
-      "waarheid",
-      "wens",
-      "liefde"
+      "gram",
+      "belasting",
+      "training"
     ],
     "reviewed": false
   },
@@ -7882,9 +7882,9 @@
     "nl": "Het eiland is klein en mooi.",
     "form": "eiland",
     "distractors": [
-      "contract",
-      "excuus",
-      "verhaal"
+      "merk",
+      "plezier",
+      "plan"
     ],
     "reviewed": false
   },
@@ -7939,7 +7939,7 @@
     "distractors": [
       "seizoen",
       "kwart",
-      "jaar"
+      "weekend"
     ],
     "reviewed": false
   },
@@ -7948,9 +7948,9 @@
     "nl": "De ezel draagt een zware koffer.",
     "form": "ezel",
     "distractors": [
-      "lach",
-      "hoogte",
-      "voorkant"
+      "studie",
+      "dienst",
+      "temperatuur"
     ],
     "reviewed": false
   },
@@ -7959,9 +7959,9 @@
     "nl": "Mijn vader werkt in een fabriek.",
     "form": "fabriek",
     "distractors": [
-      "plaats",
-      "buitenkant",
-      "richting"
+      "hitte",
+      "belofte",
+      "onderkant"
     ],
     "reviewed": false
   },
@@ -7970,9 +7970,9 @@
     "nl": "Mijn zoon is een grote fan van voetbal.",
     "form": "fan",
     "distractors": [
-      "taal",
-      "wolk",
-      "droom"
+      "millimeter",
+      "reis",
+      "keuze"
     ],
     "reviewed": false
   },
@@ -7981,9 +7981,9 @@
     "nl": "Wij hebben vandaag een groot feest.",
     "form": "feest",
     "distractors": [
-      "oosten",
-      "zuiden",
-      "water"
+      "geluk",
+      "verleden",
+      "westen"
     ],
     "reviewed": false
   },
@@ -7992,9 +7992,9 @@
     "nl": "Het festival begint morgen.",
     "form": "festival",
     "distractors": [
-      "getal",
-      "inkomen",
-      "probleem"
+      "warenhuis",
+      "excuus",
+      "gesprek"
     ],
     "reviewed": false
   },
@@ -8003,9 +8003,9 @@
     "nl": "Wij staan in de file.",
     "form": "file",
     "distractors": [
-      "april",
       "week",
-      "maand"
+      "keer",
+      "januari"
     ],
     "reviewed": false
   },
@@ -8014,9 +8014,9 @@
     "nl": "De finale begint om acht uur.",
     "form": "finale",
     "distractors": [
-      "stap",
-      "centimeter",
-      "liter"
+      "leugen",
+      "richting",
+      "naam"
     ],
     "reviewed": false
   },
@@ -8025,9 +8025,9 @@
     "nl": "Ik vul het formulier in.",
     "form": "formulier",
     "distractors": [
-      "afscheid",
-      "procent",
-      "woord"
+      "verhaal",
+      "product",
+      "advies"
     ],
     "reviewed": false
   },
@@ -8036,9 +8036,9 @@
     "nl": "Ik maak een kleine fout.",
     "form": "fout",
     "distractors": [
-      "januari",
-      "seconde",
-      "mei"
+      "ochtend",
+      "herfst",
+      "april"
     ],
     "reviewed": false
   },
@@ -8047,9 +8047,9 @@
     "nl": "Zij eet elke dag fruit.",
     "form": "fruit",
     "distractors": [
-      "rapport",
-      "verschil",
-      "geheim"
+      "gevoel",
+      "cijfer",
+      "doel"
     ],
     "reviewed": false
   },
@@ -8058,9 +8058,9 @@
     "nl": "De gang van het huis is donker.",
     "form": "gang",
     "distractors": [
-      "uitspraak",
-      "telefoon",
-      "uitkering"
+      "helft",
+      "grap",
+      "werkdag"
     ],
     "reviewed": false
   },
@@ -8069,9 +8069,9 @@
     "nl": "Een gans zwemt op het water.",
     "form": "gans",
     "distractors": [
-      "kou",
-      "groep",
-      "humor"
+      "opmerking",
+      "tocht",
+      "uitnodiging"
     ],
     "reviewed": false
   },
@@ -8080,9 +8080,9 @@
     "nl": "Onze auto staat in de garage.",
     "form": "garage",
     "distractors": [
-      "informatie",
-      "test",
-      "som"
+      "reactie",
+      "verrassing",
+      "storm"
     ],
     "reviewed": false
   },
@@ -8091,9 +8091,9 @@
     "nl": "Ik eet een garnaal met rijst.",
     "form": "garnaal",
     "distractors": [
-      "stem",
-      "achterkant",
-      "discussie"
+      "breedte",
+      "wandeling",
+      "centimeter"
     ],
     "reviewed": false
   },
@@ -8102,8 +8102,8 @@
     "nl": "Wij koken met gas.",
     "form": "gas",
     "distractors": [
-      "cadeau",
-      "adres",
+      "nieuws",
+      "geheim",
       "onderwijs"
     ],
     "reviewed": false
@@ -8114,8 +8114,8 @@
     "form": "gat",
     "distractors": [
       "bloed",
-      "geluk",
-      "noorden"
+      "noorden",
+      "midden"
     ],
     "reviewed": false
   },
@@ -8124,9 +8124,9 @@
     "nl": "Dit gebouw is erg oud.",
     "form": "gebouw",
     "distractors": [
-      "westen",
-      "oosten",
-      "toilet"
+      "zuiden",
+      "midden",
+      "verkeer"
     ],
     "reviewed": false
   },
@@ -8135,9 +8135,9 @@
     "nl": "Ik lees een mooi gedicht.",
     "form": "gedicht",
     "distractors": [
-      "haar",
-      "geluk",
-      "nummer"
+      "verleden",
+      "oosten",
+      "bloed"
     ],
     "reviewed": false
   },
@@ -8146,9 +8146,9 @@
     "nl": "Mijn vriend heeft een groot geheim.",
     "form": "geheim",
     "distractors": [
-      "noorden",
-      "geluk",
-      "weer"
+      "weer",
+      "verkeer",
+      "haar"
     ],
     "reviewed": false
   },
@@ -8157,9 +8157,9 @@
     "nl": "Hij schrijft een brief aan zijn geliefde.",
     "form": "geliefde",
     "distractors": [
-      "naam",
-      "fout",
-      "regen"
+      "kilogram",
+      "binnenkant",
+      "streep"
     ],
     "reviewed": false
   },
@@ -8168,9 +8168,9 @@
     "nl": "Ik hoor een vreemd geluid.",
     "form": "geluid",
     "distractors": [
+      "westen",
       "water",
-      "verleden",
-      "westen"
+      "midden"
     ],
     "reviewed": false
   },
@@ -8180,8 +8180,8 @@
     "form": "geluk",
     "distractors": [
       "moment",
-      "weekend",
-      "antwoord"
+      "jaar",
+      "kwart"
     ],
     "reviewed": false
   },
@@ -8190,9 +8190,9 @@
     "nl": "Ik woon in een kleine gemeente.",
     "form": "gemeente",
     "distractors": [
-      "verrassing",
-      "streep",
-      "betaling"
+      "waarheid",
+      "sfeer",
+      "toekomst"
     ],
     "reviewed": false
   },
@@ -8201,9 +8201,9 @@
     "nl": "Ik leer geschiedenis op school.",
     "form": "geschiedenis",
     "distractors": [
-      "kilogram",
-      "snelheid",
-      "temperatuur"
+      "discussie",
+      "test",
+      "cent"
     ],
     "reviewed": false
   },
@@ -8212,9 +8212,9 @@
     "nl": "Wij hebben een kort gesprek.",
     "form": "gesprek",
     "distractors": [
-      "zuiden",
-      "midden",
-      "bloed"
+      "verleden",
+      "noorden",
+      "zuiden"
     ],
     "reviewed": false
   },
@@ -8223,8 +8223,8 @@
     "nl": "Tien is een getal.",
     "form": "getal",
     "distractors": [
-      "verkeer",
-      "haar",
+      "bloed",
+      "geluk",
       "oosten"
     ],
     "reviewed": false
@@ -8234,9 +8234,9 @@
     "nl": "Het gevaar is groot hier.",
     "form": "gevaar",
     "distractors": [
-      "bloed",
-      "zuiden",
-      "afval"
+      "geluk",
+      "water",
+      "verleden"
     ],
     "reviewed": false
   },
@@ -8245,9 +8245,9 @@
     "nl": "Ik heb een goed gevoel.",
     "form": "gevoel",
     "distractors": [
-      "nummer",
-      "haar",
-      "verleden"
+      "afval",
+      "zuiden",
+      "toilet"
     ],
     "reviewed": false
   },
@@ -8256,9 +8256,9 @@
     "nl": "Het gewicht van de koffer is hoog.",
     "form": "gewicht",
     "distractors": [
-      "pensioen",
-      "nieuws",
-      "getal"
+      "voorjaar",
+      "moment",
+      "uur"
     ],
     "reviewed": false
   },
@@ -8267,9 +8267,9 @@
     "nl": "Mijn broer speelt gitaar.",
     "form": "gitaar",
     "distractors": [
-      "letter",
-      "helft",
-      "kus"
+      "wolk",
+      "kus",
+      "herinnering"
     ],
     "reviewed": false
   },
@@ -8278,9 +8278,9 @@
     "nl": "De golf komt op het strand.",
     "form": "golf",
     "distractors": [
-      "vrijdag",
-      "keer",
-      "juli"
+      "seconde",
+      "mei",
+      "avond"
     ],
     "reviewed": false
   },
@@ -8289,9 +8289,9 @@
     "nl": "Het gordijn voor het raam is blauw.",
     "form": "gordijn",
     "distractors": [
-      "warenhuis",
-      "advies",
-      "gevoel"
+      "pond",
+      "contact",
+      "scherm"
     ],
     "reviewed": false
   },
@@ -8300,9 +8300,9 @@
     "nl": "Haar ring is van goud.",
     "form": "goud",
     "distractors": [
-      "stuk",
-      "nieuws",
-      "idee"
+      "spel",
+      "inkomen",
+      "woord"
     ],
     "reviewed": false
   },
@@ -8311,9 +8311,9 @@
     "nl": "De gracht ligt midden in de stad.",
     "form": "gracht",
     "distractors": [
-      "kant",
-      "cent",
-      "tocht"
+      "geschiedenis",
+      "lening",
+      "regen"
     ],
     "reviewed": false
   },
@@ -8322,9 +8322,9 @@
     "nl": "Ik koop honderd gram kaas.",
     "form": "gram",
     "distractors": [
-      "zomer",
-      "herfst",
-      "ochtend"
+      "maand",
+      "november",
+      "winter"
     ],
     "reviewed": false
   },
@@ -8333,9 +8333,9 @@
     "nl": "Mijn vader vertelt een grap.",
     "form": "grap",
     "distractors": [
-      "november",
-      "avond",
-      "winter"
+      "zondag",
+      "maandag",
+      "vrijdag"
     ],
     "reviewed": false
   },
@@ -8344,9 +8344,9 @@
     "nl": "De koe eet gras.",
     "form": "gras",
     "distractors": [
-      "voorbeeld",
-      "cijfer",
-      "bedrag"
+      "project",
+      "antwoord",
+      "adres"
     ],
     "reviewed": false
   },
@@ -8355,9 +8355,9 @@
     "nl": "De grens ligt dicht bij ons huis.",
     "form": "grens",
     "distractors": [
-      "zondag",
+      "februari",
       "donderdag",
-      "maandag"
+      "juli"
     ],
     "reviewed": false
   },
@@ -8367,8 +8367,8 @@
     "form": "groep",
     "distractors": [
       "feestdag",
-      "februari",
-      "aanhouding"
+      "zomer",
+      "maand"
     ],
     "reviewed": false
   },
@@ -8377,9 +8377,9 @@
     "nl": "De bal ligt op de grond.",
     "form": "grond",
     "distractors": [
-      "luxe",
-      "training",
-      "finale"
+      "liefde",
+      "lengte",
+      "serie"
     ],
     "reviewed": false
   },
@@ -8388,9 +8388,9 @@
     "nl": "Wij lopen in een donkere grot.",
     "form": "grot",
     "distractors": [
-      "dienst",
-      "gram",
-      "boodschap"
+      "plaats",
+      "letter",
+      "mening"
     ],
     "reviewed": false
   },
@@ -8399,9 +8399,9 @@
     "nl": "Een haai zwemt in de zee.",
     "form": "haai",
     "distractors": [
-      "breedte",
-      "millimeter",
-      "vertraging"
+      "voorkant",
+      "klant",
+      "reclame"
     ],
     "reviewed": false
   },
@@ -8410,9 +8410,9 @@
     "nl": "Wij zitten bij de haard.",
     "form": "haard",
     "distractors": [
-      "wandeling",
-      "grap",
-      "aankoop"
+      "hulp",
+      "route",
+      "humor"
     ],
     "reviewed": false
   },
@@ -8421,9 +8421,9 @@
     "nl": "Een haas rent door het veld.",
     "form": "haas",
     "distractors": [
-      "regel",
-      "leugen",
-      "wiskunde"
+      "taal",
+      "informatie",
+      "ervaring"
     ],
     "reviewed": false
   },
@@ -8432,9 +8432,9 @@
     "nl": "De fietsen staan in de hal.",
     "form": "hal",
     "distractors": [
-      "tijd",
-      "geschiedenis",
-      "rekening"
+      "vriendschap",
+      "stem",
+      "telefoon"
     ],
     "reviewed": false
   },
@@ -8443,9 +8443,9 @@
     "nl": "De bus stopt bij de halte.",
     "form": "halte",
     "distractors": [
-      "ruzie",
-      "stap",
-      "voorkant"
+      "achterkant",
+      "boete",
+      "luxe"
     ],
     "reviewed": false
   },
@@ -8454,9 +8454,9 @@
     "nl": "Ik wil kaas of ham op mijn brood.",
     "form": "ham",
     "distractors": [
-      "helft",
-      "rekening",
-      "tijd"
+      "vraag",
+      "angst",
+      "pauze"
     ],
     "reviewed": false
   },
@@ -8465,9 +8465,9 @@
     "nl": "Mijn zoon eet een hamburger.",
     "form": "hamburger",
     "distractors": [
-      "hulp",
-      "rit",
-      "ruzie"
+      "cirkel",
+      "lach",
+      "tijd"
     ],
     "reviewed": false
   },
@@ -8476,9 +8476,9 @@
     "nl": "Na de douche neem ik een handdoek.",
     "form": "handdoek",
     "distractors": [
-      "serie",
-      "mening",
-      "stress"
+      "ruzie",
+      "bovenkant",
+      "wens"
     ],
     "reviewed": false
   },
@@ -8498,9 +8498,9 @@
     "nl": "Ik zet mijn handtekening op het papier.",
     "form": "handtekening",
     "distractors": [
-      "taal",
-      "hoogte",
-      "klant"
+      "vlucht",
+      "boodschap",
+      "stage"
     ],
     "reviewed": false
   },
@@ -8509,9 +8509,9 @@
     "nl": "De haring is een vis uit de zee.",
     "form": "haring",
     "distractors": [
-      "kilogram",
-      "sfeer",
-      "verrassing"
+      "aankoop",
+      "regel",
+      "wiskunde"
     ],
     "reviewed": false
   },
@@ -8520,9 +8520,9 @@
     "nl": "De boot ligt in de haven.",
     "form": "haven",
     "distractors": [
-      "dienst",
-      "vraag",
-      "periode"
+      "hoogte",
+      "rit",
+      "liter"
     ],
     "reviewed": false
   },
@@ -8531,9 +8531,9 @@
     "nl": "Het hek van de tuin is groen.",
     "form": "hek",
     "distractors": [
-      "gevaar",
-      "project",
-      "gesprek"
+      "tennis",
+      "verdriet",
+      "verschil"
     ],
     "reviewed": false
   },
@@ -8542,9 +8542,9 @@
     "nl": "Ik eet de helft van de appel.",
     "form": "helft",
     "distractors": [
-      "middag",
-      "dag",
-      "agenda"
+      "winter",
+      "maart",
+      "week"
     ],
     "reviewed": false
   },
@@ -8553,9 +8553,9 @@
     "nl": "Ik draag een wit hemd onder mijn trui.",
     "form": "hemd",
     "distractors": [
-      "team",
-      "pensioen",
-      "internet"
+      "afscheid",
+      "cadeau",
+      "voorbeeld"
     ],
     "reviewed": false
   },
@@ -8575,9 +8575,9 @@
     "nl": "Een hert loopt door het bos.",
     "form": "hert",
     "distractors": [
-      "doel",
-      "antwoord",
-      "verdriet"
+      "idee",
+      "pensioen",
+      "getal"
     ],
     "reviewed": false
   },
@@ -8586,9 +8586,9 @@
     "nl": "Het huis staat op een heuvel.",
     "form": "heuvel",
     "distractors": [
-      "taak",
-      "boete",
-      "finale"
+      "rekening",
+      "som",
+      "fout"
     ],
     "reviewed": false
   },
@@ -8597,9 +8597,9 @@
     "nl": "Mijn hiel doet pijn.",
     "form": "hiel",
     "distractors": [
-      "mist",
-      "vlucht",
-      "grap"
+      "snelheid",
+      "betaling",
+      "buitenkant"
     ],
     "reviewed": false
   },
@@ -8608,9 +8608,9 @@
     "nl": "Bij hitte drink ik veel water.",
     "form": "hitte",
     "distractors": [
-      "keer",
-      "ochtend",
-      "februari"
+      "augustus",
+      "feestdag",
+      "november"
     ],
     "reviewed": false
   },
@@ -8619,9 +8619,9 @@
     "nl": "Mijn hobby is voetbal.",
     "form": "hobby",
     "distractors": [
-      "zomer",
-      "feestdag",
-      "november"
+      "herfst",
+      "keer",
+      "juli"
     ],
     "reviewed": false
   },
@@ -8630,9 +8630,9 @@
     "nl": "Hij heeft een hoed op zijn hoofd.",
     "form": "hoed",
     "distractors": [
-      "boodschap",
-      "reclame",
-      "reis"
+      "taak",
+      "kou",
+      "stress"
     ],
     "reviewed": false
   },
@@ -8652,9 +8652,9 @@
     "nl": "Mijn telefoon heeft een blauwe hoes.",
     "form": "hoes",
     "distractors": [
-      "uitkering",
-      "lengte",
-      "ervaring"
+      "finale",
+      "uitspraak",
+      "groep"
     ],
     "reviewed": false
   },
@@ -8663,9 +8663,9 @@
     "nl": "De honger in de wereld is een groot probleem.",
     "form": "honger",
     "distractors": [
-      "zaterdag",
-      "donderdag",
-      "oktober"
+      "oktober",
+      "minuut",
+      "december"
     ],
     "reviewed": false
   },
@@ -8674,9 +8674,9 @@
     "nl": "Ik doe honing in mijn thee.",
     "form": "honing",
     "distractors": [
-      "bovenkant",
-      "letter",
-      "reactie"
+      "afspraak",
+      "vertraging",
+      "droom"
     ],
     "reviewed": false
   },
@@ -8685,9 +8685,9 @@
     "nl": "Mijn hoofdpijn is vandaag erg sterk.",
     "form": "hoofdpijn",
     "distractors": [
-      "winter",
-      "dinsdag",
-      "kerst"
+      "seconde",
+      "januari",
+      "dinsdag"
     ],
     "reviewed": false
   },
@@ -8696,9 +8696,9 @@
     "nl": "Mijn zus woont in de hoofdstad.",
     "form": "hoofdstad",
     "distractors": [
-      "pauze",
-      "wolk",
-      "millimeter"
+      "kant",
+      "periode",
+      "finale"
     ],
     "reviewed": false
   },
@@ -8709,7 +8709,7 @@
     "distractors": [
       "streep",
       "wiskunde",
-      "aankondiging"
+      "kalender"
     ],
     "reviewed": false
   },
@@ -8718,9 +8718,9 @@
     "nl": "Dit hoofdstuk is erg lang.",
     "form": "hoofdstuk",
     "distractors": [
-      "zuiden",
-      "bloed",
-      "afval"
+      "nummer",
+      "noorden",
+      "westen"
     ],
     "reviewed": false
   },
@@ -8729,9 +8729,9 @@
     "nl": "De hoogte van de toren is veertig meter.",
     "form": "hoogte",
     "distractors": [
-      "augustus",
-      "vrijdag",
-      "minuut"
+      "ochtend",
+      "februari",
+      "donderdag"
     ],
     "reviewed": false
   },
@@ -8740,9 +8740,9 @@
     "nl": "Mijn horloge is kapot.",
     "form": "horloge",
     "distractors": [
-      "werk",
-      "goud",
-      "tennis"
+      "zilver",
+      "salaris",
+      "contract"
     ],
     "reviewed": false
   },
@@ -8751,9 +8751,9 @@
     "nl": "Wij slapen in een hotel.",
     "form": "hotel",
     "distractors": [
-      "pensioen",
-      "getal",
-      "afscheid"
+      "internet",
+      "probleem",
+      "team"
     ],
     "reviewed": false
   },
@@ -8762,9 +8762,9 @@
     "nl": "Deze tafel is van hout.",
     "form": "hout",
     "distractors": [
-      "verschil",
-      "cijfer",
-      "voorbeeld"
+      "werk",
+      "scherm",
+      "spel"
     ],
     "reviewed": false
   },
@@ -8773,9 +8773,9 @@
     "nl": "Ik ga naar de huisarts.",
     "form": "huisarts",
     "distractors": [
-      "informatie",
-      "keuze",
-      "vriendschap"
+      "letter",
+      "vriendschap",
+      "herinnering"
     ],
     "reviewed": false
   },
@@ -8784,9 +8784,9 @@
     "nl": "Een hond is een huisdier.",
     "form": "huisdier",
     "distractors": [
-      "geheim",
-      "idee",
-      "procent"
+      "warenhuis",
+      "excuus",
+      "tennis"
     ],
     "reviewed": false
   },
@@ -8795,9 +8795,9 @@
     "nl": "Mijn huisnummer is twaalf.",
     "form": "huisnummer",
     "distractors": [
-      "bedrag",
       "goud",
-      "inkomen"
+      "adres",
+      "antwoord"
     ],
     "reviewed": false
   },
@@ -8806,9 +8806,9 @@
     "nl": "Mijn buur is een huisvrouw.",
     "form": "huisvrouw",
     "distractors": [
-      "cent",
-      "hitte",
-      "route"
+      "studie",
+      "lening",
+      "keuze"
     ],
     "reviewed": false
   },
@@ -8817,9 +8817,9 @@
     "nl": "Mijn zoon maakt zijn huiswerk.",
     "form": "huiswerk",
     "distractors": [
-      "product",
-      "adres",
-      "plan"
+      "nieuws",
+      "verdriet",
+      "verschil"
     ],
     "reviewed": false
   },
@@ -8828,9 +8828,9 @@
     "nl": "Ik heb hulp nodig.",
     "form": "hulp",
     "distractors": [
-      "maart",
+      "middag",
       "mei",
-      "woensdag"
+      "maandag"
     ],
     "reviewed": false
   },
@@ -8840,8 +8840,8 @@
     "form": "humor",
     "distractors": [
       "datum",
-      "week",
-      "december"
+      "zaterdag",
+      "nacht"
     ],
     "reviewed": false
   },
@@ -8850,9 +8850,9 @@
     "nl": "De huur van het huis is hoog.",
     "form": "huur",
     "distractors": [
-      "nacht",
-      "juni",
-      "aanmelding"
+      "september",
+      "zomer",
+      "woensdag"
     ],
     "reviewed": false
   },
@@ -8861,9 +8861,9 @@
     "nl": "Dat is een goed idee.",
     "form": "idee",
     "distractors": [
-      "water",
-      "midden",
-      "oosten"
+      "oosten",
+      "haar",
+      "bloed"
     ],
     "reviewed": false
   },
@@ -8872,9 +8872,9 @@
     "nl": "Er ligt ijs op het water.",
     "form": "ijs",
     "distractors": [
-      "midden",
-      "verkeer",
-      "verleden"
+      "haar",
+      "toilet",
+      "geluk"
     ],
     "reviewed": false
   },
@@ -8883,9 +8883,9 @@
     "nl": "Een mes is van ijzer.",
     "form": "ijzer",
     "distractors": [
-      "excuus",
-      "internet",
-      "verhaal"
+      "probleem",
+      "merk",
+      "pond"
     ],
     "reviewed": false
   },
@@ -8894,9 +8894,9 @@
     "nl": "Ik zoek informatie op internet.",
     "form": "informatie",
     "distractors": [
-      "herfst",
-      "april",
-      "juli"
+      "agenda",
+      "avond",
+      "aankoop"
     ],
     "reviewed": false
   },
@@ -8905,9 +8905,9 @@
     "nl": "De ingang van het hotel is open.",
     "form": "ingang",
     "distractors": [
-      "luxe",
-      "storm",
-      "buitenkant"
+      "serie",
+      "achterkant",
+      "uitspraak"
     ],
     "reviewed": false
   },
@@ -8916,9 +8916,9 @@
     "nl": "Zout is een ingrediënt van soep.",
     "form": "ingrediënt",
     "distractors": [
-      "verdriet",
-      "werk",
-      "pond"
+      "afscheid",
+      "internet",
+      "team"
     ],
     "reviewed": false
   },
@@ -8927,9 +8927,9 @@
     "nl": "Een goed inkomen is belangrijk.",
     "form": "inkomen",
     "distractors": [
-      "westen",
-      "noorden",
-      "verkeer"
+      "verkeer",
+      "nummer",
+      "noorden"
     ],
     "reviewed": false
   },
@@ -8938,9 +8938,9 @@
     "nl": "Ik zie een insect op de tafel.",
     "form": "insect",
     "distractors": [
-      "stuk",
-      "contract",
-      "onderwijs"
+      "voorbeeld",
+      "woord",
+      "doel"
     ],
     "reviewed": false
   },
@@ -8949,9 +8949,9 @@
     "nl": "Een gitaar is een instrument.",
     "form": "instrument",
     "distractors": [
-      "warenhuis",
-      "doel",
-      "contact"
+      "gevaar",
+      "project",
+      "cijfer"
     ],
     "reviewed": false
   },
@@ -8960,9 +8960,9 @@
     "nl": "Ik heb veel interesse in muziek.",
     "form": "interesse",
     "distractors": [
-      "januari",
-      "seconde",
-      "zondag"
+      "dag",
+      "vrijdag",
+      "kerst"
     ],
     "reviewed": false
   },
@@ -8971,9 +8971,9 @@
     "nl": "Mijn internet is vandaag erg langzaam.",
     "form": "internet",
     "distractors": [
-      "weer",
       "water",
-      "zuiden"
+      "afval",
+      "nummer"
     ],
     "reviewed": false
   },
@@ -8982,9 +8982,9 @@
     "nl": "Het is koud, dus ik draag een jas.",
     "form": "jas",
     "distractors": [
-      "plaats",
-      "leugen",
-      "werkdag"
+      "breedte",
+      "binnenkant",
+      "telefoon"
     ],
     "reviewed": false
   },
@@ -8993,9 +8993,9 @@
     "nl": "De journalist schrijft voor een krant.",
     "form": "journalist",
     "distractors": [
-      "onzin",
-      "lening",
-      "snelheid"
+      "dienst",
+      "pauze",
+      "vlucht"
     ],
     "reviewed": false
   },
@@ -9004,9 +9004,9 @@
     "nl": "Zij draagt een mooie jurk.",
     "form": "jurk",
     "distractors": [
-      "richting",
-      "stage",
-      "binnenkant"
+      "stem",
+      "naam",
+      "informatie"
     ],
     "reviewed": false
   },
@@ -9015,9 +9015,9 @@
     "nl": "Mijn kaak doet pijn.",
     "form": "kaak",
     "distractors": [
-      "kou",
-      "uitspraak",
-      "fout"
+      "regen",
+      "boodschap",
+      "tijd"
     ],
     "reviewed": false
   },
@@ -9026,9 +9026,9 @@
     "nl": "Ik zoek de straat op de kaart.",
     "form": "kaart",
     "distractors": [
-      "wereld",
-      "kant",
-      "herinnering"
+      "schaduw",
+      "vraag",
+      "gram"
     ],
     "reviewed": false
   },
@@ -9037,9 +9037,9 @@
     "nl": "De kachel staat in de woonkamer.",
     "form": "kachel",
     "distractors": [
-      "centimeter",
-      "training",
-      "droom"
+      "fout",
+      "cent",
+      "groep"
     ],
     "reviewed": false
   },
@@ -9048,9 +9048,9 @@
     "nl": "Het schip ligt aan de kade.",
     "form": "kade",
     "distractors": [
-      "tocht",
-      "opmerking",
-      "liter"
+      "reactie",
+      "onzin",
+      "lach"
     ],
     "reviewed": false
   },
@@ -9059,9 +9059,9 @@
     "nl": "Ik gebruik een kam voor mijn haar.",
     "form": "kam",
     "distractors": [
-      "regen",
-      "stem",
-      "angst"
+      "kou",
+      "centimeter",
+      "buitenkant"
     ],
     "reviewed": false
   },
@@ -9070,9 +9070,9 @@
     "nl": "De kampioen krijgt een medaille.",
     "form": "kampioen",
     "distractors": [
-      "emotie",
-      "betaling",
-      "afspraak"
+      "stap",
+      "luxe",
+      "liter"
     ],
     "reviewed": false
   },
@@ -9081,9 +9081,9 @@
     "nl": "De boot ligt in het kanaal.",
     "form": "kanaal",
     "distractors": [
-      "rapport",
-      "plezier",
-      "gesprek"
+      "salaris",
+      "verhaal",
+      "bedrag"
     ],
     "reviewed": false
   },
@@ -9092,9 +9092,9 @@
     "nl": "Ik zit aan de kant van het raam.",
     "form": "kant",
     "distractors": [
-      "toekomst",
-      "humor",
-      "schaduw"
+      "temperatuur",
+      "kilogram",
+      "stress"
     ],
     "reviewed": false
   },
@@ -9103,9 +9103,9 @@
     "nl": "Ik werk elke dag op kantoor.",
     "form": "kantoor",
     "distractors": [
-      "probleem",
-      "nieuws",
-      "zilver"
+      "geheim",
+      "onderwijs",
+      "contact"
     ],
     "reviewed": false
   },
@@ -9114,9 +9114,9 @@
     "nl": "Ik ga naar de kapper voor mijn haar.",
     "form": "kapper",
     "distractors": [
-      "belofte",
-      "vertraging",
-      "studie"
+      "tekst",
+      "periode",
+      "stage"
     ],
     "reviewed": false
   },
@@ -9125,9 +9125,9 @@
     "nl": "Ik betaal bij de kassa.",
     "form": "kassa",
     "distractors": [
-      "uitnodiging",
-      "tekst",
-      "onderkant"
+      "geschiedenis",
+      "verrassing",
+      "angst"
     ],
     "reviewed": false
   },
@@ -9136,9 +9136,9 @@
     "nl": "Het kasteel is heel oud.",
     "form": "kasteel",
     "distractors": [
-      "verleden",
-      "weer",
-      "oosten"
+      "geluk",
+      "haar",
+      "weer"
     ],
     "reviewed": false
   },
@@ -9147,9 +9147,9 @@
     "nl": "Wij bewaren wijn in de kelder.",
     "form": "kelder",
     "distractors": [
-      "discussie",
-      "som",
-      "waarheid"
+      "waarheid",
+      "helft",
+      "som"
     ],
     "reviewed": false
   },
@@ -9158,9 +9158,9 @@
     "nl": "Het dorp heeft een mooie kerk.",
     "form": "kerk",
     "distractors": [
-      "geschiedenis",
-      "test",
-      "groep"
+      "reis",
+      "wolk",
+      "onderkant"
     ],
     "reviewed": false
   },
@@ -9169,9 +9169,9 @@
     "nl": "Dat is mijn keuze.",
     "form": "keuze",
     "distractors": [
-      "avond",
-      "september",
-      "maand"
+      "april",
+      "juni",
+      "zondag"
     ],
     "reviewed": false
   },
@@ -9180,9 +9180,9 @@
     "nl": "Ik koop een kilogram appels.",
     "form": "kilogram",
     "distractors": [
-      "april",
-      "dag",
-      "juni"
+      "juni",
+      "donderdag",
+      "zondag"
     ],
     "reviewed": false
   },
@@ -9191,9 +9191,9 @@
     "nl": "Mijn school is een kilometer ver.",
     "form": "kilometer",
     "distractors": [
-      "juli",
-      "november",
-      "aantekening"
+      "april",
+      "dag",
+      "minuut"
     ],
     "reviewed": false
   },
@@ -9202,9 +9202,9 @@
     "nl": "Hij heeft een kleine kin.",
     "form": "kin",
     "distractors": [
-      "aankoop",
-      "cirkel",
-      "breedte"
+      "regel",
+      "millimeter",
+      "taal"
     ],
     "reviewed": false
   },
@@ -9213,9 +9213,9 @@
     "nl": "Mijn zoon gaat naar de kinderopvang.",
     "form": "kinderopvang",
     "distractors": [
-      "liefde",
-      "kus",
-      "temperatuur"
+      "aankoop",
+      "uitnodiging",
+      "uitkering"
     ],
     "reviewed": false
   },
@@ -9224,9 +9224,9 @@
     "nl": "In de kist liggen oude schoenen.",
     "form": "kist",
     "distractors": [
-      "achterkant",
-      "reden",
-      "belasting"
+      "cirkel",
+      "emotie",
+      "wereld"
     ],
     "reviewed": false
   },
@@ -9235,9 +9235,9 @@
     "nl": "De klant betaalt bij de kassa.",
     "form": "klant",
     "distractors": [
-      "telefoon",
-      "regel",
-      "naam"
+      "sfeer",
+      "test",
+      "grap"
     ],
     "reviewed": false
   },
@@ -9246,9 +9246,9 @@
     "nl": "Mijn oma heeft een kleinkind.",
     "form": "kleinkind",
     "distractors": [
-      "team",
-      "merk",
-      "gevoel"
+      "advies",
+      "inkomen",
+      "stuk"
     ],
     "reviewed": false
   },
@@ -9257,9 +9257,9 @@
     "nl": "De klok hangt aan de muur.",
     "form": "klok",
     "distractors": [
-      "lach",
-      "gram",
-      "schaduw"
+      "belasting",
+      "afspraak",
+      "wedstrijd"
     ],
     "reviewed": false
   },
@@ -9268,9 +9268,9 @@
     "nl": "Ik druk op de knop.",
     "form": "knop",
     "distractors": [
-      "rekening",
-      "helft",
-      "hulp"
+      "humor",
+      "vertraging",
+      "snelheid"
     ],
     "reviewed": false
   },
@@ -9279,9 +9279,9 @@
     "nl": "De koe geeft melk.",
     "form": "koe",
     "distractors": [
-      "wiskunde",
-      "wereld",
-      "reden"
+      "bovenkant",
+      "training",
+      "droom"
     ],
     "reviewed": false
   },
@@ -9290,9 +9290,9 @@
     "nl": "Ik eet een koek bij de thee.",
     "form": "koek",
     "distractors": [
-      "regel",
-      "letter",
-      "informatie"
+      "discussie",
+      "richting",
+      "leugen"
     ],
     "reviewed": false
   },
@@ -9301,9 +9301,9 @@
     "nl": "Het kind krijgt een koekje.",
     "form": "koekje",
     "distractors": [
-      "scherm",
-      "woord",
-      "antwoord"
+      "cadeau",
+      "pensioen",
+      "product"
     ],
     "reviewed": false
   },
@@ -9312,9 +9312,9 @@
     "nl": "De melk staat in de koelkast.",
     "form": "koelkast",
     "distractors": [
-      "gram",
-      "uitnodiging",
-      "belasting"
+      "toekomst",
+      "ervaring",
+      "ruzie"
     ],
     "reviewed": false
   },
@@ -9323,9 +9323,9 @@
     "nl": "Mijn koffer staat in de gang.",
     "form": "koffer",
     "distractors": [
-      "klant",
-      "dienst",
-      "stem"
+      "taak",
+      "mist",
+      "werkdag"
     ],
     "reviewed": false
   },
@@ -9334,9 +9334,9 @@
     "nl": "De kok maakt soep in de keuken.",
     "form": "kok",
     "distractors": [
-      "temperatuur",
-      "keuze",
-      "onzin"
+      "lengte",
+      "kant",
+      "reden"
     ],
     "reviewed": false
   },
@@ -9345,9 +9345,9 @@
     "nl": "Het konijn eet een wortel.",
     "form": "konijn",
     "distractors": [
-      "gevaar",
-      "project",
-      "cadeau"
+      "procent",
+      "plezier",
+      "rapport"
     ],
     "reviewed": false
   },
@@ -9356,9 +9356,9 @@
     "nl": "Ik koop kool op de markt.",
     "form": "kool",
     "distractors": [
-      "centimeter",
-      "reclame",
-      "taak"
+      "hitte",
+      "mening",
+      "kus"
     ],
     "reviewed": false
   },
@@ -9367,9 +9367,9 @@
     "nl": "Mijn zoon heeft koorts.",
     "form": "koorts",
     "distractors": [
-      "boodschap",
-      "sfeer",
-      "toekomst"
+      "storm",
+      "hulp",
+      "klant"
     ],
     "reviewed": false
   },
@@ -9378,9 +9378,9 @@
     "nl": "Ik drink een kopje thee.",
     "form": "kopje",
     "distractors": [
-      "spel",
-      "salaris",
-      "advies"
+      "gevoel",
+      "zilver",
+      "gesprek"
     ],
     "reviewed": false
   },
@@ -9389,9 +9389,9 @@
     "nl": "Ik draag een sjaal tegen de kou.",
     "form": "kou",
     "distractors": [
-      "datum",
-      "zondag",
-      "december"
+      "oktober",
+      "middag",
+      "winter"
     ],
     "reviewed": false
   },
@@ -9400,9 +9400,9 @@
     "nl": "Ik heb een gat in mijn kous.",
     "form": "kous",
     "distractors": [
-      "hitte",
-      "wens",
-      "training"
+      "rekening",
+      "rit",
+      "opmerking"
     ],
     "reviewed": false
   },
@@ -9411,9 +9411,9 @@
     "nl": "De kraag van mijn jas is wit.",
     "form": "kraag",
     "distractors": [
-      "waarheid",
-      "wandeling",
-      "telefoon"
+      "tocht",
+      "route",
+      "liefde"
     ],
     "reviewed": false
   },
@@ -9422,9 +9422,9 @@
     "nl": "Mijn vader leest elke dag de krant.",
     "form": "krant",
     "distractors": [
-      "som",
-      "liefde",
-      "afspraak"
+      "voorkant",
+      "plaats",
+      "reclame"
     ],
     "reviewed": false
   },
@@ -9433,9 +9433,9 @@
     "nl": "Bij het kruispunt gaan wij links.",
     "form": "kruispunt",
     "distractors": [
-      "salaris",
-      "idee",
-      "verhaal"
+      "plan",
+      "getal",
+      "idee"
     ],
     "reviewed": false
   },
@@ -9444,9 +9444,9 @@
     "nl": "Ik houd van kunst en muziek.",
     "form": "kunst",
     "distractors": [
-      "september",
-      "feestdag",
-      "afkorting"
+      "maand",
+      "maart",
+      "belofte"
     ],
     "reviewed": false
   },
@@ -9455,9 +9455,9 @@
     "nl": "De kunstenaar maakt een mooie tekening.",
     "form": "kunstenaar",
     "distractors": [
-      "luxe",
-      "opmerking",
-      "millimeter"
+      "belofte",
+      "hoogte",
+      "betaling"
     ],
     "reviewed": false
   },
@@ -9466,9 +9466,9 @@
     "nl": "Dit kunstwerk is erg mooi.",
     "form": "kunstwerk",
     "distractors": [
-      "afval",
-      "bloed",
-      "toilet"
+      "zuiden",
+      "oosten",
+      "verleden"
     ],
     "reviewed": false
   },
@@ -9477,9 +9477,9 @@
     "nl": "Zij geeft haar zoon een kus.",
     "form": "kus",
     "distractors": [
-      "mei",
-      "januari",
-      "zaterdag"
+      "avond",
+      "zaterdag",
+      "maandag"
     ],
     "reviewed": false
   },
@@ -9488,9 +9488,9 @@
     "nl": "Wij wonen dicht bij de kust.",
     "form": "kust",
     "distractors": [
-      "tocht",
-      "vlucht",
-      "vraag"
+      "groep",
+      "cent",
+      "uitnodiging"
     ],
     "reviewed": false
   },
@@ -9499,9 +9499,9 @@
     "nl": "Er staan veel bomen in de laan.",
     "form": "laan",
     "distractors": [
-      "ruzie",
-      "wedstrijd",
-      "vriendschap"
+      "vertraging",
+      "regen",
+      "richting"
     ],
     "reviewed": false
   },
@@ -9510,9 +9510,9 @@
     "nl": "Zij heeft een mooie lach.",
     "form": "lach",
     "distractors": [
-      "agenda",
-      "afwezigheid",
-      "woensdag"
+      "herfst",
+      "zomer",
+      "dinsdag"
     ],
     "reviewed": false
   },
@@ -9521,9 +9521,9 @@
     "nl": "Het landschap is erg mooi.",
     "form": "landschap",
     "distractors": [
-      "nummer",
-      "westen",
-      "verkeer"
+      "afval",
+      "midden",
+      "noorden"
     ],
     "reviewed": false
   },
@@ -9532,9 +9532,9 @@
     "nl": "Ik werk op mijn laptop.",
     "form": "laptop",
     "distractors": [
-      "plaats",
-      "bovenkant",
-      "humor"
+      "schaduw",
+      "onderkant",
+      "wedstrijd"
     ],
     "reviewed": false
   },
@@ -9544,8 +9544,8 @@
     "form": "leerling",
     "distractors": [
       "betaling",
-      "binnenkant",
-      "finale"
+      "buitenkant",
+      "humor"
     ],
     "reviewed": false
   },
@@ -9554,9 +9554,9 @@
     "nl": "Een leeuw eet vlees.",
     "form": "leeuw",
     "distractors": [
-      "ervaring",
-      "stress",
-      "pauze"
+      "droom",
+      "achterkant",
+      "hoogte"
     ],
     "reviewed": false
   },
@@ -9565,9 +9565,9 @@
     "nl": "Wat is jouw lengte?",
     "form": "lengte",
     "distractors": [
-      "donderdag",
-      "februari",
-      "dinsdag"
+      "juli",
+      "kerst",
+      "seconde"
     ],
     "reviewed": false
   },
@@ -9576,9 +9576,9 @@
     "nl": "Ik betaal mijn lening elke maand.",
     "form": "lening",
     "distractors": [
-      "ochtend",
-      "augustus",
-      "agressie"
+      "februari",
+      "keer",
+      "december"
     ],
     "reviewed": false
   },
@@ -9587,9 +9587,9 @@
     "nl": "Ik eet soep met een lepel.",
     "form": "lepel",
     "distractors": [
-      "herinnering",
-      "stage",
-      "droom"
+      "grap",
+      "lening",
+      "studie"
     ],
     "reviewed": false
   },
@@ -9609,9 +9609,9 @@
     "nl": "Dat is een leugen.",
     "form": "leugen",
     "distractors": [
-      "seconde",
-      "nacht",
-      "herfst"
+      "november",
+      "september",
+      "datum"
     ],
     "reviewed": false
   },
@@ -9620,9 +9620,9 @@
     "nl": "De lever zit in het lichaam.",
     "form": "lever",
     "distractors": [
-      "serie",
-      "onderkant",
-      "lening"
+      "reactie",
+      "lach",
+      "millimeter"
     ],
     "reviewed": false
   },
@@ -9631,9 +9631,9 @@
     "nl": "Het licht in de kamer is aan.",
     "form": "licht",
     "distractors": [
+      "contract",
       "geheim",
-      "goud",
-      "pensioen"
+      "afscheid"
     ],
     "reviewed": false
   },
@@ -9642,9 +9642,9 @@
     "nl": "Zij zingt een mooi lied.",
     "form": "lied",
     "distractors": [
-      "noorden",
-      "midden",
-      "geluk"
+      "toilet",
+      "bloed",
+      "water"
     ],
     "reviewed": false
   },
@@ -9653,9 +9653,9 @@
     "nl": "Mijn liefde voor muziek is groot.",
     "form": "liefde",
     "distractors": [
-      "vrijdag",
-      "oktober",
-      "middag"
+      "agenda",
+      "mei",
+      "week"
     ],
     "reviewed": false
   },
@@ -9664,9 +9664,9 @@
     "nl": "De lift is kapot.",
     "form": "lift",
     "distractors": [
-      "liter",
-      "achterkant",
-      "reactie"
+      "werkdag",
+      "helft",
+      "kus"
     ],
     "reviewed": false
   },
@@ -9675,9 +9675,9 @@
     "nl": "Ik maak een lijst voor de winkel.",
     "form": "lijst",
     "distractors": [
-      "avond",
-      "winter",
-      "maand"
+      "januari",
+      "woensdag",
+      "augustus"
     ],
     "reviewed": false
   },
@@ -9686,9 +9686,9 @@
     "nl": "Ik stuur je een link.",
     "form": "link",
     "distractors": [
-      "bankrekening",
-      "begeleiding",
-      "minuut"
+      "nacht",
+      "feestdag",
+      "vrijdag"
     ],
     "reviewed": false
   },
@@ -9708,9 +9708,9 @@
     "nl": "Ik koop een liter melk.",
     "form": "liter",
     "distractors": [
-      "zomer",
-      "helft",
-      "reactie"
+      "ochtend",
+      "maand",
+      "december"
     ],
     "reviewed": false
   },
@@ -9719,9 +9719,9 @@
     "nl": "Ik sta voor het loket.",
     "form": "loket",
     "distractors": [
-      "gesprek",
-      "nieuws",
-      "merk"
+      "merk",
+      "verschil",
+      "pond"
     ],
     "reviewed": false
   },
@@ -9730,9 +9730,9 @@
     "nl": "De long zit in de borst.",
     "form": "long",
     "distractors": [
-      "vertraging",
-      "storm",
-      "discussie"
+      "route",
+      "belasting",
+      "periode"
     ],
     "reviewed": false
   },
@@ -9741,9 +9741,9 @@
     "nl": "Er vliegt een vogel in de lucht.",
     "form": "lucht",
     "distractors": [
-      "begroting",
-      "belegging",
-      "beoordeling"
+      "humor",
+      "centimeter",
+      "keuze"
     ],
     "reviewed": false
   },
@@ -9752,9 +9752,9 @@
     "nl": "Wij wachten op de luchthaven.",
     "form": "luchthaven",
     "distractors": [
-      "taal",
       "mening",
-      "regen"
+      "ruzie",
+      "breedte"
     ],
     "reviewed": false
   },
@@ -9763,9 +9763,9 @@
     "nl": "Ik eet mijn lunch op school.",
     "form": "lunch",
     "distractors": [
-      "breedte",
-      "cent",
-      "periode"
+      "tekst",
+      "afspraak",
+      "herinnering"
     ],
     "reviewed": false
   },
@@ -9774,9 +9774,9 @@
     "nl": "Een groot huis is luxe.",
     "form": "luxe",
     "distractors": [
-      "wedstrijd",
-      "binnenkant",
-      "wens"
+      "zomer",
+      "minuut",
+      "maart"
     ],
     "reviewed": false
   },
@@ -9785,9 +9785,9 @@
     "nl": "Mijn maag doet pijn.",
     "form": "maag",
     "distractors": [
-      "kant",
-      "streep",
-      "richting"
+      "tijd",
+      "stage",
+      "fout"
     ],
     "reviewed": false
   },
@@ -9796,9 +9796,9 @@
     "nl": "Wij eten samen een warme maaltijd.",
     "form": "maaltijd",
     "distractors": [
-      "storm",
-      "grap",
-      "finale"
+      "middag",
+      "keer",
+      "angst"
     ],
     "reviewed": false
   },
@@ -9807,9 +9807,9 @@
     "nl": "De maan is mooi en rond.",
     "form": "maan",
     "distractors": [
-      "belofte",
-      "uitkering",
-      "kilogram"
+      "informatie",
+      "vraag",
+      "belofte"
     ],
     "reviewed": false
   },
@@ -9818,9 +9818,9 @@
     "nl": "Deze machine maakt koffie.",
     "form": "machine",
     "distractors": [
-      "route",
-      "angst",
-      "leugen"
+      "hulp",
+      "stem",
+      "liter"
     ],
     "reviewed": false
   },
@@ -9829,9 +9829,9 @@
     "nl": "De makelaar laat ons het huis zien.",
     "form": "makelaar",
     "distractors": [
-      "stap",
-      "tekst",
-      "geschiedenis"
+      "plaats",
+      "hitte",
+      "kant"
     ],
     "reviewed": false
   },
@@ -9840,9 +9840,9 @@
     "nl": "De manager werkt hard.",
     "form": "manager",
     "distractors": [
-      "voorkant",
-      "lach",
-      "tijd"
+      "snelheid",
+      "aankoop",
+      "training"
     ],
     "reviewed": false
   },
@@ -9851,9 +9851,9 @@
     "nl": "Ik bewaar mijn documenten in een map.",
     "form": "map",
     "distractors": [
-      "wolk",
-      "emotie",
-      "naam"
+      "bovenkant",
+      "reden",
+      "uitspraak"
     ],
     "reviewed": false
   },
@@ -9862,9 +9862,9 @@
     "nl": "De winnaar krijgt een medaille.",
     "form": "medaille",
     "distractors": [
-      "buitenkant",
-      "groep",
-      "snelheid"
+      "onzin",
+      "stap",
+      "geschiedenis"
     ],
     "reviewed": false
   },
@@ -9873,9 +9873,9 @@
     "nl": "De medewerker helpt de klant.",
     "form": "medewerker",
     "distractors": [
-      "kus",
-      "uitspraak",
-      "hoogte"
+      "uitkering",
+      "verrassing",
+      "gram"
     ],
     "reviewed": false
   },
@@ -9884,9 +9884,9 @@
     "nl": "De meester leert de kinderen lezen.",
     "form": "meester",
     "distractors": [
-      "grap",
-      "studie",
-      "fout"
+      "toekomst",
+      "voorkant",
+      "vriendschap"
     ],
     "reviewed": false
   },
@@ -9895,9 +9895,9 @@
     "nl": "Ik drink elke ochtend melk.",
     "form": "melk",
     "distractors": [
-      "mist",
-      "werkdag",
-      "verrassing"
+      "cirkel",
+      "storm",
+      "discussie"
     ],
     "reviewed": false
   },
@@ -9906,9 +9906,9 @@
     "nl": "Wat is jouw mening?",
     "form": "mening",
     "distractors": [
-      "millimeter",
-      "groep",
-      "uitnodiging"
+      "februari",
+      "juli",
+      "datum"
     ],
     "reviewed": false
   },
@@ -9917,9 +9917,9 @@
     "nl": "Dit is een goed merk.",
     "form": "merk",
     "distractors": [
-      "weer",
-      "geluk",
-      "toilet"
+      "midden",
+      "westen",
+      "weer"
     ],
     "reviewed": false
   },
@@ -9928,9 +9928,9 @@
     "nl": "De deur is van metaal.",
     "form": "metaal",
     "distractors": [
-      "product",
-      "spel",
-      "project"
+      "salaris",
+      "cadeau",
+      "bedrag"
     ],
     "reviewed": false
   },
@@ -9939,9 +9939,9 @@
     "nl": "Het huis is tien meter breed.",
     "form": "meter",
     "distractors": [
-      "regen",
-      "droom",
-      "plaats"
+      "juni",
+      "nacht",
+      "november"
     ],
     "reviewed": false
   },
@@ -9950,9 +9950,9 @@
     "nl": "Ik neem de metro naar mijn werk.",
     "form": "metro",
     "distractors": [
-      "cirkel",
+      "wens",
       "test",
-      "kou"
+      "waarheid"
     ],
     "reviewed": false
   },
@@ -9961,9 +9961,9 @@
     "nl": "Een tafel is een meubel.",
     "form": "meubel",
     "distractors": [
-      "doel",
-      "voorbeeld",
-      "onderwijs"
+      "gevoel",
+      "internet",
+      "goud"
     ],
     "reviewed": false
   },
@@ -9972,9 +9972,9 @@
     "nl": "Wij staan midden in de kamer.",
     "form": "midden",
     "distractors": [
-      "getal",
-      "afscheid",
-      "gevoel"
+      "contact",
+      "warenhuis",
+      "spel"
     ],
     "reviewed": false
   },
@@ -9983,9 +9983,9 @@
     "nl": "Een centimeter heeft tien millimeter.",
     "form": "millimeter",
     "distractors": [
-      "studie",
-      "aankoop",
-      "wiskunde"
+      "agenda",
+      "feestdag",
+      "januari"
     ],
     "reviewed": false
   },
@@ -9994,9 +9994,9 @@
     "nl": "Er is veel mist op de weg.",
     "form": "mist",
     "distractors": [
-      "liefde",
-      "vraag",
-      "temperatuur"
+      "oktober",
+      "vrijdag",
+      "april"
     ],
     "reviewed": false
   },
@@ -10005,9 +10005,9 @@
     "nl": "Mijn moedertaal is erg mooi.",
     "form": "moedertaal",
     "distractors": [
-      "reis",
-      "verrassing",
-      "regel"
+      "winter",
+      "zaterdag",
+      "herfst"
     ],
     "reviewed": false
   },
@@ -10016,9 +10016,9 @@
     "nl": "De molen staat naast het water.",
     "form": "molen",
     "distractors": [
-      "aankoop",
-      "reis",
-      "lengte"
+      "taak",
+      "wiskunde",
+      "binnenkant"
     ],
     "reviewed": false
   },
@@ -10027,9 +10027,9 @@
     "nl": "Ik draag een mondkap in het ziekenhuis.",
     "form": "mondkap",
     "distractors": [
-      "rit",
-      "ontploffing",
-      "jaloezie"
+      "rekening",
+      "boete",
+      "mist"
     ],
     "reviewed": false
   },
@@ -10038,9 +10038,9 @@
     "nl": "Een mossel zit in een schelp.",
     "form": "mossel",
     "distractors": [
-      "werkloosheid",
-      "opinie",
-      "premie"
+      "wolk",
+      "letter",
+      "kilogram"
     ],
     "reviewed": false
   },
@@ -10049,9 +10049,9 @@
     "nl": "De motor van de auto is kapot.",
     "form": "motor",
     "distractors": [
-      "transactie",
-      "aankondiging",
-      "psychologie"
+      "reis",
+      "klant",
+      "wereld"
     ],
     "reviewed": false
   },
@@ -10060,9 +10060,9 @@
     "nl": "Een mug zit op mijn arm.",
     "form": "mug",
     "distractors": [
-      "motivatie",
-      "ontvoering",
-      "verdenking"
+      "stress",
+      "taal",
+      "som"
     ],
     "reviewed": false
   },
@@ -10071,9 +10071,9 @@
     "nl": "Er zit een muis in de keuken.",
     "form": "muis",
     "distractors": [
-      "receptie",
-      "bankrekening",
-      "kopie"
+      "lengte",
+      "wandeling",
+      "boodschap"
     ],
     "reviewed": false
   },
@@ -10082,8 +10082,8 @@
     "nl": "Wij gaan naar het museum.",
     "form": "museum",
     "distractors": [
-      "contact",
-      "warenhuis",
+      "pensioen",
+      "contract",
       "inkomen"
     ],
     "reviewed": false
@@ -10093,9 +10093,9 @@
     "nl": "In de winter draag ik een muts.",
     "form": "muts",
     "distractors": [
-      "marketing",
-      "boekhouding",
-      "verveling"
+      "temperatuur",
+      "serie",
+      "pauze"
     ],
     "reviewed": false
   },
@@ -10104,9 +10104,9 @@
     "nl": "De muzikant speelt piano.",
     "form": "muzikant",
     "distractors": [
-      "doelstelling",
-      "eerlijkheid",
-      "correctie"
+      "regel",
+      "rit",
+      "dienst"
     ],
     "reviewed": false
   },
@@ -10115,9 +10115,9 @@
     "nl": "De natuur is hier mooi.",
     "form": "natuur",
     "distractors": [
-      "werkdag",
-      "lach",
-      "toekomst"
+      "ochtend",
+      "augustus",
+      "avond"
     ],
     "reviewed": false
   },
@@ -10126,9 +10126,9 @@
     "nl": "Ik leer natuurkunde op school.",
     "form": "natuurkunde",
     "distractors": [
-      "route",
-      "belasting",
-      "waarheid"
+      "seconde",
+      "kerst",
+      "emotie"
     ],
     "reviewed": false
   },
@@ -10137,8 +10137,8 @@
     "nl": "De vogel zit in het nest.",
     "form": "nest",
     "distractors": [
-      "probleem",
-      "antwoord",
+      "gevaar",
+      "plan",
       "scherm"
     ],
     "reviewed": false
@@ -10148,9 +10148,9 @@
     "nl": "Mijn nicht woont in een groot huis.",
     "form": "nicht",
     "distractors": [
-      "belegging",
-      "mentaliteit",
-      "donatie"
+      "finale",
+      "angst",
+      "luxe"
     ],
     "reviewed": false
   },
@@ -10159,9 +10159,9 @@
     "nl": "Ik lees het nieuws op mijn telefoon.",
     "form": "nieuws",
     "distractors": [
-      "midden",
-      "nummer",
-      "westen"
+      "zuiden",
+      "weer",
+      "toilet"
     ],
     "reviewed": false
   },
@@ -10170,9 +10170,9 @@
     "nl": "Het dorp ligt in het noorden.",
     "form": "noorden",
     "distractors": [
-      "plezier",
-      "procent",
-      "rapport"
+      "woord",
+      "tennis",
+      "plezier"
     ],
     "reviewed": false
   },
@@ -10181,9 +10181,9 @@
     "nl": "De oceaan is groot en diep.",
     "form": "oceaan",
     "distractors": [
-      "inspectie",
-      "goedkeuring",
-      "minderheid"
+      "tocht",
+      "reclame",
+      "telefoon"
     ],
     "reviewed": false
   },
@@ -10192,9 +10192,9 @@
     "nl": "Een olifant is een groot dier.",
     "form": "olifant",
     "distractors": [
-      "overtreding",
-      "inleiding",
-      "grafiek"
+      "leugen",
+      "opmerking",
+      "emotie"
     ],
     "reviewed": false
   },
@@ -10203,9 +10203,9 @@
     "nl": "Mijn onderarm doet pijn.",
     "form": "onderarm",
     "distractors": [
-      "beoordeling",
-      "eenzaamheid",
-      "sollicitatie"
+      "naam",
+      "sfeer",
+      "streep"
     ],
     "reviewed": false
   },
@@ -10214,9 +10214,9 @@
     "nl": "Ik draag elke dag een schone onderbroek.",
     "form": "onderbroek",
     "distractors": [
-      "recessie",
-      "bevrijding",
-      "aanmelding"
+      "ervaring",
+      "kou",
+      "vlucht"
     ],
     "reviewed": false
   },
@@ -10225,9 +10225,9 @@
     "nl": "De onderkant van de doos is nat.",
     "form": "onderkant",
     "distractors": [
-      "dreiging",
-      "verbazing",
-      "conferentie"
+      "liefde",
+      "reis",
+      "regel"
     ],
     "reviewed": false
   },
@@ -10236,9 +10236,9 @@
     "nl": "Mijn buur is een ondernemer.",
     "form": "ondernemer",
     "distractors": [
-      "gelijkheid",
-      "verwarring",
-      "agressie"
+      "achterkant",
+      "kus",
+      "gram"
     ],
     "reviewed": false
   },
@@ -10248,8 +10248,8 @@
     "form": "onderwijs",
     "distractors": [
       "haar",
-      "noorden",
-      "toilet"
+      "afval",
+      "oosten"
     ],
     "reviewed": false
   },
@@ -10258,9 +10258,9 @@
     "nl": "Dat is echt onzin.",
     "form": "onzin",
     "distractors": [
-      "ervaring",
-      "tocht",
-      "afspraak"
+      "mei",
+      "dinsdag",
+      "september"
     ],
     "reviewed": false
   },
@@ -10269,9 +10269,9 @@
     "nl": "De leraar geeft ons een opdracht.",
     "form": "opdracht",
     "distractors": [
-      "naam",
-      "tekst",
-      "breedte"
+      "woensdag",
+      "week",
+      "dag"
     ],
     "reviewed": false
   },
@@ -10280,9 +10280,9 @@
     "nl": "De operatie is morgen in het ziekenhuis.",
     "form": "operatie",
     "distractors": [
-      "klant",
-      "rekening",
-      "boete"
+      "zondag",
+      "donderdag",
+      "woensdag"
     ],
     "reviewed": false
   },
@@ -10291,9 +10291,9 @@
     "nl": "De binnenkant van de kast is leeg.",
     "form": "binnenkant",
     "distractors": [
-      "faculteit",
-      "immigratie",
-      "bespreking"
+      "stap",
+      "cent",
+      "voorkant"
     ],
     "reviewed": false
   }

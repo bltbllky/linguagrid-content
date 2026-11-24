@@ -17,4 +17,4 @@ same licence as our translations and are kept apart from the word files (ADR-009
 
 Distractors are same-part-of-speech surface forms that are also wrong by meaning in the sentence, not only by grammar.
 
-Noun distractors share the answer's article (de/het), so grammar alone cannot exclude them (PM decision 2026-11-24); no distractor word is used more than 5 times across a level.
+Noun distractors share the answer's article (de/het), so grammar alone cannot exclude them (PM decision 2026-11-24); no distractor word is used more than 7 times across A2 rows (A1 rows keep their old reuse: noun distractors such as `tafel`, `bril` are used more than 7 times).
