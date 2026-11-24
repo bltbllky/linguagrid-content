@@ -32,3 +32,5 @@ No blind pass, no DeepL reading, no import, no `reviewed` flag: the PM runs thos
 ## Distractor rework (PM decisions 2026-11-24)
 
 Only the distractors of the 494 A2 rows changed; sentences and translations are as before, so the blind sheets stay valid. Noun distractors share the answer's article (0 breaks in A2; plurals use de-plurals), no distractor word appears more than 7 times (max 7), and every distractor is an A1 or A2 word (PM 2026-11-24; the validator itself only requires a known word of the same part of speech, any level), and rows where an old distractor could fit were redone. Residual limits: for "a good/beautiful X" frames with a neuter answer (`idee`, `gevoel`, `inkomen`, `merk`, `onderwijs` and similar) the pool of neuter nouns that are nonsense there is small, so some distractors (`weer`, `geluk`) are only weak misfits; and the reuse of `weer`, `geluk`, `afval`, `toilet` is high. The 80 A1 noun rows that broke the article rule were fixed in the same PR (206 distractors, distractors only).
+
+A1 distractor reuse is capped at 7 as well (distractors only; same part of speech, same article, A1 words); every A1 distractor is now used at most 7 times.

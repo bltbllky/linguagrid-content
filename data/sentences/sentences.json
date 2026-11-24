@@ -220,7 +220,7 @@
     "nl": "De tafel in de keuken is nieuw.",
     "form": "tafel",
     "distractors": [
-      "week",
+      "prijs",
       "zon",
       "naam"
     ],
@@ -244,7 +244,7 @@
     "nl": "Ik zoek mijn sleutel en mijn telefoon.",
     "form": "sleutel",
     "distractors": [
-      "week",
+      "vraag",
       "zon",
       "naam"
     ],
@@ -257,7 +257,7 @@
     "form": "stoel",
     "distractors": [
       "zon",
-      "week",
+      "rust",
       "taal"
     ],
     "reviewed": true,
@@ -270,7 +270,7 @@
     "distractors": [
       "zomer",
       "avond",
-      "week"
+      "verjaardag"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -317,7 +317,7 @@
     "form": "appel",
     "distractors": [
       "schoen",
-      "bril",
+      "ring",
       "tafel"
     ],
     "reviewed": true,
@@ -340,8 +340,8 @@
     "nl": "Er staat een fles water op de tafel.",
     "form": "fles",
     "distractors": [
-      "bril",
-      "week",
+      "agenda",
+      "nacht",
       "kaas"
     ],
     "reviewed": true,
@@ -353,7 +353,7 @@
     "form": "week",
     "distractors": [
       "tafel",
-      "bril",
+      "appel",
       "kaas"
     ],
     "reviewed": true,
@@ -365,7 +365,7 @@
     "form": "maandag",
     "distractors": [
       "tafel",
-      "bril",
+      "hond",
       "hand"
     ],
     "reviewed": true,
@@ -377,7 +377,7 @@
     "form": "zomer",
     "distractors": [
       "tafel",
-      "bril",
+      "pan",
       "schoen"
     ],
     "reviewed": true,
@@ -388,9 +388,9 @@
     "nl": "Het is al avond.",
     "form": "avond",
     "distractors": [
-      "tafel",
+      "trap",
       "fles",
-      "kaas"
+      "muur"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -424,8 +424,8 @@
     "nl": "Mijn zoon gaat naar school.",
     "form": "school",
     "distractors": [
-      "kaas",
-      "bril",
+      "tuin",
+      "doos",
       "hond"
     ],
     "reviewed": true,
@@ -436,7 +436,7 @@
     "nl": "De les begint om twee uur.",
     "form": "les",
     "distractors": [
-      "tafel",
+      "lamp",
       "hand",
       "fles"
     ],
@@ -460,9 +460,9 @@
     "nl": "Ik werk nu met een computer.",
     "form": "computer",
     "distractors": [
-      "kaas",
+      "sleutel",
       "fles",
-      "week"
+      "datum"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -472,8 +472,8 @@
     "nl": "Mijn vader heeft een nieuwe auto.",
     "form": "auto",
     "distractors": [
-      "tafel",
-      "bril",
+      "computer",
+      "kip",
       "fles"
     ],
     "reviewed": true,
@@ -484,8 +484,8 @@
     "nl": "De trein naar de stad is laat.",
     "form": "trein",
     "distractors": [
-      "tafel",
-      "kaas",
+      "boom",
+      "vis",
       "hand"
     ],
     "reviewed": true,
@@ -496,9 +496,9 @@
     "nl": "Mijn fiets staat bij het station.",
     "form": "fiets",
     "distractors": [
-      "kaas",
+      "broek",
       "hand",
-      "bril"
+      "auto"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -520,7 +520,7 @@
     "nl": "Wij wonen in een lange straat.",
     "form": "straat",
     "distractors": [
-      "week",
+      "winter",
       "hand",
       "fles"
     ],
@@ -533,8 +533,8 @@
     "form": "hond",
     "distractors": [
       "zon",
-      "bril",
-      "week"
+      "wortel",
+      "herfst"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -544,9 +544,9 @@
     "nl": "De zon is heet en het weer is mooi.",
     "form": "zon",
     "distractors": [
-      "week",
-      "bril",
-      "fles"
+      "middag",
+      "bus",
+      "kast"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -556,9 +556,9 @@
     "nl": "Er staat een grote boom in de tuin.",
     "form": "boom",
     "distractors": [
-      "kaas",
-      "fles",
-      "bril"
+      "televisie",
+      "stoel",
+      "spiegel"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -569,7 +569,7 @@
     "form": "dier",
     "distractors": [
       "werk",
-      "bed",
+      "toilet",
       "water"
     ],
     "reviewed": true,
@@ -580,7 +580,7 @@
     "nl": "Het weer is koud, maar de zon is warm.",
     "form": "weer",
     "distractors": [
-      "bed",
+      "dak",
       "werk",
       "uur"
     ],
@@ -593,8 +593,8 @@
     "form": "hand",
     "distractors": [
       "hond",
-      "week",
-      "fles"
+      "dag",
+      "kalender"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -605,7 +605,7 @@
     "form": "hoofd",
     "distractors": [
       "huis",
-      "bed",
+      "bord",
       "water"
     ],
     "reviewed": true,
@@ -628,8 +628,8 @@
     "nl": "Ik heb een koude neus.",
     "form": "neus",
     "distractors": [
-      "fles",
-      "week",
+      "foto",
+      "toekomst",
       "auto"
     ],
     "reviewed": true,
@@ -642,7 +642,7 @@
     "distractors": [
       "tuin",
       "keuken",
-      "hand"
+      "film"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -652,7 +652,7 @@
     "nl": "Hij ligt in het ziekenhuis, want hij is ziek.",
     "form": "ziekenhuis",
     "distractors": [
-      "werk",
+      "voorjaar",
       "weer",
       "dak"
     ],
@@ -664,9 +664,9 @@
     "nl": "Ik kijk met mijn vriend een film.",
     "form": "film",
     "distractors": [
-      "tafel",
-      "bril",
-      "hand"
+      "telefoon",
+      "deur",
+      "spiegel"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -676,9 +676,9 @@
     "nl": "Mijn zus luistert graag naar muziek.",
     "form": "muziek",
     "distractors": [
-      "kaas",
-      "bril",
-      "hand"
+      "kip",
+      "voet",
+      "foto"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -688,9 +688,9 @@
     "nl": "Wij gaan op vakantie naar de zee.",
     "form": "vakantie",
     "distractors": [
-      "kaas",
-      "bril",
-      "tafel"
+      "appel",
+      "ring",
+      "kalender"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -700,8 +700,8 @@
     "nl": "Ik koop schoenen in de winkel.",
     "form": "winkel",
     "distractors": [
-      "hand",
-      "week",
+      "televisie",
+      "griep",
       "zon"
     ],
     "reviewed": true,
@@ -713,8 +713,8 @@
     "form": "geld",
     "distractors": [
       "huis",
-      "werk",
-      "bed"
+      "jaar",
+      "dier"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -724,9 +724,9 @@
     "nl": "De prijs van de schoenen is laag.",
     "form": "prijs",
     "distractors": [
-      "week",
-      "hand",
-      "bril"
+      "maand",
+      "sleutel",
+      "lamp"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -736,9 +736,9 @@
     "nl": "Ik draag een zwarte broek.",
     "form": "broek",
     "distractors": [
-      "kaas",
-      "fles",
-      "tafel"
+      "trein",
+      "computer",
+      "boom"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -760,8 +760,8 @@
     "nl": "Ik zie niet goed zonder mijn bril.",
     "form": "bril",
     "distractors": [
-      "kaas",
-      "week",
+      "pan",
+      "seconde",
       "zon"
     ],
     "reviewed": true,
@@ -1026,7 +1026,7 @@
     "distractors": [
       "ziek",
       "moe",
-      "gelukkig"
+      "dagelijks"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1158,7 +1158,7 @@
     "distractors": [
       "koud",
       "duur",
-      "ziek"
+      "wakker"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1168,8 +1168,8 @@
     "nl": "Jouw tuin is erg mooi.",
     "form": "mooi",
     "distractors": [
-      "ziek",
-      "moe",
+      "geboren",
+      "wakkere",
       "bang"
     ],
     "reviewed": true,
@@ -1180,9 +1180,9 @@
     "nl": "Deze vraag is moeilijk.",
     "form": "moeilijk",
     "distractors": [
-      "ziek",
-      "moe",
-      "bang"
+      "rijk",
+      "jonge",
+      "jong"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1192,9 +1192,9 @@
     "nl": "Het glas is schoon.",
     "form": "schoon",
     "distractors": [
-      "ziek",
-      "moe",
-      "bang"
+      "dagelijks",
+      "rijke",
+      "gek"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1204,9 +1204,9 @@
     "nl": "Elk mens heeft een naam.",
     "form": "mens",
     "distractors": [
-      "fles",
-      "bril",
-      "kaas"
+      "deur",
+      "film",
+      "kast"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1240,8 +1240,8 @@
     "nl": "Die vrouw woont in een klein appartement.",
     "form": "vrouw",
     "distractors": [
-      "tafel",
-      "fles",
+      "stoel",
+      "bus",
       "deur"
     ],
     "reviewed": true,
@@ -1252,9 +1252,9 @@
     "nl": "Mijn familie is groot en gelukkig.",
     "form": "familie",
     "distractors": [
-      "kaas",
+      "telefoon",
       "deur",
-      "fles"
+      "doos"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1264,9 +1264,9 @@
     "nl": "Mijn zoon speelt voetbal in het park.",
     "form": "zoon",
     "distractors": [
-      "tafel",
-      "bril",
-      "kaas"
+      "wortel",
+      "muur",
+      "broek"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1276,8 +1276,8 @@
     "nl": "Mijn vader werkt in een groot restaurant.",
     "form": "vader",
     "distractors": [
-      "bril",
-      "fles",
+      "agenda",
+      "trap",
       "deur"
     ],
     "reviewed": true,
@@ -1288,9 +1288,9 @@
     "nl": "Wie is die persoon daar?",
     "form": "persoon",
     "distractors": [
-      "tafel",
-      "fles",
-      "bril"
+      "vis",
+      "agenda",
+      "pan"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1300,8 +1300,8 @@
     "nl": "De jongen eet een appel in de tuin.",
     "form": "jongen",
     "distractors": [
-      "tafel",
-      "fles",
+      "muur",
+      "trein",
       "deur"
     ],
     "reviewed": true,
@@ -1324,9 +1324,9 @@
     "nl": "Mijn oma heeft een hoge leeftijd.",
     "form": "leeftijd",
     "distractors": [
-      "fles",
-      "kaas",
-      "bril"
+      "appel",
+      "boom",
+      "kalender"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1336,9 +1336,9 @@
     "nl": "Mijn dochter gaat met de fiets naar school.",
     "form": "dochter",
     "distractors": [
-      "tafel",
-      "fles",
-      "bril"
+      "bus",
+      "sleutel",
+      "tuin"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1348,8 +1348,8 @@
     "nl": "Mijn broer woont in een andere stad.",
     "form": "broer",
     "distractors": [
-      "tafel",
-      "fles",
+      "film",
+      "auto",
       "deur"
     ],
     "reviewed": true,
@@ -1360,9 +1360,9 @@
     "nl": "Elke ouder wil een gezond kind.",
     "form": "ouder",
     "distractors": [
-      "bril",
-      "tafel",
-      "kaas"
+      "vis",
+      "kip",
+      "kast"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1372,9 +1372,9 @@
     "nl": "Zij hebben een goede relatie met hun buren.",
     "form": "relatie",
     "distractors": [
-      "fles",
-      "bril",
-      "kaas"
+      "telefoon",
+      "wortel",
+      "trap"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1385,7 +1385,7 @@
     "form": "huwelijk",
     "distractors": [
       "huis",
-      "bed",
+      "balkon",
       "raam"
     ],
     "reviewed": true,
@@ -1396,9 +1396,9 @@
     "nl": "De dame bij de deur wacht op de bus.",
     "form": "dame",
     "distractors": [
-      "tafel",
-      "fles",
-      "bril"
+      "voet",
+      "doos",
+      "stoel"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1408,9 +1408,9 @@
     "nl": "In mijn jeugd woonde ik in de stad.",
     "form": "jeugd",
     "distractors": [
-      "week",
-      "bril",
-      "fles"
+      "pijn",
+      "spiegel",
+      "computer"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1420,9 +1420,9 @@
     "nl": "Mijn vriendin is vandaag bij haar moeder.",
     "form": "vriendin",
     "distractors": [
-      "tafel",
-      "bril",
-      "kaas"
+      "foto",
+      "broek",
+      "ring"
     ],
     "reviewed": false
   },
@@ -1431,9 +1431,9 @@
     "nl": "Meneer, kunt u mij helpen?",
     "form": "meneer",
     "distractors": [
-      "fles",
-      "bril",
-      "kaas"
+      "televisie",
+      "lamp",
+      "telefoon"
     ],
     "reviewed": false
   },
@@ -1442,9 +1442,9 @@
     "nl": "Mevrouw, wat is uw adres?",
     "form": "mevrouw",
     "distractors": [
-      "fles",
-      "bril",
-      "kaas"
+      "foto",
+      "boom",
+      "sleutel"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1454,9 +1454,9 @@
     "nl": "De gast wacht in de kamer.",
     "form": "gast",
     "distractors": [
-      "tafel",
-      "fles",
-      "bril"
+      "muur",
+      "doos",
+      "broek"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1466,9 +1466,9 @@
     "nl": "Mijn oom woont in het zuiden.",
     "form": "oom",
     "distractors": [
-      "bril",
-      "fles",
-      "kaas"
+      "hond",
+      "agenda",
+      "lamp"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1478,9 +1478,9 @@
     "nl": "De baby slaapt in het kleine bed.",
     "form": "baby",
     "distractors": [
-      "tafel",
-      "fles",
-      "bril"
+      "televisie",
+      "wortel",
+      "vis"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1490,9 +1490,9 @@
     "nl": "De geboorte van mijn zoon was in mei.",
     "form": "geboorte",
     "distractors": [
-      "bril",
-      "fles",
-      "tafel"
+      "trein",
+      "kalender",
+      "tuin"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1502,9 +1502,9 @@
     "nl": "Mijn neef speelt graag voetbal met mij.",
     "form": "neef",
     "distractors": [
-      "bril",
-      "fles",
-      "kaas"
+      "kast",
+      "auto",
+      "film"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1514,9 +1514,9 @@
     "nl": "De ontmoeting is om twee uur bij het station.",
     "form": "ontmoeting",
     "distractors": [
-      "tafel",
-      "fles",
-      "bril"
+      "appel",
+      "kip",
+      "pan"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1526,9 +1526,9 @@
     "nl": "Een volwassene en een kind eten samen.",
     "form": "volwassene",
     "distractors": [
-      "kaas",
-      "fles",
-      "bril"
+      "spiegel",
+      "fiets",
+      "trap"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1538,9 +1538,9 @@
     "nl": "Mijn tante belt mij elke avond.",
     "form": "tante",
     "distractors": [
-      "bril",
-      "fles",
-      "kaas"
+      "ring",
+      "bus",
+      "stoel"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1550,9 +1550,9 @@
     "nl": "Mijn oma is oud, maar zij is gezond.",
     "form": "oma",
     "distractors": [
-      "bril",
-      "fles",
-      "kaas"
+      "computer",
+      "schoen",
+      "voet"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1562,9 +1562,9 @@
     "nl": "Mijn opa loopt elke dag in het park.",
     "form": "opa",
     "distractors": [
-      "bril",
-      "fles",
-      "kaas"
+      "doos",
+      "vis",
+      "bus"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1574,9 +1574,9 @@
     "nl": "Mama, waar is mijn telefoon?",
     "form": "mama",
     "distractors": [
-      "fles",
-      "bril",
-      "kaas"
+      "kast",
+      "boom",
+      "trap"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1586,7 +1586,7 @@
     "nl": "Zij zoeken een nieuwe woning in de stad.",
     "form": "woning",
     "distractors": [
-      "week",
+      "minuut",
       "ochtend",
       "geboorte"
     ],
@@ -1598,9 +1598,9 @@
     "nl": "In onze buurt is een groot park.",
     "form": "buurt",
     "distractors": [
-      "fles",
-      "bril",
-      "kaas"
+      "telefoon",
+      "fiets",
+      "muur"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1610,7 +1610,7 @@
     "nl": "De muur van de kamer is wit.",
     "form": "muur",
     "distractors": [
-      "week",
+      "smaak",
       "avond",
       "keer"
     ],
@@ -1718,8 +1718,8 @@
     "nl": "De trap in ons huis is heel lang.",
     "form": "trap",
     "distractors": [
-      "bril",
-      "fles",
+      "kalender",
+      "lamp",
       "schoen"
     ],
     "reviewed": true,
@@ -1742,7 +1742,7 @@
     "nl": "De kleding ligt in de kast.",
     "form": "kast",
     "distractors": [
-      "week",
+      "kleur",
       "maand",
       "keer"
     ],
@@ -1754,7 +1754,7 @@
     "nl": "Ik zie mijn gezicht in de spiegel.",
     "form": "spiegel",
     "distractors": [
-      "week",
+      "periode",
       "maand",
       "keer"
     ],
@@ -1768,7 +1768,7 @@
     "distractors": [
       "maand",
       "keer",
-      "week"
+      "relatie"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1780,7 +1780,7 @@
     "distractors": [
       "winter",
       "avond",
-      "week"
+      "kerst"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1792,7 +1792,7 @@
     "distractors": [
       "uur",
       "weer",
-      "werk"
+      "ongeluk"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1802,9 +1802,9 @@
     "nl": "Ik kook water in de pan.",
     "form": "pan",
     "distractors": [
-      "bril",
+      "wortel",
       "schoen",
-      "deur"
+      "voet"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1814,9 +1814,9 @@
     "nl": "Mijn zus woont in een grote flat.",
     "form": "flat",
     "distractors": [
-      "week",
-      "bril",
-      "fles"
+      "herfst",
+      "spiegel",
+      "computer"
     ],
     "reviewed": false
   },
@@ -1825,9 +1825,9 @@
     "nl": "Waar is het toilet?",
     "form": "toilet",
     "distractors": [
-      "uur",
+      "leven",
       "jaar",
-      "weer"
+      "voetbal"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1837,9 +1837,9 @@
     "nl": "Wij eten op het balkon in de zomer.",
     "form": "balkon",
     "distractors": [
-      "uur",
+      "huwelijk",
       "jaar",
-      "weer"
+      "antwoord"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1849,8 +1849,8 @@
     "nl": "Dit restaurant heeft goede kip en vis.",
     "form": "restaurant",
     "distractors": [
-      "weer",
-      "werk",
+      "woord",
+      "weekend",
       "jaar"
     ],
     "reviewed": true,
@@ -1898,7 +1898,7 @@
     "form": "wijn",
     "distractors": [
       "stoel",
-      "kaas",
+      "auto",
       "appel"
     ],
     "reviewed": true,
@@ -1921,9 +1921,9 @@
     "nl": "Wij eten vandaag vis met groente.",
     "form": "vis",
     "distractors": [
-      "tafel",
+      "ring",
       "schoen",
-      "bril"
+      "tuin"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1933,9 +1933,9 @@
     "nl": "Een koude drank is lekker in de zomer.",
     "form": "drank",
     "distractors": [
-      "bril",
-      "deur",
-      "schoen"
+      "broek",
+      "sleutel",
+      "trein"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1947,7 +1947,7 @@
     "distractors": [
       "minuut",
       "datum",
-      "week"
+      "ochtend"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1957,9 +1957,9 @@
     "nl": "De smaak van de koffie is goed.",
     "form": "smaak",
     "distractors": [
-      "bril",
-      "deur",
-      "schoen"
+      "hond",
+      "televisie",
+      "film"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1969,9 +1969,9 @@
     "nl": "Mijn moeder kookt kip met groente.",
     "form": "kip",
     "distractors": [
-      "bril",
-      "schoen",
-      "deur"
+      "agenda",
+      "foto",
+      "pan"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1981,9 +1981,9 @@
     "nl": "Ik eet elke dag groente.",
     "form": "groente",
     "distractors": [
-      "bril",
-      "schoen",
-      "deur"
+      "kip",
+      "foto",
+      "wortel"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -1993,7 +1993,7 @@
     "nl": "Ik snijd een wortel voor het eten.",
     "form": "wortel",
     "distractors": [
-      "week",
+      "kleur",
       "griep",
       "middag"
     ],
@@ -2017,9 +2017,9 @@
     "nl": "Het is tijd om te eten.",
     "form": "tijd",
     "distractors": [
-      "bril",
-      "schoen",
-      "deur"
+      "film",
+      "voet",
+      "kip"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2053,9 +2053,9 @@
     "nl": "Ik zie mijn oma een keer in de maand.",
     "form": "keer",
     "distractors": [
-      "bril",
-      "schoen",
-      "deur"
+      "telefoon",
+      "lamp",
+      "trap"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2089,9 +2089,9 @@
     "nl": "Deze periode duurt een jaar.",
     "form": "periode",
     "distractors": [
-      "tafel",
-      "bril",
-      "schoen"
+      "computer",
+      "televisie",
+      "boom"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2113,9 +2113,9 @@
     "nl": "Het is nacht en ik ben moe.",
     "form": "nacht",
     "distractors": [
-      "bril",
-      "schoen",
-      "deur"
+      "sleutel",
+      "stoel",
+      "pan"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2125,9 +2125,9 @@
     "nl": "Wat doe jij in de toekomst?",
     "form": "toekomst",
     "distractors": [
-      "bril",
-      "schoen",
-      "deur"
+      "doos",
+      "fiets",
+      "tuin"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2137,9 +2137,9 @@
     "nl": "Wat is de datum van vandaag?",
     "form": "datum",
     "distractors": [
-      "bril",
-      "schoen",
-      "tafel"
+      "appel",
+      "agenda",
+      "spiegel"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2161,9 +2161,9 @@
     "nl": "In de winter is het koud.",
     "form": "winter",
     "distractors": [
-      "bril",
-      "schoen",
-      "deur"
+      "broek",
+      "bus",
+      "kalender"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2173,9 +2173,9 @@
     "nl": "Ik drink elke ochtend koffie.",
     "form": "ochtend",
     "distractors": [
-      "bril",
-      "schoen",
-      "deur"
+      "hond",
+      "ring",
+      "kast"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2209,7 +2209,7 @@
     "nl": "Mijn agenda ligt op de tafel.",
     "form": "agenda",
     "distractors": [
-      "week",
+      "periode",
       "relatie",
       "klacht"
     ],
@@ -2221,9 +2221,9 @@
     "nl": "In de middag werk ik niet.",
     "form": "middag",
     "distractors": [
-      "bril",
-      "schoen",
-      "deur"
+      "vis",
+      "auto",
+      "muur"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2233,9 +2233,9 @@
     "nl": "Wij eten met kerst samen.",
     "form": "kerst",
     "distractors": [
-      "bril",
-      "schoen",
-      "deur"
+      "trein",
+      "muur",
+      "zon"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2245,9 +2245,9 @@
     "nl": "Vrijdag is een feestdag.",
     "form": "feestdag",
     "distractors": [
-      "tafel",
-      "bril",
-      "schoen"
+      "voet",
+      "stoel",
+      "kast"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2257,9 +2257,9 @@
     "nl": "In de herfst is het weer vaak slecht.",
     "form": "herfst",
     "distractors": [
-      "bril",
-      "schoen",
-      "deur"
+      "computer",
+      "broek",
+      "agenda"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2269,7 +2269,7 @@
     "nl": "De kalender hangt aan de muur.",
     "form": "kalender",
     "distractors": [
-      "week",
+      "sport",
       "kleur",
       "nacht"
     ],
@@ -2281,9 +2281,9 @@
     "nl": "De leraar spreekt langzaam in de klas.",
     "form": "leraar",
     "distractors": [
-      "tafel",
-      "bril",
-      "fles"
+      "hond",
+      "bus",
+      "film"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2293,9 +2293,9 @@
     "nl": "Er zijn twintig kinderen in de klas.",
     "form": "klas",
     "distractors": [
-      "bril",
-      "fles",
-      "kaas"
+      "auto",
+      "ring",
+      "sleutel"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2305,9 +2305,9 @@
     "nl": "Ik woon graag in een grote stad.",
     "form": "stad",
     "distractors": [
-      "bril",
-      "fles",
-      "schoen"
+      "boom",
+      "televisie",
+      "tuin"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2317,9 +2317,9 @@
     "nl": "De weg naar het station is lang.",
     "form": "weg",
     "distractors": [
-      "bril",
-      "fles",
-      "kaas"
+      "trap",
+      "spiegel",
+      "telefoon"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2330,8 +2330,8 @@
     "form": "land",
     "distractors": [
       "voetbal",
-      "uur",
-      "jaar"
+      "kwart",
+      "nummer"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2341,8 +2341,8 @@
     "nl": "Wij lopen elke zondag in het park.",
     "form": "park",
     "distractors": [
-      "uur",
-      "jaar",
+      "adres",
+      "seizoen",
       "geld"
     ],
     "reviewed": true,
@@ -2353,7 +2353,7 @@
     "nl": "Ik neem de bus naar mijn werk.",
     "form": "bus",
     "distractors": [
-      "week",
+      "ziekte",
       "avond",
       "zomer"
     ],
@@ -2376,9 +2376,9 @@
     "nl": "De patiënt ligt in het ziekenhuis.",
     "form": "patiënt",
     "distractors": [
-      "tafel",
-      "fles",
-      "bril"
+      "doos",
+      "trein",
+      "vis"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2400,9 +2400,9 @@
     "nl": "Hij is thuis door een ziekte.",
     "form": "ziekte",
     "distractors": [
-      "tafel",
-      "fles",
-      "kaas"
+      "lamp",
+      "fiets",
+      "kalender"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2412,9 +2412,9 @@
     "nl": "Mijn arm doet pijn.",
     "form": "arm",
     "distractors": [
-      "week",
-      "fles",
-      "kaas"
+      "muziek",
+      "wortel",
+      "kip"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2424,7 +2424,7 @@
     "nl": "Mijn voet is koud.",
     "form": "voet",
     "distractors": [
-      "week",
+      "feestdag",
       "avond",
       "keer"
     ],
@@ -2448,9 +2448,9 @@
     "nl": "Mijn oma heeft een goede gezondheid.",
     "form": "gezondheid",
     "distractors": [
-      "fles",
-      "kaas",
-      "deur"
+      "foto",
+      "pan",
+      "appel"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2460,9 +2460,9 @@
     "nl": "Ik heb een klacht over de kamer.",
     "form": "klacht",
     "distractors": [
-      "bril",
-      "fles",
-      "schoen"
+      "tand",
+      "schouder",
+      "nek"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2474,7 +2474,7 @@
     "distractors": [
       "nummer",
       "moment",
-      "uur"
+      "recept"
     ],
     "reviewed": false
   },
@@ -2483,9 +2483,9 @@
     "nl": "Mijn tand doet pijn.",
     "form": "tand",
     "distractors": [
-      "week",
-      "fles",
-      "kaas"
+      "taal",
+      "tong",
+      "knie"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2495,7 +2495,7 @@
     "nl": "Mijn zoon is ziek, hij heeft griep.",
     "form": "griep",
     "distractors": [
-      "week",
+      "geboorte",
       "avond",
       "zomer"
     ],
@@ -2507,7 +2507,7 @@
     "nl": "De baby heeft een kleine mond.",
     "form": "mond",
     "distractors": [
-      "week",
+      "gezondheid",
       "avond",
       "keer"
     ],
@@ -2531,8 +2531,8 @@
     "nl": "Ik heb pijn in mijn been.",
     "form": "pijn",
     "distractors": [
-      "week",
-      "avond",
+      "jeugd",
+      "vakantie",
       "keer"
     ],
     "reviewed": true,
@@ -2544,8 +2544,8 @@
     "form": "medicijn",
     "distractors": [
       "voetbal",
-      "uur",
-      "jaar"
+      "ongeluk",
+      "geld"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2555,9 +2555,9 @@
     "nl": "Mijn huid is rood van de zon.",
     "form": "huid",
     "distractors": [
-      "week",
-      "avond",
-      "keer"
+      "les",
+      "leeftijd",
+      "geboorte"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2567,9 +2567,9 @@
     "nl": "Na het werk wil ik rust.",
     "form": "rust",
     "distractors": [
-      "week",
-      "avond",
-      "keer"
+      "verjaardag",
+      "minuut",
+      "ziekte"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2591,9 +2591,9 @@
     "nl": "Ik heb een ring om mijn vinger.",
     "form": "vinger",
     "distractors": [
-      "week",
-      "avond",
-      "keer"
+      "pijn",
+      "muziek",
+      "vakantie"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2615,9 +2615,9 @@
     "nl": "De baby ligt op zijn buik.",
     "form": "buik",
     "distractors": [
-      "week",
-      "avond",
-      "keer"
+      "les",
+      "winter",
+      "periode"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2639,9 +2639,9 @@
     "nl": "Zij heeft een hand op mijn schouder.",
     "form": "schouder",
     "distractors": [
-      "week",
-      "avond",
-      "keer"
+      "jeugd",
+      "griep",
+      "nacht"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2651,9 +2651,9 @@
     "nl": "Mijn nek is koud.",
     "form": "nek",
     "distractors": [
-      "week",
-      "avond",
-      "keer"
+      "seconde",
+      "kerst",
+      "datum"
     ],
     "reviewed": false
   },
@@ -2662,9 +2662,9 @@
     "nl": "Mijn keel doet pijn.",
     "form": "keel",
     "distractors": [
-      "week",
-      "avond",
-      "keer"
+      "gezondheid",
+      "smaak",
+      "vraag"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2674,8 +2674,8 @@
     "nl": "Een hond heeft een rode tong.",
     "form": "tong",
     "distractors": [
-      "week",
-      "avond",
+      "rust",
+      "taal",
       "nacht"
     ],
     "reviewed": true,
@@ -2686,9 +2686,9 @@
     "nl": "Ik maak een foto van mijn hond.",
     "form": "foto",
     "distractors": [
-      "week",
-      "avond",
-      "keer"
+      "middag",
+      "toekomst",
+      "prijs"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2698,9 +2698,9 @@
     "nl": "Wij kijken televisie na het eten.",
     "form": "televisie",
     "distractors": [
-      "bril",
-      "schoen",
-      "deur"
+      "arm",
+      "mond",
+      "vinger"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2710,9 +2710,9 @@
     "nl": "Zwemmen is een goede sport.",
     "form": "sport",
     "distractors": [
-      "bril",
-      "fles",
-      "kaas"
+      "tong",
+      "mond",
+      "nek"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2723,8 +2723,8 @@
     "form": "voetbal",
     "distractors": [
       "kwart",
-      "uur",
-      "jaar"
+      "moment",
+      "seizoen"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2734,9 +2734,9 @@
     "nl": "De zee is blauw en groot.",
     "form": "zee",
     "distractors": [
-      "week",
-      "avond",
-      "keer"
+      "feestdag",
+      "sport",
+      "klacht"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2746,9 +2746,9 @@
     "nl": "Welke kleur heeft jouw auto?",
     "form": "kleur",
     "distractors": [
-      "week",
-      "avond",
-      "keer"
+      "leeftijd",
+      "pijn",
+      "griep"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2770,9 +2770,9 @@
     "nl": "Ik heb een vraag voor de leraar.",
     "form": "vraag",
     "distractors": [
-      "keer",
-      "week",
-      "avond"
+      "herfst",
+      "leeftijd",
+      "muziek"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2794,7 +2794,7 @@
     "nl": "Ik betaal twintig euro voor de bril.",
     "form": "euro",
     "distractors": [
-      "week",
+      "middag",
       "geboorte",
       "toekomst"
     ],
@@ -2806,8 +2806,8 @@
     "nl": "Ik koop groente op de markt.",
     "form": "markt",
     "distractors": [
-      "bril",
-      "week",
+      "vinger",
+      "ochtend",
       "vraag"
     ],
     "reviewed": true,
@@ -2818,9 +2818,9 @@
     "nl": "Wij kopen brood in de supermarkt.",
     "form": "supermarkt",
     "distractors": [
-      "bril",
-      "schoen",
-      "week"
+      "knie",
+      "schouder",
+      "relatie"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2830,9 +2830,9 @@
     "nl": "Welke maat heeft u?",
     "form": "maat",
     "distractors": [
-      "week",
-      "avond",
-      "keer"
+      "minuut",
+      "rust",
+      "seconde"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2842,9 +2842,9 @@
     "nl": "Ik koop een ring voor mijn vrouw.",
     "form": "ring",
     "distractors": [
-      "week",
-      "avond",
-      "keer"
+      "gezondheid",
+      "sport",
+      "winter"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2854,9 +2854,9 @@
     "nl": "Ik koop nieuwe kleding in de winkel.",
     "form": "kleding",
     "distractors": [
-      "week",
-      "avond",
-      "keer"
+      "zomer",
+      "les",
+      "datum"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2866,9 +2866,9 @@
     "nl": "Mijn echtgenoot werkt in het ziekenhuis.",
     "form": "echtgenoot",
     "distractors": [
-      "tafel",
-      "fles",
-      "bril"
+      "neus",
+      "tand",
+      "arm"
     ],
     "reviewed": false
   },
@@ -2877,9 +2877,9 @@
     "nl": "Mijn echtgenote werkt op school.",
     "form": "echtgenote",
     "distractors": [
-      "tafel",
-      "fles",
-      "bril"
+      "vinger",
+      "mond",
+      "neus"
     ],
     "reviewed": false
   },
@@ -2900,9 +2900,9 @@
     "nl": "De baby ligt op de borst van zijn moeder.",
     "form": "borst",
     "distractors": [
-      "week",
-      "avond",
-      "keer"
+      "periode",
+      "klacht",
+      "prijs"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2912,9 +2912,9 @@
     "nl": "Mijn duim is rood.",
     "form": "duim",
     "distractors": [
-      "week",
-      "avond",
-      "keer"
+      "feestdag",
+      "taal",
+      "kerst"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2924,9 +2924,9 @@
     "nl": "De baby zit op de knie van zijn opa.",
     "form": "knie",
     "distractors": [
-      "week",
-      "avond",
-      "keer"
+      "verjaardag",
+      "jeugd",
+      "dag"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2936,8 +2936,8 @@
     "nl": "Het is warm in het zuiden.",
     "form": "zuiden",
     "distractors": [
-      "uur",
-      "jaar",
+      "nummer",
+      "voetbal",
       "geld"
     ],
     "reviewed": true,
@@ -2948,8 +2948,8 @@
     "nl": "Mijn broer woont in het westen van het land.",
     "form": "westen",
     "distractors": [
-      "uur",
-      "jaar",
+      "leven",
+      "recept",
       "geld"
     ],
     "reviewed": true,
@@ -2960,8 +2960,8 @@
     "nl": "Mijn familie woont in het oosten.",
     "form": "oosten",
     "distractors": [
-      "uur",
-      "jaar",
+      "antwoord",
+      "nummer",
       "geld"
     ],
     "reviewed": true,
@@ -2972,9 +2972,9 @@
     "nl": "Wacht een seconde, ik kom zo.",
     "form": "seconde",
     "distractors": [
-      "tafel",
-      "bril",
-      "fles"
+      "tand",
+      "schouder",
+      "knie"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2984,9 +2984,9 @@
     "nl": "In januari is het heel koud.",
     "form": "januari",
     "distractors": [
-      "bril",
-      "fles",
-      "schoen"
+      "nek",
+      "tong",
+      "arm"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2996,9 +2996,9 @@
     "nl": "In februari is mijn verjaardag.",
     "form": "februari",
     "distractors": [
-      "bril",
-      "fles",
-      "schoen"
+      "tong",
+      "nek",
+      "vinger"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3008,9 +3008,9 @@
     "nl": "In maart gaan wij op vakantie.",
     "form": "maart",
     "distractors": [
-      "bril",
-      "fles",
-      "schoen"
+      "smaak",
+      "arm",
+      "mond"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3020,9 +3020,9 @@
     "nl": "In april regent het veel.",
     "form": "april",
     "distractors": [
-      "bril",
-      "fles",
-      "schoen"
+      "tand",
+      "knie",
+      "neus"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3032,9 +3032,9 @@
     "nl": "In mei is het weer mooi.",
     "form": "mei",
     "distractors": [
-      "bril",
-      "fles",
-      "schoen"
+      "vakantie",
+      "schouder",
+      "kleur"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3044,9 +3044,9 @@
     "nl": "In juni heb ik vakantie.",
     "form": "juni",
     "distractors": [
-      "bril",
-      "fles",
-      "schoen"
+      "minuut",
+      "sport",
+      "nek"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3056,9 +3056,9 @@
     "nl": "In juli is het heet in de stad.",
     "form": "juli",
     "distractors": [
-      "bril",
-      "fles",
-      "schoen"
+      "relatie",
+      "verjaardag",
+      "seconde"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3068,9 +3068,9 @@
     "nl": "In augustus zwem ik in de zee.",
     "form": "augustus",
     "distractors": [
-      "bril",
-      "fles",
-      "schoen"
+      "zomer",
+      "les",
+      "smaak"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3080,9 +3080,9 @@
     "nl": "In september begint de school.",
     "form": "september",
     "distractors": [
-      "bril",
-      "fles",
-      "schoen"
+      "winter",
+      "vinger",
+      "knie"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3092,9 +3092,9 @@
     "nl": "In oktober zijn de bomen geel en rood.",
     "form": "oktober",
     "distractors": [
-      "bril",
-      "fles",
-      "schoen"
+      "periode",
+      "tong",
+      "kerst"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3104,9 +3104,9 @@
     "nl": "In november is het vaak koud.",
     "form": "november",
     "distractors": [
-      "bril",
-      "fles",
-      "schoen"
+      "taal",
+      "tand",
+      "neus"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3116,9 +3116,9 @@
     "nl": "In december is het kerst.",
     "form": "december",
     "distractors": [
-      "bril",
-      "fles",
-      "schoen"
+      "schouder",
+      "middag",
+      "griep"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3128,9 +3128,9 @@
     "nl": "Op dinsdag werk ik thuis.",
     "form": "dinsdag",
     "distractors": [
-      "bril",
-      "schoen",
-      "fles"
+      "datum",
+      "klacht",
+      "vakantie"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3140,9 +3140,9 @@
     "nl": "Op woensdag heb ik geen school.",
     "form": "woensdag",
     "distractors": [
-      "bril",
-      "schoen",
-      "fles"
+      "arm",
+      "herfst",
+      "feestdag"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3152,9 +3152,9 @@
     "nl": "Op donderdag heb ik les.",
     "form": "donderdag",
     "distractors": [
-      "bril",
-      "schoen",
-      "fles"
+      "toekomst",
+      "vraag",
+      "nacht"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3164,9 +3164,9 @@
     "nl": "Op vrijdag werk ik tot vier uur.",
     "form": "vrijdag",
     "distractors": [
-      "bril",
-      "schoen",
-      "fles"
+      "geboorte",
+      "rust",
+      "maand"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3176,9 +3176,9 @@
     "nl": "Op zaterdag ga ik naar de markt.",
     "form": "zaterdag",
     "distractors": [
-      "bril",
-      "schoen",
-      "fles"
+      "jeugd",
+      "prijs",
+      "muziek"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3188,9 +3188,9 @@
     "nl": "Op zondag eten wij bij mijn oma.",
     "form": "zondag",
     "distractors": [
-      "bril",
-      "schoen",
-      "fles"
+      "dag",
+      "gezondheid",
+      "ochtend"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3272,7 +3272,7 @@
     "form": "zeven",
     "distractors": [
       "kussen",
-      "bord",
+      "oor",
       "laken"
     ],
     "reviewed": true,
@@ -3285,7 +3285,7 @@
     "distractors": [
       "raam",
       "mes",
-      "dak"
+      "gerecht"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3439,7 +3439,7 @@
     "form": "dertig",
     "distractors": [
       "moment",
-      "nummer",
+      "land",
       "weekend"
     ],
     "reviewed": true,
@@ -3463,7 +3463,7 @@
     "form": "vijftig",
     "distractors": [
       "woord",
-      "ongeluk",
+      "lichaam",
       "geld"
     ],
     "reviewed": true,
@@ -3487,8 +3487,8 @@
     "form": "zeventig",
     "distractors": [
       "weekend",
-      "seizoen",
-      "voetbal"
+      "afval",
+      "huishouden"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3498,9 +3498,9 @@
     "nl": "Dit huis is tachtig jaar oud.",
     "form": "tachtig",
     "distractors": [
-      "leven",
-      "recept",
-      "antwoord"
+      "westen",
+      "zuiden",
+      "oosten"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3512,7 +3512,7 @@
     "distractors": [
       "kwart",
       "adres",
-      "nummer"
+      "ziekenhuis"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3522,9 +3522,9 @@
     "nl": "Ik betaal honderd euro voor de fiets.",
     "form": "honderd",
     "distractors": [
-      "kwart",
-      "voetbal",
-      "seizoen"
+      "ziekenhuis",
+      "lichaam",
+      "land"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3534,9 +3534,9 @@
     "nl": "Ik heb duizend vragen.",
     "form": "duizend",
     "distractors": [
-      "voorjaar",
-      "leven",
-      "nummer"
+      "oosten",
+      "westen",
+      "huishouden"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3546,9 +3546,9 @@
     "nl": "Deze stad heeft een miljoen inwoners.",
     "form": "miljoen",
     "distractors": [
-      "weekend",
-      "adres",
-      "geld"
+      "zuiden",
+      "afval",
+      "gerecht"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3558,9 +3558,9 @@
     "nl": "Een miljard euro is veel geld.",
     "form": "miljard",
     "distractors": [
-      "huwelijk",
-      "antwoord",
-      "ongeluk"
+      "gerecht",
+      "huishouden",
+      "lichaam"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3726,8 +3726,8 @@
     "form": "roken",
     "distractors": [
       "springen",
-      "hangen",
-      "draaien"
+      "rusten",
+      "spelen"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3738,8 +3738,8 @@
     "form": "regenen",
     "distractors": [
       "springen",
-      "hangen",
-      "draaien"
+      "roken",
+      "huren"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -3750,8 +3750,8 @@
     "form": "zijn",
     "distractors": [
       "bouwen",
-      "bakken",
-      "snijden"
+      "huren",
+      "kopen"
     ],
     "reviewed": false
   },
@@ -3761,7 +3761,7 @@
     "form": "hebben",
     "distractors": [
       "springen",
-      "draaien",
+      "koken",
       "roepen"
     ],
     "reviewed": true,
@@ -3821,7 +3821,7 @@
     "form": "maken",
     "distractors": [
       "springen",
-      "hangen",
+      "wonen",
       "roepen"
     ],
     "reviewed": true,
@@ -3867,8 +3867,8 @@
     "nl": "Ik moet mijn handen wassen.",
     "form": "wassen",
     "distractors": [
-      "bouwen",
-      "springen",
+      "schrijven",
+      "rusten",
       "roepen"
     ],
     "reviewed": true,
@@ -3916,7 +3916,7 @@
     "form": "geef",
     "distractors": [
       "loop",
-      "zwem",
+      "hang",
       "spreek"
     ],
     "reviewed": true,
@@ -3927,7 +3927,7 @@
     "nl": "Wat wil jij eten?",
     "form": "wil",
     "distractors": [
-      "zwem",
+      "hang",
       "spreek",
       "loop"
     ],
@@ -3963,8 +3963,8 @@
     "nl": "Mag ik hier zitten?",
     "form": "mag",
     "distractors": [
-      "zwem",
-      "spreek",
+      "woon",
+      "luister",
       "loop"
     ],
     "reviewed": true,
@@ -3975,7 +3975,7 @@
     "nl": "Ik denk aan mijn familie.",
     "form": "denk",
     "distractors": [
-      "zwem",
+      "hang",
       "loop",
       "bouw"
     ],
@@ -3999,8 +3999,8 @@
     "nl": "Ik breng mijn zoon naar school.",
     "form": "breng",
     "distractors": [
-      "zwem",
-      "spreek",
+      "spring",
+      "luister",
       "lees"
     ],
     "reviewed": true,
@@ -4011,9 +4011,9 @@
     "nl": "Ik loop naar het station.",
     "form": "loop",
     "distractors": [
-      "zwem",
+      "hang",
       "eet",
-      "spreek"
+      "spring"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -4025,7 +4025,7 @@
     "distractors": [
       "eet",
       "drink",
-      "spreek"
+      "woon"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -4049,7 +4049,7 @@
     "distractors": [
       "eet",
       "drink",
-      "spreek"
+      "woon"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -4071,9 +4071,9 @@
     "nl": "Wat wil jij zeggen?",
     "form": "zeggen",
     "distractors": [
-      "springen",
-      "hangen",
-      "draaien"
+      "roken",
+      "slapen",
+      "spelen"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -4109,7 +4109,7 @@
     "distractors": [
       "eet",
       "drink",
-      "zwem"
+      "luister"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -4178,9 +4178,9 @@
     "nl": "Mijn oma moet vandaag rusten.",
     "form": "rusten",
     "distractors": [
-      "springen",
+      "vliegen",
       "roepen",
-      "draaien"
+      "kopen"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -4216,7 +4216,7 @@
     "distractors": [
       "eet",
       "drink",
-      "spreek"
+      "luister"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -4226,7 +4226,7 @@
     "nl": "Draai de sleutel in de deur.",
     "form": "draai",
     "distractors": [
-      "eet",
+      "leest",
       "drink",
       "lees"
     ],
@@ -4238,7 +4238,7 @@
     "nl": "Je hoeft niet te wachten.",
     "form": "hoeft",
     "distractors": [
-      "eet",
+      "drinkt",
       "werkt",
       "spreekt"
     ],
@@ -4251,7 +4251,7 @@
     "form": "roept",
     "distractors": [
       "werkt",
-      "eet",
+      "breekt",
       "drinkt"
     ],
     "reviewed": true,
@@ -4262,8 +4262,8 @@
     "nl": "De lamp hangt boven de tafel.",
     "form": "hangt",
     "distractors": [
-      "eet",
-      "werkt",
+      "leest",
+      "vliegt",
       "woont"
     ],
     "reviewed": true,
@@ -4286,7 +4286,7 @@
     "nl": "De hond kan hoog springen.",
     "form": "springen",
     "distractors": [
-      "eten",
+      "huren",
       "wonen",
       "lezen"
     ],
@@ -4323,7 +4323,7 @@
     "form": "zuur",
     "distractors": [
       "boos",
-      "bang",
+      "getrouwd",
       "gelukkig"
     ],
     "reviewed": true,
@@ -4334,7 +4334,7 @@
     "nl": "De bus is vandaag laat.",
     "form": "laat",
     "distractors": [
-      "bang",
+      "bezig",
       "boos",
       "gelukkig"
     ],
@@ -4359,7 +4359,7 @@
     "form": "vroeg",
     "distractors": [
       "boos",
-      "bang",
+      "zwanger",
       "gelukkig"
     ],
     "reviewed": true,
@@ -4382,7 +4382,7 @@
     "form": "rechts",
     "distractors": [
       "boos",
-      "bang",
+      "getrouwd",
       "gelukkig"
     ],
     "reviewed": true,
@@ -4395,7 +4395,7 @@
     "distractors": [
       "gek",
       "rijk",
-      "moe"
+      "zwangere"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -4406,8 +4406,8 @@
     "form": "gezond",
     "distractors": [
       "boos",
-      "moe",
-      "bang"
+      "bezige",
+      "zwanger"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -4465,8 +4465,8 @@
     "form": "lang",
     "distractors": [
       "geel",
-      "boos",
-      "bang"
+      "jong",
+      "wakker"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -4476,7 +4476,7 @@
     "nl": "Het gaat goed met mijn oma.",
     "form": "goed",
     "distractors": [
-      "boos",
+      "bezig",
       "rood",
       "bruin"
     ],
@@ -4488,9 +4488,9 @@
     "nl": "Mijn school is niet ver van mijn huis.",
     "form": "ver",
     "distractors": [
-      "boos",
+      "geboren",
       "rood",
-      "bang"
+      "zwanger"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -4500,9 +4500,9 @@
     "nl": "De muur is heel hoog.",
     "form": "hoog",
     "distractors": [
-      "boos",
-      "bang",
-      "moe"
+      "bezig",
+      "gek",
+      "gelukkige"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -4525,7 +4525,7 @@
     "form": "rood",
     "distractors": [
       "jong",
-      "boos",
+      "getrouwd",
       "hoog"
     ],
     "reviewed": false
@@ -4535,8 +4535,8 @@
     "nl": "Mijn haar is kort.",
     "form": "kort",
     "distractors": [
-      "boos",
-      "bang",
+      "geboren",
+      "rijk",
       "jong"
     ],
     "reviewed": true,
@@ -4547,7 +4547,7 @@
     "nl": "De tafel is laag.",
     "form": "laag",
     "distractors": [
-      "ziek",
+      "wakker",
       "gelukkig",
       "gek"
     ],
@@ -4559,9 +4559,9 @@
     "nl": "Mijn schoenen zijn zwart en nieuw.",
     "form": "zwart",
     "distractors": [
-      "rijk",
-      "moe",
-      "boos"
+      "dagelijks",
+      "getrouwde",
+      "bezig"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -4584,7 +4584,7 @@
     "form": "slecht",
     "distractors": [
       "hoog",
-      "boos",
+      "geboren",
       "paars"
     ],
     "reviewed": true,
@@ -4595,9 +4595,9 @@
     "nl": "De bomen in de tuin zijn groen.",
     "form": "groen",
     "distractors": [
-      "boos",
-      "moe",
-      "bang"
+      "zwanger",
+      "gekke",
+      "wakker"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -4619,8 +4619,8 @@
     "nl": "Het laken is wit en schoon.",
     "form": "wit",
     "distractors": [
-      "bang",
-      "ziek",
+      "getrouwd",
+      "bezig",
       "gelukkig"
     ],
     "reviewed": true,
@@ -4642,9 +4642,9 @@
     "nl": "De zon is geel.",
     "form": "geel",
     "distractors": [
-      "boos",
-      "bang",
-      "moe"
+      "jong",
+      "zwanger",
+      "zieke"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -4654,8 +4654,8 @@
     "nl": "De wortel is oranje.",
     "form": "oranje",
     "distractors": [
-      "ziek",
-      "gelukkig",
+      "getrouwd",
+      "geboren",
       "gek"
     ],
     "reviewed": true,
@@ -4667,8 +4667,8 @@
     "form": "langzaam",
     "distractors": [
       "rijk",
-      "moe",
-      "boos"
+      "gelukkige",
+      "wakker"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -4678,9 +4678,9 @@
     "nl": "Mijn bril is blauw.",
     "form": "blauw",
     "distractors": [
-      "bang",
-      "ziek",
-      "gelukkig"
+      "bezig",
+      "jong",
+      "wakker"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -4690,9 +4690,9 @@
     "nl": "Het brood is bruin.",
     "form": "bruin",
     "distractors": [
-      "boos",
-      "bang",
-      "moe"
+      "getrouwd",
+      "zwanger",
+      "bezige"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -4702,9 +4702,9 @@
     "nl": "De koffie is heet.",
     "form": "heet",
     "distractors": [
-      "ziek",
-      "gelukkig",
-      "gek"
+      "geboren",
+      "rijk",
+      "dagelijks"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -4715,8 +4715,8 @@
     "form": "grijs",
     "distractors": [
       "rijk",
-      "moe",
-      "boos"
+      "wakkere",
+      "jong"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -4726,9 +4726,9 @@
     "nl": "Mijn zoon is in mei geboren.",
     "form": "geboren",
     "distractors": [
-      "bang",
-      "ziek",
-      "gelukkig"
+      "getrouwd",
+      "gek",
+      "wakker"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -4738,7 +4738,7 @@
     "nl": "Mijn zus is getrouwd.",
     "form": "getrouwd",
     "distractors": [
-      "rood",
+      "grijs",
       "groen",
       "blauw"
     ],
@@ -4749,7 +4749,7 @@
     "nl": "Ik ben om zes uur wakker.",
     "form": "wakker",
     "distractors": [
-      "rood",
+      "wit",
       "groen",
       "blauw"
     ],
@@ -4761,8 +4761,8 @@
     "nl": "Het is half drie.",
     "form": "half",
     "distractors": [
-      "rood",
-      "groen",
+      "roze",
+      "oranje",
       "blauw"
     ],
     "reviewed": true,
@@ -4773,9 +4773,9 @@
     "nl": "De tafel is rond.",
     "form": "rond",
     "distractors": [
-      "boos",
-      "bang",
-      "moe"
+      "geboren",
+      "bezig",
+      "gekke"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -4785,8 +4785,8 @@
     "nl": "Mijn moeder is bezig in de keuken.",
     "form": "bezig",
     "distractors": [
-      "rood",
-      "groen",
+      "grijs",
+      "zwart",
       "blauw"
     ],
     "reviewed": true,
@@ -4797,9 +4797,9 @@
     "nl": "Hij is rijk, maar niet gelukkig.",
     "form": "rijk",
     "distractors": [
-      "rood",
-      "groen",
-      "blauw"
+      "roze",
+      "oranje",
+      "geel"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -4809,7 +4809,7 @@
     "nl": "De zee is hier diep.",
     "form": "diep",
     "distractors": [
-      "ziek",
+      "zwanger",
       "gelukkig",
       "gek"
     ],
@@ -4821,9 +4821,9 @@
     "nl": "Het eten is prima.",
     "form": "prima",
     "distractors": [
-      "rood",
-      "groen",
-      "blauw"
+      "wit",
+      "geel",
+      "oranje"
     ],
     "reviewed": false
   },
@@ -4833,7 +4833,7 @@
     "form": "gek",
     "distractors": [
       "rijk",
-      "moe",
+      "boze",
       "boos"
     ],
     "reviewed": true,
@@ -4872,7 +4872,8 @@
       "zwart",
       "blauw"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-aardig",
@@ -4883,7 +4884,8 @@
       "paars",
       "bruin"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-actief",
@@ -4894,7 +4896,8 @@
       "dicht",
       "geldig"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-agressief",
@@ -4905,7 +4908,8 @@
       "vierkant",
       "gemiddeld"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-alleen",
@@ -4916,7 +4920,8 @@
       "oranje",
       "grijs"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-apart",
@@ -4927,7 +4932,8 @@
       "getrouwde",
       "verstandige"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-automatisch",
@@ -4938,7 +4944,8 @@
       "creatief",
       "bezig"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-bekend",
@@ -4949,7 +4956,8 @@
       "gratis",
       "verplicht"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-belachelijk",
@@ -4960,7 +4968,8 @@
       "klassiek",
       "ongelukkig"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-belangrijk",
@@ -4971,7 +4980,8 @@
       "bezorgd",
       "nieuwsgierig"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-beleefd",
@@ -4982,7 +4992,8 @@
       "vers",
       "geel"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-beroemd",
@@ -4993,7 +5004,8 @@
       "geldige",
       "dubbele"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-betrouwbaar",
@@ -5004,7 +5016,8 @@
       "houten",
       "jaarlijks"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-bezorgd",
@@ -5015,7 +5028,8 @@
       "rond",
       "dubbel"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-bijzonder",
@@ -5026,7 +5040,8 @@
       "vriendelijk",
       "getrouwd"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-bleek",
@@ -5037,7 +5052,8 @@
       "groen",
       "vers"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-blind",
@@ -5048,7 +5064,8 @@
       "klassiek",
       "gratis"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-breed",
@@ -5059,7 +5076,8 @@
       "jaloers",
       "levend"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-creatief",
@@ -5070,7 +5088,8 @@
       "elektrisch",
       "leeg"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-dankbaar",
@@ -5081,7 +5100,8 @@
       "roze",
       "dubbel"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-dicht",
@@ -5092,7 +5112,8 @@
       "agressief",
       "bang"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-dichtbij",
@@ -5103,7 +5124,8 @@
       "actief",
       "gelukkig"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-dom",
@@ -5114,7 +5136,8 @@
       "zwangere",
       "eenzame"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-donker",
@@ -5125,7 +5148,8 @@
       "wakker",
       "verbaasd"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-dood",
@@ -5136,7 +5160,8 @@
       "verliefd",
       "trots"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-droog",
@@ -5147,7 +5172,8 @@
       "moe",
       "lui"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-druk",
@@ -5158,7 +5184,8 @@
       "boos",
       "actief"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-dubbel",
@@ -5180,7 +5207,8 @@
       "onzeker",
       "nerveus"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-dun",
@@ -5191,7 +5219,8 @@
       "agressief",
       "trots"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-echt",
@@ -5202,7 +5231,8 @@
       "dankbaar",
       "getrouwd"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-eenzaam",
@@ -5224,7 +5254,8 @@
       "wit",
       "rood"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-eigen",
@@ -5235,7 +5266,8 @@
       "verliefde",
       "gelukkige"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-elektrisch",
@@ -5246,7 +5278,8 @@
       "bange",
       "nieuwsgierige"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-eng",
@@ -5257,7 +5290,8 @@
       "nieuwsgierig",
       "beleefd"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-enorm",
@@ -5268,7 +5302,8 @@
       "eenzaam",
       "bezorgd"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-erg",
@@ -5279,7 +5314,8 @@
       "jaarlijks",
       "geboren"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-ernstig",
@@ -5290,7 +5326,8 @@
       "verplicht",
       "verstandig"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-fijn",
@@ -5301,7 +5338,8 @@
       "automatisch",
       "verdrietig"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-geldig",
@@ -5312,7 +5350,8 @@
       "zelfstandig",
       "dagelijks"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-gelijk",
@@ -5323,7 +5362,8 @@
       "levend",
       "wakker"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-gemiddeld",
@@ -5334,7 +5374,8 @@
       "zelfstandige",
       "agressieve"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-gevaarlijk",
@@ -5345,7 +5386,8 @@
       "vrolijk",
       "jaloers"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-gevoelig",
@@ -5356,7 +5398,8 @@
       "lui",
       "vriendelijk"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-geweldig",
@@ -5367,7 +5410,8 @@
       "actieve",
       "ongelukkige"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-gezellig",
@@ -5378,7 +5422,8 @@
       "ziek",
       "beleefd"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-grappig",
@@ -5389,7 +5434,8 @@
       "ongelukkig",
       "zwanger"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-gratis",
@@ -5400,7 +5446,8 @@
       "geboren",
       "wakker"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-handig",
@@ -5411,7 +5458,8 @@
       "eenzaam",
       "bezig"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-hard",
@@ -5422,7 +5470,8 @@
       "verbaasd",
       "onzeker"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-helder",
@@ -5433,7 +5482,8 @@
       "verdrietig",
       "dankbaar"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-houten",
@@ -5444,7 +5494,8 @@
       "vrolijk",
       "getrouwd"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-ingewikkeld",
@@ -5455,7 +5506,8 @@
       "geldig",
       "vierkant"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-interessant",
@@ -5466,7 +5518,8 @@
       "levend",
       "dagelijks"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-jaarlijks",
@@ -5477,7 +5530,8 @@
       "elektrisch",
       "dicht"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-jaloers",
@@ -5488,7 +5542,8 @@
       "bruin",
       "vlak"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-jammer",
@@ -5499,7 +5554,8 @@
       "jaarlijks",
       "nerveus"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-juist",
@@ -5510,7 +5566,8 @@
       "vers",
       "gemiddeld"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-kapot",
@@ -5521,7 +5578,8 @@
       "zelfstandig",
       "boos"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-keurig",
@@ -5532,7 +5590,8 @@
       "bezorgd",
       "lui"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-klaar",
@@ -5543,7 +5602,8 @@
       "trots",
       "levend"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-klassiek",
@@ -5554,7 +5614,8 @@
       "verliefd",
       "nieuwsgierig"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-kwijt",
@@ -5565,7 +5626,8 @@
       "leeg",
       "oranje"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-leeg",
@@ -5576,7 +5638,8 @@
       "jaloers",
       "zelfstandig"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-lelijk",
@@ -5587,7 +5650,8 @@
       "actief",
       "bang"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-levend",
@@ -5598,7 +5662,8 @@
       "zwangere",
       "jaloerse"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-lief",
@@ -5609,7 +5674,8 @@
       "getrouwd",
       "zwanger"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-logisch",
@@ -5620,7 +5686,8 @@
       "rond",
       "automatisch"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-los",
@@ -5631,7 +5698,8 @@
       "boos",
       "agressief"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-lui",
@@ -5642,7 +5710,8 @@
       "rood",
       "geel"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-mogelijk",
@@ -5653,7 +5722,8 @@
       "klassiek",
       "houten"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-nat",
@@ -5664,7 +5734,8 @@
       "bezig",
       "geboren"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-natuurlijk",
@@ -5675,7 +5746,8 @@
       "bezorgd",
       "ziek"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-nerveus",
@@ -5686,7 +5758,8 @@
       "zwart",
       "paars"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-nieuwsgierig",
@@ -5697,7 +5770,8 @@
       "wit",
       "grijs"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-nodig",
@@ -5708,7 +5782,8 @@
       "dankbaar",
       "gemiddeld"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-onbekend",
@@ -5719,7 +5794,8 @@
       "vierkante",
       "verplichte"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-ongelukkig",
@@ -5730,7 +5806,8 @@
       "paars",
       "leeg"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-ongezond",
@@ -5741,7 +5818,8 @@
       "vlak",
       "verstandig"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-onzeker",
@@ -5752,7 +5830,8 @@
       "klassiek",
       "zwart"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-open",
@@ -5763,7 +5842,8 @@
       "wakker",
       "vrolijk"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-pijnlijk",
@@ -5774,7 +5854,8 @@
       "verdrietig",
       "onzeker"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-praktisch",
@@ -5785,7 +5866,8 @@
       "zelfstandig",
       "verstandig"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-redelijk",
@@ -5796,7 +5878,8 @@
       "automatisch",
       "vers"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-regelmatig",
@@ -5807,7 +5890,8 @@
       "grijs",
       "rood"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-rustig",
@@ -5818,7 +5902,8 @@
       "verplicht",
       "dicht"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-saai",
@@ -5829,7 +5914,8 @@
       "ongelukkig",
       "creatief"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-scherp",
@@ -5840,7 +5926,8 @@
       "jaloers",
       "bezorgd"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-serieus",
@@ -5851,7 +5938,8 @@
       "geldig",
       "dagelijks"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-slim",
@@ -5862,7 +5950,8 @@
       "bruin",
       "groen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-smal",
@@ -5873,7 +5962,8 @@
       "onzeker",
       "geboren"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-spannend",
@@ -5884,7 +5974,8 @@
       "dubbel",
       "gelukkig"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-sterk",
@@ -5895,7 +5986,8 @@
       "oranje",
       "geel"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-stevig",
@@ -5906,7 +5998,8 @@
       "eenzaam",
       "lui"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-stiekem",
@@ -5917,7 +6010,8 @@
       "geldig",
       "roze"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-stil",
@@ -5928,7 +6022,8 @@
       "nerveus",
       "moe"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-streng",
@@ -5939,7 +6034,8 @@
       "vierkant",
       "oranje"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-tijdelijk",
@@ -5950,7 +6046,8 @@
       "vers",
       "actief"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-toevallig",
@@ -5961,7 +6058,8 @@
       "vlak",
       "leeg"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-trots",
@@ -5972,7 +6070,8 @@
       "groen",
       "dicht"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-typisch",
@@ -5994,7 +6093,8 @@
       "bang",
       "boos"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-uniek",
@@ -6005,7 +6105,8 @@
       "dagelijks",
       "jaarlijks"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-vals",
@@ -6016,7 +6117,8 @@
       "vrolijk",
       "verdrietig"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-veilig",
@@ -6027,7 +6129,8 @@
       "levend",
       "trots"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-verbaasd",
@@ -6038,7 +6141,8 @@
       "rond",
       "wekelijks"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-verdrietig",
@@ -6049,7 +6153,8 @@
       "elektrisch",
       "rood"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-verkeerd",
@@ -6060,7 +6165,8 @@
       "verliefd",
       "vriendelijk"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-verliefd",
@@ -6071,7 +6177,8 @@
       "zwart",
       "bruin"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-verplicht",
@@ -6082,7 +6189,8 @@
       "wakker",
       "automatisch"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-verschillend",
@@ -6093,7 +6201,8 @@
       "vers",
       "rood"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-verstandig",
@@ -6104,7 +6213,8 @@
       "gelukkig",
       "moe"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-vervelend",
@@ -6115,7 +6225,8 @@
       "ziek",
       "creatief"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-vierkant",
@@ -6126,7 +6237,8 @@
       "levende",
       "onzekere"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-vies",
@@ -6137,7 +6249,8 @@
       "agressief",
       "trots"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-vlak",
@@ -6148,7 +6261,8 @@
       "nieuwsgierig",
       "vrolijk"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-vol",
@@ -6159,7 +6273,8 @@
       "verstandig",
       "lui"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-volgend",
@@ -6170,7 +6285,8 @@
       "verbaasde",
       "vrolijke"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-voorzichtig",
@@ -6181,7 +6297,8 @@
       "wit",
       "gemiddeld"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-vreemd",
@@ -6192,7 +6309,8 @@
       "geboren",
       "verdrietig"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-vreselijk",
@@ -6203,7 +6321,8 @@
       "jaloers",
       "beleefd"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-vriendelijk",
@@ -6214,7 +6333,8 @@
       "leeg",
       "vlak"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-vrij",
@@ -6225,7 +6345,8 @@
       "blauw",
       "dubbel"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-vrolijk",
@@ -6236,7 +6357,8 @@
       "klassiek",
       "oranje"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-waar",
@@ -6247,7 +6369,8 @@
       "vriendelijk",
       "getrouwd"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-wekelijks",
@@ -6258,7 +6381,8 @@
       "zwart",
       "grijs"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-welkom",
@@ -6269,7 +6393,8 @@
       "houten",
       "roze"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-wild",
@@ -6280,7 +6405,8 @@
       "actief",
       "levend"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-zacht",
@@ -6291,7 +6417,8 @@
       "bezig",
       "zwanger"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-zeker",
@@ -6302,7 +6429,8 @@
       "jaarlijks",
       "geel"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-zelfstandig",
@@ -6313,7 +6441,8 @@
       "vierkant",
       "wekelijks"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-zonnig",
@@ -6324,7 +6453,8 @@
       "gelukkig",
       "levend"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-zwaar",
@@ -6335,7 +6465,8 @@
       "verstandig",
       "vrolijk"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "adj-zwak",
@@ -6346,7 +6477,8 @@
       "dagelijks",
       "geel"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-aankomst",
@@ -6357,7 +6489,8 @@
       "april",
       "datum"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-aankoop",
@@ -6368,7 +6501,8 @@
       "donderdag",
       "feestdag"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-aap",
@@ -6379,7 +6513,8 @@
       "lening",
       "letter"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-aardappel",
@@ -6390,7 +6525,8 @@
       "lampen",
       "stoelen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-aarde",
@@ -6401,7 +6537,8 @@
       "training",
       "uitspraak"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-achterkant",
@@ -6412,7 +6549,8 @@
       "stap",
       "vlucht"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-achternaam",
@@ -6423,7 +6561,8 @@
       "minuut",
       "avond"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-acteur",
@@ -6434,7 +6573,8 @@
       "lengte",
       "aankoop"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-ademhaling",
@@ -6445,7 +6585,8 @@
       "mei",
       "kerst"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-advies",
@@ -6456,7 +6597,8 @@
       "moment",
       "seizoen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-advocaat",
@@ -6467,7 +6609,8 @@
       "hulp",
       "werkdag"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-afdeling",
@@ -6478,7 +6621,8 @@
       "periode",
       "leugen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-afscheid",
@@ -6489,7 +6633,8 @@
       "jaar",
       "kwart"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-afspraak",
@@ -6500,7 +6645,8 @@
       "maand",
       "zondag"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-afstand",
@@ -6511,7 +6657,8 @@
       "keer",
       "februari"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-agent",
@@ -6522,7 +6669,8 @@
       "vriendschap",
       "kant"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-alcohol",
@@ -6533,7 +6681,8 @@
       "buitenkant",
       "som"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-ambtenaar",
@@ -6544,7 +6693,8 @@
       "reden",
       "tijd"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-angst",
@@ -6555,7 +6705,8 @@
       "oktober",
       "dag"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-apotheek",
@@ -6566,7 +6717,8 @@
       "rit",
       "stage"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-apotheker",
@@ -6577,7 +6729,8 @@
       "discussie",
       "opmerking"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-app",
@@ -6588,7 +6741,8 @@
       "week",
       "maart"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-armband",
@@ -6599,7 +6753,8 @@
       "rekening",
       "test"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-attractie",
@@ -6610,7 +6765,8 @@
       "betaling",
       "liefde"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-automaat",
@@ -6621,7 +6777,8 @@
       "reis",
       "emotie"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-avontuur",
@@ -6632,7 +6789,8 @@
       "uur",
       "weekend"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-baan",
@@ -6643,7 +6801,8 @@
       "middag",
       "agenda"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-baard",
@@ -6654,7 +6813,8 @@
       "wens",
       "uitnodiging"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-baas",
@@ -6665,7 +6825,8 @@
       "hitte",
       "achterkant"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-bad",
@@ -6676,7 +6837,8 @@
       "scherm",
       "verhaal"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-badkamer",
@@ -6687,7 +6849,8 @@
       "humor",
       "plaats"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-bagage",
@@ -6698,7 +6861,8 @@
       "mening",
       "regel"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-bak",
@@ -6709,7 +6873,8 @@
       "belasting",
       "cirkel"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-bakker",
@@ -6720,7 +6885,8 @@
       "storm",
       "cent"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-bal",
@@ -6731,7 +6897,8 @@
       "wiskunde",
       "kalender"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-ballet",
@@ -6742,7 +6909,8 @@
       "nieuws",
       "cadeau"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-banaan",
@@ -6753,7 +6921,8 @@
       "streep",
       "uitkering"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-bank",
@@ -6764,7 +6933,8 @@
       "onzin",
       "vertraging"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-bar",
@@ -6775,7 +6945,8 @@
       "fout",
       "pauze"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-basisschool",
@@ -6786,7 +6957,8 @@
       "telefoon",
       "lach"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-batterij",
@@ -6797,7 +6969,8 @@
       "naam",
       "regen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-bedrag",
@@ -6819,7 +6992,8 @@
       "woord",
       "merk"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-behandeling",
@@ -6830,7 +7004,8 @@
       "herfst",
       "winter"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-beker",
@@ -6841,7 +7016,8 @@
       "toekomst",
       "hoogte"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-bel",
@@ -6852,7 +7028,8 @@
       "verrassing",
       "afspraak"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-belasting",
@@ -6863,7 +7040,8 @@
       "ochtend",
       "augustus"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-belofte",
@@ -6874,7 +7052,8 @@
       "dinsdag",
       "woensdag"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-benzine",
@@ -6885,7 +7064,8 @@
       "snelheid",
       "studie"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-berg",
@@ -6907,7 +7087,8 @@
       "voorjaar",
       "seizoen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-beroep",
@@ -6918,7 +7099,8 @@
       "kwart",
       "jaar"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-bestelling",
@@ -6929,7 +7111,8 @@
       "april",
       "zomer"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-bestemming",
@@ -6940,7 +7123,8 @@
       "luxe",
       "kus"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-betaling",
@@ -6951,7 +7135,8 @@
       "week",
       "seconde"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-beurt",
@@ -6962,7 +7147,8 @@
       "reclame",
       "wolk"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-bezoek",
@@ -6973,7 +7159,8 @@
       "voorjaar",
       "weekend"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-bezoeker",
@@ -6984,7 +7171,8 @@
       "informatie",
       "route"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-bibliotheek",
@@ -6995,7 +7183,8 @@
       "richting",
       "helft"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-biet",
@@ -7017,7 +7206,8 @@
       "zaterdag",
       "mei"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-bijwerking",
@@ -7028,7 +7218,8 @@
       "kalender",
       "maart"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-bioscoop",
@@ -7039,7 +7230,8 @@
       "hitte",
       "periode"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-blad",
@@ -7050,7 +7242,8 @@
       "zilver",
       "gevoel"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-bladzijde",
@@ -7061,7 +7254,8 @@
       "wandeling",
       "reclame"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-blessure",
@@ -7072,7 +7266,8 @@
       "februari",
       "minuut"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-bloem",
@@ -7083,7 +7278,8 @@
       "snelheid",
       "hulp"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-bocht",
@@ -7094,7 +7290,8 @@
       "wiskunde",
       "vertraging"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-boer",
@@ -7105,7 +7302,8 @@
       "ruzie",
       "studie"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-boerderij",
@@ -7116,7 +7314,8 @@
       "stem",
       "werkdag"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-boete",
@@ -7127,7 +7326,8 @@
       "zondag",
       "middag"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-bon",
@@ -7138,7 +7338,8 @@
       "nacht",
       "datum"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-boodschap",
@@ -7149,7 +7350,8 @@
       "augustus",
       "woensdag"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-boon",
@@ -7160,7 +7362,8 @@
       "lampen",
       "stoelen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-boot",
@@ -7171,7 +7374,8 @@
       "uitspraak",
       "onderkant"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-bos",
@@ -7182,7 +7386,8 @@
       "contract",
       "rapport"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-bot",
@@ -7193,7 +7398,8 @@
       "doel",
       "geheim"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-boter",
@@ -7204,7 +7410,8 @@
       "droom",
       "breedte"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-boterham",
@@ -7226,7 +7433,8 @@
       "onzin",
       "waarheid"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-brand",
@@ -7237,7 +7445,8 @@
       "maand",
       "keer"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-brandweer",
@@ -7248,7 +7457,8 @@
       "belasting",
       "mist"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-breedte",
@@ -7259,7 +7469,8 @@
       "juni",
       "seconde"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-brief",
@@ -7270,7 +7481,8 @@
       "emotie",
       "wedstrijd"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-broodje",
@@ -7281,7 +7493,8 @@
       "getal",
       "spel"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-brug",
@@ -7292,7 +7505,8 @@
       "millimeter",
       "bovenkant"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-bruid",
@@ -7303,7 +7517,8 @@
       "taak",
       "gram"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-bruiloft",
@@ -7314,7 +7529,8 @@
       "verrassing",
       "herinnering"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-bui",
@@ -7325,7 +7541,8 @@
       "geschiedenis",
       "taal"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-buitenkant",
@@ -7336,7 +7553,8 @@
       "groep",
       "opmerking"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-buitenland",
@@ -7347,7 +7565,8 @@
       "plan",
       "warenhuis"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-cadeau",
@@ -7358,7 +7577,8 @@
       "inkomen",
       "antwoord"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-café",
@@ -7369,7 +7589,8 @@
       "werk",
       "gevaar"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-camera",
@@ -7380,7 +7601,8 @@
       "fout",
       "geschiedenis"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-camping",
@@ -7391,7 +7613,8 @@
       "tijd",
       "route"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-cent",
@@ -7402,7 +7625,8 @@
       "december",
       "oktober"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-centimeter",
@@ -7413,7 +7637,8 @@
       "ochtend",
       "avond"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-centrum",
@@ -7424,7 +7649,8 @@
       "pond",
       "contact"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-champagne",
@@ -7435,7 +7661,8 @@
       "angst",
       "achterkant"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-chauffeur",
@@ -7446,7 +7673,8 @@
       "kilogram",
       "uitkering"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-cijfer",
@@ -7468,7 +7696,8 @@
       "bedrag",
       "adres"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-cirkel",
@@ -7490,7 +7719,8 @@
       "letter",
       "lengte"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-club",
@@ -7501,7 +7731,8 @@
       "kant",
       "pauze"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-code",
@@ -7512,7 +7743,8 @@
       "dinsdag",
       "juli"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-collega",
@@ -7523,7 +7755,8 @@
       "luxe",
       "voorkant"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-concert",
@@ -7534,7 +7767,8 @@
       "procent",
       "verdriet"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-contact",
@@ -7545,7 +7779,8 @@
       "kwart",
       "moment"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-contract",
@@ -7556,7 +7791,8 @@
       "voorjaar",
       "seizoen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-controle",
@@ -7567,7 +7803,8 @@
       "kerst",
       "juni"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-cursus",
@@ -7578,7 +7815,8 @@
       "stress",
       "ruzie"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-dal",
@@ -7589,7 +7827,8 @@
       "stuk",
       "gesprek"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-dans",
@@ -7600,7 +7839,8 @@
       "zaterdag",
       "agenda"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-das",
@@ -7611,7 +7851,8 @@
       "reis",
       "helft"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-deken",
@@ -7622,7 +7863,8 @@
       "boete",
       "streep"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-dienst",
@@ -7633,7 +7875,8 @@
       "maart",
       "december"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-dierentuin",
@@ -7644,7 +7887,8 @@
       "cirkel",
       "toekomst"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-dijk",
@@ -7655,7 +7899,8 @@
       "informatie",
       "keuze"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-directeur",
@@ -7666,7 +7911,8 @@
       "regel",
       "training"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-discussie",
@@ -7677,7 +7923,8 @@
       "kalender",
       "keuken"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-document",
@@ -7688,7 +7935,8 @@
       "water",
       "verkeer"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-documentaire",
@@ -7699,7 +7947,8 @@
       "regen",
       "temperatuur"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-doek",
@@ -7710,7 +7959,8 @@
       "leugen",
       "mening"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-doel",
@@ -7721,7 +7971,8 @@
       "uur",
       "moment"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-doelpunt",
@@ -7732,7 +7983,8 @@
       "voorjaar",
       "uur"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-dolfijn",
@@ -7743,7 +7995,8 @@
       "discussie",
       "serie"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-dorp",
@@ -7754,7 +8007,8 @@
       "cijfer",
       "werk"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-douane",
@@ -7765,7 +8019,8 @@
       "richting",
       "ervaring"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-douche",
@@ -7776,7 +8031,8 @@
       "mist",
       "wereld"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-draad",
@@ -7787,7 +8043,8 @@
       "wedstrijd",
       "kalender"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-droom",
@@ -7798,7 +8055,8 @@
       "liter",
       "kilometer"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-druif",
@@ -7809,7 +8067,8 @@
       "uitnodiging",
       "centimeter"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-drum",
@@ -7820,7 +8079,8 @@
       "uitkering",
       "schaduw"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-duin",
@@ -7831,7 +8091,8 @@
       "stuk",
       "rapport"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-echtpaar",
@@ -7842,7 +8103,8 @@
       "goud",
       "bedrag"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-eend",
@@ -7853,7 +8115,8 @@
       "tekst",
       "onzin"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-eeuw",
@@ -7864,7 +8127,8 @@
       "fles",
       "schoen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-eigenaar",
@@ -7875,7 +8139,8 @@
       "belasting",
       "training"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-eiland",
@@ -7886,7 +8151,8 @@
       "plezier",
       "plan"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-emotie",
@@ -7897,7 +8163,8 @@
       "september",
       "nacht"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-energie",
@@ -7908,7 +8175,8 @@
       "kerst",
       "minuut"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-envelop",
@@ -7919,7 +8187,8 @@
       "maandag",
       "kerst"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-ervaring",
@@ -7930,7 +8199,8 @@
       "woensdag",
       "dag"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-excuus",
@@ -7941,7 +8211,8 @@
       "kwart",
       "weekend"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-ezel",
@@ -7952,7 +8223,8 @@
       "dienst",
       "temperatuur"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-fabriek",
@@ -7963,7 +8235,8 @@
       "belofte",
       "onderkant"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-fan",
@@ -7974,7 +8247,8 @@
       "reis",
       "keuze"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-feest",
@@ -7985,7 +8259,8 @@
       "verleden",
       "westen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-festival",
@@ -7996,7 +8271,8 @@
       "excuus",
       "gesprek"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-file",
@@ -8007,7 +8283,8 @@
       "keer",
       "januari"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-finale",
@@ -8018,7 +8295,8 @@
       "richting",
       "naam"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-formulier",
@@ -8029,7 +8307,8 @@
       "product",
       "advies"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-fout",
@@ -8040,7 +8319,8 @@
       "herfst",
       "april"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-fruit",
@@ -8051,7 +8331,8 @@
       "cijfer",
       "doel"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-gang",
@@ -8062,7 +8343,8 @@
       "grap",
       "werkdag"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-gans",
@@ -8073,7 +8355,8 @@
       "tocht",
       "uitnodiging"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-garage",
@@ -8084,7 +8367,8 @@
       "verrassing",
       "storm"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-garnaal",
@@ -8095,7 +8379,8 @@
       "wandeling",
       "centimeter"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-gas",
@@ -8106,7 +8391,8 @@
       "geheim",
       "onderwijs"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-gat",
@@ -8117,7 +8403,8 @@
       "noorden",
       "midden"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-gebouw",
@@ -8128,7 +8415,8 @@
       "midden",
       "verkeer"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-gedicht",
@@ -8139,7 +8427,8 @@
       "oosten",
       "bloed"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-geheim",
@@ -8150,7 +8439,8 @@
       "verkeer",
       "haar"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-geliefde",
@@ -8161,7 +8451,8 @@
       "binnenkant",
       "streep"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-geluid",
@@ -8172,7 +8463,8 @@
       "water",
       "midden"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-geluk",
@@ -8183,7 +8475,8 @@
       "jaar",
       "kwart"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-gemeente",
@@ -8194,7 +8487,8 @@
       "sfeer",
       "toekomst"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-geschiedenis",
@@ -8205,7 +8499,8 @@
       "test",
       "cent"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-gesprek",
@@ -8216,7 +8511,8 @@
       "noorden",
       "zuiden"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-getal",
@@ -8227,7 +8523,8 @@
       "geluk",
       "oosten"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-gevaar",
@@ -8238,7 +8535,8 @@
       "water",
       "verleden"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-gevoel",
@@ -8249,7 +8547,8 @@
       "zuiden",
       "toilet"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-gewicht",
@@ -8260,7 +8559,8 @@
       "moment",
       "uur"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-gitaar",
@@ -8271,7 +8571,8 @@
       "kus",
       "herinnering"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-golf",
@@ -8282,7 +8583,8 @@
       "mei",
       "avond"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-gordijn",
@@ -8293,7 +8595,8 @@
       "contact",
       "scherm"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-goud",
@@ -8304,7 +8607,8 @@
       "inkomen",
       "woord"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-gracht",
@@ -8315,7 +8619,8 @@
       "lening",
       "regen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-gram",
@@ -8326,7 +8631,8 @@
       "november",
       "winter"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-grap",
@@ -8337,7 +8643,8 @@
       "maandag",
       "vrijdag"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-gras",
@@ -8359,7 +8666,8 @@
       "donderdag",
       "juli"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-groep",
@@ -8370,7 +8678,8 @@
       "zomer",
       "maand"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-grond",
@@ -8381,7 +8690,8 @@
       "lengte",
       "serie"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-grot",
@@ -8392,7 +8702,8 @@
       "letter",
       "mening"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-haai",
@@ -8403,7 +8714,8 @@
       "klant",
       "reclame"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-haard",
@@ -8414,7 +8726,8 @@
       "route",
       "humor"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-haas",
@@ -8425,7 +8738,8 @@
       "informatie",
       "ervaring"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-hal",
@@ -8436,7 +8750,8 @@
       "stem",
       "telefoon"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-halte",
@@ -8447,7 +8762,8 @@
       "boete",
       "luxe"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-ham",
@@ -8458,7 +8774,8 @@
       "angst",
       "pauze"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-hamburger",
@@ -8469,7 +8786,8 @@
       "lach",
       "tijd"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-handdoek",
@@ -8480,7 +8798,8 @@
       "bovenkant",
       "wens"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-handschoen",
@@ -8491,7 +8810,8 @@
       "lampen",
       "stoelen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-handtekening",
@@ -8502,7 +8822,8 @@
       "boodschap",
       "stage"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-haring",
@@ -8513,7 +8834,8 @@
       "regel",
       "wiskunde"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-haven",
@@ -8524,7 +8846,8 @@
       "rit",
       "liter"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-hek",
@@ -8546,7 +8869,8 @@
       "maart",
       "week"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-hemd",
@@ -8557,7 +8881,8 @@
       "cadeau",
       "voorbeeld"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-herinnering",
@@ -8568,7 +8893,8 @@
       "liter",
       "centimeter"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-hert",
@@ -8579,7 +8905,8 @@
       "pensioen",
       "getal"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-heuvel",
@@ -8590,7 +8917,8 @@
       "som",
       "fout"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-hiel",
@@ -8601,7 +8929,8 @@
       "betaling",
       "buitenkant"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-hitte",
@@ -8623,7 +8952,8 @@
       "keer",
       "juli"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-hoed",
@@ -8634,7 +8964,8 @@
       "kou",
       "stress"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-hoek",
@@ -8645,7 +8976,8 @@
       "wandeling",
       "wens"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-hoes",
@@ -8656,7 +8988,8 @@
       "uitspraak",
       "groep"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-honger",
@@ -8667,7 +9000,8 @@
       "minuut",
       "december"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-honing",
@@ -8678,7 +9012,8 @@
       "vertraging",
       "droom"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-hoofdpijn",
@@ -8689,7 +9024,8 @@
       "januari",
       "dinsdag"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-hoofdstad",
@@ -8700,7 +9036,8 @@
       "periode",
       "finale"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-hoofdstraat",
@@ -8711,7 +9048,8 @@
       "wiskunde",
       "kalender"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-hoofdstuk",
@@ -8722,7 +9060,8 @@
       "noorden",
       "westen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-hoogte",
@@ -8733,7 +9072,8 @@
       "februari",
       "donderdag"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-horloge",
@@ -8744,7 +9084,8 @@
       "salaris",
       "contract"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-hotel",
@@ -8755,7 +9096,8 @@
       "probleem",
       "team"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-hout",
@@ -8766,7 +9108,8 @@
       "scherm",
       "spel"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-huisarts",
@@ -8777,7 +9120,8 @@
       "vriendschap",
       "herinnering"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-huisdier",
@@ -8788,7 +9132,8 @@
       "excuus",
       "tennis"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-huisnummer",
@@ -8799,7 +9144,8 @@
       "adres",
       "antwoord"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-huisvrouw",
@@ -8810,7 +9156,8 @@
       "lening",
       "keuze"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-huiswerk",
@@ -8821,7 +9168,8 @@
       "verdriet",
       "verschil"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-hulp",
@@ -8832,7 +9180,8 @@
       "mei",
       "maandag"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-humor",
@@ -8843,7 +9192,8 @@
       "zaterdag",
       "nacht"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-huur",
@@ -8854,7 +9204,8 @@
       "zomer",
       "woensdag"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-idee",
@@ -8865,7 +9216,8 @@
       "haar",
       "bloed"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-ijs",
@@ -8876,7 +9228,8 @@
       "toilet",
       "geluk"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-ijzer",
@@ -8887,7 +9240,8 @@
       "merk",
       "pond"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-informatie",
@@ -8898,7 +9252,8 @@
       "avond",
       "aankoop"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-ingang",
@@ -8909,7 +9264,8 @@
       "achterkant",
       "uitspraak"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-ingrediënt",
@@ -8920,7 +9276,8 @@
       "internet",
       "team"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-inkomen",
@@ -8931,7 +9288,8 @@
       "nummer",
       "noorden"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-insect",
@@ -8942,7 +9300,8 @@
       "woord",
       "doel"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-instrument",
@@ -8953,7 +9312,8 @@
       "project",
       "cijfer"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-interesse",
@@ -8964,7 +9324,8 @@
       "vrijdag",
       "kerst"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-internet",
@@ -8975,7 +9336,8 @@
       "afval",
       "nummer"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-jas",
@@ -8986,7 +9348,8 @@
       "binnenkant",
       "telefoon"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-journalist",
@@ -8997,7 +9360,8 @@
       "pauze",
       "vlucht"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-jurk",
@@ -9008,7 +9372,8 @@
       "naam",
       "informatie"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-kaak",
@@ -9019,7 +9384,8 @@
       "boodschap",
       "tijd"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-kaart",
@@ -9030,7 +9396,8 @@
       "vraag",
       "gram"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-kachel",
@@ -9052,7 +9419,8 @@
       "onzin",
       "lach"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-kam",
@@ -9063,7 +9431,8 @@
       "centimeter",
       "buitenkant"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-kampioen",
@@ -9074,7 +9443,8 @@
       "luxe",
       "liter"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-kanaal",
@@ -9085,7 +9455,8 @@
       "verhaal",
       "bedrag"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-kant",
@@ -9096,7 +9467,8 @@
       "kilogram",
       "stress"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-kantoor",
@@ -9107,7 +9479,8 @@
       "onderwijs",
       "contact"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-kapper",
@@ -9118,7 +9491,8 @@
       "periode",
       "stage"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-kassa",
@@ -9129,7 +9503,8 @@
       "verrassing",
       "angst"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-kasteel",
@@ -9140,7 +9515,8 @@
       "haar",
       "weer"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-kelder",
@@ -9151,7 +9527,8 @@
       "helft",
       "som"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-kerk",
@@ -9162,7 +9539,8 @@
       "wolk",
       "onderkant"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-keuze",
@@ -9173,7 +9551,8 @@
       "juni",
       "zondag"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-kilogram",
@@ -9184,7 +9563,8 @@
       "donderdag",
       "zondag"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-kilometer",
@@ -9195,7 +9575,8 @@
       "dag",
       "minuut"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-kin",
@@ -9206,7 +9587,8 @@
       "millimeter",
       "taal"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-kinderopvang",
@@ -9217,7 +9599,8 @@
       "uitnodiging",
       "uitkering"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-kist",
@@ -9228,7 +9611,8 @@
       "emotie",
       "wereld"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-klant",
@@ -9239,7 +9623,8 @@
       "test",
       "grap"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-kleinkind",
@@ -9250,7 +9635,8 @@
       "inkomen",
       "stuk"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-klok",
@@ -9261,7 +9647,8 @@
       "afspraak",
       "wedstrijd"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-knop",
@@ -9272,7 +9659,8 @@
       "vertraging",
       "snelheid"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-koe",
@@ -9283,7 +9671,8 @@
       "training",
       "droom"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-koek",
@@ -9305,7 +9694,8 @@
       "pensioen",
       "product"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-koelkast",
@@ -9316,7 +9706,8 @@
       "ervaring",
       "ruzie"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-koffer",
@@ -9327,7 +9718,8 @@
       "mist",
       "werkdag"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-kok",
@@ -9338,7 +9730,8 @@
       "kant",
       "reden"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-konijn",
@@ -9349,7 +9742,8 @@
       "plezier",
       "rapport"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-kool",
@@ -9360,7 +9754,8 @@
       "mening",
       "kus"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-koorts",
@@ -9371,7 +9766,8 @@
       "hulp",
       "klant"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-kopje",
@@ -9382,7 +9778,8 @@
       "zilver",
       "gesprek"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-kou",
@@ -9393,7 +9790,8 @@
       "middag",
       "winter"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-kous",
@@ -9404,7 +9802,8 @@
       "rit",
       "opmerking"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-kraag",
@@ -9415,7 +9814,8 @@
       "route",
       "liefde"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-krant",
@@ -9426,7 +9826,8 @@
       "plaats",
       "reclame"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-kruispunt",
@@ -9437,7 +9838,8 @@
       "getal",
       "idee"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-kunst",
@@ -9448,7 +9850,8 @@
       "maart",
       "belofte"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-kunstenaar",
@@ -9459,7 +9862,8 @@
       "hoogte",
       "betaling"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-kunstwerk",
@@ -9470,7 +9874,8 @@
       "oosten",
       "verleden"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-kus",
@@ -9481,7 +9886,8 @@
       "zaterdag",
       "maandag"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-kust",
@@ -9492,7 +9898,8 @@
       "cent",
       "uitnodiging"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-laan",
@@ -9503,7 +9910,8 @@
       "regen",
       "richting"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-lach",
@@ -9525,7 +9933,8 @@
       "midden",
       "noorden"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-laptop",
@@ -9536,7 +9945,8 @@
       "onderkant",
       "wedstrijd"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-leerling",
@@ -9547,7 +9957,8 @@
       "buitenkant",
       "humor"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-leeuw",
@@ -9558,7 +9969,8 @@
       "achterkant",
       "hoogte"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-lengte",
@@ -9569,7 +9981,8 @@
       "kerst",
       "seconde"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-lening",
@@ -9591,7 +10004,8 @@
       "lening",
       "studie"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-letter",
@@ -9602,7 +10016,8 @@
       "lampen",
       "stoelen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-leugen",
@@ -9613,7 +10028,8 @@
       "september",
       "datum"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-lever",
@@ -9624,7 +10040,8 @@
       "lach",
       "millimeter"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-licht",
@@ -9635,7 +10052,8 @@
       "geheim",
       "afscheid"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-lied",
@@ -9646,7 +10064,8 @@
       "bloed",
       "water"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-liefde",
@@ -9657,7 +10076,8 @@
       "mei",
       "week"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-lift",
@@ -9668,7 +10088,8 @@
       "helft",
       "kus"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-lijst",
@@ -9679,7 +10100,8 @@
       "woensdag",
       "augustus"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-link",
@@ -9690,7 +10112,8 @@
       "feestdag",
       "vrijdag"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-lip",
@@ -9701,7 +10124,8 @@
       "lampen",
       "stoelen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-liter",
@@ -9712,7 +10136,8 @@
       "maand",
       "december"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-loket",
@@ -9723,7 +10148,8 @@
       "verschil",
       "pond"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-long",
@@ -9734,7 +10160,8 @@
       "belasting",
       "periode"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-lucht",
@@ -9745,7 +10172,8 @@
       "centimeter",
       "keuze"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-luchthaven",
@@ -9756,7 +10184,8 @@
       "ruzie",
       "breedte"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-lunch",
@@ -9767,7 +10196,8 @@
       "afspraak",
       "herinnering"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-luxe",
@@ -9778,7 +10208,8 @@
       "minuut",
       "maart"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-maag",
@@ -9789,7 +10220,8 @@
       "stage",
       "fout"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-maaltijd",
@@ -9800,7 +10232,8 @@
       "keer",
       "angst"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-maan",
@@ -9811,7 +10244,8 @@
       "vraag",
       "belofte"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-machine",
@@ -9822,7 +10256,8 @@
       "stem",
       "liter"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-makelaar",
@@ -9833,7 +10268,8 @@
       "hitte",
       "kant"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-manager",
@@ -9844,7 +10280,8 @@
       "aankoop",
       "training"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-map",
@@ -9855,7 +10292,8 @@
       "reden",
       "uitspraak"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-medaille",
@@ -9866,7 +10304,8 @@
       "stap",
       "geschiedenis"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-medewerker",
@@ -9877,7 +10316,8 @@
       "verrassing",
       "gram"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-meester",
@@ -9888,7 +10328,8 @@
       "voorkant",
       "vriendschap"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-melk",
@@ -9899,7 +10340,8 @@
       "storm",
       "discussie"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-mening",
@@ -9910,7 +10352,8 @@
       "juli",
       "datum"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-merk",
@@ -9921,7 +10364,8 @@
       "westen",
       "weer"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-metaal",
@@ -9932,7 +10376,8 @@
       "cadeau",
       "bedrag"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-meter",
@@ -9943,7 +10388,8 @@
       "nacht",
       "november"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-metro",
@@ -9954,7 +10400,8 @@
       "test",
       "waarheid"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-meubel",
@@ -9965,7 +10412,8 @@
       "internet",
       "goud"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-midden",
@@ -9976,7 +10424,8 @@
       "warenhuis",
       "spel"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-millimeter",
@@ -9987,7 +10436,8 @@
       "feestdag",
       "januari"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-mist",
@@ -9998,7 +10448,8 @@
       "vrijdag",
       "april"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-moedertaal",
@@ -10009,7 +10460,8 @@
       "zaterdag",
       "herfst"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-molen",
@@ -10020,7 +10472,8 @@
       "wiskunde",
       "binnenkant"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-mondkap",
@@ -10031,7 +10484,8 @@
       "boete",
       "mist"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-mossel",
@@ -10042,7 +10496,8 @@
       "letter",
       "kilogram"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-motor",
@@ -10053,7 +10508,8 @@
       "klant",
       "wereld"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-mug",
@@ -10064,7 +10520,8 @@
       "taal",
       "som"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-muis",
@@ -10075,7 +10532,8 @@
       "wandeling",
       "boodschap"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-museum",
@@ -10086,7 +10544,8 @@
       "contract",
       "inkomen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-muts",
@@ -10108,7 +10567,8 @@
       "rit",
       "dienst"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-natuur",
@@ -10119,7 +10579,8 @@
       "augustus",
       "avond"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-natuurkunde",
@@ -10130,7 +10591,8 @@
       "kerst",
       "emotie"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-nest",
@@ -10141,7 +10603,8 @@
       "plan",
       "scherm"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-nicht",
@@ -10163,7 +10626,8 @@
       "weer",
       "toilet"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-noorden",
@@ -10174,7 +10638,8 @@
       "tennis",
       "plezier"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-oceaan",
@@ -10185,7 +10650,8 @@
       "reclame",
       "telefoon"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-olifant",
@@ -10196,7 +10662,8 @@
       "opmerking",
       "emotie"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-onderarm",
@@ -10207,7 +10674,8 @@
       "sfeer",
       "streep"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-onderbroek",
@@ -10218,7 +10686,8 @@
       "kou",
       "vlucht"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-onderkant",
@@ -10229,7 +10698,8 @@
       "reis",
       "regel"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-ondernemer",
@@ -10240,7 +10710,8 @@
       "kus",
       "gram"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-onderwijs",
@@ -10251,7 +10722,8 @@
       "afval",
       "oosten"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-onzin",
@@ -10262,7 +10734,8 @@
       "dinsdag",
       "september"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-opdracht",
@@ -10273,7 +10746,8 @@
       "week",
       "dag"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-operatie",
@@ -10284,7 +10758,8 @@
       "donderdag",
       "woensdag"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-binnenkant",
@@ -10295,6 +10770,7 @@
       "cent",
       "voorkant"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   }
 ]
