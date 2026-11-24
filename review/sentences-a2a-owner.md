@@ -80,3 +80,12 @@ Kararlar `review/sentences-a2a-owner.csv` dosyasının `decision` sütununa yaz�
 | B2.18 | noun-centimeter | Mijn zoon is honderd centimeter lang. | My son is a hundred centimetres tall. | |
 | B2.19 | adj-ernstig | De ziekte van mijn opa is ernstig. | My grandfather's illness is serious. | |
 | B2.20 | noun-berg | Wij lopen de berg op. | We walk up the mountain. | |
+
+## C — Zincir yeniden yazma önerileri (distractor için temiz set yok)
+
+Bu cümlelerde boşluğa uyan başka bir sözcük bulunamadı; çeldiriciler yine de elle seçildi, ama çerçeve zayıf. Cümle/çeviri değişmedi.
+
+| Id | Şimdiki | Sorun | Öneri |
+|---|---|---|---|
+| adj-agressief | De hond is niet agressief. | Olumsuz cümle: "niet X" her sıfatla doğru | "De hond is erg agressief." |
+| adj-waar | Dat is niet waar. | Aynı | "Dat verhaal is waar." |
