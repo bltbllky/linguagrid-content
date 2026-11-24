@@ -3947,5 +3947,533 @@
       "lezen"
     ],
     "reviewed": false
+  },
+  {
+    "word_id": "adj-persoonlijk",
+    "nl": "Dit is een persoonlijke vraag.",
+    "form": "persoonlijke",
+    "distractors": [
+      "rode",
+      "blauwe",
+      "gele"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-vers",
+    "nl": "Het brood is vers en warm.",
+    "form": "vers",
+    "distractors": [
+      "hoog",
+      "diep",
+      "boos"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-zuur",
+    "nl": "De appel is zuur en niet lekker.",
+    "form": "zuur",
+    "distractors": [
+      "boos",
+      "bang",
+      "gelukkig"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-laat",
+    "nl": "De bus is vandaag laat.",
+    "form": "laat",
+    "distractors": [
+      "bang",
+      "boos",
+      "gelukkig"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-vorig",
+    "nl": "Vorige week was ik ziek.",
+    "form": "vorige",
+    "distractors": [
+      "rode",
+      "boze",
+      "bange"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-vroeg",
+    "nl": "De trein is vandaag vroeg.",
+    "form": "vroeg",
+    "distractors": [
+      "boos",
+      "bang",
+      "gelukkig"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-dagelijks",
+    "nl": "Mijn zus werkt dagelijks in de winkel.",
+    "form": "dagelijks",
+    "distractors": [
+      "rood",
+      "groen",
+      "blauw"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-rechts",
+    "nl": "Het station is rechts.",
+    "form": "rechts",
+    "distractors": [
+      "boos",
+      "bang",
+      "gelukkig"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-links",
+    "nl": "De winkel is links van het station.",
+    "form": "links",
+    "distractors": [
+      "gek",
+      "rijk",
+      "moe"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-gezond",
+    "nl": "Groente en vis zijn gezond.",
+    "form": "gezond",
+    "distractors": [
+      "boos",
+      "moe",
+      "bang"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-zwanger",
+    "nl": "Mijn zus is zwanger en heel gelukkig.",
+    "form": "zwanger",
+    "distractors": [
+      "zwart",
+      "groen",
+      "diep"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-bang",
+    "nl": "Mijn hond is bang voor de bus.",
+    "form": "bang",
+    "distractors": [
+      "rood",
+      "groen",
+      "hoog"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-boos",
+    "nl": "De leraar is boos op de klas.",
+    "form": "boos",
+    "distractors": [
+      "hoog",
+      "diep",
+      "paars"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-ander",
+    "nl": "Heb je een andere vraag?",
+    "form": "andere",
+    "distractors": [
+      "gele",
+      "groene",
+      "paarse"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-lang",
+    "nl": "De film is lang en mooi.",
+    "form": "lang",
+    "distractors": [
+      "geel",
+      "boos",
+      "bang"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-goed",
+    "nl": "Het gaat goed met mijn oma.",
+    "form": "goed",
+    "distractors": [
+      "boos",
+      "rood",
+      "bruin"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-ver",
+    "nl": "Mijn school is niet ver van mijn huis.",
+    "form": "ver",
+    "distractors": [
+      "boos",
+      "rood",
+      "bang"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-hoog",
+    "nl": "De muur is heel hoog.",
+    "form": "hoog",
+    "distractors": [
+      "boos",
+      "bang",
+      "moe"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-jong",
+    "nl": "Zij is jong en gezond.",
+    "form": "jong",
+    "distractors": [
+      "rood",
+      "blauw",
+      "groen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-rood",
+    "nl": "De fiets van mijn zus is rood.",
+    "form": "rood",
+    "distractors": [
+      "jong",
+      "boos",
+      "hoog"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-kort",
+    "nl": "Mijn haar is kort.",
+    "form": "kort",
+    "distractors": [
+      "boos",
+      "bang",
+      "jong"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-laag",
+    "nl": "De tafel is laag.",
+    "form": "laag",
+    "distractors": [
+      "ziek",
+      "gelukkig",
+      "gek"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-zwart",
+    "nl": "Mijn schoenen zijn zwart en nieuw.",
+    "form": "zwart",
+    "distractors": [
+      "rijk",
+      "moe",
+      "boos"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-leuk",
+    "nl": "Het is een leuke film.",
+    "form": "leuke",
+    "distractors": [
+      "rode",
+      "blauwe",
+      "gele"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-slecht",
+    "nl": "Het weer is vandaag slecht.",
+    "form": "slecht",
+    "distractors": [
+      "hoog",
+      "boos",
+      "paars"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-groen",
+    "nl": "De bomen in de tuin zijn groen.",
+    "form": "groen",
+    "distractors": [
+      "boos",
+      "moe",
+      "bang"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-makkelijk",
+    "nl": "Deze vraag is makkelijk.",
+    "form": "makkelijk",
+    "distractors": [
+      "rood",
+      "groen",
+      "bruin"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-wit",
+    "nl": "Het laken is wit en schoon.",
+    "form": "wit",
+    "distractors": [
+      "bang",
+      "ziek",
+      "gelukkig"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-dik",
+    "nl": "Mijn hond is te dik.",
+    "form": "dik",
+    "distractors": [
+      "rood",
+      "blauw",
+      "paars"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-geel",
+    "nl": "De zon is geel.",
+    "form": "geel",
+    "distractors": [
+      "boos",
+      "bang",
+      "moe"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-oranje",
+    "nl": "De wortel is oranje.",
+    "form": "oranje",
+    "distractors": [
+      "ziek",
+      "gelukkig",
+      "gek"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-langzaam",
+    "nl": "De trein is heel langzaam.",
+    "form": "langzaam",
+    "distractors": [
+      "rijk",
+      "moe",
+      "boos"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-blauw",
+    "nl": "Mijn bril is blauw.",
+    "form": "blauw",
+    "distractors": [
+      "bang",
+      "ziek",
+      "gelukkig"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-bruin",
+    "nl": "Het brood is bruin.",
+    "form": "bruin",
+    "distractors": [
+      "boos",
+      "bang",
+      "moe"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-heet",
+    "nl": "De koffie is heet.",
+    "form": "heet",
+    "distractors": [
+      "ziek",
+      "gelukkig",
+      "gek"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-grijs",
+    "nl": "Mijn oma heeft grijs haar.",
+    "form": "grijs",
+    "distractors": [
+      "rijk",
+      "moe",
+      "boos"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-geboren",
+    "nl": "Mijn zoon is in mei geboren.",
+    "form": "geboren",
+    "distractors": [
+      "bang",
+      "ziek",
+      "gelukkig"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-getrouwd",
+    "nl": "Mijn zus is getrouwd.",
+    "form": "getrouwd",
+    "distractors": [
+      "rood",
+      "groen",
+      "blauw"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-wakker",
+    "nl": "Ik ben om zes uur wakker.",
+    "form": "wakker",
+    "distractors": [
+      "rood",
+      "groen",
+      "blauw"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-half",
+    "nl": "Het is half drie.",
+    "form": "half",
+    "distractors": [
+      "rood",
+      "groen",
+      "blauw"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-rond",
+    "nl": "De tafel is rond.",
+    "form": "rond",
+    "distractors": [
+      "boos",
+      "bang",
+      "moe"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-bezig",
+    "nl": "Mijn moeder is bezig in de keuken.",
+    "form": "bezig",
+    "distractors": [
+      "rood",
+      "groen",
+      "blauw"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-rijk",
+    "nl": "Hij is rijk, maar niet gelukkig.",
+    "form": "rijk",
+    "distractors": [
+      "rood",
+      "groen",
+      "blauw"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-diep",
+    "nl": "De zee is hier diep.",
+    "form": "diep",
+    "distractors": [
+      "ziek",
+      "gelukkig",
+      "gek"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-prima",
+    "nl": "Het eten is prima.",
+    "form": "prima",
+    "distractors": [
+      "rood",
+      "groen",
+      "blauw"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-gek",
+    "nl": "Mijn zoon is gek op voetbal.",
+    "form": "gek",
+    "distractors": [
+      "rijk",
+      "moe",
+      "boos"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-paars",
+    "nl": "Zij heeft een paarse broek.",
+    "form": "paarse",
+    "distractors": [
+      "boze",
+      "bange",
+      "gekke"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-roze",
+    "nl": "Mijn dochter heeft een roze fiets.",
+    "form": "roze",
+    "distractors": [
+      "boze",
+      "bange",
+      "gekke"
+    ],
+    "reviewed": false
   }
 ]

@@ -1793,5 +1793,245 @@
     "word_id": "verb-springen",
     "text": "The dog can jump high.",
     "reviewed": false
+  },
+  {
+    "word_id": "adj-persoonlijk",
+    "text": "This is a personal question.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-vers",
+    "text": "The bread is fresh and warm.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-zuur",
+    "text": "The apple is sour and not nice.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-laat",
+    "text": "The bus is late today.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-vorig",
+    "text": "Last week I was ill.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-vroeg",
+    "text": "The train is early today.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-dagelijks",
+    "text": "My sister works in the shop every day.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-rechts",
+    "text": "The station is on the right.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-links",
+    "text": "The shop is to the left of the station.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-gezond",
+    "text": "Vegetables and fish are healthy.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-zwanger",
+    "text": "My sister is pregnant and very happy.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-bang",
+    "text": "My dog is afraid of the bus.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-boos",
+    "text": "The teacher is angry with the class.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-ander",
+    "text": "Do you have another question?",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-lang",
+    "text": "The film is long and beautiful.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-goed",
+    "text": "My grandma is doing well.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-ver",
+    "text": "My school is not far from my house.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-hoog",
+    "text": "The wall is very high.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-jong",
+    "text": "She is young and healthy.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-rood",
+    "text": "My sister's bike is red.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-kort",
+    "text": "My hair is short.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-laag",
+    "text": "The table is low.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-zwart",
+    "text": "My shoes are black and new.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-leuk",
+    "text": "It is a nice film.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-slecht",
+    "text": "The weather is bad today.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-groen",
+    "text": "The trees in the garden are green.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-makkelijk",
+    "text": "This question is easy.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-wit",
+    "text": "The sheet is white and clean.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-dik",
+    "text": "My dog is too fat.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-geel",
+    "text": "The sun is yellow.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-oranje",
+    "text": "The carrot is orange.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-langzaam",
+    "text": "The train is very slow.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-blauw",
+    "text": "My glasses are blue.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-bruin",
+    "text": "The bread is brown.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-heet",
+    "text": "The coffee is hot.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-grijs",
+    "text": "My grandma has grey hair.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-geboren",
+    "text": "My son was born in May.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-getrouwd",
+    "text": "My sister is married.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-wakker",
+    "text": "I am awake at six o'clock.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-half",
+    "text": "It is half past two.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-rond",
+    "text": "The table is round.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-bezig",
+    "text": "My mum is busy in the kitchen.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-rijk",
+    "text": "He is rich, but not happy.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-diep",
+    "text": "The sea is deep here.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-prima",
+    "text": "The food is fine.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-gek",
+    "text": "My son is crazy about football.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-paars",
+    "text": "She has purple trousers.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-roze",
+    "text": "My daughter has a pink bike.",
+    "reviewed": false
   }
 ]
