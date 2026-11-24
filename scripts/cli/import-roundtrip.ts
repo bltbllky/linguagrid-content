@@ -3,19 +3,20 @@ import { join } from 'node:path';
 
 import { changedFiles } from '../import-review.ts';
 import { applyRoundtrip, applySentenceRoundtrip } from '../import-roundtrip.ts';
-import { loadSentenceStage } from '../sentence-stage.ts';
+import { loadSentenceStage, saveSentenceStage } from '../sentence-stage.ts';
 import { mergeStage, stageFiles, takeStage } from '../stage.ts';
 import { loadContent } from '../validate.ts';
 
-const root = join(import.meta.dirname, '..', '..');
+// CONTENT_ROOT lets the CLI tests run against a temporary copy of the data.
+const root = process.env.CONTENT_ROOT ?? join(import.meta.dirname, '..', '..');
 const args = process.argv.slice(2);
 const langAt = args.indexOf('--lang');
 const lang = langAt >= 0 ? args.splice(langAt, 2)[1] : 'tr';
 if (args[args.indexOf('--stage') + 1] === 'sentences') {
   args.splice(args.indexOf('--stage'), 2);
   if (!args[0]) throw new Error('Usage: npm run import-roundtrip -- --stage sentences --lang tr review/sentences-a1-tr-result.csv');
-  const { stage, summary } = applySentenceRoundtrip(loadSentenceStage(), readFileSync(args[0], 'utf8'), lang);
-  writeFileSync(join(root, 'data', 'sentences', 'translations', `${lang}.json`), JSON.stringify(stage.translations[lang], null, 2) + '\n');
+  const { stage, summary } = applySentenceRoundtrip(loadSentenceStage(root), readFileSync(args[0], 'utf8'), lang);
+  saveSentenceStage(stage, lang, root);
   console.log(lang, summary);
   process.exit(0);
 }
