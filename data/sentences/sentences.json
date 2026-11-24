@@ -4862,5 +4862,2777 @@
     ],
     "reviewed": true,
     "review_source": "roundtrip"
+  },
+  {
+    "word_id": "adj-aanwezig",
+    "nl": "Alle leerlingen zijn vandaag aanwezig.",
+    "form": "aanwezig",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "elektrisch"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-aardig",
+    "nl": "Onze buur is erg aardig.",
+    "form": "aardig",
+    "distractors": [
+      "houten",
+      "elektrisch",
+      "vierkant"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-actief",
+    "nl": "Mijn opa is nog erg actief.",
+    "form": "actief",
+    "distractors": [
+      "elektrisch",
+      "vierkant",
+      "dubbel"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-agressief",
+    "nl": "De hond is niet agressief.",
+    "form": "agressief",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "elektrisch"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-alleen",
+    "nl": "Ik ben vandaag alleen thuis.",
+    "form": "alleen",
+    "distractors": [
+      "houten",
+      "elektrisch",
+      "vierkant"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-apart",
+    "nl": "Wij slapen in een aparte kamer.",
+    "form": "aparte",
+    "distractors": [
+      "jaarlijkse",
+      "wekelijkse",
+      "elektrische"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-automatisch",
+    "nl": "De deur gaat automatisch open.",
+    "form": "automatisch",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "blind"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-bekend",
+    "nl": "Deze zanger is in ons land bekend.",
+    "form": "bekend",
+    "distractors": [
+      "elektrisch",
+      "vierkant",
+      "dubbel"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-belachelijk",
+    "nl": "Dat idee is echt belachelijk.",
+    "form": "belachelijk",
+    "distractors": [
+      "dankbaar",
+      "nerveus",
+      "jaloers"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-belangrijk",
+    "nl": "Mijn gezondheid is heel belangrijk.",
+    "form": "belangrijk",
+    "distractors": [
+      "verliefd",
+      "trots",
+      "beleefd"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-beleefd",
+    "nl": "Je moet altijd beleefd zijn.",
+    "form": "beleefd",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "elektrisch"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-beroemd",
+    "nl": "Ik zie een beroemde acteur in de stad.",
+    "form": "beroemde",
+    "distractors": [
+      "vierkante",
+      "houten",
+      "elektrische"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-betrouwbaar",
+    "nl": "Mijn collega is eerlijk en betrouwbaar.",
+    "form": "betrouwbaar",
+    "distractors": [
+      "houten",
+      "elektrisch",
+      "vierkant"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-bezorgd",
+    "nl": "Mijn moeder is bezorgd om mij.",
+    "form": "bezorgd",
+    "distractors": [
+      "elektrisch",
+      "vierkant",
+      "dubbel"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-bijzonder",
+    "nl": "Dit cadeau is heel bijzonder.",
+    "form": "bijzonder",
+    "distractors": [
+      "verbaasd",
+      "eenzaam",
+      "creatief"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-bleek",
+    "nl": "Je gezicht is erg bleek.",
+    "form": "bleek",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "elektrisch"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-blind",
+    "nl": "Die oude man is blind.",
+    "form": "blind",
+    "distractors": [
+      "houten",
+      "elektrisch",
+      "vierkant"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-breed",
+    "nl": "Deze straat is heel breed.",
+    "form": "breed",
+    "distractors": [
+      "bezorgd",
+      "dankbaar",
+      "nerveus"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-creatief",
+    "nl": "Mijn zus is erg creatief.",
+    "form": "creatief",
+    "distractors": [
+      "elektrisch",
+      "vierkant",
+      "dubbel"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-dankbaar",
+    "nl": "Ik ben je heel dankbaar.",
+    "form": "dankbaar",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "elektrisch"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-dicht",
+    "nl": "De winkel is op zondag dicht.",
+    "form": "dicht",
+    "distractors": [
+      "jaloers",
+      "verliefd",
+      "trots"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-dichtbij",
+    "nl": "Mijn school is dichtbij.",
+    "form": "dichtbij",
+    "distractors": [
+      "beleefd",
+      "verbaasd",
+      "eenzaam"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-dom",
+    "nl": "Dat was een domme fout.",
+    "form": "domme",
+    "distractors": [
+      "vierkante",
+      "houten",
+      "jaarlijkse"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-donker",
+    "nl": "In de kelder is het erg donker.",
+    "form": "donker",
+    "distractors": [
+      "creatief",
+      "bezorgd",
+      "dankbaar"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-dood",
+    "nl": "De bloem in de tuin is dood.",
+    "form": "dood",
+    "distractors": [
+      "nerveus",
+      "jaloers",
+      "verliefd"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-droog",
+    "nl": "Mijn handdoek is al droog.",
+    "form": "droog",
+    "distractors": [
+      "trots",
+      "beleefd",
+      "verbaasd"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-druk",
+    "nl": "Het is vandaag erg druk in de stad.",
+    "form": "druk",
+    "distractors": [
+      "eenzaam",
+      "creatief",
+      "bezorgd"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-dubbel",
+    "nl": "Mijn broer eet dubbel zo veel.",
+    "form": "dubbel",
+    "distractors": [
+      "houten",
+      "elektrisch",
+      "vierkant"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-duidelijk",
+    "nl": "Het antwoord is heel duidelijk.",
+    "form": "duidelijk",
+    "distractors": [
+      "dankbaar",
+      "nerveus",
+      "jaloers"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-dun",
+    "nl": "Deze jas is te dun voor de winter.",
+    "form": "dun",
+    "distractors": [
+      "verliefd",
+      "trots",
+      "beleefd"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-echt",
+    "nl": "Dit goud is echt.",
+    "form": "echt",
+    "distractors": [
+      "verbaasd",
+      "eenzaam",
+      "creatief"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-eenzaam",
+    "nl": "De oude vrouw is vaak eenzaam.",
+    "form": "eenzaam",
+    "distractors": [
+      "elektrisch",
+      "vierkant",
+      "dubbel"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-eerlijk",
+    "nl": "Mijn leraar is altijd eerlijk.",
+    "form": "eerlijk",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "elektrisch"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-eigen",
+    "nl": "Ik heb een eigen kamer.",
+    "form": "eigen",
+    "distractors": [
+      "nerveuze",
+      "dankbare",
+      "verliefde"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-elektrisch",
+    "nl": "Mijn vader heeft een elektrische fiets.",
+    "form": "elektrische",
+    "distractors": [
+      "wekelijkse",
+      "jaarlijkse",
+      "trotse"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-eng",
+    "nl": "De film is te eng voor kinderen.",
+    "form": "eng",
+    "distractors": [
+      "bezorgd",
+      "dankbaar",
+      "nerveus"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-enorm",
+    "nl": "Wij wonen in een enorm huis.",
+    "form": "enorm",
+    "distractors": [
+      "jaloers",
+      "verliefd",
+      "trots"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-erg",
+    "nl": "Het is erg voor haar.",
+    "form": "erg",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "jaarlijks"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-ernstig",
+    "nl": "De ziekte van mijn opa is ernstig.",
+    "form": "ernstig",
+    "distractors": [
+      "vrolijk",
+      "grappig",
+      "gezellig"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-fijn",
+    "nl": "Het is fijn om thuis te zijn.",
+    "form": "fijn",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "jaarlijks"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-geldig",
+    "nl": "Mijn paspoort is nog geldig.",
+    "form": "geldig",
+    "distractors": [
+      "beleefd",
+      "verbaasd",
+      "eenzaam"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-gelijk",
+    "nl": "Alle mensen zijn gelijk.",
+    "form": "gelijk",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "elektrisch"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-gemiddeld",
+    "nl": "Mijn gemiddelde cijfer is zeven.",
+    "form": "gemiddelde",
+    "distractors": [
+      "nerveuze",
+      "trotse",
+      "dankbare"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-gevaarlijk",
+    "nl": "Deze weg is heel gevaarlijk.",
+    "form": "gevaarlijk",
+    "distractors": [
+      "vrolijk",
+      "dankbaar",
+      "beleefd"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-gevoelig",
+    "nl": "Mijn huid is erg gevoelig.",
+    "form": "gevoelig",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "jaarlijks"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-geweldig",
+    "nl": "Wij hadden een geweldige vakantie.",
+    "form": "geweldige",
+    "distractors": [
+      "elektrische",
+      "houten",
+      "vierkante"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-gezellig",
+    "nl": "Ons huis is warm en gezellig.",
+    "form": "gezellig",
+    "distractors": [
+      "trots",
+      "jaloers",
+      "verbaasd"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-grappig",
+    "nl": "Die film is echt grappig.",
+    "form": "grappig",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "elektrisch"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-gratis",
+    "nl": "De koffie is hier gratis.",
+    "form": "gratis",
+    "distractors": [
+      "dankbaar",
+      "nerveus",
+      "jaloers"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-handig",
+    "nl": "Een laptop is erg handig.",
+    "form": "handig",
+    "distractors": [
+      "dankbaar",
+      "jaloers",
+      "verliefd"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-hard",
+    "nl": "Mijn bed is te hard.",
+    "form": "hard",
+    "distractors": [
+      "verliefd",
+      "trots",
+      "beleefd"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-helder",
+    "nl": "De lucht is vandaag helder.",
+    "form": "helder",
+    "distractors": [
+      "jaloers",
+      "verliefd",
+      "beleefd"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-houten",
+    "nl": "Wij hebben een houten tafel.",
+    "form": "houten",
+    "distractors": [
+      "nerveus",
+      "jaloers",
+      "verliefd"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-ingewikkeld",
+    "nl": "Deze regel is te ingewikkeld voor mij.",
+    "form": "ingewikkeld",
+    "distractors": [
+      "dankbaar",
+      "jaloers",
+      "verliefd"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-interessant",
+    "nl": "Dit programma is erg interessant.",
+    "form": "interessant",
+    "distractors": [
+      "dankbaar",
+      "nerveus",
+      "eenzaam"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-jaarlijks",
+    "nl": "Wij hebben jaarlijks een groot feest.",
+    "form": "jaarlijks",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "elektrisch"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-jaloers",
+    "nl": "Mijn broer is vaak jaloers.",
+    "form": "jaloers",
+    "distractors": [
+      "gratis",
+      "klassiek",
+      "dubbel"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-jammer",
+    "nl": "Het is jammer dat het regent.",
+    "form": "jammer",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "elektrisch"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-juist",
+    "nl": "Dat antwoord is juist.",
+    "form": "juist",
+    "distractors": [
+      "nerveus",
+      "jaloers",
+      "eenzaam"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-kapot",
+    "nl": "Mijn telefoon is kapot.",
+    "form": "kapot",
+    "distractors": [
+      "trots",
+      "dankbaar",
+      "verliefd"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-keurig",
+    "nl": "Mijn kamer is altijd keurig.",
+    "form": "keurig",
+    "distractors": [
+      "verliefd",
+      "jaloers",
+      "bezorgd"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-klaar",
+    "nl": "Het eten is nu klaar.",
+    "form": "klaar",
+    "distractors": [
+      "dankbaar",
+      "verliefd",
+      "jaloers"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-klassiek",
+    "nl": "Wij gaan naar een klassiek concert.",
+    "form": "klassiek",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "dankbaar"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-kwijt",
+    "nl": "Ik ben mijn sleutel kwijt.",
+    "form": "kwijt",
+    "distractors": [
+      "dankbaar",
+      "jaloers",
+      "verliefd"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-leeg",
+    "nl": "Mijn glas is leeg.",
+    "form": "leeg",
+    "distractors": [
+      "dankbaar",
+      "nerveus",
+      "vrolijk"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-lelijk",
+    "nl": "Die jurk is echt lelijk.",
+    "form": "lelijk",
+    "distractors": [
+      "nerveus",
+      "beleefd",
+      "verliefd"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-levend",
+    "nl": "Wij zien een levende vis.",
+    "form": "levende",
+    "distractors": [
+      "dode",
+      "vierkante",
+      "houten"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-lief",
+    "nl": "Mijn kleine zus is heel lief.",
+    "form": "lief",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "elektrisch"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-logisch",
+    "nl": "Deze regel is logisch.",
+    "form": "logisch",
+    "distractors": [
+      "dankbaar",
+      "nerveus",
+      "trots"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-los",
+    "nl": "De tand van mijn zoon zit los.",
+    "form": "los",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "trots"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-lui",
+    "nl": "Mijn broer is vandaag erg lui.",
+    "form": "lui",
+    "distractors": [
+      "vierkant",
+      "dankbaar",
+      "elektrisch"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-mogelijk",
+    "nl": "Is het mogelijk om morgen te komen?",
+    "form": "mogelijk",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "dankbaar"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-nat",
+    "nl": "De straat is nat na de regen.",
+    "form": "nat",
+    "distractors": [
+      "trots",
+      "jaloers",
+      "beleefd"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-natuurlijk",
+    "nl": "Ik koop een natuurlijk product.",
+    "form": "natuurlijk",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "dankbaar"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-nerveus",
+    "nl": "Ik ben nerveus voor de test.",
+    "form": "nerveus",
+    "distractors": [
+      "houten",
+      "vierkant",
+      "elektrisch"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-nieuwsgierig",
+    "nl": "Mijn zoon is heel nieuwsgierig.",
+    "form": "nieuwsgierig",
+    "distractors": [
+      "gratis",
+      "houten",
+      "vierkant"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-nodig",
+    "nl": "Een paspoort is hier nodig.",
+    "form": "nodig",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "dankbaar"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-onbekend",
+    "nl": "Ik zie een onbekende man.",
+    "form": "onbekende",
+    "distractors": [
+      "vierkante",
+      "houten",
+      "elektrische"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-ongelukkig",
+    "nl": "Ons kind is ongelukkig.",
+    "form": "ongelukkig",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "elektrisch"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-ongezond",
+    "nl": "Veel suiker is ongezond.",
+    "form": "ongezond",
+    "distractors": [
+      "vierkant",
+      "dankbaar",
+      "houten"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-onzeker",
+    "nl": "Ik ben nog onzeker over het antwoord.",
+    "form": "onzeker",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "elektrisch"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-open",
+    "nl": "Het raam is open.",
+    "form": "open",
+    "distractors": [
+      "nerveus",
+      "trots",
+      "verliefd"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-pijnlijk",
+    "nl": "Mijn knie is vandaag pijnlijk.",
+    "form": "pijnlijk",
+    "distractors": [
+      "dankbaar",
+      "vierkant",
+      "beleefd"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-praktisch",
+    "nl": "Deze jas is mooi en praktisch.",
+    "form": "praktisch",
+    "distractors": [
+      "vierkant",
+      "dankbaar",
+      "jaloers"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-redelijk",
+    "nl": "Die prijs is redelijk.",
+    "form": "redelijk",
+    "distractors": [
+      "dankbaar",
+      "nerveus",
+      "verliefd"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-regelmatig",
+    "nl": "Ik ga regelmatig naar de bibliotheek.",
+    "form": "regelmatig",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "dankbaar"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-rustig",
+    "nl": "De baby slaapt rustig.",
+    "form": "rustig",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "dankbaar"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-saai",
+    "nl": "Deze les is erg saai.",
+    "form": "saai",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "elektrisch"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-scherp",
+    "nl": "Dit mes is erg scherp.",
+    "form": "scherp",
+    "distractors": [
+      "vrolijk",
+      "dankbaar",
+      "eenzaam"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-serieus",
+    "nl": "Mijn baas is altijd erg serieus.",
+    "form": "serieus",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "elektrisch"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-slim",
+    "nl": "Mijn dochter is heel slim.",
+    "form": "slim",
+    "distractors": [
+      "dankbaar",
+      "vierkant",
+      "houten"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-smal",
+    "nl": "De trap is smal.",
+    "form": "smal",
+    "distractors": [
+      "trots",
+      "jaloers",
+      "dankbaar"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-spannend",
+    "nl": "Dit verhaal is erg spannend.",
+    "form": "spannend",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "dankbaar"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-sterk",
+    "nl": "Mijn vader is nog erg sterk.",
+    "form": "sterk",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "dankbaar"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-stevig",
+    "nl": "Deze stoel is erg stevig.",
+    "form": "stevig",
+    "distractors": [
+      "dankbaar",
+      "nerveus",
+      "jaloers"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-stiekem",
+    "nl": "Mijn zoon eet stiekem een koekje.",
+    "form": "stiekem",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "dankbaar"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-stil",
+    "nl": "Het is in de klas heel stil.",
+    "form": "stil",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "dankbaar"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-streng",
+    "nl": "Onze leraar is streng.",
+    "form": "streng",
+    "distractors": [
+      "dankbaar",
+      "vierkant",
+      "houten"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-tijdelijk",
+    "nl": "Dit werk is tijdelijk.",
+    "form": "tijdelijk",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "dankbaar"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-toevallig",
+    "nl": "Ik ontmoet mijn leraar toevallig in de stad.",
+    "form": "toevallig",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "dankbaar"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-trots",
+    "nl": "Ik ben trots op mijn zoon.",
+    "form": "trots",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "elektrisch"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-typisch",
+    "nl": "Dit eten is typisch voor ons land.",
+    "form": "typisch",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "dankbaar"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-uitstekend",
+    "nl": "Het eten is hier uitstekend.",
+    "form": "uitstekend",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "dankbaar"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-uniek",
+    "nl": "Elk mens is uniek.",
+    "form": "uniek",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "elektrisch"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-vals",
+    "nl": "Dit geld is vals.",
+    "form": "vals",
+    "distractors": [
+      "dankbaar",
+      "jaloers",
+      "verliefd"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-veilig",
+    "nl": "Het is hier erg veilig.",
+    "form": "veilig",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "dankbaar"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-verbaasd",
+    "nl": "Mijn vader is erg verbaasd.",
+    "form": "verbaasd",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "gratis"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-verdrietig",
+    "nl": "Het kind is vandaag verdrietig.",
+    "form": "verdrietig",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "elektrisch"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-verkeerd",
+    "nl": "Dit adres is verkeerd.",
+    "form": "verkeerd",
+    "distractors": [
+      "dankbaar",
+      "vierkant",
+      "houten"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-verliefd",
+    "nl": "Zij is verliefd op mijn broer.",
+    "form": "verliefd",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "elektrisch"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-verplicht",
+    "nl": "Deze cursus is verplicht.",
+    "form": "verplicht",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "dankbaar"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-verschillend",
+    "nl": "Mijn broer en ik zijn verschillend.",
+    "form": "verschillend",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "dankbaar"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-verstandig",
+    "nl": "Dat is een verstandig idee.",
+    "form": "verstandig",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "dankbaar"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-vervelend",
+    "nl": "Die mug is erg vervelend.",
+    "form": "vervelend",
+    "distractors": [
+      "dankbaar",
+      "verliefd",
+      "trots"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-vierkant",
+    "nl": "Wij hebben een vierkante tafel.",
+    "form": "vierkante",
+    "distractors": [
+      "ronde",
+      "nerveuze",
+      "dankbare"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-vies",
+    "nl": "De handdoek is vies.",
+    "form": "vies",
+    "distractors": [
+      "dankbaar",
+      "nerveus",
+      "trots"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-vlak",
+    "nl": "Het land is hier heel vlak.",
+    "form": "vlak",
+    "distractors": [
+      "dankbaar",
+      "nerveus",
+      "vrolijk"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-vol",
+    "nl": "De bus is vandaag vol.",
+    "form": "vol",
+    "distractors": [
+      "dankbaar",
+      "nerveus",
+      "trots"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-volgend",
+    "nl": "De volgende trein komt om vier uur.",
+    "form": "volgende",
+    "distractors": [
+      "vierkante",
+      "houten",
+      "dankbare"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-voorzichtig",
+    "nl": "Mijn moeder rijdt altijd voorzichtig.",
+    "form": "voorzichtig",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "dankbaar"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-vreemd",
+    "nl": "Dat geluid is erg vreemd.",
+    "form": "vreemd",
+    "distractors": [
+      "vierkant",
+      "dankbaar",
+      "trots"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-vreselijk",
+    "nl": "Het weer is vandaag vreselijk.",
+    "form": "vreselijk",
+    "distractors": [
+      "vierkant",
+      "dankbaar",
+      "trots"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-vriendelijk",
+    "nl": "De man in de winkel is vriendelijk.",
+    "form": "vriendelijk",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "dankbaar"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-vrij",
+    "nl": "Morgen ben ik vrij.",
+    "form": "vrij",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "dankbaar"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-vrolijk",
+    "nl": "De kinderen zijn vandaag erg vrolijk.",
+    "form": "vrolijk",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "elektrisch"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-waar",
+    "nl": "Dat is niet waar.",
+    "form": "waar",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "dankbaar"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-wekelijks",
+    "nl": "Ik bel mijn moeder wekelijks.",
+    "form": "wekelijks",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "dankbaar"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-welkom",
+    "nl": "Je bent altijd welkom hier.",
+    "form": "welkom",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "dankbaar"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-wild",
+    "nl": "Ik zie een wild dier in het bos.",
+    "form": "wild",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "elektrisch"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-zacht",
+    "nl": "Mijn kussen is zacht.",
+    "form": "zacht",
+    "distractors": [
+      "vierkant",
+      "dankbaar",
+      "nerveus"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-zeker",
+    "nl": "Ik ben zeker van mijn antwoord.",
+    "form": "zeker",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "elektrisch"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-zelfstandig",
+    "nl": "Mijn zoon is al zelfstandig.",
+    "form": "zelfstandig",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "dankbaar"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-zonnig",
+    "nl": "Het is in de zomer vaak zonnig.",
+    "form": "zonnig",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "dankbaar"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-zwaar",
+    "nl": "Deze koffer is te zwaar.",
+    "form": "zwaar",
+    "distractors": [
+      "dankbaar",
+      "nerveus",
+      "jaloers"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-zwak",
+    "nl": "Mijn been is nog zwak.",
+    "form": "zwak",
+    "distractors": [
+      "vierkant",
+      "houten",
+      "dankbaar"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-aankomst",
+    "nl": "Onze aankomst is om vier uur.",
+    "form": "aankomst",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-aankoop",
+    "nl": "Deze aankoop is te duur voor mij.",
+    "form": "aankoop",
+    "distractors": [
+      "week",
+      "avond",
+      "ochtend"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-aap",
+    "nl": "De aap eet een banaan.",
+    "form": "aap",
+    "distractors": [
+      "tafel",
+      "bril",
+      "kaas"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-aardappel",
+    "nl": "Ik eet aardappels met vlees.",
+    "form": "aardappels",
+    "distractors": [
+      "schoenen",
+      "tafels",
+      "stoelen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-aarde",
+    "nl": "De bloem groeit in de aarde.",
+    "form": "aarde",
+    "distractors": [
+      "mond",
+      "neus",
+      "keel"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-achterkant",
+    "nl": "De tuin is aan de achterkant van het huis.",
+    "form": "achterkant",
+    "distractors": [
+      "week",
+      "avond",
+      "ochtend"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-achternaam",
+    "nl": "Wat is jouw achternaam?",
+    "form": "achternaam",
+    "distractors": [
+      "tafel",
+      "bril",
+      "kaas"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-acteur",
+    "nl": "De acteur speelt in een film.",
+    "form": "acteur",
+    "distractors": [
+      "stoel",
+      "bril",
+      "tafel"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-ademhaling",
+    "nl": "Mijn ademhaling is rustig.",
+    "form": "ademhaling",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-advies",
+    "nl": "Ik vraag mijn moeder om advies.",
+    "form": "advies",
+    "distractors": [
+      "geboorte",
+      "leeftijd",
+      "weer"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-advocaat",
+    "nl": "De advocaat werkt in een groot kantoor.",
+    "form": "advocaat",
+    "distractors": [
+      "fiets",
+      "kaas",
+      "lamp"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-afdeling",
+    "nl": "Mijn collega werkt op een andere afdeling.",
+    "form": "afdeling",
+    "distractors": [
+      "vinger",
+      "schoen",
+      "kaas"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-afscheid",
+    "nl": "Het afscheid op het station is moeilijk.",
+    "form": "afscheid",
+    "distractors": [
+      "brood",
+      "glas",
+      "bed"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-afspraak",
+    "nl": "Ik heb morgen een afspraak met de tandarts.",
+    "form": "afspraak",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-afstand",
+    "nl": "De afstand tot de school is kort.",
+    "form": "afstand",
+    "distractors": [
+      "hand",
+      "neus",
+      "mond"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-agent",
+    "nl": "De agent staat op de straat.",
+    "form": "agent",
+    "distractors": [
+      "week",
+      "avond",
+      "ochtend"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-alcohol",
+    "nl": "Mijn vriend drinkt geen alcohol.",
+    "form": "alcohol",
+    "distractors": [
+      "brood",
+      "vlees",
+      "appel"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-ambtenaar",
+    "nl": "De ambtenaar werkt op het kantoor.",
+    "form": "ambtenaar",
+    "distractors": [
+      "doos",
+      "bril",
+      "kaas"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-angst",
+    "nl": "Mijn angst is groot.",
+    "form": "angst",
+    "distractors": [
+      "week",
+      "avond",
+      "ochtend"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-apotheek",
+    "nl": "Ik haal mijn medicijnen bij de apotheek.",
+    "form": "apotheek",
+    "distractors": [
+      "kapper",
+      "bakker",
+      "bioscoop"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-apotheker",
+    "nl": "De apotheker geeft mij een medicijn.",
+    "form": "apotheker",
+    "distractors": [
+      "kapper",
+      "bakker",
+      "chauffeur"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-app",
+    "nl": "Ik heb een app op mijn telefoon.",
+    "form": "app",
+    "distractors": [
+      "boom",
+      "kaas",
+      "stoel"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-armband",
+    "nl": "Zij draagt een armband om haar arm.",
+    "form": "armband",
+    "distractors": [
+      "kaas",
+      "boom",
+      "tafel"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-attractie",
+    "nl": "Deze attractie is leuk voor kinderen.",
+    "form": "attractie",
+    "distractors": [
+      "bril",
+      "jas",
+      "lamp"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-automaat",
+    "nl": "Ik koop koffie bij de automaat.",
+    "form": "automaat",
+    "distractors": [
+      "brandweer",
+      "douane",
+      "politie"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-avontuur",
+    "nl": "Onze reis is een groot avontuur.",
+    "form": "avontuur",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-baan",
+    "nl": "Mijn zus zoekt een nieuwe baan.",
+    "form": "baan",
+    "distractors": [
+      "geboorte",
+      "ziekte",
+      "avond"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-baard",
+    "nl": "Mijn opa heeft een baard en een bril.",
+    "form": "baard",
+    "distractors": [
+      "avond",
+      "minuut",
+      "kwart"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-baas",
+    "nl": "Mijn baas is vandaag niet op kantoor.",
+    "form": "baas",
+    "distractors": [
+      "week",
+      "avond",
+      "ochtend"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bad",
+    "nl": "Het bad in onze badkamer is groot.",
+    "form": "bad",
+    "distractors": [
+      "brood",
+      "glas",
+      "bed"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-badkamer",
+    "nl": "Mijn badkamer is naast mijn slaapkamer.",
+    "form": "badkamer",
+    "distractors": [
+      "week",
+      "avond",
+      "ochtend"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bagage",
+    "nl": "Mijn bagage is in de auto.",
+    "form": "bagage",
+    "distractors": [
+      "week",
+      "avond",
+      "ochtend"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bak",
+    "nl": "De bak met water staat op de grond.",
+    "form": "bak",
+    "distractors": [
+      "week",
+      "avond",
+      "ochtend"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bakker",
+    "nl": "Ik koop mijn brood bij de bakker.",
+    "form": "bakker",
+    "distractors": [
+      "kapper",
+      "apotheker",
+      "chauffeur"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bal",
+    "nl": "De kinderen spelen met de bal.",
+    "form": "bal",
+    "distractors": [
+      "week",
+      "avond",
+      "ochtend"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-ballet",
+    "nl": "Mijn dochter ziet een ballet in het theater.",
+    "form": "ballet",
+    "distractors": [
+      "brood",
+      "vlees",
+      "fruit"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-banaan",
+    "nl": "Ik eet een banaan als lunch.",
+    "form": "banaan",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bank",
+    "nl": "Wij zitten samen op de bank.",
+    "form": "bank",
+    "distractors": [
+      "week",
+      "avond",
+      "ochtend"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bar",
+    "nl": "Wij drinken bier in de bar.",
+    "form": "bar",
+    "distractors": [
+      "school",
+      "kerk",
+      "bibliotheek"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-basisschool",
+    "nl": "Mijn zoon gaat naar de basisschool.",
+    "form": "basisschool",
+    "distractors": [
+      "schoen",
+      "bril",
+      "kaas"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-batterij",
+    "nl": "De batterij van mijn telefoon is leeg.",
+    "form": "batterij",
+    "distractors": [
+      "tand",
+      "hand",
+      "voet"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bedrag",
+    "nl": "Het bedrag op de rekening is hoog.",
+    "form": "bedrag",
+    "distractors": [
+      "brood",
+      "glas",
+      "bed"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bedrijf",
+    "nl": "Mijn vader werkt bij een groot bedrijf.",
+    "form": "bedrijf",
+    "distractors": [
+      "bed",
+      "brood",
+      "glas"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-behandeling",
+    "nl": "De behandeling duurt een uur.",
+    "form": "behandeling",
+    "distractors": [
+      "tafel",
+      "bril",
+      "kaas"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-beker",
+    "nl": "Ik drink thee uit een beker.",
+    "form": "beker",
+    "distractors": [
+      "schoen",
+      "bril",
+      "lamp"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bel",
+    "nl": "De bel van de deur is kapot.",
+    "form": "bel",
+    "distractors": [
+      "tafel",
+      "bril",
+      "kaas"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-belasting",
+    "nl": "Wij betalen elk jaar belasting.",
+    "form": "belasting",
+    "distractors": [
+      "ziekte",
+      "griep",
+      "buik"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-belofte",
+    "nl": "Hij houdt zijn belofte.",
+    "form": "belofte",
+    "distractors": [
+      "geboorte",
+      "ziekte",
+      "keel"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-benzine",
+    "nl": "Mijn auto rijdt op benzine.",
+    "form": "benzine",
+    "distractors": [
+      "kaas",
+      "suiker",
+      "melk"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-berg",
+    "nl": "Wij lopen de berg op.",
+    "form": "berg",
+    "distractors": [
+      "week",
+      "avond",
+      "ochtend"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bericht",
+    "nl": "Ik stuur je een bericht.",
+    "form": "bericht",
+    "distractors": [
+      "ziekte",
+      "geboorte",
+      "leeftijd"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-beroep",
+    "nl": "Wat is jouw beroep?",
+    "form": "beroep",
+    "distractors": [
+      "brood",
+      "glas",
+      "bed"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bestelling",
+    "nl": "De bestelling komt morgen.",
+    "form": "bestelling",
+    "distractors": [
+      "hand",
+      "neus",
+      "mond"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bestemming",
+    "nl": "Onze bestemming is een klein dorp.",
+    "form": "bestemming",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-betaling",
+    "nl": "De betaling is niet mogelijk.",
+    "form": "betaling",
+    "distractors": [
+      "hand",
+      "neus",
+      "mond"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-beurt",
+    "nl": "Nu is het mijn beurt.",
+    "form": "beurt",
+    "distractors": [
+      "hand",
+      "neus",
+      "mond"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bezoek",
+    "nl": "Mijn bezoek aan de tandarts is morgen.",
+    "form": "bezoek",
+    "distractors": [
+      "brood",
+      "glas",
+      "bed"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bezoeker",
+    "nl": "De bezoeker wacht bij de deur.",
+    "form": "bezoeker",
+    "distractors": [
+      "lamp",
+      "schoen",
+      "bril"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bibliotheek",
+    "nl": "Ik lees een tijdschrift in de bibliotheek.",
+    "form": "bibliotheek",
+    "distractors": [
+      "douche",
+      "brug",
+      "tunnel"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-biet",
+    "nl": "Zij kookt een biet in de pan.",
+    "form": "biet",
+    "distractors": [
+      "tafel",
+      "bril",
+      "kaas"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bijnaam",
+    "nl": "Mijn broer heeft een grappige bijnaam.",
+    "form": "bijnaam",
+    "distractors": [
+      "leeftijd",
+      "geboorte",
+      "minuut"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bijwerking",
+    "nl": "Die pil heeft een bijwerking.",
+    "form": "bijwerking",
+    "distractors": [
+      "neus",
+      "hand",
+      "voet"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bioscoop",
+    "nl": "Wij zien een film in de bioscoop.",
+    "form": "bioscoop",
+    "distractors": [
+      "douche",
+      "garage",
+      "kelder"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-blad",
+    "nl": "Er hangt een blad aan de boom.",
+    "form": "blad",
+    "distractors": [
+      "brood",
+      "glas",
+      "bed"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bladzijde",
+    "nl": "Ik lees elke bladzijde.",
+    "form": "bladzijde",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-blessure",
+    "nl": "Mijn blessure doet nog pijn.",
+    "form": "blessure",
+    "distractors": [
+      "week",
+      "avond",
+      "ochtend"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bloem",
+    "nl": "Zij koopt een bloem voor haar moeder.",
+    "form": "bloem",
+    "distractors": [
+      "griep",
+      "ziekte",
+      "minuut"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bocht",
+    "nl": "De weg maakt hier een scherpe bocht.",
+    "form": "bocht",
+    "distractors": [
+      "tafel",
+      "bril",
+      "kaas"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-boer",
+    "nl": "De boer heeft een koe en een paard.",
+    "form": "boer",
+    "distractors": [
+      "lamp",
+      "stoel",
+      "bril"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-boerderij",
+    "nl": "Op de boerderij wonen veel dieren.",
+    "form": "boerderij",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-boete",
+    "nl": "Ik krijg een boete van de politie.",
+    "form": "boete",
+    "distractors": [
+      "griep",
+      "honger",
+      "pijn"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bon",
+    "nl": "Ik krijg een bon bij de kassa.",
+    "form": "bon",
+    "distractors": [
+      "griep",
+      "honger",
+      "pijn"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-boodschap",
+    "nl": "Ik heb een boodschap voor je.",
+    "form": "boodschap",
+    "distractors": [
+      "griep",
+      "honger",
+      "pijn"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-boon",
+    "nl": "Wij eten bonen met rijst.",
+    "form": "bonen",
+    "distractors": [
+      "schoenen",
+      "brillen",
+      "tafels"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-boot",
+    "nl": "Wij gaan met de boot naar het eiland.",
+    "form": "boot",
+    "distractors": [
+      "kaas",
+      "bril",
+      "mond"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bos",
+    "nl": "Wij lopen samen door het bos.",
+    "form": "bos",
+    "distractors": [
+      "brood",
+      "glas",
+      "bed"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bot",
+    "nl": "Mijn hond krijgt een bot.",
+    "form": "bot",
+    "distractors": [
+      "stoel",
+      "bril",
+      "tafel"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-boter",
+    "nl": "Ik doe boter op mijn brood.",
+    "form": "boter",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-boterham",
+    "nl": "Ik eet een boterham met kaas.",
+    "form": "boterham",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bovenkant",
+    "nl": "De bovenkant van de tafel is nat.",
+    "form": "bovenkant",
+    "distractors": [
+      "week",
+      "avond",
+      "ochtend"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-brand",
+    "nl": "In de keuken is brand.",
+    "form": "brand",
+    "distractors": [
+      "regen",
+      "sneeuw",
+      "mist"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-brandweer",
+    "nl": "De brandweer komt snel naar het huis.",
+    "form": "brandweer",
+    "distractors": [
+      "tafel",
+      "bril",
+      "kaas"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-breedte",
+    "nl": "De breedte van de weg is vier meter.",
+    "form": "breedte",
+    "distractors": [
+      "hand",
+      "neus",
+      "mond"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-brief",
+    "nl": "Ik schrijf een brief aan mijn oma.",
+    "form": "brief",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-broodje",
+    "nl": "Ik eet een broodje met ham.",
+    "form": "broodje",
+    "distractors": [
+      "bed",
+      "dak",
+      "raam"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-brug",
+    "nl": "Wij lopen over de brug.",
+    "form": "brug",
+    "distractors": [
+      "hand",
+      "neus",
+      "mond"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bruid",
+    "nl": "De bruid draagt een witte jurk.",
+    "form": "bruid",
+    "distractors": [
+      "kaas",
+      "boom",
+      "stoel"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bruiloft",
+    "nl": "Onze bruiloft is in de zomer.",
+    "form": "bruiloft",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bui",
+    "nl": "Er komt vandaag een bui.",
+    "form": "bui",
+    "distractors": [
+      "tafel",
+      "bril",
+      "kaas"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-buitenkant",
+    "nl": "De buitenkant van het huis is wit.",
+    "form": "buitenkant",
+    "distractors": [
+      "week",
+      "avond",
+      "ochtend"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-buitenland",
+    "nl": "Mijn zus woont in het buitenland.",
+    "form": "buitenland",
+    "distractors": [
+      "brood",
+      "glas",
+      "bed"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-cadeau",
+    "nl": "Ik geef mijn moeder een cadeau.",
+    "form": "cadeau",
+    "distractors": [
+      "griep",
+      "honger",
+      "pijn"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-café",
+    "nl": "Wij drinken koffie in het café.",
+    "form": "café",
+    "distractors": [
+      "glas",
+      "brood",
+      "dak"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-camera",
+    "nl": "Mijn telefoon heeft een goede camera.",
+    "form": "camera",
+    "distractors": [
+      "tafel",
+      "bril",
+      "kaas"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-camping",
+    "nl": "Wij slapen op een camping.",
+    "form": "camping",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-cent",
+    "nl": "Een euro heeft honderd cent.",
+    "form": "cent",
+    "distractors": [
+      "week",
+      "avond",
+      "ochtend"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-centimeter",
+    "nl": "Mijn zoon is honderd centimeter lang.",
+    "form": "centimeter",
+    "distractors": [
+      "kilometer",
+      "liter",
+      "kilogram"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-centrum",
+    "nl": "Het hotel is in het centrum van de stad.",
+    "form": "centrum",
+    "distractors": [
+      "brood",
+      "glas",
+      "bed"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-champagne",
+    "nl": "Zij drinkt een glas champagne.",
+    "form": "champagne",
+    "distractors": [
+      "brood",
+      "vlees",
+      "rijst"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-chauffeur",
+    "nl": "De chauffeur rijdt de bus.",
+    "form": "chauffeur",
+    "distractors": [
+      "kapper",
+      "bakker",
+      "kok"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-cijfer",
+    "nl": "Ik heb een goed cijfer voor de test.",
+    "form": "cijfer",
+    "distractors": [
+      "brood",
+      "glas",
+      "bed"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-circus",
+    "nl": "Wij gaan naar het circus.",
+    "form": "circus",
+    "distractors": [
+      "glas",
+      "brood",
+      "dak"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-cirkel",
+    "nl": "Een cirkel is rond.",
+    "form": "cirkel",
+    "distractors": [
+      "week",
+      "avond",
+      "ochtend"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-clown",
+    "nl": "De clown is erg grappig.",
+    "form": "clown",
+    "distractors": [
+      "tafel",
+      "bril",
+      "kaas"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-club",
+    "nl": "Mijn broer speelt voetbal bij een club.",
+    "form": "club",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-code",
+    "nl": "De code van de deur is geheim.",
+    "form": "code",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-collega",
+    "nl": "Mijn collega drinkt koffie met melk.",
+    "form": "collega",
+    "distractors": [
+      "bril",
+      "fles",
+      "schoen"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-concert",
+    "nl": "Wij gaan naar een concert.",
+    "form": "concert",
+    "distractors": [
+      "kaas",
+      "boom",
+      "stoel"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-contact",
+    "nl": "Ik heb veel contact met mijn buur.",
+    "form": "contact",
+    "distractors": [
+      "brood",
+      "glas",
+      "bed"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-contract",
+    "nl": "Mijn contract is voor een jaar.",
+    "form": "contract",
+    "distractors": [
+      "brood",
+      "glas",
+      "bed"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-controle",
+    "nl": "De controle bij de huisarts is morgen.",
+    "form": "controle",
+    "distractors": [
+      "kaas",
+      "boom",
+      "stoel"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-cursus",
+    "nl": "Mijn cursus begint in september.",
+    "form": "cursus",
+    "distractors": [
+      "kaas",
+      "boom",
+      "stoel"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-dal",
+    "nl": "Het dorp ligt in een mooi dal.",
+    "form": "dal",
+    "distractors": [
+      "glas",
+      "brood",
+      "dak"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-dans",
+    "nl": "Ik zie een mooie dans.",
+    "form": "dans",
+    "distractors": [
+      "griep",
+      "honger",
+      "pijn"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-das",
+    "nl": "Mijn vader draagt een rode das.",
+    "form": "das",
+    "distractors": [
+      "kaas",
+      "boom",
+      "stoel"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-deken",
+    "nl": "Het kind slaapt onder een warme deken.",
+    "form": "deken",
+    "distractors": [
+      "tafel",
+      "bril",
+      "kaas"
+    ],
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-dienst",
+    "nl": "De dienst is hier erg goed.",
+    "form": "dienst",
+    "distractors": [
+      "week",
+      "avond",
+      "ochtend"
+    ],
+    "reviewed": false
   }
 ]
