@@ -2483,9 +2483,7 @@
     "nl": "Mijn tand doet pijn.",
     "form": "tand",
     "distractors": [
-      "taal",
-      "kast",
-      "lamp"
+      "taal"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
