@@ -1,4 +1,4 @@
-import { existsSync, readdirSync, readFileSync } from 'node:fs';
+import { existsSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 import { Ajv } from 'ajv';
@@ -41,6 +41,14 @@ export function loadSentenceStage(root = ROOT): SentenceStage {
     rows: existsSync(join(dir, 'sentences.json')) ? read('sentences.json') : [],
     translations: Object.fromEntries(langs.map((f) => [f.replace(/\.json$/, ''), read(`translations/${f}`)])),
   };
+}
+
+/** Writes the Dutch rows and the translations of `lang`; an import changes both (a row's reviewed flag follows its translations). */
+export function saveSentenceStage(stage: SentenceStage, lang: string, root = ROOT): void {
+  const dir = join(root, 'data', 'sentences');
+  const write = (file: string, value: unknown) => writeFileSync(join(dir, file), JSON.stringify(value, null, 2) + '\n');
+  write('sentences.json', stage.rows);
+  write(join('translations', `${lang}.json`), stage.translations[lang]);
 }
 
 /** Every problem of the staged sentence files; empty means valid. `env` is the live and staged words (CheckEnv of T-375). */
