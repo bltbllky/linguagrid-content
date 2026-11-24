@@ -10793,7 +10793,8 @@
       "boot",
       "kunstenaar"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-oven",
@@ -10802,9 +10803,10 @@
     "distractors": [
       "duim",
       "bril",
-      "voet"
+      "zomer"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-paard",
@@ -10815,7 +10817,8 @@
       "zand",
       "witlof"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-pad",
@@ -10837,7 +10840,8 @@
       "muur",
       "haven"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-pagina",
@@ -10848,7 +10852,8 @@
       "worst",
       "muts"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-pak",
@@ -10859,7 +10864,8 @@
       "plastic",
       "hart"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-pakket",
@@ -10870,7 +10876,8 @@
       "oor",
       "circus"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-papa",
@@ -10881,7 +10888,8 @@
       "druif",
       "champagne"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-papier",
@@ -10892,7 +10900,8 @@
       "plein",
       "meisje"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-paraplu",
@@ -10903,7 +10912,8 @@
       "winkel",
       "ziekte"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-partner",
@@ -10921,11 +10931,12 @@
     "nl": "Bij de douane laat ik mijn paspoort zien.",
     "form": "paspoort",
     "distractors": [
-      "huisdier",
+      "seizoen",
       "restaurant",
       "dier"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-passagier",
@@ -10936,7 +10947,8 @@
       "televisie",
       "buik"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-pasta",
@@ -10947,7 +10959,8 @@
       "pen",
       "wenkbrauw"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-pauze",
@@ -10958,7 +10971,8 @@
       "kous",
       "garnaal"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-pech",
@@ -10980,7 +10994,8 @@
       "bui",
       "armband"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-pen",
@@ -11002,7 +11017,8 @@
       "gras",
       "tijdschrift"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-peper",
@@ -11024,7 +11040,8 @@
       "concert",
       "koekje"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-personeel",
@@ -11035,7 +11052,8 @@
       "kasteel",
       "gerecht"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-pet",
@@ -11057,7 +11075,8 @@
       "eeuw",
       "pet"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-pijl",
@@ -11068,7 +11087,8 @@
       "honing",
       "leeuw"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-pil",
@@ -11079,7 +11099,8 @@
       "tand",
       "baby"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-piloot",
@@ -11090,7 +11111,8 @@
       "mossel",
       "fiets"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-pink",
@@ -11101,7 +11123,8 @@
       "koelkast",
       "lucht"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-pizza",
@@ -11112,7 +11135,8 @@
       "vrachtwagen",
       "lamp"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-plaats",
@@ -11134,7 +11158,8 @@
       "ballet",
       "rijbewijs"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-plan",
@@ -11145,7 +11170,8 @@
       "feest",
       "pak"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-plant",
@@ -11156,7 +11182,8 @@
       "zolder",
       "piano"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-plastic",
@@ -11167,7 +11194,8 @@
       "museum",
       "dak"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-plein",
@@ -11178,7 +11206,8 @@
       "voetbal",
       "raam"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-plezier",
@@ -11189,7 +11218,8 @@
       "laken",
       "varken"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-poes",
@@ -11200,7 +11230,8 @@
       "bloem",
       "long"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-polder",
@@ -11211,7 +11242,8 @@
       "rijst",
       "vlieg"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-politie",
@@ -11222,7 +11254,8 @@
       "hand",
       "bus"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-pond",
@@ -11233,7 +11266,8 @@
       "ijzer",
       "papier"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-poot",
@@ -11244,7 +11278,8 @@
       "eend",
       "haas"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-pop",
@@ -11255,7 +11290,8 @@
       "woonkamer",
       "olie"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-portemonnee",
@@ -11266,7 +11302,8 @@
       "interesse",
       "directeur"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-post",
@@ -11277,7 +11314,8 @@
       "boterham",
       "hobby"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-postbode",
@@ -11288,7 +11326,8 @@
       "neus",
       "wijn"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-postcode",
@@ -11299,7 +11338,8 @@
       "pil",
       "zaal"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-postkantoor",
@@ -11310,7 +11350,8 @@
       "ingrediënt",
       "hert"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-pot",
@@ -11321,7 +11362,8 @@
       "zwaan",
       "kunst"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-potlood",
@@ -11332,7 +11374,8 @@
       "hek",
       "plafond"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-probleem",
@@ -11343,7 +11386,8 @@
       "insect",
       "theater"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-procent",
@@ -11354,18 +11398,20 @@
       "vlees",
       "postkantoor"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-product",
     "nl": "Dit product is goedkoop.",
     "form": "product",
     "distractors": [
-      "medicijn",
+      "jaar",
       "schaap",
       "lichaam"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-programma",
@@ -11376,7 +11422,8 @@
       "vuur",
       "gas"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-project",
@@ -11387,7 +11434,8 @@
       "paard",
       "been"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-punt",
@@ -11398,7 +11446,8 @@
       "stadion",
       "schip"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-radio",
@@ -11406,10 +11455,11 @@
     "form": "radio",
     "distractors": [
       "zon",
-      "poes",
+      "ochtend",
       "kust"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-rapport",
@@ -11417,10 +11467,11 @@
     "form": "rapport",
     "distractors": [
       "hout",
-      "vest",
+      "weer",
       "strand"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-rat",
@@ -11431,7 +11482,8 @@
       "vakantie",
       "film"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-reactie",
@@ -11449,11 +11501,12 @@
     "nl": "Ik zie een reclame voor een nieuwe auto.",
     "form": "reclame",
     "distractors": [
-      "makelaar",
+      "middag",
       "keel",
       "riem"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-reden",
@@ -11464,7 +11517,8 @@
       "huid",
       "jeugd"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-regel",
@@ -11475,7 +11529,8 @@
       "maag",
       "wortel"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-regen",
@@ -11486,7 +11541,8 @@
       "kamer",
       "thee"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-regenboog",
@@ -11497,7 +11553,8 @@
       "kapper",
       "kleding"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-reis",
@@ -11508,7 +11565,8 @@
       "tuin",
       "doos"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-rekening",
@@ -11519,7 +11577,8 @@
       "pink",
       "walvis"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-rem",
@@ -11530,7 +11589,8 @@
       "vader",
       "supermarkt"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-rib",
@@ -11541,7 +11601,8 @@
       "computer",
       "bakker"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-richting",
@@ -11552,7 +11613,8 @@
       "lever",
       "sjaal"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-riem",
@@ -11563,7 +11625,8 @@
       "vinger",
       "lunch"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-rij",
@@ -11574,7 +11637,8 @@
       "rivier",
       "dijk"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-rijbewijs",
@@ -11585,7 +11649,8 @@
       "balkon",
       "eiland"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-rijst",
@@ -11607,7 +11672,8 @@
       "wekker",
       "ambtenaar"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-rivier",
@@ -11618,7 +11684,8 @@
       "sla",
       "tram"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-roman",
@@ -11629,7 +11696,8 @@
       "mug",
       "bibliotheek"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-rook",
@@ -11640,7 +11708,8 @@
       "koe",
       "lepel"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-room",
@@ -11651,7 +11720,8 @@
       "pijn",
       "kelder"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-route",
@@ -11673,7 +11743,8 @@
       "berg",
       "golf"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-salaris",
@@ -11684,7 +11755,8 @@
       "zout",
       "formulier"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-sap",
@@ -11695,7 +11767,8 @@
       "festival",
       "gordijn"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-schaap",
@@ -11706,7 +11779,8 @@
       "lied",
       "station"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-schaduw",
@@ -11717,7 +11791,8 @@
       "kraag",
       "meneer"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-schelp",
@@ -11725,10 +11800,11 @@
     "form": "schelp",
     "distractors": [
       "kerk",
-      "collega",
+      "herfst",
       "mond"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-scherm",
@@ -11739,7 +11815,8 @@
       "vliegtuig",
       "bier"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-schilderij",
@@ -11750,7 +11827,8 @@
       "geld",
       "park"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-schip",
@@ -11761,7 +11839,8 @@
       "bed",
       "ticket"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-schoolplein",
@@ -11772,7 +11851,8 @@
       "konijn",
       "woordenboek"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-schort",
@@ -11783,7 +11863,8 @@
       "bord",
       "mes"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-schotel",
@@ -11794,7 +11875,8 @@
       "natuur",
       "slak"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-schrift",
@@ -11802,10 +11884,11 @@
     "form": "schrift",
     "distractors": [
       "appartement",
-      "recept",
+      "weer",
       "dier"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-schrijver",
@@ -11816,7 +11899,8 @@
       "beker",
       "motor"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-serie",
@@ -11827,7 +11911,8 @@
       "spiegel",
       "verpleger"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-sfeer",
@@ -11838,7 +11923,8 @@
       "krant",
       "taxi"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-sjaal",
@@ -11849,7 +11935,8 @@
       "hond",
       "zus"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-sla",
@@ -11860,7 +11947,8 @@
       "olifant",
       "oom"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-slaap",
@@ -11871,7 +11959,8 @@
       "oceaan",
       "stoel"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-slaapkamer",
@@ -11889,11 +11978,12 @@
     "nl": "De slak is erg langzaam.",
     "form": "slak",
     "distractors": [
-      "vis",
+      "vraag",
       "hal",
       "drank"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-slang",
@@ -11904,7 +11994,8 @@
       "hamburger",
       "bioscoop"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-sloot",
@@ -11915,7 +12006,8 @@
       "bal",
       "postbode"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-slot",
@@ -11926,7 +12018,8 @@
       "oog",
       "vest"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-sneeuw",
@@ -11937,7 +12030,8 @@
       "tekenfilm",
       "hiel"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-snelheid",
@@ -11948,7 +12042,8 @@
       "clown",
       "boom"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-snelweg",
@@ -11959,7 +12054,8 @@
       "brief",
       "rat"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-soep",
@@ -11970,7 +12066,8 @@
       "slaapkamer",
       "gast"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-sok",
@@ -11981,7 +12078,8 @@
       "wind",
       "verkoper"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-som",
@@ -12000,10 +12098,11 @@
     "form": "speelgoed",
     "distractors": [
       "dorp",
-      "geld",
+      "jaar",
       "appartement"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-spel",
@@ -12014,7 +12113,8 @@
       "hout",
       "gerecht"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-speler",
@@ -12025,7 +12125,8 @@
       "huur",
       "kool"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-sportschool",
@@ -12036,7 +12137,8 @@
       "map",
       "jas"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-spul",
@@ -12044,10 +12146,11 @@
     "form": "spul",
     "distractors": [
       "kanaal",
-      "konijn",
+      "uur",
       "paard"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-staart",
@@ -12058,18 +12161,20 @@
       "weduwe",
       "eigenaar"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-stadion",
     "nl": "Het stadion is vandaag vol.",
     "form": "stadion",
     "distractors": [
-      "kind",
+      "moment",
       "gras",
       "vlees"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-stage",
@@ -12080,7 +12185,8 @@
       "laptop",
       "vork"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-stap",
@@ -12091,7 +12197,8 @@
       "chauffeur",
       "wolf"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-steen",
@@ -12099,10 +12206,11 @@
     "form": "steen",
     "distractors": [
       "euro",
-      "envelop",
+      "maand",
       "melk"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-stem",
@@ -12113,7 +12221,8 @@
       "kaas",
       "luchthaven"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-ster",
@@ -12124,7 +12233,8 @@
       "neef",
       "trainer"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-stoep",
@@ -12135,7 +12245,8 @@
       "borst",
       "passagier"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-storm",
@@ -12146,7 +12257,8 @@
       "koek",
       "arm"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-straatnaam",
@@ -12157,7 +12269,8 @@
       "banaan",
       "tegel"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-strand",
@@ -12168,7 +12281,8 @@
       "ingrediënt",
       "pak"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-streep",
@@ -12179,7 +12293,8 @@
       "knie",
       "moeder"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-stress",
@@ -12190,7 +12305,8 @@
       "kist",
       "sok"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-stroom",
@@ -12198,10 +12314,11 @@
     "form": "stroom",
     "distractors": [
       "boerderij",
-      "vriend",
+      "nacht",
       "manager"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-student",
@@ -12212,7 +12329,8 @@
       "kip",
       "nek"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-studie",
@@ -12234,7 +12352,8 @@
       "café",
       "varken"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-stuur",
@@ -12243,9 +12362,10 @@
     "distractors": [
       "bier",
       "medicijn",
-      "brood"
+      "weekend"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-suiker",
@@ -12256,7 +12376,8 @@
       "dochter",
       "vriendin"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-symptoom",
@@ -12267,18 +12388,20 @@
       "gas",
       "schaap"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-taak",
     "nl": "Elk kind heeft een taak in de klas.",
     "form": "taak",
     "distractors": [
-      "ouder",
+      "naam",
       "flat",
       "bezoeker"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-taart",
@@ -12289,7 +12412,8 @@
       "haai",
       "bon"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-tak",
@@ -12300,7 +12424,8 @@
       "pizza",
       "haring"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-tandarts",
@@ -12311,7 +12436,8 @@
       "auto",
       "vloer"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-taxi",
@@ -12322,7 +12448,8 @@
       "agent",
       "baas"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-team",
@@ -12333,7 +12460,8 @@
       "landschap",
       "broodje"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-tegel",
@@ -12344,7 +12472,8 @@
       "rat",
       "champagne"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-tekenfilm",
@@ -12355,7 +12484,8 @@
       "trui",
       "tandarts"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-tekening",
@@ -12366,7 +12496,8 @@
       "mug",
       "maan"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-tekst",
@@ -12377,7 +12508,8 @@
       "jurk",
       "onderbroek"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-temperatuur",
@@ -12388,7 +12520,8 @@
       "foto",
       "opa"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-tennis",
@@ -12399,7 +12532,8 @@
       "hoofd",
       "huis"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-test",
@@ -12410,7 +12544,8 @@
       "soep",
       "olifant"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-theater",
@@ -12419,9 +12554,10 @@
     "distractors": [
       "hart",
       "tijdschrift",
-      "vliegtuig"
+      "werk"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-thee",
@@ -12432,7 +12568,8 @@
       "klok",
       "hond"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-ticket",
@@ -12443,7 +12580,8 @@
       "strand",
       "huisdier"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-tiener",
@@ -12465,7 +12603,8 @@
       "metaal",
       "plein"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-tip",
@@ -12476,7 +12615,8 @@
       "apotheek",
       "kelder"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-tocht",
@@ -12498,7 +12638,8 @@
       "muziek",
       "hobby"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-tomaat",
@@ -12509,7 +12650,8 @@
       "walvis",
       "straat"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-toren",
@@ -12520,7 +12662,8 @@
       "gitaar",
       "ouder"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-trainer",
@@ -12531,18 +12674,20 @@
       "wortel",
       "beker"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-training",
     "nl": "De training begint om zeven uur.",
     "form": "training",
     "distractors": [
-      "arts",
+      "naam",
       "boom",
       "advocaat"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-tram",
@@ -12553,7 +12698,8 @@
       "markt",
       "muur"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-trui",
@@ -12564,7 +12710,8 @@
       "vork",
       "auto"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-tunnel",
@@ -12575,7 +12722,8 @@
       "doos",
       "bezoeker"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-uil",
@@ -12586,7 +12734,8 @@
       "natuur",
       "tafel"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-uitgang",
@@ -12597,7 +12746,8 @@
       "muts",
       "heuvel"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-uitkering",
@@ -12608,7 +12758,8 @@
       "tuin",
       "zwaan"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-uitnodiging",
@@ -12619,7 +12770,8 @@
       "maag",
       "broer"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-uitspraak",
@@ -12630,7 +12782,8 @@
       "peer",
       "griep"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-uniform",
@@ -12641,7 +12794,8 @@
       "fruit",
       "witlof"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-universiteit",
@@ -12652,7 +12806,8 @@
       "uil",
       "oven"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-vaccin",
@@ -12663,7 +12818,8 @@
       "plastic",
       "station"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-vak",
@@ -12674,7 +12830,8 @@
       "bed",
       "dak"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-varken",
@@ -12685,7 +12842,8 @@
       "eiland",
       "bos"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-veld",
@@ -12696,7 +12854,8 @@
       "meisje",
       "formulier"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-verdriet",
@@ -12707,7 +12866,8 @@
       "sap",
       "schrift"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-vergadering",
@@ -12718,7 +12878,8 @@
       "flat",
       "vloer"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-verhaal",
@@ -12729,7 +12890,8 @@
       "lichaam",
       "postkantoor"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-verkeer",
@@ -12740,7 +12902,8 @@
       "hotel",
       "woordenboek"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-verkoper",
@@ -12758,11 +12921,12 @@
     "nl": "Ik denk vaak aan het verleden.",
     "form": "verleden",
     "distractors": [
-      "hek",
+      "weekend",
       "ijs",
       "potlood"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-verpleger",
@@ -12784,7 +12948,8 @@
       "olie",
       "onderarm"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-verschil",
@@ -12795,7 +12960,8 @@
       "paspoort",
       "kussen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-vertraging",
@@ -12806,7 +12972,8 @@
       "dierentuin",
       "winnaar"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-vertrek",
@@ -12817,7 +12984,8 @@
       "zand",
       "dorp"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-verwarming",
@@ -12828,7 +12996,8 @@
       "fiets",
       "vinger"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-vest",
@@ -12850,7 +13019,8 @@
       "laken",
       "voorhoofd"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-video",
@@ -12861,18 +13031,20 @@
       "winkel",
       "vrijwilliger"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-virus",
     "nl": "Dit virus maakt mij ziek.",
     "form": "virus",
     "distractors": [
-      "gezicht",
+      "werk",
       "festival",
       "oor"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-vlag",
@@ -12883,7 +13055,8 @@
       "wol",
       "bon"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-vlek",
@@ -12891,10 +13064,11 @@
     "form": "vlek",
     "distractors": [
       "vriendin",
-      "worst",
+      "dag",
       "peper"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-vlieg",
@@ -12905,7 +13079,8 @@
       "huur",
       "zoon"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-vliegtuig",
@@ -12916,7 +13091,8 @@
       "rijbewijs",
       "zout"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-vloer",
@@ -12924,10 +13100,11 @@
     "form": "vloer",
     "distractors": [
       "grot",
-      "pen",
+      "avond",
       "kaart"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-vlucht",
@@ -12938,7 +13115,8 @@
       "oma",
       "eend"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-voetballer",
@@ -12949,7 +13127,8 @@
       "lip",
       "knie"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-vogel",
@@ -12960,7 +13139,8 @@
       "schoen",
       "fles"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-voorbeeld",
@@ -12971,7 +13151,8 @@
       "voetbal",
       "been"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-voorhoofd",
@@ -12982,7 +13163,8 @@
       "plafond",
       "concert"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-voorkant",
@@ -12993,7 +13175,8 @@
       "pijn",
       "zus"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-voornaam",
@@ -13004,7 +13187,8 @@
       "druif",
       "hal"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-voorwerp",
@@ -13015,7 +13199,8 @@
       "circus",
       "lied"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-vork",
@@ -13026,7 +13211,8 @@
       "keel",
       "krant"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-vos",
@@ -13037,7 +13223,8 @@
       "lamp",
       "boon"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-vrachtwagen",
@@ -13048,7 +13235,8 @@
       "tekenfilm",
       "eeuw"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-vriendschap",
@@ -13059,7 +13247,8 @@
       "wenkbrauw",
       "vlieg"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-vrijwilliger",
@@ -13070,7 +13259,8 @@
       "pot",
       "jurk"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-vuur",
@@ -13081,18 +13271,20 @@
       "gebouw",
       "oog"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-vuurwerk",
     "nl": "Het vuurwerk is erg mooi.",
     "form": "vuurwerk",
     "distractors": [
-      "lichaam",
+      "seizoen",
       "brood",
       "woordenboek"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-waarheid",
@@ -13103,7 +13295,8 @@
       "laptop",
       "kaak"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-walvis",
@@ -13114,7 +13307,8 @@
       "televisie",
       "school"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-wandeling",
@@ -13125,7 +13319,8 @@
       "haai",
       "long"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-warenhuis",
@@ -13143,7 +13338,7 @@
     "nl": "De jas hangt aan de waslijn.",
     "form": "waslijn",
     "distractors": [
-      "hoed",
+      "eeuw",
       "kok",
       "documentaire"
     ],
@@ -13158,7 +13353,8 @@
       "medewerker",
       "passagier"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-webwinkel",
@@ -13169,7 +13365,8 @@
       "euro",
       "arm"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-wedstrijd",
@@ -13178,9 +13375,10 @@
     "distractors": [
       "riem",
       "zaal",
-      "trainer"
+      "eeuw"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-weduwe",
@@ -13191,7 +13389,8 @@
       "duim",
       "boerderij"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-wekker",
@@ -13202,7 +13401,8 @@
       "hiel",
       "rivier"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-wenkbrauw",
@@ -13213,7 +13413,8 @@
       "sneeuw",
       "echtgenote"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-wens",
@@ -13224,7 +13425,8 @@
       "pet",
       "banaan"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-wereld",
@@ -13235,7 +13437,8 @@
       "koek",
       "slang"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-werkdag",
@@ -13246,7 +13449,8 @@
       "lucht",
       "vrouw"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-werkgever",
@@ -13257,7 +13461,8 @@
       "keuken",
       "handschoen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-werkplek",
@@ -13268,7 +13473,8 @@
       "buik",
       "sloot"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-wijk",
@@ -13279,7 +13485,8 @@
       "acteur",
       "manager"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-wind",
@@ -13287,10 +13494,11 @@
     "form": "wind",
     "distractors": [
       "sjaal",
-      "woning",
+      "winter",
       "bibliotheek"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-winnaar",
@@ -13301,7 +13509,8 @@
       "golf",
       "metro"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-wiskunde",
@@ -13312,7 +13521,8 @@
       "ezel",
       "hand"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-witlof",
@@ -13323,7 +13533,8 @@
       "tijdschrift",
       "hek"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-wol",
@@ -13334,7 +13545,8 @@
       "envelop",
       "haas"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-wolf",
@@ -13345,7 +13557,8 @@
       "trap",
       "aardappel"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-wolk",
@@ -13356,7 +13569,8 @@
       "neus",
       "chauffeur"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-wond",
@@ -13364,10 +13578,11 @@
     "form": "wond",
     "distractors": [
       "volwassene",
-      "armband",
+      "vraag",
       "patiënt"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-woonkamer",
@@ -13378,7 +13593,8 @@
       "tomaat",
       "koe"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-woonplaats",
@@ -13389,7 +13605,8 @@
       "taxi",
       "gast"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-woordenboek",
@@ -13400,7 +13617,8 @@
       "hert",
       "meisje"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-worst",
@@ -13411,7 +13629,8 @@
       "ziekte",
       "fabriek"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-zaag",
@@ -13422,7 +13641,8 @@
       "mossel",
       "clown"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-zaal",
@@ -13433,29 +13653,32 @@
       "wolf",
       "inwoner"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-zak",
     "nl": "Er zit een appel in de zak.",
     "form": "zak",
     "distractors": [
-      "kaas",
+      "eeuw",
       "piloot",
       "makelaar"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-zand",
     "nl": "De kinderen spelen met het zand.",
     "form": "zand",
     "distractors": [
-      "paspoort",
+      "werk",
       "oor",
       "hart"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-zanger",
@@ -13466,7 +13689,8 @@
       "biet",
       "trui"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-zeef",
@@ -13477,7 +13701,8 @@
       "tandarts",
       "piano"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-zilver",
@@ -13488,7 +13713,8 @@
       "park",
       "hoofd"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-zin",
@@ -13499,7 +13725,8 @@
       "kous",
       "toerist"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-zolder",
@@ -13510,7 +13737,8 @@
       "mond",
       "meneer"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-zout",
@@ -13521,7 +13749,8 @@
       "voetbal",
       "strand"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-zwaan",
@@ -13532,7 +13761,8 @@
       "lever",
       "brief"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "noun-zwembad",
@@ -13543,7 +13773,8 @@
       "witlof",
       "konijn"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-aanbieden",
@@ -13554,7 +13785,8 @@
       "uitstellen",
       "schrikken"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-aankomen",
@@ -13565,7 +13797,8 @@
       "spellen",
       "vissen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-aanvragen",
@@ -13576,7 +13809,8 @@
       "eindigen",
       "verlaten"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-accepteren",
@@ -13587,7 +13821,8 @@
       "sneeuwen",
       "opereren"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-afgeven",
@@ -13598,7 +13833,8 @@
       "oefenen",
       "koken"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-afspreken",
@@ -13607,9 +13843,10 @@
     "distractors": [
       "posten",
       "drogen",
-      "chatten"
+      "sneeuwen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-afvallen",
@@ -13620,7 +13857,8 @@
       "tekenen",
       "verdwijnen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-afzetten",
@@ -13629,9 +13867,10 @@
     "distractors": [
       "huren",
       "sporten",
-      "inschrijven"
+      "sneeuwen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-appen",
@@ -13653,7 +13892,8 @@
       "branden",
       "uitgaan"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-bedenken",
@@ -13664,7 +13904,8 @@
       "lukken",
       "volgen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-bedienen",
@@ -13672,10 +13913,11 @@
     "form": "bedienen",
     "distractors": [
       "scoren",
-      "vergeten",
+      "sneeuwen",
       "teruggaan"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-behandelen",
@@ -13686,14 +13928,15 @@
       "updaten",
       "ontbijten"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-bekijken",
     "nl": "Wij willen het huis nog bekijken.",
     "form": "bekijken",
     "distractors": [
-      "koelen",
+      "dromen",
       "hangen",
       "mislukken"
     ],
@@ -13708,7 +13951,8 @@
       "eet",
       "betaal"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-bereiken",
@@ -13719,7 +13963,8 @@
       "verschijnen",
       "sparen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-beschermen",
@@ -13730,7 +13975,8 @@
       "komt",
       "werkt"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-beschrijven",
@@ -13739,9 +13985,10 @@
     "distractors": [
       "wachten",
       "poetsen",
-      "tellen"
+      "dromen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-besluiten",
@@ -13752,7 +13999,8 @@
       "ontslaan",
       "beschermen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-bespreken",
@@ -13774,7 +14022,8 @@
       "opslaan",
       "zingen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-betekenen",
@@ -13785,7 +14034,8 @@
       "sluit",
       "huilt"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-bewaren",
@@ -13796,7 +14046,8 @@
       "kijk",
       "denk"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-bezoeken",
@@ -13807,7 +14058,8 @@
       "knutselen",
       "vergelijken"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-binnenkomen",
@@ -13818,7 +14070,8 @@
       "behandelen",
       "noemen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-blijven",
@@ -13829,7 +14082,8 @@
       "herkennen",
       "verzinnen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-braken",
@@ -13840,7 +14094,8 @@
       "verplaatsen",
       "groeten"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-branden",
@@ -13851,7 +14106,8 @@
       "verkoopt",
       "drinkt"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-buigen",
@@ -13862,7 +14118,8 @@
       "proberen",
       "uitnodigen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-chatten",
@@ -13884,7 +14141,8 @@
       "slikken",
       "thuiskomen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-dansen",
@@ -13892,21 +14150,23 @@
     "form": "dansen",
     "distractors": [
       "pakken",
-      "internetten",
+      "sneeuwen",
       "opnemen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-delen",
     "nl": "Wij delen een kamer in het hotel.",
     "form": "delen",
     "distractors": [
-      "missen",
+      "sneeuwen",
       "printen",
       "gebeuren"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-doorgaan",
@@ -13917,7 +14177,8 @@
       "feliciteren",
       "legen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-douchen",
@@ -13925,10 +14186,11 @@
     "form": "douchen",
     "distractors": [
       "betekenen",
-      "reserveren",
+      "vriezen",
       "uitgeven"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-drogen",
@@ -13939,7 +14201,8 @@
       "luisteren",
       "samenwerken"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-dromen",
@@ -13947,10 +14210,11 @@
     "form": "droomt",
     "distractors": [
       "fietst",
-      "hoopt",
+      "regent",
       "brengt"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-duiken",
@@ -13961,18 +14225,20 @@
       "gieten",
       "schoonmaken"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-durven",
     "nl": "Ik durf niet te zwemmen.",
     "form": "durf",
     "distractors": [
-      "leer",
+      "woon",
       "trek",
       "bouw"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-duwen",
@@ -13983,7 +14249,8 @@
       "beloven",
       "uitspreken"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-eindigen",
@@ -13994,7 +14261,8 @@
       "gelooft",
       "rijdt"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-feesten",
@@ -14005,7 +14273,8 @@
       "sturen",
       "schuiven"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-feliciteren",
@@ -14027,7 +14296,8 @@
       "thuisblijven",
       "stoten"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-gebeuren",
@@ -14038,7 +14308,8 @@
       "begrijpt",
       "leest"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-gebruiken",
@@ -14049,7 +14320,8 @@
       "was",
       "vertel"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-geloven",
@@ -14058,9 +14330,10 @@
     "distractors": [
       "groei",
       "blijf",
-      "ruik"
+      "bouw"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-genieten",
@@ -14071,7 +14344,8 @@
       "vertalen",
       "bakken"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-gieten",
@@ -14082,18 +14356,20 @@
       "voetballen",
       "aanvragen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-gooien",
     "nl": "Het kind wil de bal gooien.",
     "form": "gooien",
     "distractors": [
-      "bespreken",
+      "dromen",
       "afvallen",
       "roeien"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-grijpen",
@@ -14104,7 +14380,8 @@
       "opgeven",
       "bestellen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-groeten",
@@ -14115,7 +14392,8 @@
       "winnen",
       "kloppen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-halen",
@@ -14126,7 +14404,8 @@
       "feesten",
       "letten"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-hardlopen",
@@ -14137,7 +14416,8 @@
       "heten",
       "halen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-haten",
@@ -14148,7 +14428,8 @@
       "breek",
       "roep"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-herhalen",
@@ -14159,7 +14440,8 @@
       "likken",
       "vullen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-herinneren",
@@ -14170,7 +14452,8 @@
       "koop",
       "spring"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-herkennen",
@@ -14181,7 +14464,8 @@
       "dromen",
       "hardlopen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-herstellen",
@@ -14192,18 +14476,20 @@
       "verwachten",
       "meedoen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-hoesten",
     "nl": "Hij hoest vaak in de nacht.",
     "form": "hoest",
     "distractors": [
-      "zwemt",
+      "regent",
       "gooit",
       "brengt"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-hopen",
@@ -14214,7 +14500,8 @@
       "zwem",
       "duw"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-houden",
@@ -14222,7 +14509,7 @@
     "form": "houden",
     "distractors": [
       "bezoeken",
-      "haten",
+      "groeien",
       "dansen"
     ],
     "reviewed": false
@@ -14236,7 +14523,8 @@
       "verdienen",
       "zetten"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-informeren",
@@ -14244,10 +14532,11 @@
     "form": "informeren",
     "distractors": [
       "rusten",
-      "meten",
+      "groeien",
       "zuchten"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-innemen",
@@ -14258,7 +14547,8 @@
       "besluiten",
       "trappen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-inrichten",
@@ -14269,7 +14559,8 @@
       "braken",
       "logeren"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-inschrijven",
@@ -14278,9 +14569,10 @@
     "distractors": [
       "ontspannen",
       "omdraaien",
-      "informeren"
+      "vriezen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-internetten",
@@ -14288,10 +14580,11 @@
     "form": "internetten",
     "distractors": [
       "aankomen",
-      "nadenken",
+      "vriezen",
       "overleggen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-invullen",
@@ -14302,7 +14595,8 @@
       "slapen",
       "opstaan"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-kiezen",
@@ -14324,7 +14618,8 @@
       "organiseren",
       "knijpen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-klappen",
@@ -14335,7 +14630,8 @@
       "grijpen",
       "uitstappen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-klimmen",
@@ -14346,7 +14642,8 @@
       "bedenken",
       "mailen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-klinken",
@@ -14357,7 +14654,8 @@
       "roept",
       "hangt"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-kloppen",
@@ -14365,10 +14663,11 @@
     "form": "klopt",
     "distractors": [
       "speelt",
-      "kost",
+      "regent",
       "wast"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-knijpen",
@@ -14390,18 +14689,20 @@
       "vervelen",
       "schaatsen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-koelen",
     "nl": "Wij moeten het bier koelen.",
     "form": "koelen",
     "distractors": [
-      "tonen",
+      "groeien",
       "ontdekken",
       "ontsnappen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-kosten",
@@ -14423,7 +14724,8 @@
       "herinneren",
       "vragen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-lachen",
@@ -14434,7 +14736,8 @@
       "leveren",
       "planten"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-laten",
@@ -14445,7 +14748,8 @@
       "blijf",
       "spring"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-legen",
@@ -14453,10 +14757,11 @@
     "form": "legen",
     "distractors": [
       "negeren",
-      "verwarmen",
+      "vriezen",
       "vliegen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-lenen",
@@ -14467,7 +14772,8 @@
       "waarschuwen",
       "zakken"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-letten",
@@ -14478,7 +14784,8 @@
       "controleren",
       "opruimen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-leveren",
@@ -14489,7 +14796,8 @@
       "rekenen",
       "antwoorden"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-liegen",
@@ -14497,10 +14805,11 @@
     "form": "liegen",
     "distractors": [
       "bewaren",
-      "accepteren",
+      "groeien",
       "verhuren"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-lijken",
@@ -14511,7 +14820,8 @@
       "werkt",
       "oefent"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-likken",
@@ -14519,10 +14829,11 @@
     "form": "likken",
     "distractors": [
       "appen",
-      "bekijken",
+      "vriezen",
       "verbeteren"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-logeren",
@@ -14531,9 +14842,10 @@
     "distractors": [
       "wensen",
       "wennen",
-      "klagen"
+      "regenen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-lukken",
@@ -14552,10 +14864,11 @@
     "form": "mail",
     "distractors": [
       "eet",
-      "begrijp",
+      "bouw",
       "studeer"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-meedoen",
@@ -14575,9 +14888,10 @@
     "distractors": [
       "hoesten",
       "schreeuwen",
-      "herhalen"
+      "regenen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-meenemen",
@@ -14586,9 +14900,10 @@
     "distractors": [
       "bedienen",
       "twijfelen",
-      "kiezen"
+      "regenen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-merken",
@@ -14599,7 +14914,8 @@
       "klim",
       "loop"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-meten",
@@ -14607,10 +14923,11 @@
     "form": "meten",
     "distractors": [
       "kruipen",
-      "veranderen",
+      "regenen",
       "verliezen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-mislukken",
@@ -14618,10 +14935,11 @@
     "form": "mislukken",
     "distractors": [
       "oppakken",
-      "stoppen",
+      "regenen",
       "openen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-missen",
@@ -14632,7 +14950,8 @@
       "koop",
       "verkoop"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-nadenken",
@@ -14643,7 +14962,8 @@
       "wegleggen",
       "terugkomen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-negeren",
@@ -14651,10 +14971,11 @@
     "form": "negeren",
     "distractors": [
       "lenen",
-      "verbieden",
+      "regenen",
       "aanbieden"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-noemen",
@@ -14665,7 +14986,8 @@
       "groei",
       "ruik"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-oefenen",
@@ -14676,7 +14998,8 @@
       "winkelen",
       "vangen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-omdraaien",
@@ -14687,29 +15010,32 @@
       "storen",
       "doorgaan"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-ontbijten",
     "nl": "Wij willen buiten ontbijten.",
     "form": "ontbijten",
     "distractors": [
-      "liegen",
+      "groeien",
       "posten",
       "besluiten"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-ontdekken",
     "nl": "Wij willen de natuur ontdekken.",
     "form": "ontdekken",
     "distractors": [
-      "beschrijven",
+      "regenen",
       "waaien",
       "eindigen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-ontslaan",
@@ -14720,7 +15046,8 @@
       "klinken",
       "huilen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-ontsnappen",
@@ -14731,7 +15058,8 @@
       "verrassen",
       "lijken"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-ontspannen",
@@ -14740,7 +15068,7 @@
     "distractors": [
       "toevoegen",
       "liegen",
-      "zeggen"
+      "groeien"
     ],
     "reviewed": false
   },
@@ -14753,7 +15081,8 @@
       "meten",
       "dromen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-opblazen",
@@ -14775,7 +15104,8 @@
       "scoren",
       "chatten"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-opgeven",
@@ -14783,21 +15113,23 @@
     "form": "opgeven",
     "distractors": [
       "kruipen",
-      "vragen",
+      "waaien",
       "merken"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-oplossen",
     "nl": "Wij kunnen het probleem oplossen.",
     "form": "oplossen",
     "distractors": [
-      "verbergen",
+      "waaien",
       "vechten",
       "opblazen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-opnemen",
@@ -14808,7 +15140,8 @@
       "feesten",
       "likken"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-oppakken",
@@ -14819,29 +15152,32 @@
       "invullen",
       "weigeren"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-opruimen",
     "nl": "Wij moeten de kamer opruimen.",
     "form": "opruimen",
     "distractors": [
-      "bespreken",
+      "waaien",
       "aanvragen",
       "schaken"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-opslaan",
     "nl": "Ik wil het document opslaan.",
     "form": "opslaan",
     "distractors": [
-      "uitstellen",
+      "waaien",
       "buigen",
       "afzetten"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-opstaan",
@@ -14852,7 +15188,8 @@
       "bedenken",
       "zetten"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-organiseren",
@@ -14863,7 +15200,8 @@
       "bereiken",
       "rekenen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-overleggen",
@@ -14871,7 +15209,7 @@
     "form": "overleggen",
     "distractors": [
       "verdelen",
-      "schilderen",
+      "groeien",
       "klappen"
     ],
     "reviewed": false
@@ -14883,9 +15221,10 @@
     "distractors": [
       "zorgen",
       "feliciteren",
-      "beginnen"
+      "waaien"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-pakken",
@@ -14896,7 +15235,8 @@
       "weet",
       "zit"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-parkeren",
@@ -14907,7 +15247,8 @@
       "verschijnen",
       "vieren"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-planten",
@@ -14918,7 +15259,8 @@
       "vertellen",
       "mailen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-poetsen",
@@ -14929,7 +15271,8 @@
       "doorgaan",
       "verlaten"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-posten",
@@ -14940,7 +15283,8 @@
       "verlengen",
       "voelen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-printen",
@@ -14951,7 +15295,8 @@
       "poetsen",
       "thuisblijven"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-proberen",
@@ -14959,10 +15304,11 @@
     "form": "proberen",
     "distractors": [
       "wachten",
-      "updaten",
+      "bloeden",
       "winkelen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-raden",
@@ -14973,7 +15319,8 @@
       "thuiskomen",
       "worden"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-reageren",
@@ -14995,7 +15342,8 @@
       "koken",
       "sneeuwen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-regelen",
@@ -15004,9 +15352,10 @@
     "distractors": [
       "lachen",
       "vliegen",
-      "verzorgen"
+      "bloeden"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-reizen",
@@ -15017,7 +15366,8 @@
       "noemen",
       "slaan"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-rekenen",
@@ -15025,10 +15375,11 @@
     "form": "rekenen",
     "distractors": [
       "herstellen",
-      "duiken",
+      "bloeden",
       "beschermen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-rennen",
@@ -15039,7 +15390,8 @@
       "verhuren",
       "wegleggen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-reserveren",
@@ -15050,7 +15402,8 @@
       "slapen",
       "informeren"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-roeien",
@@ -15061,7 +15414,8 @@
       "groeten",
       "bedanken"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-ruiken",
@@ -15072,7 +15426,8 @@
       "woon",
       "lees"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-samenwerken",
@@ -15080,10 +15435,11 @@
     "form": "samenwerken",
     "distractors": [
       "verbeteren",
-      "nadenken",
+      "bloeden",
       "veranderen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-schaatsen",
@@ -15094,7 +15450,8 @@
       "koelen",
       "waarschuwen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-schaken",
@@ -15103,20 +15460,22 @@
     "distractors": [
       "vervelen",
       "branden",
-      "appen"
+      "bloeden"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-schelen",
     "nl": "Het kan mij niet schelen.",
     "form": "schelen",
     "distractors": [
-      "liggen",
+      "branden",
       "voorstellen",
       "uitstappen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-schilderen",
@@ -15125,9 +15484,10 @@
     "distractors": [
       "hardlopen",
       "letten",
-      "drogen"
+      "braken"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-schoonmaken",
@@ -15135,10 +15495,11 @@
     "form": "schoonmaken",
     "distractors": [
       "zakken",
-      "vergeten",
+      "braken",
       "missen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-schreeuwen",
@@ -15146,10 +15507,11 @@
     "form": "schreeuwen",
     "distractors": [
       "verzamelen",
-      "huren",
+      "braken",
       "toevoegen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-schrikken",
@@ -15171,7 +15533,8 @@
       "vriezen",
       "meemaken"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-scoren",
@@ -15182,7 +15545,8 @@
       "binnenkomen",
       "verrassen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-slaan",
@@ -15193,7 +15557,8 @@
       "schelen",
       "verdienen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-slagen",
@@ -15204,18 +15569,20 @@
       "meedoen",
       "rusten"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-slikken",
     "nl": "Ik kan dit medicijn niet slikken.",
     "form": "slikken",
     "distractors": [
-      "herkennen",
+      "braken",
       "mislukken",
       "oplossen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-sneeuwen",
@@ -15226,7 +15593,8 @@
       "printen",
       "slagen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-solliciteren",
@@ -15237,7 +15605,8 @@
       "negeren",
       "duren"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-sparen",
@@ -15248,7 +15617,8 @@
       "reageren",
       "bekijken"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-spellen",
@@ -15259,7 +15629,8 @@
       "zorgen",
       "aankomen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-sporten",
@@ -15267,10 +15638,11 @@
     "form": "sporten",
     "distractors": [
       "planten",
-      "antwoorden",
+      "zuchten",
       "bewaren"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-spugen",
@@ -15281,7 +15653,8 @@
       "herhalen",
       "wennen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-stelen",
@@ -15292,7 +15665,8 @@
       "bedienen",
       "storen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-stoppen",
@@ -15303,7 +15677,8 @@
       "spreken",
       "gieten"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-storen",
@@ -15314,7 +15689,8 @@
       "typen",
       "inschrijven"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-stoten",
@@ -15325,7 +15701,8 @@
       "geloof",
       "kost"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-studeren",
@@ -15334,9 +15711,10 @@
     "distractors": [
       "overleggen",
       "braken",
-      "afspreken"
+      "zuchten"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-sturen",
@@ -15354,11 +15732,12 @@
     "nl": "Het kind wil een huis tekenen.",
     "form": "tekenen",
     "distractors": [
-      "raden",
+      "branden",
       "teruggaan",
       "opereren"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-tellen",
@@ -15369,7 +15748,8 @@
       "bestellen",
       "behandelen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-teruggaan",
@@ -15380,7 +15760,8 @@
       "winnen",
       "durven"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-teruggeven",
@@ -15391,29 +15772,32 @@
       "genieten",
       "hoesten"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-terugkomen",
     "nl": "Wij willen volgend jaar terugkomen.",
     "form": "terugkomen",
     "distractors": [
-      "sporten",
+      "zuchten",
       "legen",
       "leveren"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-testen",
     "nl": "Wij gaan de nieuwe machine testen.",
     "form": "testen",
     "distractors": [
-      "ontdekken",
+      "zuchten",
       "betekenen",
       "uitleggen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-thuisblijven",
@@ -15421,21 +15805,23 @@
     "form": "thuisblijven",
     "distractors": [
       "geven",
-      "twijfelen",
+      "hoesten",
       "pakken"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-thuiskomen",
     "nl": "De kinderen moeten voor zes uur thuiskomen.",
     "form": "thuiskomen",
     "distractors": [
-      "schreeuwen",
+      "branden",
       "proberen",
       "afgeven"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-toevoegen",
@@ -15446,7 +15832,8 @@
       "internetten",
       "vertalen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-tonen",
@@ -15457,7 +15844,8 @@
       "rennen",
       "samenwerken"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-trappen",
@@ -15479,7 +15867,8 @@
       "wensen",
       "stelen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-twijfelen",
@@ -15499,9 +15888,10 @@
     "distractors": [
       "organiseren",
       "bakken",
-      "tekenen"
+      "hoesten"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-uitgaan",
@@ -15512,18 +15902,20 @@
       "ontslaan",
       "stoten"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-uitgeven",
     "nl": "Ik wil niet te veel geld uitgeven.",
     "form": "uitgeven",
     "distractors": [
-      "regelen",
+      "branden",
       "afvallen",
       "roeien"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-uitleggen",
@@ -15534,7 +15926,8 @@
       "meenemen",
       "verplaatsen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-uitnodigen",
@@ -15542,10 +15935,11 @@
     "form": "uitnodigen",
     "distractors": [
       "trappen",
-      "verwachten",
+      "hoesten",
       "wijzen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-uitspreken",
@@ -15556,7 +15950,8 @@
       "vallen",
       "sluiten"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-uitstappen",
@@ -15567,7 +15962,8 @@
       "slikken",
       "herstellen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-uitstellen",
@@ -15578,18 +15974,20 @@
       "accepteren",
       "uitnodigen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-updaten",
     "nl": "Ik moet de app updaten.",
     "form": "updaten",
     "distractors": [
-      "bellen",
+      "duren",
       "verdwijnen",
       "zuchten"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-vallen",
@@ -15600,7 +15998,8 @@
       "vergelijken",
       "dansen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-vangen",
@@ -15611,18 +16010,20 @@
       "douchen",
       "overstappen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-vechten",
     "nl": "De jongens willen niet vechten.",
     "form": "vechten",
     "distractors": [
-      "delen",
+      "hoesten",
       "branden",
       "appen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-veranderen",
@@ -15633,7 +16034,8 @@
       "verliezen",
       "knutselen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-verbergen",
@@ -15644,7 +16046,8 @@
       "betalen",
       "herhalen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-verbeteren",
@@ -15652,10 +16055,11 @@
     "form": "verbeteren",
     "distractors": [
       "versieren",
-      "volgen",
+      "hoesten",
       "sturen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-verbieden",
@@ -15666,7 +16070,8 @@
       "schrikken",
       "internetten"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-verbouwen",
@@ -15677,7 +16082,8 @@
       "slagen",
       "besluiten"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-verdelen",
@@ -15688,7 +16094,8 @@
       "zingen",
       "gebeuren"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-verdienen",
@@ -15699,7 +16106,8 @@
       "zitten",
       "rusten"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-verdwijnen",
@@ -15707,10 +16115,11 @@
     "form": "verdwijnen",
     "distractors": [
       "snijden",
-      "kijken",
+      "huilen",
       "storen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-vergelijken",
@@ -15721,7 +16130,8 @@
       "ontbijten",
       "springen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-vergeten",
@@ -15732,7 +16142,8 @@
       "verrassen",
       "bedanken"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-verhuren",
@@ -15743,7 +16154,8 @@
       "buigen",
       "leren"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-verkopen",
@@ -15751,21 +16163,23 @@
     "form": "verkopen",
     "distractors": [
       "weten",
-      "uitstellen",
+      "huilen",
       "tellen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-verlaten",
     "nl": "Wij moeten het gebouw verlaten.",
     "form": "verlaten",
     "distractors": [
-      "noemen",
+      "huilen",
       "slikken",
       "verzinnen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-verlengen",
@@ -15787,7 +16201,8 @@
       "roepen",
       "lachen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-verplaatsen",
@@ -15798,7 +16213,8 @@
       "rekenen",
       "twijfelen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-verrassen",
@@ -15809,7 +16225,8 @@
       "drogen",
       "logeren"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-verschijnen",
@@ -15820,7 +16237,8 @@
       "geloven",
       "afzetten"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-versieren",
@@ -15831,7 +16249,8 @@
       "raden",
       "mailen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-vertalen",
@@ -15842,7 +16261,8 @@
       "ontspannen",
       "kloppen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-vertellen",
@@ -15853,7 +16273,8 @@
       "klimmen",
       "duiken"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-vervangen",
@@ -15864,7 +16285,8 @@
       "missen",
       "feliciteren"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-vervelen",
@@ -15875,7 +16297,8 @@
       "drink",
       "gooi"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-verwachten",
@@ -15886,7 +16309,8 @@
       "veranderen",
       "liggen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-verwarmen",
@@ -15894,10 +16318,11 @@
     "form": "verwarmen",
     "distractors": [
       "wensen",
-      "controleren",
+      "huilen",
       "schelen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-verzamelen",
@@ -15908,18 +16333,20 @@
       "uitspreken",
       "zuchten"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-verzinnen",
     "nl": "Mijn zoon kan leuke grappen verzinnen.",
     "form": "verzinnen",
     "distractors": [
-      "gebruiken",
+      "huilen",
       "winkelen",
       "merken"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-verzorgen",
@@ -15930,7 +16357,8 @@
       "studeren",
       "vertalen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-vieren",
@@ -15941,7 +16369,8 @@
       "behandelen",
       "innemen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-vissen",
@@ -15952,7 +16381,8 @@
       "bespreken",
       "vergeten"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-voelen",
@@ -15963,7 +16393,8 @@
       "zwem",
       "loop"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-voetballen",
@@ -15974,7 +16405,8 @@
       "durven",
       "poetsen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-volgen",
@@ -15985,7 +16417,8 @@
       "chatten",
       "afvallen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-voorstellen",
@@ -15996,7 +16429,8 @@
       "verschijnen",
       "typen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-vriezen",
@@ -16007,7 +16441,8 @@
       "proberen",
       "overleggen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-vullen",
@@ -16018,7 +16453,8 @@
       "bezoeken",
       "haten"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-waaien",
@@ -16029,7 +16465,8 @@
       "verlengen",
       "meten"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-waarschuwen",
@@ -16037,10 +16474,11 @@
     "form": "waarschuwen",
     "distractors": [
       "meedoen",
-      "accepteren",
+      "huilen",
       "vissen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-weggooien",
@@ -16051,7 +16489,8 @@
       "inschrijven",
       "mislukken"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-wegleggen",
@@ -16059,10 +16498,11 @@
     "form": "wegleggen",
     "distractors": [
       "solliciteren",
-      "verbeteren",
+      "duren",
       "groeten"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-weigeren",
@@ -16071,9 +16511,10 @@
     "distractors": [
       "reizen",
       "spellen",
-      "ruiken"
+      "dromen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-wennen",
@@ -16084,7 +16525,8 @@
       "organiseren",
       "liegen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-wensen",
@@ -16095,7 +16537,8 @@
       "lees",
       "blijf"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-wijzen",
@@ -16106,7 +16549,8 @@
       "werkt",
       "oefent"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-winkelen",
@@ -16117,7 +16561,8 @@
       "opnemen",
       "brengen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-winnen",
@@ -16128,7 +16573,8 @@
       "komen",
       "nadenken"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-worden",
@@ -16139,7 +16585,8 @@
       "kopen",
       "opslaan"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-wrijven",
@@ -16150,7 +16597,8 @@
       "woon",
       "ren"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-zakken",
@@ -16161,7 +16609,8 @@
       "spreek",
       "hang"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-zetten",
@@ -16172,7 +16621,8 @@
       "eet",
       "begrijp"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-zingen",
@@ -16183,18 +16633,20 @@
       "dromen",
       "planten"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-zorgen",
     "nl": "Ik zorg voor mijn oma.",
     "form": "zorg",
     "distractors": [
-      "speel",
+      "woon",
       "hoop",
       "denk"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   },
   {
     "word_id": "verb-zuchten",
@@ -16202,9 +16654,10 @@
     "form": "zucht",
     "distractors": [
       "duwt",
-      "wacht",
+      "groeit",
       "schrijft"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "roundtrip"
   }
 ]
