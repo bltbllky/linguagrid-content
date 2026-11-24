@@ -1,0 +1,31 @@
+id,level,status,distractor,reason
+verb-zeggen,A1,FIT,scheiden,"""Wat wil jij scheiden?"" fits"
+adj-agressief,A2a,FIT,vierkant/houten/elektrisch,"negated ""niet ..."" is true for all"
+adj-waar,A2a,FIT,onzeker,"""Dat is niet onzeker"" fits"
+adj-wild,A2a,FIT,actief,"""actief dier"" fits"
+noun-bad,A2a,FIT,probleem,"""Het probleem in onze badkamer"" fits"
+noun-clown,A2a,FIT,tip,"""De tip is erg grappig"" fits"
+noun-instrument,A2a,FIT,voorbeeld,"""Een gitaar is een voorbeeld"" fits"
+noun-kleinkind,A2a,FIT,inkomen,"""Mijn oma heeft een inkomen"" fits"
+noun-mening,A2a,FIT,temperatuur,"""Wat is jouw temperatuur?"" fits"
+noun-toilet,A1,WEAK,leven,"""Waar is het leven?"" philosophical"
+noun-toekomst,A1,WEAK,doos,"""in de doos"" literal"
+noun-twee,A1,WEAK,miljoen/miljard/duizend,absurd by world fact only
+noun-vier,A1,WEAK,honderd/duizend/miljard,absurd by world fact only
+noun-vijf,A1,WEAK,miljoen/honderd/tachtig,absurd by world fact only
+noun-tien,A1,WEAK,honderd/duizend/negentig,absurd by world fact only
+verb-roken,A1,WEAK,passen,"""Hier mag ik niet passen"" (shop) possible"
+verb-rusten,A1,WEAK,overlijden/passen,"""moet vandaag overlijden/passen"" grim or odd"
+adj-logisch,A2a,WEAK,creatief,"""Deze regel is creatief"" possible"
+adj-slim,A2a,WEAK,bruin,"""heel bruin"" (tanned) possible"
+noun-bot,A2a,WEAK,doel,"""krijgt een doel"" possible"
+noun-discussie,A2a,WEAK,som,"""een lange som"" possible"
+noun-duin,A2a,WEAK,gevaar,"""ligt een gevaar"" possible"
+noun-geheim,A2a,WEAK,excuus,"""een groot excuus"" possible"
+noun-gevaar,A2a,WEAK,geheim,"""Het geheim is groot hier"" possible"
+noun-huisnummer,A2a,WEAK,team,"""Mijn team is twaalf"" possible"
+noun-insect,A2a,WEAK,probleem,"""een probleem op de tafel"" possible"
+noun-kilometer,A2a,WEAK,dag,"""een dag ver"" possible"
+noun-kunstwerk,A2a,WEAK,verdriet,"""Dit verdriet is erg mooi"" poetic"
+noun-moedertaal,A2a,WEAK,klant,"""Mijn klant is erg mooi"" possible"
+noun-onderwijs,A2a,WEAK,voorbeeld,"""Goed voorbeeld is belangrijk"" possible"

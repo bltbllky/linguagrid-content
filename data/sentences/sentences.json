@@ -1825,9 +1825,9 @@
     "nl": "Waar is het toilet?",
     "form": "toilet",
     "distractors": [
-      "leven",
       "jaar",
-      "weekend"
+      "weekend",
+      "huishouden"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2125,7 +2125,7 @@
     "nl": "Wat doe jij in de toekomst?",
     "form": "toekomst",
     "distractors": [
-      "doos",
+      "koffie",
       "fiets",
       "schoen"
     ],
@@ -3725,7 +3725,7 @@
     "nl": "Hier mag ik niet roken.",
     "form": "roken",
     "distractors": [
-      "passen",
+      "bloeden",
       "heten",
       "duren"
     ],
@@ -4072,7 +4072,7 @@
     "form": "zeggen",
     "distractors": [
       "hoeven",
-      "scheiden",
+      "groeien",
       "bloeden"
     ],
     "reviewed": true,
@@ -4178,9 +4178,9 @@
     "nl": "Mijn oma moet vandaag rusten.",
     "form": "rusten",
     "distractors": [
-      "overlijden",
+      "groeien",
       "heten",
-      "passen"
+      "bloeden"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -5682,9 +5682,9 @@
     "nl": "Deze regel is logisch.",
     "form": "logisch",
     "distractors": [
-      "bezorgd",
-      "onzeker",
-      "creatief"
+      "bleek",
+      "nat",
+      "blind"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -5946,9 +5946,9 @@
     "nl": "Mijn dochter is heel slim.",
     "form": "slim",
     "distractors": [
-      "klassiek",
-      "bruin",
-      "groen"
+      "jammer",
+      "kwijt",
+      "toevallig"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -6402,8 +6402,8 @@
     "form": "wild",
     "distractors": [
       "getrouwd",
-      "zwanger",
-      "actief"
+      "welkom",
+      "nodig"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -6833,9 +6833,9 @@
     "nl": "Het bad in onze badkamer is groot.",
     "form": "bad",
     "distractors": [
-      "probleem",
-      "verhaal",
-      "spel"
+      "perron",
+      "kruispunt",
+      "veld"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -7394,9 +7394,9 @@
     "nl": "Mijn hond krijgt een bot.",
     "form": "bot",
     "distractors": [
-      "doel",
+      "loket",
       "verleden",
-      "weer"
+      "perron"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -7715,9 +7715,9 @@
     "nl": "De clown is erg grappig.",
     "form": "clown",
     "distractors": [
-      "som",
-      "letter",
-      "tip"
+      "batterij",
+      "benzine",
+      "verwarming"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -7921,7 +7921,7 @@
     "distractors": [
       "kleur",
       "kalender",
-      "som"
+      "huid"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -8087,8 +8087,8 @@
     "nl": "Achter het strand ligt een duin.",
     "form": "duin",
     "distractors": [
-      "gevaar",
-      "rapport",
+      "vak",
+      "programma",
       "verleden"
     ],
     "reviewed": true,
@@ -8435,7 +8435,7 @@
     "nl": "Mijn vriend heeft een groot geheim.",
     "form": "geheim",
     "distractors": [
-      "excuus",
+      "perron",
       "verkeer",
       "haar"
     ],
@@ -8532,7 +8532,7 @@
     "form": "gevaar",
     "distractors": [
       "rapport",
-      "geheim",
+      "vaccin",
       "oosten"
     ],
     "reviewed": true,
@@ -9142,7 +9142,7 @@
     "distractors": [
       "goud",
       "plan",
-      "team"
+      "land"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -9296,9 +9296,9 @@
     "nl": "Ik zie een insect op de tafel.",
     "form": "insect",
     "distractors": [
-      "doel",
-      "probleem",
-      "verhaal"
+      "leven",
+      "avontuur",
+      "bezoek"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -9308,9 +9308,9 @@
     "nl": "Een gitaar is een instrument.",
     "form": "instrument",
     "distractors": [
-      "project",
-      "cijfer",
-      "voorbeeld"
+      "brood",
+      "dak",
+      "cijfer"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -9572,7 +9572,7 @@
     "form": "kilometer",
     "distractors": [
       "april",
-      "dag",
+      "pen",
       "keer"
     ],
     "reviewed": true,
@@ -9631,9 +9631,9 @@
     "nl": "Mijn oma heeft een kleinkind.",
     "form": "kleinkind",
     "distractors": [
-      "inkomen",
-      "geluk",
-      "onderwijs"
+      "oosten",
+      "zuiden",
+      "noorden"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -9870,9 +9870,9 @@
     "nl": "Dit kunstwerk is erg mooi.",
     "form": "kunstwerk",
     "distractors": [
-      "zuiden",
-      "oosten",
-      "verdriet"
+      "afval",
+      "medicijn",
+      "ongeluk"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -10350,7 +10350,7 @@
     "distractors": [
       "februari",
       "juli",
-      "temperatuur"
+      "knie"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -10456,9 +10456,9 @@
     "nl": "Mijn moedertaal is erg mooi.",
     "form": "moedertaal",
     "distractors": [
-      "zaterdag",
-      "rekening",
-      "klant"
+      "griep",
+      "ziekte",
+      "pech"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -10719,8 +10719,8 @@
     "form": "onderwijs",
     "distractors": [
       "kwart",
-      "verhaal",
-      "voorbeeld"
+      "ongeluk",
+      "dal"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -11467,7 +11467,7 @@
     "form": "rapport",
     "distractors": [
       "hout",
-      "weer",
+      "perron",
       "strand"
     ],
     "reviewed": true,
