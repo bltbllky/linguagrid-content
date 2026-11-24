@@ -35,6 +35,12 @@ describe('validateSentenceStage', () => {
     assert.deepEqual(errors(stage([good()], { tr: [{ word_id: 'noun-huis', text: 'Bir evde oturuyorum.', reviewed: false }] })), []);
   });
 
+  it('two translation files validate together, with their own errors per language', () => {
+    const ok = { word_id: 'noun-huis', text: 'x', reviewed: false };
+    assert.deepEqual(errors(stage([good()], { tr: [ok], en: [ok] })), []);
+    assert.deepEqual(errors(stage([good()], { tr: [ok], en: [{ ...ok, text: ' ' }] })), ['sentences/translations/en: noun-huis: empty_text']);
+  });
+
   it('a checkSentence failure is reported with the word id and code', () => {
     const row = { ...good(), nl: 'Ik woon in een huis 2.' };
     assert.ok(errors(stage([row])).includes('sentences: noun-huis: digit 2'));
