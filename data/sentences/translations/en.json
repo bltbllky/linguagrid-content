@@ -1,0 +1,502 @@
+[
+  {
+    "word_id": "noun-moeder",
+    "text": "My mother is cooking in the kitchen.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-vriend",
+    "text": "My friend lives in a big house.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-kind",
+    "text": "The child is sleeping in a small bed.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-man",
+    "text": "The man is buying a new car.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-zus",
+    "text": "My sister is playing with the dog in the garden.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-buur",
+    "text": "My neighbour has a small dog.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-meisje",
+    "text": "The girl is drinking a glass of water.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-verjaardag",
+    "text": "My birthday is in the summer.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-naam",
+    "text": "What is your name?",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-telefoon",
+    "text": "My phone is lying on the table.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-taal",
+    "text": "I speak two languages.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-woord",
+    "text": "I do not understand this word.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-adres",
+    "text": "What is your address?",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-huis",
+    "text": "Our house has a big garden.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-keuken",
+    "text": "The kitchen is small, but clean.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-deur",
+    "text": "The door of the house is white.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-tuin",
+    "text": "We are eating in the garden.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bed",
+    "text": "My bed is in the room.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-tafel",
+    "text": "The table in the kitchen is new.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-raam",
+    "text": "I can see the garden through the window.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-sleutel",
+    "text": "I am looking for my key and my phone.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-stoel",
+    "text": "There is a chair next to the table.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-kamer",
+    "text": "My room is small, but beautiful.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-brood",
+    "text": "I am eating bread with cheese.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-koffie",
+    "text": "My father drinks coffee and I drink water.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-kaas",
+    "text": "We buy cheese at the market.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-appel",
+    "text": "I want to eat an apple.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-water",
+    "text": "Would you like a glass of water?",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-fles",
+    "text": "There is a bottle of water on the table.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-week",
+    "text": "The week has seven days.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-maandag",
+    "text": "I do not work on Mondays.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-zomer",
+    "text": "In the summer I swim in the sea.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-avond",
+    "text": "It is already evening.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-uur",
+    "text": "The lesson lasts one hour.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-jaar",
+    "text": "My son is four years old.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-school",
+    "text": "My son goes to school.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-les",
+    "text": "The lesson starts at two o'clock.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-werk",
+    "text": "I go to work by bike.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-computer",
+    "text": "I am working with a computer now.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-auto",
+    "text": "My father has a new car.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-trein",
+    "text": "The train to the city is late.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-fiets",
+    "text": "My bike is next to the station.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-station",
+    "text": "The station is far from my house.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-straat",
+    "text": "We live in a long street.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-hond",
+    "text": "The dog is sleeping on my bed.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-zon",
+    "text": "The sun is hot and the weather is nice.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-boom",
+    "text": "There is a big tree in the garden.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-dier",
+    "text": "A dog is an animal.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-weer",
+    "text": "The weather is cold, but the sun is warm.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-hand",
+    "text": "My hand hurts.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-hoofd",
+    "text": "My head hurts.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-oog",
+    "text": "My daughter has blue eyes.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-neus",
+    "text": "My nose is cold.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-arts",
+    "text": "I am going to the doctor because I am ill.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-ziekenhuis",
+    "text": "He is in the hospital because he is ill.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-film",
+    "text": "I am watching a film with my friend.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-muziek",
+    "text": "My sister likes listening to music.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-vakantie",
+    "text": "We are going on holiday to the sea.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-winkel",
+    "text": "I buy shoes in the shop.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-geld",
+    "text": "I have no money for a new car.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-prijs",
+    "text": "The price of the shoes is low.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-broek",
+    "text": "I am wearing black trousers.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-schoen",
+    "text": "My shoes are new.",
+    "reviewed": false
+  },
+  {
+    "word_id": "noun-bril",
+    "text": "I cannot see well without my glasses.",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-wonen",
+    "text": "We live in a small house.",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-eten",
+    "text": "We eat at six o'clock.",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-drinken",
+    "text": "My son is drinking a glass of water.",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-werken",
+    "text": "I work from Monday to Friday.",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-lezen",
+    "text": "She is reading the question once more.",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-leren",
+    "text": "I am learning a new language.",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-rijden",
+    "text": "My father drives to work by car.",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-slapen",
+    "text": "I am tired and want to sleep.",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-kopen",
+    "text": "I want to buy a new bike.",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-spelen",
+    "text": "The children are playing in the garden.",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-zwemmen",
+    "text": "We are going swimming in the sea.",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-kijken",
+    "text": "We want to watch a film.",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-wachten",
+    "text": "I am waiting for the bus at the station.",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-bellen",
+    "text": "I want to call my mother.",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-koken",
+    "text": "I want to cook fish and vegetables.",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-helpen",
+    "text": "Can you help me with my work?",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-zoeken",
+    "text": "We are looking for a cheap house.",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-betalen",
+    "text": "Where can I pay?",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-luisteren",
+    "text": "We are listening to the teacher.",
+    "reviewed": false
+  },
+  {
+    "word_id": "verb-praten",
+    "text": "They are talking to the teacher in the classroom.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-groot",
+    "text": "My grandfather's house is big.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-klein",
+    "text": "These shoes are too small.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-nieuw",
+    "text": "I have a new phone.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-oud",
+    "text": "My grandfather is eighty years old.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-lekker",
+    "text": "The coffee is tasty.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-koud",
+    "text": "The water is cold.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-warm",
+    "text": "It is very warm here.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-duur",
+    "text": "This car is too expensive.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-goedkoop",
+    "text": "The bread is cheap here.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-moe",
+    "text": "I am tired and want to go to bed.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-ziek",
+    "text": "My son is ill and is lying in bed.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-gelukkig",
+    "text": "We are very happy in our house.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-snel",
+    "text": "My friend walks very fast.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-mooi",
+    "text": "Your garden is very beautiful.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-moeilijk",
+    "text": "This question is difficult.",
+    "reviewed": false
+  },
+  {
+    "word_id": "adj-schoon",
+    "text": "The glass is clean.",
+    "reviewed": false
+  }
+]
