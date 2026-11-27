@@ -1424,7 +1424,8 @@
       "broek",
       "ring"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-meneer",
@@ -1435,7 +1436,8 @@
       "lamp",
       "telefoon"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-mevrouw",
@@ -1818,16 +1820,17 @@
       "spiegel",
       "computer"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-toilet",
     "nl": "Waar is het toilet?",
     "form": "toilet",
     "distractors": [
-      "leven",
       "jaar",
-      "weekend"
+      "weekend",
+      "huishouden"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -2125,7 +2128,7 @@
     "nl": "Wat doe jij in de toekomst?",
     "form": "toekomst",
     "distractors": [
-      "doos",
+      "koffie",
       "fiets",
       "schoen"
     ],
@@ -2369,7 +2372,8 @@
       "laken",
       "bord"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-patiënt",
@@ -2476,7 +2480,8 @@
       "moment",
       "recept"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-tand",
@@ -2655,7 +2660,8 @@
       "kerst",
       "datum"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-keel",
@@ -2870,7 +2876,8 @@
       "tand",
       "arm"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-echtgenote",
@@ -2881,7 +2888,8 @@
       "mond",
       "neus"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-hart",
@@ -3228,7 +3236,8 @@
       "dak",
       "vlees"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-vier",
@@ -3383,7 +3392,8 @@
       "ongeluk",
       "moment"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-zeventien",
@@ -3646,7 +3656,8 @@
       "draaien",
       "springen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "verb-snijden",
@@ -3725,7 +3736,7 @@
     "nl": "Hier mag ik niet roken.",
     "form": "roken",
     "distractors": [
-      "passen",
+      "bloeden",
       "heten",
       "duren"
     ],
@@ -3753,7 +3764,8 @@
       "huren",
       "kopen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "verb-hebben",
@@ -3860,7 +3872,8 @@
       "luister",
       "spreek"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "verb-wassen",
@@ -4072,7 +4085,7 @@
     "form": "zeggen",
     "distractors": [
       "hoeven",
-      "scheiden",
+      "groeien",
       "bloeden"
     ],
     "reviewed": true,
@@ -4159,7 +4172,8 @@
       "zwemmen",
       "spelen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "verb-vliegen",
@@ -4178,9 +4192,9 @@
     "nl": "Mijn oma moet vandaag rusten.",
     "form": "rusten",
     "distractors": [
-      "overlijden",
+      "groeien",
       "heten",
-      "passen"
+      "bloeden"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -4374,7 +4388,8 @@
       "groen",
       "blauw"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "adj-rechts",
@@ -4421,7 +4436,8 @@
       "groen",
       "diep"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "adj-bang",
@@ -4528,7 +4544,8 @@
       "getrouwd",
       "dagelijks"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "adj-kort",
@@ -4635,7 +4652,8 @@
       "blauw",
       "paars"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "adj-geel",
@@ -4742,7 +4760,8 @@
       "vorig",
       "links"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "adj-wakker",
@@ -4825,7 +4844,8 @@
       "vorig",
       "half"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "adj-gek",
@@ -5196,7 +5216,8 @@
       "gemiddeld",
       "houten"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "adj-duidelijk",
@@ -5243,7 +5264,8 @@
       "paars",
       "rond"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "adj-eerlijk",
@@ -5682,9 +5704,9 @@
     "nl": "Deze regel is logisch.",
     "form": "logisch",
     "distractors": [
-      "bezorgd",
-      "onzeker",
-      "creatief"
+      "bleek",
+      "nat",
+      "blind"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -5946,9 +5968,9 @@
     "nl": "Mijn dochter is heel slim.",
     "form": "slim",
     "distractors": [
-      "klassiek",
-      "bruin",
-      "groen"
+      "jammer",
+      "kwijt",
+      "toevallig"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -6082,7 +6104,8 @@
       "zwanger",
       "wakker"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "adj-uitstekend",
@@ -6402,8 +6425,8 @@
     "form": "wild",
     "distractors": [
       "getrouwd",
-      "zwanger",
-      "actief"
+      "welkom",
+      "nodig"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -6833,9 +6856,9 @@
     "nl": "Het bad in onze badkamer is groot.",
     "form": "bad",
     "distractors": [
-      "probleem",
-      "verhaal",
-      "spel"
+      "perron",
+      "kruispunt",
+      "veld"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -6981,7 +7004,8 @@
       "tennis",
       "internet"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-bedrijf",
@@ -7076,7 +7100,8 @@
       "vraag",
       "test"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-bericht",
@@ -7195,7 +7220,8 @@
       "voorkant",
       "tekst"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-bijnaam",
@@ -7394,9 +7420,9 @@
     "nl": "Mijn hond krijgt een bot.",
     "form": "bot",
     "distractors": [
-      "doel",
+      "loket",
       "verleden",
-      "weer"
+      "perron"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -7422,7 +7448,8 @@
       "wolk",
       "betaling"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-bovenkant",
@@ -7685,7 +7712,8 @@
       "toilet",
       "oosten"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-circus",
@@ -7708,16 +7736,17 @@
       "kus",
       "belofte"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-clown",
     "nl": "De clown is erg grappig.",
     "form": "clown",
     "distractors": [
-      "som",
-      "letter",
-      "tip"
+      "batterij",
+      "benzine",
+      "verwarming"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -7921,7 +7950,7 @@
     "distractors": [
       "kleur",
       "kalender",
-      "som"
+      "huid"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -8087,8 +8116,8 @@
     "nl": "Achter het strand ligt een duin.",
     "form": "duin",
     "distractors": [
-      "gevaar",
-      "rapport",
+      "vak",
+      "programma",
       "verleden"
     ],
     "reviewed": true,
@@ -8435,7 +8464,7 @@
     "nl": "Mijn vriend heeft een groot geheim.",
     "form": "geheim",
     "distractors": [
-      "excuus",
+      "perron",
       "verkeer",
       "haar"
     ],
@@ -8532,7 +8561,7 @@
     "form": "gevaar",
     "distractors": [
       "rapport",
-      "geheim",
+      "vaccin",
       "oosten"
     ],
     "reviewed": true,
@@ -8655,7 +8684,8 @@
       "antwoord",
       "adres"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-grens",
@@ -8858,7 +8888,8 @@
       "verdriet",
       "verschil"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-helft",
@@ -8941,7 +8972,8 @@
       "feestdag",
       "november"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-hobby",
@@ -9142,7 +9174,7 @@
     "distractors": [
       "goud",
       "plan",
-      "team"
+      "land"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -9296,9 +9328,9 @@
     "nl": "Ik zie een insect op de tafel.",
     "form": "insect",
     "distractors": [
-      "doel",
-      "probleem",
-      "verhaal"
+      "leven",
+      "avontuur",
+      "bezoek"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -9308,9 +9340,9 @@
     "nl": "Een gitaar is een instrument.",
     "form": "instrument",
     "distractors": [
-      "project",
-      "cijfer",
-      "voorbeeld"
+      "brood",
+      "dak",
+      "cijfer"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -9408,7 +9440,8 @@
       "cent",
       "groep"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-kade",
@@ -9572,7 +9605,7 @@
     "form": "kilometer",
     "distractors": [
       "april",
-      "dag",
+      "pen",
       "keer"
     ],
     "reviewed": true,
@@ -9631,9 +9664,9 @@
     "nl": "Mijn oma heeft een kleinkind.",
     "form": "kleinkind",
     "distractors": [
-      "inkomen",
-      "geluk",
-      "onderwijs"
+      "oosten",
+      "zuiden",
+      "noorden"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -9683,7 +9716,8 @@
       "richting",
       "leugen"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-koekje",
@@ -9870,9 +9904,9 @@
     "nl": "Dit kunstwerk is erg mooi.",
     "form": "kunstwerk",
     "distractors": [
-      "zuiden",
-      "oosten",
-      "verdriet"
+      "afval",
+      "medicijn",
+      "ongeluk"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -9922,7 +9956,8 @@
       "rekening",
       "boete"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-landschap",
@@ -9993,7 +10028,8 @@
       "tip",
       "december"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-lepel",
@@ -10350,7 +10386,7 @@
     "distractors": [
       "februari",
       "juli",
-      "temperatuur"
+      "knie"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -10456,9 +10492,9 @@
     "nl": "Mijn moedertaal is erg mooi.",
     "form": "moedertaal",
     "distractors": [
-      "zaterdag",
-      "rekening",
-      "klant"
+      "griep",
+      "ziekte",
+      "pech"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -10556,7 +10592,8 @@
       "serie",
       "pauze"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-muzikant",
@@ -10615,7 +10652,8 @@
       "angst",
       "luxe"
     ],
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-nieuws",
@@ -10719,8 +10757,8 @@
     "form": "onderwijs",
     "distractors": [
       "kwart",
-      "verhaal",
-      "voorbeeld"
+      "ongeluk",
+      "dal"
     ],
     "reviewed": true,
     "review_source": "roundtrip"
@@ -10769,6 +10807,5934 @@
       "stap",
       "cent",
       "wens"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-opleiding",
+    "nl": "Zij volgt een opleiding bij de politie.",
+    "form": "opleiding",
+    "distractors": [
+      "aarde",
+      "biet",
+      "schouder"
+    ],
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-opmerking",
+    "nl": "Hij maakt een grappige opmerking.",
+    "form": "opmerking",
+    "distractors": [
+      "inwoner",
+      "boot",
+      "kunstenaar"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-oven",
+    "nl": "De oven is erg heet.",
+    "form": "oven",
+    "distractors": [
+      "duim",
+      "bril",
+      "les"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-paard",
+    "nl": "Het paard eet gras.",
+    "form": "paard",
+    "distractors": [
+      "paspoort",
+      "zand",
+      "witlof"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pad",
+    "nl": "Dit pad gaat naar het strand.",
+    "form": "pad",
+    "distractors": [
+      "metaal",
+      "hemd",
+      "blad"
+    ],
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-paddenstoel",
+    "nl": "De paddenstoel groeit onder de boom.",
+    "form": "paddenstoel",
+    "distractors": [
+      "koorts",
+      "muur",
+      "haven"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pagina",
+    "nl": "De pagina op mijn computer is leeg.",
+    "form": "pagina",
+    "distractors": [
+      "aap",
+      "worst",
+      "muts"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pak",
+    "nl": "Hij draagt een zwart pak.",
+    "form": "pak",
+    "distractors": [
+      "landschap",
+      "plastic",
+      "hart"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pakket",
+    "nl": "Het pakket komt met de post.",
+    "form": "pakket",
+    "distractors": [
+      "hotel",
+      "oor",
+      "circus"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-papa",
+    "nl": "Mijn papa werkt in een fabriek.",
+    "form": "papa",
+    "distractors": [
+      "onderarm",
+      "druif",
+      "champagne"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-papier",
+    "nl": "Er ligt papier op de vloer.",
+    "form": "papier",
+    "distractors": [
+      "recept",
+      "plein",
+      "meisje"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-paraplu",
+    "nl": "Het regent, dus ik pak mijn paraplu.",
+    "form": "paraplu",
+    "distractors": [
+      "ham",
+      "winkel",
+      "ziekte"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-partner",
+    "nl": "Mijn partner werkt vandaag thuis.",
+    "form": "partner",
+    "distractors": [
+      "tong",
+      "gitaar",
+      "kachel"
+    ],
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-paspoort",
+    "nl": "Bij de douane laat ik mijn paspoort zien.",
+    "form": "paspoort",
+    "distractors": [
+      "westen",
+      "noorden",
+      "seizoen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-passagier",
+    "nl": "De passagier wacht bij de halte.",
+    "form": "passagier",
+    "distractors": [
+      "badkamer",
+      "televisie",
+      "buik"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pasta",
+    "nl": "Wij eten vandaag pasta met tomaat.",
+    "form": "pasta",
+    "distractors": [
+      "zak",
+      "pen",
+      "wenkbrauw"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pauze",
+    "nl": "Wij hebben een pauze van tien minuten.",
+    "form": "pauze",
+    "distractors": [
+      "peer",
+      "kous",
+      "garnaal"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pech",
+    "nl": "Ik heb pech met mijn auto.",
+    "form": "pech",
+    "distractors": [
+      "wol",
+      "pan",
+      "zanger"
+    ],
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-peer",
+    "nl": "Ik eet een peer na de lunch.",
+    "form": "peer",
+    "distractors": [
+      "muis",
+      "bui",
+      "armband"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pen",
+    "nl": "Mag ik jouw pen lenen?",
+    "form": "pen",
+    "distractors": [
+      "leraar",
+      "vogel",
+      "advocaat"
+    ],
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-pensioen",
+    "nl": "Mijn opa gaat volgend jaar met pensioen.",
+    "form": "pensioen",
+    "distractors": [
+      "voorhoofd",
+      "gras",
+      "tijdschrift"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-peper",
+    "nl": "Wil je peper op je soep?",
+    "form": "peper",
+    "distractors": [
+      "documentaire",
+      "polder",
+      "man"
+    ],
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-perron",
+    "nl": "Wij wachten op de trein op het perron.",
+    "form": "perron",
+    "distractors": [
+      "uniform",
+      "concert",
+      "koekje"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-personeel",
+    "nl": "Het personeel is vandaag erg vriendelijk.",
+    "form": "personeel",
+    "distractors": [
+      "broodje",
+      "kasteel",
+      "gerecht"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pet",
+    "nl": "Hij draagt een rode pet in de zon.",
+    "form": "pet",
+    "distractors": [
+      "klok",
+      "winnaar",
+      "meter"
+    ],
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-piano",
+    "nl": "Mijn dochter speelt piano.",
+    "form": "piano",
+    "distractors": [
+      "huisarts",
+      "eeuw",
+      "pet"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pijl",
+    "nl": "De pijl wijst naar rechts.",
+    "form": "pijl",
+    "distractors": [
+      "fabriek",
+      "honing",
+      "leeuw"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pil",
+    "nl": "Ik neem elke ochtend een pil.",
+    "form": "pil",
+    "distractors": [
+      "radio",
+      "tand",
+      "baby"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-piloot",
+    "nl": "De piloot werkt in het vliegtuig.",
+    "form": "piloot",
+    "distractors": [
+      "kast",
+      "mossel",
+      "fiets"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pink",
+    "nl": "Mijn pink doet pijn.",
+    "form": "pink",
+    "distractors": [
+      "maaltijd",
+      "koelkast",
+      "lucht"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pizza",
+    "nl": "Wij bestellen een pizza met kaas.",
+    "form": "pizza",
+    "distractors": [
+      "grot",
+      "vrachtwagen",
+      "lamp"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-plaats",
+    "nl": "Deze plaats is nog vrij.",
+    "form": "plaats",
+    "distractors": [
+      "heuvel",
+      "pasta",
+      "sport"
+    ],
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-plafond",
+    "nl": "Er zit een lamp aan het plafond.",
+    "form": "plafond",
+    "distractors": [
+      "gezicht",
+      "ballet",
+      "rijbewijs"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-plan",
+    "nl": "Zijn plan is erg slim.",
+    "form": "plan",
+    "distractors": [
+      "sap",
+      "feest",
+      "pak"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-plant",
+    "nl": "De plant heeft water en zon nodig.",
+    "form": "plant",
+    "distractors": [
+      "lift",
+      "zolder",
+      "piano"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-plastic",
+    "nl": "Dit is plastic, geen glas.",
+    "form": "plastic",
+    "distractors": [
+      "kussen",
+      "museum",
+      "dak"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-plein",
+    "nl": "Op het plein staat een grote kerk.",
+    "form": "plein",
+    "distractors": [
+      "schort",
+      "voetbal",
+      "raam"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-plezier",
+    "nl": "Wij hebben veel plezier in de les.",
+    "form": "plezier",
+    "distractors": [
+      "gebouw",
+      "laken",
+      "varken"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-poes",
+    "nl": "De poes slaapt op de stoel.",
+    "form": "poes",
+    "distractors": [
+      "groente",
+      "bloem",
+      "long"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-polder",
+    "nl": "De polder is vlak en groen.",
+    "form": "polder",
+    "distractors": [
+      "vos",
+      "rijst",
+      "vlieg"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-politie",
+    "nl": "De politie helpt ons bij het ongeluk.",
+    "form": "politie",
+    "distractors": [
+      "markt",
+      "hand",
+      "bus"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pond",
+    "nl": "Ik koop een pond kaas.",
+    "form": "pond",
+    "distractors": [
+      "ijs",
+      "ijzer",
+      "papier"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-poot",
+    "nl": "De hond heeft pijn aan zijn poot.",
+    "form": "poot",
+    "distractors": [
+      "tomaat",
+      "eend",
+      "haas"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pop",
+    "nl": "Het meisje speelt met haar pop.",
+    "form": "pop",
+    "distractors": [
+      "persoon",
+      "woonkamer",
+      "olie"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-portemonnee",
+    "nl": "Mijn geld zit in mijn portemonnee.",
+    "form": "portemonnee",
+    "distractors": [
+      "maan",
+      "interesse",
+      "directeur"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-post",
+    "nl": "De post komt elke dag om tien uur.",
+    "form": "post",
+    "distractors": [
+      "kin",
+      "boterham",
+      "hobby"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-postbode",
+    "nl": "De postbode brengt een brief.",
+    "form": "postbode",
+    "distractors": [
+      "deken",
+      "neus",
+      "wijn"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-postcode",
+    "nl": "Schrijf jouw postcode op het formulier.",
+    "form": "postcode",
+    "distractors": [
+      "metro",
+      "pil",
+      "zaal"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-postkantoor",
+    "nl": "Het postkantoor is dicht op zondag.",
+    "form": "postkantoor",
+    "distractors": [
+      "hoofd",
+      "ingrediënt",
+      "hert"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pot",
+    "nl": "De honing zit in de pot.",
+    "form": "pot",
+    "distractors": [
+      "mens",
+      "zwaan",
+      "kunst"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-potlood",
+    "nl": "Ik schrijf met een potlood.",
+    "form": "potlood",
+    "distractors": [
+      "kanaal",
+      "hek",
+      "plafond"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-probleem",
+    "nl": "Ik heb een probleem met mijn computer.",
+    "form": "probleem",
+    "distractors": [
+      "ziekenhuis",
+      "insect",
+      "theater"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-procent",
+    "nl": "Tien procent van de klas is ziek.",
+    "form": "procent",
+    "distractors": [
+      "kind",
+      "vlees",
+      "postkantoor"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-product",
+    "nl": "Dit product is goedkoop.",
+    "form": "product",
+    "distractors": [
+      "jaar",
+      "geluid",
+      "lichaam"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-programma",
+    "nl": "Het programma begint om acht uur.",
+    "form": "programma",
+    "distractors": [
+      "glas",
+      "vuur",
+      "gas"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-project",
+    "nl": "Wij werken samen aan een project.",
+    "form": "project",
+    "distractors": [
+      "brood",
+      "paard",
+      "been"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-punt",
+    "nl": "Voor het goede antwoord krijg je een punt.",
+    "form": "punt",
+    "distractors": [
+      "duin",
+      "stadion",
+      "schip"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-radio",
+    "nl": "Mijn opa luistert elke avond naar de radio.",
+    "form": "radio",
+    "distractors": [
+      "zon",
+      "ochtend",
+      "kust"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-rapport",
+    "nl": "De leraar geeft mij een goed rapport.",
+    "form": "rapport",
+    "distractors": [
+      "hout",
+      "perron",
+      "strand"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-rat",
+    "nl": "De rat eet de kaas.",
+    "form": "rat",
+    "distractors": [
+      "appel",
+      "vakantie",
+      "film"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-reactie",
+    "nl": "Ik wacht op haar reactie op mijn brief.",
+    "form": "reactie",
+    "distractors": [
+      "tante",
+      "boter",
+      "uil"
+    ],
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-reclame",
+    "nl": "Ik zie een reclame voor een nieuwe auto.",
+    "form": "reclame",
+    "distractors": [
+      "middag",
+      "keel",
+      "riem"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-reden",
+    "nl": "Er is geen reden om bang te zijn.",
+    "form": "reden",
+    "distractors": [
+      "gracht",
+      "huid",
+      "jeugd"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-regel",
+    "nl": "Dat is een belangrijke regel op school.",
+    "form": "regel",
+    "distractors": [
+      "zee",
+      "maag",
+      "wortel"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-regen",
+    "nl": "De regen valt op het dak.",
+    "form": "regen",
+    "distractors": [
+      "boon",
+      "kamer",
+      "thee"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-regenboog",
+    "nl": "Wij zien een regenboog boven de stad.",
+    "form": "regenboog",
+    "distractors": [
+      "kaak",
+      "kapper",
+      "kleding"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-reis",
+    "nl": "Onze reis duurt twee dagen.",
+    "form": "reis",
+    "distractors": [
+      "patiënt",
+      "tuin",
+      "doos"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-rekening",
+    "nl": "Wij vragen om de rekening in het restaurant.",
+    "form": "rekening",
+    "distractors": [
+      "school",
+      "pink",
+      "walvis"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-rem",
+    "nl": "De rem van mijn fiets is kapot.",
+    "form": "rem",
+    "distractors": [
+      "stad",
+      "vader",
+      "supermarkt"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-rib",
+    "nl": "Mijn rib doet pijn als ik lach.",
+    "form": "rib",
+    "distractors": [
+      "leerling",
+      "computer",
+      "bakker"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-richting",
+    "nl": "Wij lopen in de verkeerde richting.",
+    "form": "richting",
+    "distractors": [
+      "ster",
+      "lever",
+      "sjaal"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-riem",
+    "nl": "Hij draagt een riem om zijn broek.",
+    "form": "riem",
+    "distractors": [
+      "garage",
+      "vinger",
+      "lunch"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-rij",
+    "nl": "Er staat een lange rij voor de kassa.",
+    "form": "rij",
+    "distractors": [
+      "rib",
+      "rivier",
+      "dijk"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-rijbewijs",
+    "nl": "Zonder rijbewijs mag je niet rijden.",
+    "form": "rijbewijs",
+    "distractors": [
+      "fruit",
+      "balkon",
+      "eiland"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-rijst",
+    "nl": "Wij eten rijst en kip.",
+    "form": "rijst",
+    "distractors": [
+      "sneeuw",
+      "sleutel",
+      "muzikant"
+    ],
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-rit",
+    "nl": "De rit naar het strand duurt een uur.",
+    "form": "rit",
+    "distractors": [
+      "buur",
+      "wekker",
+      "ambtenaar"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-rivier",
+    "nl": "De rivier is breed en diep.",
+    "form": "rivier",
+    "distractors": [
+      "broek",
+      "sla",
+      "tram"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-roman",
+    "nl": "Ik lees een roman in de trein.",
+    "form": "roman",
+    "distractors": [
+      "taart",
+      "mug",
+      "bibliotheek"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-rook",
+    "nl": "Er is rook in de keuken.",
+    "form": "rook",
+    "distractors": [
+      "medewerker",
+      "koe",
+      "lepel"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-room",
+    "nl": "Ik doe room in mijn koffie.",
+    "form": "room",
+    "distractors": [
+      "tiener",
+      "pijn",
+      "kelder"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-route",
+    "nl": "De route naar het station is lang.",
+    "form": "route",
+    "distractors": [
+      "aardappel",
+      "dolfijn",
+      "prijs"
+    ],
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-ruzie",
+    "nl": "Mijn broer heeft ruzie met mijn zus.",
+    "form": "ruzie",
+    "distractors": [
+      "echtgenoot",
+      "berg",
+      "golf"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-salaris",
+    "nl": "Zijn salaris is erg laag.",
+    "form": "salaris",
+    "distractors": [
+      "schrift",
+      "zout",
+      "formulier"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-sap",
+    "nl": "Ik drink elke ochtend sap.",
+    "form": "sap",
+    "distractors": [
+      "bos",
+      "festival",
+      "gordijn"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-schaap",
+    "nl": "Het schaap geeft wol.",
+    "form": "schaap",
+    "distractors": [
+      "oog",
+      "lied",
+      "station"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-schaduw",
+    "nl": "Wij zitten in de schaduw van de boom.",
+    "form": "schaduw",
+    "distractors": [
+      "slang",
+      "kraag",
+      "meneer"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-schelp",
+    "nl": "Het kind vindt een schelp op het strand.",
+    "form": "schelp",
+    "distractors": [
+      "minuut",
+      "herfst",
+      "mond"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-scherm",
+    "nl": "Het scherm van mijn telefoon is kapot.",
+    "form": "scherm",
+    "distractors": [
+      "kantoor",
+      "vliegtuig",
+      "bier"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-schilderij",
+    "nl": "Het schilderij hangt boven mijn bed.",
+    "form": "schilderij",
+    "distractors": [
+      "café",
+      "geld",
+      "park"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-schip",
+    "nl": "Het schip ligt in de haven.",
+    "form": "schip",
+    "distractors": [
+      "potlood",
+      "bed",
+      "ticket"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-schoolplein",
+    "nl": "De kinderen spelen op het schoolplein.",
+    "form": "schoolplein",
+    "distractors": [
+      "document",
+      "konijn",
+      "woordenboek"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-schort",
+    "nl": "De kok draagt een wit schort.",
+    "form": "schort",
+    "distractors": [
+      "huis",
+      "bord",
+      "mes"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-schotel",
+    "nl": "Het kopje staat op de schotel.",
+    "form": "schotel",
+    "distractors": [
+      "ondernemer",
+      "natuur",
+      "slak"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-schrift",
+    "nl": "Ik schrijf mijn naam in het schrift.",
+    "form": "schrift",
+    "distractors": [
+      "geluid",
+      "gat",
+      "dier"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-schrijver",
+    "nl": "De schrijver schrijft een gedicht.",
+    "form": "schrijver",
+    "distractors": [
+      "soep",
+      "beker",
+      "motor"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-serie",
+    "nl": "Wij kijken samen een serie op televisie.",
+    "form": "serie",
+    "distractors": [
+      "bruid",
+      "spiegel",
+      "verpleger"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-sfeer",
+    "nl": "De sfeer op het feest is erg gezellig.",
+    "form": "sfeer",
+    "distractors": [
+      "griep",
+      "krant",
+      "taxi"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-sjaal",
+    "nl": "Het is koud, dus ik draag een sjaal.",
+    "form": "sjaal",
+    "distractors": [
+      "kaart",
+      "hond",
+      "zus"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-sla",
+    "nl": "Ik eet sla met kaas.",
+    "form": "sla",
+    "distractors": [
+      "dame",
+      "olifant",
+      "oom"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-slaap",
+    "nl": "Ik heb slaap en wil naar bed.",
+    "form": "slaap",
+    "distractors": [
+      "tafel",
+      "oceaan",
+      "stoel"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-slaapkamer",
+    "nl": "Mijn slaapkamer is klein maar gezellig.",
+    "form": "slaapkamer",
+    "distractors": [
+      "dans",
+      "steen",
+      "koffie"
+    ],
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-slak",
+    "nl": "De slak is erg langzaam.",
+    "form": "slak",
+    "distractors": [
+      "vraag",
+      "hal",
+      "drank"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-slang",
+    "nl": "De slang kruipt door het gras.",
+    "form": "slang",
+    "distractors": [
+      "verjaardag",
+      "hamburger",
+      "bioscoop"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-sloot",
+    "nl": "De sloot is vol water.",
+    "form": "sloot",
+    "distractors": [
+      "broer",
+      "bal",
+      "postbode"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-slot",
+    "nl": "Het slot van de deur is kapot.",
+    "form": "slot",
+    "distractors": [
+      "schip",
+      "oog",
+      "vest"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-sneeuw",
+    "nl": "De sneeuw ligt op de berg.",
+    "form": "sneeuw",
+    "distractors": [
+      "kampioen",
+      "tekenfilm",
+      "hiel"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-snelheid",
+    "nl": "De snelheid van de auto is te hoog.",
+    "form": "snelheid",
+    "distractors": [
+      "apotheek",
+      "clown",
+      "boom"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-snelweg",
+    "nl": "De snelweg is vandaag erg druk.",
+    "form": "snelweg",
+    "distractors": [
+      "handschoen",
+      "brief",
+      "rat"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-soep",
+    "nl": "De soep is te heet.",
+    "form": "soep",
+    "distractors": [
+      "echtgenote",
+      "slaapkamer",
+      "gast"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-sok",
+    "nl": "Ik heb een gat in mijn sok.",
+    "form": "sok",
+    "distractors": [
+      "acteur",
+      "wind",
+      "verkoper"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-som",
+    "nl": "Deze som is te moeilijk voor mij.",
+    "form": "som",
+    "distractors": [
+      "camping",
+      "vrijwilliger",
+      "woning"
+    ],
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-speelgoed",
+    "nl": "De baby speelt met zijn speelgoed.",
+    "form": "speelgoed",
+    "distractors": [
+      "dorp",
+      "jaar",
+      "appartement"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-spel",
+    "nl": "Wij spelen dit spel elke week.",
+    "form": "spel",
+    "distractors": [
+      "document",
+      "hout",
+      "gerecht"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-speler",
+    "nl": "De speler loopt over het veld.",
+    "form": "speler",
+    "distractors": [
+      "camera",
+      "huur",
+      "kool"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-sportschool",
+    "nl": "Mijn zus gaat naar de sportschool.",
+    "form": "sportschool",
+    "distractors": [
+      "piloot",
+      "map",
+      "jas"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-spul",
+    "nl": "Mijn spul ligt nog in de auto.",
+    "form": "spul",
+    "distractors": [
+      "kanaal",
+      "uur",
+      "paard"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-staart",
+    "nl": "De hond heeft een lange staart.",
+    "form": "staart",
+    "distractors": [
+      "gans",
+      "weduwe",
+      "eigenaar"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-stadion",
+    "nl": "Het stadion is vandaag vol.",
+    "form": "stadion",
+    "distractors": [
+      "moment",
+      "gras",
+      "vlees"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-stage",
+    "nl": "Ik doe stage bij een bank.",
+    "form": "stage",
+    "distractors": [
+      "kok",
+      "laptop",
+      "vork"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-stap",
+    "nl": "De baby zet een stap naar mij.",
+    "form": "stap",
+    "distractors": [
+      "ezel",
+      "chauffeur",
+      "wolf"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-steen",
+    "nl": "De steen is groot en zwaar.",
+    "form": "steen",
+    "distractors": [
+      "euro",
+      "maand",
+      "melk"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-stem",
+    "nl": "Ik hoor haar stem in de gang.",
+    "form": "stem",
+    "distractors": [
+      "straat",
+      "kaas",
+      "luchthaven"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-ster",
+    "nl": "In de lucht zie ik een ster.",
+    "form": "ster",
+    "distractors": [
+      "oven",
+      "neef",
+      "trainer"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-stoep",
+    "nl": "De fiets staat op de stoep.",
+    "form": "stoep",
+    "distractors": [
+      "oma",
+      "borst",
+      "passagier"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-storm",
+    "nl": "De storm breekt de boom.",
+    "form": "storm",
+    "distractors": [
+      "dierentuin",
+      "koek",
+      "arm"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-straatnaam",
+    "nl": "Wat is de straatnaam van je huis?",
+    "form": "straatnaam",
+    "distractors": [
+      "muziek",
+      "banaan",
+      "tegel"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-strand",
+    "nl": "Wij liggen vandaag op het strand.",
+    "form": "strand",
+    "distractors": [
+      "papier",
+      "ingrediënt",
+      "pak"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-streep",
+    "nl": "Er zit een zwarte streep op de muur.",
+    "form": "streep",
+    "distractors": [
+      "peper",
+      "knie",
+      "moeder"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-stress",
+    "nl": "Ik heb veel stress op mijn werk.",
+    "form": "stress",
+    "distractors": [
+      "schrijver",
+      "kist",
+      "sok"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-stroom",
+    "nl": "Er is geen stroom in de keuken.",
+    "form": "stroom",
+    "distractors": [
+      "leeftijd",
+      "nacht",
+      "geboorte"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-student",
+    "nl": "De student studeert aan de universiteit.",
+    "form": "student",
+    "distractors": [
+      "deur",
+      "kip",
+      "nek"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-studie",
+    "nl": "Mijn studie duurt vier jaar.",
+    "form": "studie",
+    "distractors": [
+      "meester",
+      "trein",
+      "vrouw"
+    ],
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-stuk",
+    "nl": "Ik wil nog een stuk kaas.",
+    "form": "stuk",
+    "distractors": [
+      "uniform",
+      "café",
+      "varken"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-stuur",
+    "nl": "Zijn hand ligt op het stuur.",
+    "form": "stuur",
+    "distractors": [
+      "geluid",
+      "geluk",
+      "weekend"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-suiker",
+    "nl": "Ik doe geen suiker in mijn thee.",
+    "form": "suiker",
+    "distractors": [
+      "lip",
+      "dochter",
+      "vriendin"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-symptoom",
+    "nl": "De arts ziet een symptoom van griep.",
+    "form": "symptoom",
+    "distractors": [
+      "feest",
+      "gas",
+      "schaap"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-taak",
+    "nl": "Elk kind heeft een taak in de klas.",
+    "form": "taak",
+    "distractors": [
+      "brug",
+      "flat",
+      "snelweg"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-taart",
+    "nl": "Wij eten taart op mijn verjaardag.",
+    "form": "taart",
+    "distractors": [
+      "student",
+      "haai",
+      "bon"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tak",
+    "nl": "De vogel zit op een tak.",
+    "form": "tak",
+    "distractors": [
+      "toerist",
+      "pizza",
+      "haring"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tandarts",
+    "nl": "Ik ga naar de tandarts voor mijn tand.",
+    "form": "tandarts",
+    "distractors": [
+      "trap",
+      "auto",
+      "vloer"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-taxi",
+    "nl": "Wij nemen een taxi naar het station.",
+    "form": "taxi",
+    "distractors": [
+      "sloot",
+      "agent",
+      "baas"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-team",
+    "nl": "Ons team speelt vandaag thuis.",
+    "form": "team",
+    "distractors": [
+      "kantoor",
+      "landschap",
+      "broodje"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tegel",
+    "nl": "De tegel op de vloer is kapot.",
+    "form": "tegel",
+    "distractors": [
+      "nek",
+      "rat",
+      "champagne"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tekenfilm",
+    "nl": "De kinderen kijken een tekenfilm.",
+    "form": "tekenfilm",
+    "distractors": [
+      "suiker",
+      "trui",
+      "tandarts"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tekening",
+    "nl": "Mijn dochter maakt een tekening.",
+    "form": "tekening",
+    "distractors": [
+      "speler",
+      "mug",
+      "maan"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tekst",
+    "nl": "Lees de tekst en schrijf een antwoord.",
+    "form": "tekst",
+    "distractors": [
+      "apotheker",
+      "jurk",
+      "onderbroek"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-temperatuur",
+    "nl": "De temperatuur is vandaag erg laag.",
+    "form": "temperatuur",
+    "distractors": [
+      "volwassene",
+      "foto",
+      "opa"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tennis",
+    "nl": "Mijn vader speelt elke week tennis.",
+    "form": "tennis",
+    "distractors": [
+      "park",
+      "hoofd",
+      "huis"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-test",
+    "nl": "De test is moeilijk maar leuk.",
+    "form": "test",
+    "distractors": [
+      "pot",
+      "soep",
+      "olifant"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-theater",
+    "nl": "Wij gaan vandaag naar het theater.",
+    "form": "theater",
+    "distractors": [
+      "hart",
+      "tijdschrift",
+      "gewicht"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-thee",
+    "nl": "Ik drink thee met melk.",
+    "form": "thee",
+    "distractors": [
+      "jongen",
+      "klok",
+      "hond"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-ticket",
+    "nl": "Heb jij je ticket voor de trein?",
+    "form": "ticket",
+    "distractors": [
+      "museum",
+      "strand",
+      "huisdier"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tiener",
+    "nl": "De tiener luistert graag naar muziek.",
+    "form": "tiener",
+    "distractors": [
+      "spiegel",
+      "koffie",
+      "bui"
+    ],
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-tijdschrift",
+    "nl": "Mijn moeder leest elke maand een tijdschrift.",
+    "form": "tijdschrift",
+    "distractors": [
+      "theater",
+      "metaal",
+      "plein"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tip",
+    "nl": "Ik heb een goede tip voor jou.",
+    "form": "tip",
+    "distractors": [
+      "huid",
+      "apotheek",
+      "kelder"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tocht",
+    "nl": "Na de tocht door het bos ben ik moe.",
+    "form": "tocht",
+    "distractors": [
+      "nicht",
+      "pan",
+      "echtgenoot"
+    ],
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-toerist",
+    "nl": "De toerist maakt een foto van de kerk.",
+    "form": "toerist",
+    "distractors": [
+      "tand",
+      "muziek",
+      "hobby"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tomaat",
+    "nl": "Ik snijd een tomaat voor mijn broodje.",
+    "form": "tomaat",
+    "distractors": [
+      "journalist",
+      "walvis",
+      "straat"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-toren",
+    "nl": "De toren van de kerk is hoog.",
+    "form": "toren",
+    "distractors": [
+      "zoon",
+      "gitaar",
+      "ouder"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-trainer",
+    "nl": "De trainer roept naar de jongens.",
+    "form": "trainer",
+    "distractors": [
+      "kachel",
+      "wortel",
+      "beker"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-training",
+    "nl": "De training begint om zeven uur.",
+    "form": "training",
+    "distractors": [
+      "naam",
+      "boom",
+      "toren"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tram",
+    "nl": "De tram rijdt door de stad.",
+    "form": "tram",
+    "distractors": [
+      "pink",
+      "markt",
+      "muur"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-trui",
+    "nl": "Ik draag een trui in de winter.",
+    "form": "trui",
+    "distractors": [
+      "voetballer",
+      "vork",
+      "auto"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tunnel",
+    "nl": "De auto rijdt door de tunnel.",
+    "form": "tunnel",
+    "distractors": [
+      "mevrouw",
+      "doos",
+      "bezoeker"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-uil",
+    "nl": "De uil zit in de boom.",
+    "form": "uil",
+    "distractors": [
+      "dans",
+      "natuur",
+      "tafel"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-uitgang",
+    "nl": "De uitgang is naast de lift.",
+    "form": "uitgang",
+    "distractors": [
+      "bloem",
+      "muts",
+      "heuvel"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-uitkering",
+    "nl": "Zij krijgt elke maand een uitkering.",
+    "form": "uitkering",
+    "distractors": [
+      "collega",
+      "tuin",
+      "zwaan"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-uitnodiging",
+    "nl": "Ik krijg een uitnodiging voor het feest.",
+    "form": "uitnodiging",
+    "distractors": [
+      "zon",
+      "maag",
+      "broer"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-uitspraak",
+    "nl": "Haar uitspraak van het woord is goed.",
+    "form": "uitspraak",
+    "distractors": [
+      "man",
+      "peer",
+      "griep"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-uniform",
+    "nl": "De agent draagt een blauw uniform.",
+    "form": "uniform",
+    "distractors": [
+      "hert",
+      "fruit",
+      "witlof"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-universiteit",
+    "nl": "Mijn zoon gaat naar de universiteit.",
+    "form": "universiteit",
+    "distractors": [
+      "boter",
+      "uil",
+      "oven"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vaccin",
+    "nl": "De arts geeft mij een vaccin.",
+    "form": "vaccin",
+    "distractors": [
+      "stadion",
+      "plastic",
+      "station"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vak",
+    "nl": "Dit vak is moeilijk voor mij.",
+    "form": "vak",
+    "distractors": [
+      "hemd",
+      "bed",
+      "dak"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-varken",
+    "nl": "Het varken woont op de boerderij.",
+    "form": "varken",
+    "distractors": [
+      "mes",
+      "eiland",
+      "bos"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-veld",
+    "nl": "Er staat een koe in het veld.",
+    "form": "veld",
+    "distractors": [
+      "blad",
+      "meisje",
+      "formulier"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-verdriet",
+    "nl": "Haar verdriet is groot.",
+    "form": "verdriet",
+    "distractors": [
+      "schort",
+      "sap",
+      "schrift"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vergadering",
+    "nl": "De vergadering begint om negen uur.",
+    "form": "vergadering",
+    "distractors": [
+      "appel",
+      "flat",
+      "vloer"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-verhaal",
+    "nl": "Mijn opa vertelt een mooi verhaal.",
+    "form": "verhaal",
+    "distractors": [
+      "insect",
+      "lichaam",
+      "postkantoor"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-verkeer",
+    "nl": "Er is veel verkeer op de snelweg.",
+    "form": "verkeer",
+    "distractors": [
+      "ticket",
+      "hotel",
+      "woordenboek"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-verkoper",
+    "nl": "De verkoper helpt de klant in de winkel.",
+    "form": "verkoper",
+    "distractors": [
+      "gracht",
+      "haring",
+      "boot"
+    ],
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-verleden",
+    "nl": "Ik denk vaak aan het verleden.",
+    "form": "verleden",
+    "distractors": [
+      "weekend",
+      "ijs",
+      "potlood"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-verpleger",
+    "nl": "De verpleger helpt de patiënt in het ziekenhuis.",
+    "form": "verpleger",
+    "distractors": [
+      "bril",
+      "verjaardag",
+      "ster"
+    ],
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-verrassing",
+    "nl": "Dat is een leuke verrassing voor mij.",
+    "form": "verrassing",
+    "distractors": [
+      "koorts",
+      "olie",
+      "onderarm"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-verschil",
+    "nl": "Wat is het verschil tussen die twee?",
+    "form": "verschil",
+    "distractors": [
+      "ijzer",
+      "paspoort",
+      "kussen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vertraging",
+    "nl": "Het vliegtuig heeft twee uur vertraging.",
+    "form": "vertraging",
+    "distractors": [
+      "foto",
+      "dierentuin",
+      "winnaar"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vertrek",
+    "nl": "Het vertrek van de trein is om tien uur.",
+    "form": "vertrek",
+    "distractors": [
+      "gordijn",
+      "zand",
+      "dorp"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-verwarming",
+    "nl": "De verwarming staat aan in de kamer.",
+    "form": "verwarming",
+    "distractors": [
+      "garnaal",
+      "fiets",
+      "vinger"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vest",
+    "nl": "Ik draag een vest over mijn hemd.",
+    "form": "vest",
+    "distractors": [
+      "vuur",
+      "kasteel",
+      "duin"
+    ],
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-vet",
+    "nl": "Er zit veel vet in dit vlees.",
+    "form": "vet",
+    "distractors": [
+      "restaurant",
+      "laken",
+      "voorhoofd"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-video",
+    "nl": "Wij kijken samen een video op de laptop.",
+    "form": "video",
+    "distractors": [
+      "aap",
+      "winkel",
+      "vrijwilliger"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-virus",
+    "nl": "Dit virus maakt mij ziek.",
+    "form": "virus",
+    "distractors": [
+      "westen",
+      "huisnummer",
+      "midden"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vlag",
+    "nl": "De vlag is rood, wit en blauw.",
+    "form": "vlag",
+    "distractors": [
+      "prijs",
+      "wol",
+      "bon"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vlek",
+    "nl": "Er zit een vlek op mijn broek.",
+    "form": "vlek",
+    "distractors": [
+      "vriendin",
+      "dag",
+      "peper"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vlieg",
+    "nl": "Er zit een vlieg op mijn brood.",
+    "form": "vlieg",
+    "distractors": [
+      "camping",
+      "huur",
+      "zoon"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vliegtuig",
+    "nl": "Het vliegtuig staat op de luchthaven.",
+    "form": "vliegtuig",
+    "distractors": [
+      "ballet",
+      "rijbewijs",
+      "zout"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vloer",
+    "nl": "De vloer in de keuken is nat.",
+    "form": "vloer",
+    "distractors": [
+      "grot",
+      "avond",
+      "leeftijd"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vlucht",
+    "nl": "Onze vlucht naar het buitenland duurt twee uur.",
+    "form": "vlucht",
+    "distractors": [
+      "stad",
+      "oma",
+      "eend"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-voetballer",
+    "nl": "De voetballer krijgt een gele kaart.",
+    "form": "voetballer",
+    "distractors": [
+      "berg",
+      "lip",
+      "knie"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vogel",
+    "nl": "De vogel vliegt boven het huis.",
+    "form": "vogel",
+    "distractors": [
+      "sleutel",
+      "schoen",
+      "fles"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-voorbeeld",
+    "nl": "Geef een voorbeeld van een groente.",
+    "form": "voorbeeld",
+    "distractors": [
+      "bord",
+      "voetbal",
+      "been"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-voorhoofd",
+    "nl": "Ik heb pijn aan mijn voorhoofd.",
+    "form": "voorhoofd",
+    "distractors": [
+      "balkon",
+      "plafond",
+      "concert"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-voorkant",
+    "nl": "De voorkant van het huis is wit.",
+    "form": "voorkant",
+    "distractors": [
+      "voet",
+      "pijn",
+      "zus"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-voornaam",
+    "nl": "Schrijf je voornaam en achternaam hier.",
+    "form": "voornaam",
+    "distractors": [
+      "onderbroek",
+      "druif",
+      "hal"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-voorwerp",
+    "nl": "Het voorwerp op de tafel is groot.",
+    "form": "voorwerp",
+    "distractors": [
+      "ziekenhuis",
+      "circus",
+      "lied"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vork",
+    "nl": "Ik eet met een vork en een mes.",
+    "form": "vork",
+    "distractors": [
+      "supermarkt",
+      "keel",
+      "krant"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vos",
+    "nl": "De vos woont in het bos.",
+    "form": "vos",
+    "distractors": [
+      "vis",
+      "lamp",
+      "boon"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vrachtwagen",
+    "nl": "De vrachtwagen rijdt door de stad.",
+    "form": "vrachtwagen",
+    "distractors": [
+      "wijn",
+      "tekenfilm",
+      "eeuw"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vriendschap",
+    "nl": "Onze vriendschap is erg belangrijk voor mij.",
+    "form": "vriendschap",
+    "distractors": [
+      "meter",
+      "wenkbrauw",
+      "vlieg"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vrijwilliger",
+    "nl": "De vrijwilliger helpt ons op de camping.",
+    "form": "vrijwilliger",
+    "distractors": [
+      "kunst",
+      "pot",
+      "jurk"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vuur",
+    "nl": "Het vuur in de haard is warm.",
+    "form": "vuur",
+    "distractors": [
+      "koekje",
+      "gebouw",
+      "oog"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vuurwerk",
+    "nl": "Het vuurwerk is erg mooi.",
+    "form": "vuurwerk",
+    "distractors": [
+      "gewicht",
+      "vet",
+      "gevaar"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-waarheid",
+    "nl": "Ik zeg altijd de waarheid.",
+    "form": "waarheid",
+    "distractors": [
+      "buur",
+      "laptop",
+      "kaak"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-walvis",
+    "nl": "De walvis zwemt in de zee.",
+    "form": "walvis",
+    "distractors": [
+      "groente",
+      "televisie",
+      "school"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-wandeling",
+    "nl": "Wij maken een wandeling in het park.",
+    "form": "wandeling",
+    "distractors": [
+      "speler",
+      "haai",
+      "long"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-warenhuis",
+    "nl": "Wij kopen een jas in het warenhuis.",
+    "form": "warenhuis",
+    "distractors": [
+      "raam",
+      "paard",
+      "been"
+    ],
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-waslijn",
+    "nl": "De jas hangt aan de waslijn.",
+    "form": "waslijn",
+    "distractors": [
+      "eeuw",
+      "kok",
+      "documentaire"
+    ],
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-website",
+    "nl": "Ik zie de prijs op de website.",
+    "form": "website",
+    "distractors": [
+      "dijk",
+      "medewerker",
+      "passagier"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-webwinkel",
+    "nl": "Wij kopen schoenen in de webwinkel.",
+    "form": "webwinkel",
+    "distractors": [
+      "maaltijd",
+      "euro",
+      "arm"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-wedstrijd",
+    "nl": "De wedstrijd begint om twee uur.",
+    "form": "wedstrijd",
+    "distractors": [
+      "riem",
+      "zaal",
+      "eeuw"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-weduwe",
+    "nl": "De weduwe woont alleen in een klein huis.",
+    "form": "weduwe",
+    "distractors": [
+      "kust",
+      "duim",
+      "boerderij"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-wekker",
+    "nl": "Mijn wekker gaat om zeven uur.",
+    "form": "wekker",
+    "distractors": [
+      "muis",
+      "hiel",
+      "rivier"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-wenkbrauw",
+    "nl": "Zijn wenkbrauw is zwart en dik.",
+    "form": "wenkbrauw",
+    "distractors": [
+      "apotheker",
+      "sneeuw",
+      "echtgenote"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-wens",
+    "nl": "Mijn wens is een kleine boerderij.",
+    "form": "wens",
+    "distractors": [
+      "borst",
+      "pet",
+      "banaan"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-wereld",
+    "nl": "Op de wereld wonen veel mensen.",
+    "form": "wereld",
+    "distractors": [
+      "kip",
+      "koek",
+      "slang"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-werkdag",
+    "nl": "Een werkdag duurt bij mij acht uur.",
+    "form": "werkdag",
+    "distractors": [
+      "kunstenaar",
+      "lucht",
+      "vrouw"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-werkgever",
+    "nl": "Mijn werkgever is erg vriendelijk.",
+    "form": "werkgever",
+    "distractors": [
+      "sport",
+      "keuken",
+      "handschoen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-werkplek",
+    "nl": "Mijn werkplek is klein maar schoon.",
+    "form": "werkplek",
+    "distractors": [
+      "vakantie",
+      "buik",
+      "sloot"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-wijk",
+    "nl": "Wij wonen in een rustige wijk.",
+    "form": "wijk",
+    "distractors": [
+      "pizza",
+      "acteur",
+      "manager"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-wind",
+    "nl": "De wind is vandaag erg koud.",
+    "form": "wind",
+    "distractors": [
+      "les",
+      "datum",
+      "minuut"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-winnaar",
+    "nl": "De winnaar krijgt een medaille.",
+    "form": "winnaar",
+    "distractors": [
+      "broek",
+      "golf",
+      "metro"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-wiskunde",
+    "nl": "Ik vind wiskunde moeilijk.",
+    "form": "wiskunde",
+    "distractors": [
+      "rib",
+      "ezel",
+      "hand"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-witlof",
+    "nl": "Wij eten witlof met ham.",
+    "form": "witlof",
+    "distractors": [
+      "glas",
+      "tijdschrift",
+      "hek"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-wol",
+    "nl": "Mijn trui is van wol.",
+    "form": "wol",
+    "distractors": [
+      "tiener",
+      "envelop",
+      "haas"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-wolf",
+    "nl": "De wolf heeft honger.",
+    "form": "wolf",
+    "distractors": [
+      "map",
+      "trap",
+      "aardappel"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-wolk",
+    "nl": "Er hangt een grijze wolk boven de stad.",
+    "form": "wolk",
+    "distractors": [
+      "muzikant",
+      "neus",
+      "chauffeur"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-wond",
+    "nl": "Ik heb een wond aan mijn been.",
+    "form": "wond",
+    "distractors": [
+      "volwassene",
+      "vraag",
+      "patiënt"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-woonkamer",
+    "nl": "Wij kijken televisie in de woonkamer.",
+    "form": "woonkamer",
+    "distractors": [
+      "voetballer",
+      "tomaat",
+      "koe"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-woonplaats",
+    "nl": "Mijn woonplaats is een klein dorp.",
+    "form": "woonplaats",
+    "distractors": [
+      "zanger",
+      "taxi",
+      "gast"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-woordenboek",
+    "nl": "Ik zoek het woord in het woordenboek.",
+    "form": "woordenboek",
+    "distractors": [
+      "balkon",
+      "hert",
+      "meisje"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-worst",
+    "nl": "Ik bak een worst in de pan.",
+    "form": "worst",
+    "distractors": [
+      "mevrouw",
+      "ziekte",
+      "fabriek"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-zaag",
+    "nl": "Ik snijd het hout met een zaag.",
+    "form": "zaag",
+    "distractors": [
+      "woonkamer",
+      "mossel",
+      "clown"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-zaal",
+    "nl": "De zaal is leeg na de les.",
+    "form": "zaal",
+    "distractors": [
+      "mens",
+      "wolf",
+      "inwoner"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-zak",
+    "nl": "Er zit een appel in de zak.",
+    "form": "zak",
+    "distractors": [
+      "eeuw",
+      "piloot",
+      "makelaar"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-zand",
+    "nl": "De kinderen spelen met het zand.",
+    "form": "zand",
+    "distractors": [
+      "noorden",
+      "oor",
+      "huisnummer"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-zanger",
+    "nl": "De zanger is erg beroemd.",
+    "form": "zanger",
+    "distractors": [
+      "interesse",
+      "biet",
+      "trui"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-zeef",
+    "nl": "Ik doe de pasta in de zeef.",
+    "form": "zeef",
+    "distractors": [
+      "taart",
+      "tandarts",
+      "piano"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-zilver",
+    "nl": "Deze ring is van zilver.",
+    "form": "zilver",
+    "distractors": [
+      "pak",
+      "park",
+      "hoofd"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-zin",
+    "nl": "Schrijf een korte zin op het bord.",
+    "form": "zin",
+    "distractors": [
+      "vrachtwagen",
+      "kous",
+      "toerist"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-zolder",
+    "nl": "Onze oude koffer staat op de zolder.",
+    "form": "zolder",
+    "distractors": [
+      "bal",
+      "mond",
+      "meneer"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-zout",
+    "nl": "Er is te veel zout in de soep.",
+    "form": "zout",
+    "distractors": [
+      "mes",
+      "voetbal",
+      "strand"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-zwaan",
+    "nl": "De zwaan zwemt in de gracht.",
+    "form": "zwaan",
+    "distractors": [
+      "camera",
+      "lever",
+      "brief"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-zwembad",
+    "nl": "Het zwembad is vandaag open.",
+    "form": "zwembad",
+    "distractors": [
+      "huisdier",
+      "witlof",
+      "konijn"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-aanbieden",
+    "nl": "Ik wil jou een baan aanbieden.",
+    "form": "aanbieden",
+    "distractors": [
+      "douchen",
+      "uitstellen",
+      "schrikken"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-aankomen",
+    "nl": "De trein moet om tien uur aankomen.",
+    "form": "aankomen",
+    "distractors": [
+      "praten",
+      "spellen",
+      "vissen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-aanvragen",
+    "nl": "Ik wil een nieuwe kaart aanvragen.",
+    "form": "aanvragen",
+    "distractors": [
+      "waaien",
+      "eindigen",
+      "verlaten"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-accepteren",
+    "nl": "Wij accepteren alleen euro.",
+    "form": "accepteren",
+    "distractors": [
+      "schilderen",
+      "sneeuwen",
+      "opereren"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-afgeven",
+    "nl": "Je moet je sleutel hier afgeven.",
+    "form": "afgeven",
+    "distractors": [
+      "wonen",
+      "oefenen",
+      "koken"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-afspreken",
+    "nl": "Ik wil met mijn buur afspreken.",
+    "form": "afspreken",
+    "distractors": [
+      "posten",
+      "drogen",
+      "sneeuwen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-afvallen",
+    "nl": "Mijn vader wil vijf kilogram afvallen.",
+    "form": "afvallen",
+    "distractors": [
+      "kiezen",
+      "tekenen",
+      "verdwijnen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-afzetten",
+    "nl": "Mijn vader kan mij bij school afzetten.",
+    "form": "afzetten",
+    "distractors": [
+      "huren",
+      "sporten",
+      "sneeuwen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-appen",
+    "nl": "Ik app mijn moeder elke dag.",
+    "form": "app",
+    "distractors": [
+      "kost",
+      "loop",
+      "begin"
+    ],
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-bedanken",
+    "nl": "Ik wil jou graag bedanken.",
+    "form": "bedanken",
+    "distractors": [
+      "overstappen",
+      "branden",
+      "uitgaan"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-bedenken",
+    "nl": "Ik kan geen goede naam bedenken.",
+    "form": "bedenken",
+    "distractors": [
+      "lachen",
+      "lukken",
+      "volgen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-bedienen",
+    "nl": "De bakker moet veel klanten bedienen.",
+    "form": "bedienen",
+    "distractors": [
+      "scoren",
+      "sneeuwen",
+      "teruggaan"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-behandelen",
+    "nl": "De arts kan de patiënt behandelen.",
+    "form": "behandelen",
+    "distractors": [
+      "klimmen",
+      "updaten",
+      "ontbijten"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-bekijken",
+    "nl": "Wij willen het huis nog bekijken.",
+    "form": "bekijken",
+    "distractors": [
+      "dromen",
+      "hangen",
+      "mislukken"
+    ],
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-beloven",
+    "nl": "Ik beloof dat ik morgen kom.",
+    "form": "beloof",
+    "distractors": [
+      "studeer",
+      "eet",
+      "betaal"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-bereiken",
+    "nl": "Je kunt het centrum met de bus bereiken.",
+    "form": "bereiken",
+    "distractors": [
+      "vervangen",
+      "verschijnen",
+      "sparen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-beschermen",
+    "nl": "Een hoed beschermt je hoofd tegen de zon.",
+    "form": "beschermt",
+    "distractors": [
+      "schrijft",
+      "komt",
+      "werkt"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-beschrijven",
+    "nl": "Kunt u de man beschrijven?",
+    "form": "beschrijven",
+    "distractors": [
+      "wachten",
+      "poetsen",
+      "dromen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-besluiten",
+    "nl": "Wij besluiten om te verhuizen.",
+    "form": "besluiten",
+    "distractors": [
+      "spelen",
+      "ontslaan",
+      "beschermen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-bespreken",
+    "nl": "Wij bespreken het nieuws in de klas.",
+    "form": "bespreken",
+    "distractors": [
+      "verzorgen",
+      "opblazen",
+      "duwen"
+    ],
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-bestellen",
+    "nl": "Mag ik een thee bestellen?",
+    "form": "bestellen",
+    "distractors": [
+      "parkeren",
+      "opslaan",
+      "zingen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-betekenen",
+    "nl": "Wat betekent dit woord?",
+    "form": "betekent",
+    "distractors": [
+      "ligt",
+      "sluit",
+      "huilt"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-bewaren",
+    "nl": "Ik bewaar mijn geld in de bank.",
+    "form": "bewaar",
+    "distractors": [
+      "ren",
+      "kijk",
+      "denk"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-bezoeken",
+    "nl": "Wij bezoeken morgen mijn oma.",
+    "form": "bezoeken",
+    "distractors": [
+      "typen",
+      "knutselen",
+      "vergelijken"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-binnenkomen",
+    "nl": "De klant wil de winkel binnenkomen.",
+    "form": "binnenkomen",
+    "distractors": [
+      "uitleggen",
+      "behandelen",
+      "noemen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-blijven",
+    "nl": "Ik ben moe en wil hier blijven.",
+    "form": "blijven",
+    "distractors": [
+      "nemen",
+      "herkennen",
+      "verzinnen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-braken",
+    "nl": "Ik ben ziek en moet braken.",
+    "form": "braken",
+    "distractors": [
+      "zeggen",
+      "verplaatsen",
+      "groeten"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-branden",
+    "nl": "Het hout brandt goed.",
+    "form": "brandt",
+    "distractors": [
+      "weet",
+      "verkoopt",
+      "drinkt"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-buigen",
+    "nl": "De boom kan in de wind buigen.",
+    "form": "buigen",
+    "distractors": [
+      "testen",
+      "proberen",
+      "uitnodigen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-chatten",
+    "nl": "Ik wil met mijn vriend chatten.",
+    "form": "chatten",
+    "distractors": [
+      "teruggeven",
+      "invullen",
+      "binnenkomen"
+    ],
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-controleren",
+    "nl": "De agent wil mijn paspoort controleren.",
+    "form": "controleren",
+    "distractors": [
+      "spugen",
+      "slikken",
+      "thuiskomen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-dansen",
+    "nl": "Wij willen op het feest dansen.",
+    "form": "dansen",
+    "distractors": [
+      "pakken",
+      "sneeuwen",
+      "krijgen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-delen",
+    "nl": "Wij delen een kamer in het hotel.",
+    "form": "delen",
+    "distractors": [
+      "sneeuwen",
+      "printen",
+      "gebeuren"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-doorgaan",
+    "nl": "Wij willen met de les doorgaan.",
+    "form": "doorgaan",
+    "distractors": [
+      "schaken",
+      "feliciteren",
+      "legen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-douchen",
+    "nl": "Wij willen voor het eten douchen.",
+    "form": "douchen",
+    "distractors": [
+      "betekenen",
+      "vriezen",
+      "uitgeven"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-drogen",
+    "nl": "Ik kan mijn haar drogen.",
+    "form": "drogen",
+    "distractors": [
+      "klinken",
+      "luisteren",
+      "samenwerken"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-dromen",
+    "nl": "De baby droomt elke nacht.",
+    "form": "droomt",
+    "distractors": [
+      "fietst",
+      "regent",
+      "brengt"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-duiken",
+    "nl": "Mijn broer wil in de zee duiken.",
+    "form": "duiken",
+    "distractors": [
+      "bellen",
+      "gieten",
+      "schoonmaken"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-durven",
+    "nl": "Ik durf niet te zwemmen.",
+    "form": "durf",
+    "distractors": [
+      "woon",
+      "trek",
+      "bouw"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-duwen",
+    "nl": "Wij moeten de auto duwen.",
+    "form": "duwen",
+    "distractors": [
+      "slagen",
+      "beloven",
+      "uitspreken"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-eindigen",
+    "nl": "De les eindigt om vier uur.",
+    "form": "eindigt",
+    "distractors": [
+      "snijdt",
+      "gelooft",
+      "rijdt"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-feesten",
+    "nl": "Wij willen dit weekend feesten.",
+    "form": "feesten",
+    "distractors": [
+      "verlengen",
+      "sturen",
+      "schuiven"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-feliciteren",
+    "nl": "Ik wil jou met je verjaardag feliciteren.",
+    "form": "feliciteren",
+    "distractors": [
+      "durven",
+      "wrijven",
+      "meemaken"
+    ],
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-fietsen",
+    "nl": "Wij fietsen elke dag naar school.",
+    "form": "fietsen",
+    "distractors": [
+      "vieren",
+      "thuisblijven",
+      "stoten"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-gebeuren",
+    "nl": "Wat gebeurt er in de klas?",
+    "form": "gebeurt",
+    "distractors": [
+      "draagt",
+      "begrijpt",
+      "leest"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-gebruiken",
+    "nl": "Ik gebruik mijn telefoon als klok.",
+    "form": "gebruik",
+    "distractors": [
+      "ga",
+      "was",
+      "vertel"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-geloven",
+    "nl": "Ik geloof mijn buur niet.",
+    "form": "geloof",
+    "distractors": [
+      "groei",
+      "blijf",
+      "bouw"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-genieten",
+    "nl": "Wij genieten van het mooie weer.",
+    "form": "genieten",
+    "distractors": [
+      "afgeven",
+      "vertalen",
+      "bakken"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-gieten",
+    "nl": "Ik wil melk in het glas gieten.",
+    "form": "gieten",
+    "distractors": [
+      "worden",
+      "voetballen",
+      "aanvragen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-gooien",
+    "nl": "Het kind wil de bal gooien.",
+    "form": "gooien",
+    "distractors": [
+      "dromen",
+      "afvallen",
+      "roeien"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-grijpen",
+    "nl": "De poes kan de muis grijpen.",
+    "form": "grijpen",
+    "distractors": [
+      "innemen",
+      "opgeven",
+      "bestellen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-groeten",
+    "nl": "Ik wil mijn buur groeten.",
+    "form": "groeten",
+    "distractors": [
+      "lijken",
+      "winnen",
+      "kloppen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-halen",
+    "nl": "Ik ga brood halen bij de bakker.",
+    "form": "halen",
+    "distractors": [
+      "duren",
+      "feesten",
+      "letten"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-hardlopen",
+    "nl": "Ik wil elke ochtend hardlopen.",
+    "form": "hardlopen",
+    "distractors": [
+      "inrichten",
+      "heten",
+      "halen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-haten",
+    "nl": "Ik haat het koude weer.",
+    "form": "haat",
+    "distractors": [
+      "zit",
+      "breek",
+      "roep"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-herhalen",
+    "nl": "Kunt u de vraag herhalen?",
+    "form": "herhalen",
+    "distractors": [
+      "vechten",
+      "likken",
+      "vullen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-herinneren",
+    "nl": "Ik herinner mij die dag niet.",
+    "form": "herinner",
+    "distractors": [
+      "geef",
+      "koop",
+      "spring"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-herkennen",
+    "nl": "Ik kan jou niet herkennen.",
+    "form": "herkennen",
+    "distractors": [
+      "schelen",
+      "dromen",
+      "hardlopen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-herstellen",
+    "nl": "Mijn vader kan de fiets herstellen.",
+    "form": "herstellen",
+    "distractors": [
+      "klappen",
+      "verwachten",
+      "meedoen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-hoesten",
+    "nl": "Hij hoest vaak in de nacht.",
+    "form": "hoest",
+    "distractors": [
+      "regent",
+      "gooit",
+      "brengt"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-hopen",
+    "nl": "Ik hoop dat het morgen mooi weer is.",
+    "form": "hoop",
+    "distractors": [
+      "snijd",
+      "zwem",
+      "duw"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-houden",
+    "nl": "Wil je mijn jas houden?",
+    "form": "houden",
+    "distractors": [
+      "bezoeken",
+      "groeien",
+      "dansen"
+    ],
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-huilen",
+    "nl": "De baby gaat zo huilen.",
+    "form": "huilen",
+    "distractors": [
+      "weigeren",
+      "verdienen",
+      "zetten"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-informeren",
+    "nl": "Ik wil de klant informeren.",
+    "form": "informeren",
+    "distractors": [
+      "rusten",
+      "groeien",
+      "zuchten"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-innemen",
+    "nl": "Ik moet het medicijn innemen.",
+    "form": "innemen",
+    "distractors": [
+      "wijzen",
+      "besluiten",
+      "trappen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-inrichten",
+    "nl": "Wij willen de kamer mooi inrichten.",
+    "form": "inrichten",
+    "distractors": [
+      "oplossen",
+      "braken",
+      "logeren"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-inschrijven",
+    "nl": "Ik wil mij voor de cursus inschrijven.",
+    "form": "inschrijven",
+    "distractors": [
+      "ontspannen",
+      "omdraaien",
+      "vriezen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-internetten",
+    "nl": "Mijn dochter wil op de laptop internetten.",
+    "form": "internetten",
+    "distractors": [
+      "aankomen",
+      "vriezen",
+      "zwemmen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-invullen",
+    "nl": "Wij moeten het formulier invullen.",
+    "form": "invullen",
+    "distractors": [
+      "spreken",
+      "slapen",
+      "opstaan"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-kiezen",
+    "nl": "Ik wil een nieuwe jas kiezen.",
+    "form": "kiezen",
+    "distractors": [
+      "bereiken",
+      "afspreken",
+      "merken"
+    ],
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-klagen",
+    "nl": "Mijn buur wil bij de gemeente klagen.",
+    "form": "klagen",
+    "distractors": [
+      "slaan",
+      "organiseren",
+      "knijpen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-klappen",
+    "nl": "De kinderen willen na het lied klappen.",
+    "form": "klappen",
+    "distractors": [
+      "raden",
+      "grijpen",
+      "uitstappen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-klimmen",
+    "nl": "Wij willen op de berg klimmen.",
+    "form": "klimmen",
+    "distractors": [
+      "reageren",
+      "bedenken",
+      "mailen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-klinken",
+    "nl": "Dat idee klinkt goed.",
+    "form": "klinkt",
+    "distractors": [
+      "betaalt",
+      "roept",
+      "hangt"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-kloppen",
+    "nl": "Dat antwoord klopt niet.",
+    "form": "klopt",
+    "distractors": [
+      "speelt",
+      "regent",
+      "wast"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-knijpen",
+    "nl": "Het kind wil mijn arm knijpen.",
+    "form": "knijpen",
+    "distractors": [
+      "solliciteren",
+      "voorstellen",
+      "regelen"
+    ],
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-knutselen",
+    "nl": "Wij gaan met papier knutselen.",
+    "form": "knutselen",
+    "distractors": [
+      "reizen",
+      "vervelen",
+      "schaatsen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-koelen",
+    "nl": "Wij moeten het bier koelen.",
+    "form": "koelen",
+    "distractors": [
+      "groeien",
+      "fietsen",
+      "ontsnappen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-kosten",
+    "nl": "Deze jas kost veertig euro.",
+    "form": "kost",
+    "distractors": [
+      "trekt",
+      "komt",
+      "kijkt"
+    ],
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-kruipen",
+    "nl": "De hond moet onder het hek kruipen.",
+    "form": "kruipen",
+    "distractors": [
+      "stelen",
+      "herinneren",
+      "vragen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-lachen",
+    "nl": "Wij lachen om zijn grap.",
+    "form": "lachen",
+    "distractors": [
+      "verbouwen",
+      "leveren",
+      "planten"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-laten",
+    "nl": "Ik laat mijn jas thuis.",
+    "form": "laat",
+    "distractors": [
+      "rijd",
+      "blijf",
+      "spring"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-legen",
+    "nl": "Ik moet de doos legen.",
+    "form": "legen",
+    "distractors": [
+      "lopen",
+      "vriezen",
+      "vliegen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-lenen",
+    "nl": "Mag ik jouw fiets lenen?",
+    "form": "lenen",
+    "distractors": [
+      "vriezen",
+      "waarschuwen",
+      "zakken"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-letten",
+    "nl": "Wij moeten goed op de kinderen letten.",
+    "form": "letten",
+    "distractors": [
+      "bloeden",
+      "controleren",
+      "opruimen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-leveren",
+    "nl": "De bakker wil elke dag brood leveren.",
+    "form": "leveren",
+    "distractors": [
+      "bedanken",
+      "rekenen",
+      "antwoorden"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-liegen",
+    "nl": "Mijn zoon wil niet liegen.",
+    "form": "liegen",
+    "distractors": [
+      "kosten",
+      "lukken",
+      "schelen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-lijken",
+    "nl": "Je broer lijkt op jou.",
+    "form": "lijkt",
+    "distractors": [
+      "bouwt",
+      "werkt",
+      "oefent"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-likken",
+    "nl": "De hond wil mijn hand likken.",
+    "form": "likken",
+    "distractors": [
+      "appen",
+      "vriezen",
+      "verbeteren"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-logeren",
+    "nl": "Mijn neef komt dit weekend logeren.",
+    "form": "logeren",
+    "distractors": [
+      "wensen",
+      "vinden",
+      "regenen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-lukken",
+    "nl": "Het lukt mij niet.",
+    "form": "lukt",
+    "distractors": [
+      "fietst",
+      "drinkt",
+      "luistert"
+    ],
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-mailen",
+    "nl": "Ik mail mijn leraar elke week.",
+    "form": "mail",
+    "distractors": [
+      "eet",
+      "bouw",
+      "studeer"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-meedoen",
+    "nl": "Wij willen aan de wedstrijd meedoen.",
+    "form": "meedoen",
+    "distractors": [
+      "weggooien",
+      "voelen",
+      "delen"
+    ],
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-meemaken",
+    "nl": "Ik wil een avontuur meemaken.",
+    "form": "meemaken",
+    "distractors": [
+      "hoesten",
+      "schreeuwen",
+      "regenen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-meenemen",
+    "nl": "Wij willen onze hond meenemen.",
+    "form": "meenemen",
+    "distractors": [
+      "bedienen",
+      "twijfelen",
+      "regenen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-merken",
+    "nl": "Ik merk de kou niet.",
+    "form": "merk",
+    "distractors": [
+      "praat",
+      "klim",
+      "loop"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-meten",
+    "nl": "Wij moeten de tafel meten.",
+    "form": "meten",
+    "distractors": [
+      "kruipen",
+      "regenen",
+      "wonen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-mislukken",
+    "nl": "Mijn plan kan nog mislukken.",
+    "form": "mislukken",
+    "distractors": [
+      "oppakken",
+      "regenen",
+      "openen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-missen",
+    "nl": "Ik mis mijn vriendin heel erg.",
+    "form": "mis",
+    "distractors": [
+      "ga",
+      "koop",
+      "verkoop"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-nadenken",
+    "nl": "Ik moet er goed over nadenken.",
+    "form": "nadenken",
+    "distractors": [
+      "redden",
+      "wegleggen",
+      "terugkomen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-negeren",
+    "nl": "Je mag mij niet negeren.",
+    "form": "negeren",
+    "distractors": [
+      "zwemmen",
+      "regenen",
+      "wachten"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-noemen",
+    "nl": "Hoe noem je dit gerecht?",
+    "form": "noem",
+    "distractors": [
+      "leer",
+      "groei",
+      "ruik"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-oefenen",
+    "nl": "Wij oefenen elke dag een lied.",
+    "form": "oefenen",
+    "distractors": [
+      "versieren",
+      "winkelen",
+      "vangen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-omdraaien",
+    "nl": "Wij moeten de kaart omdraaien.",
+    "form": "omdraaien",
+    "distractors": [
+      "afzetten",
+      "storen",
+      "doorgaan"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-ontbijten",
+    "nl": "Wij willen buiten ontbijten.",
+    "form": "ontbijten",
+    "distractors": [
+      "krijgen",
+      "kosten",
+      "vinden"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-ontdekken",
+    "nl": "Wij willen de natuur ontdekken.",
+    "form": "ontdekken",
+    "distractors": [
+      "regenen",
+      "waaien",
+      "eindigen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-ontslaan",
+    "nl": "De baas moet mijn collega ontslaan.",
+    "form": "ontslaan",
+    "distractors": [
+      "buigen",
+      "klinken",
+      "huilen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-ontsnappen",
+    "nl": "De hond kan uit de tuin ontsnappen.",
+    "form": "ontsnappen",
+    "distractors": [
+      "genieten",
+      "verrassen",
+      "lijken"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-ontspannen",
+    "nl": "Na het werk wil ik ontspannen.",
+    "form": "ontspannen",
+    "distractors": [
+      "gebeuren",
+      "duren",
+      "vinden"
+    ],
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-ontvangen",
+    "nl": "Wij ontvangen elke maand een brief.",
+    "form": "ontvangen",
+    "distractors": [
+      "vallen",
+      "meten",
+      "dromen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-opblazen",
+    "nl": "Ik wil de bal opblazen.",
+    "form": "opblazen",
+    "distractors": [
+      "duiken",
+      "klagen",
+      "beloven"
+    ],
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-opereren",
+    "nl": "De arts moet mijn knie opereren.",
+    "form": "opereren",
+    "distractors": [
+      "bezoeken",
+      "scoren",
+      "chatten"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-opgeven",
+    "nl": "Ik wil niet opgeven.",
+    "form": "opgeven",
+    "distractors": [
+      "gebeuren",
+      "waaien",
+      "duren"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-oplossen",
+    "nl": "Wij kunnen het probleem oplossen.",
+    "form": "oplossen",
+    "distractors": [
+      "waaien",
+      "vechten",
+      "slapen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-opnemen",
+    "nl": "Ik kan de telefoon niet opnemen.",
+    "form": "opnemen",
+    "distractors": [
+      "reizen",
+      "feesten",
+      "likken"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-oppakken",
+    "nl": "De baby wil de sleutel oppakken.",
+    "form": "oppakken",
+    "distractors": [
+      "ontsnappen",
+      "invullen",
+      "weigeren"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-opruimen",
+    "nl": "Wij moeten de kamer opruimen.",
+    "form": "opruimen",
+    "distractors": [
+      "waaien",
+      "zwemmen",
+      "schaken"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-opslaan",
+    "nl": "Ik wil het document opslaan.",
+    "form": "opslaan",
+    "distractors": [
+      "waaien",
+      "buigen",
+      "afzetten"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-opstaan",
+    "nl": "Ik moet morgen vroeg opstaan.",
+    "form": "opstaan",
+    "distractors": [
+      "houden",
+      "bedenken",
+      "zetten"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-organiseren",
+    "nl": "Wij organiseren een feest voor mijn zus.",
+    "form": "organiseren",
+    "distractors": [
+      "heten",
+      "bereiken",
+      "rekenen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-overleggen",
+    "nl": "Ik moet met mijn baas overleggen.",
+    "form": "overleggen",
+    "distractors": [
+      "kosten",
+      "schelen",
+      "lukken"
+    ],
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-overstappen",
+    "nl": "Wij moeten bij het station overstappen.",
+    "form": "overstappen",
+    "distractors": [
+      "zorgen",
+      "feliciteren",
+      "waaien"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-pakken",
+    "nl": "Ik pak mijn jas van de stoel.",
+    "form": "pak",
+    "distractors": [
+      "schrijf",
+      "weet",
+      "zit"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-parkeren",
+    "nl": "Ik wil de auto hier parkeren.",
+    "form": "parkeren",
+    "distractors": [
+      "uitspreken",
+      "verschijnen",
+      "vieren"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-planten",
+    "nl": "Wij gaan een boom planten.",
+    "form": "planten",
+    "distractors": [
+      "uitgaan",
+      "vertellen",
+      "mailen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-poetsen",
+    "nl": "Ik moet mijn tanden poetsen.",
+    "form": "poetsen",
+    "distractors": [
+      "opnemen",
+      "doorgaan",
+      "verlaten"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-posten",
+    "nl": "Ik wil een foto op internet posten.",
+    "form": "posten",
+    "distractors": [
+      "stoppen",
+      "verlengen",
+      "voelen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-printen",
+    "nl": "Ik wil de brief thuis printen.",
+    "form": "printen",
+    "distractors": [
+      "parkeren",
+      "poetsen",
+      "thuisblijven"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-proberen",
+    "nl": "Ik wil het nog een keer proberen.",
+    "form": "proberen",
+    "distractors": [
+      "wachten",
+      "bloeden",
+      "winkelen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-raden",
+    "nl": "Kunt u het antwoord raden?",
+    "form": "raden",
+    "distractors": [
+      "ontspannen",
+      "thuiskomen",
+      "worden"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-reageren",
+    "nl": "Hij wil niet op mijn brief reageren.",
+    "form": "reageren",
+    "distractors": [
+      "ontvangen",
+      "opstaan",
+      "grijpen"
+    ],
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-redden",
+    "nl": "De brandweer kan het kind redden.",
+    "form": "redden",
+    "distractors": [
+      "sparen",
+      "koken",
+      "sneeuwen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-regelen",
+    "nl": "Ik kan de vakantie voor jullie regelen.",
+    "form": "regelen",
+    "distractors": [
+      "lachen",
+      "vliegen",
+      "bloeden"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-reizen",
+    "nl": "Mijn oma wil naar de kust reizen.",
+    "form": "reizen",
+    "distractors": [
+      "laten",
+      "noemen",
+      "slaan"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-rekenen",
+    "nl": "De kinderen leren op school rekenen.",
+    "form": "rekenen",
+    "distractors": [
+      "lijken",
+      "bloeden",
+      "schelen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-rennen",
+    "nl": "De kinderen rennen over het veld.",
+    "form": "rennen",
+    "distractors": [
+      "gebruiken",
+      "verhuren",
+      "wegleggen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-reserveren",
+    "nl": "Wij willen een tafel reserveren.",
+    "form": "reserveren",
+    "distractors": [
+      "ontbijten",
+      "slapen",
+      "informeren"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-roeien",
+    "nl": "Wij willen op de gracht roeien.",
+    "form": "roeien",
+    "distractors": [
+      "opslaan",
+      "groeten",
+      "bedanken"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-ruiken",
+    "nl": "Ik ruik koffie in de keuken.",
+    "form": "ruik",
+    "distractors": [
+      "hoop",
+      "woon",
+      "lees"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-samenwerken",
+    "nl": "Wij willen met onze buren samenwerken.",
+    "form": "samenwerken",
+    "distractors": [
+      "kosten",
+      "bloeden",
+      "schelen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-schaatsen",
+    "nl": "Wij willen op het ijs schaatsen.",
+    "form": "schaatsen",
+    "distractors": [
+      "opgeven",
+      "koelen",
+      "waarschuwen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-schaken",
+    "nl": "Mijn opa wil met mij schaken.",
+    "form": "schaken",
+    "distractors": [
+      "vervelen",
+      "branden",
+      "bloeden"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-schelen",
+    "nl": "Het kan mij niet schelen.",
+    "form": "schelen",
+    "distractors": [
+      "branden",
+      "voorstellen",
+      "uitstappen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-schilderen",
+    "nl": "Mijn oma wil een bloem schilderen.",
+    "form": "schilderen",
+    "distractors": [
+      "hardlopen",
+      "letten",
+      "braken"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-schoonmaken",
+    "nl": "Ik moet de keuken schoonmaken.",
+    "form": "schoonmaken",
+    "distractors": [
+      "zakken",
+      "braken",
+      "lachen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-schreeuwen",
+    "nl": "Je hoeft niet te schreeuwen.",
+    "form": "schreeuwen",
+    "distractors": [
+      "kosten",
+      "lukken",
+      "toevoegen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-schrikken",
+    "nl": "De hond zal van het geluid schrikken.",
+    "form": "schrikken",
+    "distractors": [
+      "meenemen",
+      "uitgeven",
+      "laten"
+    ],
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-schuiven",
+    "nl": "Wij moeten de kast naar links schuiven.",
+    "form": "schuiven",
+    "distractors": [
+      "verzinnen",
+      "vriezen",
+      "meemaken"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-scoren",
+    "nl": "De speler kan een doelpunt scoren.",
+    "form": "scoren",
+    "distractors": [
+      "verbieden",
+      "binnenkomen",
+      "verrassen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-slaan",
+    "nl": "Hij moet de bal met zijn hand slaan.",
+    "form": "slaan",
+    "distractors": [
+      "lenen",
+      "schelen",
+      "verdienen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-slagen",
+    "nl": "Ik wil voor de cursus slagen.",
+    "form": "slagen",
+    "distractors": [
+      "gebeuren",
+      "meedoen",
+      "rusten"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-slikken",
+    "nl": "Ik kan dit medicijn niet slikken.",
+    "form": "slikken",
+    "distractors": [
+      "werken",
+      "mislukken",
+      "rijden"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-sneeuwen",
+    "nl": "Het gaat morgen sneeuwen.",
+    "form": "sneeuwen",
+    "distractors": [
+      "reserveren",
+      "printen",
+      "slagen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-solliciteren",
+    "nl": "Ik wil bij de bank solliciteren.",
+    "form": "solliciteren",
+    "distractors": [
+      "wrijven",
+      "negeren",
+      "duren"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-sparen",
+    "nl": "Ik wil sparen voor een nieuwe fiets.",
+    "form": "sparen",
+    "distractors": [
+      "voetballen",
+      "reageren",
+      "bekijken"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-spellen",
+    "nl": "Kunt u uw naam spellen?",
+    "form": "spellen",
+    "distractors": [
+      "logeren",
+      "zorgen",
+      "aankomen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-sporten",
+    "nl": "Mijn dochter wil elke dag sporten.",
+    "form": "sporten",
+    "distractors": [
+      "gebeuren",
+      "duren",
+      "kosten"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-spugen",
+    "nl": "Het kind mag niet op de grond spugen.",
+    "form": "spugen",
+    "distractors": [
+      "denken",
+      "herhalen",
+      "wennen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-stelen",
+    "nl": "Zij proberen de fiets te stelen.",
+    "form": "stelen",
+    "distractors": [
+      "herinneren",
+      "bedienen",
+      "storen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-stoppen",
+    "nl": "De bus wil hier niet stoppen.",
+    "form": "stoppen",
+    "distractors": [
+      "controleren",
+      "spreken",
+      "gieten"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-storen",
+    "nl": "Mijn broer wil mij niet storen.",
+    "form": "storen",
+    "distractors": [
+      "tonen",
+      "typen",
+      "inschrijven"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-stoten",
+    "nl": "Ik stoot mijn knie tegen de tafel.",
+    "form": "stoot",
+    "distractors": [
+      "zing",
+      "geloof",
+      "kost"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-studeren",
+    "nl": "Mijn broer wil in de stad studeren.",
+    "form": "studeren",
+    "distractors": [
+      "gebeuren",
+      "kosten",
+      "lijken"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-sturen",
+    "nl": "Ik wil mijn oma een kaart sturen.",
+    "form": "sturen",
+    "distractors": [
+      "spugen",
+      "kloppen",
+      "bloeden"
+    ],
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-tekenen",
+    "nl": "Het kind wil een huis tekenen.",
+    "form": "tekenen",
+    "distractors": [
+      "branden",
+      "teruggaan",
+      "opereren"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-tellen",
+    "nl": "De kinderen kunnen al tot tien tellen.",
+    "form": "tellen",
+    "distractors": [
+      "openen",
+      "bestellen",
+      "behandelen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-teruggaan",
+    "nl": "Wij moeten naar huis teruggaan.",
+    "form": "teruggaan",
+    "distractors": [
+      "haten",
+      "winnen",
+      "durven"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-teruggeven",
+    "nl": "Ik moet het geld teruggeven.",
+    "form": "teruggeven",
+    "distractors": [
+      "lukken",
+      "genieten",
+      "hoesten"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-terugkomen",
+    "nl": "Wij willen volgend jaar terugkomen.",
+    "form": "terugkomen",
+    "distractors": [
+      "vinden",
+      "legen",
+      "leveren"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-testen",
+    "nl": "Wij gaan de nieuwe machine testen.",
+    "form": "testen",
+    "distractors": [
+      "zuchten",
+      "betekenen",
+      "wonen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-thuisblijven",
+    "nl": "Ik wil vandaag thuisblijven.",
+    "form": "thuisblijven",
+    "distractors": [
+      "geven",
+      "brengen",
+      "pakken"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-thuiskomen",
+    "nl": "De kinderen moeten voor zes uur thuiskomen.",
+    "form": "thuiskomen",
+    "distractors": [
+      "branden",
+      "proberen",
+      "afgeven"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-toevoegen",
+    "nl": "Ik wil nog suiker toevoegen.",
+    "form": "toevoegen",
+    "distractors": [
+      "schrikken",
+      "internetten",
+      "vertalen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-tonen",
+    "nl": "Zij wil haar foto tonen.",
+    "form": "tonen",
+    "distractors": [
+      "spellen",
+      "rennen",
+      "samenwerken"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-trappen",
+    "nl": "Hij wil de bal hard trappen.",
+    "form": "trappen",
+    "distractors": [
+      "aanbieden",
+      "tellen",
+      "verwarmen"
+    ],
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-trekken",
+    "nl": "Je moet aan de deur trekken.",
+    "form": "trekken",
+    "distractors": [
+      "testen",
+      "wensen",
+      "stelen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-twijfelen",
+    "nl": "Ik twijfel tussen de rode en blauwe jas.",
+    "form": "twijfel",
+    "distractors": [
+      "gooi",
+      "vertel",
+      "trek"
+    ],
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-typen",
+    "nl": "Ik wil een brief op de computer typen.",
+    "form": "typen",
+    "distractors": [
+      "lachen",
+      "bakken",
+      "hoesten"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-uitgaan",
+    "nl": "Wij willen op zaterdag uitgaan.",
+    "form": "uitgaan",
+    "distractors": [
+      "beschrijven",
+      "ontslaan",
+      "stoten"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-uitgeven",
+    "nl": "Ik wil niet te veel geld uitgeven.",
+    "form": "uitgeven",
+    "distractors": [
+      "branden",
+      "afvallen",
+      "roeien"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-uitleggen",
+    "nl": "De leraar kan het woord uitleggen.",
+    "form": "uitleggen",
+    "distractors": [
+      "innemen",
+      "meenemen",
+      "verplaatsen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-uitnodigen",
+    "nl": "Ik wil mijn buren uitnodigen.",
+    "form": "uitnodigen",
+    "distractors": [
+      "wonen",
+      "hoesten",
+      "lachen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-uitspreken",
+    "nl": "Kunt u dit woord uitspreken?",
+    "form": "uitspreken",
+    "distractors": [
+      "opruimen",
+      "vallen",
+      "sluiten"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-uitstappen",
+    "nl": "Wij moeten bij de volgende halte uitstappen.",
+    "form": "uitstappen",
+    "distractors": [
+      "vissen",
+      "slikken",
+      "herstellen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-uitstellen",
+    "nl": "Wij moeten het feest uitstellen.",
+    "form": "uitstellen",
+    "distractors": [
+      "verzamelen",
+      "accepteren",
+      "uitnodigen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-updaten",
+    "nl": "Ik moet de app updaten.",
+    "form": "updaten",
+    "distractors": [
+      "duren",
+      "verdwijnen",
+      "zuchten"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-vallen",
+    "nl": "Het glas kan van de tafel vallen.",
+    "form": "vallen",
+    "distractors": [
+      "solliciteren",
+      "vergelijken",
+      "dansen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-vangen",
+    "nl": "De hond kan de bal vangen.",
+    "form": "vangen",
+    "distractors": [
+      "terugkomen",
+      "douchen",
+      "overstappen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-vechten",
+    "nl": "De jongens willen niet vechten.",
+    "form": "vechten",
+    "distractors": [
+      "krijgen",
+      "vinden",
+      "brengen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-veranderen",
+    "nl": "Het weer gaat morgen veranderen.",
+    "form": "veranderen",
+    "distractors": [
+      "dragen",
+      "verliezen",
+      "knutselen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verbergen",
+    "nl": "De hond wil zijn bot verbergen.",
+    "form": "verbergen",
+    "distractors": [
+      "uitnodigen",
+      "betalen",
+      "herhalen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verbeteren",
+    "nl": "Ik wil mijn werk verbeteren.",
+    "form": "verbeteren",
+    "distractors": [
+      "fietsen",
+      "hoesten",
+      "wonen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verbieden",
+    "nl": "De politie wil roken verbieden.",
+    "form": "verbieden",
+    "distractors": [
+      "schaatsen",
+      "schrikken",
+      "internetten"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verbouwen",
+    "nl": "Wij willen ons huis verbouwen.",
+    "form": "verbouwen",
+    "distractors": [
+      "posten",
+      "slagen",
+      "besluiten"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verdelen",
+    "nl": "Wij verdelen de appel in vier stukken.",
+    "form": "verdelen",
+    "distractors": [
+      "bedenken",
+      "zingen",
+      "gebeuren"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verdienen",
+    "nl": "Ik wil veel geld verdienen.",
+    "form": "verdienen",
+    "distractors": [
+      "klappen",
+      "zitten",
+      "rusten"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verdwijnen",
+    "nl": "De zon kan achter de wolken verdwijnen.",
+    "form": "verdwijnen",
+    "distractors": [
+      "snijden",
+      "huilen",
+      "storen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-vergelijken",
+    "nl": "Wij kunnen de prijzen vergelijken.",
+    "form": "vergelijken",
+    "distractors": [
+      "vullen",
+      "ontbijten",
+      "springen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-vergeten",
+    "nl": "Ik wil mijn sleutel niet vergeten.",
+    "form": "vergeten",
+    "distractors": [
+      "wrijven",
+      "verrassen",
+      "bedanken"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verhuren",
+    "nl": "Wij willen onze kamer verhuren.",
+    "form": "verhuren",
+    "distractors": [
+      "klinken",
+      "buigen",
+      "leren"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verkopen",
+    "nl": "Mijn buur wil zijn auto verkopen.",
+    "form": "verkopen",
+    "distractors": [
+      "weten",
+      "huilen",
+      "tellen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verlaten",
+    "nl": "Wij moeten het gebouw verlaten.",
+    "form": "verlaten",
+    "distractors": [
+      "huilen",
+      "slikken",
+      "werken"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verlengen",
+    "nl": "Ik wil mijn kaart verlengen.",
+    "form": "verlengen",
+    "distractors": [
+      "overstappen",
+      "schaken",
+      "praten"
+    ],
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-verliezen",
+    "nl": "Ik wil het spel niet verliezen.",
+    "form": "verliezen",
+    "distractors": [
+      "schuiven",
+      "roepen",
+      "lachen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verplaatsen",
+    "nl": "Wij willen de tafel naar het raam verplaatsen.",
+    "form": "verplaatsen",
+    "distractors": [
+      "feesten",
+      "rekenen",
+      "twijfelen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verrassen",
+    "nl": "Ik wil mijn moeder verrassen.",
+    "form": "verrassen",
+    "distractors": [
+      "braken",
+      "drogen",
+      "logeren"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verschijnen",
+    "nl": "Op de computer kan een bericht verschijnen.",
+    "form": "verschijnen",
+    "distractors": [
+      "inrichten",
+      "geloven",
+      "afzetten"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-versieren",
+    "nl": "Wij gaan de kamer versieren.",
+    "form": "versieren",
+    "distractors": [
+      "beginnen",
+      "raden",
+      "mailen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-vertalen",
+    "nl": "Ik kan deze zin vertalen.",
+    "form": "vertalen",
+    "distractors": [
+      "vallen",
+      "ontspannen",
+      "kloppen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-vertellen",
+    "nl": "Mijn opa wil een grap vertellen.",
+    "form": "vertellen",
+    "distractors": [
+      "schoonmaken",
+      "klimmen",
+      "duiken"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-vervangen",
+    "nl": "Ik moet de batterij vervangen.",
+    "form": "vervangen",
+    "distractors": [
+      "opereren",
+      "missen",
+      "feliciteren"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-vervelen",
+    "nl": "Ik verveel mij in de les.",
+    "form": "verveel",
+    "distractors": [
+      "breek",
+      "drink",
+      "gooi"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verwachten",
+    "nl": "Wij verwachten morgen veel regen.",
+    "form": "verwachten",
+    "distractors": [
+      "verkopen",
+      "veranderen",
+      "liggen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verwarmen",
+    "nl": "Wij verwarmen het huis met gas.",
+    "form": "verwarmen",
+    "distractors": [
+      "wensen",
+      "huilen",
+      "schelen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verzamelen",
+    "nl": "Mijn zoon wil mooie stenen verzamelen.",
+    "form": "verzamelen",
+    "distractors": [
+      "thuiskomen",
+      "uitspreken",
+      "zuchten"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verzinnen",
+    "nl": "Mijn zoon kan leuke grappen verzinnen.",
+    "form": "verzinnen",
+    "distractors": [
+      "huilen",
+      "winkelen",
+      "zwemmen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verzorgen",
+    "nl": "De arts moet de patiënt verzorgen.",
+    "form": "verzorgen",
+    "distractors": [
+      "vechten",
+      "studeren",
+      "vertalen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-vieren",
+    "nl": "Wij vieren mijn verjaardag thuis.",
+    "form": "vieren",
+    "distractors": [
+      "redden",
+      "behandelen",
+      "innemen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-vissen",
+    "nl": "Mijn opa gaat in de rivier vissen.",
+    "form": "vissen",
+    "distractors": [
+      "omdraaien",
+      "bespreken",
+      "vergeten"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-voelen",
+    "nl": "Ik voel mij vandaag erg goed.",
+    "form": "voel",
+    "distractors": [
+      "neem",
+      "zwem",
+      "loop"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-voetballen",
+    "nl": "De jongens willen op het veld voetballen.",
+    "form": "voetballen",
+    "distractors": [
+      "lenen",
+      "durven",
+      "poetsen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-volgen",
+    "nl": "De hond wil mij volgen.",
+    "form": "volgen",
+    "distractors": [
+      "lukken",
+      "chatten",
+      "afvallen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-voorstellen",
+    "nl": "Ik wil u mijn vriend voorstellen.",
+    "form": "voorstellen",
+    "distractors": [
+      "slapen",
+      "verschijnen",
+      "typen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-vriezen",
+    "nl": "Het gaat morgen vriezen.",
+    "form": "vriezen",
+    "distractors": [
+      "verbouwen",
+      "proberen",
+      "overleggen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-vullen",
+    "nl": "Ik wil het glas met water vullen.",
+    "form": "vullen",
+    "distractors": [
+      "winnen",
+      "bezoeken",
+      "haten"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-waaien",
+    "nl": "Het gaat vandaag hard waaien.",
+    "form": "waaien",
+    "distractors": [
+      "oppakken",
+      "verlengen",
+      "meten"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-waarschuwen",
+    "nl": "Ik moet mijn buur waarschuwen.",
+    "form": "waarschuwen",
+    "distractors": [
+      "meedoen",
+      "huilen",
+      "vissen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-weggooien",
+    "nl": "Wij mogen dit niet weggooien.",
+    "form": "weggooien",
+    "distractors": [
+      "wijzen",
+      "inschrijven",
+      "mislukken"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-wegleggen",
+    "nl": "Ik wil mijn geld wegleggen.",
+    "form": "wegleggen",
+    "distractors": [
+      "solliciteren",
+      "duren",
+      "groeten"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-weigeren",
+    "nl": "Je kunt een cadeau weigeren.",
+    "form": "weigeren",
+    "distractors": [
+      "reizen",
+      "spellen",
+      "lopen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-wennen",
+    "nl": "Ik moet nog aan de kou wennen.",
+    "form": "wennen",
+    "distractors": [
+      "knijpen",
+      "organiseren",
+      "liegen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-wensen",
+    "nl": "Ik wens jou veel geluk.",
+    "form": "wens",
+    "distractors": [
+      "kook",
+      "lees",
+      "blijf"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-wijzen",
+    "nl": "De leraar wijst naar het bord.",
+    "form": "wijst",
+    "distractors": [
+      "bouwt",
+      "werkt",
+      "oefent"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-winkelen",
+    "nl": "Wij gaan zaterdag winkelen.",
+    "form": "winkelen",
+    "distractors": [
+      "ontvangen",
+      "opnemen",
+      "brengen"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-winnen",
+    "nl": "Ik wil de prijs winnen.",
+    "form": "winnen",
+    "distractors": [
+      "lijken",
+      "komen",
+      "nadenken"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-worden",
+    "nl": "Mijn zoon wil arts worden.",
+    "form": "worden",
+    "distractors": [
+      "vervangen",
+      "kopen",
+      "opslaan"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-wrijven",
+    "nl": "Ik wrijf in mijn ogen.",
+    "form": "wrijf",
+    "distractors": [
+      "zeg",
+      "woon",
+      "ren"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-zakken",
+    "nl": "Ik ben bang dat ik voor de cursus zak.",
+    "form": "zak",
+    "distractors": [
+      "geef",
+      "spreek",
+      "hang"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-zetten",
+    "nl": "Ik zet de fles op de tafel.",
+    "form": "zet",
+    "distractors": [
+      "rijd",
+      "eet",
+      "begrijp"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-zingen",
+    "nl": "Wij zingen een lied op het feest.",
+    "form": "zingen",
+    "distractors": [
+      "verdelen",
+      "dromen",
+      "planten"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-zorgen",
+    "nl": "Ik zorg voor mijn oma.",
+    "form": "zorg",
+    "distractors": [
+      "lijk",
+      "klink",
+      "gebeur"
+    ],
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-zuchten",
+    "nl": "Mijn moeder zucht vaak na het werk.",
+    "form": "zucht",
+    "distractors": [
+      "duwt",
+      "pakt",
+      "bouwt"
     ],
     "reviewed": true,
     "review_source": "roundtrip"

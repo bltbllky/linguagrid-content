@@ -715,8 +715,9 @@
   },
   {
     "word_id": "noun-meneer",
-    "text": "Excuse me, sir, can you help me?",
-    "reviewed": false
+    "text": "Sir, can you help me?",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-mevrouw",
@@ -907,7 +908,8 @@
   {
     "word_id": "noun-flat",
     "text": "My sister lives in a big block of flats.",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-toilet",
@@ -1235,8 +1237,9 @@
   },
   {
     "word_id": "noun-ongeluk",
-    "text": "There has been an accident on the road.",
-    "reviewed": false
+    "text": "There is an accident on the road.",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-tand",
@@ -2417,7 +2420,8 @@
   {
     "word_id": "adj-prima",
     "text": "The food is fine.",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "adj-gek",
@@ -3495,8 +3499,9 @@
   },
   {
     "word_id": "noun-bedrag",
-    "text": "The amount on the bill is high.",
-    "reviewed": false
+    "text": "The amount on the account is high.",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-bedrijf",
@@ -3717,7 +3722,8 @@
   {
     "word_id": "noun-boterham",
     "text": "I eat a slice of bread with cheese.",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-bovenkant",
@@ -4436,7 +4442,8 @@
   {
     "word_id": "noun-hek",
     "text": "The fence of the garden is green.",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-helft",
@@ -4710,8 +4717,9 @@
   },
   {
     "word_id": "noun-kachel",
-    "text": "The stove stands in the living room.",
-    "reviewed": false
+    "text": "The heater stands in the living room.",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-kade",
@@ -4848,7 +4856,8 @@
   {
     "word_id": "noun-koek",
     "text": "I eat a biscuit with the tea.",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-koekje",
@@ -4967,7 +4976,8 @@
   {
     "word_id": "noun-lach",
     "text": "She has a beautiful laugh.",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-landschap",
@@ -5284,7 +5294,8 @@
   {
     "word_id": "noun-muts",
     "text": "In the winter I wear a woolly hat.",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-muzikant",
@@ -5391,6 +5402,2970 @@
   {
     "word_id": "noun-binnenkant",
     "text": "The inside of the cupboard is empty.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-opleiding",
+    "text": "She is doing training with the police.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-opmerking",
+    "text": "He makes a funny comment.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-oven",
+    "text": "The oven is very hot.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-paard",
+    "text": "The horse eats grass.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pad",
+    "text": "This path goes to the beach.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-paddenstoel",
+    "text": "The mushroom grows under the tree.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pagina",
+    "text": "The page on my computer is empty.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pak",
+    "text": "He is wearing a black suit.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pakket",
+    "text": "The parcel comes by post.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-papa",
+    "text": "My dad works in a factory.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-papier",
+    "text": "There is paper on the floor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-paraplu",
+    "text": "It is raining, so I take my umbrella.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-partner",
+    "text": "My partner is working at home today.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-paspoort",
+    "text": "At customs I show my passport.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-passagier",
+    "text": "The passenger is waiting at the stop.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pasta",
+    "text": "Today we are eating pasta with tomato.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pauze",
+    "text": "We have a ten-minute break.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pech",
+    "text": "I have bad luck with my car.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-peer",
+    "text": "I eat a pear after lunch.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pen",
+    "text": "May I borrow your pen?",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pensioen",
+    "text": "My grandfather retires next year.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-peper",
+    "text": "Do you want pepper on your soup?",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-perron",
+    "text": "We are waiting for the train on the platform.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-personeel",
+    "text": "The staff are very friendly today.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pet",
+    "text": "He wears a red cap in the sun.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-piano",
+    "text": "My daughter plays the piano.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pijl",
+    "text": "The arrow points to the right.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pil",
+    "text": "I take a pill every morning.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-piloot",
+    "text": "The pilot works on the plane.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pink",
+    "text": "My little finger hurts.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pizza",
+    "text": "We order a pizza with cheese.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-plaats",
+    "text": "This place is still free.",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-plafond",
+    "text": "There is a lamp on the ceiling.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-plan",
+    "text": "His plan is very clever.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-plant",
+    "text": "The plant needs water and sun.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-plastic",
+    "text": "This is plastic, not glass.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-plein",
+    "text": "There is a big church on the square.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-plezier",
+    "text": "We have a lot of fun in the lesson.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-poes",
+    "text": "The cat sleeps on the chair.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-polder",
+    "text": "The polder is flat and green.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-politie",
+    "text": "The police help us at the accident.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pond",
+    "text": "I am buying a pound of cheese.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-poot",
+    "text": "The dog has pain in its paw.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pop",
+    "text": "The girl plays with her doll.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-portemonnee",
+    "text": "My money is in my wallet.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-post",
+    "text": "The post comes every day at ten o'clock.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-postbode",
+    "text": "The postman brings a letter.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-postcode",
+    "text": "Write your postcode on the form.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-postkantoor",
+    "text": "The post office is closed on Sunday.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pot",
+    "text": "The honey is in the jar.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-potlood",
+    "text": "I write with a pencil.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-probleem",
+    "text": "I have a problem with my computer.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-procent",
+    "text": "Ten percent of the class is ill.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-product",
+    "text": "This product is cheap.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-programma",
+    "text": "The programme starts at eight o'clock.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-project",
+    "text": "We are working together on a project.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-punt",
+    "text": "You get one point for the right answer.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-radio",
+    "text": "My grandpa listens to the radio every evening.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-rapport",
+    "text": "The teacher gives me a good school report.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-rat",
+    "text": "The rat eats the cheese.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-reactie",
+    "text": "I am waiting for her response to my letter.",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-reclame",
+    "text": "I see an advert for a new car.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-reden",
+    "text": "There is no reason to be afraid.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-regel",
+    "text": "That is an important rule at school.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-regen",
+    "text": "The rain falls on the roof.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-regenboog",
+    "text": "We see a rainbow above the city.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-reis",
+    "text": "Our journey lasts two days.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-rekening",
+    "text": "We ask for the bill in the restaurant.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-rem",
+    "text": "The brake of my bike is broken.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-rib",
+    "text": "My rib hurts when I laugh.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-richting",
+    "text": "We are walking in the wrong direction.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-riem",
+    "text": "He wears a belt around his trousers.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-rij",
+    "text": "There is a long queue at the checkout.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-rijbewijs",
+    "text": "Without a driving licence you may not drive.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-rijst",
+    "text": "We eat rice and chicken.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-rit",
+    "text": "The ride to the beach takes an hour.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-rivier",
+    "text": "The river is wide and deep.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-roman",
+    "text": "I read a novel on the train.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-rook",
+    "text": "There is smoke in the kitchen.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-room",
+    "text": "I put cream in my coffee.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-route",
+    "text": "The route to the station is long.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-ruzie",
+    "text": "My brother has an argument with my sister.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-salaris",
+    "text": "His salary is very low.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-sap",
+    "text": "I drink juice every morning.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-schaap",
+    "text": "The sheep gives wool.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-schaduw",
+    "text": "We sit in the shade of the tree.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-schelp",
+    "text": "The child finds a shell on the beach.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-scherm",
+    "text": "The screen of my phone is broken.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-schilderij",
+    "text": "The painting hangs above my bed.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-schip",
+    "text": "The ship is in the harbour.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-schoolplein",
+    "text": "The children are playing in the schoolyard.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-schort",
+    "text": "The cook wears a white apron.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-schotel",
+    "text": "The cup is on the saucer.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-schrift",
+    "text": "I write my name in the notebook.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-schrijver",
+    "text": "The writer is writing a poem.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-serie",
+    "text": "We watch a series on television together.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-sfeer",
+    "text": "The atmosphere at the party is very cosy.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-sjaal",
+    "text": "It is cold, so I wear a scarf.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-sla",
+    "text": "I eat lettuce with cheese.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-slaap",
+    "text": "I am sleepy and want to go to bed.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-slaapkamer",
+    "text": "My bedroom is small but cosy.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-slak",
+    "text": "The snail is very slow.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-slang",
+    "text": "The snake crawls through the grass.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-sloot",
+    "text": "The ditch is full of water.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-slot",
+    "text": "The lock of the door is broken.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-sneeuw",
+    "text": "There is snow on the mountain.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-snelheid",
+    "text": "The speed of the car is too high.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-snelweg",
+    "text": "The motorway is very busy today.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-soep",
+    "text": "The soup is too hot.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-sok",
+    "text": "I have a hole in my sock.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-som",
+    "text": "This sum is too difficult for me.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-speelgoed",
+    "text": "The baby plays with its toys.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-spel",
+    "text": "We play this game every week.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-speler",
+    "text": "The player walks across the field.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-sportschool",
+    "text": "My sister is going to the gym.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-spul",
+    "text": "My stuff is still in the car.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-staart",
+    "text": "The dog has a long tail.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-stadion",
+    "text": "The stadium is full today.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-stage",
+    "text": "I am doing an internship at a bank.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-stap",
+    "text": "The baby takes a step towards me.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-steen",
+    "text": "The stone is big and heavy.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-stem",
+    "text": "I hear her voice in the hallway.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-ster",
+    "text": "I see a star in the sky.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-stoep",
+    "text": "The bike is on the pavement.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-storm",
+    "text": "The storm breaks the tree.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-straatnaam",
+    "text": "What is the street name of your house?",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-strand",
+    "text": "We are lying on the beach today.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-streep",
+    "text": "There is a black line on the wall.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-stress",
+    "text": "I have a lot of stress at work.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-stroom",
+    "text": "There is no power in the kitchen.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-student",
+    "text": "The student studies at the university.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-studie",
+    "text": "My studies last four years.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-stuk",
+    "text": "I want another piece of cheese.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-stuur",
+    "text": "His hand is on the steering wheel.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-suiker",
+    "text": "I do not put sugar in my tea.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-symptoom",
+    "text": "The doctor sees a symptom of flu.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-taak",
+    "text": "Every child has a task in the class.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-taart",
+    "text": "We eat cake on my birthday.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tak",
+    "text": "The bird sits on a branch.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tandarts",
+    "text": "I am going to the dentist for my tooth.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-taxi",
+    "text": "We take a taxi to the station.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-team",
+    "text": "Our team plays at home today.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tegel",
+    "text": "The tile on the floor is broken.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tekenfilm",
+    "text": "The children are watching a cartoon.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tekening",
+    "text": "My daughter is making a drawing.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tekst",
+    "text": "Read the text and write an answer.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-temperatuur",
+    "text": "The temperature is very low today.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tennis",
+    "text": "My father plays tennis every week.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-test",
+    "text": "The test is difficult but fun.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-theater",
+    "text": "We are going to the theatre today.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-thee",
+    "text": "I drink tea with milk.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-ticket",
+    "text": "Do you have your ticket for the train?",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tiener",
+    "text": "The teenager likes listening to music.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tijdschrift",
+    "text": "My mother reads a magazine every month.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tip",
+    "text": "I have a good tip for you.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tocht",
+    "text": "After the trip through the forest I am tired.",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-toerist",
+    "text": "The tourist takes a photo of the church.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tomaat",
+    "text": "I cut a tomato for my sandwich.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-toren",
+    "text": "The tower of the church is high.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-trainer",
+    "text": "The coach shouts at the boys.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-training",
+    "text": "The training starts at seven o'clock.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tram",
+    "text": "The tram runs through the city.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-trui",
+    "text": "I wear a jumper in the winter.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tunnel",
+    "text": "The car drives through the tunnel.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-uil",
+    "text": "The owl sits in the tree.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-uitgang",
+    "text": "The exit is next to the lift.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-uitkering",
+    "text": "She receives a benefit every month.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-uitnodiging",
+    "text": "I receive an invitation to the party.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-uitspraak",
+    "text": "Her pronunciation of the word is good.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-uniform",
+    "text": "The police officer wears a blue uniform.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-universiteit",
+    "text": "My son is going to university.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vaccin",
+    "text": "The doctor gives me a vaccine.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vak",
+    "text": "This subject is difficult for me.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-varken",
+    "text": "The pig lives on the farm.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-veld",
+    "text": "There is a cow in the field.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-verdriet",
+    "text": "Her sadness is great.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vergadering",
+    "text": "The meeting starts at nine o'clock.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-verhaal",
+    "text": "My grandfather tells a nice story.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-verkeer",
+    "text": "There is a lot of traffic on the motorway.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-verkoper",
+    "text": "The salesman helps the customer in the shop.",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-verleden",
+    "text": "I often think about the past.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-verpleger",
+    "text": "The male nurse helps the patient in the hospital.",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-verrassing",
+    "text": "That is a nice surprise for me.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-verschil",
+    "text": "What is the difference between those two?",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vertraging",
+    "text": "The plane has a two-hour delay.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vertrek",
+    "text": "The departure of the train is at ten o'clock.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-verwarming",
+    "text": "The heating is on in the room.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vest",
+    "text": "I wear a cardigan over my shirt.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vet",
+    "text": "There is a lot of fat in this meat.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-video",
+    "text": "We watch a video together on the laptop.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-virus",
+    "text": "This virus makes me ill.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vlag",
+    "text": "The flag is red, white and blue.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vlek",
+    "text": "There is a stain on my trousers.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vlieg",
+    "text": "There is a fly on my bread.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vliegtuig",
+    "text": "The plane is standing at the airport.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vloer",
+    "text": "The floor in the kitchen is wet.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vlucht",
+    "text": "Our flight abroad lasts two hours.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-voetballer",
+    "text": "The footballer gets a yellow card.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vogel",
+    "text": "The bird flies above the house.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-voorbeeld",
+    "text": "Give an example of a vegetable.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-voorhoofd",
+    "text": "I have a pain in my forehead.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-voorkant",
+    "text": "The front of the house is white.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-voornaam",
+    "text": "Write your first name and surname here.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-voorwerp",
+    "text": "The object on the table is big.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vork",
+    "text": "I eat with a fork and a knife.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vos",
+    "text": "The fox lives in the forest.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vrachtwagen",
+    "text": "The lorry drives through the city.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vriendschap",
+    "text": "Our friendship is very important to me.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vrijwilliger",
+    "text": "The volunteer helps us at the campsite.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vuur",
+    "text": "The fire in the fireplace is warm.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vuurwerk",
+    "text": "The fireworks are very beautiful.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-waarheid",
+    "text": "I always tell the truth.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-walvis",
+    "text": "The whale swims in the sea.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-wandeling",
+    "text": "We are going for a walk in the park.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-warenhuis",
+    "text": "We buy a coat in the department store.",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-waslijn",
+    "text": "The coat hangs on the washing line.",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-website",
+    "text": "I see the price on the website.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-webwinkel",
+    "text": "We buy shoes in the online shop.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-wedstrijd",
+    "text": "The match starts at two o'clock.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-weduwe",
+    "text": "The widow lives alone in a small house.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-wekker",
+    "text": "My alarm clock goes off at seven o'clock.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-wenkbrauw",
+    "text": "His eyebrow is black and thick.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-wens",
+    "text": "My wish is a small farm.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-wereld",
+    "text": "Many people live in the world.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-werkdag",
+    "text": "A working day lasts eight hours for me.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-werkgever",
+    "text": "My employer is very friendly.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-werkplek",
+    "text": "My workplace is small but clean.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-wijk",
+    "text": "We live in a quiet neighbourhood.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-wind",
+    "text": "The wind is very cold today.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-winnaar",
+    "text": "The winner gets a medal.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-wiskunde",
+    "text": "I find mathematics difficult.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-witlof",
+    "text": "We eat chicory with ham.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-wol",
+    "text": "My jumper is made of wool.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-wolf",
+    "text": "The wolf is hungry.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-wolk",
+    "text": "There is a grey cloud above the city.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-wond",
+    "text": "I have a wound on my leg.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-woonkamer",
+    "text": "We watch television in the living room.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-woonplaats",
+    "text": "My place of residence is a small village.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-woordenboek",
+    "text": "I look for the word in the dictionary.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-worst",
+    "text": "I fry a sausage in the pan.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-zaag",
+    "text": "I cut the wood with a saw.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-zaal",
+    "text": "The hall is empty after the lesson.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-zak",
+    "text": "There is an apple in the bag.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-zand",
+    "text": "The children play with the sand.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-zanger",
+    "text": "The singer is very famous.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-zeef",
+    "text": "I put the pasta in the sieve.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-zilver",
+    "text": "This ring is made of silver.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-zin",
+    "text": "Write a short sentence on the board.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-zolder",
+    "text": "Our old suitcase is in the attic.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-zout",
+    "text": "There is too much salt in the soup.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-zwaan",
+    "text": "The swan swims in the canal.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-zwembad",
+    "text": "The swimming pool is open today.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-aanbieden",
+    "text": "I want to offer you a job.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-aankomen",
+    "text": "The train must arrive at ten o'clock.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-aanvragen",
+    "text": "I want to apply for a new card.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-accepteren",
+    "text": "We only accept euros.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-afgeven",
+    "text": "You must hand in your key here.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-afspreken",
+    "text": "I want to arrange to meet my neighbour.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-afvallen",
+    "text": "My father wants to lose five kilograms.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-afzetten",
+    "text": "My father can drop me off at school.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-appen",
+    "text": "I text my mother every day.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-bedanken",
+    "text": "I would like to thank you.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-bedenken",
+    "text": "I cannot think of a good name.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-bedienen",
+    "text": "The baker has to serve a lot of customers.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-behandelen",
+    "text": "The doctor can treat the patient.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-bekijken",
+    "text": "We still want to look at the house.",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-beloven",
+    "text": "I promise that I will come tomorrow.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-bereiken",
+    "text": "You can reach the centre by bus.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-beschermen",
+    "text": "A hat protects your head from the sun.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-beschrijven",
+    "text": "Can you describe the man?",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-besluiten",
+    "text": "We decide to move.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-bespreken",
+    "text": "We discuss the news in class.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-bestellen",
+    "text": "May I order a tea?",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-betekenen",
+    "text": "What does this word mean?",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-bewaren",
+    "text": "I keep my money in the bank.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-bezoeken",
+    "text": "Tomorrow we are visiting my grandmother.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-binnenkomen",
+    "text": "The customer wants to enter the shop.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-blijven",
+    "text": "I am tired and want to stay here.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-braken",
+    "text": "I am ill and I have to vomit.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-branden",
+    "text": "The wood burns well.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-buigen",
+    "text": "The tree can bend in the wind.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-chatten",
+    "text": "I want to chat with my friend.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-controleren",
+    "text": "The police officer wants to check my passport.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-dansen",
+    "text": "We want to dance at the party.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-delen",
+    "text": "We share a room in the hotel.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-doorgaan",
+    "text": "We want to continue with the lesson.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-douchen",
+    "text": "We want to shower before dinner.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-drogen",
+    "text": "I can dry my hair.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-dromen",
+    "text": "The baby dreams every night.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-duiken",
+    "text": "My brother wants to dive in the sea.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-durven",
+    "text": "I do not dare to swim.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-duwen",
+    "text": "We have to push the car.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-eindigen",
+    "text": "The lesson ends at four o'clock.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-feesten",
+    "text": "We want to party this weekend.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-feliciteren",
+    "text": "I want to congratulate you on your birthday.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-fietsen",
+    "text": "We cycle to school every day.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-gebeuren",
+    "text": "What is happening in the class?",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-gebruiken",
+    "text": "I use my phone as a clock.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-geloven",
+    "text": "I do not believe my neighbour.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-genieten",
+    "text": "We enjoy the nice weather.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-gieten",
+    "text": "I want to pour milk into the glass.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-gooien",
+    "text": "The child wants to throw the ball.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-grijpen",
+    "text": "The cat can catch the mouse.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-groeten",
+    "text": "I want to greet my neighbour.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-halen",
+    "text": "I am going to get bread at the baker's.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-hardlopen",
+    "text": "I want to go running every morning.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-haten",
+    "text": "I hate the cold weather.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-herhalen",
+    "text": "Can you repeat the question?",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-herinneren",
+    "text": "I do not remember that day.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-herkennen",
+    "text": "I cannot recognise you.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-herstellen",
+    "text": "My father can repair the bike.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-hoesten",
+    "text": "He often coughs at night.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-hopen",
+    "text": "I hope that the weather is nice tomorrow.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-houden",
+    "text": "Will you hold my coat?",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-huilen",
+    "text": "The baby is about to cry.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-informeren",
+    "text": "I want to inform the customer.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-innemen",
+    "text": "I have to take the medicine.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-inrichten",
+    "text": "We want to furnish the room nicely.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-inschrijven",
+    "text": "I want to sign up for the course.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-internetten",
+    "text": "My daughter wants to surf the internet on the laptop.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-invullen",
+    "text": "We have to fill in the form.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-kiezen",
+    "text": "I want to choose a new coat.",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-klagen",
+    "text": "My neighbour wants to complain to the council.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-klappen",
+    "text": "The children want to clap after the song.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-klimmen",
+    "text": "We want to climb the mountain.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-klinken",
+    "text": "That idea sounds good.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-kloppen",
+    "text": "That answer is not correct.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-knijpen",
+    "text": "The child wants to pinch my arm.",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-knutselen",
+    "text": "We are going to do crafts with paper.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-koelen",
+    "text": "We have to cool the beer.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-kosten",
+    "text": "This coat costs forty euros.",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-kruipen",
+    "text": "The dog has to crawl under the fence.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-lachen",
+    "text": "We laugh at his joke.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-laten",
+    "text": "I leave my coat at home.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-legen",
+    "text": "I have to empty the box.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-lenen",
+    "text": "May I borrow your bike?",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-letten",
+    "text": "We have to pay close attention to the children.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-leveren",
+    "text": "The baker wants to deliver bread every day.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-liegen",
+    "text": "My son does not want to lie.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-lijken",
+    "text": "Your brother looks like you.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-likken",
+    "text": "The dog wants to lick my hand.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-logeren",
+    "text": "My cousin is coming to stay this weekend.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-lukken",
+    "text": "I cannot do it.",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-mailen",
+    "text": "I email my teacher every week.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-meedoen",
+    "text": "We want to take part in the match.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-meemaken",
+    "text": "I want to experience an adventure.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-meenemen",
+    "text": "We want to take our dog with us.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-merken",
+    "text": "I do not notice the cold.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-meten",
+    "text": "We have to measure the table.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-mislukken",
+    "text": "My plan can still fail.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-missen",
+    "text": "I miss my girlfriend very much.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-nadenken",
+    "text": "I have to think about it carefully.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-negeren",
+    "text": "You may not ignore me.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-noemen",
+    "text": "What do you call this dish?",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-oefenen",
+    "text": "We practise a song every day.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-omdraaien",
+    "text": "We have to turn the card over.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-ontbijten",
+    "text": "We want to have breakfast outside.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-ontdekken",
+    "text": "We want to discover nature.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-ontslaan",
+    "text": "The boss has to fire my colleague.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-ontsnappen",
+    "text": "The dog can escape from the garden.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-ontspannen",
+    "text": "After work I want to relax.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-ontvangen",
+    "text": "We receive a letter every month.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-opblazen",
+    "text": "I want to inflate the ball.",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-opereren",
+    "text": "The doctor has to operate on my knee.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-opgeven",
+    "text": "I do not want to give up.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-oplossen",
+    "text": "We can solve the problem.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-opnemen",
+    "text": "I cannot answer the phone.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-oppakken",
+    "text": "The baby wants to pick up the key.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-opruimen",
+    "text": "We have to tidy up the room.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-opslaan",
+    "text": "I want to save the document.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-opstaan",
+    "text": "I have to get up early tomorrow.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-organiseren",
+    "text": "We organise a party for my sister.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-overleggen",
+    "text": "I have to consult with my boss.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-overstappen",
+    "text": "We have to change at the station.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-pakken",
+    "text": "I take my coat from the chair.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-parkeren",
+    "text": "I want to park the car here.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-planten",
+    "text": "We are going to plant a tree.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-poetsen",
+    "text": "I have to brush my teeth.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-posten",
+    "text": "I want to post a photo on the internet.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-printen",
+    "text": "I want to print the letter at home.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-proberen",
+    "text": "I want to try it once more.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-raden",
+    "text": "Can you guess the answer?",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-reageren",
+    "text": "He does not want to respond to my letter.",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-redden",
+    "text": "The fire brigade can save the child.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-regelen",
+    "text": "I can arrange the holiday for you all.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-reizen",
+    "text": "My grandmother wants to travel to the coast.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-rekenen",
+    "text": "The children learn to calculate at school.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-rennen",
+    "text": "The children run across the field.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-reserveren",
+    "text": "We want to reserve a table.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-roeien",
+    "text": "We want to row on the canal.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-ruiken",
+    "text": "I smell coffee in the kitchen.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-samenwerken",
+    "text": "We want to work together with our neighbours.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-schaatsen",
+    "text": "We want to skate on the ice.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-schaken",
+    "text": "My grandfather wants to play chess with me.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-schelen",
+    "text": "I do not care.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-schilderen",
+    "text": "My grandmother wants to paint a flower.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-schoonmaken",
+    "text": "I have to clean the kitchen.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-schreeuwen",
+    "text": "You do not need to shout.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-schrikken",
+    "text": "The dog will be startled by the noise.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-schuiven",
+    "text": "We have to slide the cupboard to the left.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-scoren",
+    "text": "The player can score a goal.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-slaan",
+    "text": "He has to hit the ball with his hand.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-slagen",
+    "text": "I want to pass the course.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-slikken",
+    "text": "I cannot swallow this medicine.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-sneeuwen",
+    "text": "It is going to snow tomorrow.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-solliciteren",
+    "text": "I want to apply for a job at the bank.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-sparen",
+    "text": "I want to save up for a new bike.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-spellen",
+    "text": "Can you spell your name?",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-sporten",
+    "text": "My daughter wants to exercise every day.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-spugen",
+    "text": "The child must not spit on the ground.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-stelen",
+    "text": "They are trying to steal the bike.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-stoppen",
+    "text": "The bus does not want to stop here.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-storen",
+    "text": "My brother does not want to disturb me.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-stoten",
+    "text": "I bump my knee against the table.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-studeren",
+    "text": "My brother wants to study in the city.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-sturen",
+    "text": "I want to send my grandmother a card.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-tekenen",
+    "text": "The child wants to draw a house.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-tellen",
+    "text": "The children can already count to ten.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-teruggaan",
+    "text": "We have to go back home.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-teruggeven",
+    "text": "I have to give the money back.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-terugkomen",
+    "text": "We want to come back next year.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-testen",
+    "text": "We are going to test the new machine.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-thuisblijven",
+    "text": "I want to stay at home today.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-thuiskomen",
+    "text": "The children must come home before six o'clock.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-toevoegen",
+    "text": "I want to add some more sugar.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-tonen",
+    "text": "She wants to show her photo.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-trappen",
+    "text": "He wants to kick the ball hard.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-trekken",
+    "text": "You have to pull the door.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-twijfelen",
+    "text": "I am unsure between the red and the blue coat.",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-typen",
+    "text": "I want to type a letter on the computer.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-uitgaan",
+    "text": "We want to go out on Saturday.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-uitgeven",
+    "text": "I do not want to spend too much money.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-uitleggen",
+    "text": "The teacher can explain the word.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-uitnodigen",
+    "text": "I want to invite my neighbours.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-uitspreken",
+    "text": "Can you pronounce this word?",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-uitstappen",
+    "text": "We have to get off at the next stop.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-uitstellen",
+    "text": "We have to postpone the party.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-updaten",
+    "text": "I have to update the app.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-vallen",
+    "text": "The glass can fall off the table.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-vangen",
+    "text": "The dog can catch the ball.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-vechten",
+    "text": "The boys do not want to fight.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-veranderen",
+    "text": "The weather is going to change tomorrow.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verbergen",
+    "text": "The dog wants to hide his bone.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verbeteren",
+    "text": "I want to improve my work.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verbieden",
+    "text": "The police want to ban smoking.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verbouwen",
+    "text": "We want to renovate our house.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verdelen",
+    "text": "We divide the apple into four pieces.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verdienen",
+    "text": "I want to earn a lot of money.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verdwijnen",
+    "text": "The sun can disappear behind the clouds.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-vergelijken",
+    "text": "We can compare the prices.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-vergeten",
+    "text": "I do not want to forget my key.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verhuren",
+    "text": "We want to rent out our room.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verkopen",
+    "text": "My neighbour wants to sell his car.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verlaten",
+    "text": "We have to leave the building.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verlengen",
+    "text": "I want to extend my card.",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-verliezen",
+    "text": "I do not want to lose the game.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verplaatsen",
+    "text": "We want to move the table to the window.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verrassen",
+    "text": "I want to surprise my mother.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verschijnen",
+    "text": "A message can appear on the computer.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-versieren",
+    "text": "We are going to decorate the room.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-vertalen",
+    "text": "I can translate this sentence.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-vertellen",
+    "text": "My grandfather wants to tell a joke.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-vervangen",
+    "text": "I have to replace the battery.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-vervelen",
+    "text": "I am bored in class.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verwachten",
+    "text": "We expect a lot of rain tomorrow.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verwarmen",
+    "text": "We heat the house with gas.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verzamelen",
+    "text": "My son wants to collect nice stones.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verzinnen",
+    "text": "My son can make up funny jokes.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verzorgen",
+    "text": "The doctor has to look after the patient.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-vieren",
+    "text": "We celebrate my birthday at home.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-vissen",
+    "text": "My grandfather is going to fish in the river.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-voelen",
+    "text": "I feel very well today.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-voetballen",
+    "text": "The boys want to play football on the pitch.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-volgen",
+    "text": "The dog wants to follow me.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-voorstellen",
+    "text": "I want to introduce my friend to you.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-vriezen",
+    "text": "It is going to freeze tomorrow.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-vullen",
+    "text": "I want to fill the glass with water.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-waaien",
+    "text": "It is going to blow hard today.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-waarschuwen",
+    "text": "I have to warn my neighbour.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-weggooien",
+    "text": "We may not throw this away.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-wegleggen",
+    "text": "I want to put my money aside.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-weigeren",
+    "text": "You can refuse a gift.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-wennen",
+    "text": "I still have to get used to the cold.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-wensen",
+    "text": "I wish you a lot of luck.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-wijzen",
+    "text": "The teacher points at the board.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-winkelen",
+    "text": "We are going shopping on Saturday.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-winnen",
+    "text": "I want to win the prize.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-worden",
+    "text": "My son wants to become a doctor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-wrijven",
+    "text": "I rub my eyes.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-zakken",
+    "text": "I am afraid that I will fail the course.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-zetten",
+    "text": "I put the bottle on the table.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-zingen",
+    "text": "We sing a song at the party.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-zorgen",
+    "text": "I take care of my grandmother.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-zuchten",
+    "text": "My mother often sighs after work.",
     "reviewed": true,
     "review_source": "roundtrip"
   }

@@ -709,8 +709,9 @@
   },
   {
     "word_id": "noun-vriendin",
-    "text": "Arkadaşım bugün annesinin yanında.",
-    "reviewed": false
+    "text": "Kız arkadaşım bugün annesinin yanında.",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-meneer",
@@ -906,8 +907,9 @@
   },
   {
     "word_id": "noun-flat",
-    "text": "Ablam büyük bir apartmanda oturuyor.",
-    "reviewed": false
+    "text": "Kız kardeşim büyük bir apartmanda oturuyor.",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-toilet",
@@ -1181,8 +1183,9 @@
   },
   {
     "word_id": "noun-haar",
-    "text": "Ablamın uzun siyah saçı var.",
-    "reviewed": false
+    "text": "Kız kardeşimin uzun siyah saçı var.",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-patiënt",
@@ -1325,7 +1328,8 @@
   {
     "word_id": "noun-nek",
     "text": "Ensem soğuk.",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-keel",
@@ -1431,13 +1435,15 @@
   },
   {
     "word_id": "noun-echtgenoot",
-    "text": "Eşim hastanede çalışıyor.",
-    "reviewed": false
+    "text": "Kocam hastanede çalışıyor.",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-echtgenote",
-    "text": "Eşim okulda çalışıyor.",
-    "reviewed": false
+    "text": "Karım okulda çalışıyor.",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-hart",
@@ -1609,8 +1615,9 @@
   },
   {
     "word_id": "noun-drie",
-    "text": "Ablamın üç çocuğu var.",
-    "reviewed": false
+    "text": "Kız kardeşimin üç çocuğu var.",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-vier",
@@ -1686,8 +1693,9 @@
   },
   {
     "word_id": "noun-zestien",
-    "text": "Ablam on altı yaşında.",
-    "reviewed": false
+    "text": "Kız kardeşim on altı yaşında.",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-zeventien",
@@ -1818,7 +1826,8 @@
   {
     "word_id": "verb-bakken",
     "text": "Büyükannem fırında ekmek pişirmek istiyor.",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "verb-snijden",
@@ -1870,8 +1879,9 @@
   },
   {
     "word_id": "verb-zijn",
-    "text": "Ablam ve ben yorgunuz.",
-    "reviewed": false
+    "text": "Kız kardeşim ve ben yorgunuz.",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "verb-hebben",
@@ -1923,8 +1933,9 @@
   },
   {
     "word_id": "verb-krijgen",
-    "text": "Doğum günümde yeni bir telefon alacağım.",
-    "reviewed": false
+    "text": "Doğum günümde yeni bir telefon alıyorum.",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "verb-wassen",
@@ -2073,7 +2084,8 @@
   {
     "word_id": "verb-passen",
     "text": "Bu ayakkabılar bana uymuyor.",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "verb-vliegen",
@@ -2179,8 +2191,9 @@
   },
   {
     "word_id": "adj-dagelijks",
-    "text": "Ablam her gün mağazada çalışıyor.",
-    "reviewed": false
+    "text": "Kız kardeşim her gün mağazada çalışıyor.",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "adj-rechts",
@@ -2202,8 +2215,9 @@
   },
   {
     "word_id": "adj-zwanger",
-    "text": "Ablam hamile ve çok mutlu.",
-    "reviewed": false
+    "text": "Kız kardeşim hamile ve çok mutlu.",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "adj-bang",
@@ -2255,8 +2269,9 @@
   },
   {
     "word_id": "adj-rood",
-    "text": "Ablamın bisikleti kırmızı.",
-    "reviewed": false
+    "text": "Kız kardeşimin bisikleti kırmızı.",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "adj-kort",
@@ -2309,7 +2324,8 @@
   {
     "word_id": "adj-dik",
     "text": "Köpeğim fazla şişman.",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "adj-geel",
@@ -2361,8 +2377,9 @@
   },
   {
     "word_id": "adj-getrouwd",
-    "text": "Ablam evli.",
-    "reviewed": false
+    "text": "Kız kardeşim evli.",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "adj-wakker",
@@ -2588,8 +2605,9 @@
   },
   {
     "word_id": "adj-dubbel",
-    "text": "Kardeşim iki kat fazla yiyor.",
-    "reviewed": false
+    "text": "Kardeşim iki katı kadar yiyor.",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "adj-duidelijk",
@@ -2611,8 +2629,9 @@
   },
   {
     "word_id": "adj-eenzaam",
-    "text": "Yaşlı kadın sık sık çok yalnız.",
-    "reviewed": false
+    "text": "Yaşlı kadın sık sık yalnız.",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "adj-eerlijk",
@@ -3031,7 +3050,8 @@
   {
     "word_id": "adj-typisch",
     "text": "Bu yemek ülkemiz için tipik.",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "adj-uitstekend",
@@ -3527,8 +3547,9 @@
   },
   {
     "word_id": "noun-berg",
-    "text": "Dağa doğru yürüyoruz.",
-    "reviewed": false
+    "text": "Dağa yürüyoruz.",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-bericht",
@@ -3586,8 +3607,9 @@
   },
   {
     "word_id": "noun-biet",
-    "text": "O, tavada bir pancar pişiriyor.",
-    "reviewed": false
+    "text": "O, tencerede bir pancar pişiriyor.",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-bijnaam",
@@ -3832,7 +3854,8 @@
   {
     "word_id": "noun-cijfer",
     "text": "Test için iyi bir notum var.",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-circus",
@@ -3843,7 +3866,8 @@
   {
     "word_id": "noun-cirkel",
     "text": "Çember yuvarlak.",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-clown",
@@ -4315,8 +4339,9 @@
   },
   {
     "word_id": "noun-gras",
-    "text": "İnek çim yiyor.",
-    "reviewed": false
+    "text": "İnek ot yiyor.",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-grens",
@@ -4459,7 +4484,8 @@
   {
     "word_id": "noun-hitte",
     "text": "Aşırı sıcakta çok su içiyorum.",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-hobby",
@@ -4830,7 +4856,8 @@
   {
     "word_id": "noun-koek",
     "text": "Çayla birlikte bir kurabiye yiyorum.",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-koekje",
@@ -4984,8 +5011,9 @@
   },
   {
     "word_id": "noun-lening",
-    "text": "Borcumu her ay ödüyorum.",
-    "reviewed": false
+    "text": "Kredimi her ay ödüyorum.",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-lepel",
@@ -5296,7 +5324,8 @@
   {
     "word_id": "noun-nicht",
     "text": "Kız kuzenim büyük bir evde oturuyor.",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-nieuws",
@@ -5373,6 +5402,2970 @@
   {
     "word_id": "noun-binnenkant",
     "text": "Dolabın iç tarafı boş.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-opleiding",
+    "text": "Polis teşkilatında eğitim alıyor.",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-opmerking",
+    "text": "Esprili bir yorum yapıyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-oven",
+    "text": "Fırın çok sıcak.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-paard",
+    "text": "At çimen yiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pad",
+    "text": "Bu patika plaja gidiyor.",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-paddenstoel",
+    "text": "Mantar ağacın altında büyüyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pagina",
+    "text": "Bilgisayarımdaki sayfa boş.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pak",
+    "text": "Siyah bir takım elbise giyiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pakket",
+    "text": "Paket postayla geliyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-papa",
+    "text": "Babam bir fabrikada çalışıyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-papier",
+    "text": "Yerde kâğıt var.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-paraplu",
+    "text": "Yağmur yağıyor, o yüzden şemsiyemi alıyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-partner",
+    "text": "Partnerim bugün evden çalışıyor.",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-paspoort",
+    "text": "Gümrükte pasaportumu gösteriyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-passagier",
+    "text": "Yolcu durakta bekliyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pasta",
+    "text": "Bugün domates soslu makarna yiyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pauze",
+    "text": "On dakikalık bir molamız var.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pech",
+    "text": "Arabamla ilgili şanssızlık yaşıyorum.",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-peer",
+    "text": "Öğle yemeğinden sonra bir armut yiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pen",
+    "text": "Kalemini ödünç alabilir miyim?",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-pensioen",
+    "text": "Dedem gelecek yıl emekli oluyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-peper",
+    "text": "Çorbana karabiber ister misin?",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-perron",
+    "text": "Peronda trenin gelmesini bekliyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-personeel",
+    "text": "Personel bugün çok nazik.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pet",
+    "text": "Güneşte kırmızı bir kasket takıyor.",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-piano",
+    "text": "Kızım piyano çalıyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pijl",
+    "text": "Ok sağa işaret ediyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pil",
+    "text": "Her sabah bir hap alıyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-piloot",
+    "text": "Pilot uçakta çalışıyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pink",
+    "text": "Serçe parmağım ağrıyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pizza",
+    "text": "Peynirli bir pizza sipariş ediyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-plaats",
+    "text": "Bu yer hâlâ boş.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-plafond",
+    "text": "Tavanda bir lamba var.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-plan",
+    "text": "Planı çok akıllıca.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-plant",
+    "text": "Bitkinin suya ve güneşe ihtiyacı var.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-plastic",
+    "text": "Bu plastik, cam değil.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-plein",
+    "text": "Meydanda büyük bir kilise var.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-plezier",
+    "text": "Derste çok keyif alıyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-poes",
+    "text": "Kedi sandalyede uyuyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-polder",
+    "text": "Polder düz ve yeşil.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-politie",
+    "text": "Polis kazada bize yardım ediyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pond",
+    "text": "Yarım kilo peynir alıyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-poot",
+    "text": "Köpeğin patisi ağrıyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pop",
+    "text": "Kız oyuncak bebeğiyle oynuyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-portemonnee",
+    "text": "Param cüzdanımda.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-post",
+    "text": "Posta her gün saat onda geliyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-postbode",
+    "text": "Postacı bir mektup getiriyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-postcode",
+    "text": "Posta kodunu forma yaz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-postkantoor",
+    "text": "Postane pazar günü kapalı.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-pot",
+    "text": "Bal kavanozda.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-potlood",
+    "text": "Kurşun kalemle yazıyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-probleem",
+    "text": "Bilgisayarımla ilgili bir sorunum var.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-procent",
+    "text": "Sınıfın yüzde onu hasta.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-product",
+    "text": "Bu ürün ucuz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-programma",
+    "text": "Program saat sekizde başlıyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-project",
+    "text": "Bir proje üzerinde birlikte çalışıyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-punt",
+    "text": "Doğru cevap için bir puan alırsın.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-radio",
+    "text": "Dedem her akşam radyo dinliyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-rapport",
+    "text": "Öğretmen bana iyi bir karne veriyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-rat",
+    "text": "Sıçan peyniri yiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-reactie",
+    "text": "Mektubuma vereceği yanıtı bekliyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-reclame",
+    "text": "Yeni bir araba için reklam görüyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-reden",
+    "text": "Korkmak için bir neden yok.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-regel",
+    "text": "Bu okulda önemli bir kural.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-regen",
+    "text": "Yağmur çatıya düşüyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-regenboog",
+    "text": "Şehrin üzerinde bir gökkuşağı görüyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-reis",
+    "text": "Yolculuğumuz iki gün sürüyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-rekening",
+    "text": "Restoranda hesabı istiyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-rem",
+    "text": "Bisikletimin freni bozuk.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-rib",
+    "text": "Gülünce kaburgam ağrıyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-richting",
+    "text": "Yanlış yöne yürüyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-riem",
+    "text": "Pantolonunun üstüne kemer takıyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-rij",
+    "text": "Kasanın önünde uzun bir sıra var.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-rijbewijs",
+    "text": "Ehliyet olmadan araba kullanamazsın.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-rijst",
+    "text": "Pirinç ve tavuk yiyoruz.",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-rit",
+    "text": "Plaja yolculuk bir saat sürüyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-rivier",
+    "text": "Nehir geniş ve derin.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-roman",
+    "text": "Trende bir roman okuyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-rook",
+    "text": "Mutfakta duman var.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-room",
+    "text": "Kahveme krema koyuyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-route",
+    "text": "Istasyona giden güzergâh uzun.",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-ruzie",
+    "text": "Erkek kardeşimin kız kardeşimle kavgası var.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-salaris",
+    "text": "Maaşı çok düşük.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-sap",
+    "text": "Her sabah meyve suyu içiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-schaap",
+    "text": "Koyun yün veriyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-schaduw",
+    "text": "Ağacın gölgesinde oturuyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-schelp",
+    "text": "Çocuk plajda bir deniz kabuğu buluyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-scherm",
+    "text": "Telefonumun ekranı kırık.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-schilderij",
+    "text": "Tablo yatağımın üstünde asılı.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-schip",
+    "text": "Gemi limanda duruyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-schoolplein",
+    "text": "Çocuklar okul bahçesinde oynuyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-schort",
+    "text": "Aşçı beyaz bir önlük giyiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-schotel",
+    "text": "Fincan, fincan tabağının üstünde duruyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-schrift",
+    "text": "Adımı deftere yazıyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-schrijver",
+    "text": "Yazar bir şiir yazıyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-serie",
+    "text": "Televizyonda birlikte bir dizi izliyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-sfeer",
+    "text": "Partideki ortam çok samimi.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-sjaal",
+    "text": "Hava soğuk, o yüzden atkı takıyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-sla",
+    "text": "Peynirle marul yiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-slaap",
+    "text": "Uykum var ve yatmak istiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-slaapkamer",
+    "text": "Yatak odam küçük ama şirin.",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-slak",
+    "text": "Salyangoz çok yavaş.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-slang",
+    "text": "Yılan çimenlerin arasında sürünüyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-sloot",
+    "text": "Hendek su dolu.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-slot",
+    "text": "Kapının kilidi bozuk.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-sneeuw",
+    "text": "Dağın üstünde kar var.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-snelheid",
+    "text": "Arabanın hızı çok yüksek.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-snelweg",
+    "text": "Otoyol bugün çok kalabalık.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-soep",
+    "text": "Çorba çok sıcak.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-sok",
+    "text": "Çorabımda bir delik var.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-som",
+    "text": "Bu hesap problemi benim için çok zor.",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-speelgoed",
+    "text": "Bebek oyuncaklarıyla oynuyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-spel",
+    "text": "Bu oyunu her hafta oynuyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-speler",
+    "text": "Oyuncu sahada yürüyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-sportschool",
+    "text": "Kız kardeşim spor salonuna gidiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-spul",
+    "text": "Eşyalarım hâlâ arabada.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-staart",
+    "text": "Köpeğin uzun bir kuyruğu var.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-stadion",
+    "text": "Stadyum bugün dolu.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-stage",
+    "text": "Bir bankada staj yapıyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-stap",
+    "text": "Bebek bana doğru bir adım atıyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-steen",
+    "text": "Taş büyük ve ağır.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-stem",
+    "text": "Koridorda sesini duyuyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-ster",
+    "text": "Gökyüzünde bir yıldız görüyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-stoep",
+    "text": "Bisiklet kaldırımda.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-storm",
+    "text": "Fırtına ağacı kırıyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-straatnaam",
+    "text": "Evinin sokak adı nedir?",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-strand",
+    "text": "Bugün plajda yatıyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-streep",
+    "text": "Duvarda siyah bir çizgi var.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-stress",
+    "text": "İşte çok stresim var.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-stroom",
+    "text": "Mutfakta elektrik yok.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-student",
+    "text": "Öğrenci üniversitede okuyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-studie",
+    "text": "Öğrenimim dört yıl sürüyor.",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-stuk",
+    "text": "Bir parça daha peynir istiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-stuur",
+    "text": "Eli direksiyonda duruyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-suiker",
+    "text": "Çayıma şeker koymuyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-symptoom",
+    "text": "Doktor gripten bir belirti görüyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-taak",
+    "text": "Her çocuğun sınıfta bir görevi var.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-taart",
+    "text": "Doğum günümde pasta yiyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tak",
+    "text": "Kuş bir dalın üstünde oturuyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tandarts",
+    "text": "Dişim için diş hekimine gidiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-taxi",
+    "text": "Istasyona taksiyle gidiyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-team",
+    "text": "Takımımız bugün evinde oynuyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tegel",
+    "text": "Yerdeki fayans kırık.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tekenfilm",
+    "text": "Çocuklar bir çizgi film izliyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tekening",
+    "text": "Kızım bir çizim yapıyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tekst",
+    "text": "Metni oku ve bir cevap yaz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-temperatuur",
+    "text": "Sıcaklık bugün çok düşük.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tennis",
+    "text": "Babam her hafta tenis oynuyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-test",
+    "text": "Test zor ama eğlenceli.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-theater",
+    "text": "Bugün tiyatroya gidiyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-thee",
+    "text": "Sütlü çay içiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-ticket",
+    "text": "Tren için biletin var mı?",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tiener",
+    "text": "Yeniyetme müzik dinlemeyi seviyor.",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-tijdschrift",
+    "text": "Annem her ay bir dergi okuyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tip",
+    "text": "Senin için iyi bir ipucum var.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tocht",
+    "text": "Ormandaki geziden sonra yorgunum.",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-toerist",
+    "text": "Turist kilisenin fotoğrafını çekiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tomaat",
+    "text": "Sandviçim için bir domates doğruyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-toren",
+    "text": "Kilisenin kulesi yüksek.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-trainer",
+    "text": "Antrenör oğlanlara sesleniyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-training",
+    "text": "Antrenman saat yedide başlıyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tram",
+    "text": "Tramvay şehirde gidiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-trui",
+    "text": "Kışın kazak giyiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-tunnel",
+    "text": "Araba tünelden geçiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-uil",
+    "text": "Baykuş ağaçta oturuyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-uitgang",
+    "text": "Çıkış asansörün yanında.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-uitkering",
+    "text": "Her ay bir ödenek alıyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-uitnodiging",
+    "text": "Parti için bir davet alıyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-uitspraak",
+    "text": "Onun kelimeyi telaffuzu iyi.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-uniform",
+    "text": "Polis mavi bir üniforma giyiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-universiteit",
+    "text": "Oğlum üniversiteye gidiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vaccin",
+    "text": "Doktor bana aşı yapıyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vak",
+    "text": "Bu ders benim için zor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-varken",
+    "text": "Domuz çiftlikte yaşıyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-veld",
+    "text": "Tarlada bir inek var.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-verdriet",
+    "text": "Kederi büyük.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vergadering",
+    "text": "Toplantı saat dokuzda başlıyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-verhaal",
+    "text": "Dedem güzel bir hikâye anlatıyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-verkeer",
+    "text": "Otoyolda çok trafik var.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-verkoper",
+    "text": "Satıcı mağazada müşteriye yardım ediyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-verleden",
+    "text": "Sık sık geçmişi düşünüyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-verpleger",
+    "text": "Erkek hemşire hastanede hastaya yardım ediyor.",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-verrassing",
+    "text": "Bu benim için hoş bir sürpriz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-verschil",
+    "text": "Bu ikisi arasındaki fark nedir?",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vertraging",
+    "text": "Uçağın iki saat rötarı var.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vertrek",
+    "text": "Trenin kalkışı saat onda.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-verwarming",
+    "text": "Odada kalorifer açık.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vest",
+    "text": "Gömleğimin üstüne hırka giyiyorum.",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-vet",
+    "text": "Bu etin içinde çok yağ var.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-video",
+    "text": "Dizüstü bilgisayarda birlikte bir video izliyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-virus",
+    "text": "Bu virüs beni hasta ediyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vlag",
+    "text": "Bayrak kırmızı, beyaz ve mavi.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vlek",
+    "text": "Pantolonumda bir leke var.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vlieg",
+    "text": "Ekmeğimin üstünde bir sinek var.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vliegtuig",
+    "text": "Uçak havalimanında duruyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vloer",
+    "text": "Mutfaktaki zemin ıslak.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vlucht",
+    "text": "Yurt dışına uçuşumuz iki saat sürüyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-voetballer",
+    "text": "Futbolcu sarı kart görüyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vogel",
+    "text": "Kuş evin üstünde uçuyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-voorbeeld",
+    "text": "Bir sebze örneği ver.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-voorhoofd",
+    "text": "Alnım ağrıyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-voorkant",
+    "text": "Evin ön tarafı beyaz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-voornaam",
+    "text": "Ön adını ve soyadını buraya yaz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-voorwerp",
+    "text": "Masadaki nesne büyük.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vork",
+    "text": "Çatalla ve bıçakla yemek yiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vos",
+    "text": "Tilki ormanda yaşıyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vrachtwagen",
+    "text": "Yük kamyonu şehirde gidiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vriendschap",
+    "text": "Arkadaşlığımız benim için çok önemli.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vrijwilliger",
+    "text": "Gönüllü bize kampta yardım ediyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vuur",
+    "text": "Şömine ateşi sıcak.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-vuurwerk",
+    "text": "Havai fişek çok güzel.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-waarheid",
+    "text": "Her zaman gerçeği söylüyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-walvis",
+    "text": "Balina denizde yüzüyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-wandeling",
+    "text": "Parkta yürüyüş yapıyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-warenhuis",
+    "text": "Büyük mağazadan bir mont alıyoruz.",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-waslijn",
+    "text": "Mont çamaşır ipinde asılı.",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "noun-website",
+    "text": "Fiyatı web sitesinde görüyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-webwinkel",
+    "text": "Ayakkabıları internet mağazasından alıyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-wedstrijd",
+    "text": "Maç saat ikide başlıyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-weduwe",
+    "text": "Dul kadın küçük bir evde tek başına yaşıyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-wekker",
+    "text": "Çalar saatim yedide çalıyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-wenkbrauw",
+    "text": "Kaşı siyah ve kalın.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-wens",
+    "text": "Dileğim küçük bir çiftlik.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-wereld",
+    "text": "Dünyada çok insan yaşıyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-werkdag",
+    "text": "Bir iş günüm sekiz saat sürüyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-werkgever",
+    "text": "İşverenim çok nazik.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-werkplek",
+    "text": "Çalışma yerim küçük ama temiz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-wijk",
+    "text": "Sakin bir semtte oturuyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-wind",
+    "text": "Rüzgâr bugün çok soğuk.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-winnaar",
+    "text": "Kazanan bir madalya alıyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-wiskunde",
+    "text": "Matematiği zor buluyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-witlof",
+    "text": "Jambonlu hindiba yiyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-wol",
+    "text": "Kazağım yünden.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-wolf",
+    "text": "Kurt aç.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-wolk",
+    "text": "Şehrin üstünde gri bir bulut var.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-wond",
+    "text": "Bacağımda bir yara var.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-woonkamer",
+    "text": "Oturma odasında televizyon izliyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-woonplaats",
+    "text": "İkamet yerim küçük bir köy.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-woordenboek",
+    "text": "Kelimeyi sözlükte arıyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-worst",
+    "text": "Tavada sosis pişiriyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-zaag",
+    "text": "Odunu testereyle kesiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-zaal",
+    "text": "Salon dersten sonra boş.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-zak",
+    "text": "Poşetin içinde bir elma var.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-zand",
+    "text": "Çocuklar kumla oynuyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-zanger",
+    "text": "Şarkıcı çok ünlü.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-zeef",
+    "text": "Makarnayı süzgeçe koyuyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-zilver",
+    "text": "Bu yüzük gümüşten.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-zin",
+    "text": "Tahtaya kısa bir cümle yaz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-zolder",
+    "text": "Eski bavulumuz çatı katında duruyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-zout",
+    "text": "Çorbada çok fazla tuz var.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-zwaan",
+    "text": "Kuğu kanalda yüzüyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "noun-zwembad",
+    "text": "Yüzme havuzu bugün açık.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-aanbieden",
+    "text": "Sana bir iş teklif etmek istiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-aankomen",
+    "text": "Tren saat onda varmalı.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-aanvragen",
+    "text": "Yeni bir kart için başvurmak istiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-accepteren",
+    "text": "Sadece euro kabul ediyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-afgeven",
+    "text": "Anahtarını buraya elden teslim etmelisin.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-afspreken",
+    "text": "Komşumla buluşmak için sözleşmek istiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-afvallen",
+    "text": "Babam beş kilo vermek istiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-afzetten",
+    "text": "Babam beni okulda bırakabilir.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-appen",
+    "text": "Anneme her gün mesaj atıyorum.",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-bedanken",
+    "text": "Sana teşekkür etmek istiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-bedenken",
+    "text": "İyi bir isim düşünüp bulamıyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-bedienen",
+    "text": "Fırıncı çok müşteriye hizmet etmeli.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-behandelen",
+    "text": "Doktor hastayı tedavi edebilir.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-bekijken",
+    "text": "Evi hâlâ incelemek istiyoruz.",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-beloven",
+    "text": "Yarın geleceğime söz veriyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-bereiken",
+    "text": "Şehir merkezine otobüsle ulaşabilirsin.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-beschermen",
+    "text": "Şapka başını güneşten koruyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-beschrijven",
+    "text": "Adamı tarif edebilir misiniz?",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-besluiten",
+    "text": "Taşınmaya karar veriyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-bespreken",
+    "text": "Haberleri sınıfta tartışıyoruz.",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-bestellen",
+    "text": "Bir çay sipariş edebilir miyim?",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-betekenen",
+    "text": "Bu kelime ne anlama geliyor?",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-bewaren",
+    "text": "Paramı bankada saklıyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-bezoeken",
+    "text": "Yarın büyükannemi ziyaret ediyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-binnenkomen",
+    "text": "Müşteri mağazaya girmek istiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-blijven",
+    "text": "Yorgunum ve burada kalmak istiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-braken",
+    "text": "Hastayım ve kusmam gerekiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-branden",
+    "text": "Odun iyi yanıyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-buigen",
+    "text": "Ağaç rüzgârda eğilebilir.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-chatten",
+    "text": "Arkadaşımla mesajlaşmak istiyorum.",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-controleren",
+    "text": "Polis pasaportumu kontrol etmek istiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-dansen",
+    "text": "Partide dans etmek istiyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-delen",
+    "text": "Otelde bir oda paylaşıyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-doorgaan",
+    "text": "Derse devam etmek istiyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-douchen",
+    "text": "Yemekten önce duş almak istiyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-drogen",
+    "text": "Saçımı kurutabilirim.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-dromen",
+    "text": "Bebek her gece rüya görüyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-duiken",
+    "text": "Erkek kardeşim denizde dalmak istiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-durven",
+    "text": "Yüzmeye cesaret edemiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-duwen",
+    "text": "Arabayı itmemiz gerekiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-eindigen",
+    "text": "Ders saat dörtte bitiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-feesten",
+    "text": "Bu hafta sonu parti yapmak istiyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-feliciteren",
+    "text": "Doğum günün için seni tebrik etmek istiyorum.",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-fietsen",
+    "text": "Her gün okula bisikletle gidiyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-gebeuren",
+    "text": "Sınıfta ne oluyor?",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-gebruiken",
+    "text": "Telefonumu saat olarak kullanıyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-geloven",
+    "text": "Komşuma inanmıyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-genieten",
+    "text": "Güzel havanın keyfini çıkarıyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-gieten",
+    "text": "Bardağa süt dökmek istiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-gooien",
+    "text": "Çocuk topu atmak istiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-grijpen",
+    "text": "Kedi fareyi kapabilir.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-groeten",
+    "text": "Komşuma selam vermek istiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-halen",
+    "text": "Fırıncıdan ekmek almaya gidiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-hardlopen",
+    "text": "Her sabah koşuya çıkmak istiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-haten",
+    "text": "Soğuk havadan nefret ediyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-herhalen",
+    "text": "Soruyu tekrar eder misiniz?",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-herinneren",
+    "text": "O günü hatırlamıyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-herkennen",
+    "text": "Seni tanıyamıyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-herstellen",
+    "text": "Babam bisikleti onarabilir.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-hoesten",
+    "text": "Geceleri sık sık öksürüyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-hopen",
+    "text": "Yarın havanın güzel olmasını umuyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-houden",
+    "text": "Montumu tutar mısın?",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-huilen",
+    "text": "Bebek birazdan ağlayacak.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-informeren",
+    "text": "Müşteriye bilgi vermek istiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-innemen",
+    "text": "İlacı almam gerekiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-inrichten",
+    "text": "Odayı güzel döşemek istiyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-inschrijven",
+    "text": "Kursa kaydolmak istiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-internetten",
+    "text": "Kızım dizüstü bilgisayarda internette gezinmek istiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-invullen",
+    "text": "Formu doldurmamız gerekiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-kiezen",
+    "text": "Yeni bir mont seçmek istiyorum.",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-klagen",
+    "text": "Komşum belediyeye şikâyet etmek istiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-klappen",
+    "text": "Çocuklar şarkıdan sonra alkışlamak istiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-klimmen",
+    "text": "Dağa tırmanmak istiyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-klinken",
+    "text": "Bu fikir kulağa iyi geliyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-kloppen",
+    "text": "Bu cevap doğru değil.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-knijpen",
+    "text": "Çocuk kolumu çimdiklemek istiyor.",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-knutselen",
+    "text": "Kâğıtla el işi yapacağız.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-koelen",
+    "text": "Birayı soğutmamız gerekiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-kosten",
+    "text": "Bu mont kırk euro tutuyor.",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-kruipen",
+    "text": "Köpek çitin altından sürünerek geçmeli.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-lachen",
+    "text": "Onun esprisine gülüyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-laten",
+    "text": "Montumu evde bırakıyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-legen",
+    "text": "Kutuyu boşaltmam gerekiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-lenen",
+    "text": "Bisikletini ödünç alabilir miyim?",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-letten",
+    "text": "Çocuklara iyi dikkat etmemiz gerekiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-leveren",
+    "text": "Fırıncı her gün ekmek teslim etmek istiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-liegen",
+    "text": "Oğlum yalan söylemek istemiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-lijken",
+    "text": "Erkek kardeşin sana benziyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-likken",
+    "text": "Köpek elimi yalamak istiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-logeren",
+    "text": "Kuzenim bu hafta sonu misafir kalmaya geliyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-lukken",
+    "text": "Başaramıyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-mailen",
+    "text": "Öğretmenime her hafta e-posta gönderiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-meedoen",
+    "text": "Maça katılmak istiyoruz.",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-meemaken",
+    "text": "Bir macera yaşamak istiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-meenemen",
+    "text": "Köpeğimizi yanımızda götürmek istiyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-merken",
+    "text": "Soğuğu fark etmiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-meten",
+    "text": "Masayı ölçmemiz gerekiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-mislukken",
+    "text": "Planım hâlâ boşa çıkabilir.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-missen",
+    "text": "Kız arkadaşımı çok özlüyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-nadenken",
+    "text": "Bunun üzerine iyice düşünmem gerekiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-negeren",
+    "text": "Beni görmezden gelemezsin.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-noemen",
+    "text": "Bu yemeğe ne diyorsun?",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-oefenen",
+    "text": "Her gün bir şarkı çalışıyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-omdraaien",
+    "text": "Kartı ters çevirmemiz gerekiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-ontbijten",
+    "text": "Dışarıda kahvaltı etmek istiyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-ontdekken",
+    "text": "Doğayı keşfetmek istiyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-ontslaan",
+    "text": "Patron meslektaşımı işten çıkarmak zorunda.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-ontsnappen",
+    "text": "Köpek bahçeden kaçabilir.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-ontspannen",
+    "text": "İşten sonra gevşemek istiyorum.",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-ontvangen",
+    "text": "Her ay bir mektup teslim alıyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-opblazen",
+    "text": "Topu şişirmek istiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-opereren",
+    "text": "Doktor dizimi ameliyat etmek zorunda.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-opgeven",
+    "text": "Vazgeçmek istemiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-oplossen",
+    "text": "Sorunu çözebiliriz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-opnemen",
+    "text": "Telefonu açamıyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-oppakken",
+    "text": "Bebek anahtarı yerden almak istiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-opruimen",
+    "text": "Odayı toparlamamız gerekiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-opslaan",
+    "text": "Belgeyi kaydetmek istiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-opstaan",
+    "text": "Yarın erken kalkmam gerekiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-organiseren",
+    "text": "Kız kardeşim için bir parti organize ediyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-overleggen",
+    "text": "Patronuma danışmam gerekiyor.",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-overstappen",
+    "text": "Istasyonda aktarma yapmamız gerekiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-pakken",
+    "text": "Montumu sandalyeden alıyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-parkeren",
+    "text": "Arabayı buraya park etmek istiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-planten",
+    "text": "Bir ağaç dikeceğiz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-poetsen",
+    "text": "Dişlerimi fırçalamam gerekiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-posten",
+    "text": "İnternette bir fotoğraf paylaşmak istiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-printen",
+    "text": "Mektubu evde yazdırmak istiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-proberen",
+    "text": "Bir kez daha denemek istiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-raden",
+    "text": "Cevabı tahmin edebilir misiniz?",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-reageren",
+    "text": "Mektubuma cevap vermek istemiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-redden",
+    "text": "Itfaiye çocuğu kurtarabilir.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-regelen",
+    "text": "Tatili sizin için halledebilirim.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-reizen",
+    "text": "Büyükannem kıyıya seyahat etmek istiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-rekenen",
+    "text": "Çocuklar okulda hesaplamayı öğreniyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-rennen",
+    "text": "Çocuklar tarlada koşuyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-reserveren",
+    "text": "Bir masa için rezervasyon yapmak istiyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-roeien",
+    "text": "Kanalda kürek çekmek istiyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-ruiken",
+    "text": "Mutfakta kahve kokusu alıyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-samenwerken",
+    "text": "Komşularımızla işbirliği yapmak istiyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-schaatsen",
+    "text": "Buzda paten kaymak istiyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-schaken",
+    "text": "Dedem benimle satranç oynamak istiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-schelen",
+    "text": "Umurumda değil.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-schilderen",
+    "text": "Büyükannem bir çiçek resmi yapmak istiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-schoonmaken",
+    "text": "Mutfağı temizlemem gerekiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-schreeuwen",
+    "text": "Bağırmana gerek yok.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-schrikken",
+    "text": "Köpek sesten irkilecek.",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-schuiven",
+    "text": "Dolabı sola kaydırmamız gerekiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-scoren",
+    "text": "Oyuncu gol atabilir.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-slaan",
+    "text": "Topa eliyle vurması gerekiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-slagen",
+    "text": "Kursu geçmek istiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-slikken",
+    "text": "Bu ilacı yutamıyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-sneeuwen",
+    "text": "Yarın kar yağacak.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-solliciteren",
+    "text": "Bankaya iş başvurusu yapmak istiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-sparen",
+    "text": "Yeni bir bisiklet için biriktirmek istiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-spellen",
+    "text": "Adınızı harf harf söyleyebilir misiniz?",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-sporten",
+    "text": "Kızım her gün spor yapmak istiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-spugen",
+    "text": "Çocuk yere tükürmemeli.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-stelen",
+    "text": "Bisikleti çalmaya çalışıyorlar.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-stoppen",
+    "text": "Otobüs burada durmak istemiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-storen",
+    "text": "Erkek kardeşim beni rahatsız etmek istemiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-stoten",
+    "text": "Dizimi masaya çarpıyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-studeren",
+    "text": "Erkek kardeşim şehirde okumak istiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-sturen",
+    "text": "Büyükanneme bir kart göndermek istiyorum.",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-tekenen",
+    "text": "Çocuk bir ev çizmek istiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-tellen",
+    "text": "Çocuklar artık ona kadar sayabiliyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-teruggaan",
+    "text": "Eve geri dönmemiz gerekiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-teruggeven",
+    "text": "Parayı geri vermem gerekiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-terugkomen",
+    "text": "Gelecek yıl geri gelmek istiyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-testen",
+    "text": "Yeni makineyi test edeceğiz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-thuisblijven",
+    "text": "Bugün evde kalmak istiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-thuiskomen",
+    "text": "Çocuklar altıdan önce eve gelmeli.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-toevoegen",
+    "text": "Biraz daha şeker eklemek istiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-tonen",
+    "text": "Fotoğrafını göstermek istiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-trappen",
+    "text": "Topa sert tekme atmak istiyor.",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-trekken",
+    "text": "Kapıyı çekmen gerekiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-twijfelen",
+    "text": "Kırmızı ve mavi mont arasında kararsız kalıyorum.",
+    "reviewed": true,
+    "review_source": "owner"
+  },
+  {
+    "word_id": "verb-typen",
+    "text": "Bilgisayarda bir mektup yazmak istiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-uitgaan",
+    "text": "Cumartesi dışarı çıkmak istiyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-uitgeven",
+    "text": "Çok fazla para harcamak istemiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-uitleggen",
+    "text": "Öğretmen kelimeyi açıklayabilir.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-uitnodigen",
+    "text": "Komşularımı davet etmek istiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-uitspreken",
+    "text": "Bu kelimeyi telaffuz edebilir misiniz?",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-uitstappen",
+    "text": "Bir sonraki durakta inmemiz gerekiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-uitstellen",
+    "text": "Partiyi ertelememiz gerekiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-updaten",
+    "text": "Uygulamayı güncellemem gerekiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-vallen",
+    "text": "Bardak masadan düşebilir.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-vangen",
+    "text": "Köpek topu yakalayabilir.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-vechten",
+    "text": "Oğlanlar dövüşmek istemiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-veranderen",
+    "text": "Hava yarın değişecek.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verbergen",
+    "text": "Köpek kemiğini saklamak istiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verbeteren",
+    "text": "İşimi iyileştirmek istiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verbieden",
+    "text": "Polis sigarayı yasaklamak istiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verbouwen",
+    "text": "Evimizi yenilemek istiyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verdelen",
+    "text": "Elmayı dört parçaya bölüştürüyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verdienen",
+    "text": "Çok para kazanmak istiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verdwijnen",
+    "text": "Güneş bulutların arkasında kaybolabilir.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-vergelijken",
+    "text": "Fiyatları karşılaştırabiliriz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-vergeten",
+    "text": "Anahtarımı unutmak istemiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verhuren",
+    "text": "Odamızı kiraya vermek istiyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verkopen",
+    "text": "Komşum arabasını satmak istiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verlaten",
+    "text": "Binayı terk etmemiz gerekiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verlengen",
+    "text": "Kartımı uzatmak istiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verliezen",
+    "text": "Oyunu kaybetmek istemiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verplaatsen",
+    "text": "Masayı pencerenin yanına taşımak istiyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verrassen",
+    "text": "Anneme sürpriz yapmak istiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verschijnen",
+    "text": "Bilgisayarda bir mesaj görünebilir.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-versieren",
+    "text": "Odayı süsleyeceğiz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-vertalen",
+    "text": "Bu cümleyi çevirebilirim.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-vertellen",
+    "text": "Dedem bir fıkra anlatmak istiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-vervangen",
+    "text": "Pili yenisiyle değiştirmem gerekiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-vervelen",
+    "text": "Derste sıkılıyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verwachten",
+    "text": "Yarın çok yağmur bekliyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verwarmen",
+    "text": "Evi gazla ısıtıyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verzamelen",
+    "text": "Oğlum güzel taşlar toplamak istiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verzinnen",
+    "text": "Oğlum eğlenceli fıkralar uydurabilir.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-verzorgen",
+    "text": "Doktor hastanın bakımını yapmalı.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-vieren",
+    "text": "Doğum günümü evde kutluyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-vissen",
+    "text": "Dedem nehirde balık tutmaya gidiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-voelen",
+    "text": "Bugün kendimi çok iyi hissediyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-voetballen",
+    "text": "Oğlanlar sahada futbol oynamak istiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-volgen",
+    "text": "Köpek beni takip etmek istiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-voorstellen",
+    "text": "Size arkadaşımı tanıştırmak istiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-vriezen",
+    "text": "Yarın don olacak.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-vullen",
+    "text": "Bardağı suyla doldurmak istiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-waaien",
+    "text": "Bugün sert rüzgâr esecek.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-waarschuwen",
+    "text": "Komşumu uyarmam gerekiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-weggooien",
+    "text": "Bunu çöpe atmamalıyız.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-wegleggen",
+    "text": "Paramı bir kenara koymak istiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-weigeren",
+    "text": "Bir hediyeyi reddedebilirsin.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-wennen",
+    "text": "Soğuğa hâlâ alışmam gerekiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-wensen",
+    "text": "Sana çok şans diliyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-wijzen",
+    "text": "Öğretmen tahtaya işaret ediyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-winkelen",
+    "text": "Cumartesi alışverişe çıkıyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-winnen",
+    "text": "Ödülü kazanmak istiyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-worden",
+    "text": "Oğlum doktor olmak istiyor.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-wrijven",
+    "text": "Gözlerimi ovuyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-zakken",
+    "text": "Kursta kalmaktan korkuyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-zetten",
+    "text": "Şişeyi masaya koyuyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-zingen",
+    "text": "Partide bir şarkı söylüyoruz.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-zorgen",
+    "text": "Büyükannemle ilgileniyorum.",
+    "reviewed": true,
+    "review_source": "roundtrip"
+  },
+  {
+    "word_id": "verb-zuchten",
+    "text": "Annem işten sonra sık sık iç çekiyor.",
     "reviewed": true,
     "review_source": "roundtrip"
   }

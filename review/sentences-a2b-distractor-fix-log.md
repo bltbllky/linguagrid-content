@@ -1,0 +1,89 @@
+# T-382 A2b distractor fix: filled sentences of every NEW distractor (all judged clearly wrong or nonsense by the editor)
+
+- noun-oven: De les is erg heet.
+- noun-paspoort: Bij de douane laat ik mijn westen zien.
+- noun-paspoort: Bij de douane laat ik mijn noorden zien.
+- noun-product: Dit geluid is goedkoop.
+- noun-schelp: Het kind vindt een minuut op het strand.
+- noun-schrift: Ik schrijf mijn naam in het geluid.
+- noun-schrift: Ik schrijf mijn naam in het gat.
+- noun-stroom: Er is geen leeftijd in de keuken.
+- noun-stroom: Er is geen geboorte in de keuken.
+- noun-stuur: Zijn hand ligt op het geluid.
+- noun-stuur: Zijn hand ligt op het geluk.
+- noun-taak: Elk kind heeft een brug in de klas.
+- noun-taak: Elk kind heeft een snelweg in de klas.
+- noun-theater: Wij gaan vandaag naar het gewicht.
+- noun-training: De toren begint om zeven uur.
+- noun-virus: Dit westen maakt mij ziek.
+- noun-virus: Dit huisnummer maakt mij ziek.
+- noun-virus: Dit midden maakt mij ziek.
+- noun-vloer: De leeftijd in de keuken is nat.
+- noun-vuurwerk: Het gewicht is erg mooi.
+- noun-vuurwerk: Het vet is erg mooi.
+- noun-vuurwerk: Het gevaar is erg mooi.
+- noun-wind: De les is vandaag erg koud.
+- noun-wind: De datum is vandaag erg koud.
+- noun-wind: De minuut is vandaag erg koud.
+- noun-zand: De kinderen spelen met het noorden.
+- noun-zand: De kinderen spelen met het huisnummer.
+- verb-dansen: Wij willen op het feest krijgen.
+- verb-internetten: Mijn dochter wil op de laptop zwemmen.
+- verb-koelen: Wij moeten het bier fietsen.
+- verb-legen: Ik moet de doos lopen.
+- verb-liegen: Mijn zoon wil niet kosten.
+- verb-liegen: Mijn zoon wil niet lukken.
+- verb-liegen: Mijn zoon wil niet schelen.
+- verb-logeren: Mijn neef komt dit weekend vinden.
+- verb-meten: Wij moeten de tafel wonen.
+- verb-negeren: Je mag mij niet zwemmen.
+- verb-negeren: Je mag mij niet wachten.
+- verb-ontbijten: Wij willen buiten krijgen.
+- verb-ontbijten: Wij willen buiten kosten.
+- verb-ontbijten: Wij willen buiten vinden.
+- verb-ontspannen: Na het werk wil ik gebeuren.
+- verb-ontspannen: Na het werk wil ik duren.
+- verb-ontspannen: Na het werk wil ik vinden.
+- verb-opgeven: Ik wil niet gebeuren.
+- verb-opgeven: Ik wil niet duren.
+- verb-oplossen: Wij kunnen het probleem slapen.
+- verb-opruimen: Wij moeten de kamer zwemmen.
+- verb-overleggen: Ik moet met mijn baas kosten.
+- verb-overleggen: Ik moet met mijn baas schelen.
+- verb-overleggen: Ik moet met mijn baas lukken.
+- verb-rekenen: De kinderen leren op school lijken.
+- verb-rekenen: De kinderen leren op school schelen.
+- verb-samenwerken: Wij willen met onze buren kosten.
+- verb-samenwerken: Wij willen met onze buren schelen.
+- verb-schoonmaken: Ik moet de keuken lachen.
+- verb-schreeuwen: Je hoeft niet te kosten.
+- verb-schreeuwen: Je hoeft niet te lukken.
+- verb-slikken: Ik kan dit medicijn niet werken.
+- verb-slikken: Ik kan dit medicijn niet rijden.
+- verb-sporten: Mijn dochter wil elke dag gebeuren.
+- verb-sporten: Mijn dochter wil elke dag duren.
+- verb-sporten: Mijn dochter wil elke dag kosten.
+- verb-studeren: Mijn broer wil in de stad gebeuren.
+- verb-studeren: Mijn broer wil in de stad kosten.
+- verb-studeren: Mijn broer wil in de stad lijken.
+- verb-terugkomen: Wij willen volgend jaar vinden.
+- verb-testen: Wij gaan de nieuwe machine wonen.
+- verb-thuisblijven: Ik wil vandaag brengen.
+- verb-typen: Ik wil een brief op de computer lachen.
+- verb-uitnodigen: Ik wil mijn buren wonen.
+- verb-uitnodigen: Ik wil mijn buren lachen.
+- verb-vechten: De jongens willen niet krijgen.
+- verb-vechten: De jongens willen niet vinden.
+- verb-vechten: De jongens willen niet brengen.
+- verb-verbeteren: Ik wil mijn werk fietsen.
+- verb-verbeteren: Ik wil mijn werk wonen.
+- verb-verlaten: Wij moeten het gebouw werken.
+- verb-verzinnen: Mijn zoon kan leuke grappen zwemmen.
+- verb-weigeren: Je kunt een cadeau lopen.
+- verb-zorgen: Ik lijk voor mijn oma.
+- verb-zorgen: Ik klink voor mijn oma.
+- verb-zorgen: Ik gebeur voor mijn oma.
+- verb-zuchten: Mijn moeder pakt vaak na het werk.
+- verb-zuchten: Mijn moeder bouwt vaak na het werk.
+
+cloze-exclude: noun-verleden ("Ik denk vaak aan het ___": any het-noun fits, no clean set).
