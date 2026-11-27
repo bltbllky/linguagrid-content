@@ -709,8 +709,9 @@
   },
   {
     "word_id": "noun-vriendin",
-    "text": "Arkadaşım bugün annesinin yanında.",
-    "reviewed": false
+    "text": "Kız arkadaşım bugün annesinin yanında.",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-meneer",
@@ -906,8 +907,9 @@
   },
   {
     "word_id": "noun-flat",
-    "text": "Ablam büyük bir apartmanda oturuyor.",
-    "reviewed": false
+    "text": "Kız kardeşim büyük bir apartmanda oturuyor.",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-toilet",
@@ -1181,8 +1183,9 @@
   },
   {
     "word_id": "noun-haar",
-    "text": "Ablamın uzun siyah saçı var.",
-    "reviewed": false
+    "text": "Kız kardeşimin uzun siyah saçı var.",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-patiënt",
@@ -1325,7 +1328,8 @@
   {
     "word_id": "noun-nek",
     "text": "Ensem soğuk.",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-keel",
@@ -1431,13 +1435,15 @@
   },
   {
     "word_id": "noun-echtgenoot",
-    "text": "Eşim hastanede çalışıyor.",
-    "reviewed": false
+    "text": "Kocam hastanede çalışıyor.",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-echtgenote",
-    "text": "Eşim okulda çalışıyor.",
-    "reviewed": false
+    "text": "Karım okulda çalışıyor.",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-hart",
@@ -1609,8 +1615,9 @@
   },
   {
     "word_id": "noun-drie",
-    "text": "Ablamın üç çocuğu var.",
-    "reviewed": false
+    "text": "Kız kardeşimin üç çocuğu var.",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-vier",
@@ -1686,8 +1693,9 @@
   },
   {
     "word_id": "noun-zestien",
-    "text": "Ablam on altı yaşında.",
-    "reviewed": false
+    "text": "Kız kardeşim on altı yaşında.",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-zeventien",
@@ -1818,7 +1826,8 @@
   {
     "word_id": "verb-bakken",
     "text": "Büyükannem fırında ekmek pişirmek istiyor.",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "verb-snijden",
@@ -1870,8 +1879,9 @@
   },
   {
     "word_id": "verb-zijn",
-    "text": "Ablam ve ben yorgunuz.",
-    "reviewed": false
+    "text": "Kız kardeşim ve ben yorgunuz.",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "verb-hebben",
@@ -1923,8 +1933,9 @@
   },
   {
     "word_id": "verb-krijgen",
-    "text": "Doğum günümde yeni bir telefon alacağım.",
-    "reviewed": false
+    "text": "Doğum günümde yeni bir telefon alıyorum.",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "verb-wassen",
@@ -2073,7 +2084,8 @@
   {
     "word_id": "verb-passen",
     "text": "Bu ayakkabılar bana uymuyor.",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "verb-vliegen",
@@ -2179,8 +2191,9 @@
   },
   {
     "word_id": "adj-dagelijks",
-    "text": "Ablam her gün mağazada çalışıyor.",
-    "reviewed": false
+    "text": "Kız kardeşim her gün mağazada çalışıyor.",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "adj-rechts",
@@ -2202,8 +2215,9 @@
   },
   {
     "word_id": "adj-zwanger",
-    "text": "Ablam hamile ve çok mutlu.",
-    "reviewed": false
+    "text": "Kız kardeşim hamile ve çok mutlu.",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "adj-bang",
@@ -2255,8 +2269,9 @@
   },
   {
     "word_id": "adj-rood",
-    "text": "Ablamın bisikleti kırmızı.",
-    "reviewed": false
+    "text": "Kız kardeşimin bisikleti kırmızı.",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "adj-kort",
@@ -2309,7 +2324,8 @@
   {
     "word_id": "adj-dik",
     "text": "Köpeğim fazla şişman.",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "adj-geel",
@@ -2361,8 +2377,9 @@
   },
   {
     "word_id": "adj-getrouwd",
-    "text": "Ablam evli.",
-    "reviewed": false
+    "text": "Kız kardeşim evli.",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "adj-wakker",

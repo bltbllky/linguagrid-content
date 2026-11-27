@@ -1,22 +1,22 @@
 id,lang,dutch,turkish,english,decision
-noun-vriendin,tr,Mijn vriendin is vandaag bij haar moeder.,Arkadaşım bugün annesinin yanında.,My friend is with her mother today.,
-noun-flat,tr,Mijn zus woont in een grote flat.,Ablam büyük bir apartmanda oturuyor.,My sister lives in a big block of flats.,
-noun-haar,tr,Mijn zus heeft lang zwart haar.,Ablamın uzun siyah saçı var.,My sister has long black hair.,
-noun-nek,tr,Mijn nek is koud.,Ensem soğuk.,My neck is cold.,
-noun-echtgenoot,tr,Mijn echtgenoot werkt in het ziekenhuis.,Eşim hastanede çalışıyor.,My husband works in the hospital.,
-noun-echtgenote,tr,Mijn echtgenote werkt op school.,Eşim okulda çalışıyor.,My wife works at school.,
-noun-drie,tr,Mijn zus heeft drie kinderen.,Ablamın üç çocuğu var.,My sister has three children.,
-noun-zestien,tr,Mijn zus is zestien jaar oud.,Ablam on altı yaşında.,My sister is sixteen years old.,
-verb-bakken,tr,Mijn oma wil een brood bakken.,Büyükannem fırında ekmek pişirmek istiyor.,My grandma wants to bake a loaf of bread.,
-verb-zijn,tr,Mijn zus en ik zijn moe.,Ablam ve ben yorgunuz.,My sister and I are tired.,
-verb-krijgen,tr,Ik krijg een nieuwe telefoon voor mijn verjaardag.,Doğum günümde yeni bir telefon alacağım.,I am getting a new phone for my birthday.,
-verb-passen,tr,Deze schoenen passen niet.,Bu ayakkabılar bana uymuyor.,These shoes do not fit.,
-adj-dagelijks,tr,Mijn zus werkt dagelijks in de winkel.,Ablam her gün mağazada çalışıyor.,My sister works in the shop every day.,
-adj-zwanger,tr,Mijn zus is zwanger en heel gelukkig.,Ablam hamile ve çok mutlu.,My sister is pregnant and very happy.,
-adj-rood,tr,De fiets van mijn zus is rood.,Ablamın bisikleti kırmızı.,My sister's bike is red.,
-adj-dik,tr,Mijn hond is te dik.,Köpeğim fazla şişman.,My dog is too fat.,
-adj-getrouwd,tr,Mijn zus is getrouwd.,Ablam evli.,My sister is married.,
-noun-meneer,en,"Meneer, kunt u mij helpen?","Beyefendi, bana yardım edebilir misiniz?","Excuse me, sir, can you help me?",
-noun-flat,en,Mijn zus woont in een grote flat.,Ablam büyük bir apartmanda oturuyor.,My sister lives in a big block of flats.,
-noun-ongeluk,en,Er is een ongeluk op de weg.,Yolda bir kaza oldu.,There has been an accident on the road.,
-adj-prima,en,Het eten is prima.,Yemek gayet iyi.,The food is fine.,
+noun-vriendin,tr,Mijn vriendin is vandaag bij haar moeder.,Arkadaşım bugün annesinin yanında.,My friend is with her mother today.,Kız arkadaşım bugün annesinin yanında.
+noun-flat,tr,Mijn zus woont in een grote flat.,Ablam büyük bir apartmanda oturuyor.,My sister lives in a big block of flats.,Kız kardeşim büyük bir apartmanda oturuyor.
+noun-haar,tr,Mijn zus heeft lang zwart haar.,Ablamın uzun siyah saçı var.,My sister has long black hair.,Kız kardeşimin uzun siyah saçı var.
+noun-nek,tr,Mijn nek is koud.,Ensem soğuk.,My neck is cold.,OK
+noun-echtgenoot,tr,Mijn echtgenoot werkt in het ziekenhuis.,Eşim hastanede çalışıyor.,My husband works in the hospital.,Kocam hastanede çalışıyor.
+noun-echtgenote,tr,Mijn echtgenote werkt op school.,Eşim okulda çalışıyor.,My wife works at school.,Karım okulda çalışıyor.
+noun-drie,tr,Mijn zus heeft drie kinderen.,Ablamın üç çocuğu var.,My sister has three children.,Kız kardeşimin üç çocuğu var.
+noun-zestien,tr,Mijn zus is zestien jaar oud.,Ablam on altı yaşında.,My sister is sixteen years old.,Kız kardeşim on altı yaşında.
+verb-bakken,tr,Mijn oma wil een brood bakken.,Büyükannem fırında ekmek pişirmek istiyor.,My grandma wants to bake a loaf of bread.,OK
+verb-zijn,tr,Mijn zus en ik zijn moe.,Ablam ve ben yorgunuz.,My sister and I are tired.,Kız kardeşim ve ben yorgunuz.
+verb-krijgen,tr,Ik krijg een nieuwe telefoon voor mijn verjaardag.,Doğum günümde yeni bir telefon alacağım.,I am getting a new phone for my birthday.,Doğum günümde yeni bir telefon alıyorum.
+verb-passen,tr,Deze schoenen passen niet.,Bu ayakkabılar bana uymuyor.,These shoes do not fit.,OK
+adj-dagelijks,tr,Mijn zus werkt dagelijks in de winkel.,Ablam her gün mağazada çalışıyor.,My sister works in the shop every day.,Kız kardeşim her gün mağazada çalışıyor.
+adj-zwanger,tr,Mijn zus is zwanger en heel gelukkig.,Ablam hamile ve çok mutlu.,My sister is pregnant and very happy.,Kız kardeşim hamile ve çok mutlu.
+adj-rood,tr,De fiets van mijn zus is rood.,Ablamın bisikleti kırmızı.,My sister's bike is red.,Kız kardeşimin bisikleti kırmızı.
+adj-dik,tr,Mijn hond is te dik.,Köpeğim fazla şişman.,My dog is too fat.,OK
+adj-getrouwd,tr,Mijn zus is getrouwd.,Ablam evli.,My sister is married.,Kız kardeşim evli.
+noun-meneer,en,"Meneer, kunt u mij helpen?","Beyefendi, bana yardım edebilir misiniz?","Excuse me, sir, can you help me?","Sir, can you help me?"
+noun-flat,en,Mijn zus woont in een grote flat.,Ablam büyük bir apartmanda oturuyor.,My sister lives in a big block of flats.,OK
+noun-ongeluk,en,Er is een ongeluk op de weg.,Yolda bir kaza oldu.,There has been an accident on the road.,There is an accident on the road.
+adj-prima,en,Het eten is prima.,Yemek gayet iyi.,The food is fine.,OK

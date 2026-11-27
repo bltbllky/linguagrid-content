@@ -715,8 +715,9 @@
   },
   {
     "word_id": "noun-meneer",
-    "text": "Excuse me, sir, can you help me?",
-    "reviewed": false
+    "text": "Sir, can you help me?",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-mevrouw",
@@ -907,7 +908,8 @@
   {
     "word_id": "noun-flat",
     "text": "My sister lives in a big block of flats.",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-toilet",
@@ -1235,8 +1237,9 @@
   },
   {
     "word_id": "noun-ongeluk",
-    "text": "There has been an accident on the road.",
-    "reviewed": false
+    "text": "There is an accident on the road.",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-tand",
@@ -2417,7 +2420,8 @@
   {
     "word_id": "adj-prima",
     "text": "The food is fine.",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "adj-gek",
