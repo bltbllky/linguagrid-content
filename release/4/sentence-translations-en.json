@@ -1,0 +1,5585 @@
+{
+  "lang": "en",
+  "rows": [
+    {
+      "word_id": "noun-moeder",
+      "text": "My mother is cooking in the kitchen."
+    },
+    {
+      "word_id": "noun-vriend",
+      "text": "My friend lives in a big house."
+    },
+    {
+      "word_id": "noun-kind",
+      "text": "The child is sleeping in a small bed."
+    },
+    {
+      "word_id": "noun-man",
+      "text": "The man is buying a new car."
+    },
+    {
+      "word_id": "noun-zus",
+      "text": "My sister is playing with the dog in the garden."
+    },
+    {
+      "word_id": "noun-buur",
+      "text": "My neighbour has a small dog."
+    },
+    {
+      "word_id": "noun-meisje",
+      "text": "The girl is drinking a glass of water."
+    },
+    {
+      "word_id": "noun-verjaardag",
+      "text": "My birthday is in the summer."
+    },
+    {
+      "word_id": "noun-naam",
+      "text": "What is your name?"
+    },
+    {
+      "word_id": "noun-telefoon",
+      "text": "My phone is lying on the table."
+    },
+    {
+      "word_id": "noun-taal",
+      "text": "I speak two languages."
+    },
+    {
+      "word_id": "noun-woord",
+      "text": "I do not understand this word."
+    },
+    {
+      "word_id": "noun-adres",
+      "text": "What is your address?"
+    },
+    {
+      "word_id": "noun-huis",
+      "text": "Our house has a big garden."
+    },
+    {
+      "word_id": "noun-keuken",
+      "text": "The kitchen is small, but clean."
+    },
+    {
+      "word_id": "noun-deur",
+      "text": "The door of the house is white."
+    },
+    {
+      "word_id": "noun-tuin",
+      "text": "We are eating in the garden."
+    },
+    {
+      "word_id": "noun-bed",
+      "text": "My bed is in the room."
+    },
+    {
+      "word_id": "noun-tafel",
+      "text": "The table in the kitchen is new."
+    },
+    {
+      "word_id": "noun-raam",
+      "text": "I can see the garden through the window."
+    },
+    {
+      "word_id": "noun-sleutel",
+      "text": "I am looking for my key and my phone."
+    },
+    {
+      "word_id": "noun-stoel",
+      "text": "There is a chair next to the table."
+    },
+    {
+      "word_id": "noun-kamer",
+      "text": "My room is small, but beautiful."
+    },
+    {
+      "word_id": "noun-brood",
+      "text": "I am eating bread with cheese."
+    },
+    {
+      "word_id": "noun-koffie",
+      "text": "My father drinks coffee and I drink water."
+    },
+    {
+      "word_id": "noun-kaas",
+      "text": "We buy cheese at the market."
+    },
+    {
+      "word_id": "noun-appel",
+      "text": "I want to eat an apple."
+    },
+    {
+      "word_id": "noun-water",
+      "text": "Would you like a glass of water?"
+    },
+    {
+      "word_id": "noun-fles",
+      "text": "There is a bottle of water on the table."
+    },
+    {
+      "word_id": "noun-week",
+      "text": "The week has seven days."
+    },
+    {
+      "word_id": "noun-maandag",
+      "text": "I do not work on Mondays."
+    },
+    {
+      "word_id": "noun-zomer",
+      "text": "In the summer I swim in the sea."
+    },
+    {
+      "word_id": "noun-avond",
+      "text": "It is already evening."
+    },
+    {
+      "word_id": "noun-uur",
+      "text": "The lesson lasts one hour."
+    },
+    {
+      "word_id": "noun-jaar",
+      "text": "My son is four years old."
+    },
+    {
+      "word_id": "noun-school",
+      "text": "My son goes to school."
+    },
+    {
+      "word_id": "noun-les",
+      "text": "The lesson starts at two o'clock."
+    },
+    {
+      "word_id": "noun-werk",
+      "text": "I go to work by bike."
+    },
+    {
+      "word_id": "noun-computer",
+      "text": "I am working with a computer now."
+    },
+    {
+      "word_id": "noun-auto",
+      "text": "My father has a new car."
+    },
+    {
+      "word_id": "noun-trein",
+      "text": "The train to the city is late."
+    },
+    {
+      "word_id": "noun-fiets",
+      "text": "My bike is next to the station."
+    },
+    {
+      "word_id": "noun-station",
+      "text": "The station is far from my house."
+    },
+    {
+      "word_id": "noun-straat",
+      "text": "We live in a long street."
+    },
+    {
+      "word_id": "noun-hond",
+      "text": "The dog is sleeping on my bed."
+    },
+    {
+      "word_id": "noun-zon",
+      "text": "The sun is hot and the weather is nice."
+    },
+    {
+      "word_id": "noun-boom",
+      "text": "There is a big tree in the garden."
+    },
+    {
+      "word_id": "noun-dier",
+      "text": "A dog is an animal."
+    },
+    {
+      "word_id": "noun-weer",
+      "text": "The weather is cold, but the sun is warm."
+    },
+    {
+      "word_id": "noun-hand",
+      "text": "My hand hurts."
+    },
+    {
+      "word_id": "noun-hoofd",
+      "text": "My head hurts."
+    },
+    {
+      "word_id": "noun-oog",
+      "text": "My daughter has blue eyes."
+    },
+    {
+      "word_id": "noun-neus",
+      "text": "My nose is cold."
+    },
+    {
+      "word_id": "noun-arts",
+      "text": "I am going to the doctor because I am ill."
+    },
+    {
+      "word_id": "noun-ziekenhuis",
+      "text": "He is in the hospital because he is ill."
+    },
+    {
+      "word_id": "noun-film",
+      "text": "I am watching a film with my friend."
+    },
+    {
+      "word_id": "noun-muziek",
+      "text": "My sister likes listening to music."
+    },
+    {
+      "word_id": "noun-vakantie",
+      "text": "We are going on holiday to the sea."
+    },
+    {
+      "word_id": "noun-winkel",
+      "text": "I buy shoes in the shop."
+    },
+    {
+      "word_id": "noun-geld",
+      "text": "I have no money for a new car."
+    },
+    {
+      "word_id": "noun-prijs",
+      "text": "The price of the shoes is low."
+    },
+    {
+      "word_id": "noun-broek",
+      "text": "I am wearing black trousers."
+    },
+    {
+      "word_id": "noun-schoen",
+      "text": "My shoes are new."
+    },
+    {
+      "word_id": "noun-bril",
+      "text": "I cannot see well without my glasses."
+    },
+    {
+      "word_id": "verb-wonen",
+      "text": "We live in a small house."
+    },
+    {
+      "word_id": "verb-eten",
+      "text": "We eat at six o'clock."
+    },
+    {
+      "word_id": "verb-drinken",
+      "text": "My son is drinking a glass of water."
+    },
+    {
+      "word_id": "verb-werken",
+      "text": "I work from Monday to Friday."
+    },
+    {
+      "word_id": "verb-lezen",
+      "text": "She is reading the question once more."
+    },
+    {
+      "word_id": "verb-leren",
+      "text": "I am learning a new language."
+    },
+    {
+      "word_id": "verb-rijden",
+      "text": "My father drives to work by car."
+    },
+    {
+      "word_id": "verb-slapen",
+      "text": "I am tired and want to sleep."
+    },
+    {
+      "word_id": "verb-kopen",
+      "text": "I want to buy a new bike."
+    },
+    {
+      "word_id": "verb-spelen",
+      "text": "The children are playing in the garden."
+    },
+    {
+      "word_id": "verb-zwemmen",
+      "text": "We are going swimming in the sea."
+    },
+    {
+      "word_id": "verb-kijken",
+      "text": "We want to watch a film."
+    },
+    {
+      "word_id": "verb-wachten",
+      "text": "I am waiting for the bus at the station."
+    },
+    {
+      "word_id": "verb-bellen",
+      "text": "I want to call my mother."
+    },
+    {
+      "word_id": "verb-koken",
+      "text": "I want to cook fish and vegetables."
+    },
+    {
+      "word_id": "verb-helpen",
+      "text": "Can you help me with my work?"
+    },
+    {
+      "word_id": "verb-zoeken",
+      "text": "We are looking for a cheap house."
+    },
+    {
+      "word_id": "verb-betalen",
+      "text": "Where can I pay?"
+    },
+    {
+      "word_id": "verb-luisteren",
+      "text": "We are listening to the teacher."
+    },
+    {
+      "word_id": "verb-praten",
+      "text": "They are talking to the teacher in the classroom."
+    },
+    {
+      "word_id": "adj-groot",
+      "text": "My grandfather's house is big."
+    },
+    {
+      "word_id": "adj-klein",
+      "text": "These shoes are too small."
+    },
+    {
+      "word_id": "adj-nieuw",
+      "text": "I have a new phone."
+    },
+    {
+      "word_id": "adj-oud",
+      "text": "My grandfather is eighty years old."
+    },
+    {
+      "word_id": "adj-lekker",
+      "text": "The coffee is tasty."
+    },
+    {
+      "word_id": "adj-koud",
+      "text": "The water is cold."
+    },
+    {
+      "word_id": "adj-warm",
+      "text": "It is very warm here."
+    },
+    {
+      "word_id": "adj-duur",
+      "text": "This car is too expensive."
+    },
+    {
+      "word_id": "adj-goedkoop",
+      "text": "The bread is cheap here."
+    },
+    {
+      "word_id": "adj-moe",
+      "text": "I am tired and want to go to bed."
+    },
+    {
+      "word_id": "adj-ziek",
+      "text": "My son is ill and is lying in bed."
+    },
+    {
+      "word_id": "adj-gelukkig",
+      "text": "We are very happy in our house."
+    },
+    {
+      "word_id": "adj-snel",
+      "text": "My friend walks very fast."
+    },
+    {
+      "word_id": "adj-mooi",
+      "text": "Your garden is very beautiful."
+    },
+    {
+      "word_id": "adj-moeilijk",
+      "text": "This question is difficult."
+    },
+    {
+      "word_id": "adj-schoon",
+      "text": "The glass is clean."
+    },
+    {
+      "word_id": "noun-mens",
+      "text": "Every human being has a name."
+    },
+    {
+      "word_id": "noun-inwoner",
+      "text": "This city has many inhabitants."
+    },
+    {
+      "word_id": "noun-leven",
+      "text": "Life is not easy."
+    },
+    {
+      "word_id": "noun-vrouw",
+      "text": "That woman lives in a small apartment."
+    },
+    {
+      "word_id": "noun-familie",
+      "text": "My family is big and happy."
+    },
+    {
+      "word_id": "noun-zoon",
+      "text": "My son plays football in the park."
+    },
+    {
+      "word_id": "noun-vader",
+      "text": "My father works in a big restaurant."
+    },
+    {
+      "word_id": "noun-persoon",
+      "text": "Who is that person over there?"
+    },
+    {
+      "word_id": "noun-jongen",
+      "text": "The boy is eating an apple in the garden."
+    },
+    {
+      "word_id": "noun-lid",
+      "text": "Every member of the family is coming today."
+    },
+    {
+      "word_id": "noun-leeftijd",
+      "text": "My grandma has reached a great age."
+    },
+    {
+      "word_id": "noun-dochter",
+      "text": "My daughter goes to school by bike."
+    },
+    {
+      "word_id": "noun-broer",
+      "text": "My brother lives in another city."
+    },
+    {
+      "word_id": "noun-ouder",
+      "text": "Every parent wants a healthy child."
+    },
+    {
+      "word_id": "noun-relatie",
+      "text": "They have a good relationship with their neighbours."
+    },
+    {
+      "word_id": "noun-huwelijk",
+      "text": "Their marriage is long and happy."
+    },
+    {
+      "word_id": "noun-dame",
+      "text": "The lady by the door is waiting for the bus."
+    },
+    {
+      "word_id": "noun-jeugd",
+      "text": "In my youth I lived in the city."
+    },
+    {
+      "word_id": "noun-vriendin",
+      "text": "My friend is with her mother today."
+    },
+    {
+      "word_id": "noun-meneer",
+      "text": "Sir, can you help me?"
+    },
+    {
+      "word_id": "noun-mevrouw",
+      "text": "Madam, what is your address?"
+    },
+    {
+      "word_id": "noun-gast",
+      "text": "The guest is waiting in the room."
+    },
+    {
+      "word_id": "noun-oom",
+      "text": "My uncle lives in the south."
+    },
+    {
+      "word_id": "noun-baby",
+      "text": "The baby is sleeping in the small bed."
+    },
+    {
+      "word_id": "noun-geboorte",
+      "text": "The birth of my son was in May."
+    },
+    {
+      "word_id": "noun-neef",
+      "text": "My cousin likes to play football with me."
+    },
+    {
+      "word_id": "noun-ontmoeting",
+      "text": "The meeting is at two o'clock at the station."
+    },
+    {
+      "word_id": "noun-volwassene",
+      "text": "An adult and a child are eating together."
+    },
+    {
+      "word_id": "noun-tante",
+      "text": "My aunt calls me every evening."
+    },
+    {
+      "word_id": "noun-oma",
+      "text": "My grandma is old, but she is healthy."
+    },
+    {
+      "word_id": "noun-opa",
+      "text": "My grandpa walks in the park every day."
+    },
+    {
+      "word_id": "noun-mama",
+      "text": "Mum, where is my phone?"
+    },
+    {
+      "word_id": "noun-woning",
+      "text": "They are looking for a new house in the city."
+    },
+    {
+      "word_id": "noun-buurt",
+      "text": "There is a big park in our neighbourhood."
+    },
+    {
+      "word_id": "noun-muur",
+      "text": "The wall of the room is white."
+    },
+    {
+      "word_id": "noun-dak",
+      "text": "The roof of the house is red."
+    },
+    {
+      "word_id": "noun-apparaat",
+      "text": "This appliance is new and works well."
+    },
+    {
+      "word_id": "noun-verdieping",
+      "text": "This house has two storeys."
+    },
+    {
+      "word_id": "noun-kussen",
+      "text": "My pillow is on the bed."
+    },
+    {
+      "word_id": "noun-bord",
+      "text": "There is chicken on the plate."
+    },
+    {
+      "word_id": "noun-appartement",
+      "text": "The apartment has a balcony and a kitchen."
+    },
+    {
+      "word_id": "noun-mes",
+      "text": "I cut the bread with a knife."
+    },
+    {
+      "word_id": "noun-huishouden",
+      "text": "I do the housework every day."
+    },
+    {
+      "word_id": "noun-trap",
+      "text": "The stairs in our house are very long."
+    },
+    {
+      "word_id": "noun-afval",
+      "text": "We take the rubbish out."
+    },
+    {
+      "word_id": "noun-kast",
+      "text": "The clothes are in the cupboard."
+    },
+    {
+      "word_id": "noun-spiegel",
+      "text": "I see my face in the mirror."
+    },
+    {
+      "word_id": "noun-doos",
+      "text": "There is a phone in the box."
+    },
+    {
+      "word_id": "noun-lamp",
+      "text": "The lamp in the kitchen is new."
+    },
+    {
+      "word_id": "noun-laken",
+      "text": "My bed has a clean sheet."
+    },
+    {
+      "word_id": "noun-pan",
+      "text": "I am boiling water in the pan."
+    },
+    {
+      "word_id": "noun-flat",
+      "text": "My sister lives in a big block of flats."
+    },
+    {
+      "word_id": "noun-toilet",
+      "text": "Where is the toilet?"
+    },
+    {
+      "word_id": "noun-balkon",
+      "text": "We eat on the balcony in summer."
+    },
+    {
+      "word_id": "noun-restaurant",
+      "text": "This restaurant has good chicken and fish."
+    },
+    {
+      "word_id": "noun-bier",
+      "text": "My father is drinking a cold beer."
+    },
+    {
+      "word_id": "noun-glas",
+      "text": "I drink a glass of water in the kitchen."
+    },
+    {
+      "word_id": "noun-gerecht",
+      "text": "This dish is tasty and not expensive."
+    },
+    {
+      "word_id": "noun-wijn",
+      "text": "My neighbour likes to drink a glass of wine."
+    },
+    {
+      "word_id": "noun-vlees",
+      "text": "My son does not eat meat."
+    },
+    {
+      "word_id": "noun-vis",
+      "text": "Today we are eating fish with vegetables."
+    },
+    {
+      "word_id": "noun-drank",
+      "text": "A cold drink is nice in summer."
+    },
+    {
+      "word_id": "noun-olie",
+      "text": "I put oil in the pan."
+    },
+    {
+      "word_id": "noun-smaak",
+      "text": "The taste of the coffee is good."
+    },
+    {
+      "word_id": "noun-kip",
+      "text": "My mum is cooking chicken with vegetables."
+    },
+    {
+      "word_id": "noun-groente",
+      "text": "I eat vegetables every day."
+    },
+    {
+      "word_id": "noun-wortel",
+      "text": "I am cutting a carrot for the meal."
+    },
+    {
+      "word_id": "noun-recept",
+      "text": "This recipe is easy and quick."
+    },
+    {
+      "word_id": "noun-tijd",
+      "text": "It is time to eat."
+    },
+    {
+      "word_id": "noun-dag",
+      "text": "A week has seven days."
+    },
+    {
+      "word_id": "noun-seizoen",
+      "text": "Winter is a cold season."
+    },
+    {
+      "word_id": "noun-keer",
+      "text": "I see my grandma once a month."
+    },
+    {
+      "word_id": "noun-moment",
+      "text": "Just a moment, I am coming."
+    },
+    {
+      "word_id": "noun-maand",
+      "text": "A year has twelve months."
+    },
+    {
+      "word_id": "noun-periode",
+      "text": "This period lasts a year."
+    },
+    {
+      "word_id": "noun-minuut",
+      "text": "An hour has sixty minutes."
+    },
+    {
+      "word_id": "noun-nacht",
+      "text": "It is night and I am tired."
+    },
+    {
+      "word_id": "noun-toekomst",
+      "text": "What will you do in the future?"
+    },
+    {
+      "word_id": "noun-datum",
+      "text": "What is today's date?"
+    },
+    {
+      "word_id": "noun-weekend",
+      "text": "At the weekend I am at home."
+    },
+    {
+      "word_id": "noun-winter",
+      "text": "It is cold in winter."
+    },
+    {
+      "word_id": "noun-ochtend",
+      "text": "I drink coffee every morning."
+    },
+    {
+      "word_id": "noun-voorjaar",
+      "text": "In spring the trees grow."
+    },
+    {
+      "word_id": "noun-kwart",
+      "text": "It is a quarter past two."
+    },
+    {
+      "word_id": "noun-agenda",
+      "text": "My diary is on the table."
+    },
+    {
+      "word_id": "noun-middag",
+      "text": "In the afternoon I do not work."
+    },
+    {
+      "word_id": "noun-kerst",
+      "text": "At Christmas we eat together."
+    },
+    {
+      "word_id": "noun-feestdag",
+      "text": "Friday is a public holiday."
+    },
+    {
+      "word_id": "noun-herfst",
+      "text": "In autumn the weather is often bad."
+    },
+    {
+      "word_id": "noun-kalender",
+      "text": "The calendar hangs on the wall."
+    },
+    {
+      "word_id": "noun-leraar",
+      "text": "The teacher speaks slowly in the class."
+    },
+    {
+      "word_id": "noun-klas",
+      "text": "There are twenty children in the class."
+    },
+    {
+      "word_id": "noun-stad",
+      "text": "I like living in a big city."
+    },
+    {
+      "word_id": "noun-weg",
+      "text": "The road to the station is long."
+    },
+    {
+      "word_id": "noun-land",
+      "text": "My country is big and beautiful."
+    },
+    {
+      "word_id": "noun-park",
+      "text": "Every Sunday we walk in the park."
+    },
+    {
+      "word_id": "noun-bus",
+      "text": "I take the bus to work."
+    },
+    {
+      "word_id": "noun-haar",
+      "text": "My sister has long black hair."
+    },
+    {
+      "word_id": "noun-patiënt",
+      "text": "The patient is in hospital."
+    },
+    {
+      "word_id": "noun-lichaam",
+      "text": "My body is tired."
+    },
+    {
+      "word_id": "noun-ziekte",
+      "text": "He is at home because of an illness."
+    },
+    {
+      "word_id": "noun-arm",
+      "text": "My arm hurts."
+    },
+    {
+      "word_id": "noun-voet",
+      "text": "My foot is cold."
+    },
+    {
+      "word_id": "noun-gezicht",
+      "text": "My son has a round face."
+    },
+    {
+      "word_id": "noun-gezondheid",
+      "text": "My grandma is in good health."
+    },
+    {
+      "word_id": "noun-klacht",
+      "text": "I have a complaint about the room."
+    },
+    {
+      "word_id": "noun-ongeluk",
+      "text": "There is an accident on the road."
+    },
+    {
+      "word_id": "noun-tand",
+      "text": "My tooth hurts."
+    },
+    {
+      "word_id": "noun-griep",
+      "text": "My son is ill, he has the flu."
+    },
+    {
+      "word_id": "noun-mond",
+      "text": "The baby has a small mouth."
+    },
+    {
+      "word_id": "noun-oor",
+      "text": "My ear is cold."
+    },
+    {
+      "word_id": "noun-pijn",
+      "text": "I have pain in my leg."
+    },
+    {
+      "word_id": "noun-medicijn",
+      "text": "The medicine is in the cupboard."
+    },
+    {
+      "word_id": "noun-huid",
+      "text": "My skin is red from the sun."
+    },
+    {
+      "word_id": "noun-rust",
+      "text": "After work I want some rest."
+    },
+    {
+      "word_id": "noun-been",
+      "text": "She has long legs."
+    },
+    {
+      "word_id": "noun-vinger",
+      "text": "I have a ring on my finger."
+    },
+    {
+      "word_id": "noun-teen",
+      "text": "The baby has ten small toes."
+    },
+    {
+      "word_id": "noun-buik",
+      "text": "The baby is lying on its belly."
+    },
+    {
+      "word_id": "noun-bloed",
+      "text": "There is blood on my hand."
+    },
+    {
+      "word_id": "noun-schouder",
+      "text": "She has a hand on my shoulder."
+    },
+    {
+      "word_id": "noun-nek",
+      "text": "My neck is cold."
+    },
+    {
+      "word_id": "noun-keel",
+      "text": "My throat hurts."
+    },
+    {
+      "word_id": "noun-tong",
+      "text": "A dog has a red tongue."
+    },
+    {
+      "word_id": "noun-foto",
+      "text": "I am taking a photo of my dog."
+    },
+    {
+      "word_id": "noun-televisie",
+      "text": "We watch television after dinner."
+    },
+    {
+      "word_id": "noun-sport",
+      "text": "Swimming is a good sport."
+    },
+    {
+      "word_id": "noun-voetbal",
+      "text": "On Saturday we watch the football."
+    },
+    {
+      "word_id": "noun-zee",
+      "text": "The sea is blue and big."
+    },
+    {
+      "word_id": "noun-kleur",
+      "text": "What colour is your car?"
+    },
+    {
+      "word_id": "noun-nummer",
+      "text": "My house is number twelve."
+    },
+    {
+      "word_id": "noun-vraag",
+      "text": "I have a question for the teacher."
+    },
+    {
+      "word_id": "noun-antwoord",
+      "text": "The answer is yes or no."
+    },
+    {
+      "word_id": "noun-euro",
+      "text": "I pay twenty euros for the glasses."
+    },
+    {
+      "word_id": "noun-markt",
+      "text": "I buy vegetables at the market."
+    },
+    {
+      "word_id": "noun-supermarkt",
+      "text": "We buy bread at the supermarket."
+    },
+    {
+      "word_id": "noun-maat",
+      "text": "Which size do you have?"
+    },
+    {
+      "word_id": "noun-ring",
+      "text": "I am buying a ring for my wife."
+    },
+    {
+      "word_id": "noun-kleding",
+      "text": "I am buying new clothes in the shop."
+    },
+    {
+      "word_id": "noun-echtgenoot",
+      "text": "My husband works in the hospital."
+    },
+    {
+      "word_id": "noun-echtgenote",
+      "text": "My wife works at school."
+    },
+    {
+      "word_id": "noun-hart",
+      "text": "She has a good heart."
+    },
+    {
+      "word_id": "noun-borst",
+      "text": "The baby is lying on his mother's chest."
+    },
+    {
+      "word_id": "noun-duim",
+      "text": "My thumb is red."
+    },
+    {
+      "word_id": "noun-knie",
+      "text": "The baby is sitting on his grandpa's knee."
+    },
+    {
+      "word_id": "noun-zuiden",
+      "text": "It is warm in the south."
+    },
+    {
+      "word_id": "noun-westen",
+      "text": "My brother lives in the west of the country."
+    },
+    {
+      "word_id": "noun-oosten",
+      "text": "My family lives in the east."
+    },
+    {
+      "word_id": "noun-seconde",
+      "text": "Wait a second, I am coming."
+    },
+    {
+      "word_id": "noun-januari",
+      "text": "In January it is very cold."
+    },
+    {
+      "word_id": "noun-februari",
+      "text": "My birthday is in February."
+    },
+    {
+      "word_id": "noun-maart",
+      "text": "In March we go on holiday."
+    },
+    {
+      "word_id": "noun-april",
+      "text": "It rains a lot in April."
+    },
+    {
+      "word_id": "noun-mei",
+      "text": "The weather is nice in May."
+    },
+    {
+      "word_id": "noun-juni",
+      "text": "I am on holiday in June."
+    },
+    {
+      "word_id": "noun-juli",
+      "text": "In July it is hot in the city."
+    },
+    {
+      "word_id": "noun-augustus",
+      "text": "In August I swim in the sea."
+    },
+    {
+      "word_id": "noun-september",
+      "text": "School starts in September."
+    },
+    {
+      "word_id": "noun-oktober",
+      "text": "In October the trees are yellow and red."
+    },
+    {
+      "word_id": "noun-november",
+      "text": "It is often cold in November."
+    },
+    {
+      "word_id": "noun-december",
+      "text": "It is Christmas in December."
+    },
+    {
+      "word_id": "noun-dinsdag",
+      "text": "On Tuesday I work at home."
+    },
+    {
+      "word_id": "noun-woensdag",
+      "text": "On Wednesday I have no school."
+    },
+    {
+      "word_id": "noun-donderdag",
+      "text": "On Thursday I have a lesson."
+    },
+    {
+      "word_id": "noun-vrijdag",
+      "text": "On Friday I work until four o'clock."
+    },
+    {
+      "word_id": "noun-zaterdag",
+      "text": "On Saturday I go to the market."
+    },
+    {
+      "word_id": "noun-zondag",
+      "text": "On Sunday we eat at my grandma's."
+    },
+    {
+      "word_id": "noun-nul",
+      "text": "I have zero euros now."
+    },
+    {
+      "word_id": "noun-twee",
+      "text": "We have two eyes."
+    },
+    {
+      "word_id": "noun-drie",
+      "text": "My sister has three children."
+    },
+    {
+      "word_id": "noun-vier",
+      "text": "A year has four seasons."
+    },
+    {
+      "word_id": "noun-vijf",
+      "text": "A hand has five fingers."
+    },
+    {
+      "word_id": "noun-zes",
+      "text": "My son is six years old."
+    },
+    {
+      "word_id": "noun-zeven",
+      "text": "I am home at seven o'clock."
+    },
+    {
+      "word_id": "noun-acht",
+      "text": "The lesson starts at eight o'clock."
+    },
+    {
+      "word_id": "noun-negen",
+      "text": "It is nine o'clock in the morning."
+    },
+    {
+      "word_id": "noun-tien",
+      "text": "A person has ten fingers."
+    },
+    {
+      "word_id": "noun-elf",
+      "text": "My brother is eleven years old."
+    },
+    {
+      "word_id": "noun-twaalf",
+      "text": "At twelve o'clock we eat in the kitchen."
+    },
+    {
+      "word_id": "noun-dertien",
+      "text": "My daughter is thirteen years old."
+    },
+    {
+      "word_id": "noun-veertien",
+      "text": "My cousin is fourteen years old."
+    },
+    {
+      "word_id": "noun-vijftien",
+      "text": "The bus comes in fifteen minutes."
+    },
+    {
+      "word_id": "noun-zestien",
+      "text": "My sister is sixteen years old."
+    },
+    {
+      "word_id": "noun-zeventien",
+      "text": "I live at number seventeen."
+    },
+    {
+      "word_id": "noun-achttien",
+      "text": "My son is now eighteen years old."
+    },
+    {
+      "word_id": "noun-negentien",
+      "text": "My grandma lives at number nineteen."
+    },
+    {
+      "word_id": "noun-twintig",
+      "text": "There are twenty chairs in the room."
+    },
+    {
+      "word_id": "noun-dertig",
+      "text": "We walk to the station for thirty minutes."
+    },
+    {
+      "word_id": "noun-veertig",
+      "text": "My father works forty hours a week."
+    },
+    {
+      "word_id": "noun-vijftig",
+      "text": "My uncle is fifty years old."
+    },
+    {
+      "word_id": "noun-zestig",
+      "text": "My grandpa is sixty years old."
+    },
+    {
+      "word_id": "noun-zeventig",
+      "text": "My grandma is seventy years old."
+    },
+    {
+      "word_id": "noun-tachtig",
+      "text": "This house is eighty years old."
+    },
+    {
+      "word_id": "noun-negentig",
+      "text": "The tree is ninety years old."
+    },
+    {
+      "word_id": "noun-honderd",
+      "text": "I pay a hundred euros for the bike."
+    },
+    {
+      "word_id": "noun-duizend",
+      "text": "I have a thousand questions."
+    },
+    {
+      "word_id": "noun-miljoen",
+      "text": "This city has a million inhabitants."
+    },
+    {
+      "word_id": "noun-miljard",
+      "text": "A billion euros is a lot of money."
+    },
+    {
+      "word_id": "verb-trouwen",
+      "text": "My brother and his girlfriend are getting married."
+    },
+    {
+      "word_id": "verb-ontmoeten",
+      "text": "I would like to meet your mother."
+    },
+    {
+      "word_id": "verb-scheiden",
+      "text": "My neighbours are getting divorced."
+    },
+    {
+      "word_id": "verb-verhuizen",
+      "text": "We are going to move to a new house."
+    },
+    {
+      "word_id": "verb-huren",
+      "text": "We want to rent an apartment."
+    },
+    {
+      "word_id": "verb-bereiden",
+      "text": "I am preparing the fish with vegetables."
+    },
+    {
+      "word_id": "verb-bakken",
+      "text": "My grandma wants to bake a loaf of bread."
+    },
+    {
+      "word_id": "verb-snijden",
+      "text": "May I cut the apple?"
+    },
+    {
+      "word_id": "verb-duren",
+      "text": "How long does the film last?"
+    },
+    {
+      "word_id": "verb-schrijven",
+      "text": "I am writing my name and address."
+    },
+    {
+      "word_id": "verb-bewegen",
+      "text": "A baby can move its arms and legs."
+    },
+    {
+      "word_id": "verb-bloeden",
+      "text": "My finger is bleeding and hurts."
+    },
+    {
+      "word_id": "verb-genezen",
+      "text": "My leg still has to heal."
+    },
+    {
+      "word_id": "verb-roken",
+      "text": "I am not allowed to smoke here."
+    },
+    {
+      "word_id": "verb-regenen",
+      "text": "It is going to rain today."
+    },
+    {
+      "word_id": "verb-zijn",
+      "text": "My sister and I are tired."
+    },
+    {
+      "word_id": "verb-hebben",
+      "text": "We have a big house."
+    },
+    {
+      "word_id": "verb-kunnen",
+      "text": "I can swim well."
+    },
+    {
+      "word_id": "verb-gaan",
+      "text": "We are going to the park tomorrow."
+    },
+    {
+      "word_id": "verb-komen",
+      "text": "My grandma is coming to our house tomorrow."
+    },
+    {
+      "word_id": "verb-moeten",
+      "text": "I have to go to the shop today."
+    },
+    {
+      "word_id": "verb-maken",
+      "text": "We are making coffee in the kitchen."
+    },
+    {
+      "word_id": "verb-zien",
+      "text": "Do you see the bus over there?"
+    },
+    {
+      "word_id": "verb-doen",
+      "text": "What are you doing today?"
+    },
+    {
+      "word_id": "verb-krijgen",
+      "text": "I am getting a new phone for my birthday."
+    },
+    {
+      "word_id": "verb-wassen",
+      "text": "I have to wash my hands."
+    },
+    {
+      "word_id": "verb-staan",
+      "text": "The bottle is on the table."
+    },
+    {
+      "word_id": "verb-vinden",
+      "text": "I cannot find my key."
+    },
+    {
+      "word_id": "verb-nemen",
+      "text": "Take an apple from the box."
+    },
+    {
+      "word_id": "verb-geven",
+      "text": "I am giving my friend a nice bike."
+    },
+    {
+      "word_id": "verb-willen",
+      "text": "What do you want to eat?"
+    },
+    {
+      "word_id": "verb-liggen",
+      "text": "The dog is lying in the garden."
+    },
+    {
+      "word_id": "verb-beginnen",
+      "text": "The film starts in ten minutes."
+    },
+    {
+      "word_id": "verb-mogen",
+      "text": "May I sit here?"
+    },
+    {
+      "word_id": "verb-denken",
+      "text": "I am thinking of my family."
+    },
+    {
+      "word_id": "verb-zitten",
+      "text": "My grandpa is sitting in the chair."
+    },
+    {
+      "word_id": "verb-brengen",
+      "text": "I take my son to school."
+    },
+    {
+      "word_id": "verb-lopen",
+      "text": "I am walking to the station."
+    },
+    {
+      "word_id": "verb-weten",
+      "text": "Do you know where my key is?"
+    },
+    {
+      "word_id": "verb-openen",
+      "text": "Can you open the window?"
+    },
+    {
+      "word_id": "verb-horen",
+      "text": "I cannot hear the bus."
+    },
+    {
+      "word_id": "verb-sluiten",
+      "text": "We close the door at ten o'clock."
+    },
+    {
+      "word_id": "verb-zeggen",
+      "text": "What do you want to say?"
+    },
+    {
+      "word_id": "verb-vragen",
+      "text": "We have to ask the way."
+    },
+    {
+      "word_id": "verb-spreken",
+      "text": "The teacher is speaking with the parents."
+    },
+    {
+      "word_id": "verb-begrijpen",
+      "text": "I do not understand the question."
+    },
+    {
+      "word_id": "verb-heten",
+      "text": "What is this dish called?"
+    },
+    {
+      "word_id": "verb-antwoorden",
+      "text": "He does not answer my question."
+    },
+    {
+      "word_id": "verb-dragen",
+      "text": "My son is wearing red trousers."
+    },
+    {
+      "word_id": "verb-passen",
+      "text": "These shoes do not fit."
+    },
+    {
+      "word_id": "verb-vliegen",
+      "text": "I want to fly to the south."
+    },
+    {
+      "word_id": "verb-rusten",
+      "text": "My grandma has to rest today."
+    },
+    {
+      "word_id": "verb-bouwen",
+      "text": "They are building a new house in the city."
+    },
+    {
+      "word_id": "verb-groeien",
+      "text": "My son is growing fast."
+    },
+    {
+      "word_id": "verb-drukken",
+      "text": "Press here to open the door."
+    },
+    {
+      "word_id": "verb-draaien",
+      "text": "Turn the key in the door."
+    },
+    {
+      "word_id": "verb-hoeven",
+      "text": "You do not need to wait."
+    },
+    {
+      "word_id": "verb-roepen",
+      "text": "My mum is calling me to the kitchen."
+    },
+    {
+      "word_id": "verb-hangen",
+      "text": "The lamp is hanging above the table."
+    },
+    {
+      "word_id": "verb-breken",
+      "text": "The glass can break."
+    },
+    {
+      "word_id": "verb-springen",
+      "text": "The dog can jump high."
+    },
+    {
+      "word_id": "adj-persoonlijk",
+      "text": "This is a personal question."
+    },
+    {
+      "word_id": "adj-vers",
+      "text": "The bread is fresh and warm."
+    },
+    {
+      "word_id": "adj-zuur",
+      "text": "The apple is sour and not nice."
+    },
+    {
+      "word_id": "adj-laat",
+      "text": "The bus is late today."
+    },
+    {
+      "word_id": "adj-vorig",
+      "text": "Last week I was ill."
+    },
+    {
+      "word_id": "adj-vroeg",
+      "text": "The train is early today."
+    },
+    {
+      "word_id": "adj-dagelijks",
+      "text": "My sister works in the shop every day."
+    },
+    {
+      "word_id": "adj-rechts",
+      "text": "The station is on the right."
+    },
+    {
+      "word_id": "adj-links",
+      "text": "The shop is to the left of the station."
+    },
+    {
+      "word_id": "adj-gezond",
+      "text": "Vegetables and fish are healthy."
+    },
+    {
+      "word_id": "adj-zwanger",
+      "text": "My sister is pregnant and very happy."
+    },
+    {
+      "word_id": "adj-bang",
+      "text": "My dog is afraid of the bus."
+    },
+    {
+      "word_id": "adj-boos",
+      "text": "The teacher is angry with the class."
+    },
+    {
+      "word_id": "adj-ander",
+      "text": "Do you have another question?"
+    },
+    {
+      "word_id": "adj-lang",
+      "text": "The film is long and beautiful."
+    },
+    {
+      "word_id": "adj-goed",
+      "text": "My grandma is doing well."
+    },
+    {
+      "word_id": "adj-ver",
+      "text": "My school is not far from my house."
+    },
+    {
+      "word_id": "adj-hoog",
+      "text": "The wall is very high."
+    },
+    {
+      "word_id": "adj-jong",
+      "text": "She is young and healthy."
+    },
+    {
+      "word_id": "adj-rood",
+      "text": "My sister's bike is red."
+    },
+    {
+      "word_id": "adj-kort",
+      "text": "My hair is short."
+    },
+    {
+      "word_id": "adj-laag",
+      "text": "The table is low."
+    },
+    {
+      "word_id": "adj-zwart",
+      "text": "My shoes are black and new."
+    },
+    {
+      "word_id": "adj-leuk",
+      "text": "It is a nice film."
+    },
+    {
+      "word_id": "adj-slecht",
+      "text": "The weather is bad today."
+    },
+    {
+      "word_id": "adj-groen",
+      "text": "The trees in the garden are green."
+    },
+    {
+      "word_id": "adj-makkelijk",
+      "text": "This question is easy."
+    },
+    {
+      "word_id": "adj-wit",
+      "text": "The sheet is white and clean."
+    },
+    {
+      "word_id": "adj-dik",
+      "text": "My dog is too fat."
+    },
+    {
+      "word_id": "adj-geel",
+      "text": "The sun is yellow."
+    },
+    {
+      "word_id": "adj-oranje",
+      "text": "The carrot is orange."
+    },
+    {
+      "word_id": "adj-langzaam",
+      "text": "The train is very slow."
+    },
+    {
+      "word_id": "adj-blauw",
+      "text": "My glasses are blue."
+    },
+    {
+      "word_id": "adj-bruin",
+      "text": "The bread is brown."
+    },
+    {
+      "word_id": "adj-heet",
+      "text": "The coffee is hot."
+    },
+    {
+      "word_id": "adj-grijs",
+      "text": "My grandma has grey hair."
+    },
+    {
+      "word_id": "adj-geboren",
+      "text": "My son was born in May."
+    },
+    {
+      "word_id": "adj-getrouwd",
+      "text": "My sister is married."
+    },
+    {
+      "word_id": "adj-wakker",
+      "text": "I am awake at six o'clock."
+    },
+    {
+      "word_id": "adj-half",
+      "text": "It is half past two."
+    },
+    {
+      "word_id": "adj-rond",
+      "text": "The table is round."
+    },
+    {
+      "word_id": "adj-bezig",
+      "text": "My mum is busy in the kitchen."
+    },
+    {
+      "word_id": "adj-rijk",
+      "text": "He is rich, but not happy."
+    },
+    {
+      "word_id": "adj-diep",
+      "text": "The sea is deep here."
+    },
+    {
+      "word_id": "adj-prima",
+      "text": "The food is fine."
+    },
+    {
+      "word_id": "adj-gek",
+      "text": "My son is crazy about football."
+    },
+    {
+      "word_id": "adj-paars",
+      "text": "She has purple trousers."
+    },
+    {
+      "word_id": "adj-roze",
+      "text": "My daughter has a pink bike."
+    },
+    {
+      "word_id": "adj-aanwezig",
+      "text": "All the pupils are present today."
+    },
+    {
+      "word_id": "adj-aardig",
+      "text": "Our neighbour is very kind."
+    },
+    {
+      "word_id": "adj-actief",
+      "text": "My grandfather is still very active."
+    },
+    {
+      "word_id": "adj-agressief",
+      "text": "The dog is not aggressive."
+    },
+    {
+      "word_id": "adj-alleen",
+      "text": "I am home alone today."
+    },
+    {
+      "word_id": "adj-apart",
+      "text": "We sleep in a separate room."
+    },
+    {
+      "word_id": "adj-automatisch",
+      "text": "The door opens automatically."
+    },
+    {
+      "word_id": "adj-bekend",
+      "text": "This singer is well known in our country."
+    },
+    {
+      "word_id": "adj-belachelijk",
+      "text": "That idea is really ridiculous."
+    },
+    {
+      "word_id": "adj-belangrijk",
+      "text": "My health is very important."
+    },
+    {
+      "word_id": "adj-beleefd",
+      "text": "You must always be polite."
+    },
+    {
+      "word_id": "adj-beroemd",
+      "text": "I see a famous actor in the city."
+    },
+    {
+      "word_id": "adj-betrouwbaar",
+      "text": "My colleague is honest and reliable."
+    },
+    {
+      "word_id": "adj-bezorgd",
+      "text": "My mother is worried about me."
+    },
+    {
+      "word_id": "adj-bijzonder",
+      "text": "This present is very special."
+    },
+    {
+      "word_id": "adj-bleek",
+      "text": "Your face is very pale."
+    },
+    {
+      "word_id": "adj-blind",
+      "text": "That old man is blind."
+    },
+    {
+      "word_id": "adj-breed",
+      "text": "This street is very wide."
+    },
+    {
+      "word_id": "adj-creatief",
+      "text": "My sister is very creative."
+    },
+    {
+      "word_id": "adj-dankbaar",
+      "text": "I am very grateful to you."
+    },
+    {
+      "word_id": "adj-dicht",
+      "text": "The shop is closed on Sunday."
+    },
+    {
+      "word_id": "adj-dichtbij",
+      "text": "My school is nearby."
+    },
+    {
+      "word_id": "adj-dom",
+      "text": "That was a stupid mistake."
+    },
+    {
+      "word_id": "adj-donker",
+      "text": "It is very dark in the cellar."
+    },
+    {
+      "word_id": "adj-dood",
+      "text": "The flower in the garden is dead."
+    },
+    {
+      "word_id": "adj-droog",
+      "text": "My towel is already dry."
+    },
+    {
+      "word_id": "adj-druk",
+      "text": "It is very busy in the city today."
+    },
+    {
+      "word_id": "adj-dubbel",
+      "text": "My brother eats twice as much."
+    },
+    {
+      "word_id": "adj-duidelijk",
+      "text": "The answer is very clear."
+    },
+    {
+      "word_id": "adj-dun",
+      "text": "This coat is too thin for the winter."
+    },
+    {
+      "word_id": "adj-echt",
+      "text": "This gold is real."
+    },
+    {
+      "word_id": "adj-eenzaam",
+      "text": "The old woman is often lonely."
+    },
+    {
+      "word_id": "adj-eerlijk",
+      "text": "My teacher is always honest."
+    },
+    {
+      "word_id": "adj-eigen",
+      "text": "I have my own room."
+    },
+    {
+      "word_id": "adj-elektrisch",
+      "text": "My father has an electric bike."
+    },
+    {
+      "word_id": "adj-eng",
+      "text": "The film is too scary for children."
+    },
+    {
+      "word_id": "adj-enorm",
+      "text": "We live in an enormous house."
+    },
+    {
+      "word_id": "adj-erg",
+      "text": "It is awful for her."
+    },
+    {
+      "word_id": "adj-ernstig",
+      "text": "My grandfather's illness is serious."
+    },
+    {
+      "word_id": "adj-fijn",
+      "text": "It is lovely to be at home."
+    },
+    {
+      "word_id": "adj-geldig",
+      "text": "My passport is still valid."
+    },
+    {
+      "word_id": "adj-gelijk",
+      "text": "All people are equal."
+    },
+    {
+      "word_id": "adj-gemiddeld",
+      "text": "My average mark is seven."
+    },
+    {
+      "word_id": "adj-gevaarlijk",
+      "text": "This road is very dangerous."
+    },
+    {
+      "word_id": "adj-gevoelig",
+      "text": "My skin is very sensitive."
+    },
+    {
+      "word_id": "adj-geweldig",
+      "text": "We had a great holiday."
+    },
+    {
+      "word_id": "adj-gezellig",
+      "text": "Our house is warm and cosy."
+    },
+    {
+      "word_id": "adj-grappig",
+      "text": "That film is really funny."
+    },
+    {
+      "word_id": "adj-gratis",
+      "text": "The coffee is free of charge here."
+    },
+    {
+      "word_id": "adj-handig",
+      "text": "A laptop is very handy."
+    },
+    {
+      "word_id": "adj-hard",
+      "text": "My bed is too hard."
+    },
+    {
+      "word_id": "adj-helder",
+      "text": "The sky is clear today."
+    },
+    {
+      "word_id": "adj-houten",
+      "text": "We have a wooden table."
+    },
+    {
+      "word_id": "adj-ingewikkeld",
+      "text": "This rule is too complicated for me."
+    },
+    {
+      "word_id": "adj-interessant",
+      "text": "This programme is very interesting."
+    },
+    {
+      "word_id": "adj-jaarlijks",
+      "text": "We have a big party every year."
+    },
+    {
+      "word_id": "adj-jaloers",
+      "text": "My brother is often jealous."
+    },
+    {
+      "word_id": "adj-jammer",
+      "text": "It is a pity that it rains."
+    },
+    {
+      "word_id": "adj-juist",
+      "text": "That answer is correct."
+    },
+    {
+      "word_id": "adj-kapot",
+      "text": "My phone is broken."
+    },
+    {
+      "word_id": "adj-keurig",
+      "text": "My room is always neat."
+    },
+    {
+      "word_id": "adj-klaar",
+      "text": "The food is ready now."
+    },
+    {
+      "word_id": "adj-klassiek",
+      "text": "We are going to a classical concert."
+    },
+    {
+      "word_id": "adj-kwijt",
+      "text": "I have lost my key."
+    },
+    {
+      "word_id": "adj-leeg",
+      "text": "My glass is empty."
+    },
+    {
+      "word_id": "adj-lelijk",
+      "text": "That dress is really ugly."
+    },
+    {
+      "word_id": "adj-levend",
+      "text": "We see a living fish."
+    },
+    {
+      "word_id": "adj-lief",
+      "text": "My little sister is very sweet."
+    },
+    {
+      "word_id": "adj-logisch",
+      "text": "This rule is logical."
+    },
+    {
+      "word_id": "adj-los",
+      "text": "My son's tooth is loose."
+    },
+    {
+      "word_id": "adj-lui",
+      "text": "My brother is very lazy today."
+    },
+    {
+      "word_id": "adj-mogelijk",
+      "text": "Is it possible to come tomorrow?"
+    },
+    {
+      "word_id": "adj-nat",
+      "text": "The street is wet after the rain."
+    },
+    {
+      "word_id": "adj-natuurlijk",
+      "text": "I buy a natural product."
+    },
+    {
+      "word_id": "adj-nerveus",
+      "text": "I am nervous about the test."
+    },
+    {
+      "word_id": "adj-nieuwsgierig",
+      "text": "My son is very curious."
+    },
+    {
+      "word_id": "adj-nodig",
+      "text": "A passport is necessary here."
+    },
+    {
+      "word_id": "adj-onbekend",
+      "text": "I see an unknown man."
+    },
+    {
+      "word_id": "adj-ongelukkig",
+      "text": "Our child is unhappy."
+    },
+    {
+      "word_id": "adj-ongezond",
+      "text": "A lot of sugar is unhealthy."
+    },
+    {
+      "word_id": "adj-onzeker",
+      "text": "I am still unsure about the answer."
+    },
+    {
+      "word_id": "adj-open",
+      "text": "The window is open."
+    },
+    {
+      "word_id": "adj-pijnlijk",
+      "text": "My knee is painful today."
+    },
+    {
+      "word_id": "adj-praktisch",
+      "text": "This coat is beautiful and practical."
+    },
+    {
+      "word_id": "adj-redelijk",
+      "text": "That price is reasonable."
+    },
+    {
+      "word_id": "adj-regelmatig",
+      "text": "I go to the library regularly."
+    },
+    {
+      "word_id": "adj-rustig",
+      "text": "The baby sleeps calmly."
+    },
+    {
+      "word_id": "adj-saai",
+      "text": "This lesson is very boring."
+    },
+    {
+      "word_id": "adj-scherp",
+      "text": "This knife is very sharp."
+    },
+    {
+      "word_id": "adj-serieus",
+      "text": "My boss is always very serious."
+    },
+    {
+      "word_id": "adj-slim",
+      "text": "My daughter is very clever."
+    },
+    {
+      "word_id": "adj-smal",
+      "text": "The staircase is narrow."
+    },
+    {
+      "word_id": "adj-spannend",
+      "text": "This story is very exciting."
+    },
+    {
+      "word_id": "adj-sterk",
+      "text": "My father is still very strong."
+    },
+    {
+      "word_id": "adj-stevig",
+      "text": "This chair is very sturdy."
+    },
+    {
+      "word_id": "adj-stiekem",
+      "text": "My son secretly eats a biscuit."
+    },
+    {
+      "word_id": "adj-stil",
+      "text": "It is very quiet in the class."
+    },
+    {
+      "word_id": "adj-streng",
+      "text": "Our teacher is strict."
+    },
+    {
+      "word_id": "adj-tijdelijk",
+      "text": "This job is temporary."
+    },
+    {
+      "word_id": "adj-toevallig",
+      "text": "I meet my teacher by chance in the city."
+    },
+    {
+      "word_id": "adj-trots",
+      "text": "I am proud of my son."
+    },
+    {
+      "word_id": "adj-typisch",
+      "text": "This food is typical for our country."
+    },
+    {
+      "word_id": "adj-uitstekend",
+      "text": "The food here is excellent."
+    },
+    {
+      "word_id": "adj-uniek",
+      "text": "Every person is unique."
+    },
+    {
+      "word_id": "adj-vals",
+      "text": "This money is fake."
+    },
+    {
+      "word_id": "adj-veilig",
+      "text": "It is very safe here."
+    },
+    {
+      "word_id": "adj-verbaasd",
+      "text": "My father is very surprised."
+    },
+    {
+      "word_id": "adj-verdrietig",
+      "text": "The child is sad today."
+    },
+    {
+      "word_id": "adj-verkeerd",
+      "text": "This address is wrong."
+    },
+    {
+      "word_id": "adj-verliefd",
+      "text": "She is in love with my brother."
+    },
+    {
+      "word_id": "adj-verplicht",
+      "text": "This course is compulsory."
+    },
+    {
+      "word_id": "adj-verschillend",
+      "text": "My brother and I are different."
+    },
+    {
+      "word_id": "adj-verstandig",
+      "text": "That is a sensible idea."
+    },
+    {
+      "word_id": "adj-vervelend",
+      "text": "That mosquito is very annoying."
+    },
+    {
+      "word_id": "adj-vierkant",
+      "text": "We have a square table."
+    },
+    {
+      "word_id": "adj-vies",
+      "text": "The towel is dirty."
+    },
+    {
+      "word_id": "adj-vlak",
+      "text": "The land is very flat here."
+    },
+    {
+      "word_id": "adj-vol",
+      "text": "The bus is full today."
+    },
+    {
+      "word_id": "adj-volgend",
+      "text": "The next train comes at four o'clock."
+    },
+    {
+      "word_id": "adj-voorzichtig",
+      "text": "My mother always drives carefully."
+    },
+    {
+      "word_id": "adj-vreemd",
+      "text": "That sound is very strange."
+    },
+    {
+      "word_id": "adj-vreselijk",
+      "text": "The weather is terrible today."
+    },
+    {
+      "word_id": "adj-vriendelijk",
+      "text": "The man in the shop is friendly."
+    },
+    {
+      "word_id": "adj-vrij",
+      "text": "Tomorrow I am free."
+    },
+    {
+      "word_id": "adj-vrolijk",
+      "text": "The children are very cheerful today."
+    },
+    {
+      "word_id": "adj-waar",
+      "text": "That is not true."
+    },
+    {
+      "word_id": "adj-wekelijks",
+      "text": "I call my mother weekly."
+    },
+    {
+      "word_id": "adj-welkom",
+      "text": "You are always welcome here."
+    },
+    {
+      "word_id": "adj-wild",
+      "text": "I see a wild animal in the forest."
+    },
+    {
+      "word_id": "adj-zacht",
+      "text": "My pillow is soft."
+    },
+    {
+      "word_id": "adj-zeker",
+      "text": "I am sure of my answer."
+    },
+    {
+      "word_id": "adj-zelfstandig",
+      "text": "My son is already independent."
+    },
+    {
+      "word_id": "adj-zonnig",
+      "text": "It is often sunny in summer."
+    },
+    {
+      "word_id": "adj-zwaar",
+      "text": "This suitcase is too heavy."
+    },
+    {
+      "word_id": "adj-zwak",
+      "text": "My leg is still weak."
+    },
+    {
+      "word_id": "noun-aankomst",
+      "text": "Our arrival is at four o'clock."
+    },
+    {
+      "word_id": "noun-aankoop",
+      "text": "This purchase is too expensive for me."
+    },
+    {
+      "word_id": "noun-aap",
+      "text": "The monkey eats a banana."
+    },
+    {
+      "word_id": "noun-aardappel",
+      "text": "I eat potatoes with meat."
+    },
+    {
+      "word_id": "noun-aarde",
+      "text": "The flower grows in the earth."
+    },
+    {
+      "word_id": "noun-achterkant",
+      "text": "The garden is at the back of the house."
+    },
+    {
+      "word_id": "noun-achternaam",
+      "text": "What is your surname?"
+    },
+    {
+      "word_id": "noun-acteur",
+      "text": "The actor plays in a film."
+    },
+    {
+      "word_id": "noun-ademhaling",
+      "text": "My breathing is calm."
+    },
+    {
+      "word_id": "noun-advies",
+      "text": "I ask my mother for advice."
+    },
+    {
+      "word_id": "noun-advocaat",
+      "text": "The lawyer works in a big office."
+    },
+    {
+      "word_id": "noun-afdeling",
+      "text": "My colleague works in another department."
+    },
+    {
+      "word_id": "noun-afscheid",
+      "text": "The farewell at the station is difficult."
+    },
+    {
+      "word_id": "noun-afspraak",
+      "text": "I have an appointment with the dentist tomorrow."
+    },
+    {
+      "word_id": "noun-afstand",
+      "text": "The distance to the school is short."
+    },
+    {
+      "word_id": "noun-agent",
+      "text": "The police officer stands in the street."
+    },
+    {
+      "word_id": "noun-alcohol",
+      "text": "My friend does not drink alcohol."
+    },
+    {
+      "word_id": "noun-ambtenaar",
+      "text": "The civil servant works at the office."
+    },
+    {
+      "word_id": "noun-angst",
+      "text": "My fear is big."
+    },
+    {
+      "word_id": "noun-apotheek",
+      "text": "I get my medicines at the pharmacy."
+    },
+    {
+      "word_id": "noun-apotheker",
+      "text": "The pharmacist gives me a medicine."
+    },
+    {
+      "word_id": "noun-app",
+      "text": "I have an app on my phone."
+    },
+    {
+      "word_id": "noun-armband",
+      "text": "She wears a bracelet around her arm."
+    },
+    {
+      "word_id": "noun-attractie",
+      "text": "This attraction is fun for children."
+    },
+    {
+      "word_id": "noun-automaat",
+      "text": "I buy coffee at the vending machine."
+    },
+    {
+      "word_id": "noun-avontuur",
+      "text": "Our journey is a big adventure."
+    },
+    {
+      "word_id": "noun-baan",
+      "text": "My sister is looking for a new job."
+    },
+    {
+      "word_id": "noun-baard",
+      "text": "My grandfather has a beard and glasses."
+    },
+    {
+      "word_id": "noun-baas",
+      "text": "My boss is not at the office today."
+    },
+    {
+      "word_id": "noun-bad",
+      "text": "The bath in our bathroom is big."
+    },
+    {
+      "word_id": "noun-badkamer",
+      "text": "My bathroom is next to my bedroom."
+    },
+    {
+      "word_id": "noun-bagage",
+      "text": "My luggage is in the car."
+    },
+    {
+      "word_id": "noun-bak",
+      "text": "The tub with water stands on the ground."
+    },
+    {
+      "word_id": "noun-bakker",
+      "text": "I buy my bread at the baker."
+    },
+    {
+      "word_id": "noun-bal",
+      "text": "The children play with the ball."
+    },
+    {
+      "word_id": "noun-ballet",
+      "text": "My daughter sees a ballet in the theatre."
+    },
+    {
+      "word_id": "noun-banaan",
+      "text": "I eat a banana for lunch."
+    },
+    {
+      "word_id": "noun-bank",
+      "text": "We sit together on the couch."
+    },
+    {
+      "word_id": "noun-bar",
+      "text": "We drink beer in the bar."
+    },
+    {
+      "word_id": "noun-basisschool",
+      "text": "My son goes to the primary school."
+    },
+    {
+      "word_id": "noun-batterij",
+      "text": "The battery of my phone is empty."
+    },
+    {
+      "word_id": "noun-bedrag",
+      "text": "The amount on the account is high."
+    },
+    {
+      "word_id": "noun-bedrijf",
+      "text": "My father works at a big company."
+    },
+    {
+      "word_id": "noun-behandeling",
+      "text": "The treatment takes an hour."
+    },
+    {
+      "word_id": "noun-beker",
+      "text": "I drink tea from a mug."
+    },
+    {
+      "word_id": "noun-bel",
+      "text": "The bell of the door is broken."
+    },
+    {
+      "word_id": "noun-belasting",
+      "text": "We pay tax every year."
+    },
+    {
+      "word_id": "noun-belofte",
+      "text": "He keeps his promise."
+    },
+    {
+      "word_id": "noun-benzine",
+      "text": "My car runs on petrol."
+    },
+    {
+      "word_id": "noun-berg",
+      "text": "We walk up the mountain."
+    },
+    {
+      "word_id": "noun-bericht",
+      "text": "I send you a message."
+    },
+    {
+      "word_id": "noun-beroep",
+      "text": "What is your profession?"
+    },
+    {
+      "word_id": "noun-bestelling",
+      "text": "The order comes tomorrow."
+    },
+    {
+      "word_id": "noun-bestemming",
+      "text": "Our destination is a small village."
+    },
+    {
+      "word_id": "noun-betaling",
+      "text": "The payment is not possible."
+    },
+    {
+      "word_id": "noun-beurt",
+      "text": "Now it is my turn."
+    },
+    {
+      "word_id": "noun-bezoek",
+      "text": "My visit to the dentist is tomorrow."
+    },
+    {
+      "word_id": "noun-bezoeker",
+      "text": "The visitor waits at the door."
+    },
+    {
+      "word_id": "noun-bibliotheek",
+      "text": "I read a magazine in the library."
+    },
+    {
+      "word_id": "noun-biet",
+      "text": "She cooks a beetroot in the pan."
+    },
+    {
+      "word_id": "noun-bijnaam",
+      "text": "My brother has a funny nickname."
+    },
+    {
+      "word_id": "noun-bijwerking",
+      "text": "That pill has a side effect."
+    },
+    {
+      "word_id": "noun-bioscoop",
+      "text": "We see a film in the cinema."
+    },
+    {
+      "word_id": "noun-blad",
+      "text": "A leaf hangs on the tree."
+    },
+    {
+      "word_id": "noun-bladzijde",
+      "text": "I read every page."
+    },
+    {
+      "word_id": "noun-blessure",
+      "text": "My injury still hurts."
+    },
+    {
+      "word_id": "noun-bloem",
+      "text": "She buys a flower for her mother."
+    },
+    {
+      "word_id": "noun-bocht",
+      "text": "The road makes a sharp bend here."
+    },
+    {
+      "word_id": "noun-boer",
+      "text": "The farmer has a cow and a horse."
+    },
+    {
+      "word_id": "noun-boerderij",
+      "text": "Many animals live on the farm."
+    },
+    {
+      "word_id": "noun-boete",
+      "text": "I get a fine from the police."
+    },
+    {
+      "word_id": "noun-bon",
+      "text": "I get a receipt at the checkout."
+    },
+    {
+      "word_id": "noun-boodschap",
+      "text": "I have a message for you."
+    },
+    {
+      "word_id": "noun-boon",
+      "text": "We eat beans with rice."
+    },
+    {
+      "word_id": "noun-boot",
+      "text": "We go to the island by boat."
+    },
+    {
+      "word_id": "noun-bos",
+      "text": "We walk together through the forest."
+    },
+    {
+      "word_id": "noun-bot",
+      "text": "My dog gets a bone."
+    },
+    {
+      "word_id": "noun-boter",
+      "text": "I put butter on my bread."
+    },
+    {
+      "word_id": "noun-boterham",
+      "text": "I eat a slice of bread with cheese."
+    },
+    {
+      "word_id": "noun-bovenkant",
+      "text": "The top of the table is wet."
+    },
+    {
+      "word_id": "noun-brand",
+      "text": "There is a fire in the kitchen."
+    },
+    {
+      "word_id": "noun-brandweer",
+      "text": "The fire brigade comes quickly to the house."
+    },
+    {
+      "word_id": "noun-breedte",
+      "text": "The width of the road is four metres."
+    },
+    {
+      "word_id": "noun-brief",
+      "text": "I write a letter to my grandmother."
+    },
+    {
+      "word_id": "noun-broodje",
+      "text": "I eat a bread roll with ham."
+    },
+    {
+      "word_id": "noun-brug",
+      "text": "We walk over the bridge."
+    },
+    {
+      "word_id": "noun-bruid",
+      "text": "The bride wears a white dress."
+    },
+    {
+      "word_id": "noun-bruiloft",
+      "text": "Our wedding is in the summer."
+    },
+    {
+      "word_id": "noun-bui",
+      "text": "A shower is coming today."
+    },
+    {
+      "word_id": "noun-buitenkant",
+      "text": "The outside of the house is white."
+    },
+    {
+      "word_id": "noun-buitenland",
+      "text": "My sister lives abroad."
+    },
+    {
+      "word_id": "noun-cadeau",
+      "text": "I give my mother a present."
+    },
+    {
+      "word_id": "noun-café",
+      "text": "We drink coffee in the café."
+    },
+    {
+      "word_id": "noun-camera",
+      "text": "My phone has a good camera."
+    },
+    {
+      "word_id": "noun-camping",
+      "text": "We sleep at a campsite."
+    },
+    {
+      "word_id": "noun-cent",
+      "text": "A euro has a hundred cents."
+    },
+    {
+      "word_id": "noun-centimeter",
+      "text": "My son is a hundred centimetres tall."
+    },
+    {
+      "word_id": "noun-centrum",
+      "text": "The hotel is in the centre of the city."
+    },
+    {
+      "word_id": "noun-champagne",
+      "text": "She drinks a glass of champagne."
+    },
+    {
+      "word_id": "noun-chauffeur",
+      "text": "The driver drives the bus."
+    },
+    {
+      "word_id": "noun-cijfer",
+      "text": "I have a good mark for the test."
+    },
+    {
+      "word_id": "noun-circus",
+      "text": "We go to the circus."
+    },
+    {
+      "word_id": "noun-cirkel",
+      "text": "A circle is round."
+    },
+    {
+      "word_id": "noun-clown",
+      "text": "The clown is very funny."
+    },
+    {
+      "word_id": "noun-club",
+      "text": "My brother plays football at a club."
+    },
+    {
+      "word_id": "noun-code",
+      "text": "The code of the door is secret."
+    },
+    {
+      "word_id": "noun-collega",
+      "text": "My colleague drinks coffee with milk."
+    },
+    {
+      "word_id": "noun-concert",
+      "text": "We go to a concert."
+    },
+    {
+      "word_id": "noun-contact",
+      "text": "I have a lot of contact with my neighbour."
+    },
+    {
+      "word_id": "noun-contract",
+      "text": "My contract is for a year."
+    },
+    {
+      "word_id": "noun-controle",
+      "text": "The check-up at the family doctor is tomorrow."
+    },
+    {
+      "word_id": "noun-cursus",
+      "text": "My course begins in September."
+    },
+    {
+      "word_id": "noun-dal",
+      "text": "The village lies in a beautiful valley."
+    },
+    {
+      "word_id": "noun-dans",
+      "text": "I see a beautiful dance."
+    },
+    {
+      "word_id": "noun-das",
+      "text": "My father wears a red tie."
+    },
+    {
+      "word_id": "noun-deken",
+      "text": "The child sleeps under a warm blanket."
+    },
+    {
+      "word_id": "noun-dienst",
+      "text": "The service here is very good."
+    },
+    {
+      "word_id": "noun-dierentuin",
+      "text": "We see a lion in the zoo."
+    },
+    {
+      "word_id": "noun-dijk",
+      "text": "The dyke protects the land against the water."
+    },
+    {
+      "word_id": "noun-directeur",
+      "text": "The director of the school is friendly."
+    },
+    {
+      "word_id": "noun-discussie",
+      "text": "We have a long discussion."
+    },
+    {
+      "word_id": "noun-document",
+      "text": "I need an important document."
+    },
+    {
+      "word_id": "noun-documentaire",
+      "text": "We watch a documentary on television."
+    },
+    {
+      "word_id": "noun-doek",
+      "text": "I clean the window with a cloth."
+    },
+    {
+      "word_id": "noun-doel",
+      "text": "My goal is a new job."
+    },
+    {
+      "word_id": "noun-doelpunt",
+      "text": "The player scores a goal."
+    },
+    {
+      "word_id": "noun-dolfijn",
+      "text": "A dolphin swims in the sea."
+    },
+    {
+      "word_id": "noun-dorp",
+      "text": "Our village is small and quiet."
+    },
+    {
+      "word_id": "noun-douane",
+      "text": "At the customs I show my passport."
+    },
+    {
+      "word_id": "noun-douche",
+      "text": "I take a shower every morning."
+    },
+    {
+      "word_id": "noun-draad",
+      "text": "I need a long wire."
+    },
+    {
+      "word_id": "noun-droom",
+      "text": "I have a beautiful dream."
+    },
+    {
+      "word_id": "noun-druif",
+      "text": "A grape is small and round."
+    },
+    {
+      "word_id": "noun-drum",
+      "text": "My son plays the drum."
+    },
+    {
+      "word_id": "noun-duin",
+      "text": "There is a dune behind the beach."
+    },
+    {
+      "word_id": "noun-echtpaar",
+      "text": "The married couple lives in a small house."
+    },
+    {
+      "word_id": "noun-eend",
+      "text": "A duck swims in the ditch."
+    },
+    {
+      "word_id": "noun-eeuw",
+      "text": "A century is a hundred years."
+    },
+    {
+      "word_id": "noun-eigenaar",
+      "text": "The owner of the hotel lives here."
+    },
+    {
+      "word_id": "noun-eiland",
+      "text": "The island is small and beautiful."
+    },
+    {
+      "word_id": "noun-emotie",
+      "text": "I see a strong emotion on his face."
+    },
+    {
+      "word_id": "noun-energie",
+      "text": "I have a lot of energy today."
+    },
+    {
+      "word_id": "noun-envelop",
+      "text": "I put the letter in an envelope."
+    },
+    {
+      "word_id": "noun-ervaring",
+      "text": "I have a lot of experience with children."
+    },
+    {
+      "word_id": "noun-excuus",
+      "text": "I get an apology from my neighbour."
+    },
+    {
+      "word_id": "noun-ezel",
+      "text": "The donkey carries a heavy suitcase."
+    },
+    {
+      "word_id": "noun-fabriek",
+      "text": "My father works in a factory."
+    },
+    {
+      "word_id": "noun-fan",
+      "text": "My son is a big fan of football."
+    },
+    {
+      "word_id": "noun-feest",
+      "text": "We have a big party today."
+    },
+    {
+      "word_id": "noun-festival",
+      "text": "The festival starts tomorrow."
+    },
+    {
+      "word_id": "noun-file",
+      "text": "We stand in a traffic jam."
+    },
+    {
+      "word_id": "noun-finale",
+      "text": "The final starts at eight o'clock."
+    },
+    {
+      "word_id": "noun-formulier",
+      "text": "I fill in the form."
+    },
+    {
+      "word_id": "noun-fout",
+      "text": "I make a small mistake."
+    },
+    {
+      "word_id": "noun-fruit",
+      "text": "She eats fruit every day."
+    },
+    {
+      "word_id": "noun-gang",
+      "text": "The hallway of the house is dark."
+    },
+    {
+      "word_id": "noun-gans",
+      "text": "A goose swims on the water."
+    },
+    {
+      "word_id": "noun-garage",
+      "text": "Our car stands in the garage."
+    },
+    {
+      "word_id": "noun-garnaal",
+      "text": "I eat a shrimp with rice."
+    },
+    {
+      "word_id": "noun-gas",
+      "text": "We cook with gas."
+    },
+    {
+      "word_id": "noun-gat",
+      "text": "There is a hole in my coat."
+    },
+    {
+      "word_id": "noun-gebouw",
+      "text": "This building is very old."
+    },
+    {
+      "word_id": "noun-gedicht",
+      "text": "I read a beautiful poem."
+    },
+    {
+      "word_id": "noun-geheim",
+      "text": "My friend has a big secret."
+    },
+    {
+      "word_id": "noun-geliefde",
+      "text": "He writes a letter to his beloved."
+    },
+    {
+      "word_id": "noun-geluid",
+      "text": "I hear a strange sound."
+    },
+    {
+      "word_id": "noun-geluk",
+      "text": "I wish you a lot of luck."
+    },
+    {
+      "word_id": "noun-gemeente",
+      "text": "I live in a small municipality."
+    },
+    {
+      "word_id": "noun-geschiedenis",
+      "text": "I learn history at school."
+    },
+    {
+      "word_id": "noun-gesprek",
+      "text": "We have a short conversation."
+    },
+    {
+      "word_id": "noun-getal",
+      "text": "Ten is a number."
+    },
+    {
+      "word_id": "noun-gevaar",
+      "text": "The danger is big here."
+    },
+    {
+      "word_id": "noun-gevoel",
+      "text": "I have a good feeling."
+    },
+    {
+      "word_id": "noun-gewicht",
+      "text": "The weight of the suitcase is high."
+    },
+    {
+      "word_id": "noun-gitaar",
+      "text": "My brother plays the guitar."
+    },
+    {
+      "word_id": "noun-golf",
+      "text": "The wave comes onto the beach."
+    },
+    {
+      "word_id": "noun-gordijn",
+      "text": "The curtain in front of the window is blue."
+    },
+    {
+      "word_id": "noun-goud",
+      "text": "Her ring is of gold."
+    },
+    {
+      "word_id": "noun-gracht",
+      "text": "The canal lies in the middle of the city."
+    },
+    {
+      "word_id": "noun-gram",
+      "text": "I buy a hundred grams of cheese."
+    },
+    {
+      "word_id": "noun-grap",
+      "text": "My father tells a joke."
+    },
+    {
+      "word_id": "noun-gras",
+      "text": "The cow eats grass."
+    },
+    {
+      "word_id": "noun-grens",
+      "text": "The border is close to our house."
+    },
+    {
+      "word_id": "noun-groep",
+      "text": "Our group is small."
+    },
+    {
+      "word_id": "noun-grond",
+      "text": "The ball lies on the ground."
+    },
+    {
+      "word_id": "noun-grot",
+      "text": "We walk in a dark cave."
+    },
+    {
+      "word_id": "noun-haai",
+      "text": "A shark swims in the sea."
+    },
+    {
+      "word_id": "noun-haard",
+      "text": "We sit by the fireplace."
+    },
+    {
+      "word_id": "noun-haas",
+      "text": "A hare runs through the field."
+    },
+    {
+      "word_id": "noun-hal",
+      "text": "The bikes stand in the hall."
+    },
+    {
+      "word_id": "noun-halte",
+      "text": "The bus stops at the stop."
+    },
+    {
+      "word_id": "noun-ham",
+      "text": "I want cheese or ham on my bread."
+    },
+    {
+      "word_id": "noun-hamburger",
+      "text": "My son eats a hamburger."
+    },
+    {
+      "word_id": "noun-handdoek",
+      "text": "After the shower I take a towel."
+    },
+    {
+      "word_id": "noun-handschoen",
+      "text": "In the winter I wear gloves."
+    },
+    {
+      "word_id": "noun-handtekening",
+      "text": "I put my signature on the paper."
+    },
+    {
+      "word_id": "noun-haring",
+      "text": "The herring is a fish from the sea."
+    },
+    {
+      "word_id": "noun-haven",
+      "text": "The boat lies in the harbour."
+    },
+    {
+      "word_id": "noun-hek",
+      "text": "The fence of the garden is green."
+    },
+    {
+      "word_id": "noun-helft",
+      "text": "I eat half of the apple."
+    },
+    {
+      "word_id": "noun-hemd",
+      "text": "I wear a white vest under my sweater."
+    },
+    {
+      "word_id": "noun-herinnering",
+      "text": "I have a nice memory of that day."
+    },
+    {
+      "word_id": "noun-hert",
+      "text": "A deer walks through the forest."
+    },
+    {
+      "word_id": "noun-heuvel",
+      "text": "The house stands on a hill."
+    },
+    {
+      "word_id": "noun-hiel",
+      "text": "My heel hurts."
+    },
+    {
+      "word_id": "noun-hitte",
+      "text": "In the heat I drink a lot of water."
+    },
+    {
+      "word_id": "noun-hobby",
+      "text": "My hobby is football."
+    },
+    {
+      "word_id": "noun-hoed",
+      "text": "He has a hat on his head."
+    },
+    {
+      "word_id": "noun-hoek",
+      "text": "The chair stands in the corner."
+    },
+    {
+      "word_id": "noun-hoes",
+      "text": "My phone has a blue cover."
+    },
+    {
+      "word_id": "noun-honger",
+      "text": "Hunger in the world is a big problem."
+    },
+    {
+      "word_id": "noun-honing",
+      "text": "I put honey in my tea."
+    },
+    {
+      "word_id": "noun-hoofdpijn",
+      "text": "My headache is very strong today."
+    },
+    {
+      "word_id": "noun-hoofdstad",
+      "text": "My sister lives in the capital."
+    },
+    {
+      "word_id": "noun-hoofdstraat",
+      "text": "The hotel is on the main street."
+    },
+    {
+      "word_id": "noun-hoofdstuk",
+      "text": "This chapter is very long."
+    },
+    {
+      "word_id": "noun-hoogte",
+      "text": "The height of the tower is forty metres."
+    },
+    {
+      "word_id": "noun-horloge",
+      "text": "My watch is broken."
+    },
+    {
+      "word_id": "noun-hotel",
+      "text": "We sleep in a hotel."
+    },
+    {
+      "word_id": "noun-hout",
+      "text": "This table is made of wood."
+    },
+    {
+      "word_id": "noun-huisarts",
+      "text": "I go to the family doctor."
+    },
+    {
+      "word_id": "noun-huisdier",
+      "text": "A dog is a pet."
+    },
+    {
+      "word_id": "noun-huisnummer",
+      "text": "My house number is twelve."
+    },
+    {
+      "word_id": "noun-huisvrouw",
+      "text": "My neighbour is a housewife."
+    },
+    {
+      "word_id": "noun-huiswerk",
+      "text": "My son does his homework."
+    },
+    {
+      "word_id": "noun-hulp",
+      "text": "I need help."
+    },
+    {
+      "word_id": "noun-humor",
+      "text": "My grandfather has a lot of humour."
+    },
+    {
+      "word_id": "noun-huur",
+      "text": "The rent of the house is high."
+    },
+    {
+      "word_id": "noun-idee",
+      "text": "That is a good idea."
+    },
+    {
+      "word_id": "noun-ijs",
+      "text": "There is ice on the water."
+    },
+    {
+      "word_id": "noun-ijzer",
+      "text": "A knife is made of iron."
+    },
+    {
+      "word_id": "noun-informatie",
+      "text": "I look for information on the internet."
+    },
+    {
+      "word_id": "noun-ingang",
+      "text": "The entrance of the hotel is open."
+    },
+    {
+      "word_id": "noun-ingrediënt",
+      "text": "Salt is an ingredient of soup."
+    },
+    {
+      "word_id": "noun-inkomen",
+      "text": "A good income is important."
+    },
+    {
+      "word_id": "noun-insect",
+      "text": "I see an insect on the table."
+    },
+    {
+      "word_id": "noun-instrument",
+      "text": "A guitar is an instrument."
+    },
+    {
+      "word_id": "noun-interesse",
+      "text": "I have a lot of interest in music."
+    },
+    {
+      "word_id": "noun-internet",
+      "text": "My internet is very slow today."
+    },
+    {
+      "word_id": "noun-jas",
+      "text": "It is cold, so I wear a coat."
+    },
+    {
+      "word_id": "noun-journalist",
+      "text": "The journalist writes for a newspaper."
+    },
+    {
+      "word_id": "noun-jurk",
+      "text": "She wears a beautiful dress."
+    },
+    {
+      "word_id": "noun-kaak",
+      "text": "My jaw hurts."
+    },
+    {
+      "word_id": "noun-kaart",
+      "text": "I look for the street on the map."
+    },
+    {
+      "word_id": "noun-kachel",
+      "text": "The heater stands in the living room."
+    },
+    {
+      "word_id": "noun-kade",
+      "text": "The ship lies at the quay."
+    },
+    {
+      "word_id": "noun-kam",
+      "text": "I use a comb for my hair."
+    },
+    {
+      "word_id": "noun-kampioen",
+      "text": "The champion gets a medal."
+    },
+    {
+      "word_id": "noun-kanaal",
+      "text": "The boat lies in the canal."
+    },
+    {
+      "word_id": "noun-kant",
+      "text": "I sit on the side of the window."
+    },
+    {
+      "word_id": "noun-kantoor",
+      "text": "I work at the office every day."
+    },
+    {
+      "word_id": "noun-kapper",
+      "text": "I go to the hairdresser for my hair."
+    },
+    {
+      "word_id": "noun-kassa",
+      "text": "I pay at the checkout."
+    },
+    {
+      "word_id": "noun-kasteel",
+      "text": "The castle is very old."
+    },
+    {
+      "word_id": "noun-kelder",
+      "text": "We keep wine in the cellar."
+    },
+    {
+      "word_id": "noun-kerk",
+      "text": "The village has a beautiful church."
+    },
+    {
+      "word_id": "noun-keuze",
+      "text": "That is my choice."
+    },
+    {
+      "word_id": "noun-kilogram",
+      "text": "I buy a kilogram of apples."
+    },
+    {
+      "word_id": "noun-kilometer",
+      "text": "My school is a kilometre away."
+    },
+    {
+      "word_id": "noun-kin",
+      "text": "He has a small chin."
+    },
+    {
+      "word_id": "noun-kinderopvang",
+      "text": "My son goes to childcare."
+    },
+    {
+      "word_id": "noun-kist",
+      "text": "There are old shoes in the chest."
+    },
+    {
+      "word_id": "noun-klant",
+      "text": "The customer pays at the checkout."
+    },
+    {
+      "word_id": "noun-kleinkind",
+      "text": "My grandmother has a grandchild."
+    },
+    {
+      "word_id": "noun-klok",
+      "text": "The clock hangs on the wall."
+    },
+    {
+      "word_id": "noun-knop",
+      "text": "I press the button."
+    },
+    {
+      "word_id": "noun-koe",
+      "text": "The cow gives milk."
+    },
+    {
+      "word_id": "noun-koek",
+      "text": "I eat a biscuit with the tea."
+    },
+    {
+      "word_id": "noun-koekje",
+      "text": "The child gets a biscuit."
+    },
+    {
+      "word_id": "noun-koelkast",
+      "text": "The milk is in the fridge."
+    },
+    {
+      "word_id": "noun-koffer",
+      "text": "My suitcase is in the hallway."
+    },
+    {
+      "word_id": "noun-kok",
+      "text": "The cook makes soup in the kitchen."
+    },
+    {
+      "word_id": "noun-konijn",
+      "text": "The rabbit eats a carrot."
+    },
+    {
+      "word_id": "noun-kool",
+      "text": "I buy cabbage at the market."
+    },
+    {
+      "word_id": "noun-koorts",
+      "text": "My son has a fever."
+    },
+    {
+      "word_id": "noun-kopje",
+      "text": "I drink a cup of tea."
+    },
+    {
+      "word_id": "noun-kou",
+      "text": "I wear a scarf against the cold."
+    },
+    {
+      "word_id": "noun-kous",
+      "text": "I have a hole in my stocking."
+    },
+    {
+      "word_id": "noun-kraag",
+      "text": "The collar of my coat is white."
+    },
+    {
+      "word_id": "noun-krant",
+      "text": "My father reads the newspaper every day."
+    },
+    {
+      "word_id": "noun-kruispunt",
+      "text": "At the junction we go left."
+    },
+    {
+      "word_id": "noun-kunst",
+      "text": "I like art and music."
+    },
+    {
+      "word_id": "noun-kunstenaar",
+      "text": "The artist makes a beautiful drawing."
+    },
+    {
+      "word_id": "noun-kunstwerk",
+      "text": "This work of art is very beautiful."
+    },
+    {
+      "word_id": "noun-kus",
+      "text": "She gives her son a kiss."
+    },
+    {
+      "word_id": "noun-kust",
+      "text": "We live close to the coast."
+    },
+    {
+      "word_id": "noun-laan",
+      "text": "There are many trees in the avenue."
+    },
+    {
+      "word_id": "noun-lach",
+      "text": "She has a beautiful laugh."
+    },
+    {
+      "word_id": "noun-landschap",
+      "text": "The landscape is very beautiful."
+    },
+    {
+      "word_id": "noun-laptop",
+      "text": "I work on my laptop."
+    },
+    {
+      "word_id": "noun-leerling",
+      "text": "The pupil writes his name."
+    },
+    {
+      "word_id": "noun-leeuw",
+      "text": "A lion eats meat."
+    },
+    {
+      "word_id": "noun-lengte",
+      "text": "What is your height?"
+    },
+    {
+      "word_id": "noun-lening",
+      "text": "I pay my loan every month."
+    },
+    {
+      "word_id": "noun-lepel",
+      "text": "I eat soup with a spoon."
+    },
+    {
+      "word_id": "noun-letter",
+      "text": "A word has many letters."
+    },
+    {
+      "word_id": "noun-leugen",
+      "text": "That is a lie."
+    },
+    {
+      "word_id": "noun-lever",
+      "text": "The liver is in the body."
+    },
+    {
+      "word_id": "noun-licht",
+      "text": "The light in the room is on."
+    },
+    {
+      "word_id": "noun-lied",
+      "text": "She sings a beautiful song."
+    },
+    {
+      "word_id": "noun-liefde",
+      "text": "My love for music is big."
+    },
+    {
+      "word_id": "noun-lift",
+      "text": "The lift is broken."
+    },
+    {
+      "word_id": "noun-lijst",
+      "text": "I make a list for the shop."
+    },
+    {
+      "word_id": "noun-link",
+      "text": "I send you a link."
+    },
+    {
+      "word_id": "noun-lip",
+      "text": "She has red lips."
+    },
+    {
+      "word_id": "noun-liter",
+      "text": "I buy a litre of milk."
+    },
+    {
+      "word_id": "noun-loket",
+      "text": "I stand in front of the counter."
+    },
+    {
+      "word_id": "noun-long",
+      "text": "The lung is in the chest."
+    },
+    {
+      "word_id": "noun-lucht",
+      "text": "A bird flies in the sky."
+    },
+    {
+      "word_id": "noun-luchthaven",
+      "text": "We wait at the airport."
+    },
+    {
+      "word_id": "noun-lunch",
+      "text": "I eat my lunch at school."
+    },
+    {
+      "word_id": "noun-luxe",
+      "text": "A big house is a luxury."
+    },
+    {
+      "word_id": "noun-maag",
+      "text": "My stomach hurts."
+    },
+    {
+      "word_id": "noun-maaltijd",
+      "text": "We eat a warm meal together."
+    },
+    {
+      "word_id": "noun-maan",
+      "text": "The moon is beautiful and round."
+    },
+    {
+      "word_id": "noun-machine",
+      "text": "This machine makes coffee."
+    },
+    {
+      "word_id": "noun-makelaar",
+      "text": "The estate agent shows us the house."
+    },
+    {
+      "word_id": "noun-manager",
+      "text": "The manager works hard."
+    },
+    {
+      "word_id": "noun-map",
+      "text": "I keep my documents in a folder."
+    },
+    {
+      "word_id": "noun-medaille",
+      "text": "The winner gets a medal."
+    },
+    {
+      "word_id": "noun-medewerker",
+      "text": "The staff member helps the customer."
+    },
+    {
+      "word_id": "noun-meester",
+      "text": "The teacher teaches the children to read."
+    },
+    {
+      "word_id": "noun-melk",
+      "text": "I drink milk every morning."
+    },
+    {
+      "word_id": "noun-mening",
+      "text": "What is your opinion?"
+    },
+    {
+      "word_id": "noun-merk",
+      "text": "This is a good brand."
+    },
+    {
+      "word_id": "noun-metaal",
+      "text": "The door is made of metal."
+    },
+    {
+      "word_id": "noun-meter",
+      "text": "The house is ten metres wide."
+    },
+    {
+      "word_id": "noun-metro",
+      "text": "I take the metro to my work."
+    },
+    {
+      "word_id": "noun-meubel",
+      "text": "A table is a piece of furniture."
+    },
+    {
+      "word_id": "noun-midden",
+      "text": "We stand in the middle of the room."
+    },
+    {
+      "word_id": "noun-millimeter",
+      "text": "A centimetre has ten millimetres."
+    },
+    {
+      "word_id": "noun-mist",
+      "text": "There is a lot of fog on the road."
+    },
+    {
+      "word_id": "noun-moedertaal",
+      "text": "My mother tongue is very beautiful."
+    },
+    {
+      "word_id": "noun-molen",
+      "text": "The mill stands next to the water."
+    },
+    {
+      "word_id": "noun-mondkap",
+      "text": "I wear a face mask in the hospital."
+    },
+    {
+      "word_id": "noun-mossel",
+      "text": "A mussel sits in a shell."
+    },
+    {
+      "word_id": "noun-motor",
+      "text": "The engine of the car is broken."
+    },
+    {
+      "word_id": "noun-mug",
+      "text": "A mosquito sits on my arm."
+    },
+    {
+      "word_id": "noun-muis",
+      "text": "There is a mouse in the kitchen."
+    },
+    {
+      "word_id": "noun-museum",
+      "text": "We go to the museum."
+    },
+    {
+      "word_id": "noun-muts",
+      "text": "In the winter I wear a woolly hat."
+    },
+    {
+      "word_id": "noun-muzikant",
+      "text": "The musician plays the piano."
+    },
+    {
+      "word_id": "noun-natuur",
+      "text": "Nature is beautiful here."
+    },
+    {
+      "word_id": "noun-natuurkunde",
+      "text": "I learn physics at school."
+    },
+    {
+      "word_id": "noun-nest",
+      "text": "The bird is in the nest."
+    },
+    {
+      "word_id": "noun-nicht",
+      "text": "My cousin lives in a big house."
+    },
+    {
+      "word_id": "noun-nieuws",
+      "text": "I read the news on my phone."
+    },
+    {
+      "word_id": "noun-noorden",
+      "text": "The village is in the north."
+    },
+    {
+      "word_id": "noun-oceaan",
+      "text": "The ocean is big and deep."
+    },
+    {
+      "word_id": "noun-olifant",
+      "text": "An elephant is a big animal."
+    },
+    {
+      "word_id": "noun-onderarm",
+      "text": "My forearm hurts."
+    },
+    {
+      "word_id": "noun-onderbroek",
+      "text": "I wear clean underpants every day."
+    },
+    {
+      "word_id": "noun-onderkant",
+      "text": "The bottom of the box is wet."
+    },
+    {
+      "word_id": "noun-ondernemer",
+      "text": "My neighbour is an entrepreneur."
+    },
+    {
+      "word_id": "noun-onderwijs",
+      "text": "Good education is important."
+    },
+    {
+      "word_id": "noun-onzin",
+      "text": "That is really nonsense."
+    },
+    {
+      "word_id": "noun-opdracht",
+      "text": "The teacher gives us a task."
+    },
+    {
+      "word_id": "noun-operatie",
+      "text": "The operation is tomorrow in the hospital."
+    },
+    {
+      "word_id": "noun-binnenkant",
+      "text": "The inside of the cupboard is empty."
+    },
+    {
+      "word_id": "noun-opleiding",
+      "text": "She is doing training with the police."
+    },
+    {
+      "word_id": "noun-opmerking",
+      "text": "He makes a funny comment."
+    },
+    {
+      "word_id": "noun-oven",
+      "text": "The oven is very hot."
+    },
+    {
+      "word_id": "noun-paard",
+      "text": "The horse eats grass."
+    },
+    {
+      "word_id": "noun-pad",
+      "text": "This path goes to the beach."
+    },
+    {
+      "word_id": "noun-paddenstoel",
+      "text": "The mushroom grows under the tree."
+    },
+    {
+      "word_id": "noun-pagina",
+      "text": "The page on my computer is empty."
+    },
+    {
+      "word_id": "noun-pak",
+      "text": "He is wearing a black suit."
+    },
+    {
+      "word_id": "noun-pakket",
+      "text": "The parcel comes by post."
+    },
+    {
+      "word_id": "noun-papa",
+      "text": "My dad works in a factory."
+    },
+    {
+      "word_id": "noun-papier",
+      "text": "There is paper on the floor."
+    },
+    {
+      "word_id": "noun-paraplu",
+      "text": "It is raining, so I take my umbrella."
+    },
+    {
+      "word_id": "noun-partner",
+      "text": "My partner is working at home today."
+    },
+    {
+      "word_id": "noun-paspoort",
+      "text": "At customs I show my passport."
+    },
+    {
+      "word_id": "noun-passagier",
+      "text": "The passenger is waiting at the stop."
+    },
+    {
+      "word_id": "noun-pasta",
+      "text": "Today we are eating pasta with tomato."
+    },
+    {
+      "word_id": "noun-pauze",
+      "text": "We have a ten-minute break."
+    },
+    {
+      "word_id": "noun-pech",
+      "text": "I have bad luck with my car."
+    },
+    {
+      "word_id": "noun-peer",
+      "text": "I eat a pear after lunch."
+    },
+    {
+      "word_id": "noun-pen",
+      "text": "May I borrow your pen?"
+    },
+    {
+      "word_id": "noun-pensioen",
+      "text": "My grandfather retires next year."
+    },
+    {
+      "word_id": "noun-peper",
+      "text": "Do you want pepper on your soup?"
+    },
+    {
+      "word_id": "noun-perron",
+      "text": "We are waiting for the train on the platform."
+    },
+    {
+      "word_id": "noun-personeel",
+      "text": "The staff are very friendly today."
+    },
+    {
+      "word_id": "noun-pet",
+      "text": "He wears a red cap in the sun."
+    },
+    {
+      "word_id": "noun-piano",
+      "text": "My daughter plays the piano."
+    },
+    {
+      "word_id": "noun-pijl",
+      "text": "The arrow points to the right."
+    },
+    {
+      "word_id": "noun-pil",
+      "text": "I take a pill every morning."
+    },
+    {
+      "word_id": "noun-piloot",
+      "text": "The pilot works on the plane."
+    },
+    {
+      "word_id": "noun-pink",
+      "text": "My little finger hurts."
+    },
+    {
+      "word_id": "noun-pizza",
+      "text": "We order a pizza with cheese."
+    },
+    {
+      "word_id": "noun-plaats",
+      "text": "This place is still free."
+    },
+    {
+      "word_id": "noun-plafond",
+      "text": "There is a lamp on the ceiling."
+    },
+    {
+      "word_id": "noun-plan",
+      "text": "His plan is very clever."
+    },
+    {
+      "word_id": "noun-plant",
+      "text": "The plant needs water and sun."
+    },
+    {
+      "word_id": "noun-plastic",
+      "text": "This is plastic, not glass."
+    },
+    {
+      "word_id": "noun-plein",
+      "text": "There is a big church on the square."
+    },
+    {
+      "word_id": "noun-plezier",
+      "text": "We have a lot of fun in the lesson."
+    },
+    {
+      "word_id": "noun-poes",
+      "text": "The cat sleeps on the chair."
+    },
+    {
+      "word_id": "noun-polder",
+      "text": "The polder is flat and green."
+    },
+    {
+      "word_id": "noun-politie",
+      "text": "The police help us at the accident."
+    },
+    {
+      "word_id": "noun-pond",
+      "text": "I am buying a pound of cheese."
+    },
+    {
+      "word_id": "noun-poot",
+      "text": "The dog has pain in its paw."
+    },
+    {
+      "word_id": "noun-pop",
+      "text": "The girl plays with her doll."
+    },
+    {
+      "word_id": "noun-portemonnee",
+      "text": "My money is in my wallet."
+    },
+    {
+      "word_id": "noun-post",
+      "text": "The post comes every day at ten o'clock."
+    },
+    {
+      "word_id": "noun-postbode",
+      "text": "The postman brings a letter."
+    },
+    {
+      "word_id": "noun-postcode",
+      "text": "Write your postcode on the form."
+    },
+    {
+      "word_id": "noun-postkantoor",
+      "text": "The post office is closed on Sunday."
+    },
+    {
+      "word_id": "noun-pot",
+      "text": "The honey is in the jar."
+    },
+    {
+      "word_id": "noun-potlood",
+      "text": "I write with a pencil."
+    },
+    {
+      "word_id": "noun-probleem",
+      "text": "I have a problem with my computer."
+    },
+    {
+      "word_id": "noun-procent",
+      "text": "Ten percent of the class is ill."
+    },
+    {
+      "word_id": "noun-product",
+      "text": "This product is cheap."
+    },
+    {
+      "word_id": "noun-programma",
+      "text": "The programme starts at eight o'clock."
+    },
+    {
+      "word_id": "noun-project",
+      "text": "We are working together on a project."
+    },
+    {
+      "word_id": "noun-punt",
+      "text": "You get one point for the right answer."
+    },
+    {
+      "word_id": "noun-radio",
+      "text": "My grandpa listens to the radio every evening."
+    },
+    {
+      "word_id": "noun-rapport",
+      "text": "The teacher gives me a good school report."
+    },
+    {
+      "word_id": "noun-rat",
+      "text": "The rat eats the cheese."
+    },
+    {
+      "word_id": "noun-reactie",
+      "text": "I am waiting for her response to my letter."
+    },
+    {
+      "word_id": "noun-reclame",
+      "text": "I see an advert for a new car."
+    },
+    {
+      "word_id": "noun-reden",
+      "text": "There is no reason to be afraid."
+    },
+    {
+      "word_id": "noun-regel",
+      "text": "That is an important rule at school."
+    },
+    {
+      "word_id": "noun-regen",
+      "text": "The rain falls on the roof."
+    },
+    {
+      "word_id": "noun-regenboog",
+      "text": "We see a rainbow above the city."
+    },
+    {
+      "word_id": "noun-reis",
+      "text": "Our journey lasts two days."
+    },
+    {
+      "word_id": "noun-rekening",
+      "text": "We ask for the bill in the restaurant."
+    },
+    {
+      "word_id": "noun-rem",
+      "text": "The brake of my bike is broken."
+    },
+    {
+      "word_id": "noun-rib",
+      "text": "My rib hurts when I laugh."
+    },
+    {
+      "word_id": "noun-richting",
+      "text": "We are walking in the wrong direction."
+    },
+    {
+      "word_id": "noun-riem",
+      "text": "He wears a belt around his trousers."
+    },
+    {
+      "word_id": "noun-rij",
+      "text": "There is a long queue at the checkout."
+    },
+    {
+      "word_id": "noun-rijbewijs",
+      "text": "Without a driving licence you may not drive."
+    },
+    {
+      "word_id": "noun-rijst",
+      "text": "We eat rice and chicken."
+    },
+    {
+      "word_id": "noun-rit",
+      "text": "The ride to the beach takes an hour."
+    },
+    {
+      "word_id": "noun-rivier",
+      "text": "The river is wide and deep."
+    },
+    {
+      "word_id": "noun-roman",
+      "text": "I read a novel on the train."
+    },
+    {
+      "word_id": "noun-rook",
+      "text": "There is smoke in the kitchen."
+    },
+    {
+      "word_id": "noun-room",
+      "text": "I put cream in my coffee."
+    },
+    {
+      "word_id": "noun-route",
+      "text": "The route to the station is long."
+    },
+    {
+      "word_id": "noun-ruzie",
+      "text": "My brother has an argument with my sister."
+    },
+    {
+      "word_id": "noun-salaris",
+      "text": "His salary is very low."
+    },
+    {
+      "word_id": "noun-sap",
+      "text": "I drink juice every morning."
+    },
+    {
+      "word_id": "noun-schaap",
+      "text": "The sheep gives wool."
+    },
+    {
+      "word_id": "noun-schaduw",
+      "text": "We sit in the shade of the tree."
+    },
+    {
+      "word_id": "noun-schelp",
+      "text": "The child finds a shell on the beach."
+    },
+    {
+      "word_id": "noun-scherm",
+      "text": "The screen of my phone is broken."
+    },
+    {
+      "word_id": "noun-schilderij",
+      "text": "The painting hangs above my bed."
+    },
+    {
+      "word_id": "noun-schip",
+      "text": "The ship is in the harbour."
+    },
+    {
+      "word_id": "noun-schoolplein",
+      "text": "The children are playing in the schoolyard."
+    },
+    {
+      "word_id": "noun-schort",
+      "text": "The cook wears a white apron."
+    },
+    {
+      "word_id": "noun-schotel",
+      "text": "The cup is on the saucer."
+    },
+    {
+      "word_id": "noun-schrift",
+      "text": "I write my name in the notebook."
+    },
+    {
+      "word_id": "noun-schrijver",
+      "text": "The writer is writing a poem."
+    },
+    {
+      "word_id": "noun-serie",
+      "text": "We watch a series on television together."
+    },
+    {
+      "word_id": "noun-sfeer",
+      "text": "The atmosphere at the party is very cosy."
+    },
+    {
+      "word_id": "noun-sjaal",
+      "text": "It is cold, so I wear a scarf."
+    },
+    {
+      "word_id": "noun-sla",
+      "text": "I eat lettuce with cheese."
+    },
+    {
+      "word_id": "noun-slaap",
+      "text": "I am sleepy and want to go to bed."
+    },
+    {
+      "word_id": "noun-slaapkamer",
+      "text": "My bedroom is small but cosy."
+    },
+    {
+      "word_id": "noun-slak",
+      "text": "The snail is very slow."
+    },
+    {
+      "word_id": "noun-slang",
+      "text": "The snake crawls through the grass."
+    },
+    {
+      "word_id": "noun-sloot",
+      "text": "The ditch is full of water."
+    },
+    {
+      "word_id": "noun-slot",
+      "text": "The lock of the door is broken."
+    },
+    {
+      "word_id": "noun-sneeuw",
+      "text": "There is snow on the mountain."
+    },
+    {
+      "word_id": "noun-snelheid",
+      "text": "The speed of the car is too high."
+    },
+    {
+      "word_id": "noun-snelweg",
+      "text": "The motorway is very busy today."
+    },
+    {
+      "word_id": "noun-soep",
+      "text": "The soup is too hot."
+    },
+    {
+      "word_id": "noun-sok",
+      "text": "I have a hole in my sock."
+    },
+    {
+      "word_id": "noun-som",
+      "text": "This sum is too difficult for me."
+    },
+    {
+      "word_id": "noun-speelgoed",
+      "text": "The baby plays with its toys."
+    },
+    {
+      "word_id": "noun-spel",
+      "text": "We play this game every week."
+    },
+    {
+      "word_id": "noun-speler",
+      "text": "The player walks across the field."
+    },
+    {
+      "word_id": "noun-sportschool",
+      "text": "My sister is going to the gym."
+    },
+    {
+      "word_id": "noun-spul",
+      "text": "My stuff is still in the car."
+    },
+    {
+      "word_id": "noun-staart",
+      "text": "The dog has a long tail."
+    },
+    {
+      "word_id": "noun-stadion",
+      "text": "The stadium is full today."
+    },
+    {
+      "word_id": "noun-stage",
+      "text": "I am doing an internship at a bank."
+    },
+    {
+      "word_id": "noun-stap",
+      "text": "The baby takes a step towards me."
+    },
+    {
+      "word_id": "noun-steen",
+      "text": "The stone is big and heavy."
+    },
+    {
+      "word_id": "noun-stem",
+      "text": "I hear her voice in the hallway."
+    },
+    {
+      "word_id": "noun-ster",
+      "text": "I see a star in the sky."
+    },
+    {
+      "word_id": "noun-stoep",
+      "text": "The bike is on the pavement."
+    },
+    {
+      "word_id": "noun-storm",
+      "text": "The storm breaks the tree."
+    },
+    {
+      "word_id": "noun-straatnaam",
+      "text": "What is the street name of your house?"
+    },
+    {
+      "word_id": "noun-strand",
+      "text": "We are lying on the beach today."
+    },
+    {
+      "word_id": "noun-streep",
+      "text": "There is a black line on the wall."
+    },
+    {
+      "word_id": "noun-stress",
+      "text": "I have a lot of stress at work."
+    },
+    {
+      "word_id": "noun-stroom",
+      "text": "There is no power in the kitchen."
+    },
+    {
+      "word_id": "noun-student",
+      "text": "The student studies at the university."
+    },
+    {
+      "word_id": "noun-studie",
+      "text": "My studies last four years."
+    },
+    {
+      "word_id": "noun-stuk",
+      "text": "I want another piece of cheese."
+    },
+    {
+      "word_id": "noun-stuur",
+      "text": "His hand is on the steering wheel."
+    },
+    {
+      "word_id": "noun-suiker",
+      "text": "I do not put sugar in my tea."
+    },
+    {
+      "word_id": "noun-symptoom",
+      "text": "The doctor sees a symptom of flu."
+    },
+    {
+      "word_id": "noun-taak",
+      "text": "Every child has a task in the class."
+    },
+    {
+      "word_id": "noun-taart",
+      "text": "We eat cake on my birthday."
+    },
+    {
+      "word_id": "noun-tak",
+      "text": "The bird sits on a branch."
+    },
+    {
+      "word_id": "noun-tandarts",
+      "text": "I am going to the dentist for my tooth."
+    },
+    {
+      "word_id": "noun-taxi",
+      "text": "We take a taxi to the station."
+    },
+    {
+      "word_id": "noun-team",
+      "text": "Our team plays at home today."
+    },
+    {
+      "word_id": "noun-tegel",
+      "text": "The tile on the floor is broken."
+    },
+    {
+      "word_id": "noun-tekenfilm",
+      "text": "The children are watching a cartoon."
+    },
+    {
+      "word_id": "noun-tekening",
+      "text": "My daughter is making a drawing."
+    },
+    {
+      "word_id": "noun-tekst",
+      "text": "Read the text and write an answer."
+    },
+    {
+      "word_id": "noun-temperatuur",
+      "text": "The temperature is very low today."
+    },
+    {
+      "word_id": "noun-tennis",
+      "text": "My father plays tennis every week."
+    },
+    {
+      "word_id": "noun-test",
+      "text": "The test is difficult but fun."
+    },
+    {
+      "word_id": "noun-theater",
+      "text": "We are going to the theatre today."
+    },
+    {
+      "word_id": "noun-thee",
+      "text": "I drink tea with milk."
+    },
+    {
+      "word_id": "noun-ticket",
+      "text": "Do you have your ticket for the train?"
+    },
+    {
+      "word_id": "noun-tiener",
+      "text": "The teenager likes listening to music."
+    },
+    {
+      "word_id": "noun-tijdschrift",
+      "text": "My mother reads a magazine every month."
+    },
+    {
+      "word_id": "noun-tip",
+      "text": "I have a good tip for you."
+    },
+    {
+      "word_id": "noun-tocht",
+      "text": "After the trip through the forest I am tired."
+    },
+    {
+      "word_id": "noun-toerist",
+      "text": "The tourist takes a photo of the church."
+    },
+    {
+      "word_id": "noun-tomaat",
+      "text": "I cut a tomato for my sandwich."
+    },
+    {
+      "word_id": "noun-toren",
+      "text": "The tower of the church is high."
+    },
+    {
+      "word_id": "noun-trainer",
+      "text": "The coach shouts at the boys."
+    },
+    {
+      "word_id": "noun-training",
+      "text": "The training starts at seven o'clock."
+    },
+    {
+      "word_id": "noun-tram",
+      "text": "The tram runs through the city."
+    },
+    {
+      "word_id": "noun-trui",
+      "text": "I wear a jumper in the winter."
+    },
+    {
+      "word_id": "noun-tunnel",
+      "text": "The car drives through the tunnel."
+    },
+    {
+      "word_id": "noun-uil",
+      "text": "The owl sits in the tree."
+    },
+    {
+      "word_id": "noun-uitgang",
+      "text": "The exit is next to the lift."
+    },
+    {
+      "word_id": "noun-uitkering",
+      "text": "She receives a benefit every month."
+    },
+    {
+      "word_id": "noun-uitnodiging",
+      "text": "I receive an invitation to the party."
+    },
+    {
+      "word_id": "noun-uitspraak",
+      "text": "Her pronunciation of the word is good."
+    },
+    {
+      "word_id": "noun-uniform",
+      "text": "The police officer wears a blue uniform."
+    },
+    {
+      "word_id": "noun-universiteit",
+      "text": "My son is going to university."
+    },
+    {
+      "word_id": "noun-vaccin",
+      "text": "The doctor gives me a vaccine."
+    },
+    {
+      "word_id": "noun-vak",
+      "text": "This subject is difficult for me."
+    },
+    {
+      "word_id": "noun-varken",
+      "text": "The pig lives on the farm."
+    },
+    {
+      "word_id": "noun-veld",
+      "text": "There is a cow in the field."
+    },
+    {
+      "word_id": "noun-verdriet",
+      "text": "Her sadness is great."
+    },
+    {
+      "word_id": "noun-vergadering",
+      "text": "The meeting starts at nine o'clock."
+    },
+    {
+      "word_id": "noun-verhaal",
+      "text": "My grandfather tells a nice story."
+    },
+    {
+      "word_id": "noun-verkeer",
+      "text": "There is a lot of traffic on the motorway."
+    },
+    {
+      "word_id": "noun-verkoper",
+      "text": "The salesman helps the customer in the shop."
+    },
+    {
+      "word_id": "noun-verleden",
+      "text": "I often think about the past."
+    },
+    {
+      "word_id": "noun-verpleger",
+      "text": "The male nurse helps the patient in the hospital."
+    },
+    {
+      "word_id": "noun-verrassing",
+      "text": "That is a nice surprise for me."
+    },
+    {
+      "word_id": "noun-verschil",
+      "text": "What is the difference between those two?"
+    },
+    {
+      "word_id": "noun-vertraging",
+      "text": "The plane has a two-hour delay."
+    },
+    {
+      "word_id": "noun-vertrek",
+      "text": "The departure of the train is at ten o'clock."
+    },
+    {
+      "word_id": "noun-verwarming",
+      "text": "The heating is on in the room."
+    },
+    {
+      "word_id": "noun-vest",
+      "text": "I wear a cardigan over my shirt."
+    },
+    {
+      "word_id": "noun-vet",
+      "text": "There is a lot of fat in this meat."
+    },
+    {
+      "word_id": "noun-video",
+      "text": "We watch a video together on the laptop."
+    },
+    {
+      "word_id": "noun-virus",
+      "text": "This virus makes me ill."
+    },
+    {
+      "word_id": "noun-vlag",
+      "text": "The flag is red, white and blue."
+    },
+    {
+      "word_id": "noun-vlek",
+      "text": "There is a stain on my trousers."
+    },
+    {
+      "word_id": "noun-vlieg",
+      "text": "There is a fly on my bread."
+    },
+    {
+      "word_id": "noun-vliegtuig",
+      "text": "The plane is standing at the airport."
+    },
+    {
+      "word_id": "noun-vloer",
+      "text": "The floor in the kitchen is wet."
+    },
+    {
+      "word_id": "noun-vlucht",
+      "text": "Our flight abroad lasts two hours."
+    },
+    {
+      "word_id": "noun-voetballer",
+      "text": "The footballer gets a yellow card."
+    },
+    {
+      "word_id": "noun-vogel",
+      "text": "The bird flies above the house."
+    },
+    {
+      "word_id": "noun-voorbeeld",
+      "text": "Give an example of a vegetable."
+    },
+    {
+      "word_id": "noun-voorhoofd",
+      "text": "I have a pain in my forehead."
+    },
+    {
+      "word_id": "noun-voorkant",
+      "text": "The front of the house is white."
+    },
+    {
+      "word_id": "noun-voornaam",
+      "text": "Write your first name and surname here."
+    },
+    {
+      "word_id": "noun-voorwerp",
+      "text": "The object on the table is big."
+    },
+    {
+      "word_id": "noun-vork",
+      "text": "I eat with a fork and a knife."
+    },
+    {
+      "word_id": "noun-vos",
+      "text": "The fox lives in the forest."
+    },
+    {
+      "word_id": "noun-vrachtwagen",
+      "text": "The lorry drives through the city."
+    },
+    {
+      "word_id": "noun-vriendschap",
+      "text": "Our friendship is very important to me."
+    },
+    {
+      "word_id": "noun-vrijwilliger",
+      "text": "The volunteer helps us at the campsite."
+    },
+    {
+      "word_id": "noun-vuur",
+      "text": "The fire in the fireplace is warm."
+    },
+    {
+      "word_id": "noun-vuurwerk",
+      "text": "The fireworks are very beautiful."
+    },
+    {
+      "word_id": "noun-waarheid",
+      "text": "I always tell the truth."
+    },
+    {
+      "word_id": "noun-walvis",
+      "text": "The whale swims in the sea."
+    },
+    {
+      "word_id": "noun-wandeling",
+      "text": "We are going for a walk in the park."
+    },
+    {
+      "word_id": "noun-warenhuis",
+      "text": "We buy a coat in the department store."
+    },
+    {
+      "word_id": "noun-waslijn",
+      "text": "The coat hangs on the washing line."
+    },
+    {
+      "word_id": "noun-website",
+      "text": "I see the price on the website."
+    },
+    {
+      "word_id": "noun-webwinkel",
+      "text": "We buy shoes in the online shop."
+    },
+    {
+      "word_id": "noun-wedstrijd",
+      "text": "The match starts at two o'clock."
+    },
+    {
+      "word_id": "noun-weduwe",
+      "text": "The widow lives alone in a small house."
+    },
+    {
+      "word_id": "noun-wekker",
+      "text": "My alarm clock goes off at seven o'clock."
+    },
+    {
+      "word_id": "noun-wenkbrauw",
+      "text": "His eyebrow is black and thick."
+    },
+    {
+      "word_id": "noun-wens",
+      "text": "My wish is a small farm."
+    },
+    {
+      "word_id": "noun-wereld",
+      "text": "Many people live in the world."
+    },
+    {
+      "word_id": "noun-werkdag",
+      "text": "A working day lasts eight hours for me."
+    },
+    {
+      "word_id": "noun-werkgever",
+      "text": "My employer is very friendly."
+    },
+    {
+      "word_id": "noun-werkplek",
+      "text": "My workplace is small but clean."
+    },
+    {
+      "word_id": "noun-wijk",
+      "text": "We live in a quiet neighbourhood."
+    },
+    {
+      "word_id": "noun-wind",
+      "text": "The wind is very cold today."
+    },
+    {
+      "word_id": "noun-winnaar",
+      "text": "The winner gets a medal."
+    },
+    {
+      "word_id": "noun-wiskunde",
+      "text": "I find mathematics difficult."
+    },
+    {
+      "word_id": "noun-witlof",
+      "text": "We eat chicory with ham."
+    },
+    {
+      "word_id": "noun-wol",
+      "text": "My jumper is made of wool."
+    },
+    {
+      "word_id": "noun-wolf",
+      "text": "The wolf is hungry."
+    },
+    {
+      "word_id": "noun-wolk",
+      "text": "There is a grey cloud above the city."
+    },
+    {
+      "word_id": "noun-wond",
+      "text": "I have a wound on my leg."
+    },
+    {
+      "word_id": "noun-woonkamer",
+      "text": "We watch television in the living room."
+    },
+    {
+      "word_id": "noun-woonplaats",
+      "text": "My place of residence is a small village."
+    },
+    {
+      "word_id": "noun-woordenboek",
+      "text": "I look for the word in the dictionary."
+    },
+    {
+      "word_id": "noun-worst",
+      "text": "I fry a sausage in the pan."
+    },
+    {
+      "word_id": "noun-zaag",
+      "text": "I cut the wood with a saw."
+    },
+    {
+      "word_id": "noun-zaal",
+      "text": "The hall is empty after the lesson."
+    },
+    {
+      "word_id": "noun-zak",
+      "text": "There is an apple in the bag."
+    },
+    {
+      "word_id": "noun-zand",
+      "text": "The children play with the sand."
+    },
+    {
+      "word_id": "noun-zanger",
+      "text": "The singer is very famous."
+    },
+    {
+      "word_id": "noun-zeef",
+      "text": "I put the pasta in the sieve."
+    },
+    {
+      "word_id": "noun-zilver",
+      "text": "This ring is made of silver."
+    },
+    {
+      "word_id": "noun-zin",
+      "text": "Write a short sentence on the board."
+    },
+    {
+      "word_id": "noun-zolder",
+      "text": "Our old suitcase is in the attic."
+    },
+    {
+      "word_id": "noun-zout",
+      "text": "There is too much salt in the soup."
+    },
+    {
+      "word_id": "noun-zwaan",
+      "text": "The swan swims in the canal."
+    },
+    {
+      "word_id": "noun-zwembad",
+      "text": "The swimming pool is open today."
+    },
+    {
+      "word_id": "verb-aanbieden",
+      "text": "I want to offer you a job."
+    },
+    {
+      "word_id": "verb-aankomen",
+      "text": "The train must arrive at ten o'clock."
+    },
+    {
+      "word_id": "verb-aanvragen",
+      "text": "I want to apply for a new card."
+    },
+    {
+      "word_id": "verb-accepteren",
+      "text": "We only accept euros."
+    },
+    {
+      "word_id": "verb-afgeven",
+      "text": "You must hand in your key here."
+    },
+    {
+      "word_id": "verb-afspreken",
+      "text": "I want to arrange to meet my neighbour."
+    },
+    {
+      "word_id": "verb-afvallen",
+      "text": "My father wants to lose five kilograms."
+    },
+    {
+      "word_id": "verb-afzetten",
+      "text": "My father can drop me off at school."
+    },
+    {
+      "word_id": "verb-appen",
+      "text": "I text my mother every day."
+    },
+    {
+      "word_id": "verb-bedanken",
+      "text": "I would like to thank you."
+    },
+    {
+      "word_id": "verb-bedenken",
+      "text": "I cannot think of a good name."
+    },
+    {
+      "word_id": "verb-bedienen",
+      "text": "The baker has to serve a lot of customers."
+    },
+    {
+      "word_id": "verb-behandelen",
+      "text": "The doctor can treat the patient."
+    },
+    {
+      "word_id": "verb-bekijken",
+      "text": "We still want to look at the house."
+    },
+    {
+      "word_id": "verb-beloven",
+      "text": "I promise that I will come tomorrow."
+    },
+    {
+      "word_id": "verb-bereiken",
+      "text": "You can reach the centre by bus."
+    },
+    {
+      "word_id": "verb-beschermen",
+      "text": "A hat protects your head from the sun."
+    },
+    {
+      "word_id": "verb-beschrijven",
+      "text": "Can you describe the man?"
+    },
+    {
+      "word_id": "verb-besluiten",
+      "text": "We decide to move."
+    },
+    {
+      "word_id": "verb-bespreken",
+      "text": "We discuss the news in class."
+    },
+    {
+      "word_id": "verb-bestellen",
+      "text": "May I order a tea?"
+    },
+    {
+      "word_id": "verb-betekenen",
+      "text": "What does this word mean?"
+    },
+    {
+      "word_id": "verb-bewaren",
+      "text": "I keep my money in the bank."
+    },
+    {
+      "word_id": "verb-bezoeken",
+      "text": "Tomorrow we are visiting my grandmother."
+    },
+    {
+      "word_id": "verb-binnenkomen",
+      "text": "The customer wants to enter the shop."
+    },
+    {
+      "word_id": "verb-blijven",
+      "text": "I am tired and want to stay here."
+    },
+    {
+      "word_id": "verb-braken",
+      "text": "I am ill and I have to vomit."
+    },
+    {
+      "word_id": "verb-branden",
+      "text": "The wood burns well."
+    },
+    {
+      "word_id": "verb-buigen",
+      "text": "The tree can bend in the wind."
+    },
+    {
+      "word_id": "verb-chatten",
+      "text": "I want to chat with my friend."
+    },
+    {
+      "word_id": "verb-controleren",
+      "text": "The police officer wants to check my passport."
+    },
+    {
+      "word_id": "verb-dansen",
+      "text": "We want to dance at the party."
+    },
+    {
+      "word_id": "verb-delen",
+      "text": "We share a room in the hotel."
+    },
+    {
+      "word_id": "verb-doorgaan",
+      "text": "We want to continue with the lesson."
+    },
+    {
+      "word_id": "verb-douchen",
+      "text": "We want to shower before dinner."
+    },
+    {
+      "word_id": "verb-drogen",
+      "text": "I can dry my hair."
+    },
+    {
+      "word_id": "verb-dromen",
+      "text": "The baby dreams every night."
+    },
+    {
+      "word_id": "verb-duiken",
+      "text": "My brother wants to dive in the sea."
+    },
+    {
+      "word_id": "verb-durven",
+      "text": "I do not dare to swim."
+    },
+    {
+      "word_id": "verb-duwen",
+      "text": "We have to push the car."
+    },
+    {
+      "word_id": "verb-eindigen",
+      "text": "The lesson ends at four o'clock."
+    },
+    {
+      "word_id": "verb-feesten",
+      "text": "We want to party this weekend."
+    },
+    {
+      "word_id": "verb-feliciteren",
+      "text": "I want to congratulate you on your birthday."
+    },
+    {
+      "word_id": "verb-fietsen",
+      "text": "We cycle to school every day."
+    },
+    {
+      "word_id": "verb-gebeuren",
+      "text": "What is happening in the class?"
+    },
+    {
+      "word_id": "verb-gebruiken",
+      "text": "I use my phone as a clock."
+    },
+    {
+      "word_id": "verb-geloven",
+      "text": "I do not believe my neighbour."
+    },
+    {
+      "word_id": "verb-genieten",
+      "text": "We enjoy the nice weather."
+    },
+    {
+      "word_id": "verb-gieten",
+      "text": "I want to pour milk into the glass."
+    },
+    {
+      "word_id": "verb-gooien",
+      "text": "The child wants to throw the ball."
+    },
+    {
+      "word_id": "verb-grijpen",
+      "text": "The cat can catch the mouse."
+    },
+    {
+      "word_id": "verb-groeten",
+      "text": "I want to greet my neighbour."
+    },
+    {
+      "word_id": "verb-halen",
+      "text": "I am going to get bread at the baker's."
+    },
+    {
+      "word_id": "verb-hardlopen",
+      "text": "I want to go running every morning."
+    },
+    {
+      "word_id": "verb-haten",
+      "text": "I hate the cold weather."
+    },
+    {
+      "word_id": "verb-herhalen",
+      "text": "Can you repeat the question?"
+    },
+    {
+      "word_id": "verb-herinneren",
+      "text": "I do not remember that day."
+    },
+    {
+      "word_id": "verb-herkennen",
+      "text": "I cannot recognise you."
+    },
+    {
+      "word_id": "verb-herstellen",
+      "text": "My father can repair the bike."
+    },
+    {
+      "word_id": "verb-hoesten",
+      "text": "He often coughs at night."
+    },
+    {
+      "word_id": "verb-hopen",
+      "text": "I hope that the weather is nice tomorrow."
+    },
+    {
+      "word_id": "verb-houden",
+      "text": "Will you hold my coat?"
+    },
+    {
+      "word_id": "verb-huilen",
+      "text": "The baby is about to cry."
+    },
+    {
+      "word_id": "verb-informeren",
+      "text": "I want to inform the customer."
+    },
+    {
+      "word_id": "verb-innemen",
+      "text": "I have to take the medicine."
+    },
+    {
+      "word_id": "verb-inrichten",
+      "text": "We want to furnish the room nicely."
+    },
+    {
+      "word_id": "verb-inschrijven",
+      "text": "I want to sign up for the course."
+    },
+    {
+      "word_id": "verb-internetten",
+      "text": "My daughter wants to surf the internet on the laptop."
+    },
+    {
+      "word_id": "verb-invullen",
+      "text": "We have to fill in the form."
+    },
+    {
+      "word_id": "verb-kiezen",
+      "text": "I want to choose a new coat."
+    },
+    {
+      "word_id": "verb-klagen",
+      "text": "My neighbour wants to complain to the council."
+    },
+    {
+      "word_id": "verb-klappen",
+      "text": "The children want to clap after the song."
+    },
+    {
+      "word_id": "verb-klimmen",
+      "text": "We want to climb the mountain."
+    },
+    {
+      "word_id": "verb-klinken",
+      "text": "That idea sounds good."
+    },
+    {
+      "word_id": "verb-kloppen",
+      "text": "That answer is not correct."
+    },
+    {
+      "word_id": "verb-knijpen",
+      "text": "The child wants to pinch my arm."
+    },
+    {
+      "word_id": "verb-knutselen",
+      "text": "We are going to do crafts with paper."
+    },
+    {
+      "word_id": "verb-koelen",
+      "text": "We have to cool the beer."
+    },
+    {
+      "word_id": "verb-kosten",
+      "text": "This coat costs forty euros."
+    },
+    {
+      "word_id": "verb-kruipen",
+      "text": "The dog has to crawl under the fence."
+    },
+    {
+      "word_id": "verb-lachen",
+      "text": "We laugh at his joke."
+    },
+    {
+      "word_id": "verb-laten",
+      "text": "I leave my coat at home."
+    },
+    {
+      "word_id": "verb-legen",
+      "text": "I have to empty the box."
+    },
+    {
+      "word_id": "verb-lenen",
+      "text": "May I borrow your bike?"
+    },
+    {
+      "word_id": "verb-letten",
+      "text": "We have to pay close attention to the children."
+    },
+    {
+      "word_id": "verb-leveren",
+      "text": "The baker wants to deliver bread every day."
+    },
+    {
+      "word_id": "verb-liegen",
+      "text": "My son does not want to lie."
+    },
+    {
+      "word_id": "verb-lijken",
+      "text": "Your brother looks like you."
+    },
+    {
+      "word_id": "verb-likken",
+      "text": "The dog wants to lick my hand."
+    },
+    {
+      "word_id": "verb-logeren",
+      "text": "My cousin is coming to stay this weekend."
+    },
+    {
+      "word_id": "verb-lukken",
+      "text": "I cannot do it."
+    },
+    {
+      "word_id": "verb-mailen",
+      "text": "I email my teacher every week."
+    },
+    {
+      "word_id": "verb-meedoen",
+      "text": "We want to take part in the match."
+    },
+    {
+      "word_id": "verb-meemaken",
+      "text": "I want to experience an adventure."
+    },
+    {
+      "word_id": "verb-meenemen",
+      "text": "We want to take our dog with us."
+    },
+    {
+      "word_id": "verb-merken",
+      "text": "I do not notice the cold."
+    },
+    {
+      "word_id": "verb-meten",
+      "text": "We have to measure the table."
+    },
+    {
+      "word_id": "verb-mislukken",
+      "text": "My plan can still fail."
+    },
+    {
+      "word_id": "verb-missen",
+      "text": "I miss my girlfriend very much."
+    },
+    {
+      "word_id": "verb-nadenken",
+      "text": "I have to think about it carefully."
+    },
+    {
+      "word_id": "verb-negeren",
+      "text": "You may not ignore me."
+    },
+    {
+      "word_id": "verb-noemen",
+      "text": "What do you call this dish?"
+    },
+    {
+      "word_id": "verb-oefenen",
+      "text": "We practise a song every day."
+    },
+    {
+      "word_id": "verb-omdraaien",
+      "text": "We have to turn the card over."
+    },
+    {
+      "word_id": "verb-ontbijten",
+      "text": "We want to have breakfast outside."
+    },
+    {
+      "word_id": "verb-ontdekken",
+      "text": "We want to discover nature."
+    },
+    {
+      "word_id": "verb-ontslaan",
+      "text": "The boss has to fire my colleague."
+    },
+    {
+      "word_id": "verb-ontsnappen",
+      "text": "The dog can escape from the garden."
+    },
+    {
+      "word_id": "verb-ontspannen",
+      "text": "After work I want to relax."
+    },
+    {
+      "word_id": "verb-ontvangen",
+      "text": "We receive a letter every month."
+    },
+    {
+      "word_id": "verb-opblazen",
+      "text": "I want to inflate the ball."
+    },
+    {
+      "word_id": "verb-opereren",
+      "text": "The doctor has to operate on my knee."
+    },
+    {
+      "word_id": "verb-opgeven",
+      "text": "I do not want to give up."
+    },
+    {
+      "word_id": "verb-oplossen",
+      "text": "We can solve the problem."
+    },
+    {
+      "word_id": "verb-opnemen",
+      "text": "I cannot answer the phone."
+    },
+    {
+      "word_id": "verb-oppakken",
+      "text": "The baby wants to pick up the key."
+    },
+    {
+      "word_id": "verb-opruimen",
+      "text": "We have to tidy up the room."
+    },
+    {
+      "word_id": "verb-opslaan",
+      "text": "I want to save the document."
+    },
+    {
+      "word_id": "verb-opstaan",
+      "text": "I have to get up early tomorrow."
+    },
+    {
+      "word_id": "verb-organiseren",
+      "text": "We organise a party for my sister."
+    },
+    {
+      "word_id": "verb-overleggen",
+      "text": "I have to consult with my boss."
+    },
+    {
+      "word_id": "verb-overstappen",
+      "text": "We have to change at the station."
+    },
+    {
+      "word_id": "verb-pakken",
+      "text": "I take my coat from the chair."
+    },
+    {
+      "word_id": "verb-parkeren",
+      "text": "I want to park the car here."
+    },
+    {
+      "word_id": "verb-planten",
+      "text": "We are going to plant a tree."
+    },
+    {
+      "word_id": "verb-poetsen",
+      "text": "I have to brush my teeth."
+    },
+    {
+      "word_id": "verb-posten",
+      "text": "I want to post a photo on the internet."
+    },
+    {
+      "word_id": "verb-printen",
+      "text": "I want to print the letter at home."
+    },
+    {
+      "word_id": "verb-proberen",
+      "text": "I want to try it once more."
+    },
+    {
+      "word_id": "verb-raden",
+      "text": "Can you guess the answer?"
+    },
+    {
+      "word_id": "verb-reageren",
+      "text": "He does not want to respond to my letter."
+    },
+    {
+      "word_id": "verb-redden",
+      "text": "The fire brigade can save the child."
+    },
+    {
+      "word_id": "verb-regelen",
+      "text": "I can arrange the holiday for you all."
+    },
+    {
+      "word_id": "verb-reizen",
+      "text": "My grandmother wants to travel to the coast."
+    },
+    {
+      "word_id": "verb-rekenen",
+      "text": "The children learn to calculate at school."
+    },
+    {
+      "word_id": "verb-rennen",
+      "text": "The children run across the field."
+    },
+    {
+      "word_id": "verb-reserveren",
+      "text": "We want to reserve a table."
+    },
+    {
+      "word_id": "verb-roeien",
+      "text": "We want to row on the canal."
+    },
+    {
+      "word_id": "verb-ruiken",
+      "text": "I smell coffee in the kitchen."
+    },
+    {
+      "word_id": "verb-samenwerken",
+      "text": "We want to work together with our neighbours."
+    },
+    {
+      "word_id": "verb-schaatsen",
+      "text": "We want to skate on the ice."
+    },
+    {
+      "word_id": "verb-schaken",
+      "text": "My grandfather wants to play chess with me."
+    },
+    {
+      "word_id": "verb-schelen",
+      "text": "I do not care."
+    },
+    {
+      "word_id": "verb-schilderen",
+      "text": "My grandmother wants to paint a flower."
+    },
+    {
+      "word_id": "verb-schoonmaken",
+      "text": "I have to clean the kitchen."
+    },
+    {
+      "word_id": "verb-schreeuwen",
+      "text": "You do not need to shout."
+    },
+    {
+      "word_id": "verb-schrikken",
+      "text": "The dog will be startled by the noise."
+    },
+    {
+      "word_id": "verb-schuiven",
+      "text": "We have to slide the cupboard to the left."
+    },
+    {
+      "word_id": "verb-scoren",
+      "text": "The player can score a goal."
+    },
+    {
+      "word_id": "verb-slaan",
+      "text": "He has to hit the ball with his hand."
+    },
+    {
+      "word_id": "verb-slagen",
+      "text": "I want to pass the course."
+    },
+    {
+      "word_id": "verb-slikken",
+      "text": "I cannot swallow this medicine."
+    },
+    {
+      "word_id": "verb-sneeuwen",
+      "text": "It is going to snow tomorrow."
+    },
+    {
+      "word_id": "verb-solliciteren",
+      "text": "I want to apply for a job at the bank."
+    },
+    {
+      "word_id": "verb-sparen",
+      "text": "I want to save up for a new bike."
+    },
+    {
+      "word_id": "verb-spellen",
+      "text": "Can you spell your name?"
+    },
+    {
+      "word_id": "verb-sporten",
+      "text": "My daughter wants to exercise every day."
+    },
+    {
+      "word_id": "verb-spugen",
+      "text": "The child must not spit on the ground."
+    },
+    {
+      "word_id": "verb-stelen",
+      "text": "They are trying to steal the bike."
+    },
+    {
+      "word_id": "verb-stoppen",
+      "text": "The bus does not want to stop here."
+    },
+    {
+      "word_id": "verb-storen",
+      "text": "My brother does not want to disturb me."
+    },
+    {
+      "word_id": "verb-stoten",
+      "text": "I bump my knee against the table."
+    },
+    {
+      "word_id": "verb-studeren",
+      "text": "My brother wants to study in the city."
+    },
+    {
+      "word_id": "verb-sturen",
+      "text": "I want to send my grandmother a card."
+    },
+    {
+      "word_id": "verb-tekenen",
+      "text": "The child wants to draw a house."
+    },
+    {
+      "word_id": "verb-tellen",
+      "text": "The children can already count to ten."
+    },
+    {
+      "word_id": "verb-teruggaan",
+      "text": "We have to go back home."
+    },
+    {
+      "word_id": "verb-teruggeven",
+      "text": "I have to give the money back."
+    },
+    {
+      "word_id": "verb-terugkomen",
+      "text": "We want to come back next year."
+    },
+    {
+      "word_id": "verb-testen",
+      "text": "We are going to test the new machine."
+    },
+    {
+      "word_id": "verb-thuisblijven",
+      "text": "I want to stay at home today."
+    },
+    {
+      "word_id": "verb-thuiskomen",
+      "text": "The children must come home before six o'clock."
+    },
+    {
+      "word_id": "verb-toevoegen",
+      "text": "I want to add some more sugar."
+    },
+    {
+      "word_id": "verb-tonen",
+      "text": "She wants to show her photo."
+    },
+    {
+      "word_id": "verb-trappen",
+      "text": "He wants to kick the ball hard."
+    },
+    {
+      "word_id": "verb-trekken",
+      "text": "You have to pull the door."
+    },
+    {
+      "word_id": "verb-twijfelen",
+      "text": "I am unsure between the red and the blue coat."
+    },
+    {
+      "word_id": "verb-typen",
+      "text": "I want to type a letter on the computer."
+    },
+    {
+      "word_id": "verb-uitgaan",
+      "text": "We want to go out on Saturday."
+    },
+    {
+      "word_id": "verb-uitgeven",
+      "text": "I do not want to spend too much money."
+    },
+    {
+      "word_id": "verb-uitleggen",
+      "text": "The teacher can explain the word."
+    },
+    {
+      "word_id": "verb-uitnodigen",
+      "text": "I want to invite my neighbours."
+    },
+    {
+      "word_id": "verb-uitspreken",
+      "text": "Can you pronounce this word?"
+    },
+    {
+      "word_id": "verb-uitstappen",
+      "text": "We have to get off at the next stop."
+    },
+    {
+      "word_id": "verb-uitstellen",
+      "text": "We have to postpone the party."
+    },
+    {
+      "word_id": "verb-updaten",
+      "text": "I have to update the app."
+    },
+    {
+      "word_id": "verb-vallen",
+      "text": "The glass can fall off the table."
+    },
+    {
+      "word_id": "verb-vangen",
+      "text": "The dog can catch the ball."
+    },
+    {
+      "word_id": "verb-vechten",
+      "text": "The boys do not want to fight."
+    },
+    {
+      "word_id": "verb-veranderen",
+      "text": "The weather is going to change tomorrow."
+    },
+    {
+      "word_id": "verb-verbergen",
+      "text": "The dog wants to hide his bone."
+    },
+    {
+      "word_id": "verb-verbeteren",
+      "text": "I want to improve my work."
+    },
+    {
+      "word_id": "verb-verbieden",
+      "text": "The police want to ban smoking."
+    },
+    {
+      "word_id": "verb-verbouwen",
+      "text": "We want to renovate our house."
+    },
+    {
+      "word_id": "verb-verdelen",
+      "text": "We divide the apple into four pieces."
+    },
+    {
+      "word_id": "verb-verdienen",
+      "text": "I want to earn a lot of money."
+    },
+    {
+      "word_id": "verb-verdwijnen",
+      "text": "The sun can disappear behind the clouds."
+    },
+    {
+      "word_id": "verb-vergelijken",
+      "text": "We can compare the prices."
+    },
+    {
+      "word_id": "verb-vergeten",
+      "text": "I do not want to forget my key."
+    },
+    {
+      "word_id": "verb-verhuren",
+      "text": "We want to rent out our room."
+    },
+    {
+      "word_id": "verb-verkopen",
+      "text": "My neighbour wants to sell his car."
+    },
+    {
+      "word_id": "verb-verlaten",
+      "text": "We have to leave the building."
+    },
+    {
+      "word_id": "verb-verlengen",
+      "text": "I want to extend my card."
+    },
+    {
+      "word_id": "verb-verliezen",
+      "text": "I do not want to lose the game."
+    },
+    {
+      "word_id": "verb-verplaatsen",
+      "text": "We want to move the table to the window."
+    },
+    {
+      "word_id": "verb-verrassen",
+      "text": "I want to surprise my mother."
+    },
+    {
+      "word_id": "verb-verschijnen",
+      "text": "A message can appear on the computer."
+    },
+    {
+      "word_id": "verb-versieren",
+      "text": "We are going to decorate the room."
+    },
+    {
+      "word_id": "verb-vertalen",
+      "text": "I can translate this sentence."
+    },
+    {
+      "word_id": "verb-vertellen",
+      "text": "My grandfather wants to tell a joke."
+    },
+    {
+      "word_id": "verb-vervangen",
+      "text": "I have to replace the battery."
+    },
+    {
+      "word_id": "verb-vervelen",
+      "text": "I am bored in class."
+    },
+    {
+      "word_id": "verb-verwachten",
+      "text": "We expect a lot of rain tomorrow."
+    },
+    {
+      "word_id": "verb-verwarmen",
+      "text": "We heat the house with gas."
+    },
+    {
+      "word_id": "verb-verzamelen",
+      "text": "My son wants to collect nice stones."
+    },
+    {
+      "word_id": "verb-verzinnen",
+      "text": "My son can make up funny jokes."
+    },
+    {
+      "word_id": "verb-verzorgen",
+      "text": "The doctor has to look after the patient."
+    },
+    {
+      "word_id": "verb-vieren",
+      "text": "We celebrate my birthday at home."
+    },
+    {
+      "word_id": "verb-vissen",
+      "text": "My grandfather is going to fish in the river."
+    },
+    {
+      "word_id": "verb-voelen",
+      "text": "I feel very well today."
+    },
+    {
+      "word_id": "verb-voetballen",
+      "text": "The boys want to play football on the pitch."
+    },
+    {
+      "word_id": "verb-volgen",
+      "text": "The dog wants to follow me."
+    },
+    {
+      "word_id": "verb-voorstellen",
+      "text": "I want to introduce my friend to you."
+    },
+    {
+      "word_id": "verb-vriezen",
+      "text": "It is going to freeze tomorrow."
+    },
+    {
+      "word_id": "verb-vullen",
+      "text": "I want to fill the glass with water."
+    },
+    {
+      "word_id": "verb-waaien",
+      "text": "It is going to blow hard today."
+    },
+    {
+      "word_id": "verb-waarschuwen",
+      "text": "I have to warn my neighbour."
+    },
+    {
+      "word_id": "verb-weggooien",
+      "text": "We may not throw this away."
+    },
+    {
+      "word_id": "verb-wegleggen",
+      "text": "I want to put my money aside."
+    },
+    {
+      "word_id": "verb-weigeren",
+      "text": "You can refuse a gift."
+    },
+    {
+      "word_id": "verb-wennen",
+      "text": "I still have to get used to the cold."
+    },
+    {
+      "word_id": "verb-wensen",
+      "text": "I wish you a lot of luck."
+    },
+    {
+      "word_id": "verb-wijzen",
+      "text": "The teacher points at the board."
+    },
+    {
+      "word_id": "verb-winkelen",
+      "text": "We are going shopping on Saturday."
+    },
+    {
+      "word_id": "verb-winnen",
+      "text": "I want to win the prize."
+    },
+    {
+      "word_id": "verb-worden",
+      "text": "My son wants to become a doctor."
+    },
+    {
+      "word_id": "verb-wrijven",
+      "text": "I rub my eyes."
+    },
+    {
+      "word_id": "verb-zakken",
+      "text": "I am afraid that I will fail the course."
+    },
+    {
+      "word_id": "verb-zetten",
+      "text": "I put the bottle on the table."
+    },
+    {
+      "word_id": "verb-zingen",
+      "text": "We sing a song at the party."
+    },
+    {
+      "word_id": "verb-zorgen",
+      "text": "I take care of my grandmother."
+    },
+    {
+      "word_id": "verb-zuchten",
+      "text": "My mother often sighs after work."
+    }
+  ]
+}

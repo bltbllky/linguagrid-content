@@ -1,0 +1,5585 @@
+{
+  "lang": "tr",
+  "rows": [
+    {
+      "word_id": "noun-moeder",
+      "text": "Annem mutfakta yemek pişiriyor."
+    },
+    {
+      "word_id": "noun-vriend",
+      "text": "Arkadaşım büyük bir evde oturuyor."
+    },
+    {
+      "word_id": "noun-kind",
+      "text": "Çocuk küçük bir yatakta uyuyor."
+    },
+    {
+      "word_id": "noun-man",
+      "text": "Adam yeni bir araba alıyor."
+    },
+    {
+      "word_id": "noun-zus",
+      "text": "Kız kardeşim bahçede köpekle oynuyor."
+    },
+    {
+      "word_id": "noun-buur",
+      "text": "Komşumun küçük bir köpeği var."
+    },
+    {
+      "word_id": "noun-meisje",
+      "text": "Kız bir bardak su içiyor."
+    },
+    {
+      "word_id": "noun-verjaardag",
+      "text": "Doğum günüm yazın."
+    },
+    {
+      "word_id": "noun-naam",
+      "text": "Adın ne?"
+    },
+    {
+      "word_id": "noun-telefoon",
+      "text": "Telefonum masanın üstünde duruyor."
+    },
+    {
+      "word_id": "noun-taal",
+      "text": "İki dil konuşuyorum."
+    },
+    {
+      "word_id": "noun-woord",
+      "text": "Bu kelimeyi anlamıyorum."
+    },
+    {
+      "word_id": "noun-adres",
+      "text": "Adresin ne?"
+    },
+    {
+      "word_id": "noun-huis",
+      "text": "Evimizin büyük bir bahçesi var."
+    },
+    {
+      "word_id": "noun-keuken",
+      "text": "Mutfak küçük ama temiz."
+    },
+    {
+      "word_id": "noun-deur",
+      "text": "Evin kapısı beyaz."
+    },
+    {
+      "word_id": "noun-tuin",
+      "text": "Bahçede yemek yiyoruz."
+    },
+    {
+      "word_id": "noun-bed",
+      "text": "Yatağım odada duruyor."
+    },
+    {
+      "word_id": "noun-tafel",
+      "text": "Mutfaktaki masa yeni."
+    },
+    {
+      "word_id": "noun-raam",
+      "text": "Bahçeyi pencereden görüyorum."
+    },
+    {
+      "word_id": "noun-sleutel",
+      "text": "Anahtarımı ve telefonumu arıyorum."
+    },
+    {
+      "word_id": "noun-stoel",
+      "text": "Masanın yanında bir sandalye var."
+    },
+    {
+      "word_id": "noun-kamer",
+      "text": "Odam küçük ama güzel."
+    },
+    {
+      "word_id": "noun-brood",
+      "text": "Peynirli ekmek yiyorum."
+    },
+    {
+      "word_id": "noun-koffie",
+      "text": "Babam kahve içiyor, ben su içiyorum."
+    },
+    {
+      "word_id": "noun-kaas",
+      "text": "Pazardan peynir alıyoruz."
+    },
+    {
+      "word_id": "noun-appel",
+      "text": "Bir elma yemek istiyorum."
+    },
+    {
+      "word_id": "noun-water",
+      "text": "Bir bardak su ister misin?"
+    },
+    {
+      "word_id": "noun-fles",
+      "text": "Masanın üstünde bir şişe su var."
+    },
+    {
+      "word_id": "noun-week",
+      "text": "Bir haftada yedi gün var."
+    },
+    {
+      "word_id": "noun-maandag",
+      "text": "Pazartesi günleri çalışmıyorum."
+    },
+    {
+      "word_id": "noun-zomer",
+      "text": "Yazın denizde yüzüyorum."
+    },
+    {
+      "word_id": "noun-avond",
+      "text": "Akşam oldu bile."
+    },
+    {
+      "word_id": "noun-uur",
+      "text": "Ders bir saat sürüyor."
+    },
+    {
+      "word_id": "noun-jaar",
+      "text": "Oğlum dört yaşında."
+    },
+    {
+      "word_id": "noun-school",
+      "text": "Oğlum okula gidiyor."
+    },
+    {
+      "word_id": "noun-les",
+      "text": "Ders saat ikide başlıyor."
+    },
+    {
+      "word_id": "noun-werk",
+      "text": "İşime bisikletle gidiyorum."
+    },
+    {
+      "word_id": "noun-computer",
+      "text": "Şimdi bir bilgisayarla çalışıyorum."
+    },
+    {
+      "word_id": "noun-auto",
+      "text": "Babamın yeni bir arabası var."
+    },
+    {
+      "word_id": "noun-trein",
+      "text": "Şehre giden tren geç kaldı."
+    },
+    {
+      "word_id": "noun-fiets",
+      "text": "Bisikletim istasyonun yanında duruyor."
+    },
+    {
+      "word_id": "noun-station",
+      "text": "İstasyon evimden uzak."
+    },
+    {
+      "word_id": "noun-straat",
+      "text": "Uzun bir sokakta oturuyoruz."
+    },
+    {
+      "word_id": "noun-hond",
+      "text": "Köpek yatağımda uyuyor."
+    },
+    {
+      "word_id": "noun-zon",
+      "text": "Güneş sıcak ve hava güzel."
+    },
+    {
+      "word_id": "noun-boom",
+      "text": "Bahçede büyük bir ağaç var."
+    },
+    {
+      "word_id": "noun-dier",
+      "text": "Köpek bir hayvandır."
+    },
+    {
+      "word_id": "noun-weer",
+      "text": "Hava soğuk ama güneş sıcak."
+    },
+    {
+      "word_id": "noun-hand",
+      "text": "Elim ağrıyor."
+    },
+    {
+      "word_id": "noun-hoofd",
+      "text": "Başım ağrıyor."
+    },
+    {
+      "word_id": "noun-oog",
+      "text": "Kızımın mavi gözleri var."
+    },
+    {
+      "word_id": "noun-neus",
+      "text": "Burnum soğuk."
+    },
+    {
+      "word_id": "noun-arts",
+      "text": "Doktora gidiyorum çünkü hastayım."
+    },
+    {
+      "word_id": "noun-ziekenhuis",
+      "text": "Hastanede yatıyor çünkü hasta."
+    },
+    {
+      "word_id": "noun-film",
+      "text": "Arkadaşımla bir film izliyorum."
+    },
+    {
+      "word_id": "noun-muziek",
+      "text": "Kız kardeşim müzik dinlemeyi seviyor."
+    },
+    {
+      "word_id": "noun-vakantie",
+      "text": "Tatile denize gidiyoruz."
+    },
+    {
+      "word_id": "noun-winkel",
+      "text": "Mağazadan ayakkabı alıyorum."
+    },
+    {
+      "word_id": "noun-geld",
+      "text": "Yeni bir araba için param yok."
+    },
+    {
+      "word_id": "noun-prijs",
+      "text": "Ayakkabıların fiyatı düşük."
+    },
+    {
+      "word_id": "noun-broek",
+      "text": "Siyah bir pantolon giyiyorum."
+    },
+    {
+      "word_id": "noun-schoen",
+      "text": "Ayakkabılarım yeni."
+    },
+    {
+      "word_id": "noun-bril",
+      "text": "Gözlüğüm olmadan iyi göremiyorum."
+    },
+    {
+      "word_id": "verb-wonen",
+      "text": "Küçük bir evde oturuyoruz."
+    },
+    {
+      "word_id": "verb-eten",
+      "text": "Saat altıda yemek yiyoruz."
+    },
+    {
+      "word_id": "verb-drinken",
+      "text": "Oğlum bir bardak su içiyor."
+    },
+    {
+      "word_id": "verb-werken",
+      "text": "Pazartesiden cumaya kadar çalışıyorum."
+    },
+    {
+      "word_id": "verb-lezen",
+      "text": "O soruyu bir kez daha okuyor."
+    },
+    {
+      "word_id": "verb-leren",
+      "text": "Yeni bir dil öğreniyorum."
+    },
+    {
+      "word_id": "verb-rijden",
+      "text": "Babam işe arabayla gidiyor."
+    },
+    {
+      "word_id": "verb-slapen",
+      "text": "Yorgunum ve uyumak istiyorum."
+    },
+    {
+      "word_id": "verb-kopen",
+      "text": "Yeni bir bisiklet almak istiyorum."
+    },
+    {
+      "word_id": "verb-spelen",
+      "text": "Çocuklar bahçede oynuyor."
+    },
+    {
+      "word_id": "verb-zwemmen",
+      "text": "Denizde yüzmeye gidiyoruz."
+    },
+    {
+      "word_id": "verb-kijken",
+      "text": "Bir film izlemek istiyoruz."
+    },
+    {
+      "word_id": "verb-wachten",
+      "text": "İstasyonda otobüsü bekliyorum."
+    },
+    {
+      "word_id": "verb-bellen",
+      "text": "Annemi aramak istiyorum."
+    },
+    {
+      "word_id": "verb-koken",
+      "text": "Balık ve sebze pişirmek istiyorum."
+    },
+    {
+      "word_id": "verb-helpen",
+      "text": "Bana işimde yardım edebilir misin?"
+    },
+    {
+      "word_id": "verb-zoeken",
+      "text": "Ucuz bir ev arıyoruz."
+    },
+    {
+      "word_id": "verb-betalen",
+      "text": "Nerede ödeme yapabilirim?"
+    },
+    {
+      "word_id": "verb-luisteren",
+      "text": "Öğretmeni dinliyoruz."
+    },
+    {
+      "word_id": "verb-praten",
+      "text": "Sınıfta öğretmenle konuşuyorlar."
+    },
+    {
+      "word_id": "adj-groot",
+      "text": "Dedemin evi büyük."
+    },
+    {
+      "word_id": "adj-klein",
+      "text": "Bu ayakkabılar çok küçük."
+    },
+    {
+      "word_id": "adj-nieuw",
+      "text": "Yeni bir telefonum var."
+    },
+    {
+      "word_id": "adj-oud",
+      "text": "Dedem seksen yaşında."
+    },
+    {
+      "word_id": "adj-lekker",
+      "text": "Kahve lezzetli."
+    },
+    {
+      "word_id": "adj-koud",
+      "text": "Su soğuk."
+    },
+    {
+      "word_id": "adj-warm",
+      "text": "Burası çok sıcak."
+    },
+    {
+      "word_id": "adj-duur",
+      "text": "Bu araba çok pahalı."
+    },
+    {
+      "word_id": "adj-goedkoop",
+      "text": "Ekmek burada ucuz."
+    },
+    {
+      "word_id": "adj-moe",
+      "text": "Yorgunum ve yatmak istiyorum."
+    },
+    {
+      "word_id": "adj-ziek",
+      "text": "Oğlum hasta ve yatakta yatıyor."
+    },
+    {
+      "word_id": "adj-gelukkig",
+      "text": "Evimizde çok mutluyuz."
+    },
+    {
+      "word_id": "adj-snel",
+      "text": "Arkadaşım çok hızlı yürüyor."
+    },
+    {
+      "word_id": "adj-mooi",
+      "text": "Bahçen çok güzel."
+    },
+    {
+      "word_id": "adj-moeilijk",
+      "text": "Bu soru zor."
+    },
+    {
+      "word_id": "adj-schoon",
+      "text": "Bardak temiz."
+    },
+    {
+      "word_id": "noun-mens",
+      "text": "Her insanın bir adı vardır."
+    },
+    {
+      "word_id": "noun-inwoner",
+      "text": "Bu şehrin çok sayıda sakini var."
+    },
+    {
+      "word_id": "noun-leven",
+      "text": "Hayat kolay değil."
+    },
+    {
+      "word_id": "noun-vrouw",
+      "text": "O kadın küçük bir dairede oturuyor."
+    },
+    {
+      "word_id": "noun-familie",
+      "text": "Ailem büyük ve mutlu."
+    },
+    {
+      "word_id": "noun-zoon",
+      "text": "Oğlum parkta futbol oynuyor."
+    },
+    {
+      "word_id": "noun-vader",
+      "text": "Babam büyük bir restoranda çalışıyor."
+    },
+    {
+      "word_id": "noun-persoon",
+      "text": "Oradaki kişi kim?"
+    },
+    {
+      "word_id": "noun-jongen",
+      "text": "Erkek çocuk bahçede bir elma yiyor."
+    },
+    {
+      "word_id": "noun-lid",
+      "text": "Ailenin her üyesi bugün geliyor."
+    },
+    {
+      "word_id": "noun-leeftijd",
+      "text": "Büyükannem ileri yaştadır."
+    },
+    {
+      "word_id": "noun-dochter",
+      "text": "Kızım okula bisikletle gidiyor."
+    },
+    {
+      "word_id": "noun-broer",
+      "text": "Erkek kardeşim başka bir şehirde yaşıyor."
+    },
+    {
+      "word_id": "noun-ouder",
+      "text": "Her ebeveyn sağlıklı bir çocuk ister."
+    },
+    {
+      "word_id": "noun-relatie",
+      "text": "Komşularıyla iyi bir ilişkileri var."
+    },
+    {
+      "word_id": "noun-huwelijk",
+      "text": "Evlilikleri uzun ve mutlu."
+    },
+    {
+      "word_id": "noun-dame",
+      "text": "Kapının yanındaki hanım otobüsü bekliyor."
+    },
+    {
+      "word_id": "noun-jeugd",
+      "text": "Gençliğimde şehirde yaşadım."
+    },
+    {
+      "word_id": "noun-vriendin",
+      "text": "Kız arkadaşım bugün annesinin yanında."
+    },
+    {
+      "word_id": "noun-meneer",
+      "text": "Beyefendi, bana yardım edebilir misiniz?"
+    },
+    {
+      "word_id": "noun-mevrouw",
+      "text": "Hanımefendi, adresiniz nedir?"
+    },
+    {
+      "word_id": "noun-gast",
+      "text": "Misafir odada bekliyor."
+    },
+    {
+      "word_id": "noun-oom",
+      "text": "Amcam güneyde yaşıyor."
+    },
+    {
+      "word_id": "noun-baby",
+      "text": "Bebek küçük yatakta uyuyor."
+    },
+    {
+      "word_id": "noun-geboorte",
+      "text": "Oğlumun doğumu mayıs ayındaydı."
+    },
+    {
+      "word_id": "noun-neef",
+      "text": "Kuzenim benimle futbol oynamayı seviyor."
+    },
+    {
+      "word_id": "noun-ontmoeting",
+      "text": "Buluşma saat ikide istasyonda."
+    },
+    {
+      "word_id": "noun-volwassene",
+      "text": "Bir yetişkin ve bir çocuk birlikte yemek yiyor."
+    },
+    {
+      "word_id": "noun-tante",
+      "text": "Teyzem beni her akşam arıyor."
+    },
+    {
+      "word_id": "noun-oma",
+      "text": "Büyükannem yaşlı ama sağlıklı."
+    },
+    {
+      "word_id": "noun-opa",
+      "text": "Dedem her gün parkta yürüyor."
+    },
+    {
+      "word_id": "noun-mama",
+      "text": "Anne, telefonum nerede?"
+    },
+    {
+      "word_id": "noun-woning",
+      "text": "Şehirde yeni bir konut arıyorlar."
+    },
+    {
+      "word_id": "noun-buurt",
+      "text": "Mahallemizde büyük bir park var."
+    },
+    {
+      "word_id": "noun-muur",
+      "text": "Odanın duvarı beyaz."
+    },
+    {
+      "word_id": "noun-dak",
+      "text": "Evin çatısı kırmızı."
+    },
+    {
+      "word_id": "noun-apparaat",
+      "text": "Bu cihaz yeni ve iyi çalışıyor."
+    },
+    {
+      "word_id": "noun-verdieping",
+      "text": "Bu evin iki katı var."
+    },
+    {
+      "word_id": "noun-kussen",
+      "text": "Yastığım yatağın üstünde duruyor."
+    },
+    {
+      "word_id": "noun-bord",
+      "text": "Tabakta tavuk var."
+    },
+    {
+      "word_id": "noun-appartement",
+      "text": "Dairenin bir balkonu ve bir mutfağı var."
+    },
+    {
+      "word_id": "noun-mes",
+      "text": "Ekmeği bıçakla kesiyorum."
+    },
+    {
+      "word_id": "noun-huishouden",
+      "text": "Her gün ev işlerini yapıyorum."
+    },
+    {
+      "word_id": "noun-trap",
+      "text": "Evimizdeki merdiven çok uzun."
+    },
+    {
+      "word_id": "noun-afval",
+      "text": "Çöpü dışarı çıkarıyoruz."
+    },
+    {
+      "word_id": "noun-kast",
+      "text": "Giysiler dolapta duruyor."
+    },
+    {
+      "word_id": "noun-spiegel",
+      "text": "Yüzümü aynada görüyorum."
+    },
+    {
+      "word_id": "noun-doos",
+      "text": "Kutuda bir telefon var."
+    },
+    {
+      "word_id": "noun-lamp",
+      "text": "Mutfaktaki lamba yeni."
+    },
+    {
+      "word_id": "noun-laken",
+      "text": "Yatağımın temiz bir çarşafı var."
+    },
+    {
+      "word_id": "noun-pan",
+      "text": "Tencerede su kaynatıyorum."
+    },
+    {
+      "word_id": "noun-flat",
+      "text": "Kız kardeşim büyük bir apartmanda oturuyor."
+    },
+    {
+      "word_id": "noun-toilet",
+      "text": "Tuvalet nerede?"
+    },
+    {
+      "word_id": "noun-balkon",
+      "text": "Yazın balkonda yemek yiyoruz."
+    },
+    {
+      "word_id": "noun-restaurant",
+      "text": "Bu restoranda tavuk ve balık iyi."
+    },
+    {
+      "word_id": "noun-bier",
+      "text": "Babam soğuk bir bira içiyor."
+    },
+    {
+      "word_id": "noun-glas",
+      "text": "Mutfakta bir bardak su içiyorum."
+    },
+    {
+      "word_id": "noun-gerecht",
+      "text": "Bu yemek lezzetli ve pahalı değil."
+    },
+    {
+      "word_id": "noun-wijn",
+      "text": "Komşum bir bardak şarap içmeyi seviyor."
+    },
+    {
+      "word_id": "noun-vlees",
+      "text": "Oğlum et yemiyor."
+    },
+    {
+      "word_id": "noun-vis",
+      "text": "Bugün sebzeli balık yiyoruz."
+    },
+    {
+      "word_id": "noun-drank",
+      "text": "Yazın soğuk bir içecek lezzetli oluyor."
+    },
+    {
+      "word_id": "noun-olie",
+      "text": "Tavaya yağ koyuyorum."
+    },
+    {
+      "word_id": "noun-smaak",
+      "text": "Kahvenin tadı iyi."
+    },
+    {
+      "word_id": "noun-kip",
+      "text": "Annem sebzeli tavuk pişiriyor."
+    },
+    {
+      "word_id": "noun-groente",
+      "text": "Her gün sebze yiyorum."
+    },
+    {
+      "word_id": "noun-wortel",
+      "text": "Yemek için bir havuç kesiyorum."
+    },
+    {
+      "word_id": "noun-recept",
+      "text": "Bu tarif kolay ve hızlı."
+    },
+    {
+      "word_id": "noun-tijd",
+      "text": "Yemek zamanı."
+    },
+    {
+      "word_id": "noun-dag",
+      "text": "Bir haftada yedi gün var."
+    },
+    {
+      "word_id": "noun-seizoen",
+      "text": "Kış soğuk bir mevsim."
+    },
+    {
+      "word_id": "noun-keer",
+      "text": "Büyükannemi ayda bir kez görüyorum."
+    },
+    {
+      "word_id": "noun-moment",
+      "text": "Bir dakika, hemen geliyorum."
+    },
+    {
+      "word_id": "noun-maand",
+      "text": "Bir yılda on iki ay var."
+    },
+    {
+      "word_id": "noun-periode",
+      "text": "Bu dönem bir yıl sürüyor."
+    },
+    {
+      "word_id": "noun-minuut",
+      "text": "Bir saatte altmış dakika var."
+    },
+    {
+      "word_id": "noun-nacht",
+      "text": "Gece oldu ve yorgunum."
+    },
+    {
+      "word_id": "noun-toekomst",
+      "text": "Gelecekte ne yapacaksın?"
+    },
+    {
+      "word_id": "noun-datum",
+      "text": "Bugünün tarihi ne?"
+    },
+    {
+      "word_id": "noun-weekend",
+      "text": "Hafta sonu evdeyim."
+    },
+    {
+      "word_id": "noun-winter",
+      "text": "Kışın hava soğuk."
+    },
+    {
+      "word_id": "noun-ochtend",
+      "text": "Her sabah kahve içiyorum."
+    },
+    {
+      "word_id": "noun-voorjaar",
+      "text": "İlkbaharda ağaçlar büyüyor."
+    },
+    {
+      "word_id": "noun-kwart",
+      "text": "Saat ikiyi çeyrek geçiyor."
+    },
+    {
+      "word_id": "noun-agenda",
+      "text": "Ajandam masanın üstünde duruyor."
+    },
+    {
+      "word_id": "noun-middag",
+      "text": "Öğleden sonra çalışmıyorum."
+    },
+    {
+      "word_id": "noun-kerst",
+      "text": "Noel'de birlikte yemek yiyoruz."
+    },
+    {
+      "word_id": "noun-feestdag",
+      "text": "Cuma resmî tatil günü."
+    },
+    {
+      "word_id": "noun-herfst",
+      "text": "Sonbaharda hava genellikle kötü."
+    },
+    {
+      "word_id": "noun-kalender",
+      "text": "Takvim duvarda asılı."
+    },
+    {
+      "word_id": "noun-leraar",
+      "text": "Öğretmen sınıfta yavaş konuşuyor."
+    },
+    {
+      "word_id": "noun-klas",
+      "text": "Sınıfta yirmi çocuk var."
+    },
+    {
+      "word_id": "noun-stad",
+      "text": "Büyük bir şehirde yaşamayı seviyorum."
+    },
+    {
+      "word_id": "noun-weg",
+      "text": "İstasyona giden yol uzun."
+    },
+    {
+      "word_id": "noun-land",
+      "text": "Ülkem büyük ve güzel."
+    },
+    {
+      "word_id": "noun-park",
+      "text": "Her pazar parkta yürüyoruz."
+    },
+    {
+      "word_id": "noun-bus",
+      "text": "İşe otobüse binerek gidiyorum."
+    },
+    {
+      "word_id": "noun-haar",
+      "text": "Kız kardeşimin uzun siyah saçı var."
+    },
+    {
+      "word_id": "noun-patiënt",
+      "text": "Hasta hastanede yatıyor."
+    },
+    {
+      "word_id": "noun-lichaam",
+      "text": "Vücudum yorgun."
+    },
+    {
+      "word_id": "noun-ziekte",
+      "text": "O, bir hastalık yüzünden evde."
+    },
+    {
+      "word_id": "noun-arm",
+      "text": "Kolum ağrıyor."
+    },
+    {
+      "word_id": "noun-voet",
+      "text": "Ayağım soğuk."
+    },
+    {
+      "word_id": "noun-gezicht",
+      "text": "Oğlumun yuvarlak bir yüzü var."
+    },
+    {
+      "word_id": "noun-gezondheid",
+      "text": "Büyükannemin sağlığı iyi."
+    },
+    {
+      "word_id": "noun-klacht",
+      "text": "Oda hakkında bir şikâyetim var."
+    },
+    {
+      "word_id": "noun-ongeluk",
+      "text": "Yolda bir kaza oldu."
+    },
+    {
+      "word_id": "noun-tand",
+      "text": "Dişim ağrıyor."
+    },
+    {
+      "word_id": "noun-griep",
+      "text": "Oğlum hasta, gribi var."
+    },
+    {
+      "word_id": "noun-mond",
+      "text": "Bebeğin küçük bir ağzı var."
+    },
+    {
+      "word_id": "noun-oor",
+      "text": "Kulağım soğuk."
+    },
+    {
+      "word_id": "noun-pijn",
+      "text": "Bacağımda ağrı var."
+    },
+    {
+      "word_id": "noun-medicijn",
+      "text": "İlaç dolapta duruyor."
+    },
+    {
+      "word_id": "noun-huid",
+      "text": "Cildim güneşten kızardı."
+    },
+    {
+      "word_id": "noun-rust",
+      "text": "İşten sonra dinlenmek istiyorum."
+    },
+    {
+      "word_id": "noun-been",
+      "text": "Uzun bacakları var."
+    },
+    {
+      "word_id": "noun-vinger",
+      "text": "Parmağımda bir yüzük var."
+    },
+    {
+      "word_id": "noun-teen",
+      "text": "Bebeğin on küçük ayak parmağı var."
+    },
+    {
+      "word_id": "noun-buik",
+      "text": "Bebek karnının üstünde yatıyor."
+    },
+    {
+      "word_id": "noun-bloed",
+      "text": "Elimde kan var."
+    },
+    {
+      "word_id": "noun-schouder",
+      "text": "Eli omzumda."
+    },
+    {
+      "word_id": "noun-nek",
+      "text": "Ensem soğuk."
+    },
+    {
+      "word_id": "noun-keel",
+      "text": "Boğazım ağrıyor."
+    },
+    {
+      "word_id": "noun-tong",
+      "text": "Köpeğin kırmızı bir dili var."
+    },
+    {
+      "word_id": "noun-foto",
+      "text": "Köpeğimin fotoğrafını çekiyorum."
+    },
+    {
+      "word_id": "noun-televisie",
+      "text": "Yemekten sonra televizyon izliyoruz."
+    },
+    {
+      "word_id": "noun-sport",
+      "text": "Yüzmek iyi bir spor."
+    },
+    {
+      "word_id": "noun-voetbal",
+      "text": "Cumartesi futbol izliyoruz."
+    },
+    {
+      "word_id": "noun-zee",
+      "text": "Deniz mavi ve büyük."
+    },
+    {
+      "word_id": "noun-kleur",
+      "text": "Arabanın rengi ne?"
+    },
+    {
+      "word_id": "noun-nummer",
+      "text": "Evimin numarası on iki."
+    },
+    {
+      "word_id": "noun-vraag",
+      "text": "Öğretmene bir sorum var."
+    },
+    {
+      "word_id": "noun-antwoord",
+      "text": "Cevap evet ya da hayır."
+    },
+    {
+      "word_id": "noun-euro",
+      "text": "Gözlük için yirmi avro ödüyorum."
+    },
+    {
+      "word_id": "noun-markt",
+      "text": "Sebzeyi pazardan alıyorum."
+    },
+    {
+      "word_id": "noun-supermarkt",
+      "text": "Ekmeği süpermarketten alıyoruz."
+    },
+    {
+      "word_id": "noun-maat",
+      "text": "Hangi bedeni giyiyorsunuz?"
+    },
+    {
+      "word_id": "noun-ring",
+      "text": "Karım için bir yüzük alıyorum."
+    },
+    {
+      "word_id": "noun-kleding",
+      "text": "Mağazadan yeni giysi alıyorum."
+    },
+    {
+      "word_id": "noun-echtgenoot",
+      "text": "Kocam hastanede çalışıyor."
+    },
+    {
+      "word_id": "noun-echtgenote",
+      "text": "Karım okulda çalışıyor."
+    },
+    {
+      "word_id": "noun-hart",
+      "text": "Onun iyi bir kalbi var."
+    },
+    {
+      "word_id": "noun-borst",
+      "text": "Bebek annesinin göğsünde yatıyor."
+    },
+    {
+      "word_id": "noun-duim",
+      "text": "Başparmağım kırmızı."
+    },
+    {
+      "word_id": "noun-knie",
+      "text": "Bebek dedesinin dizinde oturuyor."
+    },
+    {
+      "word_id": "noun-zuiden",
+      "text": "Güneyde hava sıcak."
+    },
+    {
+      "word_id": "noun-westen",
+      "text": "Erkek kardeşim ülkenin batısında yaşıyor."
+    },
+    {
+      "word_id": "noun-oosten",
+      "text": "Ailem doğuda yaşıyor."
+    },
+    {
+      "word_id": "noun-seconde",
+      "text": "Bir saniye bekle, hemen geliyorum."
+    },
+    {
+      "word_id": "noun-januari",
+      "text": "Ocak ayında hava çok soğuk."
+    },
+    {
+      "word_id": "noun-februari",
+      "text": "Doğum günüm şubatta."
+    },
+    {
+      "word_id": "noun-maart",
+      "text": "Mart ayında tatile gidiyoruz."
+    },
+    {
+      "word_id": "noun-april",
+      "text": "Nisanda çok yağmur yağıyor."
+    },
+    {
+      "word_id": "noun-mei",
+      "text": "Mayısta hava güzel."
+    },
+    {
+      "word_id": "noun-juni",
+      "text": "Haziranda tatilim var."
+    },
+    {
+      "word_id": "noun-juli",
+      "text": "Temmuzda şehirde hava çok sıcak."
+    },
+    {
+      "word_id": "noun-augustus",
+      "text": "Ağustosta denizde yüzüyorum."
+    },
+    {
+      "word_id": "noun-september",
+      "text": "Eylülde okul başlıyor."
+    },
+    {
+      "word_id": "noun-oktober",
+      "text": "Ekimde ağaçlar sarı ve kırmızı."
+    },
+    {
+      "word_id": "noun-november",
+      "text": "Kasımda hava sık sık soğuk."
+    },
+    {
+      "word_id": "noun-december",
+      "text": "Aralıkta Noel var."
+    },
+    {
+      "word_id": "noun-dinsdag",
+      "text": "Salı günü evde çalışıyorum."
+    },
+    {
+      "word_id": "noun-woensdag",
+      "text": "Çarşamba günü okulum yok."
+    },
+    {
+      "word_id": "noun-donderdag",
+      "text": "Perşembe günü dersim var."
+    },
+    {
+      "word_id": "noun-vrijdag",
+      "text": "Cuma günü saat dörde kadar çalışıyorum."
+    },
+    {
+      "word_id": "noun-zaterdag",
+      "text": "Cumartesi günü pazara gidiyorum."
+    },
+    {
+      "word_id": "noun-zondag",
+      "text": "Pazar günü büyükannemde yemek yiyoruz."
+    },
+    {
+      "word_id": "noun-nul",
+      "text": "Şu an sıfır avrom var."
+    },
+    {
+      "word_id": "noun-twee",
+      "text": "İki gözümüz var."
+    },
+    {
+      "word_id": "noun-drie",
+      "text": "Kız kardeşimin üç çocuğu var."
+    },
+    {
+      "word_id": "noun-vier",
+      "text": "Bir yılda dört mevsim var."
+    },
+    {
+      "word_id": "noun-vijf",
+      "text": "Bir elde beş parmak var."
+    },
+    {
+      "word_id": "noun-zes",
+      "text": "Oğlum altı yaşında."
+    },
+    {
+      "word_id": "noun-zeven",
+      "text": "Saat yedide evdeyim."
+    },
+    {
+      "word_id": "noun-acht",
+      "text": "Ders saat sekizde başlıyor."
+    },
+    {
+      "word_id": "noun-negen",
+      "text": "Sabah saat dokuz."
+    },
+    {
+      "word_id": "noun-tien",
+      "text": "Bir insanın on parmağı var."
+    },
+    {
+      "word_id": "noun-elf",
+      "text": "Erkek kardeşim on bir yaşında."
+    },
+    {
+      "word_id": "noun-twaalf",
+      "text": "Saat on ikide mutfakta yemek yiyoruz."
+    },
+    {
+      "word_id": "noun-dertien",
+      "text": "Kızım on üç yaşında."
+    },
+    {
+      "word_id": "noun-veertien",
+      "text": "Kuzenim on dört yaşında."
+    },
+    {
+      "word_id": "noun-vijftien",
+      "text": "Otobüs on beş dakika sonra geliyor."
+    },
+    {
+      "word_id": "noun-zestien",
+      "text": "Kız kardeşim on altı yaşında."
+    },
+    {
+      "word_id": "noun-zeventien",
+      "text": "On yedi numarada oturuyorum."
+    },
+    {
+      "word_id": "noun-achttien",
+      "text": "Oğlum şimdi on sekiz yaşında."
+    },
+    {
+      "word_id": "noun-negentien",
+      "text": "Büyükannem on dokuz numarada oturuyor."
+    },
+    {
+      "word_id": "noun-twintig",
+      "text": "Odada yirmi sandalye var."
+    },
+    {
+      "word_id": "noun-dertig",
+      "text": "İstasyona otuz dakika yürüyoruz."
+    },
+    {
+      "word_id": "noun-veertig",
+      "text": "Babam haftada kırk saat çalışıyor."
+    },
+    {
+      "word_id": "noun-vijftig",
+      "text": "Amcam elli yaşında."
+    },
+    {
+      "word_id": "noun-zestig",
+      "text": "Dedem altmış yaşında."
+    },
+    {
+      "word_id": "noun-zeventig",
+      "text": "Büyükannem yetmiş yaşında."
+    },
+    {
+      "word_id": "noun-tachtig",
+      "text": "Bu ev seksen yaşında."
+    },
+    {
+      "word_id": "noun-negentig",
+      "text": "Ağaç doksan yaşında."
+    },
+    {
+      "word_id": "noun-honderd",
+      "text": "Bisiklet için yüz avro ödüyorum."
+    },
+    {
+      "word_id": "noun-duizend",
+      "text": "Bin tane sorum var."
+    },
+    {
+      "word_id": "noun-miljoen",
+      "text": "Bu şehirde bir milyon insan yaşıyor."
+    },
+    {
+      "word_id": "noun-miljard",
+      "text": "Bir milyar avro çok para."
+    },
+    {
+      "word_id": "verb-trouwen",
+      "text": "Erkek kardeşim ve kız arkadaşı evlenecek."
+    },
+    {
+      "word_id": "verb-ontmoeten",
+      "text": "Annenle tanışmak istiyorum."
+    },
+    {
+      "word_id": "verb-scheiden",
+      "text": "Komşularım boşanacak."
+    },
+    {
+      "word_id": "verb-verhuizen",
+      "text": "Yeni bir eve taşınacağız."
+    },
+    {
+      "word_id": "verb-huren",
+      "text": "Bir daire kiralamak istiyoruz."
+    },
+    {
+      "word_id": "verb-bereiden",
+      "text": "Balığı sebzeyle hazırlıyorum."
+    },
+    {
+      "word_id": "verb-bakken",
+      "text": "Büyükannem fırında ekmek pişirmek istiyor."
+    },
+    {
+      "word_id": "verb-snijden",
+      "text": "Elmayı kesebilir miyim?"
+    },
+    {
+      "word_id": "verb-duren",
+      "text": "Film ne kadar sürüyor?"
+    },
+    {
+      "word_id": "verb-schrijven",
+      "text": "Adımı ve adresimi yazıyorum."
+    },
+    {
+      "word_id": "verb-bewegen",
+      "text": "Bir bebek kollarını ve bacaklarını hareket ettirebilir."
+    },
+    {
+      "word_id": "verb-bloeden",
+      "text": "Parmağım kanıyor ve ağrıyor."
+    },
+    {
+      "word_id": "verb-genezen",
+      "text": "Bacağımın henüz iyileşmesi gerekiyor."
+    },
+    {
+      "word_id": "verb-roken",
+      "text": "Burada sigara içmeme izin yok."
+    },
+    {
+      "word_id": "verb-regenen",
+      "text": "Bugün yağmur yağacak."
+    },
+    {
+      "word_id": "verb-zijn",
+      "text": "Kız kardeşim ve ben yorgunuz."
+    },
+    {
+      "word_id": "verb-hebben",
+      "text": "Büyük bir evimiz var."
+    },
+    {
+      "word_id": "verb-kunnen",
+      "text": "İyi yüzebilirim."
+    },
+    {
+      "word_id": "verb-gaan",
+      "text": "Yarın parka gidiyoruz."
+    },
+    {
+      "word_id": "verb-komen",
+      "text": "Büyükannem yarın bize geliyor."
+    },
+    {
+      "word_id": "verb-moeten",
+      "text": "Bugün mağazaya gitmem gerekiyor."
+    },
+    {
+      "word_id": "verb-maken",
+      "text": "Mutfakta kahve yapıyoruz."
+    },
+    {
+      "word_id": "verb-zien",
+      "text": "Oradaki otobüsü görüyor musun?"
+    },
+    {
+      "word_id": "verb-doen",
+      "text": "Bugün ne yapıyorsun?"
+    },
+    {
+      "word_id": "verb-krijgen",
+      "text": "Doğum günümde yeni bir telefon alıyorum."
+    },
+    {
+      "word_id": "verb-wassen",
+      "text": "Ellerimi yıkamam gerekiyor."
+    },
+    {
+      "word_id": "verb-staan",
+      "text": "Şişe masanın üstünde duruyor."
+    },
+    {
+      "word_id": "verb-vinden",
+      "text": "Anahtarımı bulamıyorum."
+    },
+    {
+      "word_id": "verb-nemen",
+      "text": "Kutudan bir elma al."
+    },
+    {
+      "word_id": "verb-geven",
+      "text": "Arkadaşıma güzel bir bisiklet veriyorum."
+    },
+    {
+      "word_id": "verb-willen",
+      "text": "Ne yemek istiyorsun?"
+    },
+    {
+      "word_id": "verb-liggen",
+      "text": "Köpek bahçede yatıyor."
+    },
+    {
+      "word_id": "verb-beginnen",
+      "text": "Film on dakika sonra başlıyor."
+    },
+    {
+      "word_id": "verb-mogen",
+      "text": "Buraya oturabilir miyim?"
+    },
+    {
+      "word_id": "verb-denken",
+      "text": "Ailemi düşünüyorum."
+    },
+    {
+      "word_id": "verb-zitten",
+      "text": "Dedem sandalyede oturuyor."
+    },
+    {
+      "word_id": "verb-brengen",
+      "text": "Oğlumu okula götürüyorum."
+    },
+    {
+      "word_id": "verb-lopen",
+      "text": "İstasyona yürüyorum."
+    },
+    {
+      "word_id": "verb-weten",
+      "text": "Anahtarımın nerede olduğunu biliyor musun?"
+    },
+    {
+      "word_id": "verb-openen",
+      "text": "Pencereyi açabilir misiniz?"
+    },
+    {
+      "word_id": "verb-horen",
+      "text": "Otobüsü duymuyorum."
+    },
+    {
+      "word_id": "verb-sluiten",
+      "text": "Kapıyı saat onda kapatıyoruz."
+    },
+    {
+      "word_id": "verb-zeggen",
+      "text": "Ne demek istiyorsun?"
+    },
+    {
+      "word_id": "verb-vragen",
+      "text": "Yolu sormamız gerekiyor."
+    },
+    {
+      "word_id": "verb-spreken",
+      "text": "Öğretmen anne babalarla konuşuyor."
+    },
+    {
+      "word_id": "verb-begrijpen",
+      "text": "Soruyu anlamıyorum."
+    },
+    {
+      "word_id": "verb-heten",
+      "text": "Bu yemeğin adı ne?"
+    },
+    {
+      "word_id": "verb-antwoorden",
+      "text": "Soruma cevap vermiyor."
+    },
+    {
+      "word_id": "verb-dragen",
+      "text": "Oğlum kırmızı bir pantolon giyiyor."
+    },
+    {
+      "word_id": "verb-passen",
+      "text": "Bu ayakkabılar bana uymuyor."
+    },
+    {
+      "word_id": "verb-vliegen",
+      "text": "Güneye uçmak istiyorum."
+    },
+    {
+      "word_id": "verb-rusten",
+      "text": "Büyükannem bugün dinlenmeli."
+    },
+    {
+      "word_id": "verb-bouwen",
+      "text": "Şehirde yeni bir ev inşa ediyorlar."
+    },
+    {
+      "word_id": "verb-groeien",
+      "text": "Oğlum hızlı büyüyor."
+    },
+    {
+      "word_id": "verb-drukken",
+      "text": "Kapıyı açmak için buraya bas."
+    },
+    {
+      "word_id": "verb-draaien",
+      "text": "Anahtarı kapıda çevir."
+    },
+    {
+      "word_id": "verb-hoeven",
+      "text": "Beklemene gerek yok."
+    },
+    {
+      "word_id": "verb-roepen",
+      "text": "Annem beni mutfağa çağırıyor."
+    },
+    {
+      "word_id": "verb-hangen",
+      "text": "Lamba masanın üstünde asılı."
+    },
+    {
+      "word_id": "verb-breken",
+      "text": "Bardak kırılabilir."
+    },
+    {
+      "word_id": "verb-springen",
+      "text": "Köpek yüksek zıplayabilir."
+    },
+    {
+      "word_id": "adj-persoonlijk",
+      "text": "Bu kişisel bir soru."
+    },
+    {
+      "word_id": "adj-vers",
+      "text": "Ekmek taze ve sıcak."
+    },
+    {
+      "word_id": "adj-zuur",
+      "text": "Elma ekşi ve lezzetli değil."
+    },
+    {
+      "word_id": "adj-laat",
+      "text": "Otobüs bugün geç."
+    },
+    {
+      "word_id": "adj-vorig",
+      "text": "Geçen hafta hastaydım."
+    },
+    {
+      "word_id": "adj-vroeg",
+      "text": "Tren bugün erken."
+    },
+    {
+      "word_id": "adj-dagelijks",
+      "text": "Kız kardeşim her gün mağazada çalışıyor."
+    },
+    {
+      "word_id": "adj-rechts",
+      "text": "İstasyon sağda."
+    },
+    {
+      "word_id": "adj-links",
+      "text": "Mağaza istasyonun solunda."
+    },
+    {
+      "word_id": "adj-gezond",
+      "text": "Sebze ve balık sağlıklı."
+    },
+    {
+      "word_id": "adj-zwanger",
+      "text": "Kız kardeşim hamile ve çok mutlu."
+    },
+    {
+      "word_id": "adj-bang",
+      "text": "Köpeğim otobüsten korkuyor."
+    },
+    {
+      "word_id": "adj-boos",
+      "text": "Öğretmen sınıfa kızgın."
+    },
+    {
+      "word_id": "adj-ander",
+      "text": "Başka bir sorun var mı?"
+    },
+    {
+      "word_id": "adj-lang",
+      "text": "Film uzun ve güzel."
+    },
+    {
+      "word_id": "adj-goed",
+      "text": "Büyükannem iyi."
+    },
+    {
+      "word_id": "adj-ver",
+      "text": "Okulum evimden uzak değil."
+    },
+    {
+      "word_id": "adj-hoog",
+      "text": "Duvar çok yüksek."
+    },
+    {
+      "word_id": "adj-jong",
+      "text": "O genç ve sağlıklı."
+    },
+    {
+      "word_id": "adj-rood",
+      "text": "Kız kardeşimin bisikleti kırmızı."
+    },
+    {
+      "word_id": "adj-kort",
+      "text": "Saçım kısa."
+    },
+    {
+      "word_id": "adj-laag",
+      "text": "Masa alçak."
+    },
+    {
+      "word_id": "adj-zwart",
+      "text": "Ayakkabılarım siyah ve yeni."
+    },
+    {
+      "word_id": "adj-leuk",
+      "text": "Eğlenceli bir film."
+    },
+    {
+      "word_id": "adj-slecht",
+      "text": "Hava bugün kötü."
+    },
+    {
+      "word_id": "adj-groen",
+      "text": "Bahçedeki ağaçlar yeşil."
+    },
+    {
+      "word_id": "adj-makkelijk",
+      "text": "Bu soru kolay."
+    },
+    {
+      "word_id": "adj-wit",
+      "text": "Çarşaf beyaz ve temiz."
+    },
+    {
+      "word_id": "adj-dik",
+      "text": "Köpeğim fazla şişman."
+    },
+    {
+      "word_id": "adj-geel",
+      "text": "Güneş sarı."
+    },
+    {
+      "word_id": "adj-oranje",
+      "text": "Havuç turuncu."
+    },
+    {
+      "word_id": "adj-langzaam",
+      "text": "Tren çok yavaş."
+    },
+    {
+      "word_id": "adj-blauw",
+      "text": "Gözlüğüm mavi."
+    },
+    {
+      "word_id": "adj-bruin",
+      "text": "Ekmek kahverengi."
+    },
+    {
+      "word_id": "adj-heet",
+      "text": "Kahve çok sıcak."
+    },
+    {
+      "word_id": "adj-grijs",
+      "text": "Büyükannemin saçı gri."
+    },
+    {
+      "word_id": "adj-geboren",
+      "text": "Oğlum mayısta doğdu."
+    },
+    {
+      "word_id": "adj-getrouwd",
+      "text": "Kız kardeşim evli."
+    },
+    {
+      "word_id": "adj-wakker",
+      "text": "Saat altıda uyanığım."
+    },
+    {
+      "word_id": "adj-half",
+      "text": "Saat iki buçuk."
+    },
+    {
+      "word_id": "adj-rond",
+      "text": "Masa yuvarlak."
+    },
+    {
+      "word_id": "adj-bezig",
+      "text": "Annem mutfakta meşgul."
+    },
+    {
+      "word_id": "adj-rijk",
+      "text": "O zengin ama mutlu değil."
+    },
+    {
+      "word_id": "adj-diep",
+      "text": "Burada deniz derin."
+    },
+    {
+      "word_id": "adj-prima",
+      "text": "Yemek gayet iyi."
+    },
+    {
+      "word_id": "adj-gek",
+      "text": "Oğlum futbola bayılıyor."
+    },
+    {
+      "word_id": "adj-paars",
+      "text": "Mor bir pantolonu var."
+    },
+    {
+      "word_id": "adj-roze",
+      "text": "Kızımın pembe bir bisikleti var."
+    },
+    {
+      "word_id": "adj-aanwezig",
+      "text": "Bugün bütün öğrenciler mevcut."
+    },
+    {
+      "word_id": "adj-aardig",
+      "text": "Komşumuz çok nazik."
+    },
+    {
+      "word_id": "adj-actief",
+      "text": "Dedem hâlâ çok aktif."
+    },
+    {
+      "word_id": "adj-agressief",
+      "text": "Köpek saldırgan değil."
+    },
+    {
+      "word_id": "adj-alleen",
+      "text": "Bugün evde yalnızım."
+    },
+    {
+      "word_id": "adj-apart",
+      "text": "Ayrı bir odada uyuyoruz."
+    },
+    {
+      "word_id": "adj-automatisch",
+      "text": "Kapı otomatik olarak açılıyor."
+    },
+    {
+      "word_id": "adj-bekend",
+      "text": "Bu şarkıcı ülkemizde tanınmış."
+    },
+    {
+      "word_id": "adj-belachelijk",
+      "text": "Bu fikir gerçekten gülünç."
+    },
+    {
+      "word_id": "adj-belangrijk",
+      "text": "Sağlığım çok önemli."
+    },
+    {
+      "word_id": "adj-beleefd",
+      "text": "Her zaman kibar olmalısın."
+    },
+    {
+      "word_id": "adj-beroemd",
+      "text": "Şehirde ünlü bir aktör görüyorum."
+    },
+    {
+      "word_id": "adj-betrouwbaar",
+      "text": "Meslektaşım dürüst ve güvenilir."
+    },
+    {
+      "word_id": "adj-bezorgd",
+      "text": "Annem benim için kaygılı."
+    },
+    {
+      "word_id": "adj-bijzonder",
+      "text": "Bu hediye çok özel."
+    },
+    {
+      "word_id": "adj-bleek",
+      "text": "Yüzün çok solgun."
+    },
+    {
+      "word_id": "adj-blind",
+      "text": "O yaşlı adam kör."
+    },
+    {
+      "word_id": "adj-breed",
+      "text": "Bu sokak çok geniş."
+    },
+    {
+      "word_id": "adj-creatief",
+      "text": "Kız kardeşim çok yaratıcı."
+    },
+    {
+      "word_id": "adj-dankbaar",
+      "text": "Sana çok minnettarım."
+    },
+    {
+      "word_id": "adj-dicht",
+      "text": "Dükkân pazar günü kapalı."
+    },
+    {
+      "word_id": "adj-dichtbij",
+      "text": "Okulum yakın."
+    },
+    {
+      "word_id": "adj-dom",
+      "text": "Bu aptalca bir hataydı."
+    },
+    {
+      "word_id": "adj-donker",
+      "text": "Bodrumda çok karanlık."
+    },
+    {
+      "word_id": "adj-dood",
+      "text": "Bahçedeki çiçek ölü."
+    },
+    {
+      "word_id": "adj-droog",
+      "text": "Havlum şimdiden kuru."
+    },
+    {
+      "word_id": "adj-druk",
+      "text": "Bugün şehirde çok yoğun."
+    },
+    {
+      "word_id": "adj-dubbel",
+      "text": "Kardeşim iki katı kadar yiyor."
+    },
+    {
+      "word_id": "adj-duidelijk",
+      "text": "Cevap çok net."
+    },
+    {
+      "word_id": "adj-dun",
+      "text": "Bu mont kış için fazla ince."
+    },
+    {
+      "word_id": "adj-echt",
+      "text": "Bu altın gerçek."
+    },
+    {
+      "word_id": "adj-eenzaam",
+      "text": "Yaşlı kadın sık sık yalnız."
+    },
+    {
+      "word_id": "adj-eerlijk",
+      "text": "Öğretmenim her zaman dürüst."
+    },
+    {
+      "word_id": "adj-eigen",
+      "text": "Kendi odam var."
+    },
+    {
+      "word_id": "adj-elektrisch",
+      "text": "Babamın elektrikli bir bisikleti var."
+    },
+    {
+      "word_id": "adj-eng",
+      "text": "Film çocuklar için fazla korkutucu."
+    },
+    {
+      "word_id": "adj-enorm",
+      "text": "Kocaman bir evde oturuyoruz."
+    },
+    {
+      "word_id": "adj-erg",
+      "text": "Bu onun için berbat."
+    },
+    {
+      "word_id": "adj-ernstig",
+      "text": "Dedemin hastalığı ağır."
+    },
+    {
+      "word_id": "adj-fijn",
+      "text": "Evde olmak hoş."
+    },
+    {
+      "word_id": "adj-geldig",
+      "text": "Pasaportum hâlâ geçerli."
+    },
+    {
+      "word_id": "adj-gelijk",
+      "text": "Bütün insanlar eşit."
+    },
+    {
+      "word_id": "adj-gemiddeld",
+      "text": "Not ortalamam yedi."
+    },
+    {
+      "word_id": "adj-gevaarlijk",
+      "text": "Bu yol çok tehlikeli."
+    },
+    {
+      "word_id": "adj-gevoelig",
+      "text": "Cildim çok hassas."
+    },
+    {
+      "word_id": "adj-geweldig",
+      "text": "Harika bir tatilimiz vardı."
+    },
+    {
+      "word_id": "adj-gezellig",
+      "text": "Evimiz sıcak ve keyifli."
+    },
+    {
+      "word_id": "adj-grappig",
+      "text": "O film gerçekten komik."
+    },
+    {
+      "word_id": "adj-gratis",
+      "text": "Burada kahve ücretsiz."
+    },
+    {
+      "word_id": "adj-handig",
+      "text": "Dizüstü bilgisayar çok kullanışlı."
+    },
+    {
+      "word_id": "adj-hard",
+      "text": "Yatağım fazla sert."
+    },
+    {
+      "word_id": "adj-helder",
+      "text": "Bugün gökyüzü berrak."
+    },
+    {
+      "word_id": "adj-houten",
+      "text": "Ahşap bir masamız var."
+    },
+    {
+      "word_id": "adj-ingewikkeld",
+      "text": "Bu kural benim için fazla karmaşık."
+    },
+    {
+      "word_id": "adj-interessant",
+      "text": "Bu program çok ilginç."
+    },
+    {
+      "word_id": "adj-jaarlijks",
+      "text": "Her yıl büyük bir partimiz var."
+    },
+    {
+      "word_id": "adj-jaloers",
+      "text": "Erkek kardeşim sık sık kıskanç."
+    },
+    {
+      "word_id": "adj-jammer",
+      "text": "Yağmur yağması yazık."
+    },
+    {
+      "word_id": "adj-juist",
+      "text": "Bu cevap doğru."
+    },
+    {
+      "word_id": "adj-kapot",
+      "text": "Telefonum bozuk."
+    },
+    {
+      "word_id": "adj-keurig",
+      "text": "Odam her zaman düzgün."
+    },
+    {
+      "word_id": "adj-klaar",
+      "text": "Yemek şimdi hazır."
+    },
+    {
+      "word_id": "adj-klassiek",
+      "text": "Klasik bir konsere gidiyoruz."
+    },
+    {
+      "word_id": "adj-kwijt",
+      "text": "Anahtarım kayıp."
+    },
+    {
+      "word_id": "adj-leeg",
+      "text": "Bardağım boş."
+    },
+    {
+      "word_id": "adj-lelijk",
+      "text": "O elbise gerçekten çirkin."
+    },
+    {
+      "word_id": "adj-levend",
+      "text": "Yaşayan bir balık görüyoruz."
+    },
+    {
+      "word_id": "adj-lief",
+      "text": "Küçük kız kardeşim çok sevimli."
+    },
+    {
+      "word_id": "adj-logisch",
+      "text": "Bu kural mantıklı."
+    },
+    {
+      "word_id": "adj-los",
+      "text": "Oğlumun dişi gevşek."
+    },
+    {
+      "word_id": "adj-lui",
+      "text": "Erkek kardeşim bugün çok tembel."
+    },
+    {
+      "word_id": "adj-mogelijk",
+      "text": "Yarın gelmek mümkün mü?"
+    },
+    {
+      "word_id": "adj-nat",
+      "text": "Yağmurdan sonra sokak ıslak."
+    },
+    {
+      "word_id": "adj-natuurlijk",
+      "text": "Doğal bir ürün alıyorum."
+    },
+    {
+      "word_id": "adj-nerveus",
+      "text": "Test için gerginim."
+    },
+    {
+      "word_id": "adj-nieuwsgierig",
+      "text": "Oğlum çok meraklı."
+    },
+    {
+      "word_id": "adj-nodig",
+      "text": "Burada pasaport gerekli."
+    },
+    {
+      "word_id": "adj-onbekend",
+      "text": "Bilinmeyen bir adam görüyorum."
+    },
+    {
+      "word_id": "adj-ongelukkig",
+      "text": "Çocuğumuz mutsuz."
+    },
+    {
+      "word_id": "adj-ongezond",
+      "text": "Çok şeker sağlıksız."
+    },
+    {
+      "word_id": "adj-onzeker",
+      "text": "Cevap konusunda hâlâ emin değilim."
+    },
+    {
+      "word_id": "adj-open",
+      "text": "Pencere açık."
+    },
+    {
+      "word_id": "adj-pijnlijk",
+      "text": "Dizim bugün ağrılı."
+    },
+    {
+      "word_id": "adj-praktisch",
+      "text": "Bu mont güzel ve pratik."
+    },
+    {
+      "word_id": "adj-redelijk",
+      "text": "O fiyat makul."
+    },
+    {
+      "word_id": "adj-regelmatig",
+      "text": "Düzenli olarak kütüphaneye gidiyorum."
+    },
+    {
+      "word_id": "adj-rustig",
+      "text": "Bebek sakin uyuyor."
+    },
+    {
+      "word_id": "adj-saai",
+      "text": "Bu ders çok sıkıcı."
+    },
+    {
+      "word_id": "adj-scherp",
+      "text": "Bu bıçak çok keskin."
+    },
+    {
+      "word_id": "adj-serieus",
+      "text": "Patronum her zaman çok ciddi."
+    },
+    {
+      "word_id": "adj-slim",
+      "text": "Kızım çok akıllı."
+    },
+    {
+      "word_id": "adj-smal",
+      "text": "Merdiven dar."
+    },
+    {
+      "word_id": "adj-spannend",
+      "text": "Bu hikâye çok heyecan verici."
+    },
+    {
+      "word_id": "adj-sterk",
+      "text": "Babam hâlâ çok güçlü."
+    },
+    {
+      "word_id": "adj-stevig",
+      "text": "Bu sandalye çok sağlam."
+    },
+    {
+      "word_id": "adj-stiekem",
+      "text": "Oğlum gizlice bir bisküvi yiyor."
+    },
+    {
+      "word_id": "adj-stil",
+      "text": "Sınıfta çok sessiz."
+    },
+    {
+      "word_id": "adj-streng",
+      "text": "Öğretmenimiz sert."
+    },
+    {
+      "word_id": "adj-tijdelijk",
+      "text": "Bu iş geçici."
+    },
+    {
+      "word_id": "adj-toevallig",
+      "text": "Öğretmenimle tesadüfen şehirde karşılaşıyorum."
+    },
+    {
+      "word_id": "adj-trots",
+      "text": "Oğlumla gururluyum."
+    },
+    {
+      "word_id": "adj-typisch",
+      "text": "Bu yemek ülkemiz için tipik."
+    },
+    {
+      "word_id": "adj-uitstekend",
+      "text": "Buradaki yemek çok iyi."
+    },
+    {
+      "word_id": "adj-uniek",
+      "text": "Her insan eşsiz."
+    },
+    {
+      "word_id": "adj-vals",
+      "text": "Bu para sahte."
+    },
+    {
+      "word_id": "adj-veilig",
+      "text": "Burası çok güvenli."
+    },
+    {
+      "word_id": "adj-verbaasd",
+      "text": "Babam çok şaşkın."
+    },
+    {
+      "word_id": "adj-verdrietig",
+      "text": "Çocuk bugün üzgün."
+    },
+    {
+      "word_id": "adj-verkeerd",
+      "text": "Bu adres yanlış."
+    },
+    {
+      "word_id": "adj-verliefd",
+      "text": "O, erkek kardeşime âşık."
+    },
+    {
+      "word_id": "adj-verplicht",
+      "text": "Bu kurs zorunlu."
+    },
+    {
+      "word_id": "adj-verschillend",
+      "text": "Erkek kardeşim ve ben farklıyız."
+    },
+    {
+      "word_id": "adj-verstandig",
+      "text": "Bu akıllıca bir fikir."
+    },
+    {
+      "word_id": "adj-vervelend",
+      "text": "O sivrisinek çok can sıkıcı."
+    },
+    {
+      "word_id": "adj-vierkant",
+      "text": "Kare bir masamız var."
+    },
+    {
+      "word_id": "adj-vies",
+      "text": "Havlu kirli."
+    },
+    {
+      "word_id": "adj-vlak",
+      "text": "Burada arazi çok düz."
+    },
+    {
+      "word_id": "adj-vol",
+      "text": "Otobüs bugün dolu."
+    },
+    {
+      "word_id": "adj-volgend",
+      "text": "Sonraki tren saat dörtte geliyor."
+    },
+    {
+      "word_id": "adj-voorzichtig",
+      "text": "Annem her zaman dikkatli sürüyor."
+    },
+    {
+      "word_id": "adj-vreemd",
+      "text": "O ses çok tuhaf."
+    },
+    {
+      "word_id": "adj-vreselijk",
+      "text": "Bugün hava korkunç."
+    },
+    {
+      "word_id": "adj-vriendelijk",
+      "text": "Dükkândaki adam güler yüzlü."
+    },
+    {
+      "word_id": "adj-vrij",
+      "text": "Yarın izinliyim."
+    },
+    {
+      "word_id": "adj-vrolijk",
+      "text": "Çocuklar bugün çok neşeli."
+    },
+    {
+      "word_id": "adj-waar",
+      "text": "Bu doğru değil."
+    },
+    {
+      "word_id": "adj-wekelijks",
+      "text": "Annemi haftada bir arıyorum."
+    },
+    {
+      "word_id": "adj-welkom",
+      "text": "Burada her zaman hoş geldin."
+    },
+    {
+      "word_id": "adj-wild",
+      "text": "Ormanda vahşi bir hayvan görüyorum."
+    },
+    {
+      "word_id": "adj-zacht",
+      "text": "Yastığım yumuşak."
+    },
+    {
+      "word_id": "adj-zeker",
+      "text": "Cevabımdan eminim."
+    },
+    {
+      "word_id": "adj-zelfstandig",
+      "text": "Oğlum şimdiden bağımsız."
+    },
+    {
+      "word_id": "adj-zonnig",
+      "text": "Yazın sık sık güneşli."
+    },
+    {
+      "word_id": "adj-zwaar",
+      "text": "Bu bavul fazla ağır."
+    },
+    {
+      "word_id": "adj-zwak",
+      "text": "Bacağım hâlâ güçsüz."
+    },
+    {
+      "word_id": "noun-aankomst",
+      "text": "Varışımız saat dörtte."
+    },
+    {
+      "word_id": "noun-aankoop",
+      "text": "Bu satın alma benim için fazla pahalı."
+    },
+    {
+      "word_id": "noun-aap",
+      "text": "Maymun bir muz yiyor."
+    },
+    {
+      "word_id": "noun-aardappel",
+      "text": "Etle patates yiyorum."
+    },
+    {
+      "word_id": "noun-aarde",
+      "text": "Çiçek toprakta büyüyor."
+    },
+    {
+      "word_id": "noun-achterkant",
+      "text": "Bahçe evin arka tarafında."
+    },
+    {
+      "word_id": "noun-achternaam",
+      "text": "Soyadın nedir?"
+    },
+    {
+      "word_id": "noun-acteur",
+      "text": "Aktör bir filmde oynuyor."
+    },
+    {
+      "word_id": "noun-ademhaling",
+      "text": "Nefes alışım sakin."
+    },
+    {
+      "word_id": "noun-advies",
+      "text": "Annemden tavsiye istiyorum."
+    },
+    {
+      "word_id": "noun-advocaat",
+      "text": "Avukat büyük bir ofiste çalışıyor."
+    },
+    {
+      "word_id": "noun-afdeling",
+      "text": "Meslektaşım başka bir departmanda çalışıyor."
+    },
+    {
+      "word_id": "noun-afscheid",
+      "text": "İstasyondaki veda zor."
+    },
+    {
+      "word_id": "noun-afspraak",
+      "text": "Yarın diş hekimiyle randevum var."
+    },
+    {
+      "word_id": "noun-afstand",
+      "text": "Okula mesafe kısa."
+    },
+    {
+      "word_id": "noun-agent",
+      "text": "Polis memuru sokakta duruyor."
+    },
+    {
+      "word_id": "noun-alcohol",
+      "text": "Arkadaşım alkol içmiyor."
+    },
+    {
+      "word_id": "noun-ambtenaar",
+      "text": "Memur ofiste çalışıyor."
+    },
+    {
+      "word_id": "noun-angst",
+      "text": "Korkum büyük."
+    },
+    {
+      "word_id": "noun-apotheek",
+      "text": "İlaçlarımı eczaneden alıyorum."
+    },
+    {
+      "word_id": "noun-apotheker",
+      "text": "Eczacı bana bir ilaç veriyor."
+    },
+    {
+      "word_id": "noun-app",
+      "text": "Telefonumda bir uygulama var."
+    },
+    {
+      "word_id": "noun-armband",
+      "text": "O, kolunda bir bilezik takıyor."
+    },
+    {
+      "word_id": "noun-attractie",
+      "text": "Bu eğlence aracı çocuklar için eğlenceli."
+    },
+    {
+      "word_id": "noun-automaat",
+      "text": "Otomattan kahve alıyorum."
+    },
+    {
+      "word_id": "noun-avontuur",
+      "text": "Yolculuğumuz büyük bir macera."
+    },
+    {
+      "word_id": "noun-baan",
+      "text": "Kız kardeşim yeni bir iş arıyor."
+    },
+    {
+      "word_id": "noun-baard",
+      "text": "Dedemin sakalı ve gözlüğü var."
+    },
+    {
+      "word_id": "noun-baas",
+      "text": "Patronum bugün ofiste değil."
+    },
+    {
+      "word_id": "noun-bad",
+      "text": "Banyomuzdaki küvet büyük."
+    },
+    {
+      "word_id": "noun-badkamer",
+      "text": "Banyom yatak odamın yanında."
+    },
+    {
+      "word_id": "noun-bagage",
+      "text": "Bagajım arabada."
+    },
+    {
+      "word_id": "noun-bak",
+      "text": "Su dolu kap yerde duruyor."
+    },
+    {
+      "word_id": "noun-bakker",
+      "text": "Ekmeğimi fırıncıdan alıyorum."
+    },
+    {
+      "word_id": "noun-bal",
+      "text": "Çocuklar topla oynuyor."
+    },
+    {
+      "word_id": "noun-ballet",
+      "text": "Kızım tiyatroda bir bale görüyor."
+    },
+    {
+      "word_id": "noun-banaan",
+      "text": "Öğle yemeği olarak bir muz yiyorum."
+    },
+    {
+      "word_id": "noun-bank",
+      "text": "Birlikte koltukta oturuyoruz."
+    },
+    {
+      "word_id": "noun-bar",
+      "text": "Barda bira içiyoruz."
+    },
+    {
+      "word_id": "noun-basisschool",
+      "text": "Oğlum ilkokula gidiyor."
+    },
+    {
+      "word_id": "noun-batterij",
+      "text": "Telefonumun pili boş."
+    },
+    {
+      "word_id": "noun-bedrag",
+      "text": "Hesaptaki tutar yüksek."
+    },
+    {
+      "word_id": "noun-bedrijf",
+      "text": "Babam büyük bir şirkette çalışıyor."
+    },
+    {
+      "word_id": "noun-behandeling",
+      "text": "Tedavi bir saat sürüyor."
+    },
+    {
+      "word_id": "noun-beker",
+      "text": "Kupadan çay içiyorum."
+    },
+    {
+      "word_id": "noun-bel",
+      "text": "Kapının zili bozuk."
+    },
+    {
+      "word_id": "noun-belasting",
+      "text": "Her yıl vergi ödüyoruz."
+    },
+    {
+      "word_id": "noun-belofte",
+      "text": "O, sözünü tutuyor."
+    },
+    {
+      "word_id": "noun-benzine",
+      "text": "Arabam benzinle çalışıyor."
+    },
+    {
+      "word_id": "noun-berg",
+      "text": "Dağa yürüyoruz."
+    },
+    {
+      "word_id": "noun-bericht",
+      "text": "Sana bir mesaj gönderiyorum."
+    },
+    {
+      "word_id": "noun-beroep",
+      "text": "Mesleğin nedir?"
+    },
+    {
+      "word_id": "noun-bestelling",
+      "text": "Sipariş yarın geliyor."
+    },
+    {
+      "word_id": "noun-bestemming",
+      "text": "Varış yerimiz küçük bir köy."
+    },
+    {
+      "word_id": "noun-betaling",
+      "text": "Ödeme mümkün değil."
+    },
+    {
+      "word_id": "noun-beurt",
+      "text": "Şimdi sıra bende."
+    },
+    {
+      "word_id": "noun-bezoek",
+      "text": "Diş hekimine ziyaretim yarın."
+    },
+    {
+      "word_id": "noun-bezoeker",
+      "text": "Ziyaretçi kapıda bekliyor."
+    },
+    {
+      "word_id": "noun-bibliotheek",
+      "text": "Kütüphanede bir dergi okuyorum."
+    },
+    {
+      "word_id": "noun-biet",
+      "text": "O, tencerede bir pancar pişiriyor."
+    },
+    {
+      "word_id": "noun-bijnaam",
+      "text": "Erkek kardeşimin komik bir takma adı var."
+    },
+    {
+      "word_id": "noun-bijwerking",
+      "text": "O hapın bir yan etkisi var."
+    },
+    {
+      "word_id": "noun-bioscoop",
+      "text": "Sinemada bir film izliyoruz."
+    },
+    {
+      "word_id": "noun-blad",
+      "text": "Ağaçta bir yaprak asılı."
+    },
+    {
+      "word_id": "noun-bladzijde",
+      "text": "Her sayfayı okuyorum."
+    },
+    {
+      "word_id": "noun-blessure",
+      "text": "Sakatlığım hâlâ ağrıyor."
+    },
+    {
+      "word_id": "noun-bloem",
+      "text": "O, annesi için bir çiçek alıyor."
+    },
+    {
+      "word_id": "noun-bocht",
+      "text": "Yol burada keskin bir viraj yapıyor."
+    },
+    {
+      "word_id": "noun-boer",
+      "text": "Çiftçinin bir ineği ve bir atı var."
+    },
+    {
+      "word_id": "noun-boerderij",
+      "text": "Çiftlikte birçok hayvan yaşıyor."
+    },
+    {
+      "word_id": "noun-boete",
+      "text": "Polisten para cezası alıyorum."
+    },
+    {
+      "word_id": "noun-bon",
+      "text": "Kasada bir fiş alıyorum."
+    },
+    {
+      "word_id": "noun-boodschap",
+      "text": "Senin için bir mesajım var."
+    },
+    {
+      "word_id": "noun-boon",
+      "text": "Pirinçle fasulye yiyoruz."
+    },
+    {
+      "word_id": "noun-boot",
+      "text": "Tekneyle adaya gidiyoruz."
+    },
+    {
+      "word_id": "noun-bos",
+      "text": "Birlikte ormanda yürüyoruz."
+    },
+    {
+      "word_id": "noun-bot",
+      "text": "Köpeğim bir kemik alıyor."
+    },
+    {
+      "word_id": "noun-boter",
+      "text": "Ekmeğime tereyağı sürüyorum."
+    },
+    {
+      "word_id": "noun-boterham",
+      "text": "Peynirli bir dilim ekmek yiyorum."
+    },
+    {
+      "word_id": "noun-bovenkant",
+      "text": "Masanın üst tarafı ıslak."
+    },
+    {
+      "word_id": "noun-brand",
+      "text": "Mutfakta yangın var."
+    },
+    {
+      "word_id": "noun-brandweer",
+      "text": "İtfaiye eve hızlıca geliyor."
+    },
+    {
+      "word_id": "noun-breedte",
+      "text": "Yolun genişliği dört metre."
+    },
+    {
+      "word_id": "noun-brief",
+      "text": "Büyükanneme bir mektup yazıyorum."
+    },
+    {
+      "word_id": "noun-broodje",
+      "text": "Jambonlu bir sandviç yiyorum."
+    },
+    {
+      "word_id": "noun-brug",
+      "text": "Köprüden geçiyoruz."
+    },
+    {
+      "word_id": "noun-bruid",
+      "text": "Gelin beyaz bir elbise giyiyor."
+    },
+    {
+      "word_id": "noun-bruiloft",
+      "text": "Düğünümüz yazın."
+    },
+    {
+      "word_id": "noun-bui",
+      "text": "Bugün bir sağanak geliyor."
+    },
+    {
+      "word_id": "noun-buitenkant",
+      "text": "Evin dış tarafı beyaz."
+    },
+    {
+      "word_id": "noun-buitenland",
+      "text": "Kız kardeşim yurt dışında yaşıyor."
+    },
+    {
+      "word_id": "noun-cadeau",
+      "text": "Anneme bir hediye veriyorum."
+    },
+    {
+      "word_id": "noun-café",
+      "text": "Kafede kahve içiyoruz."
+    },
+    {
+      "word_id": "noun-camera",
+      "text": "Telefonumun iyi bir kamerası var."
+    },
+    {
+      "word_id": "noun-camping",
+      "text": "Bir kamp alanında uyuyoruz."
+    },
+    {
+      "word_id": "noun-cent",
+      "text": "Bir euro yüz sent."
+    },
+    {
+      "word_id": "noun-centimeter",
+      "text": "Oğlum yüz santimetre boyunda."
+    },
+    {
+      "word_id": "noun-centrum",
+      "text": "Otel şehrin merkezinde."
+    },
+    {
+      "word_id": "noun-champagne",
+      "text": "O, bir kadeh şampanya içiyor."
+    },
+    {
+      "word_id": "noun-chauffeur",
+      "text": "Şoför otobüsü sürüyor."
+    },
+    {
+      "word_id": "noun-cijfer",
+      "text": "Test için iyi bir notum var."
+    },
+    {
+      "word_id": "noun-circus",
+      "text": "Sirke gidiyoruz."
+    },
+    {
+      "word_id": "noun-cirkel",
+      "text": "Çember yuvarlak."
+    },
+    {
+      "word_id": "noun-clown",
+      "text": "Palyaço çok komik."
+    },
+    {
+      "word_id": "noun-club",
+      "text": "Erkek kardeşim bir kulüpte futbol oynuyor."
+    },
+    {
+      "word_id": "noun-code",
+      "text": "Kapının kodu gizli."
+    },
+    {
+      "word_id": "noun-collega",
+      "text": "Meslektaşım sütlü kahve içiyor."
+    },
+    {
+      "word_id": "noun-concert",
+      "text": "Bir konsere gidiyoruz."
+    },
+    {
+      "word_id": "noun-contact",
+      "text": "Komşumla çok iletişimim var."
+    },
+    {
+      "word_id": "noun-contract",
+      "text": "Sözleşmem bir yıllık."
+    },
+    {
+      "word_id": "noun-controle",
+      "text": "Aile hekiminde kontrol yarın."
+    },
+    {
+      "word_id": "noun-cursus",
+      "text": "Kursum eylülde başlıyor."
+    },
+    {
+      "word_id": "noun-dal",
+      "text": "Köy güzel bir vadide."
+    },
+    {
+      "word_id": "noun-dans",
+      "text": "Güzel bir dans görüyorum."
+    },
+    {
+      "word_id": "noun-das",
+      "text": "Babam kırmızı bir kravat takıyor."
+    },
+    {
+      "word_id": "noun-deken",
+      "text": "Çocuk sıcak bir battaniyenin altında uyuyor."
+    },
+    {
+      "word_id": "noun-dienst",
+      "text": "Buradaki hizmet çok iyi."
+    },
+    {
+      "word_id": "noun-dierentuin",
+      "text": "Hayvanat bahçesinde bir aslan görüyoruz."
+    },
+    {
+      "word_id": "noun-dijk",
+      "text": "Bent ülkeyi suya karşı koruyor."
+    },
+    {
+      "word_id": "noun-directeur",
+      "text": "Okulun müdürü güler yüzlü."
+    },
+    {
+      "word_id": "noun-discussie",
+      "text": "Uzun bir tartışmamız var."
+    },
+    {
+      "word_id": "noun-document",
+      "text": "Önemli bir belgeye ihtiyacım var."
+    },
+    {
+      "word_id": "noun-documentaire",
+      "text": "Televizyonda bir belgesel izliyoruz."
+    },
+    {
+      "word_id": "noun-doek",
+      "text": "Pencereyi bir bezle temizliyorum."
+    },
+    {
+      "word_id": "noun-doel",
+      "text": "Amacım yeni bir iş."
+    },
+    {
+      "word_id": "noun-doelpunt",
+      "text": "Oyuncu bir gol atıyor."
+    },
+    {
+      "word_id": "noun-dolfijn",
+      "text": "Bir yunus denizde yüzüyor."
+    },
+    {
+      "word_id": "noun-dorp",
+      "text": "Köyümüz küçük ve sakin."
+    },
+    {
+      "word_id": "noun-douane",
+      "text": "Gümrükte pasaportumu gösteriyorum."
+    },
+    {
+      "word_id": "noun-douche",
+      "text": "Her sabah duş alıyorum."
+    },
+    {
+      "word_id": "noun-draad",
+      "text": "Uzun bir tele ihtiyacım var."
+    },
+    {
+      "word_id": "noun-droom",
+      "text": "Güzel bir rüyam var."
+    },
+    {
+      "word_id": "noun-druif",
+      "text": "Üzüm küçük ve yuvarlak."
+    },
+    {
+      "word_id": "noun-drum",
+      "text": "Oğlum davul çalıyor."
+    },
+    {
+      "word_id": "noun-duin",
+      "text": "Plajın arkasında bir kum tepesi var."
+    },
+    {
+      "word_id": "noun-echtpaar",
+      "text": "Evli çift küçük bir evde oturuyor."
+    },
+    {
+      "word_id": "noun-eend",
+      "text": "Bir ördek hendekte yüzüyor."
+    },
+    {
+      "word_id": "noun-eeuw",
+      "text": "Bir yüzyıl yüz yıldır."
+    },
+    {
+      "word_id": "noun-eigenaar",
+      "text": "Otelin sahibi burada oturuyor."
+    },
+    {
+      "word_id": "noun-eiland",
+      "text": "Ada küçük ve güzel."
+    },
+    {
+      "word_id": "noun-emotie",
+      "text": "Yüzünde güçlü bir duygu görüyorum."
+    },
+    {
+      "word_id": "noun-energie",
+      "text": "Bugün çok enerjim var."
+    },
+    {
+      "word_id": "noun-envelop",
+      "text": "Mektubu bir zarfa koyuyorum."
+    },
+    {
+      "word_id": "noun-ervaring",
+      "text": "Çocuklarla çok deneyimim var."
+    },
+    {
+      "word_id": "noun-excuus",
+      "text": "Komşumdan bir özür alıyorum."
+    },
+    {
+      "word_id": "noun-ezel",
+      "text": "Eşek ağır bir bavul taşıyor."
+    },
+    {
+      "word_id": "noun-fabriek",
+      "text": "Babam bir fabrikada çalışıyor."
+    },
+    {
+      "word_id": "noun-fan",
+      "text": "Oğlum futbolun büyük bir hayranı."
+    },
+    {
+      "word_id": "noun-feest",
+      "text": "Bugün büyük bir partimiz var."
+    },
+    {
+      "word_id": "noun-festival",
+      "text": "Festival yarın başlıyor."
+    },
+    {
+      "word_id": "noun-file",
+      "text": "Trafik sıkışıklığında duruyoruz."
+    },
+    {
+      "word_id": "noun-finale",
+      "text": "Final saat sekizde başlıyor."
+    },
+    {
+      "word_id": "noun-formulier",
+      "text": "Formu dolduruyorum."
+    },
+    {
+      "word_id": "noun-fout",
+      "text": "Küçük bir hata yapıyorum."
+    },
+    {
+      "word_id": "noun-fruit",
+      "text": "O, her gün meyve yer."
+    },
+    {
+      "word_id": "noun-gang",
+      "text": "Evin koridoru karanlık."
+    },
+    {
+      "word_id": "noun-gans",
+      "text": "Bir kaz suda yüzüyor."
+    },
+    {
+      "word_id": "noun-garage",
+      "text": "Arabamız garajda duruyor."
+    },
+    {
+      "word_id": "noun-garnaal",
+      "text": "Pirinçle bir karides yiyorum."
+    },
+    {
+      "word_id": "noun-gas",
+      "text": "Gazla pişiriyoruz."
+    },
+    {
+      "word_id": "noun-gat",
+      "text": "Montumda bir delik var."
+    },
+    {
+      "word_id": "noun-gebouw",
+      "text": "Bu bina çok eski."
+    },
+    {
+      "word_id": "noun-gedicht",
+      "text": "Güzel bir şiir okuyorum."
+    },
+    {
+      "word_id": "noun-geheim",
+      "text": "Arkadaşımın büyük bir sırrı var."
+    },
+    {
+      "word_id": "noun-geliefde",
+      "text": "O, sevgilisine bir mektup yazıyor."
+    },
+    {
+      "word_id": "noun-geluid",
+      "text": "Tuhaf bir ses duyuyorum."
+    },
+    {
+      "word_id": "noun-geluk",
+      "text": "Sana çok şans diliyorum."
+    },
+    {
+      "word_id": "noun-gemeente",
+      "text": "Küçük bir belediyede yaşıyorum."
+    },
+    {
+      "word_id": "noun-geschiedenis",
+      "text": "Okulda tarih öğreniyorum."
+    },
+    {
+      "word_id": "noun-gesprek",
+      "text": "Kısa bir konuşmamız var."
+    },
+    {
+      "word_id": "noun-getal",
+      "text": "On bir sayıdır."
+    },
+    {
+      "word_id": "noun-gevaar",
+      "text": "Burada tehlike büyük."
+    },
+    {
+      "word_id": "noun-gevoel",
+      "text": "İyi bir hissim var."
+    },
+    {
+      "word_id": "noun-gewicht",
+      "text": "Bavulun ağırlığı yüksek."
+    },
+    {
+      "word_id": "noun-gitaar",
+      "text": "Erkek kardeşim gitar çalıyor."
+    },
+    {
+      "word_id": "noun-golf",
+      "text": "Dalga plaja geliyor."
+    },
+    {
+      "word_id": "noun-gordijn",
+      "text": "Pencerenin önündeki perde mavi."
+    },
+    {
+      "word_id": "noun-goud",
+      "text": "Yüzüğü altın."
+    },
+    {
+      "word_id": "noun-gracht",
+      "text": "Kanal şehrin ortasında."
+    },
+    {
+      "word_id": "noun-gram",
+      "text": "Yüz gram peynir alıyorum."
+    },
+    {
+      "word_id": "noun-grap",
+      "text": "Babam bir şaka anlatıyor."
+    },
+    {
+      "word_id": "noun-gras",
+      "text": "İnek ot yiyor."
+    },
+    {
+      "word_id": "noun-grens",
+      "text": "Sınır evimize yakın."
+    },
+    {
+      "word_id": "noun-groep",
+      "text": "Grubumuz küçük."
+    },
+    {
+      "word_id": "noun-grond",
+      "text": "Top yerde."
+    },
+    {
+      "word_id": "noun-grot",
+      "text": "Karanlık bir mağarada yürüyoruz."
+    },
+    {
+      "word_id": "noun-haai",
+      "text": "Bir köpek balığı denizde yüzüyor."
+    },
+    {
+      "word_id": "noun-haard",
+      "text": "Şöminenin yanında oturuyoruz."
+    },
+    {
+      "word_id": "noun-haas",
+      "text": "Bir yabani tavşan tarlada koşuyor."
+    },
+    {
+      "word_id": "noun-hal",
+      "text": "Bisikletler holde duruyor."
+    },
+    {
+      "word_id": "noun-halte",
+      "text": "Otobüs durakta duruyor."
+    },
+    {
+      "word_id": "noun-ham",
+      "text": "Ekmeğimin üstüne peynir ya da jambon istiyorum."
+    },
+    {
+      "word_id": "noun-hamburger",
+      "text": "Oğlum bir hamburger yiyor."
+    },
+    {
+      "word_id": "noun-handdoek",
+      "text": "Duştan sonra bir havlu alıyorum."
+    },
+    {
+      "word_id": "noun-handschoen",
+      "text": "Kışın eldiven takıyorum."
+    },
+    {
+      "word_id": "noun-handtekening",
+      "text": "Kâğıda imzamı atıyorum."
+    },
+    {
+      "word_id": "noun-haring",
+      "text": "Ringa balığı denizden gelen bir balık."
+    },
+    {
+      "word_id": "noun-haven",
+      "text": "Tekne limanda duruyor."
+    },
+    {
+      "word_id": "noun-hek",
+      "text": "Bahçenin çiti yeşil."
+    },
+    {
+      "word_id": "noun-helft",
+      "text": "Elmanın yarısını yiyorum."
+    },
+    {
+      "word_id": "noun-hemd",
+      "text": "Kazağımın altında beyaz bir atlet giyiyorum."
+    },
+    {
+      "word_id": "noun-herinnering",
+      "text": "O günden güzel bir anım var."
+    },
+    {
+      "word_id": "noun-hert",
+      "text": "Bir geyik ormanda yürüyor."
+    },
+    {
+      "word_id": "noun-heuvel",
+      "text": "Ev bir tepede duruyor."
+    },
+    {
+      "word_id": "noun-hiel",
+      "text": "Topuğum ağrıyor."
+    },
+    {
+      "word_id": "noun-hitte",
+      "text": "Aşırı sıcakta çok su içiyorum."
+    },
+    {
+      "word_id": "noun-hobby",
+      "text": "Hobim futbol."
+    },
+    {
+      "word_id": "noun-hoed",
+      "text": "Başında bir şapka var."
+    },
+    {
+      "word_id": "noun-hoek",
+      "text": "Sandalye köşede duruyor."
+    },
+    {
+      "word_id": "noun-hoes",
+      "text": "Telefonumun mavi bir kılıfı var."
+    },
+    {
+      "word_id": "noun-honger",
+      "text": "Dünyadaki açlık büyük bir sorun."
+    },
+    {
+      "word_id": "noun-honing",
+      "text": "Çayıma bal koyuyorum."
+    },
+    {
+      "word_id": "noun-hoofdpijn",
+      "text": "Baş ağrım bugün çok güçlü."
+    },
+    {
+      "word_id": "noun-hoofdstad",
+      "text": "Kız kardeşim başkentte yaşıyor."
+    },
+    {
+      "word_id": "noun-hoofdstraat",
+      "text": "Otel ana caddede."
+    },
+    {
+      "word_id": "noun-hoofdstuk",
+      "text": "Bu bölüm çok uzun."
+    },
+    {
+      "word_id": "noun-hoogte",
+      "text": "Kulenin yüksekliği kırk metre."
+    },
+    {
+      "word_id": "noun-horloge",
+      "text": "Kol saatim bozuk."
+    },
+    {
+      "word_id": "noun-hotel",
+      "text": "Bir otelde uyuyoruz."
+    },
+    {
+      "word_id": "noun-hout",
+      "text": "Bu masa tahtadan."
+    },
+    {
+      "word_id": "noun-huisarts",
+      "text": "Aile hekimine gidiyorum."
+    },
+    {
+      "word_id": "noun-huisdier",
+      "text": "Köpek bir evcil hayvandır."
+    },
+    {
+      "word_id": "noun-huisnummer",
+      "text": "Kapı numaram on iki."
+    },
+    {
+      "word_id": "noun-huisvrouw",
+      "text": "Komşum bir ev hanımı."
+    },
+    {
+      "word_id": "noun-huiswerk",
+      "text": "Oğlum ev ödevini yapıyor."
+    },
+    {
+      "word_id": "noun-hulp",
+      "text": "Yardıma ihtiyacım var."
+    },
+    {
+      "word_id": "noun-humor",
+      "text": "Dedemin çok mizahı var."
+    },
+    {
+      "word_id": "noun-huur",
+      "text": "Evin kirası yüksek."
+    },
+    {
+      "word_id": "noun-idee",
+      "text": "Bu iyi bir fikir."
+    },
+    {
+      "word_id": "noun-ijs",
+      "text": "Suyun üstünde buz var."
+    },
+    {
+      "word_id": "noun-ijzer",
+      "text": "Bıçak demirden."
+    },
+    {
+      "word_id": "noun-informatie",
+      "text": "İnternette bilgi arıyorum."
+    },
+    {
+      "word_id": "noun-ingang",
+      "text": "Otelin girişi açık."
+    },
+    {
+      "word_id": "noun-ingrediënt",
+      "text": "Tuz çorbanın bir malzemesi."
+    },
+    {
+      "word_id": "noun-inkomen",
+      "text": "İyi bir gelir önemlidir."
+    },
+    {
+      "word_id": "noun-insect",
+      "text": "Masanın üstünde bir böcek görüyorum."
+    },
+    {
+      "word_id": "noun-instrument",
+      "text": "Gitar bir enstrümandır."
+    },
+    {
+      "word_id": "noun-interesse",
+      "text": "Müziğe çok ilgim var."
+    },
+    {
+      "word_id": "noun-internet",
+      "text": "İnternetim bugün çok yavaş."
+    },
+    {
+      "word_id": "noun-jas",
+      "text": "Hava soğuk, bu yüzden mont giyiyorum."
+    },
+    {
+      "word_id": "noun-journalist",
+      "text": "Gazeteci bir gazete için yazıyor."
+    },
+    {
+      "word_id": "noun-jurk",
+      "text": "O, güzel bir elbise giyiyor."
+    },
+    {
+      "word_id": "noun-kaak",
+      "text": "Çene kemiğim ağrıyor."
+    },
+    {
+      "word_id": "noun-kaart",
+      "text": "Sokağı haritada arıyorum."
+    },
+    {
+      "word_id": "noun-kachel",
+      "text": "Soba oturma odasında duruyor."
+    },
+    {
+      "word_id": "noun-kade",
+      "text": "Gemi rıhtımda duruyor."
+    },
+    {
+      "word_id": "noun-kam",
+      "text": "Saçım için bir tarak kullanıyorum."
+    },
+    {
+      "word_id": "noun-kampioen",
+      "text": "Şampiyon bir madalya alıyor."
+    },
+    {
+      "word_id": "noun-kanaal",
+      "text": "Tekne kanalda duruyor."
+    },
+    {
+      "word_id": "noun-kant",
+      "text": "Pencerenin tarafında oturuyorum."
+    },
+    {
+      "word_id": "noun-kantoor",
+      "text": "Her gün ofiste çalışıyorum."
+    },
+    {
+      "word_id": "noun-kapper",
+      "text": "Saçım için kuaföre gidiyorum."
+    },
+    {
+      "word_id": "noun-kassa",
+      "text": "Kasada ödüyorum."
+    },
+    {
+      "word_id": "noun-kasteel",
+      "text": "Kale çok eski."
+    },
+    {
+      "word_id": "noun-kelder",
+      "text": "Şarabı bodrumda saklıyoruz."
+    },
+    {
+      "word_id": "noun-kerk",
+      "text": "Köyün güzel bir kilisesi var."
+    },
+    {
+      "word_id": "noun-keuze",
+      "text": "Bu benim tercihim."
+    },
+    {
+      "word_id": "noun-kilogram",
+      "text": "Bir kilogram elma alıyorum."
+    },
+    {
+      "word_id": "noun-kilometer",
+      "text": "Okulum bir kilometre uzakta."
+    },
+    {
+      "word_id": "noun-kin",
+      "text": "Küçük bir çenesi var."
+    },
+    {
+      "word_id": "noun-kinderopvang",
+      "text": "Oğlum kreşe gidiyor."
+    },
+    {
+      "word_id": "noun-kist",
+      "text": "Sandıkta eski ayakkabılar var."
+    },
+    {
+      "word_id": "noun-klant",
+      "text": "Müşteri kasada ödüyor."
+    },
+    {
+      "word_id": "noun-kleinkind",
+      "text": "Büyükannemin bir torunu var."
+    },
+    {
+      "word_id": "noun-klok",
+      "text": "Saat duvarda asılı."
+    },
+    {
+      "word_id": "noun-knop",
+      "text": "Düğmeye basıyorum."
+    },
+    {
+      "word_id": "noun-koe",
+      "text": "İnek süt veriyor."
+    },
+    {
+      "word_id": "noun-koek",
+      "text": "Çayla birlikte bir kurabiye yiyorum."
+    },
+    {
+      "word_id": "noun-koekje",
+      "text": "Çocuk bir bisküvi alıyor."
+    },
+    {
+      "word_id": "noun-koelkast",
+      "text": "Süt buzdolabında duruyor."
+    },
+    {
+      "word_id": "noun-koffer",
+      "text": "Bavulum koridorda duruyor."
+    },
+    {
+      "word_id": "noun-kok",
+      "text": "Aşçı mutfakta çorba yapıyor."
+    },
+    {
+      "word_id": "noun-konijn",
+      "text": "Tavşan bir havuç yiyor."
+    },
+    {
+      "word_id": "noun-kool",
+      "text": "Pazarda lahana alıyorum."
+    },
+    {
+      "word_id": "noun-koorts",
+      "text": "Oğlumun ateşi var."
+    },
+    {
+      "word_id": "noun-kopje",
+      "text": "Bir fincan çay içiyorum."
+    },
+    {
+      "word_id": "noun-kou",
+      "text": "Soğuğa karşı bir atkı takıyorum."
+    },
+    {
+      "word_id": "noun-kous",
+      "text": "Çorabımda bir delik var."
+    },
+    {
+      "word_id": "noun-kraag",
+      "text": "Montumun yakası beyaz."
+    },
+    {
+      "word_id": "noun-krant",
+      "text": "Babam her gün gazete okuyor."
+    },
+    {
+      "word_id": "noun-kruispunt",
+      "text": "Kavşakta sola gidiyoruz."
+    },
+    {
+      "word_id": "noun-kunst",
+      "text": "Sanatı ve müziği seviyorum."
+    },
+    {
+      "word_id": "noun-kunstenaar",
+      "text": "Sanatçı güzel bir resim yapıyor."
+    },
+    {
+      "word_id": "noun-kunstwerk",
+      "text": "Bu sanat eseri çok güzel."
+    },
+    {
+      "word_id": "noun-kus",
+      "text": "O, oğluna bir öpücük veriyor."
+    },
+    {
+      "word_id": "noun-kust",
+      "text": "Kıyıya yakın oturuyoruz."
+    },
+    {
+      "word_id": "noun-laan",
+      "text": "Bulvarda çok ağaç var."
+    },
+    {
+      "word_id": "noun-lach",
+      "text": "Güzel bir gülüşü var."
+    },
+    {
+      "word_id": "noun-landschap",
+      "text": "Manzara çok güzel."
+    },
+    {
+      "word_id": "noun-laptop",
+      "text": "Dizüstü bilgisayarımda çalışıyorum."
+    },
+    {
+      "word_id": "noun-leerling",
+      "text": "Öğrenci adını yazıyor."
+    },
+    {
+      "word_id": "noun-leeuw",
+      "text": "Aslan et yiyor."
+    },
+    {
+      "word_id": "noun-lengte",
+      "text": "Boyun kaç?"
+    },
+    {
+      "word_id": "noun-lening",
+      "text": "Kredimi her ay ödüyorum."
+    },
+    {
+      "word_id": "noun-lepel",
+      "text": "Çorbayı kaşıkla yiyorum."
+    },
+    {
+      "word_id": "noun-letter",
+      "text": "Bir kelimenin çok harfi var."
+    },
+    {
+      "word_id": "noun-leugen",
+      "text": "Bu bir yalan."
+    },
+    {
+      "word_id": "noun-lever",
+      "text": "Karaciğer vücutta."
+    },
+    {
+      "word_id": "noun-licht",
+      "text": "Odadaki ışık açık."
+    },
+    {
+      "word_id": "noun-lied",
+      "text": "O, güzel bir şarkı söylüyor."
+    },
+    {
+      "word_id": "noun-liefde",
+      "text": "Müziğe olan aşkım büyük."
+    },
+    {
+      "word_id": "noun-lift",
+      "text": "Asansör bozuk."
+    },
+    {
+      "word_id": "noun-lijst",
+      "text": "Dükkân için bir liste yapıyorum."
+    },
+    {
+      "word_id": "noun-link",
+      "text": "Sana bir bağlantı gönderiyorum."
+    },
+    {
+      "word_id": "noun-lip",
+      "text": "Dudakları kırmızı."
+    },
+    {
+      "word_id": "noun-liter",
+      "text": "Bir litre süt alıyorum."
+    },
+    {
+      "word_id": "noun-loket",
+      "text": "Gişenin önünde duruyorum."
+    },
+    {
+      "word_id": "noun-long",
+      "text": "Akciğer göğüste."
+    },
+    {
+      "word_id": "noun-lucht",
+      "text": "Gökyüzünde bir kuş uçuyor."
+    },
+    {
+      "word_id": "noun-luchthaven",
+      "text": "Havalimanında bekliyoruz."
+    },
+    {
+      "word_id": "noun-lunch",
+      "text": "Öğle yemeğimi okulda yiyorum."
+    },
+    {
+      "word_id": "noun-luxe",
+      "text": "Büyük bir ev lüks."
+    },
+    {
+      "word_id": "noun-maag",
+      "text": "Midem ağrıyor."
+    },
+    {
+      "word_id": "noun-maaltijd",
+      "text": "Birlikte sıcak bir öğün yiyoruz."
+    },
+    {
+      "word_id": "noun-maan",
+      "text": "Ay güzel ve yuvarlak."
+    },
+    {
+      "word_id": "noun-machine",
+      "text": "Bu makine kahve yapıyor."
+    },
+    {
+      "word_id": "noun-makelaar",
+      "text": "Emlakçı bize evi gösteriyor."
+    },
+    {
+      "word_id": "noun-manager",
+      "text": "Yönetici çok çalışıyor."
+    },
+    {
+      "word_id": "noun-map",
+      "text": "Belgelerimi bir dosyada saklıyorum."
+    },
+    {
+      "word_id": "noun-medaille",
+      "text": "Kazanan bir madalya alıyor."
+    },
+    {
+      "word_id": "noun-medewerker",
+      "text": "Çalışan müşteriye yardım ediyor."
+    },
+    {
+      "word_id": "noun-meester",
+      "text": "Öğretmen çocuklara okumayı öğretiyor."
+    },
+    {
+      "word_id": "noun-melk",
+      "text": "Her sabah süt içiyorum."
+    },
+    {
+      "word_id": "noun-mening",
+      "text": "Senin görüşün nedir?"
+    },
+    {
+      "word_id": "noun-merk",
+      "text": "Bu iyi bir marka."
+    },
+    {
+      "word_id": "noun-metaal",
+      "text": "Kapı metalden."
+    },
+    {
+      "word_id": "noun-meter",
+      "text": "Ev on metre genişliğinde."
+    },
+    {
+      "word_id": "noun-metro",
+      "text": "İşime metroyla gidiyorum."
+    },
+    {
+      "word_id": "noun-meubel",
+      "text": "Masa bir mobilyadır."
+    },
+    {
+      "word_id": "noun-midden",
+      "text": "Odanın ortasında duruyoruz."
+    },
+    {
+      "word_id": "noun-millimeter",
+      "text": "Bir santimetre on milimetredir."
+    },
+    {
+      "word_id": "noun-mist",
+      "text": "Yolda çok sis var."
+    },
+    {
+      "word_id": "noun-moedertaal",
+      "text": "Ana dilim çok güzel."
+    },
+    {
+      "word_id": "noun-molen",
+      "text": "Değirmen suyun yanında."
+    },
+    {
+      "word_id": "noun-mondkap",
+      "text": "Hastanede maske takıyorum."
+    },
+    {
+      "word_id": "noun-mossel",
+      "text": "Bir midye bir deniz kabuğunda."
+    },
+    {
+      "word_id": "noun-motor",
+      "text": "Arabanın motoru bozuk."
+    },
+    {
+      "word_id": "noun-mug",
+      "text": "Kolumda bir sivrisinek var."
+    },
+    {
+      "word_id": "noun-muis",
+      "text": "Mutfakta bir fare var."
+    },
+    {
+      "word_id": "noun-museum",
+      "text": "Müzeye gidiyoruz."
+    },
+    {
+      "word_id": "noun-muts",
+      "text": "Kışın bere takıyorum."
+    },
+    {
+      "word_id": "noun-muzikant",
+      "text": "Müzisyen piyano çalıyor."
+    },
+    {
+      "word_id": "noun-natuur",
+      "text": "Burada doğa güzel."
+    },
+    {
+      "word_id": "noun-natuurkunde",
+      "text": "Okulda fizik öğreniyorum."
+    },
+    {
+      "word_id": "noun-nest",
+      "text": "Kuş yuvada."
+    },
+    {
+      "word_id": "noun-nicht",
+      "text": "Kız kuzenim büyük bir evde oturuyor."
+    },
+    {
+      "word_id": "noun-nieuws",
+      "text": "Haberleri telefonumdan okuyorum."
+    },
+    {
+      "word_id": "noun-noorden",
+      "text": "Köy kuzeyde."
+    },
+    {
+      "word_id": "noun-oceaan",
+      "text": "Okyanus büyük ve derin."
+    },
+    {
+      "word_id": "noun-olifant",
+      "text": "Fil büyük bir hayvandır."
+    },
+    {
+      "word_id": "noun-onderarm",
+      "text": "Ön kolum ağrıyor."
+    },
+    {
+      "word_id": "noun-onderbroek",
+      "text": "Her gün temiz bir külot giyiyorum."
+    },
+    {
+      "word_id": "noun-onderkant",
+      "text": "Kutunun alt tarafı ıslak."
+    },
+    {
+      "word_id": "noun-ondernemer",
+      "text": "Komşum bir girişimci."
+    },
+    {
+      "word_id": "noun-onderwijs",
+      "text": "İyi eğitim önemlidir."
+    },
+    {
+      "word_id": "noun-onzin",
+      "text": "Bu gerçekten saçmalık."
+    },
+    {
+      "word_id": "noun-opdracht",
+      "text": "Öğretmen bize bir görev veriyor."
+    },
+    {
+      "word_id": "noun-operatie",
+      "text": "Ameliyat yarın hastanede."
+    },
+    {
+      "word_id": "noun-binnenkant",
+      "text": "Dolabın iç tarafı boş."
+    },
+    {
+      "word_id": "noun-opleiding",
+      "text": "Polis teşkilatında eğitim alıyor."
+    },
+    {
+      "word_id": "noun-opmerking",
+      "text": "Esprili bir yorum yapıyor."
+    },
+    {
+      "word_id": "noun-oven",
+      "text": "Fırın çok sıcak."
+    },
+    {
+      "word_id": "noun-paard",
+      "text": "At çimen yiyor."
+    },
+    {
+      "word_id": "noun-pad",
+      "text": "Bu patika plaja gidiyor."
+    },
+    {
+      "word_id": "noun-paddenstoel",
+      "text": "Mantar ağacın altında büyüyor."
+    },
+    {
+      "word_id": "noun-pagina",
+      "text": "Bilgisayarımdaki sayfa boş."
+    },
+    {
+      "word_id": "noun-pak",
+      "text": "Siyah bir takım elbise giyiyor."
+    },
+    {
+      "word_id": "noun-pakket",
+      "text": "Paket postayla geliyor."
+    },
+    {
+      "word_id": "noun-papa",
+      "text": "Babam bir fabrikada çalışıyor."
+    },
+    {
+      "word_id": "noun-papier",
+      "text": "Yerde kâğıt var."
+    },
+    {
+      "word_id": "noun-paraplu",
+      "text": "Yağmur yağıyor, o yüzden şemsiyemi alıyorum."
+    },
+    {
+      "word_id": "noun-partner",
+      "text": "Partnerim bugün evden çalışıyor."
+    },
+    {
+      "word_id": "noun-paspoort",
+      "text": "Gümrükte pasaportumu gösteriyorum."
+    },
+    {
+      "word_id": "noun-passagier",
+      "text": "Yolcu durakta bekliyor."
+    },
+    {
+      "word_id": "noun-pasta",
+      "text": "Bugün domates soslu makarna yiyoruz."
+    },
+    {
+      "word_id": "noun-pauze",
+      "text": "On dakikalık bir molamız var."
+    },
+    {
+      "word_id": "noun-pech",
+      "text": "Arabamla ilgili şanssızlık yaşıyorum."
+    },
+    {
+      "word_id": "noun-peer",
+      "text": "Öğle yemeğinden sonra bir armut yiyorum."
+    },
+    {
+      "word_id": "noun-pen",
+      "text": "Kalemini ödünç alabilir miyim?"
+    },
+    {
+      "word_id": "noun-pensioen",
+      "text": "Dedem gelecek yıl emekli oluyor."
+    },
+    {
+      "word_id": "noun-peper",
+      "text": "Çorbana karabiber ister misin?"
+    },
+    {
+      "word_id": "noun-perron",
+      "text": "Peronda trenin gelmesini bekliyoruz."
+    },
+    {
+      "word_id": "noun-personeel",
+      "text": "Personel bugün çok nazik."
+    },
+    {
+      "word_id": "noun-pet",
+      "text": "Güneşte kırmızı bir kasket takıyor."
+    },
+    {
+      "word_id": "noun-piano",
+      "text": "Kızım piyano çalıyor."
+    },
+    {
+      "word_id": "noun-pijl",
+      "text": "Ok sağa işaret ediyor."
+    },
+    {
+      "word_id": "noun-pil",
+      "text": "Her sabah bir hap alıyorum."
+    },
+    {
+      "word_id": "noun-piloot",
+      "text": "Pilot uçakta çalışıyor."
+    },
+    {
+      "word_id": "noun-pink",
+      "text": "Serçe parmağım ağrıyor."
+    },
+    {
+      "word_id": "noun-pizza",
+      "text": "Peynirli bir pizza sipariş ediyoruz."
+    },
+    {
+      "word_id": "noun-plaats",
+      "text": "Bu yer hâlâ boş."
+    },
+    {
+      "word_id": "noun-plafond",
+      "text": "Tavanda bir lamba var."
+    },
+    {
+      "word_id": "noun-plan",
+      "text": "Planı çok akıllıca."
+    },
+    {
+      "word_id": "noun-plant",
+      "text": "Bitkinin suya ve güneşe ihtiyacı var."
+    },
+    {
+      "word_id": "noun-plastic",
+      "text": "Bu plastik, cam değil."
+    },
+    {
+      "word_id": "noun-plein",
+      "text": "Meydanda büyük bir kilise var."
+    },
+    {
+      "word_id": "noun-plezier",
+      "text": "Derste çok keyif alıyoruz."
+    },
+    {
+      "word_id": "noun-poes",
+      "text": "Kedi sandalyede uyuyor."
+    },
+    {
+      "word_id": "noun-polder",
+      "text": "Polder düz ve yeşil."
+    },
+    {
+      "word_id": "noun-politie",
+      "text": "Polis kazada bize yardım ediyor."
+    },
+    {
+      "word_id": "noun-pond",
+      "text": "Yarım kilo peynir alıyorum."
+    },
+    {
+      "word_id": "noun-poot",
+      "text": "Köpeğin patisi ağrıyor."
+    },
+    {
+      "word_id": "noun-pop",
+      "text": "Kız oyuncak bebeğiyle oynuyor."
+    },
+    {
+      "word_id": "noun-portemonnee",
+      "text": "Param cüzdanımda."
+    },
+    {
+      "word_id": "noun-post",
+      "text": "Posta her gün saat onda geliyor."
+    },
+    {
+      "word_id": "noun-postbode",
+      "text": "Postacı bir mektup getiriyor."
+    },
+    {
+      "word_id": "noun-postcode",
+      "text": "Posta kodunu forma yaz."
+    },
+    {
+      "word_id": "noun-postkantoor",
+      "text": "Postane pazar günü kapalı."
+    },
+    {
+      "word_id": "noun-pot",
+      "text": "Bal kavanozda."
+    },
+    {
+      "word_id": "noun-potlood",
+      "text": "Kurşun kalemle yazıyorum."
+    },
+    {
+      "word_id": "noun-probleem",
+      "text": "Bilgisayarımla ilgili bir sorunum var."
+    },
+    {
+      "word_id": "noun-procent",
+      "text": "Sınıfın yüzde onu hasta."
+    },
+    {
+      "word_id": "noun-product",
+      "text": "Bu ürün ucuz."
+    },
+    {
+      "word_id": "noun-programma",
+      "text": "Program saat sekizde başlıyor."
+    },
+    {
+      "word_id": "noun-project",
+      "text": "Bir proje üzerinde birlikte çalışıyoruz."
+    },
+    {
+      "word_id": "noun-punt",
+      "text": "Doğru cevap için bir puan alırsın."
+    },
+    {
+      "word_id": "noun-radio",
+      "text": "Dedem her akşam radyo dinliyor."
+    },
+    {
+      "word_id": "noun-rapport",
+      "text": "Öğretmen bana iyi bir karne veriyor."
+    },
+    {
+      "word_id": "noun-rat",
+      "text": "Sıçan peyniri yiyor."
+    },
+    {
+      "word_id": "noun-reactie",
+      "text": "Mektubuma vereceği yanıtı bekliyorum."
+    },
+    {
+      "word_id": "noun-reclame",
+      "text": "Yeni bir araba için reklam görüyorum."
+    },
+    {
+      "word_id": "noun-reden",
+      "text": "Korkmak için bir neden yok."
+    },
+    {
+      "word_id": "noun-regel",
+      "text": "Bu okulda önemli bir kural."
+    },
+    {
+      "word_id": "noun-regen",
+      "text": "Yağmur çatıya düşüyor."
+    },
+    {
+      "word_id": "noun-regenboog",
+      "text": "Şehrin üzerinde bir gökkuşağı görüyoruz."
+    },
+    {
+      "word_id": "noun-reis",
+      "text": "Yolculuğumuz iki gün sürüyor."
+    },
+    {
+      "word_id": "noun-rekening",
+      "text": "Restoranda hesabı istiyoruz."
+    },
+    {
+      "word_id": "noun-rem",
+      "text": "Bisikletimin freni bozuk."
+    },
+    {
+      "word_id": "noun-rib",
+      "text": "Gülünce kaburgam ağrıyor."
+    },
+    {
+      "word_id": "noun-richting",
+      "text": "Yanlış yöne yürüyoruz."
+    },
+    {
+      "word_id": "noun-riem",
+      "text": "Pantolonunun üstüne kemer takıyor."
+    },
+    {
+      "word_id": "noun-rij",
+      "text": "Kasanın önünde uzun bir sıra var."
+    },
+    {
+      "word_id": "noun-rijbewijs",
+      "text": "Ehliyet olmadan araba kullanamazsın."
+    },
+    {
+      "word_id": "noun-rijst",
+      "text": "Pirinç ve tavuk yiyoruz."
+    },
+    {
+      "word_id": "noun-rit",
+      "text": "Plaja yolculuk bir saat sürüyor."
+    },
+    {
+      "word_id": "noun-rivier",
+      "text": "Nehir geniş ve derin."
+    },
+    {
+      "word_id": "noun-roman",
+      "text": "Trende bir roman okuyorum."
+    },
+    {
+      "word_id": "noun-rook",
+      "text": "Mutfakta duman var."
+    },
+    {
+      "word_id": "noun-room",
+      "text": "Kahveme krema koyuyorum."
+    },
+    {
+      "word_id": "noun-route",
+      "text": "Istasyona giden güzergâh uzun."
+    },
+    {
+      "word_id": "noun-ruzie",
+      "text": "Erkek kardeşimin kız kardeşimle kavgası var."
+    },
+    {
+      "word_id": "noun-salaris",
+      "text": "Maaşı çok düşük."
+    },
+    {
+      "word_id": "noun-sap",
+      "text": "Her sabah meyve suyu içiyorum."
+    },
+    {
+      "word_id": "noun-schaap",
+      "text": "Koyun yün veriyor."
+    },
+    {
+      "word_id": "noun-schaduw",
+      "text": "Ağacın gölgesinde oturuyoruz."
+    },
+    {
+      "word_id": "noun-schelp",
+      "text": "Çocuk plajda bir deniz kabuğu buluyor."
+    },
+    {
+      "word_id": "noun-scherm",
+      "text": "Telefonumun ekranı kırık."
+    },
+    {
+      "word_id": "noun-schilderij",
+      "text": "Tablo yatağımın üstünde asılı."
+    },
+    {
+      "word_id": "noun-schip",
+      "text": "Gemi limanda duruyor."
+    },
+    {
+      "word_id": "noun-schoolplein",
+      "text": "Çocuklar okul bahçesinde oynuyor."
+    },
+    {
+      "word_id": "noun-schort",
+      "text": "Aşçı beyaz bir önlük giyiyor."
+    },
+    {
+      "word_id": "noun-schotel",
+      "text": "Fincan, fincan tabağının üstünde duruyor."
+    },
+    {
+      "word_id": "noun-schrift",
+      "text": "Adımı deftere yazıyorum."
+    },
+    {
+      "word_id": "noun-schrijver",
+      "text": "Yazar bir şiir yazıyor."
+    },
+    {
+      "word_id": "noun-serie",
+      "text": "Televizyonda birlikte bir dizi izliyoruz."
+    },
+    {
+      "word_id": "noun-sfeer",
+      "text": "Partideki ortam çok samimi."
+    },
+    {
+      "word_id": "noun-sjaal",
+      "text": "Hava soğuk, o yüzden atkı takıyorum."
+    },
+    {
+      "word_id": "noun-sla",
+      "text": "Peynirle marul yiyorum."
+    },
+    {
+      "word_id": "noun-slaap",
+      "text": "Uykum var ve yatmak istiyorum."
+    },
+    {
+      "word_id": "noun-slaapkamer",
+      "text": "Yatak odam küçük ama şirin."
+    },
+    {
+      "word_id": "noun-slak",
+      "text": "Salyangoz çok yavaş."
+    },
+    {
+      "word_id": "noun-slang",
+      "text": "Yılan çimenlerin arasında sürünüyor."
+    },
+    {
+      "word_id": "noun-sloot",
+      "text": "Hendek su dolu."
+    },
+    {
+      "word_id": "noun-slot",
+      "text": "Kapının kilidi bozuk."
+    },
+    {
+      "word_id": "noun-sneeuw",
+      "text": "Dağın üstünde kar var."
+    },
+    {
+      "word_id": "noun-snelheid",
+      "text": "Arabanın hızı çok yüksek."
+    },
+    {
+      "word_id": "noun-snelweg",
+      "text": "Otoyol bugün çok kalabalık."
+    },
+    {
+      "word_id": "noun-soep",
+      "text": "Çorba çok sıcak."
+    },
+    {
+      "word_id": "noun-sok",
+      "text": "Çorabımda bir delik var."
+    },
+    {
+      "word_id": "noun-som",
+      "text": "Bu hesap problemi benim için çok zor."
+    },
+    {
+      "word_id": "noun-speelgoed",
+      "text": "Bebek oyuncaklarıyla oynuyor."
+    },
+    {
+      "word_id": "noun-spel",
+      "text": "Bu oyunu her hafta oynuyoruz."
+    },
+    {
+      "word_id": "noun-speler",
+      "text": "Oyuncu sahada yürüyor."
+    },
+    {
+      "word_id": "noun-sportschool",
+      "text": "Kız kardeşim spor salonuna gidiyor."
+    },
+    {
+      "word_id": "noun-spul",
+      "text": "Eşyalarım hâlâ arabada."
+    },
+    {
+      "word_id": "noun-staart",
+      "text": "Köpeğin uzun bir kuyruğu var."
+    },
+    {
+      "word_id": "noun-stadion",
+      "text": "Stadyum bugün dolu."
+    },
+    {
+      "word_id": "noun-stage",
+      "text": "Bir bankada staj yapıyorum."
+    },
+    {
+      "word_id": "noun-stap",
+      "text": "Bebek bana doğru bir adım atıyor."
+    },
+    {
+      "word_id": "noun-steen",
+      "text": "Taş büyük ve ağır."
+    },
+    {
+      "word_id": "noun-stem",
+      "text": "Koridorda sesini duyuyorum."
+    },
+    {
+      "word_id": "noun-ster",
+      "text": "Gökyüzünde bir yıldız görüyorum."
+    },
+    {
+      "word_id": "noun-stoep",
+      "text": "Bisiklet kaldırımda."
+    },
+    {
+      "word_id": "noun-storm",
+      "text": "Fırtına ağacı kırıyor."
+    },
+    {
+      "word_id": "noun-straatnaam",
+      "text": "Evinin sokak adı nedir?"
+    },
+    {
+      "word_id": "noun-strand",
+      "text": "Bugün plajda yatıyoruz."
+    },
+    {
+      "word_id": "noun-streep",
+      "text": "Duvarda siyah bir çizgi var."
+    },
+    {
+      "word_id": "noun-stress",
+      "text": "İşte çok stresim var."
+    },
+    {
+      "word_id": "noun-stroom",
+      "text": "Mutfakta elektrik yok."
+    },
+    {
+      "word_id": "noun-student",
+      "text": "Öğrenci üniversitede okuyor."
+    },
+    {
+      "word_id": "noun-studie",
+      "text": "Öğrenimim dört yıl sürüyor."
+    },
+    {
+      "word_id": "noun-stuk",
+      "text": "Bir parça daha peynir istiyorum."
+    },
+    {
+      "word_id": "noun-stuur",
+      "text": "Eli direksiyonda duruyor."
+    },
+    {
+      "word_id": "noun-suiker",
+      "text": "Çayıma şeker koymuyorum."
+    },
+    {
+      "word_id": "noun-symptoom",
+      "text": "Doktor gripten bir belirti görüyor."
+    },
+    {
+      "word_id": "noun-taak",
+      "text": "Her çocuğun sınıfta bir görevi var."
+    },
+    {
+      "word_id": "noun-taart",
+      "text": "Doğum günümde pasta yiyoruz."
+    },
+    {
+      "word_id": "noun-tak",
+      "text": "Kuş bir dalın üstünde oturuyor."
+    },
+    {
+      "word_id": "noun-tandarts",
+      "text": "Dişim için diş hekimine gidiyorum."
+    },
+    {
+      "word_id": "noun-taxi",
+      "text": "Istasyona taksiyle gidiyoruz."
+    },
+    {
+      "word_id": "noun-team",
+      "text": "Takımımız bugün evinde oynuyor."
+    },
+    {
+      "word_id": "noun-tegel",
+      "text": "Yerdeki fayans kırık."
+    },
+    {
+      "word_id": "noun-tekenfilm",
+      "text": "Çocuklar bir çizgi film izliyor."
+    },
+    {
+      "word_id": "noun-tekening",
+      "text": "Kızım bir çizim yapıyor."
+    },
+    {
+      "word_id": "noun-tekst",
+      "text": "Metni oku ve bir cevap yaz."
+    },
+    {
+      "word_id": "noun-temperatuur",
+      "text": "Sıcaklık bugün çok düşük."
+    },
+    {
+      "word_id": "noun-tennis",
+      "text": "Babam her hafta tenis oynuyor."
+    },
+    {
+      "word_id": "noun-test",
+      "text": "Test zor ama eğlenceli."
+    },
+    {
+      "word_id": "noun-theater",
+      "text": "Bugün tiyatroya gidiyoruz."
+    },
+    {
+      "word_id": "noun-thee",
+      "text": "Sütlü çay içiyorum."
+    },
+    {
+      "word_id": "noun-ticket",
+      "text": "Tren için biletin var mı?"
+    },
+    {
+      "word_id": "noun-tiener",
+      "text": "Yeniyetme müzik dinlemeyi seviyor."
+    },
+    {
+      "word_id": "noun-tijdschrift",
+      "text": "Annem her ay bir dergi okuyor."
+    },
+    {
+      "word_id": "noun-tip",
+      "text": "Senin için iyi bir ipucum var."
+    },
+    {
+      "word_id": "noun-tocht",
+      "text": "Ormandaki geziden sonra yorgunum."
+    },
+    {
+      "word_id": "noun-toerist",
+      "text": "Turist kilisenin fotoğrafını çekiyor."
+    },
+    {
+      "word_id": "noun-tomaat",
+      "text": "Sandviçim için bir domates doğruyorum."
+    },
+    {
+      "word_id": "noun-toren",
+      "text": "Kilisenin kulesi yüksek."
+    },
+    {
+      "word_id": "noun-trainer",
+      "text": "Antrenör oğlanlara sesleniyor."
+    },
+    {
+      "word_id": "noun-training",
+      "text": "Antrenman saat yedide başlıyor."
+    },
+    {
+      "word_id": "noun-tram",
+      "text": "Tramvay şehirde gidiyor."
+    },
+    {
+      "word_id": "noun-trui",
+      "text": "Kışın kazak giyiyorum."
+    },
+    {
+      "word_id": "noun-tunnel",
+      "text": "Araba tünelden geçiyor."
+    },
+    {
+      "word_id": "noun-uil",
+      "text": "Baykuş ağaçta oturuyor."
+    },
+    {
+      "word_id": "noun-uitgang",
+      "text": "Çıkış asansörün yanında."
+    },
+    {
+      "word_id": "noun-uitkering",
+      "text": "Her ay bir ödenek alıyor."
+    },
+    {
+      "word_id": "noun-uitnodiging",
+      "text": "Parti için bir davet alıyorum."
+    },
+    {
+      "word_id": "noun-uitspraak",
+      "text": "Onun kelimeyi telaffuzu iyi."
+    },
+    {
+      "word_id": "noun-uniform",
+      "text": "Polis mavi bir üniforma giyiyor."
+    },
+    {
+      "word_id": "noun-universiteit",
+      "text": "Oğlum üniversiteye gidiyor."
+    },
+    {
+      "word_id": "noun-vaccin",
+      "text": "Doktor bana aşı yapıyor."
+    },
+    {
+      "word_id": "noun-vak",
+      "text": "Bu ders benim için zor."
+    },
+    {
+      "word_id": "noun-varken",
+      "text": "Domuz çiftlikte yaşıyor."
+    },
+    {
+      "word_id": "noun-veld",
+      "text": "Tarlada bir inek var."
+    },
+    {
+      "word_id": "noun-verdriet",
+      "text": "Kederi büyük."
+    },
+    {
+      "word_id": "noun-vergadering",
+      "text": "Toplantı saat dokuzda başlıyor."
+    },
+    {
+      "word_id": "noun-verhaal",
+      "text": "Dedem güzel bir hikâye anlatıyor."
+    },
+    {
+      "word_id": "noun-verkeer",
+      "text": "Otoyolda çok trafik var."
+    },
+    {
+      "word_id": "noun-verkoper",
+      "text": "Satıcı mağazada müşteriye yardım ediyor."
+    },
+    {
+      "word_id": "noun-verleden",
+      "text": "Sık sık geçmişi düşünüyorum."
+    },
+    {
+      "word_id": "noun-verpleger",
+      "text": "Erkek hemşire hastanede hastaya yardım ediyor."
+    },
+    {
+      "word_id": "noun-verrassing",
+      "text": "Bu benim için hoş bir sürpriz."
+    },
+    {
+      "word_id": "noun-verschil",
+      "text": "Bu ikisi arasındaki fark nedir?"
+    },
+    {
+      "word_id": "noun-vertraging",
+      "text": "Uçağın iki saat rötarı var."
+    },
+    {
+      "word_id": "noun-vertrek",
+      "text": "Trenin kalkışı saat onda."
+    },
+    {
+      "word_id": "noun-verwarming",
+      "text": "Odada kalorifer açık."
+    },
+    {
+      "word_id": "noun-vest",
+      "text": "Gömleğimin üstüne hırka giyiyorum."
+    },
+    {
+      "word_id": "noun-vet",
+      "text": "Bu etin içinde çok yağ var."
+    },
+    {
+      "word_id": "noun-video",
+      "text": "Dizüstü bilgisayarda birlikte bir video izliyoruz."
+    },
+    {
+      "word_id": "noun-virus",
+      "text": "Bu virüs beni hasta ediyor."
+    },
+    {
+      "word_id": "noun-vlag",
+      "text": "Bayrak kırmızı, beyaz ve mavi."
+    },
+    {
+      "word_id": "noun-vlek",
+      "text": "Pantolonumda bir leke var."
+    },
+    {
+      "word_id": "noun-vlieg",
+      "text": "Ekmeğimin üstünde bir sinek var."
+    },
+    {
+      "word_id": "noun-vliegtuig",
+      "text": "Uçak havalimanında duruyor."
+    },
+    {
+      "word_id": "noun-vloer",
+      "text": "Mutfaktaki zemin ıslak."
+    },
+    {
+      "word_id": "noun-vlucht",
+      "text": "Yurt dışına uçuşumuz iki saat sürüyor."
+    },
+    {
+      "word_id": "noun-voetballer",
+      "text": "Futbolcu sarı kart görüyor."
+    },
+    {
+      "word_id": "noun-vogel",
+      "text": "Kuş evin üstünde uçuyor."
+    },
+    {
+      "word_id": "noun-voorbeeld",
+      "text": "Bir sebze örneği ver."
+    },
+    {
+      "word_id": "noun-voorhoofd",
+      "text": "Alnım ağrıyor."
+    },
+    {
+      "word_id": "noun-voorkant",
+      "text": "Evin ön tarafı beyaz."
+    },
+    {
+      "word_id": "noun-voornaam",
+      "text": "Ön adını ve soyadını buraya yaz."
+    },
+    {
+      "word_id": "noun-voorwerp",
+      "text": "Masadaki nesne büyük."
+    },
+    {
+      "word_id": "noun-vork",
+      "text": "Çatalla ve bıçakla yemek yiyorum."
+    },
+    {
+      "word_id": "noun-vos",
+      "text": "Tilki ormanda yaşıyor."
+    },
+    {
+      "word_id": "noun-vrachtwagen",
+      "text": "Yük kamyonu şehirde gidiyor."
+    },
+    {
+      "word_id": "noun-vriendschap",
+      "text": "Arkadaşlığımız benim için çok önemli."
+    },
+    {
+      "word_id": "noun-vrijwilliger",
+      "text": "Gönüllü bize kampta yardım ediyor."
+    },
+    {
+      "word_id": "noun-vuur",
+      "text": "Şömine ateşi sıcak."
+    },
+    {
+      "word_id": "noun-vuurwerk",
+      "text": "Havai fişek çok güzel."
+    },
+    {
+      "word_id": "noun-waarheid",
+      "text": "Her zaman gerçeği söylüyorum."
+    },
+    {
+      "word_id": "noun-walvis",
+      "text": "Balina denizde yüzüyor."
+    },
+    {
+      "word_id": "noun-wandeling",
+      "text": "Parkta yürüyüş yapıyoruz."
+    },
+    {
+      "word_id": "noun-warenhuis",
+      "text": "Büyük mağazadan bir mont alıyoruz."
+    },
+    {
+      "word_id": "noun-waslijn",
+      "text": "Mont çamaşır ipinde asılı."
+    },
+    {
+      "word_id": "noun-website",
+      "text": "Fiyatı web sitesinde görüyorum."
+    },
+    {
+      "word_id": "noun-webwinkel",
+      "text": "Ayakkabıları internet mağazasından alıyoruz."
+    },
+    {
+      "word_id": "noun-wedstrijd",
+      "text": "Maç saat ikide başlıyor."
+    },
+    {
+      "word_id": "noun-weduwe",
+      "text": "Dul kadın küçük bir evde tek başına yaşıyor."
+    },
+    {
+      "word_id": "noun-wekker",
+      "text": "Çalar saatim yedide çalıyor."
+    },
+    {
+      "word_id": "noun-wenkbrauw",
+      "text": "Kaşı siyah ve kalın."
+    },
+    {
+      "word_id": "noun-wens",
+      "text": "Dileğim küçük bir çiftlik."
+    },
+    {
+      "word_id": "noun-wereld",
+      "text": "Dünyada çok insan yaşıyor."
+    },
+    {
+      "word_id": "noun-werkdag",
+      "text": "Bir iş günüm sekiz saat sürüyor."
+    },
+    {
+      "word_id": "noun-werkgever",
+      "text": "İşverenim çok nazik."
+    },
+    {
+      "word_id": "noun-werkplek",
+      "text": "Çalışma yerim küçük ama temiz."
+    },
+    {
+      "word_id": "noun-wijk",
+      "text": "Sakin bir semtte oturuyoruz."
+    },
+    {
+      "word_id": "noun-wind",
+      "text": "Rüzgâr bugün çok soğuk."
+    },
+    {
+      "word_id": "noun-winnaar",
+      "text": "Kazanan bir madalya alıyor."
+    },
+    {
+      "word_id": "noun-wiskunde",
+      "text": "Matematiği zor buluyorum."
+    },
+    {
+      "word_id": "noun-witlof",
+      "text": "Jambonlu hindiba yiyoruz."
+    },
+    {
+      "word_id": "noun-wol",
+      "text": "Kazağım yünden."
+    },
+    {
+      "word_id": "noun-wolf",
+      "text": "Kurt aç."
+    },
+    {
+      "word_id": "noun-wolk",
+      "text": "Şehrin üstünde gri bir bulut var."
+    },
+    {
+      "word_id": "noun-wond",
+      "text": "Bacağımda bir yara var."
+    },
+    {
+      "word_id": "noun-woonkamer",
+      "text": "Oturma odasında televizyon izliyoruz."
+    },
+    {
+      "word_id": "noun-woonplaats",
+      "text": "İkamet yerim küçük bir köy."
+    },
+    {
+      "word_id": "noun-woordenboek",
+      "text": "Kelimeyi sözlükte arıyorum."
+    },
+    {
+      "word_id": "noun-worst",
+      "text": "Tavada sosis pişiriyorum."
+    },
+    {
+      "word_id": "noun-zaag",
+      "text": "Odunu testereyle kesiyorum."
+    },
+    {
+      "word_id": "noun-zaal",
+      "text": "Salon dersten sonra boş."
+    },
+    {
+      "word_id": "noun-zak",
+      "text": "Poşetin içinde bir elma var."
+    },
+    {
+      "word_id": "noun-zand",
+      "text": "Çocuklar kumla oynuyor."
+    },
+    {
+      "word_id": "noun-zanger",
+      "text": "Şarkıcı çok ünlü."
+    },
+    {
+      "word_id": "noun-zeef",
+      "text": "Makarnayı süzgeçe koyuyorum."
+    },
+    {
+      "word_id": "noun-zilver",
+      "text": "Bu yüzük gümüşten."
+    },
+    {
+      "word_id": "noun-zin",
+      "text": "Tahtaya kısa bir cümle yaz."
+    },
+    {
+      "word_id": "noun-zolder",
+      "text": "Eski bavulumuz çatı katında duruyor."
+    },
+    {
+      "word_id": "noun-zout",
+      "text": "Çorbada çok fazla tuz var."
+    },
+    {
+      "word_id": "noun-zwaan",
+      "text": "Kuğu kanalda yüzüyor."
+    },
+    {
+      "word_id": "noun-zwembad",
+      "text": "Yüzme havuzu bugün açık."
+    },
+    {
+      "word_id": "verb-aanbieden",
+      "text": "Sana bir iş teklif etmek istiyorum."
+    },
+    {
+      "word_id": "verb-aankomen",
+      "text": "Tren saat onda varmalı."
+    },
+    {
+      "word_id": "verb-aanvragen",
+      "text": "Yeni bir kart için başvurmak istiyorum."
+    },
+    {
+      "word_id": "verb-accepteren",
+      "text": "Sadece euro kabul ediyoruz."
+    },
+    {
+      "word_id": "verb-afgeven",
+      "text": "Anahtarını buraya elden teslim etmelisin."
+    },
+    {
+      "word_id": "verb-afspreken",
+      "text": "Komşumla buluşmak için sözleşmek istiyorum."
+    },
+    {
+      "word_id": "verb-afvallen",
+      "text": "Babam beş kilo vermek istiyor."
+    },
+    {
+      "word_id": "verb-afzetten",
+      "text": "Babam beni okulda bırakabilir."
+    },
+    {
+      "word_id": "verb-appen",
+      "text": "Anneme her gün mesaj atıyorum."
+    },
+    {
+      "word_id": "verb-bedanken",
+      "text": "Sana teşekkür etmek istiyorum."
+    },
+    {
+      "word_id": "verb-bedenken",
+      "text": "İyi bir isim düşünüp bulamıyorum."
+    },
+    {
+      "word_id": "verb-bedienen",
+      "text": "Fırıncı çok müşteriye hizmet etmeli."
+    },
+    {
+      "word_id": "verb-behandelen",
+      "text": "Doktor hastayı tedavi edebilir."
+    },
+    {
+      "word_id": "verb-bekijken",
+      "text": "Evi hâlâ incelemek istiyoruz."
+    },
+    {
+      "word_id": "verb-beloven",
+      "text": "Yarın geleceğime söz veriyorum."
+    },
+    {
+      "word_id": "verb-bereiken",
+      "text": "Şehir merkezine otobüsle ulaşabilirsin."
+    },
+    {
+      "word_id": "verb-beschermen",
+      "text": "Şapka başını güneşten koruyor."
+    },
+    {
+      "word_id": "verb-beschrijven",
+      "text": "Adamı tarif edebilir misiniz?"
+    },
+    {
+      "word_id": "verb-besluiten",
+      "text": "Taşınmaya karar veriyoruz."
+    },
+    {
+      "word_id": "verb-bespreken",
+      "text": "Haberleri sınıfta tartışıyoruz."
+    },
+    {
+      "word_id": "verb-bestellen",
+      "text": "Bir çay sipariş edebilir miyim?"
+    },
+    {
+      "word_id": "verb-betekenen",
+      "text": "Bu kelime ne anlama geliyor?"
+    },
+    {
+      "word_id": "verb-bewaren",
+      "text": "Paramı bankada saklıyorum."
+    },
+    {
+      "word_id": "verb-bezoeken",
+      "text": "Yarın büyükannemi ziyaret ediyoruz."
+    },
+    {
+      "word_id": "verb-binnenkomen",
+      "text": "Müşteri mağazaya girmek istiyor."
+    },
+    {
+      "word_id": "verb-blijven",
+      "text": "Yorgunum ve burada kalmak istiyorum."
+    },
+    {
+      "word_id": "verb-braken",
+      "text": "Hastayım ve kusmam gerekiyor."
+    },
+    {
+      "word_id": "verb-branden",
+      "text": "Odun iyi yanıyor."
+    },
+    {
+      "word_id": "verb-buigen",
+      "text": "Ağaç rüzgârda eğilebilir."
+    },
+    {
+      "word_id": "verb-chatten",
+      "text": "Arkadaşımla mesajlaşmak istiyorum."
+    },
+    {
+      "word_id": "verb-controleren",
+      "text": "Polis pasaportumu kontrol etmek istiyor."
+    },
+    {
+      "word_id": "verb-dansen",
+      "text": "Partide dans etmek istiyoruz."
+    },
+    {
+      "word_id": "verb-delen",
+      "text": "Otelde bir oda paylaşıyoruz."
+    },
+    {
+      "word_id": "verb-doorgaan",
+      "text": "Derse devam etmek istiyoruz."
+    },
+    {
+      "word_id": "verb-douchen",
+      "text": "Yemekten önce duş almak istiyoruz."
+    },
+    {
+      "word_id": "verb-drogen",
+      "text": "Saçımı kurutabilirim."
+    },
+    {
+      "word_id": "verb-dromen",
+      "text": "Bebek her gece rüya görüyor."
+    },
+    {
+      "word_id": "verb-duiken",
+      "text": "Erkek kardeşim denizde dalmak istiyor."
+    },
+    {
+      "word_id": "verb-durven",
+      "text": "Yüzmeye cesaret edemiyorum."
+    },
+    {
+      "word_id": "verb-duwen",
+      "text": "Arabayı itmemiz gerekiyor."
+    },
+    {
+      "word_id": "verb-eindigen",
+      "text": "Ders saat dörtte bitiyor."
+    },
+    {
+      "word_id": "verb-feesten",
+      "text": "Bu hafta sonu parti yapmak istiyoruz."
+    },
+    {
+      "word_id": "verb-feliciteren",
+      "text": "Doğum günün için seni tebrik etmek istiyorum."
+    },
+    {
+      "word_id": "verb-fietsen",
+      "text": "Her gün okula bisikletle gidiyoruz."
+    },
+    {
+      "word_id": "verb-gebeuren",
+      "text": "Sınıfta ne oluyor?"
+    },
+    {
+      "word_id": "verb-gebruiken",
+      "text": "Telefonumu saat olarak kullanıyorum."
+    },
+    {
+      "word_id": "verb-geloven",
+      "text": "Komşuma inanmıyorum."
+    },
+    {
+      "word_id": "verb-genieten",
+      "text": "Güzel havanın keyfini çıkarıyoruz."
+    },
+    {
+      "word_id": "verb-gieten",
+      "text": "Bardağa süt dökmek istiyorum."
+    },
+    {
+      "word_id": "verb-gooien",
+      "text": "Çocuk topu atmak istiyor."
+    },
+    {
+      "word_id": "verb-grijpen",
+      "text": "Kedi fareyi kapabilir."
+    },
+    {
+      "word_id": "verb-groeten",
+      "text": "Komşuma selam vermek istiyorum."
+    },
+    {
+      "word_id": "verb-halen",
+      "text": "Fırıncıdan ekmek almaya gidiyorum."
+    },
+    {
+      "word_id": "verb-hardlopen",
+      "text": "Her sabah koşuya çıkmak istiyorum."
+    },
+    {
+      "word_id": "verb-haten",
+      "text": "Soğuk havadan nefret ediyorum."
+    },
+    {
+      "word_id": "verb-herhalen",
+      "text": "Soruyu tekrar eder misiniz?"
+    },
+    {
+      "word_id": "verb-herinneren",
+      "text": "O günü hatırlamıyorum."
+    },
+    {
+      "word_id": "verb-herkennen",
+      "text": "Seni tanıyamıyorum."
+    },
+    {
+      "word_id": "verb-herstellen",
+      "text": "Babam bisikleti onarabilir."
+    },
+    {
+      "word_id": "verb-hoesten",
+      "text": "Geceleri sık sık öksürüyor."
+    },
+    {
+      "word_id": "verb-hopen",
+      "text": "Yarın havanın güzel olmasını umuyorum."
+    },
+    {
+      "word_id": "verb-houden",
+      "text": "Montumu tutar mısın?"
+    },
+    {
+      "word_id": "verb-huilen",
+      "text": "Bebek birazdan ağlayacak."
+    },
+    {
+      "word_id": "verb-informeren",
+      "text": "Müşteriye bilgi vermek istiyorum."
+    },
+    {
+      "word_id": "verb-innemen",
+      "text": "İlacı almam gerekiyor."
+    },
+    {
+      "word_id": "verb-inrichten",
+      "text": "Odayı güzel döşemek istiyoruz."
+    },
+    {
+      "word_id": "verb-inschrijven",
+      "text": "Kursa kaydolmak istiyorum."
+    },
+    {
+      "word_id": "verb-internetten",
+      "text": "Kızım dizüstü bilgisayarda internette gezinmek istiyor."
+    },
+    {
+      "word_id": "verb-invullen",
+      "text": "Formu doldurmamız gerekiyor."
+    },
+    {
+      "word_id": "verb-kiezen",
+      "text": "Yeni bir mont seçmek istiyorum."
+    },
+    {
+      "word_id": "verb-klagen",
+      "text": "Komşum belediyeye şikâyet etmek istiyor."
+    },
+    {
+      "word_id": "verb-klappen",
+      "text": "Çocuklar şarkıdan sonra alkışlamak istiyor."
+    },
+    {
+      "word_id": "verb-klimmen",
+      "text": "Dağa tırmanmak istiyoruz."
+    },
+    {
+      "word_id": "verb-klinken",
+      "text": "Bu fikir kulağa iyi geliyor."
+    },
+    {
+      "word_id": "verb-kloppen",
+      "text": "Bu cevap doğru değil."
+    },
+    {
+      "word_id": "verb-knijpen",
+      "text": "Çocuk kolumu çimdiklemek istiyor."
+    },
+    {
+      "word_id": "verb-knutselen",
+      "text": "Kâğıtla el işi yapacağız."
+    },
+    {
+      "word_id": "verb-koelen",
+      "text": "Birayı soğutmamız gerekiyor."
+    },
+    {
+      "word_id": "verb-kosten",
+      "text": "Bu mont kırk euro tutuyor."
+    },
+    {
+      "word_id": "verb-kruipen",
+      "text": "Köpek çitin altından sürünerek geçmeli."
+    },
+    {
+      "word_id": "verb-lachen",
+      "text": "Onun esprisine gülüyoruz."
+    },
+    {
+      "word_id": "verb-laten",
+      "text": "Montumu evde bırakıyorum."
+    },
+    {
+      "word_id": "verb-legen",
+      "text": "Kutuyu boşaltmam gerekiyor."
+    },
+    {
+      "word_id": "verb-lenen",
+      "text": "Bisikletini ödünç alabilir miyim?"
+    },
+    {
+      "word_id": "verb-letten",
+      "text": "Çocuklara iyi dikkat etmemiz gerekiyor."
+    },
+    {
+      "word_id": "verb-leveren",
+      "text": "Fırıncı her gün ekmek teslim etmek istiyor."
+    },
+    {
+      "word_id": "verb-liegen",
+      "text": "Oğlum yalan söylemek istemiyor."
+    },
+    {
+      "word_id": "verb-lijken",
+      "text": "Erkek kardeşin sana benziyor."
+    },
+    {
+      "word_id": "verb-likken",
+      "text": "Köpek elimi yalamak istiyor."
+    },
+    {
+      "word_id": "verb-logeren",
+      "text": "Kuzenim bu hafta sonu misafir kalmaya geliyor."
+    },
+    {
+      "word_id": "verb-lukken",
+      "text": "Başaramıyorum."
+    },
+    {
+      "word_id": "verb-mailen",
+      "text": "Öğretmenime her hafta e-posta gönderiyorum."
+    },
+    {
+      "word_id": "verb-meedoen",
+      "text": "Maça katılmak istiyoruz."
+    },
+    {
+      "word_id": "verb-meemaken",
+      "text": "Bir macera yaşamak istiyorum."
+    },
+    {
+      "word_id": "verb-meenemen",
+      "text": "Köpeğimizi yanımızda götürmek istiyoruz."
+    },
+    {
+      "word_id": "verb-merken",
+      "text": "Soğuğu fark etmiyorum."
+    },
+    {
+      "word_id": "verb-meten",
+      "text": "Masayı ölçmemiz gerekiyor."
+    },
+    {
+      "word_id": "verb-mislukken",
+      "text": "Planım hâlâ boşa çıkabilir."
+    },
+    {
+      "word_id": "verb-missen",
+      "text": "Kız arkadaşımı çok özlüyorum."
+    },
+    {
+      "word_id": "verb-nadenken",
+      "text": "Bunun üzerine iyice düşünmem gerekiyor."
+    },
+    {
+      "word_id": "verb-negeren",
+      "text": "Beni görmezden gelemezsin."
+    },
+    {
+      "word_id": "verb-noemen",
+      "text": "Bu yemeğe ne diyorsun?"
+    },
+    {
+      "word_id": "verb-oefenen",
+      "text": "Her gün bir şarkı çalışıyoruz."
+    },
+    {
+      "word_id": "verb-omdraaien",
+      "text": "Kartı ters çevirmemiz gerekiyor."
+    },
+    {
+      "word_id": "verb-ontbijten",
+      "text": "Dışarıda kahvaltı etmek istiyoruz."
+    },
+    {
+      "word_id": "verb-ontdekken",
+      "text": "Doğayı keşfetmek istiyoruz."
+    },
+    {
+      "word_id": "verb-ontslaan",
+      "text": "Patron meslektaşımı işten çıkarmak zorunda."
+    },
+    {
+      "word_id": "verb-ontsnappen",
+      "text": "Köpek bahçeden kaçabilir."
+    },
+    {
+      "word_id": "verb-ontspannen",
+      "text": "İşten sonra gevşemek istiyorum."
+    },
+    {
+      "word_id": "verb-ontvangen",
+      "text": "Her ay bir mektup teslim alıyoruz."
+    },
+    {
+      "word_id": "verb-opblazen",
+      "text": "Topu şişirmek istiyorum."
+    },
+    {
+      "word_id": "verb-opereren",
+      "text": "Doktor dizimi ameliyat etmek zorunda."
+    },
+    {
+      "word_id": "verb-opgeven",
+      "text": "Vazgeçmek istemiyorum."
+    },
+    {
+      "word_id": "verb-oplossen",
+      "text": "Sorunu çözebiliriz."
+    },
+    {
+      "word_id": "verb-opnemen",
+      "text": "Telefonu açamıyorum."
+    },
+    {
+      "word_id": "verb-oppakken",
+      "text": "Bebek anahtarı yerden almak istiyor."
+    },
+    {
+      "word_id": "verb-opruimen",
+      "text": "Odayı toparlamamız gerekiyor."
+    },
+    {
+      "word_id": "verb-opslaan",
+      "text": "Belgeyi kaydetmek istiyorum."
+    },
+    {
+      "word_id": "verb-opstaan",
+      "text": "Yarın erken kalkmam gerekiyor."
+    },
+    {
+      "word_id": "verb-organiseren",
+      "text": "Kız kardeşim için bir parti organize ediyoruz."
+    },
+    {
+      "word_id": "verb-overleggen",
+      "text": "Patronuma danışmam gerekiyor."
+    },
+    {
+      "word_id": "verb-overstappen",
+      "text": "Istasyonda aktarma yapmamız gerekiyor."
+    },
+    {
+      "word_id": "verb-pakken",
+      "text": "Montumu sandalyeden alıyorum."
+    },
+    {
+      "word_id": "verb-parkeren",
+      "text": "Arabayı buraya park etmek istiyorum."
+    },
+    {
+      "word_id": "verb-planten",
+      "text": "Bir ağaç dikeceğiz."
+    },
+    {
+      "word_id": "verb-poetsen",
+      "text": "Dişlerimi fırçalamam gerekiyor."
+    },
+    {
+      "word_id": "verb-posten",
+      "text": "İnternette bir fotoğraf paylaşmak istiyorum."
+    },
+    {
+      "word_id": "verb-printen",
+      "text": "Mektubu evde yazdırmak istiyorum."
+    },
+    {
+      "word_id": "verb-proberen",
+      "text": "Bir kez daha denemek istiyorum."
+    },
+    {
+      "word_id": "verb-raden",
+      "text": "Cevabı tahmin edebilir misiniz?"
+    },
+    {
+      "word_id": "verb-reageren",
+      "text": "Mektubuma cevap vermek istemiyor."
+    },
+    {
+      "word_id": "verb-redden",
+      "text": "Itfaiye çocuğu kurtarabilir."
+    },
+    {
+      "word_id": "verb-regelen",
+      "text": "Tatili sizin için halledebilirim."
+    },
+    {
+      "word_id": "verb-reizen",
+      "text": "Büyükannem kıyıya seyahat etmek istiyor."
+    },
+    {
+      "word_id": "verb-rekenen",
+      "text": "Çocuklar okulda hesaplamayı öğreniyor."
+    },
+    {
+      "word_id": "verb-rennen",
+      "text": "Çocuklar tarlada koşuyor."
+    },
+    {
+      "word_id": "verb-reserveren",
+      "text": "Bir masa için rezervasyon yapmak istiyoruz."
+    },
+    {
+      "word_id": "verb-roeien",
+      "text": "Kanalda kürek çekmek istiyoruz."
+    },
+    {
+      "word_id": "verb-ruiken",
+      "text": "Mutfakta kahve kokusu alıyorum."
+    },
+    {
+      "word_id": "verb-samenwerken",
+      "text": "Komşularımızla işbirliği yapmak istiyoruz."
+    },
+    {
+      "word_id": "verb-schaatsen",
+      "text": "Buzda paten kaymak istiyoruz."
+    },
+    {
+      "word_id": "verb-schaken",
+      "text": "Dedem benimle satranç oynamak istiyor."
+    },
+    {
+      "word_id": "verb-schelen",
+      "text": "Umurumda değil."
+    },
+    {
+      "word_id": "verb-schilderen",
+      "text": "Büyükannem bir çiçek resmi yapmak istiyor."
+    },
+    {
+      "word_id": "verb-schoonmaken",
+      "text": "Mutfağı temizlemem gerekiyor."
+    },
+    {
+      "word_id": "verb-schreeuwen",
+      "text": "Bağırmana gerek yok."
+    },
+    {
+      "word_id": "verb-schrikken",
+      "text": "Köpek sesten irkilecek."
+    },
+    {
+      "word_id": "verb-schuiven",
+      "text": "Dolabı sola kaydırmamız gerekiyor."
+    },
+    {
+      "word_id": "verb-scoren",
+      "text": "Oyuncu gol atabilir."
+    },
+    {
+      "word_id": "verb-slaan",
+      "text": "Topa eliyle vurması gerekiyor."
+    },
+    {
+      "word_id": "verb-slagen",
+      "text": "Kursu geçmek istiyorum."
+    },
+    {
+      "word_id": "verb-slikken",
+      "text": "Bu ilacı yutamıyorum."
+    },
+    {
+      "word_id": "verb-sneeuwen",
+      "text": "Yarın kar yağacak."
+    },
+    {
+      "word_id": "verb-solliciteren",
+      "text": "Bankaya iş başvurusu yapmak istiyorum."
+    },
+    {
+      "word_id": "verb-sparen",
+      "text": "Yeni bir bisiklet için biriktirmek istiyorum."
+    },
+    {
+      "word_id": "verb-spellen",
+      "text": "Adınızı harf harf söyleyebilir misiniz?"
+    },
+    {
+      "word_id": "verb-sporten",
+      "text": "Kızım her gün spor yapmak istiyor."
+    },
+    {
+      "word_id": "verb-spugen",
+      "text": "Çocuk yere tükürmemeli."
+    },
+    {
+      "word_id": "verb-stelen",
+      "text": "Bisikleti çalmaya çalışıyorlar."
+    },
+    {
+      "word_id": "verb-stoppen",
+      "text": "Otobüs burada durmak istemiyor."
+    },
+    {
+      "word_id": "verb-storen",
+      "text": "Erkek kardeşim beni rahatsız etmek istemiyor."
+    },
+    {
+      "word_id": "verb-stoten",
+      "text": "Dizimi masaya çarpıyorum."
+    },
+    {
+      "word_id": "verb-studeren",
+      "text": "Erkek kardeşim şehirde okumak istiyor."
+    },
+    {
+      "word_id": "verb-sturen",
+      "text": "Büyükanneme bir kart göndermek istiyorum."
+    },
+    {
+      "word_id": "verb-tekenen",
+      "text": "Çocuk bir ev çizmek istiyor."
+    },
+    {
+      "word_id": "verb-tellen",
+      "text": "Çocuklar artık ona kadar sayabiliyor."
+    },
+    {
+      "word_id": "verb-teruggaan",
+      "text": "Eve geri dönmemiz gerekiyor."
+    },
+    {
+      "word_id": "verb-teruggeven",
+      "text": "Parayı geri vermem gerekiyor."
+    },
+    {
+      "word_id": "verb-terugkomen",
+      "text": "Gelecek yıl geri gelmek istiyoruz."
+    },
+    {
+      "word_id": "verb-testen",
+      "text": "Yeni makineyi test edeceğiz."
+    },
+    {
+      "word_id": "verb-thuisblijven",
+      "text": "Bugün evde kalmak istiyorum."
+    },
+    {
+      "word_id": "verb-thuiskomen",
+      "text": "Çocuklar altıdan önce eve gelmeli."
+    },
+    {
+      "word_id": "verb-toevoegen",
+      "text": "Biraz daha şeker eklemek istiyorum."
+    },
+    {
+      "word_id": "verb-tonen",
+      "text": "Fotoğrafını göstermek istiyor."
+    },
+    {
+      "word_id": "verb-trappen",
+      "text": "Topa sert tekme atmak istiyor."
+    },
+    {
+      "word_id": "verb-trekken",
+      "text": "Kapıyı çekmen gerekiyor."
+    },
+    {
+      "word_id": "verb-twijfelen",
+      "text": "Kırmızı ve mavi mont arasında kararsız kalıyorum."
+    },
+    {
+      "word_id": "verb-typen",
+      "text": "Bilgisayarda bir mektup yazmak istiyorum."
+    },
+    {
+      "word_id": "verb-uitgaan",
+      "text": "Cumartesi dışarı çıkmak istiyoruz."
+    },
+    {
+      "word_id": "verb-uitgeven",
+      "text": "Çok fazla para harcamak istemiyorum."
+    },
+    {
+      "word_id": "verb-uitleggen",
+      "text": "Öğretmen kelimeyi açıklayabilir."
+    },
+    {
+      "word_id": "verb-uitnodigen",
+      "text": "Komşularımı davet etmek istiyorum."
+    },
+    {
+      "word_id": "verb-uitspreken",
+      "text": "Bu kelimeyi telaffuz edebilir misiniz?"
+    },
+    {
+      "word_id": "verb-uitstappen",
+      "text": "Bir sonraki durakta inmemiz gerekiyor."
+    },
+    {
+      "word_id": "verb-uitstellen",
+      "text": "Partiyi ertelememiz gerekiyor."
+    },
+    {
+      "word_id": "verb-updaten",
+      "text": "Uygulamayı güncellemem gerekiyor."
+    },
+    {
+      "word_id": "verb-vallen",
+      "text": "Bardak masadan düşebilir."
+    },
+    {
+      "word_id": "verb-vangen",
+      "text": "Köpek topu yakalayabilir."
+    },
+    {
+      "word_id": "verb-vechten",
+      "text": "Oğlanlar dövüşmek istemiyor."
+    },
+    {
+      "word_id": "verb-veranderen",
+      "text": "Hava yarın değişecek."
+    },
+    {
+      "word_id": "verb-verbergen",
+      "text": "Köpek kemiğini saklamak istiyor."
+    },
+    {
+      "word_id": "verb-verbeteren",
+      "text": "İşimi iyileştirmek istiyorum."
+    },
+    {
+      "word_id": "verb-verbieden",
+      "text": "Polis sigarayı yasaklamak istiyor."
+    },
+    {
+      "word_id": "verb-verbouwen",
+      "text": "Evimizi yenilemek istiyoruz."
+    },
+    {
+      "word_id": "verb-verdelen",
+      "text": "Elmayı dört parçaya bölüştürüyoruz."
+    },
+    {
+      "word_id": "verb-verdienen",
+      "text": "Çok para kazanmak istiyorum."
+    },
+    {
+      "word_id": "verb-verdwijnen",
+      "text": "Güneş bulutların arkasında kaybolabilir."
+    },
+    {
+      "word_id": "verb-vergelijken",
+      "text": "Fiyatları karşılaştırabiliriz."
+    },
+    {
+      "word_id": "verb-vergeten",
+      "text": "Anahtarımı unutmak istemiyorum."
+    },
+    {
+      "word_id": "verb-verhuren",
+      "text": "Odamızı kiraya vermek istiyoruz."
+    },
+    {
+      "word_id": "verb-verkopen",
+      "text": "Komşum arabasını satmak istiyor."
+    },
+    {
+      "word_id": "verb-verlaten",
+      "text": "Binayı terk etmemiz gerekiyor."
+    },
+    {
+      "word_id": "verb-verlengen",
+      "text": "Kartımı uzatmak istiyorum."
+    },
+    {
+      "word_id": "verb-verliezen",
+      "text": "Oyunu kaybetmek istemiyorum."
+    },
+    {
+      "word_id": "verb-verplaatsen",
+      "text": "Masayı pencerenin yanına taşımak istiyoruz."
+    },
+    {
+      "word_id": "verb-verrassen",
+      "text": "Anneme sürpriz yapmak istiyorum."
+    },
+    {
+      "word_id": "verb-verschijnen",
+      "text": "Bilgisayarda bir mesaj görünebilir."
+    },
+    {
+      "word_id": "verb-versieren",
+      "text": "Odayı süsleyeceğiz."
+    },
+    {
+      "word_id": "verb-vertalen",
+      "text": "Bu cümleyi çevirebilirim."
+    },
+    {
+      "word_id": "verb-vertellen",
+      "text": "Dedem bir fıkra anlatmak istiyor."
+    },
+    {
+      "word_id": "verb-vervangen",
+      "text": "Pili yenisiyle değiştirmem gerekiyor."
+    },
+    {
+      "word_id": "verb-vervelen",
+      "text": "Derste sıkılıyorum."
+    },
+    {
+      "word_id": "verb-verwachten",
+      "text": "Yarın çok yağmur bekliyoruz."
+    },
+    {
+      "word_id": "verb-verwarmen",
+      "text": "Evi gazla ısıtıyoruz."
+    },
+    {
+      "word_id": "verb-verzamelen",
+      "text": "Oğlum güzel taşlar toplamak istiyor."
+    },
+    {
+      "word_id": "verb-verzinnen",
+      "text": "Oğlum eğlenceli fıkralar uydurabilir."
+    },
+    {
+      "word_id": "verb-verzorgen",
+      "text": "Doktor hastanın bakımını yapmalı."
+    },
+    {
+      "word_id": "verb-vieren",
+      "text": "Doğum günümü evde kutluyoruz."
+    },
+    {
+      "word_id": "verb-vissen",
+      "text": "Dedem nehirde balık tutmaya gidiyor."
+    },
+    {
+      "word_id": "verb-voelen",
+      "text": "Bugün kendimi çok iyi hissediyorum."
+    },
+    {
+      "word_id": "verb-voetballen",
+      "text": "Oğlanlar sahada futbol oynamak istiyor."
+    },
+    {
+      "word_id": "verb-volgen",
+      "text": "Köpek beni takip etmek istiyor."
+    },
+    {
+      "word_id": "verb-voorstellen",
+      "text": "Size arkadaşımı tanıştırmak istiyorum."
+    },
+    {
+      "word_id": "verb-vriezen",
+      "text": "Yarın don olacak."
+    },
+    {
+      "word_id": "verb-vullen",
+      "text": "Bardağı suyla doldurmak istiyorum."
+    },
+    {
+      "word_id": "verb-waaien",
+      "text": "Bugün sert rüzgâr esecek."
+    },
+    {
+      "word_id": "verb-waarschuwen",
+      "text": "Komşumu uyarmam gerekiyor."
+    },
+    {
+      "word_id": "verb-weggooien",
+      "text": "Bunu çöpe atmamalıyız."
+    },
+    {
+      "word_id": "verb-wegleggen",
+      "text": "Paramı bir kenara koymak istiyorum."
+    },
+    {
+      "word_id": "verb-weigeren",
+      "text": "Bir hediyeyi reddedebilirsin."
+    },
+    {
+      "word_id": "verb-wennen",
+      "text": "Soğuğa hâlâ alışmam gerekiyor."
+    },
+    {
+      "word_id": "verb-wensen",
+      "text": "Sana çok şans diliyorum."
+    },
+    {
+      "word_id": "verb-wijzen",
+      "text": "Öğretmen tahtaya işaret ediyor."
+    },
+    {
+      "word_id": "verb-winkelen",
+      "text": "Cumartesi alışverişe çıkıyoruz."
+    },
+    {
+      "word_id": "verb-winnen",
+      "text": "Ödülü kazanmak istiyorum."
+    },
+    {
+      "word_id": "verb-worden",
+      "text": "Oğlum doktor olmak istiyor."
+    },
+    {
+      "word_id": "verb-wrijven",
+      "text": "Gözlerimi ovuyorum."
+    },
+    {
+      "word_id": "verb-zakken",
+      "text": "Kursta kalmaktan korkuyorum."
+    },
+    {
+      "word_id": "verb-zetten",
+      "text": "Şişeyi masaya koyuyorum."
+    },
+    {
+      "word_id": "verb-zingen",
+      "text": "Partide bir şarkı söylüyoruz."
+    },
+    {
+      "word_id": "verb-zorgen",
+      "text": "Büyükannemle ilgileniyorum."
+    },
+    {
+      "word_id": "verb-zuchten",
+      "text": "Annem işten sonra sık sık iç çekiyor."
+    }
+  ]
+}
