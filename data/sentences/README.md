@@ -16,3 +16,9 @@ same licence as our translations and are kept apart from the word files (ADR-009
 ## Distractors (PM decision 2026-11-24)
 
 Distractors are same-part-of-speech surface forms that are also wrong by meaning in the sentence, not only by grammar.
+
+Noun distractors share the answer's article (de/het), so grammar alone cannot exclude them (PM decision 2026-11-24); no distractor word is used more than 7 times across A2 rows (A1 rows keep their old reuse: noun distractors such as `tafel`, `bril` are used more than 7 times).
+
+## Distractor fit check
+
+Before an owner sheet is exported, an independent editor (not the writer) reads every row and judges each distractor in THIS sentence frame: FIT (the sentence is sensible with it), WEAK (odd but possible), or OK. FIT and WEAK distractors are replaced by hand (same part of speech and article, level at most the target's, at most 7 uses per level, meaning-incompatible; colours after "een ... film" or places after "waar" are the usual traps). A frame that has no clean set goes to a rewrite-proposal list instead of the owner sheet.
