@@ -19,6 +19,8 @@ Distractors are same-part-of-speech surface forms that are also wrong by meaning
 
 Noun distractors share the answer's article (de/het), so grammar alone cannot exclude them (PM decision 2026-11-24); no distractor word is used more than 7 times across A2 rows (A1 rows keep their old reuse: noun distractors such as `tafel`, `bril` are used more than 7 times).
 
+A row with "cloze": false keeps its sentence and translation but has "distractors": [] and no fill-the-gap question: the app leaves it out of the round. The release writes its distractors as [] and no cloze key. Validation accepts [] only together with "cloze": false, and no distractor may be of a higher level than the target.
+
 ## Distractor fit check
 
 Before an owner sheet is exported, an independent editor (not the writer) reads every row and judges each distractor in THIS sentence frame: FIT (the sentence is sensible with it), WEAK (odd but possible), or OK. FIT and WEAK distractors are replaced by hand (same part of speech and article, level at most the target's, at most 7 uses per level, meaning-incompatible; colours after "een ... film" or places after "waar" are the usual traps). A frame that has no clean set goes to a rewrite-proposal list instead of the owner sheet.

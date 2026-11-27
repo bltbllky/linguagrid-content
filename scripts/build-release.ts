@@ -151,7 +151,7 @@ function sentenceFiles(input: SentenceStage, words: Content['words'], languages:
   const rows = [...reviewed.values()].filter((r) => kept.has(r.word_id));
   if (!rows.length) return {};
   const files: Record<string, string> = {
-    'sentences.json': json(rows.map(({ word_id, nl, form, distractors }) => ({ word_id, nl, form, distractors }))),
+    'sentences.json': json(rows.map((r) => ({ word_id: r.word_id, nl: r.nl, form: r.form, distractors: r.cloze === false ? [] : r.distractors }))),
   };
   for (const lang of languages) {
     const own = rows.filter((r) => texts.get(lang)?.has(r.word_id));

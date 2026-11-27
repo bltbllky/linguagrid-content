@@ -3,7 +3,7 @@ import { join } from 'node:path';
 
 import { Ajv } from 'ajv';
 
-import { checkSentence, lemmaPos, makeLevelOf } from './sentence-check.ts';
+import { checkSentence, lemmaPos, makeLevelOf, rank } from './sentence-check.ts';
 import type { CheckEnv, SentenceRow } from './sentence-check.ts';
 import { normalisationIssue, sourceIssue } from './validate.ts';
 import type { Pos, ReviewSource } from './validate.ts';
@@ -17,6 +17,8 @@ export const DISTRACTORS = 3;
 export const SENTENCE_LANGS: readonly string[] = ['tr', 'en'];
 
 export interface SentenceFileRow extends SentenceRow {
+  /** false: the sentence is shown but has no fill-the-gap question, so its distractors are []; absent means true (PM decision 2026-11-24). */
+  cloze?: boolean;
   reviewed: boolean;
   review_source?: ReviewSource;
 }
@@ -72,6 +74,14 @@ export function validateSentenceStage(stage: SentenceStage, env: CheckEnv): stri
   const levelOf = makeLevelOf(env.words);
   const pos = lemmaPos(env.words);
   const posOf = (surface: string): Set<Pos> => pos.get(surface) ?? pos.get(env.inflected(surface) ?? '') ?? new Set();
+  /** Lowest CEFR of the live or staged words with this distractor's lemma and the target's part of speech; the lemma is found as `posOf` finds it. */
+  const cefrOfDistractor = (surface: string, p: Pos): string => {
+    const lemma = pos.has(surface) ? surface : (env.inflected(surface) ?? '');
+    return env.words
+      .filter((x) => x.pos === p && x.lemma_nl.normalize('NFC').toLowerCase() === lemma)
+      .map((x) => x.cefr)
+      .sort((a, b) => rank(a) - rank(b))[0];
+  };
   const seen = new Set<string>();
   for (const row of stage.rows) {
     const fail = (code: string) => errors.push(`sentences: ${row.word_id}: ${code}`);
@@ -87,6 +97,11 @@ export function validateSentenceStage(stage: SentenceStage, env: CheckEnv): stri
     const annotation = env.annotations.find((a) => a.word_id === row.word_id);
     for (const f of checkSentence(row, { word, annotation, levelOf, inflected: env.inflected, functionWords: env.functionWords })) fail(f);
 
+    if (row.cloze === false) {
+      if (row.distractors.length) fail('cloze_false_with_distractors');
+      continue;
+    }
+
     const form = row.form.normalize('NFC').toLowerCase();
     const distractors = row.distractors.map((d) => d.normalize('NFC').toLowerCase());
     if (distractors.length !== DISTRACTORS) fail('distractor_count');
@@ -95,6 +110,7 @@ export function validateSentenceStage(stage: SentenceStage, env: CheckEnv): stri
       else if (d === form) fail(`distractor_is_form ${d}`);
       else if (posOf(d).size === 0) fail(`distractor_unknown ${d}`);
       else if (!posOf(d).has(word.pos)) fail(`distractor_pos ${d}`);
+      else if (rank(cefrOfDistractor(d, word.pos)) > rank(word.cefr)) fail(`distractor_above_level ${d}`);
     });
   }
 

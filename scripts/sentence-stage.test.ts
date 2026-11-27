@@ -74,6 +74,21 @@ describe('validateSentenceStage', () => {
     assert.deepEqual(run(['mannen', 'bomen', 'kind']), []); // inflected surface forms of nouns
   });
 
+  it('cloze: false (T-405): [] distractors only together with the flag, never both', () => {
+    const run = (row: object) => errors(stage([{ ...good(), ...row }]));
+    assert.deepEqual(run({ distractors: [], cloze: false }), []);
+    assert.deepEqual(run({ distractors: [] }), ['sentences: noun-huis: distractor_count']);
+    assert.deepEqual(run({ cloze: false }), ['sentences: noun-huis: cloze_false_with_distractors']);
+    assert.deepEqual(run({ cloze: true, distractors: [] }), ['sentences: noun-huis: distractor_count']);
+    assert.deepEqual(run({ cloze: true }), []);
+    assert.ok(errors(stage([{ ...good(), cloze: 'no' } as never]))[0].startsWith('sentences: '));
+  });
+
+  it('a distractor above the target level is rejected (T-405)', () => {
+    const row = { ...good(), distractors: ['man', 'boom', 'vergadering'] };
+    assert.deepEqual(errors(stage([row])), ['sentences: noun-huis: distractor_above_level vergadering']);
+  });
+
   it('a reviewed row needs a review_source and the other way round; schema violations stop the checks', () => {
     assert.deepEqual(errors(stage([{ ...good(), reviewed: true }])), ['sentences: noun-huis: reviewed without review_source']);
     assert.deepEqual(errors(stage([{ ...good(), review_source: 'owner' }])), ['sentences: noun-huis: review_source without reviewed']);

@@ -3219,13 +3219,10 @@
     "word_id": "noun-twee",
     "nl": "Wij hebben twee ogen.",
     "form": "twee",
-    "distractors": [
-      "miljoen",
-      "miljard",
-      "duizend"
-    ],
+    "distractors": [],
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "roundtrip",
+    "cloze": false
   },
   {
     "word_id": "noun-drie",
@@ -3243,25 +3240,19 @@
     "word_id": "noun-vier",
     "nl": "Een jaar heeft vier seizoenen.",
     "form": "vier",
-    "distractors": [
-      "honderd",
-      "duizend",
-      "miljard"
-    ],
+    "distractors": [],
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "roundtrip",
+    "cloze": false
   },
   {
     "word_id": "noun-vijf",
     "nl": "Een hand heeft vijf vingers.",
     "form": "vijf",
-    "distractors": [
-      "miljoen",
-      "honderd",
-      "tachtig"
-    ],
+    "distractors": [],
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "roundtrip",
+    "cloze": false
   },
   {
     "word_id": "noun-zes",
@@ -3315,13 +3306,10 @@
     "word_id": "noun-tien",
     "nl": "Een mens heeft tien vingers.",
     "form": "tien",
-    "distractors": [
-      "honderd",
-      "duizend",
-      "negentig"
-    ],
+    "distractors": [],
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "roundtrip",
+    "cloze": false
   },
   {
     "word_id": "noun-elf",
@@ -4923,13 +4911,10 @@
     "word_id": "adj-agressief",
     "nl": "De hond is niet agressief.",
     "form": "agressief",
-    "distractors": [
-      "vierkant",
-      "houten",
-      "elektrisch"
-    ],
+    "distractors": [],
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "roundtrip",
+    "cloze": false
   },
   {
     "word_id": "adj-alleen",
@@ -6387,13 +6372,10 @@
     "word_id": "adj-waar",
     "nl": "Dat is niet waar.",
     "form": "waar",
-    "distractors": [
-      "onzeker",
-      "nerveus",
-      "verbaasd"
-    ],
+    "distractors": [],
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "roundtrip",
+    "cloze": false
   },
   {
     "word_id": "adj-wekelijks",
@@ -12975,13 +12957,10 @@
     "word_id": "noun-verleden",
     "nl": "Ik denk vaak aan het verleden.",
     "form": "verleden",
-    "distractors": [
-      "weekend",
-      "ijs",
-      "potlood"
-    ],
+    "distractors": [],
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "roundtrip",
+    "cloze": false
   },
   {
     "word_id": "noun-verpleger",
@@ -14871,13 +14850,10 @@
     "word_id": "verb-liegen",
     "nl": "Mijn zoon wil niet liegen.",
     "form": "liegen",
-    "distractors": [
-      "kosten",
-      "lukken",
-      "schelen"
-    ],
+    "distractors": [],
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "roundtrip",
+    "cloze": false
   },
   {
     "word_id": "verb-lijken",
@@ -15135,13 +15111,10 @@
     "word_id": "verb-ontspannen",
     "nl": "Na het werk wil ik ontspannen.",
     "form": "ontspannen",
-    "distractors": [
-      "gebeuren",
-      "duren",
-      "vinden"
-    ],
+    "distractors": [],
     "reviewed": true,
-    "review_source": "owner"
+    "review_source": "owner",
+    "cloze": false
   },
   {
     "word_id": "verb-ontvangen",
@@ -15711,13 +15684,10 @@
     "word_id": "verb-sporten",
     "nl": "Mijn dochter wil elke dag sporten.",
     "form": "sporten",
-    "distractors": [
-      "gebeuren",
-      "duren",
-      "kosten"
-    ],
+    "distractors": [],
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "roundtrip",
+    "cloze": false
   },
   {
     "word_id": "verb-spugen",
@@ -16095,13 +16065,10 @@
     "word_id": "verb-vechten",
     "nl": "De jongens willen niet vechten.",
     "form": "vechten",
-    "distractors": [
-      "krijgen",
-      "vinden",
-      "brengen"
-    ],
+    "distractors": [],
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "roundtrip",
+    "cloze": false
   },
   {
     "word_id": "verb-veranderen",
