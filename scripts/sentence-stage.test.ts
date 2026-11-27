@@ -14,6 +14,7 @@ const w = (pos: Pos, lemma_nl: string, cefr: Word['cefr']): Word => ({ id: `${po
 const WORDS = [
   w('noun', 'huis', 'A1'), w('noun', 'man', 'A1'), w('noun', 'boom', 'A1'), w('noun', 'kind', 'A1'), w('noun', 'foto', 'A1'),
   w('verb', 'wonen', 'A1'), w('verb', 'werken', 'A1'), w('noun', 'vergadering', 'B1'),
+  w('noun', 'tuin', 'A2'), w('verb', 'bel', 'A1'), w('noun', 'bel', 'B1'),
 ];
 const OPENTAAL = new Set(['huis', 'huizen', 'woon', 'mannen', 'bomen', 'werkt']);
 const env = {
@@ -87,6 +88,10 @@ describe('validateSentenceStage', () => {
   it('a distractor above the target level is rejected (T-405)', () => {
     const row = { ...good(), distractors: ['man', 'boom', 'vergadering'] };
     assert.deepEqual(errors(stage([row])), ['sentences: noun-huis: distractor_above_level vergadering']);
+    // one level above is enough (A2 on an A1 target)
+    assert.deepEqual(errors(stage([{ ...good(), distractors: ['man', 'boom', 'tuin'] }])), ['sentences: noun-huis: distractor_above_level tuin']);
+    // a lemma with two parts of speech: the verb's A1 must not hide the noun's B1
+    assert.deepEqual(errors(stage([{ ...good(), distractors: ['man', 'boom', 'bel'] }])), ['sentences: noun-huis: distractor_above_level bel']);
   });
 
   it('a reviewed row needs a review_source and the other way round; schema violations stop the checks', () => {

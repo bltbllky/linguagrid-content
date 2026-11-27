@@ -269,6 +269,15 @@ describe('sentences (T-377)', () => {
     assert.equal(parse(r, 'sentence-translations-en.json').rows[0].word_id, 'noun-w0');
   });
 
+  it('forces [] and drops cloze for a cloze: false row that still holds distractors (T-405)', () => {
+    const input: SentenceStage = sentences(ids(96));
+    input.rows[0] = { ...input.rows[0], cloze: false };
+    const r = buildRelease(hundred(), { ...opts, sentences: input });
+    const rows = parse(r, 'sentences.json');
+    assert.deepEqual(rows[0].distractors, []);
+    assert.equal(rows.some((x: object) => 'cloze' in x), false);
+  });
+
   it('leaves A1 out at 94 of 100 and says so', () => {
     const r = buildRelease(hundred(), { ...opts, sentences: sentences(ids(94)) });
     assert.deepEqual(r.sentenceNotes, ['Sentences: A1 left out (94%)']);
