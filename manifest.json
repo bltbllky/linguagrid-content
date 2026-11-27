@@ -1,5 +1,5 @@
 {
-  "content_version": 3,
+  "content_version": 4,
   "min_app_version": {
     "ios": "0.1.0",
     "android": "0.1.0"
@@ -10,24 +10,36 @@
   ],
   "files": [
     {
-      "path": "release/3/words.json",
+      "path": "release/4/words.json",
       "sha256": "078476a4c4aa69b0856f18fd037e6dd1901cab958e9d462f6509da02112af7c7"
     },
     {
-      "path": "release/3/annotations.json",
+      "path": "release/4/annotations.json",
       "sha256": "daabe3ed4da77b7ceb52c4329e66ab9884fd57b5ac12645261281ba0352db4ec"
     },
     {
-      "path": "release/3/categories.json",
+      "path": "release/4/categories.json",
       "sha256": "78bb625c463309c1d5eb9048c4bf6b50e0171d0f7e0c606a1010355d6e87b487"
     },
     {
-      "path": "release/3/translations-tr.json",
+      "path": "release/4/translations-tr.json",
       "sha256": "20ddcd1b6f98ebb6e5b2e6f12a0fa714b5189a024561c4d92da58048d97d1f2a"
     },
     {
-      "path": "release/3/translations-en.json",
+      "path": "release/4/translations-en.json",
       "sha256": "7a6b15a045c6382c0fc66c18280e2ac9fb20f45e323c902ca6be5f38044f2a76"
+    },
+    {
+      "path": "release/4/sentences.json",
+      "sha256": "747d2f0e6ff015cfa73dedc9d9926d7df24c17ead1030b8d4659ef27f2f442cc"
+    },
+    {
+      "path": "release/4/sentence-translations-tr.json",
+      "sha256": "94ad9960657585c432d0dd6fb05f018a6bfb7dba757d45cc944a5d687d7d2d27"
+    },
+    {
+      "path": "release/4/sentence-translations-en.json",
+      "sha256": "8845df8c449281865075e72d8d16a54175e42df119a37f2b1508ddc88881a33c"
     }
   ]
 }
