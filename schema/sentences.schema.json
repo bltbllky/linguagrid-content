@@ -11,6 +11,7 @@
       "nl": { "type": "string" },
       "form": { "type": "string" },
       "distractors": { "type": "array", "items": { "type": "string" } },
+      "cloze": { "type": "boolean" },
       "reviewed": { "type": "boolean" },
       "review_source": { "enum": ["roundtrip", "owner", "reviewer"] }
     }

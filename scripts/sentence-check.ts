@@ -27,7 +27,7 @@ export const MIN_TOKENS = 4;
 export const MAX_TOKENS = 9;
 export const MAX_CHARS = 70;
 const LEVELS = ['A1', 'A2', 'B1', 'B2'];
-const rank = (level: string) => LEVELS.indexOf(level);
+export const rank = (level: string) => LEVELS.indexOf(level);
 const DOUBLE_QUOTES = /["“”„‟«»‘‚]/; // ’ is the apostrophe of auto’s
 const FUNCTION_WORDS = join(import.meta.dirname, '..', 'data', 'sentences', 'function-words.json');
 
