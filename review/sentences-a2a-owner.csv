@@ -1,20 +1,20 @@
 id,lang,dutch,turkish,english,decision
-adj-dubbel,tr,Mijn broer eet dubbel zo veel.,Kardeşim iki kat fazla yiyor.,My brother eats twice as much.,
-adj-eenzaam,tr,De oude vrouw is vaak eenzaam.,Yaşlı kadın sık sık çok yalnız.,The old woman is often lonely.,
-adj-typisch,tr,Dit eten is typisch voor ons land.,Bu yemek ülkemiz için tipik.,This food is typical for our country.,
-noun-berg,tr,Wij lopen de berg op.,Dağa doğru yürüyoruz.,We walk up the mountain.,
-noun-biet,tr,Zij kookt een biet in de pan.,"O, tavada bir pancar pişiriyor.",She cooks a beetroot in the pan.,
-noun-cijfer,tr,Ik heb een goed cijfer voor de test.,Test için iyi bir notum var.,I have a good mark for the test.,
-noun-cirkel,tr,Een cirkel is rond.,Çember yuvarlak.,A circle is round.,
-noun-gras,tr,De koe eet gras.,İnek çim yiyor.,The cow eats grass.,
-noun-hitte,tr,Bij hitte drink ik veel water.,Aşırı sıcakta çok su içiyorum.,In the heat I drink a lot of water.,
-noun-koek,tr,Ik eet een koek bij de thee.,Çayla birlikte bir kurabiye yiyorum.,I eat a biscuit with the tea.,
-noun-lening,tr,Ik betaal mijn lening elke maand.,Borcumu her ay ödüyorum.,I pay my loan every month.,
-noun-nicht,tr,Mijn nicht woont in een groot huis.,Kız kuzenim büyük bir evde oturuyor.,My cousin lives in a big house.,
-noun-bedrag,en,Het bedrag op de rekening is hoog.,Hesaptaki tutar yüksek.,The amount on the bill is high.,
-noun-boterham,en,Ik eet een boterham met kaas.,Peynirli bir dilim ekmek yiyorum.,I eat a slice of bread with cheese.,
-noun-hek,en,Het hek van de tuin is groen.,Bahçenin çiti yeşil.,The fence of the garden is green.,
-noun-kachel,en,De kachel staat in de woonkamer.,Soba oturma odasında duruyor.,The stove stands in the living room.,
-noun-koek,en,Ik eet een koek bij de thee.,Çayla birlikte bir kurabiye yiyorum.,I eat a biscuit with the tea.,
-noun-lach,en,Zij heeft een mooie lach.,Güzel bir gülüşü var.,She has a beautiful laugh.,
-noun-muts,en,In de winter draag ik een muts.,Kışın bere takıyorum.,In the winter I wear a woolly hat.,
+adj-dubbel,tr,Mijn broer eet dubbel zo veel.,Kardeşim iki kat fazla yiyor.,My brother eats twice as much.,Kardeşim iki katı kadar yiyor.
+adj-eenzaam,tr,De oude vrouw is vaak eenzaam.,Yaşlı kadın sık sık çok yalnız.,The old woman is often lonely.,Yaşlı kadın sık sık yalnız.
+adj-typisch,tr,Dit eten is typisch voor ons land.,Bu yemek ülkemiz için tipik.,This food is typical for our country.,OK
+noun-berg,tr,Wij lopen de berg op.,Dağa doğru yürüyoruz.,We walk up the mountain.,Dağa yürüyoruz.
+noun-biet,tr,Zij kookt een biet in de pan.,"O, tavada bir pancar pişiriyor.",She cooks a beetroot in the pan.,"O, tencerede bir pancar pişiriyor."
+noun-cijfer,tr,Ik heb een goed cijfer voor de test.,Test için iyi bir notum var.,I have a good mark for the test.,OK
+noun-cirkel,tr,Een cirkel is rond.,Çember yuvarlak.,A circle is round.,OK
+noun-gras,tr,De koe eet gras.,İnek çim yiyor.,The cow eats grass.,İnek ot yiyor.
+noun-hitte,tr,Bij hitte drink ik veel water.,Aşırı sıcakta çok su içiyorum.,In the heat I drink a lot of water.,OK
+noun-koek,tr,Ik eet een koek bij de thee.,Çayla birlikte bir kurabiye yiyorum.,I eat a biscuit with the tea.,OK
+noun-lening,tr,Ik betaal mijn lening elke maand.,Borcumu her ay ödüyorum.,I pay my loan every month.,Kredimi her ay ödüyorum.
+noun-nicht,tr,Mijn nicht woont in een groot huis.,Kız kuzenim büyük bir evde oturuyor.,My cousin lives in a big house.,OK
+noun-bedrag,en,Het bedrag op de rekening is hoog.,Hesaptaki tutar yüksek.,The amount on the bill is high.,The amount on the account is high.
+noun-boterham,en,Ik eet een boterham met kaas.,Peynirli bir dilim ekmek yiyorum.,I eat a slice of bread with cheese.,OK
+noun-hek,en,Het hek van de tuin is groen.,Bahçenin çiti yeşil.,The fence of the garden is green.,OK
+noun-kachel,en,De kachel staat in de woonkamer.,Soba oturma odasında duruyor.,The stove stands in the living room.,The heater stands in the living room.
+noun-koek,en,Ik eet een koek bij de thee.,Çayla birlikte bir kurabiye yiyorum.,I eat a biscuit with the tea.,OK
+noun-lach,en,Zij heeft een mooie lach.,Güzel bir gülüşü var.,She has a beautiful laugh.,OK
+noun-muts,en,In de winter draag ik een muts.,Kışın bere takıyorum.,In the winter I wear a woolly hat.,OK

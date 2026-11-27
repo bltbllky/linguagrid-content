@@ -3499,8 +3499,9 @@
   },
   {
     "word_id": "noun-bedrag",
-    "text": "The amount on the bill is high.",
-    "reviewed": false
+    "text": "The amount on the account is high.",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-bedrijf",
@@ -3721,7 +3722,8 @@
   {
     "word_id": "noun-boterham",
     "text": "I eat a slice of bread with cheese.",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-bovenkant",
@@ -4440,7 +4442,8 @@
   {
     "word_id": "noun-hek",
     "text": "The fence of the garden is green.",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-helft",
@@ -4714,8 +4717,9 @@
   },
   {
     "word_id": "noun-kachel",
-    "text": "The stove stands in the living room.",
-    "reviewed": false
+    "text": "The heater stands in the living room.",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-kade",
@@ -4852,7 +4856,8 @@
   {
     "word_id": "noun-koek",
     "text": "I eat a biscuit with the tea.",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-koekje",
@@ -4971,7 +4976,8 @@
   {
     "word_id": "noun-lach",
     "text": "She has a beautiful laugh.",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-landschap",
@@ -5288,7 +5294,8 @@
   {
     "word_id": "noun-muts",
     "text": "In the winter I wear a woolly hat.",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-muzikant",
@@ -5587,7 +5594,8 @@
   {
     "word_id": "noun-plaats",
     "text": "This place is still free.",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-plafond",
@@ -5759,8 +5767,9 @@
   },
   {
     "word_id": "noun-reactie",
-    "text": "I am waiting for her reaction to my letter.",
-    "reviewed": false
+    "text": "I am waiting for her response to my letter.",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-reclame",
@@ -6329,7 +6338,8 @@
   {
     "word_id": "noun-tocht",
     "text": "After the trip through the forest I am tired.",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-toerist",
@@ -6471,8 +6481,9 @@
   },
   {
     "word_id": "noun-verkoper",
-    "text": "The seller helps the customer in the shop.",
-    "reviewed": false
+    "text": "The salesman helps the customer in the shop.",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-verleden",
@@ -6483,7 +6494,8 @@
   {
     "word_id": "noun-verpleger",
     "text": "The male nurse helps the patient in the hospital.",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "noun-verrassing",
@@ -6679,15 +6691,15 @@
   },
   {
     "word_id": "noun-warenhuis",
-    "text": "We buy a jacket in the department store.",
+    "text": "We buy a coat in the department store.",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "noun-waslijn",
-    "text": "The jacket hangs on the washing line.",
+    "text": "The coat hangs on the washing line.",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "noun-website",
@@ -6985,8 +6997,9 @@
   },
   {
     "word_id": "verb-bekijken",
-    "text": "We want to look at the house again.",
-    "reviewed": false
+    "text": "We still want to look at the house.",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "verb-beloven",
@@ -7272,9 +7285,9 @@
   },
   {
     "word_id": "verb-houden",
-    "text": "Will you hold my jacket?",
+    "text": "Will you hold my coat?",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "verb-huilen",
@@ -7320,9 +7333,9 @@
   },
   {
     "word_id": "verb-kiezen",
-    "text": "I want to choose a new jacket.",
+    "text": "I want to choose a new coat.",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "verb-klagen",
@@ -7356,8 +7369,9 @@
   },
   {
     "word_id": "verb-knijpen",
-    "text": "The child wants to squeeze my arm.",
-    "reviewed": false
+    "text": "The child wants to pinch my arm.",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "verb-knutselen",
@@ -7373,9 +7387,9 @@
   },
   {
     "word_id": "verb-kosten",
-    "text": "This jacket costs forty euros.",
+    "text": "This coat costs forty euros.",
     "reviewed": true,
-    "review_source": "roundtrip"
+    "review_source": "owner"
   },
   {
     "word_id": "verb-kruipen",
@@ -7445,8 +7459,9 @@
   },
   {
     "word_id": "verb-lukken",
-    "text": "I cannot manage it.",
-    "reviewed": false
+    "text": "I cannot do it.",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "verb-mailen",
@@ -7565,7 +7580,8 @@
   {
     "word_id": "verb-opblazen",
     "text": "I want to inflate the ball.",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "verb-opereren",
@@ -7683,8 +7699,9 @@
   },
   {
     "word_id": "verb-reageren",
-    "text": "He does not want to react to my letter.",
-    "reviewed": false
+    "text": "He does not want to respond to my letter.",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "verb-redden",
@@ -7958,8 +7975,9 @@
   },
   {
     "word_id": "verb-twijfelen",
-    "text": "I am hesitating between the red and the blue jacket.",
-    "reviewed": false
+    "text": "I am unsure between the red and the blue coat.",
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "verb-typen",
@@ -8114,7 +8132,8 @@
   {
     "word_id": "verb-verlengen",
     "text": "I want to extend my card.",
-    "reviewed": false
+    "reviewed": true,
+    "review_source": "owner"
   },
   {
     "word_id": "verb-verliezen",
