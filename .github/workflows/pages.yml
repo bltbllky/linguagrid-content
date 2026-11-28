@@ -40,12 +40,14 @@ jobs:
         if: steps.deployment.outcome == 'failure'
         run: |
           echo "::warning::deploy-pages failed once (known flake: No artifacts named github-pages); retrying"
-          sleep 30
       - if: steps.deployment.outcome == 'failure'
         uses: actions/upload-pages-artifact@v3
         with:
           name: github-pages-retry
           path: public
+      - name: Wait for the retry artifact to register
+        if: steps.deployment.outcome == 'failure'
+        run: sleep 30
       - id: deployment-retry
         if: steps.deployment.outcome == 'failure'
         uses: actions/deploy-pages@v4
