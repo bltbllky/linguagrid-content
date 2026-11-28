@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment-retry.outputs.page_url || steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -35,3 +35,21 @@ jobs:
           path: public
       - id: deployment
         uses: actions/deploy-pages@v4
+        continue-on-error: true
+      - name: Deploy failed once, retrying
+        if: steps.deployment.outcome == 'failure'
+        run: |
+          echo "::warning::deploy-pages failed once (known flake: No artifacts named github-pages); retrying"
+      - if: steps.deployment.outcome == 'failure'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          name: github-pages-retry
+          path: public
+      - name: Wait for the retry artifact to register
+        if: steps.deployment.outcome == 'failure'
+        run: sleep 30
+      - id: deployment-retry
+        if: steps.deployment.outcome == 'failure'
+        uses: actions/deploy-pages@v4
+        with:
+          artifact_name: github-pages-retry
